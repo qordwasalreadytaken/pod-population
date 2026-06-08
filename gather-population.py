@@ -3,7 +3,6 @@ import os
 from datetime import datetime, timezone
 from pathlib import Path
 
-from debian import timestamp
 import requests
 
 BASE = "https://beta.pathofdiablo.com/api"
