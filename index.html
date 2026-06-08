@@ -24,6 +24,18 @@
       border-radius: 8px;
     }
 
+    .summary {
+        background: #1a1a1a;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
+
+    .summary h2 {
+        margin-top: 0;
+    }
+
     h1 { margin-bottom: 10px; }
     small { color: #aaa; }
   </style>
@@ -32,6 +44,10 @@
 
 <h1>PoD Population Watch</h1>
 <small>15-min snapshots • local analysis</small>
+
+<div id="summary" class="summary">
+    Loading...
+</div>
 
 <div class="grid">
   <canvas id="onlineChart"></canvas>
