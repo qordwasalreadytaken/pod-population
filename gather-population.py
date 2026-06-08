@@ -59,6 +59,18 @@ def classify_game(name):
 
     return "other"
 
+import subprocess
+
+def git_commit_and_push():
+    timestamp = datetime.now(timezone.utc).replace(second=0, microsecond=0)
+    subprocess.run(["git", "config", "user.name", "poD-bot"], check=True)
+    subprocess.run(["git", "config", "user.email", "bot@example.com"], check=True)
+
+    subprocess.run(["git", "add", "data/social/"], check=True)
+    subprocess.run(["git", "commit", "-m", "update PoD population snapshot"], check=True)
+    subprocess.run(["git", "push"], check=True)
+    STATE_FILE.write_text(timestamp.isoformat())
+
 
 def main():
     timestamp = datetime.now(timezone.utc).replace(second=0, microsecond=0)
