@@ -16,6 +16,15 @@ from pathlib import Path
 
 STATE_FILE = Path("state/last_commit.txt")
 
+def should_commit(timestamp):
+    if not STATE_FILE.exists():
+        return True
+
+    last = datetime.fromisoformat(STATE_FILE.read_text().strip())
+    delta_hours = (timestamp - last).total_seconds() / 3600
+
+    return delta_hours >= 6
+
 def fetch_json(url):
     response = requests.get(url, timeout=30)
     response.raise_for_status()
@@ -51,6 +60,21 @@ def classify_game(name):
 
 import subprocess
 
+def git_commit_and_push():
+    subprocess.run(["git", "config", "user.name", "poD-bot"], check=True)
+    subprocess.run(["git", "config", "user.email", "bot@example.com"], check=True)
+
+    # ensure we're using GitHub token auth
+    repo = os.environ.get("GITHUB_REPOSITORY")
+
+    subprocess.run(["git", "add", "data/"], check=True)
+    subprocess.run(["git", "commit", "-m", "update snapshot"], check=True)
+
+    subprocess.run([
+        "git",
+        "push",
+        f"https://x-access-token:{os.environ['GITHUB_TOKEN']}@github.com/{repo}.git"
+    ], check=True)
 
 def main():
     timestamp = datetime.now(timezone.utc).replace(second=0, microsecond=0)
@@ -212,6 +236,11 @@ def main():
         f"- public={public_players}/{public_games} "
         f"- private≈{private_players}/{private_games}"
     )
+
+    if should_commit(timestamp):
+        git_commit_and_push()
+    else:
+        print("Skipping commit (not 6-hour boundary)")
 
 
 if __name__ == "__main__":
