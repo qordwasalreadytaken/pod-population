@@ -2,7 +2,6 @@ import json
 import os
 from datetime import datetime, timezone
 from pathlib import Path
-
 import requests
 
 BASE = "https://beta.pathofdiablo.com/api"
@@ -62,15 +61,20 @@ def classify_game(name):
 import subprocess
 
 def git_commit_and_push():
-    timestamp = datetime.now(timezone.utc).replace(second=0, microsecond=0)
     subprocess.run(["git", "config", "user.name", "poD-bot"], check=True)
     subprocess.run(["git", "config", "user.email", "bot@example.com"], check=True)
 
-    subprocess.run(["git", "add", "data/social/"], check=True)
-    subprocess.run(["git", "commit", "-m", "update PoD population snapshot"], check=True)
-    subprocess.run(["git", "push"], check=True)
-    STATE_FILE.write_text(timestamp.isoformat())
+    # ensure we're using GitHub token auth
+    repo = os.environ.get("GITHUB_REPOSITORY")
 
+    subprocess.run(["git", "add", "data/"], check=True)
+    subprocess.run(["git", "commit", "-m", "update snapshot"], check=True)
+
+    subprocess.run([
+        "git",
+        "push",
+        f"https://x-access-token:{os.environ['GITHUB_TOKEN']}@github.com/{repo}.git"
+    ], check=True)
 
 def main():
     timestamp = datetime.now(timezone.utc).replace(second=0, microsecond=0)
@@ -243,14 +247,3 @@ if __name__ == "__main__":
     main()
 
 
-import subprocess
-
-def git_commit_and_push():
-    timestamp = datetime.now(timezone.utc).replace(second=0, microsecond=0)
-    subprocess.run(["git", "config", "user.name", "poD-bot"], check=True)
-    subprocess.run(["git", "config", "user.email", "bot@example.com"], check=True)
-
-    subprocess.run(["git", "add", "data/social/"], check=True)
-    subprocess.run(["git", "commit", "-m", "update PoD population snapshot"], check=True)
-    subprocess.run(["git", "push"], check=True)
-    STATE_FILE.write_text(timestamp.isoformat())
