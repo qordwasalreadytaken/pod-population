@@ -3,9 +3,16 @@ async function loadJSONL(url) {
   const text = await res.text();
 
   return text
-    .trim()
     .split("\n")
-    .map(line => JSON.parse(line));
+    .filter(line => line.trim().length > 0)
+    .map((line, i) => {
+      try {
+        return JSON.parse(line);
+      } catch (e) {
+        console.error("Bad JSONL line at", i, line);
+        throw e;
+      }
+    });
 }
 
 function tsLabel(ts) {
@@ -147,6 +154,17 @@ function renderSummary(latest, data) {
   // -----------------------
   // 5. Summary
   // -----------------------
+  if (!data || data.length === 0) {
+    console.error("No data loaded");
+    document.getElementById("summary").innerHTML =
+      "<p>No data available yet.</p>";
+    return;
+  }  
+  const latest = data.at(-1);
+  if (!latest) {
+    console.error("Latest snapshot missing");
+    return;
+  }  
   renderSummary(latest, data);
 
 })();
