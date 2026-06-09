@@ -1,3 +1,6 @@
+Chart.defaults.font.size = 14;
+Chart.defaults.color = "#ddd";
+
 async function loadJSONL(url) {
   const res = await fetch(url);
   const text = await res.text();
