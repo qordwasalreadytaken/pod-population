@@ -171,35 +171,77 @@ function renderSummary(latest, data, rolling) {
       "<p>No data available yet.</p>";
     return;
   }  
-const latest = data.at(-1);
-if (!latest) {
-  console.error("Latest snapshot missing");
-  return;
-}
+  const latest = data.at(-1);
+  if (!latest) {
+    console.error("Latest snapshot missing");
+    return;
+  }
 
-const sevenDaysMs = 7 * 24 * 60 * 60 * 1000;
-const latestTime = new Date(latest.timestamp).getTime();
+  const sevenDaysMs = 7 * 24 * 60 * 60 * 1000;
+  const latestTime = new Date(latest.timestamp).getTime();
 
-const last7Days = data.filter(d =>
-  latestTime - new Date(d.timestamp).getTime() <= sevenDaysMs
-);
+  const last7Days = data.filter(d =>
+    latestTime - new Date(d.timestamp).getTime() <= sevenDaysMs
+  );
 
-const avg = arr => {
-  const clean = arr.filter(v => typeof v === "number" && !isNaN(v));
-  return clean.length ? clean.reduce((s, v) => s + v, 0) / clean.length : 0;
-};
+  const avg = arr => {
+    const clean = arr.filter(v => typeof v === "number" && !isNaN(v));
+    return clean.length ? clean.reduce((s, v) => s + v, 0) / clean.length : 0;
+  };
 
-const sevenDayPublicOcc = avg(
-  last7Days.map(d => d.metrics.avg_public_players_per_game)
-);
+  const sevenDayPublicOcc = avg(
+    last7Days.map(d => d.metrics.avg_public_players_per_game)
+  );
 
-const sevenDayPrivateOcc = avg(
-  last7Days.map(d => d.metrics.avg_private_players_per_game_est)
-);
+  const sevenDayPrivateOcc = avg(
+    last7Days.map(d => d.metrics.avg_private_players_per_game_est)
+  );
 
-const sevenDayIntrovert = avg(
-  last7Days.map(d => d.metrics.introvert_index)
-);
+  const sevenDayIntrovert = avg(
+    last7Days.map(d => d.metrics.introvert_index)
+  );
+
+  // -----------------------
+  // 6. Last updated status
+  // -----------------------
+
+  const latestDate = new Date(latest.timestamp);
+
+  const status = document.getElementById("status");
+
+  if (data.length >= 2) {
+      const previous = data.at(-2);
+
+      const minutesSincePrevious = Math.round(
+          (latestTime - new Date(previous.timestamp).getTime()) / 1000 / 60
+      );
+
+      let statusText;
+
+      if (minutesSincePrevious <= 20) {
+          statusText =
+              `✨ The GitHub gods are smiling upon us. Last updated ${minutesSincePrevious} minutes ago.`;
+      } else if (minutesSincePrevious <= 45) {
+          statusText =
+              `📜 Snapshots collected approximately whenever the GitHub gods allow. Last updated ${minutesSincePrevious} minutes ago.`;
+      } else if (minutesSincePrevious <= 90) {
+          statusText =
+              `😴 The GitHub gods appear to be napping. Last updated ${minutesSincePrevious} minutes ago.`;
+      } else if (minutesSincePrevious <= 180) {
+          statusText =
+              `⚠️ The GitHub gods have been distracted by shiny things. Last updated ${minutesSincePrevious} minutes ago.`;
+      } else {
+          statusText =
+              `🔥 Sanctuary trembles... the GitHub gods have abandoned us. Last updated ${minutesSincePrevious} minutes ago.`;
+      }
+
+      status.textContent = statusText;
+
+  } else {
+      status.textContent =
+          "📡 Awaiting enough samples to judge the whims of the GitHub gods.";
+  }
+
   renderSummary(latest, data, {
     sevenDayPublicOcc,
     sevenDayPrivateOcc,

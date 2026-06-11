@@ -166,7 +166,7 @@ def main():
 
     snapshot = {
         "timestamp": timestamp.isoformat(),
-
+#        "sample_interval_minutes":sample_interval_minutes,
         "stats": stats[0],
 
         "totals": {
