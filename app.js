@@ -22,7 +22,7 @@ function tsLabel(ts) {
   return new Date(ts).toLocaleString();
 }
 
-function renderSummary(latest, data) {
+function renderSummary(latest, data, rolling) {
 
   const totals = latest.totals;
   const metrics = latest.metrics;
@@ -31,7 +31,12 @@ function renderSummary(latest, data) {
   const publicOcc = metrics.avg_public_players_per_game?.toFixed(2);
   const privateOcc = metrics.avg_private_players_per_game_est?.toFixed(2);
 
+  const sevenPublic = rolling.sevenDayPublicOcc.toFixed(2);
+  const sevenPrivate = rolling.sevenDayPrivateOcc.toFixed(2);
+  const sevenIntrovert = (rolling.sevenDayIntrovert * 100).toFixed(0);
+
   const el = document.getElementById("summary");
+
 
   el.innerHTML = `
     <h2>Latest Snapshot</h2>
@@ -46,6 +51,11 @@ function renderSummary(latest, data) {
        Private avg: <strong>${privateOcc}</strong> players/game</p>
 
     <p>Introvert Index: <strong>${introvertPct}%</strong></p>
+
+    <p>7-day Public avg: <strong>${sevenPublic}</strong> players/game<br>
+      7-day Private avg: <strong>${sevenPrivate}</strong> players/game</p>
+
+    <p>7-day Introvert Index: <strong>${sevenIntrovert}%</strong></p>
   `;
 
 }
@@ -65,6 +75,30 @@ function renderSummary(latest, data) {
   const avgPrivate = data.map(d => d.metrics.avg_private_players_per_game_est);
 
   const introvert = data.map(d => d.metrics.introvert_index);
+// Rolling 7-day averages
+  const latest = data.at(-1);
+
+  const sevenDaysMs = 7 * 24 * 60 * 60 * 1000;
+  const latestTime = new Date(latest.timestamp).getTime();
+
+  const last7Days = data.filter(d =>
+    latestTime - new Date(d.timestamp).getTime() <= sevenDaysMs
+  );
+
+  const avg = arr =>
+    arr.reduce((sum, val) => sum + val, 0) / arr.length;
+
+  const sevenDayPublicOcc = avg(
+    last7Days.map(d => d.metrics.avg_public_players_per_game)
+  );
+
+  const sevenDayPrivateOcc = avg(
+    last7Days.map(d => d.metrics.avg_private_players_per_game_est)
+  );
+
+  const sevenDayIntrovert = avg(
+    last7Days.map(d => d.metrics.introvert_index)
+  );
 
   // -----------------------
   // 1. Online population
@@ -168,6 +202,10 @@ function renderSummary(latest, data) {
     console.error("Latest snapshot missing");
     return;
   }  
-  renderSummary(latest, data);
+  renderSummary(latest, data, {
+    sevenDayPublicOcc,
+    sevenDayPrivateOcc,
+    sevenDayIntrovert
+  });
 
 })();
