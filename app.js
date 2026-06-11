@@ -41,11 +41,9 @@ function renderSummary(latest, data, rolling) {
   el.innerHTML = `
     <h2>Latest Snapshot</h2>
 
-    <p><strong>${totals.server_players}</strong> players across <strong>${totals.server_games}</strong> games.</p>
-
-    <p><strong>${totals.public_players}</strong> in public games (${totals.public_games}).</p>
-
-    <p>Estimated <strong>${totals.private_players_est}</strong> in private games.</p>
+    <p><strong>${totals.server_players}</strong> players across <strong>${totals.server_games}</strong> games.<br>
+      <strong>${totals.public_players}</strong> in public games (${totals.public_games}).<br>
+      Estimated <strong>${totals.private_players_est}</strong> in private games.</p>
 
     <p>Public avg: <strong>${publicOcc}</strong> players/game<br>
        Private avg: <strong>${privateOcc}</strong> players/game</p>
@@ -75,30 +73,6 @@ function renderSummary(latest, data, rolling) {
   const avgPrivate = data.map(d => d.metrics.avg_private_players_per_game_est);
 
   const introvert = data.map(d => d.metrics.introvert_index);
-// Rolling 7-day averages
-  const latest = data.at(-1);
-
-  const sevenDaysMs = 7 * 24 * 60 * 60 * 1000;
-  const latestTime = new Date(latest.timestamp).getTime();
-
-  const last7Days = data.filter(d =>
-    latestTime - new Date(d.timestamp).getTime() <= sevenDaysMs
-  );
-
-  const avg = arr =>
-    arr.reduce((sum, val) => sum + val, 0) / arr.length;
-
-  const sevenDayPublicOcc = avg(
-    last7Days.map(d => d.metrics.avg_public_players_per_game)
-  );
-
-  const sevenDayPrivateOcc = avg(
-    last7Days.map(d => d.metrics.avg_private_players_per_game_est)
-  );
-
-  const sevenDayIntrovert = avg(
-    last7Days.map(d => d.metrics.introvert_index)
-  );
 
   // -----------------------
   // 1. Online population
@@ -197,11 +171,35 @@ function renderSummary(latest, data, rolling) {
       "<p>No data available yet.</p>";
     return;
   }  
-  const latest = data.at(-1);
-  if (!latest) {
-    console.error("Latest snapshot missing");
-    return;
-  }  
+const latest = data.at(-1);
+if (!latest) {
+  console.error("Latest snapshot missing");
+  return;
+}
+
+const sevenDaysMs = 7 * 24 * 60 * 60 * 1000;
+const latestTime = new Date(latest.timestamp).getTime();
+
+const last7Days = data.filter(d =>
+  latestTime - new Date(d.timestamp).getTime() <= sevenDaysMs
+);
+
+const avg = arr => {
+  const clean = arr.filter(v => typeof v === "number" && !isNaN(v));
+  return clean.length ? clean.reduce((s, v) => s + v, 0) / clean.length : 0;
+};
+
+const sevenDayPublicOcc = avg(
+  last7Days.map(d => d.metrics.avg_public_players_per_game)
+);
+
+const sevenDayPrivateOcc = avg(
+  last7Days.map(d => d.metrics.avg_private_players_per_game_est)
+);
+
+const sevenDayIntrovert = avg(
+  last7Days.map(d => d.metrics.introvert_index)
+);
   renderSummary(latest, data, {
     sevenDayPublicOcc,
     sevenDayPrivateOcc,
