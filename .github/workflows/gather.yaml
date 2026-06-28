@@ -2,7 +2,7 @@ name: PoD Population Collector
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: '00,15,30,45 * * * *'
   workflow_dispatch:
 
 env:
