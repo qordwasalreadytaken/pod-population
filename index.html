@@ -17,7 +17,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 15px;
-      max-width: 48vw;
+      max-width: 96vw;
     }
 
     canvas {
@@ -40,6 +40,94 @@
 
     h1 { margin-bottom: 10px; }
     small { color: #aaa; }
+
+  .chart-card {
+
+      cursor: zoom-in;
+
+      transition:
+          transform .15s ease,
+          box-shadow .15s ease;
+
+      border-radius: 8px;
+  }
+
+  .chart-card:hover {
+
+      transform: scale(1.02);
+
+      box-shadow: 0 8px 24px rgba(0,0,0,.35);
+
+  }
+
+  .modal {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      background: rgba(0,0,0,0);
+
+      opacity: 0;
+      pointer-events: none;
+
+      transition:
+          opacity .25s ease,
+          background .25s ease;
+
+      z-index: 1000;
+  }
+
+  .modal.show {
+      opacity: 1;
+      pointer-events: auto;
+      background: rgba(0,0,0,.85);
+  }
+
+  .modal-content {
+
+      position: relative;
+
+      width: 95vw;
+      height: 90vh;
+
+      background: #222;
+
+      border-radius: 12px;
+
+      padding: 20px;
+
+      transform: scale(.85);
+
+      opacity: 0;
+
+      transition:
+          transform .25s ease,
+          opacity .25s ease;
+  }
+
+  .modal.show .modal-content {
+      transform: scale(1);
+      opacity: 1;
+  }
+
+  #modalChart {
+      width: 100% !important;
+      height: 100% !important;
+  }
+
+  #closeModal {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      font-size: 28px;
+      border: none;
+      background: none;
+      color: white;
+      cursor: pointer;
+  }
+
   </style>
 </head>
 <body>
@@ -52,10 +140,27 @@
 </div>
 
 <div class="grid">
-  <canvas id="onlineChart"></canvas>
-  <canvas id="occupancyChart"></canvas>
-  <canvas id="publicChart"></canvas>
-  <canvas id="introvertChart"></canvas>
+  <div class="chart-card" data-chart="online">
+      <canvas id="onlineChart"></canvas>
+  </div>
+
+  <div class="chart-card" data-chart="occupancy">
+      <canvas id="occupancyChart"></canvas>
+  </div>
+
+  <div class="chart-card" data-chart="public">
+      <canvas id="publicChart"></canvas>
+  </div>
+
+  <div class="chart-card" data-chart="introvert">
+      <canvas id="introvertChart"></canvas>
+  </div>
+</div>
+<div id="chartModal" class="modal">
+    <div class="modal-content">
+        <button id="closeModal">&times;</button>
+        <canvas id="modalChart"></canvas>
+    </div>
 </div>
 
 <script src="app.js"></script>

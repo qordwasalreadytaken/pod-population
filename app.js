@@ -75,9 +75,14 @@ function renderSummary(latest, data, rolling) {
   const introvert = data.map(d => d.metrics.introvert_index);
 
   // -----------------------
-  // 1. Online population
+  // Chart configurations
   // -----------------------
-  new Chart(document.getElementById("onlineChart"), {
+
+  const chartConfigs = {};
+  const charts = {};
+
+  // 1. Online population
+  chartConfigs.online = () => ({
     type: "line",
     data: {
       labels,
@@ -90,10 +95,15 @@ function renderSummary(latest, data, rolling) {
     }
   });
 
-  // -----------------------
+  charts.online = new Chart(
+    document.getElementById("onlineChart"),
+    chartConfigs.online()
+  );
+
+
+
   // 2. Occupancy comparison
-  // -----------------------
-  new Chart(document.getElementById("occupancyChart"), {
+  chartConfigs.occupancy = () => ({
     type: "line",
     data: {
       labels,
@@ -114,10 +124,15 @@ function renderSummary(latest, data, rolling) {
     }
   });
 
-  // -----------------------
+  charts.occupancy = new Chart(
+    document.getElementById("occupancyChart"),
+    chartConfigs.occupancy()
+  );
+
+
+
   // 3. Public vs Private players
-  // -----------------------
-  new Chart(document.getElementById("publicChart"), {
+  chartConfigs.public = () => ({
     type: "line",
     data: {
       labels,
@@ -138,10 +153,15 @@ function renderSummary(latest, data, rolling) {
     }
   });
 
-  // -----------------------
+  charts.public = new Chart(
+    document.getElementById("publicChart"),
+    chartConfigs.public()
+  );
+
+
+
   // 4. Introvert Index
-  // -----------------------
-  new Chart(document.getElementById("introvertChart"), {
+  chartConfigs.introvert = () => ({
     type: "line",
     data: {
       labels,
@@ -160,6 +180,65 @@ function renderSummary(latest, data, rolling) {
         }
       }
     }
+  });
+
+  charts.introvert = new Chart(
+    document.getElementById("introvertChart"),
+    chartConfigs.introvert()
+  );
+
+
+
+  // -----------------------
+  // Click-to-expand charts
+  // -----------------------
+
+  let expandedChart = null;
+
+  document.querySelectorAll(".chart-card").forEach(card => {
+
+    card.addEventListener("click", () => {
+
+      const name = card.dataset.chart;
+
+      card.style.transform = "scale(.97)";
+      document.getElementById("chartModal").classList.add("show");
+      requestAnimationFrame(() => {
+          card.style.transform = "";
+      });
+
+      if (expandedChart)
+        expandedChart.destroy();
+
+      expandedChart = new Chart(
+          document.getElementById("modalChart"),
+          chartConfigs[name]()
+      );
+    });
+
+  });
+
+  function closeChartModal() {
+
+    document.getElementById("chartModal").classList.remove("show");
+
+    if (expandedChart) {
+      expandedChart.destroy();
+      expandedChart = null;
+    }
+
+  }
+
+  document.getElementById("closeModal").onclick = closeChartModal;
+
+  document.getElementById("chartModal").onclick = e => {
+    if (e.target.id === "chartModal")
+      closeChartModal();
+  };
+
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape")
+      closeChartModal();
   });
 
   // -----------------------
@@ -248,4 +327,5 @@ function renderSummary(latest, data, rolling) {
     sevenDayIntrovert
   });
 
-})();
+})
+();
