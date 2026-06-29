@@ -295,22 +295,22 @@ function renderSummary(latest, data, rolling) {
           (latestTime - new Date(previous.timestamp).getTime()) / 1000 / 60
       );
 
-      let statusText;
+      let statusText = "Scheduled to update every 15 minutes. ";
 
       if (minutesSincePrevious <= 20) {
-          statusText =
+          statusText +=
               `✨ The GitHub gods are smiling upon us. Last updated ${minutesSincePrevious} minutes ago.`;
       } else if (minutesSincePrevious <= 45) {
-          statusText =
+          statusText +=
               `📜 Snapshots collected approximately whenever the GitHub gods allow. Last updated ${minutesSincePrevious} minutes ago.`;
       } else if (minutesSincePrevious <= 90) {
-          statusText =
+          statusText +=
               `😴 The GitHub gods appear to be napping. Last updated ${minutesSincePrevious} minutes ago.`;
       } else if (minutesSincePrevious <= 180) {
-          statusText =
+          statusText +=
               `⚠️ The GitHub gods have been distracted by shiny things. Last updated ${minutesSincePrevious} minutes ago.`;
       } else {
-          statusText =
+          statusText +=
               `🔥 Sanctuary trembles... the GitHub gods have abandoned us. Last updated ${minutesSincePrevious} minutes ago.`;
       }
 
