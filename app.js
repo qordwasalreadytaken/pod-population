@@ -214,6 +214,9 @@ function renderSummary(latest, data, rolling) {
           document.getElementById("modalChart"),
           chartConfigs[name]()
       );
+
+      setTimeout(() => expandedChart.resize(), 250);
+
     });
 
   });
