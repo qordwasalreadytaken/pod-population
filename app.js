@@ -1,6 +1,13 @@
 Chart.defaults.font.size = 14;
 Chart.defaults.color = "#ddd";
 
+const CHART_TITLES = {
+    online: "Online Population",
+    occupancy: "Average Players per Game",
+    public: "Public vs Private Players",
+    introvert: "Introvert Index"
+};
+
 async function loadJSONL(url) {
   const res = await fetch(url);
   const text = await res.text();
@@ -30,7 +37,6 @@ function renderSummary(latest, data, rolling) {
   const introvertPct = (metrics.introvert_index * 100).toFixed(0);
   const publicOcc = metrics.avg_public_players_per_game?.toFixed(2);
   const privateOcc = metrics.avg_private_players_per_game_est?.toFixed(2);
-
   const sevenPublic = rolling.sevenDayPublicOcc.toFixed(2);
   const sevenPrivate = rolling.sevenDayPrivateOcc.toFixed(2);
   const sevenIntrovert = (rolling.sevenDayIntrovert * 100).toFixed(0);
@@ -74,6 +80,8 @@ function renderSummary(latest, data, rolling) {
 
   const introvert = data.map(d => d.metrics.introvert_index);
 
+//  const sevenDayOnline = avg(last7Days.map(d => d.totals.server_players));
+
   // -----------------------
   // Chart configurations
   // -----------------------
@@ -81,7 +89,9 @@ function renderSummary(latest, data, rolling) {
   const chartConfigs = {};
   const charts = {};
 
+  // -----------------------
   // 1. Online population
+  // -----------------------
   chartConfigs.online = () => ({
     type: "line",
     data: {
@@ -101,8 +111,9 @@ function renderSummary(latest, data, rolling) {
   );
 
 
-
+  // -----------------------
   // 2. Occupancy comparison
+  // -----------------------
   chartConfigs.occupancy = () => ({
     type: "line",
     data: {
@@ -131,7 +142,9 @@ function renderSummary(latest, data, rolling) {
 
 
 
+  // -----------------------
   // 3. Public vs Private players
+  // -----------------------
   chartConfigs.public = () => ({
     type: "line",
     data: {
@@ -160,7 +173,9 @@ function renderSummary(latest, data, rolling) {
 
 
 
+  // -----------------------
   // 4. Introvert Index
+  // -----------------------
   chartConfigs.introvert = () => ({
     type: "line",
     data: {
@@ -194,54 +209,181 @@ function renderSummary(latest, data, rolling) {
   // -----------------------
 
   let expandedChart = null;
+  let currentChart = null;
 
-  document.querySelectorAll(".chart-card").forEach(card => {
+  const chartOrder = [
+      "online",
+      "occupancy",
+      "public",
+      "introvert"
+  ];
 
-    card.addEventListener("click", () => {
+  function average(arr) {
+      return arr.reduce((a, b) => a + b, 0) / arr.length;
+  }
 
-      const name = card.dataset.chart;
+  function maximum(arr) {
+      return Math.max(...arr);
+  }
 
-      card.style.transform = "scale(.97)";
+  function openChart(name) {
+
+      currentChart = name;
+
+      document.getElementById("modalTitle").textContent =
+          CHART_TITLES[name];
+
+      const stats = document.getElementById("modalStats");
+
+      switch (name) {
+
+          case "online": {
+
+              stats.innerHTML = `
+                  Current <strong>${online.at(-1)}</strong>
+                  &nbsp;&bull;&nbsp;
+                  7-day Avg <strong>${sevenDayOnline.toFixed(1)}</strong>
+                  &nbsp;&bull;&nbsp;
+                  Peak <strong>${maximum(online)}</strong>
+                  &nbsp;&bull;&nbsp;
+                  Samples <strong>${online.length}</strong>
+              `;
+
+              break;
+          }
+
+          case "occupancy": {
+
+              stats.innerHTML = `
+                  Public <strong>${avgPublic.at(-1).toFixed(2)}</strong>
+                  &nbsp;&bull;&nbsp;
+                  Private <strong>${avgPrivate.at(-1).toFixed(2)}</strong>
+                  &nbsp;&bull;&nbsp;
+                  7-day Public <strong>${sevenDayPublicOcc.toFixed(2)}</strong>
+                  &nbsp;&bull;&nbsp;
+                  7-day Private <strong>${sevenDayPrivateOcc.toFixed(2)}</strong>
+              `;
+
+              break;
+          }
+
+          case "public": {
+
+              const total = publicPlayers.at(-1) + privatePlayers.at(-1);
+
+              const pct = total
+                  ? privatePlayers.at(-1) / total * 100
+                  : 0;
+
+              stats.innerHTML = `
+                  Public <strong>${publicPlayers.at(-1)}</strong>
+                  &nbsp;&bull;&nbsp;
+                  Private <strong>${privatePlayers.at(-1)}</strong>
+                  &nbsp;&bull;&nbsp;
+                  ${pct.toFixed(0)}% estimated private
+              `;
+
+              break;
+          }
+
+          case "introvert": {
+
+              stats.innerHTML = `
+                  Current <strong>${(introvert.at(-1) * 100).toFixed(0)}%</strong>
+                  &nbsp;&bull;&nbsp;
+                  7-day Avg <strong>${(sevenDayIntrovert * 100).toFixed(0)}%</strong>
+                  &nbsp;&bull;&nbsp;
+                  Peak <strong>${(maximum(introvert) * 100).toFixed(0)}%</strong>
+              `;
+
+              break;
+          }
+
+      }
+
       document.getElementById("chartModal").classList.add("show");
-      requestAnimationFrame(() => {
-          card.style.transform = "";
-      });
 
       if (expandedChart)
-        expandedChart.destroy();
+          expandedChart.destroy();
+
+      const config = chartConfigs[name]();
+
+      config.options ??= {};
+      config.options.responsive = true;
+      config.options.maintainAspectRatio = false;
 
       expandedChart = new Chart(
           document.getElementById("modalChart"),
-          chartConfigs[name]()
+          config
       );
 
       setTimeout(() => expandedChart.resize(), 250);
+  }
 
-    });
+  document.querySelectorAll(".chart-card").forEach(card => {
+
+      card.addEventListener("click", () => {
+
+          card.style.transform = "scale(.97)";
+
+          requestAnimationFrame(() => {
+              card.style.transform = "";
+          });
+
+          openChart(card.dataset.chart);
+
+      });
 
   });
 
   function closeChartModal() {
 
-    document.getElementById("chartModal").classList.remove("show");
+      document.getElementById("chartModal").classList.remove("show");
 
-    if (expandedChart) {
-      expandedChart.destroy();
-      expandedChart = null;
-    }
+      if (expandedChart) {
+          expandedChart.destroy();
+          expandedChart = null;
+      }
 
+      currentChart = null;
   }
 
   document.getElementById("closeModal").onclick = closeChartModal;
+  document.getElementById("modalChart").ondblclick = closeChartModal;
 
   document.getElementById("chartModal").onclick = e => {
-    if (e.target.id === "chartModal")
-      closeChartModal();
+      if (e.target.id === "chartModal")
+          closeChartModal();
   };
 
   document.addEventListener("keydown", e => {
-    if (e.key === "Escape")
-      closeChartModal();
+
+      // Esc should always close if modal is open
+      if (e.key === "Escape") {
+          closeChartModal();
+          return;
+      }
+
+      // Don't process arrows unless a chart is open
+      if (!currentChart)
+          return;
+
+      let index = chartOrder.indexOf(currentChart);
+
+      if (e.key === "ArrowRight") {
+
+          index = (index + 1) % chartOrder.length;
+          openChart(chartOrder[index]);
+
+      }
+
+      if (e.key === "ArrowLeft") {
+
+          index = (index - 1 + chartOrder.length) % chartOrder.length;
+          openChart(chartOrder[index]);
+
+      }
+
   });
 
   // -----------------------
@@ -282,6 +424,8 @@ function renderSummary(latest, data, rolling) {
   const sevenDayIntrovert = avg(
     last7Days.map(d => d.metrics.introvert_index)
   );
+
+  const sevenDayOnline = avg(last7Days.map(d => d.totals.server_players));
 
   // -----------------------
   // 6. Last updated status
@@ -329,6 +473,7 @@ function renderSummary(latest, data, rolling) {
     sevenDayPrivateOcc,
     sevenDayIntrovert
   });
+
 
 })
 ();
