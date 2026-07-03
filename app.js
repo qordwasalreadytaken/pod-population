@@ -78,7 +78,7 @@ function renderSummary(latest, data, rolling) {
   const data = await loadJSONL("./data/social/2026-06.jsonl");
 
   // random reference to july
-//  console.log("bananas");
+  console.log("bananas");
 
   const labels = data.map(d => tsLabel(d.timestamp));
 
