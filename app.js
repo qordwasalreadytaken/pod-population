@@ -67,7 +67,7 @@ function renderSummary(latest, data, rolling) {
 (async function () {
 
   // 👇 change this each month or make it dynamic later
-  const data = await loadJSONL("./data/social/2026-06.jsonl");
+  const data = await loadJSONL("./data/social/2026-07.jsonl");
 
   const labels = data.map(d => tsLabel(d.timestamp));
 
