@@ -67,9 +67,12 @@ function renderSummary(latest, data, rolling) {
 (async function () {
 
   // 👇 change this each month or make it dynamic later
-  const data = await loadJSONL("./data/social/2026-06.jsonl");
+  const june = await loadJSONL("./data/social/2026-06.jsonl");
+  const july = await loadJSONL("./data/social/2026-07.jsonl");
 
-  const labels = data.map(d => tsLabel(d.timestamp));
+  const data = [...june, ...july];
+
+const labels = data.map(d => tsLabel(d.timestamp));
 
   const online = data.map(d => d.totals.server_players);
   const publicPlayers = data.map(d => d.totals.public_players);
