@@ -74,12 +74,13 @@ function renderSummary(latest, data, rolling) {
 
 // const july = await loadJSONL("./data/social/2026-07.jsonl");
 
+
   const data = await loadJSONL("./data/social/2026-06.jsonl");
 
   // random reference to july
 //  console.log("bananas");
 
-const labels = data.map(d => tsLabel(d.timestamp));
+  const labels = data.map(d => tsLabel(d.timestamp));
 
   const online = data.map(d => d.totals.server_players);
   const publicPlayers = data.map(d => d.totals.public_players);
