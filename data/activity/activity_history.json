@@ -23216,5 +23216,40 @@
             "public_games": 4,
             "average_name_length": 5.5
         }
+    },
+    {
+        "timestamp": "2026-07-05T18:36:00+00:00",
+        "difficulty": {
+            "2": 3
+        },
+        "mode": {
+            "1": 1,
+            "0": 2
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 3
+            }
+        ],
+        "top_games": [
+            {
+                "name": "mmk",
+                "count": 1
+            },
+            {
+                "name": "asdfaf",
+                "count": 1
+            },
+            {
+                "name": "asd3",
+                "count": 1
+            }
+        ],
+        "interesting": {
+            "unique_names": 3,
+            "public_games": 3,
+            "average_name_length": 4.33
+        }
     }
 ]
