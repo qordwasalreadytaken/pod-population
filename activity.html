@@ -10,6 +10,62 @@
 
 <link rel="stylesheet" href="css/pod.css">
 
+  <style>
+    body {
+      font-family: sans-serif;
+      font-size: 14px;
+      margin: 20px;
+      background: #0f0f0f;
+      color: #eee;
+    }
+
+    .td {
+        width: 30%;
+    }
+
+    #snapshotSummary, .grid {
+        margin: 12px 0 18px;
+        text-align: left;
+        background: #1a1a1a;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        line-height: 1.6;
+        max-width: 70%;
+    }
+
+    .snapshot-line {
+        margin: 4px 0;
+        line-height: 1.5;
+    }
+
+    .count-table {
+        width: 30%;
+        border-collapse: collapse;
+    }
+
+    .count-table td {
+        padding: 4px 0;
+    }
+
+    .mini-bar {
+        width: 100%;
+        height: 8px;
+        background: #333;
+        border-radius: 4px;
+        overflow: hidden;
+    }
+
+    .mini-bar-fill {
+        height: 100%;
+        transition: width .4s ease;
+    }
+
+    .muted {
+        color: #999;
+        font-size: .9em;
+    }
+  </style>
 </head>
 
 <body>
@@ -17,6 +73,8 @@
 <h1>PoD Activity Watch</h1>
 
 <p id="timestamp"></p>
+
+<div id="snapshotSummary" class="summary-box"></div>
 
 <div class="grid">
 
@@ -35,9 +93,13 @@
 <div id="mode"></div>
 
 </div>
-
+<div class="panel">
+    <h2>Current Game Activities</h2>
+    <div id="activities"></div>
+</div>
 </div>
 
+<div class="grid">
 <div class="panel">
 
 <h2>Top Public Game Names</h2>
@@ -54,10 +116,7 @@
 
 </div>
 
-<div class="panel">
-    <h2>Current Activities</h2>
-    <div id="activities"></div>
-</div>
+
 
 <script src="activity.js"></script>
 
