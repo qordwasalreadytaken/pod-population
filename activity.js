@@ -126,11 +126,11 @@ function renderActivities(activities) {
         html += `
         <tr>
 
-            <td style="width:140px">
+            <td>
                 ${icons[a.name] ?? "•"} ${a.name}
             </td>
 
-            <td style="width:140px">
+            <td>
 
                 <div class="mini-bar">
 
@@ -219,7 +219,7 @@ function renderCounts(id, values) {
 
         html += `
         <tr>
-            <td style="width:140px;">
+            <td>
                 <span style="
                     display:inline-block;
                     width:10px;
@@ -232,7 +232,7 @@ function renderCounts(id, values) {
                 ${info.name}
             </td>
 
-            <td style="width:140px">
+            <td>
 
                 <div class="mini-bar">
 
