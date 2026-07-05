@@ -1,22 +1,21 @@
 {
-    "timestamp": "2026-07-05T20:13:00+00:00",
+    "timestamp": "2026-07-05T20:38:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 3
+        "2": 3,
+        "0": 1
     },
     "mode": {
-        "1": 1,
         "0": 4
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 4
         }
     ],
     "top_games": [
         {
-            "name": "ye olde school",
+            "name": "asd2",
             "count": 1
         },
         {
@@ -28,17 +27,13 @@
             "count": 1
         },
         {
-            "name": "asd1",
-            "count": 1
-        },
-        {
             "name": "456324",
             "count": 1
         }
     ],
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.4
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 4.5
     }
 }
