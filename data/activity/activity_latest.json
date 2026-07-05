@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-05T21:35:00+00:00",
+    "timestamp": "2026-07-05T22:06:00+00:00",
     "difficulty": {
         "2": 2,
         "1": 1
@@ -10,26 +10,30 @@
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd4",
+            "name": "asd7",
             "count": 1
         },
         {
-            "name": "jm1",
+            "name": "jm4",
             "count": 1
         },
         {
-            "name": "1234",
+            "name": "a2",
             "count": 1
         }
     ],
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 3.67
+        "average_name_length": 3.0
     }
 }
