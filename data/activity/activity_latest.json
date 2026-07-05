@@ -1,13 +1,13 @@
 {
-    "timestamp": "2026-07-05T16:36:00+00:00",
+    "timestamp": "2026-07-05T17:07:00+00:00",
     "difficulty": {
-        "0": 4,
-        "2": 2,
-        "1": 1
+        "2": 4,
+        "0": 3,
+        "1": 2
     },
     "mode": {
-        "1": 1,
-        "0": 6
+        "1": 2,
+        "0": 7
     },
     "activities": [
         {
@@ -16,42 +16,54 @@
         },
         {
             "name": "Baal",
+            "count": 2
+        },
+        {
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "desert dessert",
+            "name": "mmk",
             "count": 1
         },
         {
-            "name": "lvup gogo1",
+            "name": "desert dessert1",
             "count": 1
         },
         {
-            "name": "asd1",
+            "name": "run4",
             "count": 1
         },
         {
-            "name": "baal nm2",
+            "name": "asd3",
             "count": 1
         },
         {
-            "name": "swap43",
+            "name": "n eld runes",
             "count": 1
         },
         {
-            "name": "swap39",
+            "name": "baal nm5",
             "count": 1
         },
         {
-            "name": "swap41",
+            "name": "baal nm4",
+            "count": 1
+        },
+        {
+            "name": "swap47",
+            "count": 1
+        },
+        {
+            "name": "swap45",
             "count": 1
         }
     ],
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 7.71
+        "unique_names": 9,
+        "public_games": 9,
+        "average_name_length": 7.22
     }
 }
