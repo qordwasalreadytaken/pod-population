@@ -1,19 +1,17 @@
 {
-    "timestamp": "2026-07-05T13:30:00+00:00",
+    "timestamp": "2026-07-05T13:41:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 2,
-        "null": 1
+        "2": 1
     },
     "mode": {
         "1": 1,
-        "0": 2,
-        "null": 1
+        "0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         }
     ],
     "top_games": [
@@ -22,17 +20,13 @@
             "count": 1
         },
         {
-            "name": "asd2",
-            "count": 1
-        },
-        {
-            "name": "asd1",
+            "name": "asd4",
             "count": 1
         }
     ],
     "interesting": {
-        "unique_names": 3,
-        "public_games": 4,
-        "average_name_length": 3.67
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 3.5
     }
 }
