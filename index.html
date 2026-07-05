@@ -150,12 +150,52 @@
         font-size: .95rem;
     }
 
+    .range-bar{
+        display:flex;
+        gap:10px;
+        margin:15px 0;
+    }
+
+    .range-btn{
+        padding:8px 16px;
+        background:#333;
+        color:white;
+        border:1px solid #555;
+        border-radius:6px;
+        cursor:pointer;
+    }
+
+    .range-btn:hover{
+        background:#444;
+    }
+
+    .range-btn.active{
+        background:#0078d4;
+    }
+
+    .help {
+        cursor: help;
+        color: #888;
+        margin-left: 4px;
+        font-size: 0.85em;
+    }
+
+    .help:hover {
+        color: #fff;
+    }
   </style>
 </head>
 <body>
 
 <h1>PoD Population Watch</h1>
 <small id="status">Loading...</small>
+
+<div class="range-bar">
+    <button class="range-btn active" data-days="all">All</button>
+    <button class="range-btn" data-days="30">Last 30 Days</button>
+    <button class="range-btn" data-days="7">Last 7 Days</button>
+    <button class="range-btn" data-days="1">Last 24 Hours</button>
+</div>
 
 <div id="summary" class="summary">
     Loading...
