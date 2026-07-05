@@ -1,53 +1,31 @@
 {
-    "timestamp": "2026-07-05T19:08:00+00:00",
+    "timestamp": "2026-07-05T19:43:00+00:00",
     "difficulty": {
-        "2": 4,
-        "1": 1,
+        "2": 1,
         "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 5
+        "0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
-        },
-        {
-            "name": "MF'ing",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "mmk",
+            "name": "run15",
             "count": 1
         },
         {
-            "name": "run13",
-            "count": 1
-        },
-        {
-            "name": "asd3",
-            "count": 1
-        },
-        {
-            "name": "qwerqwer",
-            "count": 1
-        },
-        {
-            "name": "123",
-            "count": 1
-        },
-        {
-            "name": "fdfdfd",
+            "name": "456324",
             "count": 1
         }
     ],
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 4.83
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 5.5
     }
 }
