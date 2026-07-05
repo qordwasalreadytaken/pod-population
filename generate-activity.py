@@ -2,9 +2,11 @@ import json
 import os
 import re
 from collections import Counter
+from datetime import datetime
 
 DATA_DIR = "data/social"
 OUTPUT = "data/activity/activity_latest.json"
+OUTPUT_HISTORY = "data/activity/activity_history.json"
 
 import re
 
@@ -34,6 +36,12 @@ ACTIVITIES = [
     ("Rush", [
         r"\brush",
         r"\brushing"
+    ]),
+
+    ("MF'ing", [
+        r"\basd\b",
+        r"\b123\b",
+        r"\bmf\b"
     ]),
 
     ("Trade", [
@@ -100,9 +108,21 @@ def normalize(name):
     return name
 
 
-def newest_snapshot():
+def is_placeholder_null_game(game):
+    return (
+        game.get("name") is None
+        and game.get("difficulty") is None
+        and game.get("mode") is None
+        and game.get("server") is None
+        and game.get("country") is None
+        and game.get("created") is None
+        and game.get("players") in (None, 0)
+    )
 
-    newest = None
+
+def iter_snapshots():
+
+    snapshots = []
 
     for root, _, files in os.walk(DATA_DIR):
 
@@ -119,92 +139,130 @@ def newest_snapshot():
 
                     line = line.strip()
 
-                    if line:
-                        newest = json.loads(line)
+                    if not line:
+                        continue
 
-    return newest
+                    try:
+                        snapshots.append(json.loads(line))
+                    except json.JSONDecodeError:
+                        continue
 
+    snapshots.sort(
+        key=lambda s: datetime.fromisoformat(s["timestamp"])
+    )
 
-snapshot = newest_snapshot()
-
-difficulty = Counter()
-mode = Counter()
-names = Counter()
-activities = Counter()
-
-games = snapshot.get("public_games", [])
-
-for game in games:
-
-    difficulty[game["difficulty"]] += 1
-
-    mode[game["mode"]] += 1
-
-    name = normalize(game.get("name"))
-
-    if name:
-
-        names[name] += 1
-
-        activities[classify_activity(name)] += 1
+    return snapshots
 
 
-output = {
+def summarize_snapshot(snapshot):
 
-    "timestamp": snapshot["timestamp"],
+    difficulty = Counter()
+    mode = Counter()
+    names = Counter()
+    activities = Counter()
 
-    "difficulty": dict(difficulty),
+    games = snapshot.get("public_games", [])
+    filtered_games = []
 
-    "mode": dict(mode),
+    for game in games:
 
-    "activities": [
+        if is_placeholder_null_game(game):
+            continue
 
-        {
-            "name": activity,
-            "count": count
+        filtered_games.append(game)
+
+        difficulty[game.get("difficulty")] += 1
+        mode[game.get("mode")] += 1
+
+        name = normalize(game.get("name"))
+
+        if name:
+
+            names[name] += 1
+
+            activities[classify_activity(name)] += 1
+
+    return {
+
+        "timestamp": snapshot["timestamp"],
+
+        "difficulty": dict(difficulty),
+
+        "mode": dict(mode),
+
+        "activities": [
+
+            {
+                "name": activity,
+                "count": count
+            }
+
+            for activity, count
+            in activities.most_common()
+
+        ],
+
+        "top_games": [
+
+            {
+                "name": name,
+                "count": count
+            }
+
+            for name, count in names.most_common(15)
+
+        ],
+
+        "interesting": {
+
+            "unique_names": len(names),
+
+            "public_games": len(filtered_games),
+
+            "average_name_length":
+
+                round(
+
+                    sum(len(n) for n in names)
+
+                    / max(len(names), 1),
+
+                    2
+
+                )
+
         }
-
-        for activity, count
-        in activities.most_common()
-
-    ],
-
-    "top_games": [
-
-        {
-            "name": name,
-            "count": count
-        }
-
-        for name, count in names.most_common(15)
-
-    ],
-
-    "interesting": {
-
-        "unique_names": len(names),
-
-        "public_games": len(games),
-
-        "average_name_length":
-
-            round(
-
-                sum(len(n) for n in names)
-
-                / max(len(names), 1),
-
-                2
-
-            )
 
     }
 
+
+snapshots = iter_snapshots()
+
+history = [
+    summarize_snapshot(snapshot)
+    for snapshot in snapshots
+]
+
+latest = history[-1] if history else {
+    "timestamp": None,
+    "difficulty": {},
+    "mode": {},
+    "activities": [],
+    "top_games": [],
+    "interesting": {
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0,
+    },
 }
 
 os.makedirs("data/activity", exist_ok=True)
 
 with open(OUTPUT, "w") as f:
-    json.dump(output, f, indent=4)
+    json.dump(latest, f, indent=4)
+
+with open(OUTPUT_HISTORY, "w") as f:
+    json.dump(history, f, indent=4)
 
 print("Wrote", OUTPUT)
+print("Wrote", OUTPUT_HISTORY)

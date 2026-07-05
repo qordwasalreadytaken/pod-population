@@ -1,42 +1,221 @@
+let allSnapshots = [];
+let currentSnapshots = [];
+
+
 async function load() {
 
-    const response =
-        await fetch("./data/activity/activity_latest.json");
+    let data = [];
 
-    const data =
-        await response.json();
+    try {
+        const response =
+            await fetch("./data/activity/activity_history.json");
 
-    document.getElementById("timestamp").textContent =
-        "Snapshot: " +
-        new Date(data.timestamp).toLocaleString();
+        data = await response.json();
+    } catch (error) {
+        const response =
+            await fetch("./data/activity/activity_latest.json");
 
-    renderSnapshotSummary([data]);
+        const latest = await response.json();
+        data = latest?.timestamp ? [latest] : [];
+    }
 
-    renderActivities(data.activities);
+    allSnapshots = Array.isArray(data) ? data : [];
+    currentSnapshots = [...allSnapshots];
 
-    renderCounts("difficulty", data.difficulty);
-
-    renderCounts("mode", data.mode);
-
-    renderGames(data.top_games);
-
-    renderStats(data.interesting);
+    wireRangeButtons();
+    redraw();
 
 }
 
-function renderSnapshotSummary(data) {
+
+function wireRangeButtons() {
+
+    document.querySelectorAll(".range-btn").forEach(btn => {
+
+        btn.onclick = () => {
+
+            document
+                .querySelector(".range-btn.active")
+                ?.classList.remove("active");
+
+            btn.classList.add("active");
+
+            const days = btn.dataset.days;
+
+            currentSnapshots = filterRange(
+                allSnapshots,
+                days === "all" ? "all" : Number(days)
+            );
+
+            redraw();
+
+        };
+
+    });
+
+}
+
+
+function filterRange(data, days) {
+
+    if (days === "all")
+        return [...data];
 
     if (!data.length)
+        return [];
+
+    const newest =
+        new Date(data.at(-1).timestamp).getTime();
+
+    return data.filter(d =>
+        newest - new Date(d.timestamp).getTime()
+        <= days * 86400000
+    );
+
+}
+
+
+function mergeObjectCounts(snapshots, field) {
+
+    const merged = {};
+
+    snapshots.forEach(snapshot => {
+
+        const values = snapshot[field] ?? {};
+
+        Object.entries(values).forEach(([key, count]) => {
+            merged[key] = (merged[key] ?? 0) + Number(count || 0);
+        });
+
+    });
+
+    return merged;
+
+}
+
+
+function mergeArrayCounts(snapshots, field, nameKey = "name") {
+
+    const merged = {};
+
+    snapshots.forEach(snapshot => {
+
+        const values = snapshot[field] ?? [];
+
+        values.forEach(item => {
+            const key = item?.[nameKey];
+            if (!key)
+                return;
+
+            merged[key] = (merged[key] ?? 0) + Number(item.count || 0);
+        });
+
+    });
+
+    return Object.entries(merged)
+        .map(([name, count]) => ({ name, count }))
+        .sort((a, b) => b.count - a.count);
+
+}
+
+
+function average(arr) {
+
+    const clean = arr.filter(v =>
+        typeof v === "number" && !isNaN(v)
+    );
+
+    if (!clean.length)
+        return 0;
+
+    return clean.reduce((a, b) => a + b, 0) / clean.length;
+
+}
+
+
+function aggregateInteresting(snapshots) {
+
+    const publicGamesPerSnapshot =
+        snapshots.map(s => s.interesting?.public_games ?? 0);
+
+    const uniqueNamesPerSnapshot =
+        snapshots.map(s => s.interesting?.unique_names ?? 0);
+
+    const avgNameLengthPerSnapshot =
+        snapshots.map(s => s.interesting?.average_name_length ?? 0);
+
+    return {
+        snapshot_count: snapshots.length,
+        total_public_games_observed:
+            publicGamesPerSnapshot.reduce((sum, n) => sum + n, 0),
+        avg_public_games_per_snapshot: Number(
+            average(publicGamesPerSnapshot).toFixed(2)
+        ),
+        avg_unique_names: Number(
+            average(uniqueNamesPerSnapshot).toFixed(2)
+        ),
+        avg_name_length: Number(
+            average(avgNameLengthPerSnapshot).toFixed(2)
+        ),
+    };
+
+}
+
+
+function redraw() {
+
+    const timestamp = document.getElementById("timestamp");
+
+    if (!currentSnapshots.length) {
+        timestamp.textContent = "No data found for selected range.";
+        document.getElementById("rangeStatus").textContent = "";
+        document.getElementById("snapshotSummary").innerHTML = "No data.";
+        document.getElementById("activities").innerHTML = "";
+        document.getElementById("difficulty").innerHTML = "";
+        document.getElementById("mode").innerHTML = "";
+        document.getElementById("games").innerHTML = "";
+        document.getElementById("stats").innerHTML = "";
+        return;
+    }
+
+    const latest = currentSnapshots.at(-1);
+    const first = currentSnapshots.at(0);
+
+    timestamp.textContent =
+        "Latest snapshot in range: " +
+        new Date(latest.timestamp).toLocaleString();
+
+    document.getElementById("rangeStatus").textContent =
+        `Showing ${currentSnapshots.length} snapshots from ${new Date(first.timestamp).toLocaleDateString()} to ${new Date(latest.timestamp).toLocaleDateString()}.`;
+
+    const difficulty = mergeObjectCounts(currentSnapshots, "difficulty");
+    const mode = mergeObjectCounts(currentSnapshots, "mode");
+    const activities = mergeArrayCounts(currentSnapshots, "activities");
+    const games = mergeArrayCounts(currentSnapshots, "top_games");
+    const interesting = aggregateInteresting(currentSnapshots);
+
+    renderSnapshotSummary(currentSnapshots, activities, difficulty, mode);
+    renderActivities(activities);
+    renderCounts("difficulty", difficulty);
+    renderCounts("mode", mode);
+    renderGames(games.slice(0, 10));
+    renderStats(interesting);
+
+}
+
+function renderSnapshotSummary(snapshots, activities, difficulty, mode) {
+
+    if (!snapshots.length)
         return;
 
-    const latest = data.at(-1);
-
-    const activities = latest.activities ?? [];
-    const difficulty = latest.difficulty ?? {};
-    const mode = latest.mode ?? {};
-
     const totalGames =
-        activities.reduce((s, a) => s + a.count, 0);
+        activities.reduce((s, a) => s + Number(a.count || 0), 0);
+
+    if (!totalGames) {
+        document.getElementById("snapshotSummary").innerHTML =
+            "No public games in selected range.";
+        return;
+    }
 
     const topActivity =
         [...activities].sort((a, b) => b.count - a.count)[0];
@@ -60,6 +239,12 @@ function renderSnapshotSummary(data) {
         1: "Hardcore"
     };
 
+    const spanHours =
+        (
+            new Date(snapshots.at(-1).timestamp) -
+            new Date(snapshots.at(0).timestamp)
+        ) / 3600000;
+
     document.getElementById("snapshotSummary").innerHTML = `
         <div class="snapshot-line">
             <b>${topActivity.name}</b> is the most common game activity
@@ -78,6 +263,8 @@ function renderSnapshotSummary(data) {
             of games.
             &nbsp;&nbsp;•&nbsp;&nbsp;
             <b>${totalGames}</b> public games observed.
+            &nbsp;&nbsp;•&nbsp;&nbsp;
+            <b>${spanHours.toFixed(1)}h</b> covered.
         </div>
     `;
 }
@@ -116,7 +303,6 @@ function renderActivities(activities) {
     let html = "<table class='count-table'>";
 
     activities.sort((a, b) => b.count - a.count);
-    console.log(activities);
 
     activities.forEach(a => {
 
@@ -287,12 +473,18 @@ function renderGames(games) {
 function renderStats(stats) {
 
     document.getElementById("stats").innerHTML = `
-        <p><b>${stats.public_games}</b> public games</p>
+          <p><b>${stats.snapshot_count}</b> snapshots in selected range</p>
 
-        <p><b>${stats.unique_names}</b> unique names</p>
+          <p><b>${stats.total_public_games_observed}</b> total public games observed</p>
+
+          <p>Average public games per snapshot:
+              <b>${stats.avg_public_games_per_snapshot}</b></p>
+
+          <p>Average unique names per snapshot:
+              <b>${stats.avg_unique_names}</b></p>
 
         <p>Average name length:
-           <b>${stats.average_name_length}</b></p>
+              <b>${stats.avg_name_length}</b></p>
     `;
 
 }

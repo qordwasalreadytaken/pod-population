@@ -70,7 +70,30 @@
     #stats, #games {
         border-collapse: collapse;
         margin-left: 40px;
-    }    
+    }
+
+    .range-bar {
+        display: flex;
+        gap: 10px;
+        margin: 15px 0;
+    }
+
+    .range-btn {
+        padding: 8px 16px;
+        background: #333;
+        color: white;
+        border: 1px solid #555;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    .range-btn:hover {
+        background: #444;
+    }
+
+    .range-btn.active {
+        background: #0078d4;
+    }
   </style>
 </head>
 
@@ -79,6 +102,15 @@
 <h1>PoD Activity Watch</h1>
 
 <p id="timestamp"></p>
+
+<div class="range-bar">
+    <button class="range-btn active" data-days="all">All</button>
+    <button class="range-btn" data-days="30">Last 30 Days</button>
+    <button class="range-btn" data-days="7">Last 7 Days</button>
+    <button class="range-btn" data-days="1">Last 24 Hours</button>
+</div>
+
+<p id="rangeStatus" class="muted"></p>
 
 <div id="snapshotSummary" class="summary-box"></div>
 
@@ -100,7 +132,7 @@
 
 </div>
 <div class="panel">
-    <h2>Current Game Activities</h2>
+    <h2>Game Activities (Range)</h2>
     <div id="activities"></div>
 </div>
 </div>
@@ -108,7 +140,7 @@
 <div class="grid">
 <div class="panel">
 
-<h2>Top Public Game Names</h2>
+<h2>Top Public Game Names (Range)</h2>
 
 <table id="games"></table>
 
@@ -116,7 +148,7 @@
 
 <div class="panel">
 
-<h2>Interesting Stats</h2>
+<h2>Range Stats</h2>
 
 <div id="stats"></div>
 
