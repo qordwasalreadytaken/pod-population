@@ -34,9 +34,6 @@ jobs:
         run: python gather-population.py
 
       - name: Run collector
-        run: python gather-population.py
-
-      - name: Run activity generator
         run: python generate-activity.py
 
       - name: Commit and push changes

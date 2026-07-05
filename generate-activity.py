@@ -43,19 +43,8 @@ ACTIVITIES = [
         r"\bwuw\b",
         r"\biso\b",
         r"\bwtb\b",
+        r"\bn\b",
         r"\bft\b"
-    ]),
-
-    ("Uber", [
-        r"\buber",
-        r"\bubers",
-        r"\btorch"
-    ]),
-
-    ("DClone", [
-        r"dclone",
-        r"diablo clone",
-        r"\bclone\b"
     ]),
 
     ("Leveling", [
@@ -69,6 +58,18 @@ ACTIVITIES = [
         r"\ba5",
         r"\bct\b",
         r"\bexp\b"
+    ]),
+
+    ("Uber", [
+        r"\buber",
+        r"\bubers",
+        r"\btorch"
+    ]),
+
+    ("DClone", [
+        r"dclone",
+        r"diablo clone",
+        r"\bclone\b"
     ])
 
 ]
