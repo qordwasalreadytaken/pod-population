@@ -42,6 +42,7 @@ ACTIVITIES = [
         r"\bwug\b",
         r"\bwuw\b",
         r"\biso\b",
+        r"\bwtb\b",
         r"\bft\b"
     ]),
 
