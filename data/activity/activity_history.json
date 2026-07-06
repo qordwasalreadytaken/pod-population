@@ -32207,5 +32207,53 @@
             "public_games": 2,
             "average_name_length": 3.0
         }
+    },
+    {
+        "timestamp": "2026-07-06T22:25:00+00:00",
+        "difficulty": {
+            "0": 1,
+            "2": 1
+        },
+        "mode": {
+            "1": 1,
+            "0": 1
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 2
+            }
+        ],
+        "top_games": [
+            {
+                "name": "quests",
+                "count": 1
+            },
+            {
+                "name": "dsa",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "quests",
+                "count": 1,
+                "examples": [
+                    "quests"
+                ]
+            },
+            {
+                "normalized": "dsa",
+                "count": 1,
+                "examples": [
+                    "dsa"
+                ]
+            }
+        ],
+        "interesting": {
+            "unique_names": 2,
+            "public_games": 2,
+            "average_name_length": 4.5
+        }
     }
 ]
