@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-06T22:51:00+00:00",
+    "timestamp": "2026-07-06T23:24:00+00:00",
     "difficulty": {
         "0": 1,
         "2": 1
@@ -20,7 +20,7 @@
     ],
     "top_games": [
         {
-            "name": "quests",
+            "name": "shootemup",
             "count": 1
         },
         {
@@ -30,16 +30,16 @@
     ],
     "unknown_games": [
         {
-            "normalized": "quests",
+            "normalized": "shootemup",
             "count": 1,
             "examples": [
-                "quests"
+                "shootemup"
             ]
         }
     ],
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 4.5
+        "average_name_length": 6.0
     }
 }
