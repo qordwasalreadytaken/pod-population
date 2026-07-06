@@ -23837,5 +23837,40 @@
             "public_games": 1,
             "average_name_length": 5.0
         }
+    },
+    {
+        "timestamp": "2026-07-06T06:15:00+00:00",
+        "difficulty": {
+            "0": 2
+        },
+        "mode": {
+            "1": 1,
+            "0": 1
+        },
+        "activities": [
+            {
+                "name": "Leveling",
+                "count": 1
+            },
+            {
+                "name": "Other",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "a2",
+                "count": 1
+            },
+            {
+                "name": "swap21",
+                "count": 1
+            }
+        ],
+        "interesting": {
+            "unique_names": 2,
+            "public_games": 2,
+            "average_name_length": 4.0
+        }
     }
 ]
