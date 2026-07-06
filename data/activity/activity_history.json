@@ -31693,5 +31693,57 @@
             "public_games": 2,
             "average_name_length": 5.0
         }
+    },
+    {
+        "timestamp": "2026-07-06T12:28:00+00:00",
+        "difficulty": {
+            "2": 2,
+            "0": 2
+        },
+        "mode": {
+            "0": 4
+        },
+        "activities": [
+            {
+                "name": "MF'ing",
+                "count": 2
+            },
+            {
+                "name": "Other",
+                "count": 1
+            },
+            {
+                "name": "Trade",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "asd",
+                "count": 2
+            },
+            {
+                "name": "dfdfdf 2",
+                "count": 1
+            },
+            {
+                "name": "swap",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "dfdfdf #",
+                "count": 1,
+                "examples": [
+                    "dfdfdf 2"
+                ]
+            }
+        ],
+        "interesting": {
+            "unique_names": 3,
+            "public_games": 4,
+            "average_name_length": 5.0
+        }
     }
 ]
