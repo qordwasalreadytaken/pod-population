@@ -32117,5 +32117,50 @@
             "public_games": 1,
             "average_name_length": 6.0
         }
+    },
+    {
+        "timestamp": "2026-07-06T21:04:00+00:00",
+        "difficulty": {
+            "1": 1,
+            "2": 2
+        },
+        "mode": {
+            "1": 1,
+            "0": 2
+        },
+        "activities": [
+            {
+                "name": "MF'ing",
+                "count": 2
+            },
+            {
+                "name": "Other",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "asd",
+                "count": 2
+            },
+            {
+                "name": "nmo",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "nmo",
+                "count": 1,
+                "examples": [
+                    "nmo"
+                ]
+            }
+        ],
+        "interesting": {
+            "unique_names": 2,
+            "public_games": 3,
+            "average_name_length": 3.0
+        }
     }
 ]
