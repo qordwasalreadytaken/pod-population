@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-06T22:25:00+00:00",
+    "timestamp": "2026-07-06T22:51:00+00:00",
     "difficulty": {
         "0": 1,
         "2": 1
@@ -11,7 +11,11 @@
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 1
+        },
+        {
+            "name": "MF'ing",
+            "count": 1
         }
     ],
     "top_games": [
@@ -20,7 +24,7 @@
             "count": 1
         },
         {
-            "name": "dsa",
+            "name": "asd",
             "count": 1
         }
     ],
@@ -30,13 +34,6 @@
             "count": 1,
             "examples": [
                 "quests"
-            ]
-        },
-        {
-            "normalized": "dsa",
-            "count": 1,
-            "examples": [
-                "dsa"
             ]
         }
     ],
