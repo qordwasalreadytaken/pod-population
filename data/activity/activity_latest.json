@@ -1,18 +1,18 @@
 {
-    "timestamp": "2026-07-05T23:36:00+00:00",
+    "timestamp": "2026-07-06T00:07:00+00:00",
     "difficulty": {
-        "0": 1,
+        "0": 2,
         "2": 1,
         "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Leveling",
@@ -21,21 +21,25 @@
     ],
     "top_games": [
         {
-            "name": "a1 start",
+            "name": "a2",
             "count": 1
         },
         {
-            "name": "asd4",
+            "name": "1237",
             "count": 1
         },
         {
-            "name": "1234",
+            "name": "help pls",
+            "count": 1
+        },
+        {
+            "name": "1235",
             "count": 1
         }
     ],
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 5.33
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 4.5
     }
 }
