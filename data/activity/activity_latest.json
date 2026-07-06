@@ -1,22 +1,18 @@
 {
-    "timestamp": "2026-07-06T15:03:00+00:00",
+    "timestamp": "2026-07-06T16:22:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 1,
-        "0": 1
+        "0": 1,
+        "2": 2,
+        "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 3
     },
     "activities": [
         {
             "name": "MF'ing",
             "count": 2
-        },
-        {
-            "name": "Maps",
-            "count": 1
         },
         {
             "name": "Other",
@@ -33,30 +29,26 @@
             "count": 2
         },
         {
-            "name": "maps",
+            "name": "meph",
             "count": 1
         },
         {
-            "name": "nm a",
-            "count": 1
-        },
-        {
-            "name": "swap",
+            "name": "n trap skiller",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "nm a",
+            "normalized": "meph",
             "count": 1,
             "examples": [
-                "nm a"
+                "meph"
             ]
         }
     ],
     "interesting": {
-        "unique_names": 4,
-        "public_games": 5,
-        "average_name_length": 3.75
+        "unique_names": 3,
+        "public_games": 4,
+        "average_name_length": 7.0
     }
 }
