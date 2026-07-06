@@ -1,13 +1,19 @@
 {
-    "timestamp": "2026-07-06T13:50:00+00:00",
+    "timestamp": "2026-07-06T15:03:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 3,
+        "1": 1,
+        "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 4
     },
     "activities": [
+        {
+            "name": "MF'ing",
+            "count": 2
+        },
         {
             "name": "Maps",
             "count": 1
@@ -17,36 +23,40 @@
             "count": 1
         },
         {
-            "name": "MF'ing",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "asd",
+            "count": 2
+        },
+        {
             "name": "maps",
             "count": 1
         },
         {
-            "name": "lvup gogo",
+            "name": "nm a",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "swap",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "lvup gogo",
+            "normalized": "nm a",
             "count": 1,
             "examples": [
-                "lvup gogo"
+                "nm a"
             ]
         }
     ],
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 5.33
+        "unique_names": 4,
+        "public_games": 5,
+        "average_name_length": 3.75
     }
 }
