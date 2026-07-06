@@ -1,30 +1,30 @@
 {
-    "timestamp": "2026-07-06T21:04:00+00:00",
+    "timestamp": "2026-07-06T21:46:00+00:00",
     "difficulty": {
         "1": 1,
-        "2": 2
+        "2": 1
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 1
     },
     "activities": [
         {
-            "name": "MF'ing",
-            "count": 2
+            "name": "Other",
+            "count": 1
         },
         {
-            "name": "Other",
+            "name": "MF'ing",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 2
+            "name": "nmo",
+            "count": 1
         },
         {
-            "name": "nmo",
+            "name": "asd",
             "count": 1
         }
     ],
@@ -39,7 +39,7 @@
     ],
     "interesting": {
         "unique_names": 2,
-        "public_games": 3,
+        "public_games": 2,
         "average_name_length": 3.0
     }
 }
