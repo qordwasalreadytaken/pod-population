@@ -1,53 +1,35 @@
 {
-    "timestamp": "2026-07-06T17:24:00+00:00",
+    "timestamp": "2026-07-06T18:14:00+00:00",
     "difficulty": {
-        "0": 2,
         "2": 1
     },
     "mode": {
-        "1": 2,
-        "0": 1
+        "1": 1
     },
     "activities": [
         {
-            "name": "Cows",
-            "count": 1
-        },
-        {
             "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "MF'ing",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "cow",
-            "count": 1
-        },
-        {
-            "name": "a",
-            "count": 1
-        },
-        {
-            "name": "asd",
+            "name": "mml",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "a",
+            "normalized": "mml",
             "count": 1,
             "examples": [
-                "a"
+                "mml"
             ]
         }
     ],
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 2.33
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 3.0
     }
 }
