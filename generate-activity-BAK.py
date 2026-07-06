@@ -11,117 +11,107 @@ OUTPUT_REVIEW = "data/activity/activity_review.json"
 
 import re
 
-ACTIVITIES = {
+ACTIVITIES = [
 
-    "Maps": {
-        "map",
-        "maps",
-        "mapping"
-    },
+    ("Maps", [
+        r"\bmaps?\d*\b",
+        r"\bmapping\b"
+    ]),
 
-    "Baal": {
-        "baal",
-        "b"
-    },
+    ("Baal", [
+        r"\bbaal\d*\b",
+        r"\bb\d*\b"
+    ]),
 
-    "Chaos": {
-        "chaos",
-        "cs",
-        "i dia u"
-    },
+    ("Chaos", [
+        r"\bchaos\d*\b",
+        r"\bcs\d*\b",
+        r"\bi dia u\d*\b"
+    ]),
 
-    "Cows": {
-        "cow",
-        "cows"
-    },
+    ("Cows", [
+        r"\bcows?\d*\b"
+    ]),
 
-    "Rush": {
-        "rush",
-        "rushing"
-    },
+    ("Rush", [
+        r"\brush",
+        r"\brushing"
+    ]),
 
-    "MF'ing": {
-        "asd",
-        "asdff",
-        "mf",
-        "derp",
-        "nico",
-        "gord",
-        "aa",
-        "run",
-        "123",
-        "hielitos",
-        "ted",
-        "mmk",
-        "aaa"
-    },
+    ("MF'ing", [
+        r"\basd\d*\b",
+        r"\bderp\d*\b",
+        r"\bnico\d*\b",
+        r"\bgord\d*\b",
+        r"\baa\d*\b",
+        r"\brun\d*\b",
+        r"\bmf\d*\b",
+        r"\b123\d*\b"
+    ]),
 
-    "Trade": {
-        "trade",
-        "bring",
-        "iso",
-        "wug",
-        "wuw",
-        "ft",
-        "torch",
-        "n",
-        "swap"
-    },
+    ("Trade", [
+        r"\btrade\b",
+        r"\bbring\b",
+        r"\bn\btorch\b",
+        r"\bwug\b",
+        r"\bwuw\b",
+        r"\biso\b",
+        r"\bwtb\b",
+        r"\bn\b",
+        r"\bft\b"
+    ]),
 
-    "Leveling": {
-        "trist",
-        "tomb",
-        "walk",
-        "exp",
-        "ct",
-        "act"
-    },
+    ("Leveling", [
+        r"\btrist\b",
+        r"\btomb\b",
+        r"\bwalk\b",
+        r"\ba1\b",
+        r"\ba2\b",
+        r"\ba3\b",
+        r"\ba4\b",
+        r"\ba5\b",
+        r"\bct\b",
+        r"\bexp\b"
+    ]),
 
-    "Uber": {
-        "uber",
-        "ubers"
-    },
+    ("Uber", [
+        r"\buber",
+        r"\bubers",
+        r"\btorch"
+    ]),
 
-    "DClone": {
-        "dclone",
-        "clone"
-    }
+    ("DClone", [
+        r"dclone",
+        r"diablo clone",
+        r"\bclone\b"
+    ])
 
-}
+]
 
 def classify_activity(name):
 
-    tokens = set(tokenize(name))
-
-    if not tokens:
+    if not name:
         return "Other"
 
-    for activity, keywords in ACTIVITIES.items():
+    text = normalize(name)
 
-        if tokens & keywords:
-            return activity
+    for activity, patterns in ACTIVITIES:
+
+        for pattern in patterns:
+
+            if re.search(pattern, text):
+                return activity
 
     return "Other"
 
-def tokenize(name):
-
-    if not name:
-        return []
-
-    name = name.lower()
-
-    # remove trailing digits from words
-    # cow15 -> cow
-    # baal2 -> baal
-    name = re.sub(r"([a-z]+)\d+\b", r"\1", name)
-
-    # replace punctuation with spaces
-    name = re.sub(r"[^a-z0-9]+", " ", name)
-
-    # collapse whitespace
-    name = re.sub(r"\s+", " ", name).strip()
-
-    return name.split()
+#def normalize(name):
+#    if not name:
+#        return None
+#    
+#    name = name.strip().lower()
+#    name = re.sub(r"\s+", " ", name)
+#
+#    return name
 
 def normalize(name):
     if not name:

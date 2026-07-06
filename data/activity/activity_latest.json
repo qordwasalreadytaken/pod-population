@@ -9,7 +9,11 @@
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 1
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
@@ -18,13 +22,22 @@
             "count": 1
         },
         {
-            "name": "swap3",
+            "name": "swap",
             "count": 1
+        }
+    ],
+    "unknown_games": [
+        {
+            "normalized": "dfdfdf",
+            "count": 1,
+            "examples": [
+                "dfdfdf"
+            ]
         }
     ],
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 5.5
+        "average_name_length": 5.0
     }
 }

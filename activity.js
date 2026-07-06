@@ -313,7 +313,8 @@ function renderActivities(activities) {
         <tr>
 
             <td>
-                ${icons[a.name] ?? "•"} ${a.name}
+<!--                ${icons[a.name] ?? "•"} ${a.name}-->
+                ${a.name}
             </td>
 
             <td>
@@ -480,8 +481,8 @@ function renderStats(stats) {
           <p>Average public games per snapshot:
               <b>${stats.avg_public_games_per_snapshot}</b></p>
 
-          <p>Average unique names per snapshot:
-              <b>${stats.avg_unique_names}</b></p>
+<!--          <p>Average unique names per snapshot:
+              <b>${stats.avg_unique_names}</b></p> -->
 
         <p>Average name length:
               <b>${stats.avg_name_length}</b></p>
