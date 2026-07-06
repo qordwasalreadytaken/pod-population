@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 101,
+        "count": 102,
         "examples": [
             "1",
             "11",
@@ -1156,6 +1156,13 @@
         "count": 2,
         "examples": [
             "nmo"
+        ]
+    },
+    {
+        "normalized": "shootemup",
+        "count": 2,
+        "examples": [
+            "shootemup"
         ]
     },
     {
@@ -2528,13 +2535,6 @@
         "count": 1,
         "examples": [
             "mml"
-        ]
-    },
-    {
-        "normalized": "shootemup",
-        "count": 1,
-        "examples": [
-            "shootemup"
         ]
     }
 ]

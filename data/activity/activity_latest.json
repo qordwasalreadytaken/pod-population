@@ -1,30 +1,35 @@
 {
-    "timestamp": "2026-07-06T23:24:00+00:00",
+    "timestamp": "2026-07-06T23:49:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 1
+        "2": 2,
+        "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 1
+        "0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         },
         {
             "name": "MF'ing",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
+        {
+            "name": "asd",
+            "count": 2
+        },
         {
             "name": "shootemup",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "1237",
             "count": 1
         }
     ],
@@ -35,11 +40,18 @@
             "examples": [
                 "shootemup"
             ]
+        },
+        {
+            "normalized": "#",
+            "count": 1,
+            "examples": [
+                "1237"
+            ]
         }
     ],
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 6.0
+        "unique_names": 3,
+        "public_games": 4,
+        "average_name_length": 5.33
     }
 }
