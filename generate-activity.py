@@ -8,6 +8,7 @@ DATA_DIR = "data/social"
 OUTPUT = "data/activity/activity_latest.json"
 OUTPUT_HISTORY = "data/activity/activity_history.json"
 OUTPUT_REVIEW = "data/activity/activity_review.json"
+OUTPUT_CLASSIFIED = "data/activity/activity_classified.json"
 
 import re
 
@@ -102,17 +103,18 @@ ACTIVITIES = {
 
 def classify_activity(name):
 
-    tokens = set(tokenize(name))
-
-    if not tokens:
-        return "Other"
+    tokens = tokenize(name)
 
     for activity, keywords in ACTIVITIES.items():
+
         for token in tokens:
-            if any(keyword in token for keyword in keywords):
-                return activity
-            
-    return "Other"
+
+            for keyword in keywords:
+
+                if keyword in token:
+                    return activity, keyword
+
+    return "Other", None
 
 def tokenize(name):
 
@@ -235,6 +237,7 @@ def summarize_snapshot(snapshot):
     activities = Counter()
     unknown = Counter()
     unknown_examples = {}    
+    classified = {}
 
     games = snapshot.get("public_games", [])
     filtered_games = []
@@ -255,9 +258,22 @@ def summarize_snapshot(snapshot):
 
             names[name] += 1
 
-            activity = classify_activity(name)
+            activity, keyword = classify_activity(name)
 
             activities[activity] += 1
+
+            if activity != "Other":
+
+                classified.setdefault(activity, Counter())
+                classified[activity][(name, keyword)] += 1
+
+            else:
+
+                key = normalize_unknown(name)
+
+                unknown[key] += 1
+
+                unknown_examples.setdefault(key, set()).add(name)
 
             if activity == "Other":
 
@@ -311,6 +327,25 @@ def summarize_snapshot(snapshot):
             in unknown.most_common()
 
         ],
+
+        "classified_games": {
+
+            activity: [
+
+                {
+                    "name": name,
+                    "matched": keyword,
+                    "count": count
+                }
+
+                for (name, keyword), count
+                in counter.most_common()
+
+            ]
+
+            for activity, counter in classified.items()
+
+        },
 
         "interesting": {
 
@@ -384,6 +419,37 @@ latest = history[-1] if history else {
     },
 }
 
+classified = {}
+
+for snapshot in history:
+
+    for activity, games in snapshot["classified_games"].items():
+
+        classified.setdefault(activity, Counter())
+
+        for game in games:
+
+            classified[activity][
+                (game["name"], game["matched"])
+            ] += game["count"]
+
+classified_output = {}
+
+for activity, counter in classified.items():
+
+    classified_output[activity] = [
+
+        {
+            "name": name,
+            "matched": keyword,
+            "count": count
+        }
+
+        for (name, keyword), count
+        in counter.most_common()
+
+    ]
+
 os.makedirs("data/activity", exist_ok=True)
 
 with open(OUTPUT, "w") as f:
@@ -395,6 +461,10 @@ with open(OUTPUT_HISTORY, "w") as f:
 with open(OUTPUT_REVIEW, "w") as f:
     json.dump(review, f, indent=4)
 
+with open(OUTPUT_CLASSIFIED, "w") as f:
+    json.dump(classified_output, f, indent=4)
+
+print("Wrote", OUTPUT_CLASSIFIED)
 print("Wrote", OUTPUT)
 print("Wrote", OUTPUT_HISTORY)
 print("Wrote", OUTPUT_REVIEW)
