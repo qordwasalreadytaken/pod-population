@@ -1,13 +1,12 @@
 {
-    "timestamp": "2026-07-07T18:56:00+00:00",
+    "timestamp": "2026-07-07T19:35:00+00:00",
     "difficulty": {
-        "0": 5,
-        "2": 3,
-        "1": 1
+        "0": 2,
+        "2": 4
     },
     "mode": {
         "1": 1,
-        "0": 8
+        "0": 5
     },
     "activities": [
         {
@@ -16,22 +15,18 @@
         },
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Leveling",
             "count": 1
         },
         {
             "name": "Baal",
             "count": 1
-        },
-        {
-            "name": "Trade",
-            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "asd",
+            "count": 2
+        },
         {
             "name": "nico",
             "count": 2
@@ -41,27 +36,7 @@
             "count": 1
         },
         {
-            "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "act",
-            "count": 1
-        },
-        {
-            "name": "qwaqwa",
-            "count": 1
-        },
-        {
-            "name": "gord",
-            "count": 1
-        },
-        {
             "name": "bnchgc",
-            "count": 1
-        },
-        {
-            "name": "swapp",
             "count": 1
         }
     ],
@@ -72,38 +47,19 @@
             "examples": [
                 "level up"
             ]
-        },
-        {
-            "normalized": "qwaqwa",
-            "count": 2,
-            "examples": [
-                "qwaqwa"
-            ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "nico",
-                "matched": "nico",
+                "name": "asd",
+                "matched": "asd",
                 "count": 2
             },
             {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "act",
-                "matched": "ct",
-                "count": 1
+                "name": "nico",
+                "matched": "nico",
+                "count": 2
             }
         ],
         "Baal": [
@@ -112,18 +68,11 @@
                 "matched": "b",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "swapp",
-                "matched": "swap",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 9,
-        "average_name_length": 4.88
+        "unique_names": 4,
+        "public_games": 6,
+        "average_name_length": 5.25
     }
 }
