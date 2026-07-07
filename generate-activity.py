@@ -16,7 +16,8 @@ ACTIVITIES = {
     "Maps": {
         "map",
         "maps",
-        "mapping"
+        "mapping",
+        "maap"
     },
 
     "Baal": {
@@ -27,7 +28,9 @@ ACTIVITIES = {
     "Chaos": {
         "chaos",
         "cs",
-        "i dia u"
+        "i dia u",
+        "dia",
+        "arcane"
     },
 
     "Cows": {
@@ -40,7 +43,7 @@ ACTIVITIES = {
         "rushing"
     },
 
-    "MF'ing": {
+    "Misc. Public MF Runs": {
         "asd",
         "asdff",
         "mf",
@@ -53,7 +56,8 @@ ACTIVITIES = {
         "hielitos",
         "ted",
         "mmk",
-        "aaa"
+        "aaa",
+        "meph"
     },
 
     "Trade": {
@@ -65,7 +69,10 @@ ACTIVITIES = {
         "ft",
         "torch",
         "n",
-        "swap"
+        "swap",
+        "lmk",
+        "for",
+        "buy"
     },
 
     "Leveling": {
@@ -74,7 +81,11 @@ ACTIVITIES = {
         "walk",
         "exp",
         "ct",
-        "act"
+        "act",
+        "norm",
+        "lv",
+        "leveli",
+        "start"
     },
 
     "Uber": {
@@ -97,10 +108,10 @@ def classify_activity(name):
         return "Other"
 
     for activity, keywords in ACTIVITIES.items():
-
-        if tokens & keywords:
-            return activity
-
+        for token in tokens:
+            if any(keyword in token for keyword in keywords):
+                return activity
+            
     return "Other"
 
 def tokenize(name):
@@ -110,18 +121,23 @@ def tokenize(name):
 
     name = name.lower()
 
-    # remove trailing digits from words
-    # cow15 -> cow
-    # baal2 -> baal
     name = re.sub(r"([a-z]+)\d+\b", r"\1", name)
-
-    # replace punctuation with spaces
     name = re.sub(r"[^a-z0-9]+", " ", name)
-
-    # collapse whitespace
     name = re.sub(r"\s+", " ", name).strip()
 
-    return name.split()
+    tokens = []
+
+    for token in name.split():
+
+        tokens.append(token)
+
+        # Common prefixes players stick onto game names
+        for prefix in ("n", "h", "nm"):
+
+            if token.startswith(prefix) and len(token) > len(prefix) + 2:
+                tokens.append(token[len(prefix):])
+
+    return list(set(tokens))
 
 def normalize(name):
     if not name:
