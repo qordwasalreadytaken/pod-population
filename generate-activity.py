@@ -43,7 +43,7 @@ ACTIVITIES = {
         "rush",
         "rushing"
     },
-
+ 
     "Misc. Public MF Runs": {
         "asd",
         "asdff",
@@ -71,7 +71,21 @@ ACTIVITIES = {
         "norm",
         "lv",
         "leveli",
-        "start"
+        "start",
+        "andy",
+        "andar",
+        "den",
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "act1",
+        "act2",
+        "act3",
+        "act4",
+        "act5",
+        "anci"
     },
 
     "Trade": {
@@ -111,9 +125,15 @@ def classify_activity(name):
 
             for keyword in keywords:
 
-                if keyword in token:
-                    return activity, keyword
+                if len(keyword) <= 2:
 
+                    if token == keyword:
+                        return activity, keyword
+
+                else:
+
+                    if keyword in token:
+                        return activity, keyword
     return "Other", None
 
 def tokenize(name):
