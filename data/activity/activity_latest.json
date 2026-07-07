@@ -1,47 +1,68 @@
 {
-    "timestamp": "2026-07-07T22:39:00+00:00",
+    "timestamp": "2026-07-07T23:06:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 1
+        "2": 3
     },
     "mode": {
         "1": 1,
-        "0": 1
+        "0": 3
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
             "count": 2
+        },
+        {
+            "name": "Chaos",
+            "count": 1
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "meph run",
+            "name": "asd",
+            "count": 2
+        },
+        {
+            "name": "diablo run",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "n ama torch",
             "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Chaos": [
             {
-                "name": "meph run",
-                "matched": "meph",
+                "name": "diablo run",
+                "matched": "dia",
                 "count": 1
-            },
+            }
+        ],
+        "Misc. Public MF Runs": [
             {
                 "name": "asd",
                 "matched": "asd",
+                "count": 2
+            }
+        ],
+        "Trade": [
+            {
+                "name": "n ama torch",
+                "matched": "torch",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 5.5
+        "unique_names": 3,
+        "public_games": 4,
+        "average_name_length": 8.0
     }
 }

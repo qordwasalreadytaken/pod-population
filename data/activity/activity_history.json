@@ -12,11 +12,7 @@
         "activities": [
             {
                 "name": "Other",
-                "count": 3
-            },
-            {
-                "name": "Baal",
-                "count": 1
+                "count": 4
             }
         ],
         "top_games": [
@@ -39,6 +35,13 @@
         ],
         "unknown_games": [
             {
+                "normalized": "a boss",
+                "count": 2,
+                "examples": [
+                    "a boss"
+                ]
+            },
+            {
                 "normalized": "hell",
                 "count": 2,
                 "examples": [
@@ -60,15 +63,7 @@
                 ]
             }
         ],
-        "classified_games": {
-            "Baal": [
-                {
-                    "name": "a boss",
-                    "matched": "b",
-                    "count": 1
-                }
-            ]
-        },
+        "classified_games": {},
         "interesting": {
             "unique_names": 4,
             "public_games": 4,
@@ -85,7 +80,7 @@
         },
         "activities": [
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             }
         ],
@@ -97,10 +92,10 @@
         ],
         "unknown_games": [],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "nm a boss",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -123,7 +118,7 @@
         },
         "activities": [
             {
-                "name": "Baal",
+                "name": "Chaos",
                 "count": 1
             },
             {
@@ -143,10 +138,10 @@
         ],
         "unknown_games": [],
         "classified_games": {
-            "Baal": [
+            "Chaos": [
                 {
                     "name": "kill diablo nm",
-                    "matched": "b",
+                    "matched": "dia",
                     "count": 1
                 }
             ],
@@ -334,7 +329,7 @@
                 "count": 3
             },
             {
-                "name": "Trade",
+                "name": "Leveling",
                 "count": 1
             }
         ],
@@ -368,10 +363,10 @@
             }
         ],
         "classified_games": {
-            "Trade": [
+            "Leveling": [
                 {
                     "name": "lvling",
-                    "matched": "n",
+                    "matched": "lv",
                     "count": 1
                 }
             ]
@@ -981,14 +976,10 @@
         "activities": [
             {
                 "name": "Trade",
-                "count": 2
+                "count": 3
             },
             {
                 "name": "Other",
-                "count": 1
-            },
-            {
-                "name": "Baal",
                 "count": 1
             }
         ],
@@ -1021,12 +1012,10 @@
                     "name": "n shadow gc",
                     "matched": "n",
                     "count": 2
-                }
-            ],
-            "Baal": [
+                },
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -1047,7 +1036,7 @@
         },
         "activities": [
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             }
         ],
@@ -1059,10 +1048,10 @@
         ],
         "unknown_games": [],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -1420,7 +1409,7 @@
                 "count": 1
             },
             {
-                "name": "Trade",
+                "name": "Leveling",
                 "count": 1
             }
         ],
@@ -1466,10 +1455,10 @@
                     "count": 1
                 }
             ],
-            "Trade": [
+            "Leveling": [
                 {
                     "name": "lvling 6",
-                    "matched": "n",
+                    "matched": "lv",
                     "count": 1
                 }
             ]
@@ -1500,7 +1489,7 @@
                 "count": 2
             },
             {
-                "name": "Baal",
+                "name": "Chaos",
                 "count": 1
             }
         ],
@@ -1528,10 +1517,10 @@
             }
         ],
         "classified_games": {
-            "Baal": [
+            "Chaos": [
                 {
                     "name": "diablo",
-                    "matched": "b",
+                    "matched": "dia",
                     "count": 1
                 }
             ],
@@ -1563,7 +1552,7 @@
                 "count": 1
             },
             {
-                "name": "Baal",
+                "name": "Other",
                 "count": 1
             }
         ],
@@ -1577,19 +1566,20 @@
                 "count": 1
             }
         ],
-        "unknown_games": [],
+        "unknown_games": [
+            {
+                "normalized": "gfbgfc",
+                "count": 2,
+                "examples": [
+                    "gfbgfc"
+                ]
+            }
+        ],
         "classified_games": {
             "Leveling": [
                 {
                     "name": "hell mode exp-2",
                     "matched": "exp",
-                    "count": 1
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "gfbgfc",
-                    "matched": "b",
                     "count": 1
                 }
             ]
@@ -1613,14 +1603,10 @@
         "activities": [
             {
                 "name": "Trade",
-                "count": 1
+                "count": 2
             },
             {
                 "name": "Other",
-                "count": 1
-            },
-            {
-                "name": "Baal",
                 "count": 1
             }
         ],
@@ -1653,12 +1639,10 @@
                     "name": "a nm",
                     "matched": "n",
                     "count": 1
-                }
-            ],
-            "Baal": [
+                },
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -2552,7 +2536,7 @@
                 "count": 1
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             },
             {
@@ -2584,10 +2568,10 @@
             }
         ],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -3000,7 +2984,7 @@
             "Leveling": [
                 {
                     "name": "hell act",
-                    "matched": "act",
+                    "matched": "ct",
                     "count": 1
                 }
             ]
@@ -3039,15 +3023,11 @@
         "activities": [
             {
                 "name": "Other",
-                "count": 2
+                "count": 3
             },
             {
                 "name": "Misc. Public MF Runs",
                 "count": 2
-            },
-            {
-                "name": "Baal",
-                "count": 1
             }
         ],
         "top_games": [
@@ -3077,6 +3057,13 @@
                 ]
             },
             {
+                "normalized": "khjb",
+                "count": 2,
+                "examples": [
+                    "khjb"
+                ]
+            },
+            {
                 "normalized": "ert",
                 "count": 2,
                 "examples": [
@@ -3090,13 +3077,6 @@
                     "name": "asd",
                     "matched": "asd",
                     "count": 2
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "khjb",
-                    "matched": "b",
-                    "count": 1
                 }
             ]
         },
@@ -3269,7 +3249,7 @@
         },
         "activities": [
             {
-                "name": "Baal",
+                "name": "Other",
                 "count": 1
             },
             {
@@ -3295,15 +3275,16 @@
                 "count": 1
             }
         ],
-        "unknown_games": [],
+        "unknown_games": [
+            {
+                "normalized": "fvgvbfc",
+                "count": 2,
+                "examples": [
+                    "fvgvbfc"
+                ]
+            }
+        ],
         "classified_games": {
-            "Baal": [
-                {
-                    "name": "fvgvbfc",
-                    "matched": "b",
-                    "count": 1
-                }
-            ],
             "Maps": [
                 {
                     "name": "maps-2",
@@ -3474,7 +3455,7 @@
                 "count": 1
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             },
             {
@@ -3506,10 +3487,10 @@
             }
         ],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -3542,7 +3523,7 @@
                 "count": 1
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             },
             {
@@ -3574,10 +3555,10 @@
             }
         ],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -3613,11 +3594,7 @@
             },
             {
                 "name": "Trade",
-                "count": 1
-            },
-            {
-                "name": "Baal",
-                "count": 1
+                "count": 2
             },
             {
                 "name": "Other",
@@ -3682,12 +3659,10 @@
                     "name": "a nm",
                     "matched": "n",
                     "count": 1
-                }
-            ],
-            "Baal": [
+                },
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -3716,11 +3691,7 @@
             },
             {
                 "name": "Trade",
-                "count": 1
-            },
-            {
-                "name": "Baal",
-                "count": 1
+                "count": 2
             }
         ],
         "top_games": [
@@ -3778,12 +3749,10 @@
                     "name": "a nm",
                     "matched": "n",
                     "count": 1
-                }
-            ],
-            "Baal": [
+                },
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -3806,11 +3775,11 @@
         },
         "activities": [
             {
-                "name": "Baal",
+                "name": "Other",
                 "count": 2
             },
             {
-                "name": "Other",
+                "name": "Trade",
                 "count": 1
             },
             {
@@ -3843,18 +3812,20 @@
                 "examples": [
                     "2"
                 ]
+            },
+            {
+                "normalized": "a boss",
+                "count": 2,
+                "examples": [
+                    "a boss"
+                ]
             }
         ],
         "classified_games": {
-            "Baal": [
-                {
-                    "name": "a boss",
-                    "matched": "b",
-                    "count": 1
-                },
+            "Trade": [
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -3893,7 +3864,7 @@
                 "count": 2
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             }
         ],
@@ -3948,10 +3919,10 @@
                     "count": 1
                 }
             ],
-            "Baal": [
+            "Trade": [
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -4281,7 +4252,7 @@
                 },
                 {
                     "name": "act 2 help",
-                    "matched": "act",
+                    "matched": "ct",
                     "count": 1
                 }
             ]
@@ -4352,12 +4323,12 @@
             "Leveling": [
                 {
                     "name": "act",
-                    "matched": "act",
+                    "matched": "ct",
                     "count": 1
                 },
                 {
                     "name": "act 4",
-                    "matched": "act",
+                    "matched": "ct",
                     "count": 1
                 }
             ]
@@ -4591,7 +4562,7 @@
         },
         "activities": [
             {
-                "name": "Baal",
+                "name": "Other",
                 "count": 1
             },
             {
@@ -4617,15 +4588,16 @@
                 "count": 1
             }
         ],
-        "unknown_games": [],
+        "unknown_games": [
+            {
+                "normalized": "ttvhdgggbjhhg",
+                "count": 2,
+                "examples": [
+                    "ttvhdgggbjhhg"
+                ]
+            }
+        ],
         "classified_games": {
-            "Baal": [
-                {
-                    "name": "ttvhdgggbjhhg",
-                    "matched": "b",
-                    "count": 1
-                }
-            ],
             "Misc. Public MF Runs": [
                 {
                     "name": "derp",
@@ -4636,7 +4608,7 @@
             "Leveling": [
                 {
                     "name": "act",
-                    "matched": "act",
+                    "matched": "ct",
                     "count": 1
                 }
             ]
@@ -4662,7 +4634,7 @@
                 "count": 1
             },
             {
-                "name": "Baal",
+                "name": "Other",
                 "count": 1
             },
             {
@@ -4684,7 +4656,15 @@
                 "count": 1
             }
         ],
-        "unknown_games": [],
+        "unknown_games": [
+            {
+                "normalized": "ttvhdgggbjhhg",
+                "count": 2,
+                "examples": [
+                    "ttvhdgggbjhhg"
+                ]
+            }
+        ],
         "classified_games": {
             "Misc. Public MF Runs": [
                 {
@@ -4693,17 +4673,10 @@
                     "count": 1
                 }
             ],
-            "Baal": [
-                {
-                    "name": "ttvhdgggbjhhg",
-                    "matched": "b",
-                    "count": 1
-                }
-            ],
             "Leveling": [
                 {
                     "name": "act",
-                    "matched": "act",
+                    "matched": "ct",
                     "count": 1
                 }
             ]
@@ -4771,7 +4744,7 @@
             "Leveling": [
                 {
                     "name": "act",
-                    "matched": "act",
+                    "matched": "ct",
                     "count": 1
                 }
             ]
@@ -4847,7 +4820,7 @@
             "Leveling": [
                 {
                     "name": "act",
-                    "matched": "act",
+                    "matched": "ct",
                     "count": 1
                 }
             ]
@@ -4868,7 +4841,7 @@
         },
         "activities": [
             {
-                "name": "Trade",
+                "name": "Leveling",
                 "count": 2
             },
             {
@@ -4895,10 +4868,10 @@
                     "count": 1
                 }
             ],
-            "Trade": [
+            "Leveling": [
                 {
                     "name": "levelin up",
-                    "matched": "n",
+                    "matched": "leveli",
                     "count": 2
                 }
             ]
@@ -4925,7 +4898,7 @@
                 "count": 2
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             },
             {
@@ -4968,10 +4941,10 @@
             }
         ],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -5005,7 +4978,7 @@
                 "count": 2
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             },
             {
@@ -5041,10 +5014,10 @@
             }
         ],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -5081,7 +5054,7 @@
                 "count": 1
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             }
         ],
@@ -5105,10 +5078,10 @@
             }
         ],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -5134,7 +5107,7 @@
                 "count": 3
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             }
         ],
@@ -5180,10 +5153,10 @@
             }
         ],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -5215,7 +5188,7 @@
                 "count": 1
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             },
             {
@@ -5280,10 +5253,10 @@
                     "count": 1
                 }
             ],
-            "Baal": [
+            "Trade": [
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -5322,11 +5295,11 @@
                 "count": 2
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             },
             {
-                "name": "Trade",
+                "name": "Leveling",
                 "count": 1
             },
             {
@@ -5395,17 +5368,17 @@
                     "count": 2
                 }
             ],
-            "Baal": [
+            "Trade": [
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ],
-            "Trade": [
+            "Leveling": [
                 {
                     "name": "leveling",
-                    "matched": "n",
+                    "matched": "leveli",
                     "count": 1
                 }
             ],
@@ -5439,7 +5412,7 @@
                 "count": 4
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             },
             {
@@ -5487,10 +5460,10 @@
             }
         ],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -5523,7 +5496,7 @@
                 "count": 1
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             },
             {
@@ -5555,10 +5528,10 @@
             }
         ],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -6073,7 +6046,7 @@
         },
         "activities": [
             {
-                "name": "Trade",
+                "name": "Leveling",
                 "count": 1
             },
             {
@@ -6101,10 +6074,10 @@
             }
         ],
         "classified_games": {
-            "Trade": [
+            "Leveling": [
                 {
                     "name": "lvling",
-                    "matched": "n",
+                    "matched": "lv",
                     "count": 1
                 }
             ]
@@ -6157,7 +6130,7 @@
             "Leveling": [
                 {
                     "name": "help act",
-                    "matched": "act",
+                    "matched": "ct",
                     "count": 1
                 }
             ]
@@ -6321,8 +6294,12 @@
         },
         "activities": [
             {
+                "name": "Leveling",
+                "count": 2
+            },
+            {
                 "name": "Trade",
-                "count": 3
+                "count": 1
             },
             {
                 "name": "Baal",
@@ -6354,15 +6331,17 @@
                     "name": "andy",
                     "matched": "n",
                     "count": 1
-                },
+                }
+            ],
+            "Leveling": [
                 {
                     "name": "lvling",
-                    "matched": "n",
+                    "matched": "lv",
                     "count": 1
                 },
                 {
                     "name": "hell leveling",
-                    "matched": "n",
+                    "matched": "leveli",
                     "count": 1
                 }
             ],
@@ -6532,11 +6511,11 @@
         "activities": [
             {
                 "name": "Other",
-                "count": 4
+                "count": 5
             },
             {
-                "name": "Baal",
-                "count": 2
+                "name": "Trade",
+                "count": 1
             },
             {
                 "name": "Misc. Public MF Runs",
@@ -6589,6 +6568,13 @@
                 ]
             },
             {
+                "normalized": "abs",
+                "count": 2,
+                "examples": [
+                    "abs"
+                ]
+            },
+            {
                 "normalized": "asesadas",
                 "count": 2,
                 "examples": [
@@ -6604,15 +6590,10 @@
             }
         ],
         "classified_games": {
-            "Baal": [
-                {
-                    "name": "abs",
-                    "matched": "b",
-                    "count": 1
-                },
+            "Trade": [
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -6643,15 +6624,15 @@
         },
         "activities": [
             {
+                "name": "Other",
+                "count": 2
+            },
+            {
                 "name": "Misc. Public MF Runs",
                 "count": 2
             },
             {
-                "name": "Baal",
-                "count": 2
-            },
-            {
-                "name": "Other",
+                "name": "Trade",
                 "count": 1
             }
         ],
@@ -6684,6 +6665,13 @@
                 "examples": [
                     "amdy"
                 ]
+            },
+            {
+                "normalized": "abs",
+                "count": 2,
+                "examples": [
+                    "abs"
+                ]
             }
         ],
         "classified_games": {
@@ -6699,15 +6687,10 @@
                     "count": 1
                 }
             ],
-            "Baal": [
+            "Trade": [
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
-                    "count": 1
-                },
-                {
-                    "name": "abs",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -6729,11 +6712,15 @@
         },
         "activities": [
             {
-                "name": "Baal",
-                "count": 2
+                "name": "Trade",
+                "count": 1
             },
             {
                 "name": "Misc. Public MF Runs",
+                "count": 1
+            },
+            {
+                "name": "Other",
                 "count": 1
             }
         ],
@@ -6751,17 +6738,20 @@
                 "count": 1
             }
         ],
-        "unknown_games": [],
+        "unknown_games": [
+            {
+                "normalized": "abs",
+                "count": 2,
+                "examples": [
+                    "abs"
+                ]
+            }
+        ],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
-                    "count": 1
-                },
-                {
-                    "name": "abs",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -6793,8 +6783,12 @@
                 "count": 4
             },
             {
-                "name": "Baal",
-                "count": 2
+                "name": "Other",
+                "count": 1
+            },
+            {
+                "name": "Trade",
+                "count": 1
             }
         ],
         "top_games": [
@@ -6811,7 +6805,15 @@
                 "count": 1
             }
         ],
-        "unknown_games": [],
+        "unknown_games": [
+            {
+                "normalized": "abs",
+                "count": 2,
+                "examples": [
+                    "abs"
+                ]
+            }
+        ],
         "classified_games": {
             "Misc. Public MF Runs": [
                 {
@@ -6820,15 +6822,10 @@
                     "count": 4
                 }
             ],
-            "Baal": [
-                {
-                    "name": "abs",
-                    "matched": "b",
-                    "count": 1
-                },
+            "Trade": [
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -6851,12 +6848,16 @@
         },
         "activities": [
             {
-                "name": "Baal",
+                "name": "Other",
                 "count": 3
             },
             {
-                "name": "Other",
-                "count": 2
+                "name": "Baal",
+                "count": 1
+            },
+            {
+                "name": "Trade",
+                "count": 1
             }
         ],
         "top_games": [
@@ -6884,6 +6885,13 @@
                 "examples": [
                     "a"
                 ]
+            },
+            {
+                "normalized": "abs",
+                "count": 2,
+                "examples": [
+                    "abs"
+                ]
             }
         ],
         "classified_games": {
@@ -6892,15 +6900,12 @@
                     "name": "baal n help",
                     "matched": "baal",
                     "count": 1
-                },
+                }
+            ],
+            "Trade": [
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
-                    "count": 1
-                },
-                {
-                    "name": "abs",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -6923,15 +6928,15 @@
         },
         "activities": [
             {
-                "name": "Baal",
+                "name": "Other",
                 "count": 3
             },
             {
-                "name": "Other",
+                "name": "Trade",
                 "count": 1
             },
             {
-                "name": "Trade",
+                "name": "Baal",
                 "count": 1
             }
         ],
@@ -6955,6 +6960,13 @@
         ],
         "unknown_games": [
             {
+                "normalized": "abs",
+                "count": 4,
+                "examples": [
+                    "abs"
+                ]
+            },
+            {
                 "normalized": "a",
                 "count": 2,
                 "examples": [
@@ -6971,11 +6983,6 @@
                 }
             ],
             "Baal": [
-                {
-                    "name": "abs",
-                    "matched": "b",
-                    "count": 2
-                },
                 {
                     "name": "baal n help",
                     "matched": "baal",
@@ -7048,7 +7055,7 @@
             "Leveling": [
                 {
                     "name": "act 2s",
-                    "matched": "act",
+                    "matched": "ct",
                     "count": 1
                 }
             ],
@@ -7389,7 +7396,7 @@
         },
         "activities": [
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             }
         ],
@@ -7401,10 +7408,10 @@
         ],
         "unknown_games": [],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -7484,7 +7491,7 @@
                 "count": 2
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             },
             {
@@ -7516,10 +7523,10 @@
             }
         ],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -7666,12 +7673,8 @@
                 "count": 2
             },
             {
-                "name": "Baal",
-                "count": 1
-            },
-            {
                 "name": "Misc. Public MF Runs",
-                "count": 1
+                "count": 2
             }
         ],
         "top_games": [
@@ -7698,14 +7701,12 @@
             }
         ],
         "classified_games": {
-            "Baal": [
+            "Misc. Public MF Runs": [
                 {
                     "name": "boss run 13",
-                    "matched": "b",
+                    "matched": "run",
                     "count": 1
-                }
-            ],
-            "Misc. Public MF Runs": [
+                },
                 {
                     "name": "derp",
                     "matched": "derp",
@@ -7813,11 +7814,7 @@
         "activities": [
             {
                 "name": "Misc. Public MF Runs",
-                "count": 6
-            },
-            {
-                "name": "Baal",
-                "count": 2
+                "count": 8
             },
             {
                 "name": "Other",
@@ -7866,17 +7863,15 @@
                     "name": "asd",
                     "matched": "asd",
                     "count": 3
-                }
-            ],
-            "Baal": [
+                },
                 {
                     "name": "boss run 3",
-                    "matched": "b",
+                    "matched": "run",
                     "count": 1
                 },
                 {
                     "name": "boss run 2",
-                    "matched": "b",
+                    "matched": "run",
                     "count": 1
                 }
             ]
@@ -8167,7 +8162,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -8189,12 +8184,8 @@
         },
         "activities": [
             {
-                "name": "Baal",
-                "count": 1
-            },
-            {
                 "name": "Other",
-                "count": 1
+                "count": 2
             }
         ],
         "top_games": [
@@ -8209,6 +8200,13 @@
         ],
         "unknown_games": [
             {
+                "normalized": "a#h bs",
+                "count": 2,
+                "examples": [
+                    "a4h bs"
+                ]
+            },
+            {
                 "normalized": "t",
                 "count": 2,
                 "examples": [
@@ -8216,15 +8214,7 @@
                 ]
             }
         ],
-        "classified_games": {
-            "Baal": [
-                {
-                    "name": "a4h bs",
-                    "matched": "b",
-                    "count": 1
-                }
-            ]
-        },
+        "classified_games": {},
         "interesting": {
             "unique_names": 2,
             "public_games": 2,
@@ -8356,7 +8346,7 @@
         },
         "activities": [
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             },
             {
@@ -8376,10 +8366,10 @@
         ],
         "unknown_games": [],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -8778,7 +8768,7 @@
         },
         "activities": [
             {
-                "name": "Baal",
+                "name": "Other",
                 "count": 1
             }
         ],
@@ -8788,16 +8778,16 @@
                 "count": 1
             }
         ],
-        "unknown_games": [],
-        "classified_games": {
-            "Baal": [
-                {
-                    "name": "a boss",
-                    "matched": "b",
-                    "count": 1
-                }
-            ]
-        },
+        "unknown_games": [
+            {
+                "normalized": "a boss",
+                "count": 2,
+                "examples": [
+                    "a boss"
+                ]
+            }
+        ],
+        "classified_games": {},
         "interesting": {
             "unique_names": 1,
             "public_games": 1,
@@ -9254,7 +9244,7 @@
         "activities": [
             {
                 "name": "Trade",
-                "count": 2
+                "count": 3
             },
             {
                 "name": "Misc. Public MF Runs",
@@ -9266,10 +9256,6 @@
             },
             {
                 "name": "Other",
-                "count": 1
-            },
-            {
-                "name": "Baal",
                 "count": 1
             }
         ],
@@ -9320,6 +9306,11 @@
                     "count": 1
                 },
                 {
+                    "name": "n elds pruby",
+                    "matched": "n",
+                    "count": 1
+                },
+                {
                     "name": "caetano",
                     "matched": "n",
                     "count": 1
@@ -9330,13 +9321,6 @@
                     "name": "asd",
                     "matched": "asd",
                     "count": 2
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "n elds pruby",
-                    "matched": "b",
-                    "count": 1
                 }
             ],
             "Leveling": [
@@ -9450,7 +9434,7 @@
             "Leveling": [
                 {
                     "name": "act 1",
-                    "matched": "act",
+                    "matched": "ct",
                     "count": 1
                 }
             ]
@@ -10149,11 +10133,7 @@
         "activities": [
             {
                 "name": "Other",
-                "count": 2
-            },
-            {
-                "name": "Baal",
-                "count": 1
+                "count": 3
             }
         ],
         "top_games": [
@@ -10172,6 +10152,13 @@
         ],
         "unknown_games": [
             {
+                "normalized": "hellbeef",
+                "count": 2,
+                "examples": [
+                    "hellbeef"
+                ]
+            },
+            {
                 "normalized": "a",
                 "count": 2,
                 "examples": [
@@ -10186,15 +10173,7 @@
                 ]
             }
         ],
-        "classified_games": {
-            "Baal": [
-                {
-                    "name": "hellbeef",
-                    "matched": "b",
-                    "count": 1
-                }
-            ]
-        },
+        "classified_games": {},
         "interesting": {
             "unique_names": 3,
             "public_games": 3,
@@ -10666,7 +10645,7 @@
             "Leveling": [
                 {
                     "name": "act",
-                    "matched": "act",
+                    "matched": "ct",
                     "count": 1
                 }
             ]
@@ -11158,7 +11137,7 @@
         },
         "activities": [
             {
-                "name": "Baal",
+                "name": "Cows",
                 "count": 1
             }
         ],
@@ -11170,10 +11149,10 @@
         ],
         "unknown_games": [],
         "classified_games": {
-            "Baal": [
+            "Cows": [
                 {
                     "name": "bovinebegone",
-                    "matched": "b",
+                    "matched": "bovine",
                     "count": 1
                 }
             ]
@@ -11231,7 +11210,7 @@
         },
         "activities": [
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             },
             {
@@ -11251,10 +11230,10 @@
         ],
         "unknown_games": [],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -11381,11 +11360,15 @@
         },
         "activities": [
             {
-                "name": "Trade",
-                "count": 2
+                "name": "Other",
+                "count": 1
             },
             {
-                "name": "Other",
+                "name": "Trade",
+                "count": 1
+            },
+            {
+                "name": "Leveling",
                 "count": 1
             }
         ],
@@ -11418,10 +11401,12 @@
                     "name": "torchdruidxnecr",
                     "matched": "torch",
                     "count": 1
-                },
+                }
+            ],
+            "Leveling": [
                 {
                     "name": "hell leveling",
-                    "matched": "n",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -11495,11 +11480,15 @@
         },
         "activities": [
             {
-                "name": "Trade",
-                "count": 2
+                "name": "Other",
+                "count": 1
             },
             {
-                "name": "Other",
+                "name": "Trade",
+                "count": 1
+            },
+            {
+                "name": "Leveling",
                 "count": 1
             }
         ],
@@ -11532,10 +11521,12 @@
                     "name": "lmk what u need",
                     "matched": "n",
                     "count": 1
-                },
+                }
+            ],
+            "Leveling": [
                 {
                     "name": "norm go",
-                    "matched": "n",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -11557,11 +11548,15 @@
         },
         "activities": [
             {
-                "name": "Trade",
-                "count": 2
+                "name": "Other",
+                "count": 1
             },
             {
-                "name": "Other",
+                "name": "Trade",
+                "count": 1
+            },
+            {
+                "name": "Leveling",
                 "count": 1
             }
         ],
@@ -11594,10 +11589,12 @@
                     "name": "lmk what u need",
                     "matched": "n",
                     "count": 1
-                },
+                }
+            ],
+            "Leveling": [
                 {
                     "name": "normin",
-                    "matched": "n",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -11624,7 +11621,11 @@
             },
             {
                 "name": "Trade",
-                "count": 2
+                "count": 1
+            },
+            {
+                "name": "Leveling",
+                "count": 1
             }
         ],
         "top_games": [
@@ -11678,10 +11679,12 @@
                     "name": "lmk what u need",
                     "matched": "n",
                     "count": 1
-                },
+                }
+            ],
+            "Leveling": [
                 {
                     "name": "normin",
-                    "matched": "n",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -11703,7 +11706,11 @@
         "activities": [
             {
                 "name": "Trade",
-                "count": 2
+                "count": 1
+            },
+            {
+                "name": "Leveling",
+                "count": 1
             }
         ],
         "top_games": [
@@ -11721,12 +11728,14 @@
             "Trade": [
                 {
                     "name": "lmk what u n",
-                    "matched": "n",
+                    "matched": "lmk",
                     "count": 1
-                },
+                }
+            ],
+            "Leveling": [
                 {
                     "name": "normin",
-                    "matched": "n",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -11814,7 +11823,7 @@
         },
         "activities": [
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             }
         ],
@@ -11826,10 +11835,10 @@
         ],
         "unknown_games": [],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -12054,7 +12063,7 @@
             "Leveling": [
                 {
                     "name": "help act",
-                    "matched": "act",
+                    "matched": "ct",
                     "count": 1
                 }
             ]
@@ -12076,11 +12085,15 @@
         },
         "activities": [
             {
-                "name": "Baal",
-                "count": 2
+                "name": "Trade",
+                "count": 1
             },
             {
-                "name": "Trade",
+                "name": "Baal",
+                "count": 1
+            },
+            {
+                "name": "Chaos",
                 "count": 1
             }
         ],
@@ -12112,10 +12125,12 @@
                     "name": "help baal",
                     "matched": "baal",
                     "count": 1
-                },
+                }
+            ],
+            "Chaos": [
                 {
                     "name": "help diablo",
-                    "matched": "b",
+                    "matched": "dia",
                     "count": 1
                 }
             ]
@@ -12263,14 +12278,10 @@
         "activities": [
             {
                 "name": "Trade",
-                "count": 1
+                "count": 2
             },
             {
                 "name": "Other",
-                "count": 1
-            },
-            {
-                "name": "Baal",
                 "count": 1
             }
         ],
@@ -12303,12 +12314,10 @@
                     "name": "a nm",
                     "matched": "n",
                     "count": 1
-                }
-            ],
-            "Baal": [
+                },
                 {
                     "name": "n elds & pruby",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -12788,7 +12797,7 @@
                 "count": 3
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             },
             {
@@ -12831,10 +12840,10 @@
             }
         ],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -12906,7 +12915,7 @@
                 "count": 2
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 2
             },
             {
@@ -12949,10 +12958,10 @@
             }
         ],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 2
                 }
             ],
@@ -12987,11 +12996,11 @@
                 "count": 3
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             },
             {
-                "name": "Trade",
+                "name": "Leveling",
                 "count": 1
             }
         ],
@@ -13041,17 +13050,17 @@
             }
         ],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ],
-            "Trade": [
+            "Leveling": [
                 {
                     "name": "normin",
-                    "matched": "n",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -13075,15 +13084,19 @@
         },
         "activities": [
             {
-                "name": "Trade",
-                "count": 2
-            },
-            {
                 "name": "Other",
                 "count": 2
             },
             {
+                "name": "Trade",
+                "count": 1
+            },
+            {
                 "name": "Misc. Public MF Runs",
+                "count": 1
+            },
+            {
+                "name": "Leveling",
                 "count": 1
             }
         ],
@@ -13131,17 +13144,19 @@
                     "name": "n 3 pul o um",
                     "matched": "n",
                     "count": 1
-                },
-                {
-                    "name": "normin",
-                    "matched": "n",
-                    "count": 1
                 }
             ],
             "Misc. Public MF Runs": [
                 {
                     "name": "asd",
                     "matched": "asd",
+                    "count": 1
+                }
+            ],
+            "Leveling": [
+                {
+                    "name": "normin",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -13260,11 +13275,7 @@
             },
             {
                 "name": "Trade",
-                "count": 2
-            },
-            {
-                "name": "Baal",
-                "count": 1
+                "count": 3
             },
             {
                 "name": "Rush",
@@ -13344,10 +13355,20 @@
             }
         ],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "ber for 40 eld",
-                    "matched": "b",
+                    "matched": "for",
+                    "count": 1
+                },
+                {
+                    "name": "n free stuff",
+                    "matched": "n",
+                    "count": 1
+                },
+                {
+                    "name": "n free amatorch",
+                    "matched": "torch",
                     "count": 1
                 }
             ],
@@ -13362,18 +13383,6 @@
                 {
                     "name": "asd",
                     "matched": "asd",
-                    "count": 1
-                }
-            ],
-            "Trade": [
-                {
-                    "name": "n free stuff",
-                    "matched": "n",
-                    "count": 1
-                },
-                {
-                    "name": "n free amatorch",
-                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -13401,15 +13410,11 @@
                 "count": 3
             },
             {
-                "name": "Baal",
-                "count": 1
+                "name": "Trade",
+                "count": 2
             },
             {
                 "name": "Misc. Public MF Runs",
-                "count": 1
-            },
-            {
-                "name": "Trade",
                 "count": 1
             }
         ],
@@ -13463,10 +13468,15 @@
             }
         ],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "ber for 40 eld",
-                    "matched": "b",
+                    "matched": "for",
+                    "count": 1
+                },
+                {
+                    "name": "n free amatorch",
+                    "matched": "torch",
                     "count": 1
                 }
             ],
@@ -13474,13 +13484,6 @@
                 {
                     "name": "asd",
                     "matched": "asd",
-                    "count": 1
-                }
-            ],
-            "Trade": [
-                {
-                    "name": "n free amatorch",
-                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -13572,7 +13575,7 @@
             "Leveling": [
                 {
                     "name": "help act 3 pliz",
-                    "matched": "act",
+                    "matched": "ct",
                     "count": 1
                 }
             ]
@@ -13596,15 +13599,15 @@
         },
         "activities": [
             {
-                "name": "Trade",
+                "name": "Leveling",
                 "count": 2
             },
             {
-                "name": "Misc. Public MF Runs",
+                "name": "Trade",
                 "count": 1
             },
             {
-                "name": "Leveling",
+                "name": "Misc. Public MF Runs",
                 "count": 1
             }
         ],
@@ -13633,11 +13636,6 @@
                     "name": "den",
                     "matched": "n",
                     "count": 1
-                },
-                {
-                    "name": "norm start",
-                    "matched": "n",
-                    "count": 1
                 }
             ],
             "Misc. Public MF Runs": [
@@ -13650,7 +13648,12 @@
             "Leveling": [
                 {
                     "name": "act 55",
-                    "matched": "act",
+                    "matched": "ct",
+                    "count": 1
+                },
+                {
+                    "name": "norm start",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -13673,11 +13676,11 @@
         },
         "activities": [
             {
-                "name": "Trade",
+                "name": "Leveling",
                 "count": 2
             },
             {
-                "name": "Leveling",
+                "name": "Trade",
                 "count": 1
             },
             {
@@ -13710,17 +13713,17 @@
                     "name": "den",
                     "matched": "n",
                     "count": 1
-                },
-                {
-                    "name": "norm start",
-                    "matched": "n",
-                    "count": 1
                 }
             ],
             "Leveling": [
                 {
                     "name": "act 1",
-                    "matched": "act",
+                    "matched": "ct",
+                    "count": 1
+                },
+                {
+                    "name": "norm start",
+                    "matched": "start",
                     "count": 1
                 }
             ],
@@ -13912,7 +13915,7 @@
                 },
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -14353,7 +14356,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ],
@@ -14430,7 +14433,7 @@
                 },
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ],
@@ -14482,7 +14485,7 @@
                 },
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -14536,7 +14539,7 @@
                 },
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -14601,7 +14604,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 },
                 {
@@ -14873,7 +14876,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -15436,7 +15439,7 @@
             "Leveling": [
                 {
                     "name": "act",
-                    "matched": "act",
+                    "matched": "ct",
                     "count": 1
                 }
             ]
@@ -15504,7 +15507,7 @@
             "Leveling": [
                 {
                     "name": "act",
-                    "matched": "act",
+                    "matched": "ct",
                     "count": 1
                 }
             ]
@@ -15721,10 +15724,14 @@
         "activities": [
             {
                 "name": "Trade",
-                "count": 3
+                "count": 2
             },
             {
                 "name": "Misc. Public MF Runs",
+                "count": 1
+            },
+            {
+                "name": "Leveling",
                 "count": 1
             }
         ],
@@ -15758,17 +15765,19 @@
                     "name": "ooc for sur 1",
                     "matched": "for",
                     "count": 1
-                },
-                {
-                    "name": "act 5 normal",
-                    "matched": "n",
-                    "count": 1
                 }
             ],
             "Misc. Public MF Runs": [
                 {
                     "name": "n eld runes",
                     "matched": "run",
+                    "count": 1
+                }
+            ],
+            "Leveling": [
+                {
+                    "name": "act 5 normal",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -15825,12 +15834,12 @@
             "Leveling": [
                 {
                     "name": "act 5",
-                    "matched": "act",
+                    "matched": "ct",
                     "count": 1
                 },
                 {
                     "name": "act 8",
-                    "matched": "act",
+                    "matched": "ct",
                     "count": 1
                 }
             ]
@@ -15896,7 +15905,7 @@
             "Leveling": [
                 {
                     "name": "act 1",
-                    "matched": "act",
+                    "matched": "ct",
                     "count": 1
                 }
             ]
@@ -15962,7 +15971,7 @@
             "Leveling": [
                 {
                     "name": "act 5",
-                    "matched": "act",
+                    "matched": "ct",
                     "count": 1
                 }
             ]
@@ -16101,7 +16110,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 },
                 {
@@ -16113,7 +16122,7 @@
             "Leveling": [
                 {
                     "name": "act 2",
-                    "matched": "act",
+                    "matched": "ct",
                     "count": 1
                 }
             ]
@@ -16199,15 +16208,11 @@
         },
         "activities": [
             {
-                "name": "Other",
-                "count": 1
-            },
-            {
-                "name": "Baal",
-                "count": 1
-            },
-            {
                 "name": "Trade",
+                "count": 2
+            },
+            {
+                "name": "Other",
                 "count": 1
             }
         ],
@@ -16235,14 +16240,12 @@
             }
         ],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "buy soj spider",
-                    "matched": "b",
+                    "matched": "buy",
                     "count": 1
-                }
-            ],
-            "Trade": [
+                },
                 {
                     "name": "1 ooc for 1 eld",
                     "matched": "for",
@@ -16274,7 +16277,7 @@
                 "count": 1
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             }
         ],
@@ -16309,10 +16312,10 @@
                     "count": 1
                 }
             ],
-            "Baal": [
+            "Trade": [
                 {
                     "name": "buy soj spider",
-                    "matched": "b",
+                    "matched": "buy",
                     "count": 1
                 }
             ]
@@ -16398,14 +16401,10 @@
         "activities": [
             {
                 "name": "Trade",
-                "count": 1
+                "count": 2
             },
             {
                 "name": "Misc. Public MF Runs",
-                "count": 1
-            },
-            {
-                "name": "Baal",
                 "count": 1
             }
         ],
@@ -16430,19 +16429,17 @@
                     "name": "n shadow gc",
                     "matched": "n",
                     "count": 1
+                },
+                {
+                    "name": "inicio br",
+                    "matched": "n",
+                    "count": 1
                 }
             ],
             "Misc. Public MF Runs": [
                 {
                     "name": "asd",
                     "matched": "asd",
-                    "count": 1
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "inicio br",
-                    "matched": "b",
                     "count": 1
                 }
             ]
@@ -16812,11 +16809,15 @@
         "activities": [
             {
                 "name": "Baal",
-                "count": 4
+                "count": 3
             },
             {
                 "name": "Trade",
                 "count": 2
+            },
+            {
+                "name": "Other",
+                "count": 1
             },
             {
                 "name": "Misc. Public MF Runs",
@@ -16853,7 +16854,15 @@
                 "count": 1
             }
         ],
-        "unknown_games": [],
+        "unknown_games": [
+            {
+                "normalized": "b soj & arach #",
+                "count": 2,
+                "examples": [
+                    "b soj & arach 2"
+                ]
+            }
+        ],
         "classified_games": {
             "Trade": [
                 {
@@ -16881,11 +16890,6 @@
                 {
                     "name": "hell baal 11",
                     "matched": "baal",
-                    "count": 1
-                },
-                {
-                    "name": "b soj & arach 2",
-                    "matched": "b",
                     "count": 1
                 }
             ],
@@ -17266,7 +17270,7 @@
         },
         "activities": [
             {
-                "name": "Baal",
+                "name": "Other",
                 "count": 1
             }
         ],
@@ -17276,16 +17280,16 @@
                 "count": 1
             }
         ],
-        "unknown_games": [],
-        "classified_games": {
-            "Baal": [
-                {
-                    "name": "a boss",
-                    "matched": "b",
-                    "count": 1
-                }
-            ]
-        },
+        "unknown_games": [
+            {
+                "normalized": "a boss",
+                "count": 2,
+                "examples": [
+                    "a boss"
+                ]
+            }
+        ],
+        "classified_games": {},
         "interesting": {
             "unique_names": 1,
             "public_games": 1,
@@ -17909,7 +17913,7 @@
         },
         "activities": [
             {
-                "name": "Trade",
+                "name": "Leveling",
                 "count": 1
             }
         ],
@@ -17921,10 +17925,10 @@
         ],
         "unknown_games": [],
         "classified_games": {
-            "Trade": [
+            "Leveling": [
                 {
                     "name": "norm start",
-                    "matched": "n",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -17951,7 +17955,7 @@
                 "count": 1
             },
             {
-                "name": "Trade",
+                "name": "Leveling",
                 "count": 1
             }
         ],
@@ -17975,10 +17979,10 @@
             }
         ],
         "classified_games": {
-            "Trade": [
+            "Leveling": [
                 {
                     "name": "norm start",
-                    "matched": "n",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -18037,15 +18041,11 @@
         },
         "activities": [
             {
-                "name": "Baal",
-                "count": 1
+                "name": "Trade",
+                "count": 2
             },
             {
                 "name": "Other",
-                "count": 1
-            },
-            {
-                "name": "Trade",
                 "count": 1
             }
         ],
@@ -18073,14 +18073,12 @@
             }
         ],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "andarial bit",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
-                }
-            ],
-            "Trade": [
+                },
                 {
                     "name": "1 ooc for 1 eld",
                     "matched": "for",
@@ -18106,7 +18104,7 @@
         },
         "activities": [
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             },
             {
@@ -18134,10 +18132,10 @@
             }
         ],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "andarial bit",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -18158,7 +18156,7 @@
         },
         "activities": [
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             }
         ],
@@ -18170,10 +18168,10 @@
         ],
         "unknown_games": [],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "andarial bit",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -18670,7 +18668,7 @@
                 "count": 1
             },
             {
-                "name": "Baal",
+                "name": "Other",
                 "count": 1
             },
             {
@@ -18692,19 +18690,20 @@
                 "count": 1
             }
         ],
-        "unknown_games": [],
+        "unknown_games": [
+            {
+                "normalized": "b soj & arach #",
+                "count": 2,
+                "examples": [
+                    "b soj & arach 1"
+                ]
+            }
+        ],
         "classified_games": {
             "Trade": [
                 {
                     "name": "n shadow gc",
                     "matched": "n",
-                    "count": 1
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "b soj & arach 1",
-                    "matched": "b",
                     "count": 1
                 }
             ],
@@ -18736,7 +18735,7 @@
         "activities": [
             {
                 "name": "Other",
-                "count": 2
+                "count": 3
             },
             {
                 "name": "Misc. Public MF Runs",
@@ -18748,10 +18747,6 @@
             },
             {
                 "name": "Cows",
-                "count": 1
-            },
-            {
-                "name": "Baal",
                 "count": 1
             }
         ],
@@ -18799,6 +18794,13 @@
                 "examples": [
                     "1221"
                 ]
+            },
+            {
+                "normalized": "b soj & arach #",
+                "count": 2,
+                "examples": [
+                    "b soj & arach 1"
+                ]
             }
         ],
         "classified_games": {
@@ -18824,14 +18826,7 @@
                 },
                 {
                     "name": "asdff",
-                    "matched": "asd",
-                    "count": 1
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "b soj & arach 1",
-                    "matched": "b",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -18855,6 +18850,10 @@
         },
         "activities": [
             {
+                "name": "Other",
+                "count": 2
+            },
+            {
                 "name": "Misc. Public MF Runs",
                 "count": 2
             },
@@ -18864,14 +18863,6 @@
             },
             {
                 "name": "Cows",
-                "count": 1
-            },
-            {
-                "name": "Baal",
-                "count": 1
-            },
-            {
-                "name": "Other",
                 "count": 1
             }
         ],
@@ -18903,6 +18894,13 @@
         ],
         "unknown_games": [
             {
+                "normalized": "b soj & arach #",
+                "count": 2,
+                "examples": [
+                    "b soj & arach 4"
+                ]
+            },
+            {
                 "normalized": "hell a go",
                 "count": 2,
                 "examples": [
@@ -18925,13 +18923,6 @@
                     "count": 1
                 }
             ],
-            "Baal": [
-                {
-                    "name": "b soj & arach 4",
-                    "matched": "b",
-                    "count": 1
-                }
-            ],
             "Misc. Public MF Runs": [
                 {
                     "name": "asd",
@@ -18940,7 +18931,7 @@
                 },
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -18992,7 +18983,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "asdffdf",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -19073,7 +19064,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "asdffdf",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -19471,7 +19462,7 @@
                 "count": 3
             },
             {
-                "name": "Trade",
+                "name": "Leveling",
                 "count": 1
             }
         ],
@@ -19487,10 +19478,10 @@
         ],
         "unknown_games": [],
         "classified_games": {
-            "Trade": [
+            "Leveling": [
                 {
                     "name": "a nm start",
-                    "matched": "n",
+                    "matched": "start",
                     "count": 1
                 }
             ],
@@ -19520,7 +19511,7 @@
         },
         "activities": [
             {
-                "name": "Trade",
+                "name": "Leveling",
                 "count": 1
             },
             {
@@ -19540,10 +19531,10 @@
         ],
         "unknown_games": [],
         "classified_games": {
-            "Trade": [
+            "Leveling": [
                 {
                     "name": "a nm start",
-                    "matched": "n",
+                    "matched": "start",
                     "count": 1
                 }
             ],
@@ -20148,7 +20139,11 @@
             },
             {
                 "name": "Trade",
-                "count": 2
+                "count": 1
+            },
+            {
+                "name": "Leveling",
+                "count": 1
             }
         ],
         "top_games": [
@@ -20179,10 +20174,12 @@
                     "name": "ftyree",
                     "matched": "ft",
                     "count": 1
-                },
+                }
+            ],
+            "Leveling": [
                 {
                     "name": "norm larpin",
-                    "matched": "n",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -20211,7 +20208,11 @@
             },
             {
                 "name": "Trade",
-                "count": 3
+                "count": 2
+            },
+            {
+                "name": "Leveling",
+                "count": 1
             }
         ],
         "top_games": [
@@ -20252,11 +20253,6 @@
                     "name": "ftyree",
                     "matched": "ft",
                     "count": 1
-                },
-                {
-                    "name": "norm larpin",
-                    "matched": "n",
-                    "count": 1
                 }
             ],
             "Misc. Public MF Runs": [
@@ -20273,6 +20269,13 @@
                 {
                     "name": "gord",
                     "matched": "gord",
+                    "count": 1
+                }
+            ],
+            "Leveling": [
+                {
+                    "name": "norm larpin",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -20301,10 +20304,14 @@
             },
             {
                 "name": "Trade",
-                "count": 3
+                "count": 2
             },
             {
                 "name": "Other",
+                "count": 1
+            },
+            {
+                "name": "Leveling",
                 "count": 1
             }
         ],
@@ -20355,11 +20362,6 @@
                     "count": 1
                 },
                 {
-                    "name": "norm larpin",
-                    "matched": "n",
-                    "count": 1
-                },
-                {
                     "name": "n free ama torc",
                     "matched": "n",
                     "count": 1
@@ -20379,6 +20381,13 @@
                 {
                     "name": "aaa",
                     "matched": "aaa",
+                    "count": 1
+                }
+            ],
+            "Leveling": [
+                {
+                    "name": "norm larpin",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -20500,11 +20509,7 @@
             },
             {
                 "name": "Other",
-                "count": 1
-            },
-            {
-                "name": "Baal",
-                "count": 1
+                "count": 2
             }
         ],
         "top_games": [
@@ -20536,6 +20541,13 @@
                 "examples": [
                     "stdg"
                 ]
+            },
+            {
+                "normalized": "ball out",
+                "count": 2,
+                "examples": [
+                    "ball out"
+                ]
             }
         ],
         "classified_games": {
@@ -20553,13 +20565,6 @@
                 {
                     "name": "aaa",
                     "matched": "aaa",
-                    "count": 1
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "ball out",
-                    "matched": "b",
                     "count": 1
                 }
             ]
@@ -20591,11 +20596,7 @@
             },
             {
                 "name": "Other",
-                "count": 1
-            },
-            {
-                "name": "Baal",
-                "count": 1
+                "count": 2
             }
         ],
         "top_games": [
@@ -20627,6 +20628,13 @@
                 "examples": [
                     "stdg"
                 ]
+            },
+            {
+                "normalized": "bbgg",
+                "count": 2,
+                "examples": [
+                    "bbgg"
+                ]
             }
         ],
         "classified_games": {
@@ -20646,13 +20654,6 @@
                 {
                     "name": "aaa",
                     "matched": "aaa",
-                    "count": 1
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "bbgg",
-                    "matched": "b",
                     "count": 1
                 }
             ]
@@ -20968,7 +20969,7 @@
         },
         "activities": [
             {
-                "name": "Trade",
+                "name": "Leveling",
                 "count": 1
             }
         ],
@@ -20980,10 +20981,10 @@
         ],
         "unknown_games": [],
         "classified_games": {
-            "Trade": [
+            "Leveling": [
                 {
                     "name": "starting new",
-                    "matched": "n",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -21009,7 +21010,7 @@
                 "count": 4
             },
             {
-                "name": "Trade",
+                "name": "Leveling",
                 "count": 1
             }
         ],
@@ -21050,10 +21051,10 @@
                     "count": 1
                 }
             ],
-            "Trade": [
+            "Leveling": [
                 {
                     "name": "starting new",
-                    "matched": "n",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -21116,7 +21117,7 @@
                 "count": 1
             },
             {
-                "name": "Trade",
+                "name": "Leveling",
                 "count": 1
             }
         ],
@@ -21140,10 +21141,10 @@
             }
         ],
         "classified_games": {
-            "Trade": [
+            "Leveling": [
                 {
                     "name": "nomal act",
-                    "matched": "n",
+                    "matched": "ct",
                     "count": 1
                 }
             ]
@@ -21331,14 +21332,10 @@
         "activities": [
             {
                 "name": "Other",
-                "count": 2
+                "count": 3
             },
             {
                 "name": "Misc. Public MF Runs",
-                "count": 1
-            },
-            {
-                "name": "Baal",
                 "count": 1
             }
         ],
@@ -21363,6 +21360,13 @@
                 "examples": [
                     "dgd"
                 ]
+            },
+            {
+                "normalized": "all be welcom",
+                "count": 2,
+                "examples": [
+                    "all be welcom"
+                ]
             }
         ],
         "classified_games": {
@@ -21370,13 +21374,6 @@
                 {
                     "name": "n eld runes",
                     "matched": "run",
-                    "count": 1
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "all be welcom",
-                    "matched": "b",
                     "count": 1
                 }
             ]
@@ -21746,7 +21743,7 @@
         "activities": [
             {
                 "name": "Trade",
-                "count": 2
+                "count": 3
             },
             {
                 "name": "Misc. Public MF Runs",
@@ -21762,10 +21759,6 @@
             },
             {
                 "name": "Other",
-                "count": 1
-            },
-            {
-                "name": "Baal",
                 "count": 1
             }
         ],
@@ -21814,6 +21807,11 @@
                     "name": "n shadow gc",
                     "matched": "n",
                     "count": 2
+                },
+                {
+                    "name": "zon 4 barb torc",
+                    "matched": "n",
+                    "count": 1
                 }
             ],
             "Misc. Public MF Runs": [
@@ -21841,13 +21839,6 @@
                     "matched": "lv",
                     "count": 1
                 }
-            ],
-            "Baal": [
-                {
-                    "name": "zon 4 barb torc",
-                    "matched": "b",
-                    "count": 1
-                }
             ]
         },
         "interesting": {
@@ -21869,12 +21860,12 @@
         },
         "activities": [
             {
-                "name": "Misc. Public MF Runs",
+                "name": "Trade",
                 "count": 3
             },
             {
-                "name": "Trade",
-                "count": 2
+                "name": "Misc. Public MF Runs",
+                "count": 3
             },
             {
                 "name": "Other",
@@ -21882,10 +21873,6 @@
             },
             {
                 "name": "Leveling",
-                "count": 1
-            },
-            {
-                "name": "Baal",
                 "count": 1
             }
         ],
@@ -21930,6 +21917,11 @@
                     "name": "n shadow gc",
                     "matched": "n",
                     "count": 2
+                },
+                {
+                    "name": "zon 4 barb torc",
+                    "matched": "n",
+                    "count": 1
                 }
             ],
             "Misc. Public MF Runs": [
@@ -21948,13 +21940,6 @@
                 {
                     "name": "lvup gogogo",
                     "matched": "lv",
-                    "count": 1
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "zon 4 barb torc",
-                    "matched": "b",
                     "count": 1
                 }
             ]
@@ -22425,14 +22410,10 @@
         "activities": [
             {
                 "name": "Other",
-                "count": 2
+                "count": 3
             },
             {
                 "name": "Misc. Public MF Runs",
-                "count": 1
-            },
-            {
-                "name": "Baal",
                 "count": 1
             }
         ],
@@ -22468,6 +22449,13 @@
                 "examples": [
                     "eee"
                 ]
+            },
+            {
+                "normalized": "all be wellcom",
+                "count": 2,
+                "examples": [
+                    "all be wellcom"
+                ]
             }
         ],
         "classified_games": {
@@ -22475,13 +22463,6 @@
                 {
                     "name": "hielitos",
                     "matched": "hielitos",
-                    "count": 1
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "all be wellcom",
-                    "matched": "b",
                     "count": 1
                 }
             ]
@@ -22511,7 +22492,7 @@
                 "count": 1
             },
             {
-                "name": "Baal",
+                "name": "Other",
                 "count": 1
             }
         ],
@@ -22537,7 +22518,15 @@
                 "count": 1
             }
         ],
-        "unknown_games": [],
+        "unknown_games": [
+            {
+                "normalized": "all be wellcom",
+                "count": 2,
+                "examples": [
+                    "all be wellcom"
+                ]
+            }
+        ],
         "classified_games": {
             "Chaos": [
                 {
@@ -22562,13 +22551,6 @@
                     "matched": "hielitos",
                     "count": 1
                 }
-            ],
-            "Baal": [
-                {
-                    "name": "all be wellcom",
-                    "matched": "b",
-                    "count": 1
-                }
             ]
         },
         "interesting": {
@@ -22590,7 +22572,7 @@
         "activities": [
             {
                 "name": "Other",
-                "count": 3
+                "count": 4
             },
             {
                 "name": "Misc. Public MF Runs",
@@ -22598,10 +22580,6 @@
             },
             {
                 "name": "Chaos",
-                "count": 1
-            },
-            {
-                "name": "Baal",
                 "count": 1
             }
         ],
@@ -22652,6 +22630,13 @@
                 "examples": [
                     "v"
                 ]
+            },
+            {
+                "normalized": "all be wellcom",
+                "count": 2,
+                "examples": [
+                    "all be wellcom"
+                ]
             }
         ],
         "classified_games": {
@@ -22666,13 +22651,6 @@
                 {
                     "name": "i dia u 5",
                     "matched": "dia",
-                    "count": 1
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "all be wellcom",
-                    "matched": "b",
                     "count": 1
                 }
             ]
@@ -23124,11 +23102,11 @@
         },
         "activities": [
             {
-                "name": "Trade",
-                "count": 2
+                "name": "Other",
+                "count": 3
             },
             {
-                "name": "Other",
+                "name": "Trade",
                 "count": 2
             },
             {
@@ -23137,10 +23115,6 @@
             },
             {
                 "name": "Misc. Public MF Runs",
-                "count": 1
-            },
-            {
-                "name": "Baal",
                 "count": 1
             }
         ],
@@ -23184,6 +23158,13 @@
                 "examples": [
                     "gs 11"
                 ]
+            },
+            {
+                "normalized": "all be wellcome",
+                "count": 2,
+                "examples": [
+                    "all be wellcome"
+                ]
             }
         ],
         "classified_games": {
@@ -23205,13 +23186,6 @@
                 {
                     "name": "aaa",
                     "matched": "aaa",
-                    "count": 1
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "all be wellcome",
-                    "matched": "b",
                     "count": 1
                 }
             ]
@@ -23554,7 +23528,7 @@
             },
             {
                 "name": "Other",
-                "count": 1
+                "count": 2
             },
             {
                 "name": "Chaos",
@@ -23562,10 +23536,6 @@
             },
             {
                 "name": "Leveling",
-                "count": 1
-            },
-            {
-                "name": "Baal",
                 "count": 1
             }
         ],
@@ -23606,6 +23576,13 @@
                 "examples": [
                     "try 8"
                 ]
+            },
+            {
+                "normalized": "be wellcome",
+                "count": 2,
+                "examples": [
+                    "be wellcome"
+                ]
             }
         ],
         "classified_games": {
@@ -23637,13 +23614,6 @@
                 {
                     "name": "lvup gogo",
                     "matched": "lv",
-                    "count": 1
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "be wellcome",
-                    "matched": "b",
                     "count": 1
                 }
             ]
@@ -23952,16 +23922,12 @@
                 "count": 2
             },
             {
-                "name": "Misc. Public MF Runs",
+                "name": "Other",
                 "count": 2
             },
             {
-                "name": "Baal",
-                "count": 1
-            },
-            {
-                "name": "Other",
-                "count": 1
+                "name": "Misc. Public MF Runs",
+                "count": 2
             }
         ],
         "top_games": [
@@ -23988,6 +23954,13 @@
         ],
         "unknown_games": [
             {
+                "normalized": "gcbh",
+                "count": 2,
+                "examples": [
+                    "gcbh"
+                ]
+            },
+            {
                 "normalized": "fvyr",
                 "count": 2,
                 "examples": [
@@ -24005,13 +23978,6 @@
                 {
                     "name": "1 ooc for 1 eld",
                     "matched": "for",
-                    "count": 1
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "gcbh",
-                    "matched": "b",
                     "count": 1
                 }
             ],
@@ -24045,15 +24011,11 @@
                 "count": 3
             },
             {
-                "name": "Baal",
-                "count": 2
+                "name": "Other",
+                "count": 3
             },
             {
                 "name": "Misc. Public MF Runs",
-                "count": 1
-            },
-            {
-                "name": "Other",
                 "count": 1
             }
         ],
@@ -24085,6 +24047,20 @@
         ],
         "unknown_games": [
             {
+                "normalized": "gcbh",
+                "count": 2,
+                "examples": [
+                    "gcbh"
+                ]
+            },
+            {
+                "normalized": "dead mob reset",
+                "count": 2,
+                "examples": [
+                    "dead mob reset"
+                ]
+            },
+            {
                 "normalized": "fvyr",
                 "count": 2,
                 "examples": [
@@ -24102,18 +24078,6 @@
                 {
                     "name": "1 ooc for 1 eld",
                     "matched": "for",
-                    "count": 1
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "gcbh",
-                    "matched": "b",
-                    "count": 1
-                },
-                {
-                    "name": "dead mob reset",
-                    "matched": "b",
                     "count": 1
                 }
             ],
@@ -24269,7 +24233,7 @@
         "activities": [
             {
                 "name": "Other",
-                "count": 2
+                "count": 3
             },
             {
                 "name": "Misc. Public MF Runs",
@@ -24281,10 +24245,6 @@
             },
             {
                 "name": "Trade",
-                "count": 1
-            },
-            {
-                "name": "Baal",
                 "count": 1
             }
         ],
@@ -24328,6 +24288,13 @@
                 "examples": [
                     "e"
                 ]
+            },
+            {
+                "normalized": "all be wellcome",
+                "count": 2,
+                "examples": [
+                    "all be wellcome"
+                ]
             }
         ],
         "classified_games": {
@@ -24349,13 +24316,6 @@
                 {
                     "name": "1 ooc for 1 eld",
                     "matched": "for",
-                    "count": 1
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "all be wellcome",
-                    "matched": "b",
                     "count": 1
                 }
             ]
@@ -24957,16 +24917,12 @@
         },
         "activities": [
             {
+                "name": "Other",
+                "count": 3
+            },
+            {
                 "name": "Trade",
                 "count": 2
-            },
-            {
-                "name": "Other",
-                "count": 2
-            },
-            {
-                "name": "Baal",
-                "count": 1
             }
         ],
         "top_games": [
@@ -25005,6 +24961,13 @@
                 "examples": [
                     "v"
                 ]
+            },
+            {
+                "normalized": "be wellcome",
+                "count": 2,
+                "examples": [
+                    "be wellcome"
+                ]
             }
         ],
         "classified_games": {
@@ -25017,13 +24980,6 @@
                 {
                     "name": "1 ooc for 1 eld",
                     "matched": "for",
-                    "count": 1
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "be wellcome",
-                    "matched": "b",
                     "count": 1
                 }
             ]
@@ -25195,7 +25151,7 @@
                 "count": 4
             },
             {
-                "name": "Baal",
+                "name": "Other",
                 "count": 1
             }
         ],
@@ -25221,7 +25177,15 @@
                 "count": 1
             }
         ],
-        "unknown_games": [],
+        "unknown_games": [
+            {
+                "normalized": "b soj & arach #",
+                "count": 2,
+                "examples": [
+                    "b soj & arach 1"
+                ]
+            }
+        ],
         "classified_games": {
             "Misc. Public MF Runs": [
                 {
@@ -25244,13 +25208,6 @@
                     "matched": "ted",
                     "count": 1
                 }
-            ],
-            "Baal": [
-                {
-                    "name": "b soj & arach 1",
-                    "matched": "b",
-                    "count": 1
-                }
             ]
         },
         "interesting": {
@@ -25270,16 +25227,12 @@
         },
         "activities": [
             {
-                "name": "Misc. Public MF Runs",
+                "name": "Other",
                 "count": 2
             },
             {
-                "name": "Other",
-                "count": 1
-            },
-            {
-                "name": "Baal",
-                "count": 1
+                "name": "Misc. Public MF Runs",
+                "count": 2
             }
         ],
         "top_games": [
@@ -25307,16 +25260,16 @@
                 "examples": [
                     "aetat"
                 ]
+            },
+            {
+                "normalized": "b soj & arach #",
+                "count": 2,
+                "examples": [
+                    "b soj & arach 2"
+                ]
             }
         ],
         "classified_games": {
-            "Baal": [
-                {
-                    "name": "b soj & arach 2",
-                    "matched": "b",
-                    "count": 1
-                }
-            ],
             "Misc. Public MF Runs": [
                 {
                     "name": "hielitos 6",
@@ -25590,14 +25543,10 @@
         "activities": [
             {
                 "name": "Other",
-                "count": 2
+                "count": 3
             },
             {
                 "name": "Misc. Public MF Runs",
-                "count": 1
-            },
-            {
-                "name": "Baal",
                 "count": 1
             }
         ],
@@ -25633,6 +25582,13 @@
                 "examples": [
                     "wsws"
                 ]
+            },
+            {
+                "normalized": "all be wellcome",
+                "count": 2,
+                "examples": [
+                    "all be wellcome"
+                ]
             }
         ],
         "classified_games": {
@@ -25640,13 +25596,6 @@
                 {
                     "name": "hielitos 2",
                     "matched": "hielitos",
-                    "count": 1
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "all be wellcome",
-                    "matched": "b",
                     "count": 1
                 }
             ]
@@ -25816,12 +25765,8 @@
         },
         "activities": [
             {
-                "name": "Baal",
-                "count": 1
-            },
-            {
                 "name": "Other",
-                "count": 1
+                "count": 2
             }
         ],
         "top_games": [
@@ -25836,6 +25781,13 @@
         ],
         "unknown_games": [
             {
+                "normalized": "b soj & arach #",
+                "count": 2,
+                "examples": [
+                    "b soj & arach 4"
+                ]
+            },
+            {
                 "normalized": "gfgdf",
                 "count": 2,
                 "examples": [
@@ -25843,15 +25795,7 @@
                 ]
             }
         ],
-        "classified_games": {
-            "Baal": [
-                {
-                    "name": "b soj & arach 4",
-                    "matched": "b",
-                    "count": 1
-                }
-            ]
-        },
+        "classified_games": {},
         "interesting": {
             "unique_names": 2,
             "public_games": 2,
@@ -25878,7 +25822,7 @@
                 "count": 2
             },
             {
-                "name": "Baal",
+                "name": "Other",
                 "count": 1
             }
         ],
@@ -25900,7 +25844,15 @@
                 "count": 1
             }
         ],
-        "unknown_games": [],
+        "unknown_games": [
+            {
+                "normalized": "b soj & arach #",
+                "count": 2,
+                "examples": [
+                    "b soj & arach 4"
+                ]
+            }
+        ],
         "classified_games": {
             "Misc. Public MF Runs": [
                 {
@@ -25919,13 +25871,6 @@
                     "name": "n curseskiller",
                     "matched": "n",
                     "count": 2
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "b soj & arach 4",
-                    "matched": "b",
-                    "count": 1
                 }
             ]
         },
@@ -25952,7 +25897,7 @@
                 "count": 4
             },
             {
-                "name": "Baal",
+                "name": "Other",
                 "count": 1
             }
         ],
@@ -25974,7 +25919,15 @@
                 "count": 1
             }
         ],
-        "unknown_games": [],
+        "unknown_games": [
+            {
+                "normalized": "b soj & arach #",
+                "count": 2,
+                "examples": [
+                    "b soj & arach 5"
+                ]
+            }
+        ],
         "classified_games": {
             "Misc. Public MF Runs": [
                 {
@@ -25990,13 +25943,6 @@
                 {
                     "name": "mmk",
                     "matched": "mmk",
-                    "count": 1
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "b soj & arach 5",
-                    "matched": "b",
                     "count": 1
                 }
             ]
@@ -26654,7 +26600,7 @@
         },
         "activities": [
             {
-                "name": "Baal",
+                "name": "Other",
                 "count": 1
             },
             {
@@ -26672,15 +26618,16 @@
                 "count": 1
             }
         ],
-        "unknown_games": [],
+        "unknown_games": [
+            {
+                "normalized": "rambo",
+                "count": 2,
+                "examples": [
+                    "rambo"
+                ]
+            }
+        ],
         "classified_games": {
-            "Baal": [
-                {
-                    "name": "rambo",
-                    "matched": "b",
-                    "count": 1
-                }
-            ],
             "Misc. Public MF Runs": [
                 {
                     "name": "asd",
@@ -26866,7 +26813,7 @@
                 "count": 1
             },
             {
-                "name": "Baal",
+                "name": "Other",
                 "count": 1
             }
         ],
@@ -26880,19 +26827,20 @@
                 "count": 1
             }
         ],
-        "unknown_games": [],
+        "unknown_games": [
+            {
+                "normalized": "all be wellcome",
+                "count": 2,
+                "examples": [
+                    "all be wellcome"
+                ]
+            }
+        ],
         "classified_games": {
             "Trade": [
                 {
                     "name": "1 ooc for 1 eld",
                     "matched": "for",
-                    "count": 1
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "all be wellcome",
-                    "matched": "b",
                     "count": 1
                 }
             ]
@@ -26952,12 +26900,12 @@
         },
         "activities": [
             {
-                "name": "Baal",
-                "count": 2
+                "name": "Other",
+                "count": 3
             },
             {
-                "name": "Other",
-                "count": 2
+                "name": "Misc. Public MF Runs",
+                "count": 1
             }
         ],
         "top_games": [
@@ -26987,6 +26935,13 @@
                 ]
             },
             {
+                "normalized": "allbewellcome",
+                "count": 2,
+                "examples": [
+                    "allbewellcome"
+                ]
+            },
+            {
                 "normalized": "fueguitos",
                 "count": 2,
                 "examples": [
@@ -26995,15 +26950,10 @@
             }
         ],
         "classified_games": {
-            "Baal": [
+            "Misc. Public MF Runs": [
                 {
                     "name": "baaaaa",
-                    "matched": "b",
-                    "count": 1
-                },
-                {
-                    "name": "allbewellcome",
-                    "matched": "b",
+                    "matched": "aaa",
                     "count": 1
                 }
             ]
@@ -27025,12 +26975,8 @@
         },
         "activities": [
             {
-                "name": "Baal",
-                "count": 1
-            },
-            {
                 "name": "Other",
-                "count": 1
+                "count": 2
             }
         ],
         "top_games": [
@@ -27045,6 +26991,13 @@
         ],
         "unknown_games": [
             {
+                "normalized": "allbewellcome",
+                "count": 2,
+                "examples": [
+                    "allbewellcome"
+                ]
+            },
+            {
                 "normalized": "fueguitos",
                 "count": 2,
                 "examples": [
@@ -27052,15 +27005,7 @@
                 ]
             }
         ],
-        "classified_games": {
-            "Baal": [
-                {
-                    "name": "allbewellcome",
-                    "matched": "b",
-                    "count": 1
-                }
-            ]
-        },
+        "classified_games": {},
         "interesting": {
             "unique_names": 2,
             "public_games": 2,
@@ -27310,11 +27255,7 @@
         "activities": [
             {
                 "name": "Trade",
-                "count": 2
-            },
-            {
-                "name": "Baal",
-                "count": 1
+                "count": 3
             },
             {
                 "name": "Other",
@@ -27359,12 +27300,10 @@
                     "name": "n essece/token",
                     "matched": "n",
                     "count": 1
-                }
-            ],
-            "Baal": [
+                },
                 {
                     "name": "n ball essence",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -27477,12 +27416,8 @@
         },
         "activities": [
             {
-                "name": "Baal",
-                "count": 2
-            },
-            {
                 "name": "Trade",
-                "count": 1
+                "count": 3
             },
             {
                 "name": "Other",
@@ -27515,16 +27450,14 @@
         "classified_games": {
             "Trade": [
                 {
+                    "name": "n ball essence",
+                    "matched": "n",
+                    "count": 2
+                },
+                {
                     "name": "n shadow gc",
                     "matched": "n",
                     "count": 1
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "n ball essence",
-                    "matched": "b",
-                    "count": 2
                 }
             ]
         },
@@ -29026,11 +28959,15 @@
                 "count": 2
             },
             {
-                "name": "Baal",
-                "count": 2
+                "name": "Trade",
+                "count": 1
             },
             {
                 "name": "Misc. Public MF Runs",
+                "count": 1
+            },
+            {
+                "name": "Baal",
                 "count": 1
             }
         ],
@@ -29073,15 +29010,10 @@
             }
         ],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "n token o ber",
-                    "matched": "b",
-                    "count": 1
-                },
-                {
-                    "name": "n baal essence",
-                    "matched": "baal",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -29089,6 +29021,13 @@
                 {
                     "name": "asd",
                     "matched": "asd",
+                    "count": 1
+                }
+            ],
+            "Baal": [
+                {
+                    "name": "n baal essence",
+                    "matched": "baal",
                     "count": 1
                 }
             ]
@@ -29110,12 +29049,16 @@
         },
         "activities": [
             {
-                "name": "Baal",
-                "count": 3
-            },
-            {
                 "name": "Misc. Public MF Runs",
                 "count": 2
+            },
+            {
+                "name": "Baal",
+                "count": 2
+            },
+            {
+                "name": "Trade",
+                "count": 1
             }
         ],
         "top_games": [
@@ -29141,16 +29084,18 @@
                     "count": 2
                 }
             ],
+            "Trade": [
+                {
+                    "name": "n token o ber 3",
+                    "matched": "n",
+                    "count": 1
+                }
+            ],
             "Baal": [
                 {
                     "name": "n baal essence",
                     "matched": "baal",
                     "count": 2
-                },
-                {
-                    "name": "n token o ber 3",
-                    "matched": "b",
-                    "count": 1
                 }
             ]
         },
@@ -29611,7 +29556,7 @@
                 "count": 1
             },
             {
-                "name": "Baal",
+                "name": "Cows",
                 "count": 1
             },
             {
@@ -29643,10 +29588,10 @@
             }
         ],
         "classified_games": {
-            "Baal": [
+            "Cows": [
                 {
                     "name": "cowabunga",
-                    "matched": "b",
+                    "matched": "cow",
                     "count": 1
                 }
             ],
@@ -30033,12 +29978,8 @@
         },
         "activities": [
             {
-                "name": "Baal",
-                "count": 1
-            },
-            {
                 "name": "Cows",
-                "count": 1
+                "count": 2
             },
             {
                 "name": "Misc. Public MF Runs",
@@ -30061,14 +30002,12 @@
         ],
         "unknown_games": [],
         "classified_games": {
-            "Baal": [
+            "Cows": [
                 {
                     "name": "cowboy",
-                    "matched": "b",
+                    "matched": "cow",
                     "count": 1
-                }
-            ],
-            "Cows": [
+                },
                 {
                     "name": "cows",
                     "matched": "cows",
@@ -30340,7 +30279,7 @@
                 },
                 {
                     "name": "act 3",
-                    "matched": "act",
+                    "matched": "ct",
                     "count": 1
                 }
             ]
@@ -30367,7 +30306,7 @@
                 "count": 2
             },
             {
-                "name": "Baal",
+                "name": "Other",
                 "count": 1
             },
             {
@@ -30393,7 +30332,15 @@
                 "count": 1
             }
         ],
-        "unknown_games": [],
+        "unknown_games": [
+            {
+                "normalized": "b soj arach #",
+                "count": 2,
+                "examples": [
+                    "b soj arach 2"
+                ]
+            }
+        ],
         "classified_games": {
             "Trade": [
                 {
@@ -30404,13 +30351,6 @@
                 {
                     "name": "undeadparty",
                     "matched": "n",
-                    "count": 1
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "b soj arach 2",
-                    "matched": "b",
                     "count": 1
                 }
             ],
@@ -30575,7 +30515,7 @@
             "Leveling": [
                 {
                     "name": "act 3",
-                    "matched": "act",
+                    "matched": "ct",
                     "count": 1
                 }
             ]
@@ -30627,16 +30567,12 @@
         },
         "activities": [
             {
-                "name": "Misc. Public MF Runs",
+                "name": "Other",
                 "count": 2
             },
             {
-                "name": "Other",
-                "count": 1
-            },
-            {
-                "name": "Baal",
-                "count": 1
+                "name": "Misc. Public MF Runs",
+                "count": 2
             }
         ],
         "top_games": [
@@ -30664,6 +30600,13 @@
                 "examples": [
                     "qe"
                 ]
+            },
+            {
+                "normalized": "b soj & arach #",
+                "count": 2,
+                "examples": [
+                    "b soj & arach 1"
+                ]
             }
         ],
         "classified_games": {
@@ -30676,13 +30619,6 @@
                 {
                     "name": "1234",
                     "matched": "123",
-                    "count": 1
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "b soj & arach 1",
-                    "matched": "b",
                     "count": 1
                 }
             ]
@@ -30706,16 +30642,12 @@
         },
         "activities": [
             {
-                "name": "Misc. Public MF Runs",
+                "name": "Other",
                 "count": 2
             },
             {
-                "name": "Other",
-                "count": 1
-            },
-            {
-                "name": "Baal",
-                "count": 1
+                "name": "Misc. Public MF Runs",
+                "count": 2
             }
         ],
         "top_games": [
@@ -30743,16 +30675,16 @@
                 "examples": [
                     "qe"
                 ]
+            },
+            {
+                "normalized": "b soj & arach #",
+                "count": 2,
+                "examples": [
+                    "b soj & arach 2"
+                ]
             }
         ],
         "classified_games": {
-            "Baal": [
-                {
-                    "name": "b soj & arach 2",
-                    "matched": "b",
-                    "count": 1
-                }
-            ],
             "Misc. Public MF Runs": [
                 {
                     "name": "asd",
@@ -31160,7 +31092,7 @@
                 "count": 1
             },
             {
-                "name": "Trade",
+                "name": "Leveling",
                 "count": 1
             }
         ],
@@ -31194,10 +31126,10 @@
                     "count": 1
                 }
             ],
-            "Trade": [
+            "Leveling": [
                 {
                     "name": "leveling",
-                    "matched": "n",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -31229,7 +31161,7 @@
                 "count": 1
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             },
             {
@@ -31280,10 +31212,10 @@
                     "count": 1
                 }
             ],
-            "Baal": [
+            "Trade": [
                 {
                     "name": "weekend@bernis",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -31430,7 +31362,7 @@
                 "count": 1
             },
             {
-                "name": "Trade",
+                "name": "Leveling",
                 "count": 1
             }
         ],
@@ -31454,10 +31386,10 @@
             }
         ],
         "classified_games": {
-            "Trade": [
+            "Leveling": [
                 {
                     "name": "leveling",
-                    "matched": "n",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -32023,15 +31955,19 @@
         },
         "activities": [
             {
-                "name": "Trade",
-                "count": 2
-            },
-            {
                 "name": "Other",
                 "count": 2
             },
             {
+                "name": "Trade",
+                "count": 1
+            },
+            {
                 "name": "Misc. Public MF Runs",
+                "count": 1
+            },
+            {
+                "name": "Leveling",
                 "count": 1
             }
         ],
@@ -32079,17 +32015,19 @@
                     "name": "n shadow gc",
                     "matched": "n",
                     "count": 1
-                },
-                {
-                    "name": "act anya",
-                    "matched": "n",
-                    "count": 1
                 }
             ],
             "Misc. Public MF Runs": [
                 {
                     "name": "asd",
                     "matched": "asd",
+                    "count": 1
+                }
+            ],
+            "Leveling": [
+                {
+                    "name": "act anya",
+                    "matched": "ct",
                     "count": 1
                 }
             ]
@@ -32180,11 +32118,7 @@
         "activities": [
             {
                 "name": "Trade",
-                "count": 2
-            },
-            {
-                "name": "Baal",
-                "count": 1
+                "count": 3
             },
             {
                 "name": "Misc. Public MF Runs",
@@ -32227,14 +32161,12 @@
             }
         ],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "bring soj 2",
-                    "matched": "b",
+                    "matched": "bring",
                     "count": 1
-                }
-            ],
-            "Trade": [
+                },
                 {
                     "name": "n curseskiller",
                     "matched": "n",
@@ -32275,7 +32207,7 @@
                 "count": 2
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             }
         ],
@@ -32307,10 +32239,10 @@
                     "count": 1
                 }
             ],
-            "Baal": [
+            "Trade": [
                 {
                     "name": "bring soj 2",
-                    "matched": "b",
+                    "matched": "bring",
                     "count": 1
                 }
             ]
@@ -32335,7 +32267,7 @@
                 "count": 2
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             }
         ],
@@ -32358,10 +32290,10 @@
                     "count": 2
                 }
             ],
-            "Baal": [
+            "Trade": [
                 {
                     "name": "bring soj 2",
-                    "matched": "b",
+                    "matched": "bring",
                     "count": 1
                 }
             ]
@@ -32388,7 +32320,7 @@
                 "count": 2
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             }
         ],
@@ -32420,10 +32352,10 @@
                     "count": 1
                 }
             ],
-            "Baal": [
+            "Trade": [
                 {
                     "name": "bring soj 2",
-                    "matched": "b",
+                    "matched": "bring",
                     "count": 1
                 }
             ]
@@ -33232,7 +33164,7 @@
         },
         "activities": [
             {
-                "name": "Trade",
+                "name": "Leveling",
                 "count": 2
             },
             {
@@ -33275,10 +33207,10 @@
                     "count": 1
                 }
             ],
-            "Trade": [
+            "Leveling": [
                 {
                     "name": "mn act",
-                    "matched": "n",
+                    "matched": "ct",
                     "count": 2
                 }
             ]
@@ -33315,11 +33247,7 @@
         "activities": [
             {
                 "name": "Other",
-                "count": 1
-            },
-            {
-                "name": "Baal",
-                "count": 1
+                "count": 2
             }
         ],
         "top_games": [
@@ -33339,17 +33267,16 @@
                 "examples": [
                     "rmsid"
                 ]
+            },
+            {
+                "normalized": "boredom",
+                "count": 2,
+                "examples": [
+                    "boredom"
+                ]
             }
         ],
-        "classified_games": {
-            "Baal": [
-                {
-                    "name": "boredom",
-                    "matched": "b",
-                    "count": 1
-                }
-            ]
-        },
+        "classified_games": {},
         "interesting": {
             "unique_names": 2,
             "public_games": 2,
@@ -33600,7 +33527,7 @@
                 "count": 1
             },
             {
-                "name": "Trade",
+                "name": "Leveling",
                 "count": 1
             }
         ],
@@ -33655,10 +33582,10 @@
                     "count": 1
                 }
             ],
-            "Trade": [
+            "Leveling": [
                 {
                     "name": "nm act",
-                    "matched": "n",
+                    "matched": "ct",
                     "count": 1
                 }
             ]
@@ -33801,7 +33728,7 @@
                 "count": 1
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             }
         ],
@@ -33844,10 +33771,10 @@
                     "count": 1
                 }
             ],
-            "Baal": [
+            "Trade": [
                 {
                     "name": "n resett o ber",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -33881,11 +33808,15 @@
         },
         "activities": [
             {
-                "name": "Baal",
-                "count": 3
+                "name": "Trade",
+                "count": 2
             },
             {
                 "name": "Misc. Public MF Runs",
+                "count": 1
+            },
+            {
+                "name": "Other",
                 "count": 1
             }
         ],
@@ -33903,18 +33834,21 @@
                 "count": 1
             }
         ],
-        "unknown_games": [],
+        "unknown_games": [
+            {
+                "normalized": "all be well com",
+                "count": 2,
+                "examples": [
+                    "all be well com"
+                ]
+            }
+        ],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "n rtoken o ber",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 2
-                },
-                {
-                    "name": "all be well com",
-                    "matched": "b",
-                    "count": 1
                 }
             ],
             "Misc. Public MF Runs": [
@@ -33942,8 +33876,12 @@
         },
         "activities": [
             {
+                "name": "Trade",
+                "count": 1
+            },
+            {
                 "name": "Baal",
-                "count": 2
+                "count": 1
             },
             {
                 "name": "Misc. Public MF Runs",
@@ -33966,12 +33904,14 @@
         ],
         "unknown_games": [],
         "classified_games": {
-            "Baal": [
+            "Trade": [
                 {
                     "name": "n rtoken o ber",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
-                },
+                }
+            ],
+            "Baal": [
                 {
                     "name": "baal quest",
                     "matched": "baal",
@@ -34287,7 +34227,7 @@
                 "count": 1
             },
             {
-                "name": "Baal",
+                "name": "Other",
                 "count": 1
             }
         ],
@@ -34309,7 +34249,15 @@
                 "count": 1
             }
         ],
-        "unknown_games": [],
+        "unknown_games": [
+            {
+                "normalized": "all be wellcome",
+                "count": 2,
+                "examples": [
+                    "all be wellcome"
+                ]
+            }
+        ],
         "classified_games": {
             "Misc. Public MF Runs": [
                 {
@@ -34327,13 +34275,6 @@
                 {
                     "name": "n traps skiller",
                     "matched": "n",
-                    "count": 1
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "all be wellcome",
-                    "matched": "b",
                     "count": 1
                 }
             ]
@@ -34399,7 +34340,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "trade",
+                    "matched": "for",
                     "count": 1
                 }
             ],
@@ -34500,7 +34441,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "trade",
+                    "matched": "for",
                     "count": 1
                 }
             ]
@@ -34591,7 +34532,7 @@
                 "count": 2
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 2
             },
             {
@@ -34654,15 +34595,15 @@
                     "count": 1
                 }
             ],
-            "Baal": [
+            "Trade": [
                 {
                     "name": "newbq",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 },
                 {
                     "name": "newb",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -34694,7 +34635,7 @@
                 "count": 3
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             }
         ],
@@ -34769,10 +34710,10 @@
                     "count": 1
                 }
             ],
-            "Baal": [
+            "Trade": [
                 {
                     "name": "newbq",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -35364,7 +35305,7 @@
             "Leveling": [
                 {
                     "name": "help wp act",
-                    "matched": "act",
+                    "matched": "ct",
                     "count": 1
                 }
             ],
@@ -35452,7 +35393,7 @@
             "Leveling": [
                 {
                     "name": "help wp act",
-                    "matched": "act",
+                    "matched": "ct",
                     "count": 1
                 }
             ],
@@ -35688,7 +35629,7 @@
                 },
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -38227,7 +38168,7 @@
                 },
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -38393,7 +38334,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -40474,15 +40415,11 @@
                 "count": 2
             },
             {
-                "name": "Leveling",
-                "count": 1
-            },
-            {
-                "name": "Baal",
-                "count": 1
-            },
-            {
                 "name": "Trade",
+                "count": 2
+            },
+            {
+                "name": "Leveling",
                 "count": 1
             }
         ],
@@ -40557,18 +40494,16 @@
             "Leveling": [
                 {
                     "name": "act",
-                    "matched": "act",
-                    "count": 1
-                }
-            ],
-            "Baal": [
-                {
-                    "name": "bnchgc",
-                    "matched": "b",
+                    "matched": "ct",
                     "count": 1
                 }
             ],
             "Trade": [
+                {
+                    "name": "bnchgc",
+                    "matched": "n",
+                    "count": 1
+                },
                 {
                     "name": "swapp",
                     "matched": "swap",
@@ -40602,7 +40537,7 @@
                 "count": 1
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             }
         ],
@@ -40646,10 +40581,10 @@
                     "count": 2
                 }
             ],
-            "Baal": [
+            "Trade": [
                 {
                     "name": "bnchgc",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -40675,7 +40610,7 @@
                 "count": 1
             },
             {
-                "name": "Baal",
+                "name": "Trade",
                 "count": 1
             }
         ],
@@ -40698,10 +40633,10 @@
                     "count": 1
                 }
             ],
-            "Baal": [
+            "Trade": [
                 {
                     "name": "bnchgc",
-                    "matched": "b",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -40854,6 +40789,74 @@
             "unique_names": 2,
             "public_games": 2,
             "average_name_length": 5.5
+        }
+    },
+    {
+        "timestamp": "2026-07-07T23:06:00+00:00",
+        "difficulty": {
+            "0": 1,
+            "2": 3
+        },
+        "mode": {
+            "1": 1,
+            "0": 3
+        },
+        "activities": [
+            {
+                "name": "Misc. Public MF Runs",
+                "count": 2
+            },
+            {
+                "name": "Chaos",
+                "count": 1
+            },
+            {
+                "name": "Trade",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "asd",
+                "count": 2
+            },
+            {
+                "name": "diablo run",
+                "count": 1
+            },
+            {
+                "name": "n ama torch",
+                "count": 1
+            }
+        ],
+        "unknown_games": [],
+        "classified_games": {
+            "Chaos": [
+                {
+                    "name": "diablo run",
+                    "matched": "dia",
+                    "count": 1
+                }
+            ],
+            "Misc. Public MF Runs": [
+                {
+                    "name": "asd",
+                    "matched": "asd",
+                    "count": 2
+                }
+            ],
+            "Trade": [
+                {
+                    "name": "n ama torch",
+                    "matched": "torch",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 3,
+            "public_games": 4,
+            "average_name_length": 8.0
         }
     }
 ]
