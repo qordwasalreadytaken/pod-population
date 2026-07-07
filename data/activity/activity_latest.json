@@ -1,45 +1,27 @@
 {
-    "timestamp": "2026-07-07T06:31:00+00:00",
+    "timestamp": "2026-07-07T07:55:00+00:00",
     "difficulty": {
-        "1": 1,
-        "0": 2
+        "1": 1
     },
     "mode": {
-        "1": 1,
-        "0": 2
+        "0": 1
     },
     "activities": [
         {
             "name": "Trade",
-            "count": 2
-        },
-        {
-            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "swap",
-            "count": 2
-        },
-        {
-            "name": "a",
+            "name": "n ama torc",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "a",
-            "count": 1,
-            "examples": [
-                "a"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "interesting": {
-        "unique_names": 2,
-        "public_games": 3,
-        "average_name_length": 2.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 10.0
     }
 }
