@@ -22,8 +22,7 @@ ACTIVITIES = {
     },
 
     "Baal": {
-        "baal",
-        "b"
+        "baal"
     },
 
     "Chaos": {
@@ -36,7 +35,8 @@ ACTIVITIES = {
 
     "Cows": {
         "cow",
-        "cows"
+        "cows",
+        "bovine"
     },
 
     "Rush": {
@@ -61,6 +61,19 @@ ACTIVITIES = {
         "meph"
     },
 
+    "Leveling": {
+        "trist",
+        "tomb",
+        "walk",
+        "exp",
+        "ct",
+        "act",
+        "norm",
+        "lv",
+        "leveli",
+        "start"
+    },
+
     "Trade": {
         "trade",
         "bring",
@@ -74,19 +87,6 @@ ACTIVITIES = {
         "lmk",
         "for",
         "buy"
-    },
-
-    "Leveling": {
-        "trist",
-        "tomb",
-        "walk",
-        "exp",
-        "ct",
-        "act",
-        "norm",
-        "lv",
-        "leveli",
-        "start"
     },
 
     "Uber": {
