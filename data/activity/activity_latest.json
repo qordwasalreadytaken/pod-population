@@ -1,20 +1,15 @@
 {
-    "timestamp": "2026-07-07T19:35:00+00:00",
+    "timestamp": "2026-07-07T20:23:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 4
+        "2": 1,
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 5
+        "0": 2
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 4
-        },
-        {
-            "name": "Other",
             "count": 1
         },
         {
@@ -25,14 +20,6 @@
     "top_games": [
         {
             "name": "asd",
-            "count": 2
-        },
-        {
-            "name": "nico",
-            "count": 2
-        },
-        {
-            "name": "level up",
             "count": 1
         },
         {
@@ -40,26 +27,13 @@
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "level up",
-            "count": 2,
-            "examples": [
-                "level up"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 2
-            },
-            {
-                "name": "nico",
-                "matched": "nico",
-                "count": 2
+                "count": 1
             }
         ],
         "Baal": [
@@ -71,8 +45,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 6,
-        "average_name_length": 5.25
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 4.5
     }
 }
