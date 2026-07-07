@@ -1,56 +1,13 @@
 {
-    "timestamp": "2026-07-07T03:44:00+00:00",
-    "difficulty": {
-        "1": 1,
-        "2": 2
-    },
-    "mode": {
-        "1": 1,
-        "0": 2
-    },
-    "activities": [
-        {
-            "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Trade",
-            "count": 1
-        }
-    ],
-    "top_games": [
-        {
-            "name": "nm a",
-            "count": 1
-        },
-        {
-            "name": "qwerr",
-            "count": 1
-        },
-        {
-            "name": "ama torch here",
-            "count": 1
-        }
-    ],
-    "unknown_games": [
-        {
-            "normalized": "nm a",
-            "count": 1,
-            "examples": [
-                "nm a"
-            ]
-        },
-        {
-            "normalized": "qwerr",
-            "count": 1,
-            "examples": [
-                "qwerr"
-            ]
-        }
-    ],
+    "timestamp": "2026-07-07T05:07:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "activities": [],
+    "top_games": [],
+    "unknown_games": [],
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 7.67
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
