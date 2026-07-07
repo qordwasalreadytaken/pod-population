@@ -1,42 +1,58 @@
 {
-    "timestamp": "2026-07-07T14:16:00+00:00",
+    "timestamp": "2026-07-07T15:28:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
+        "0": 1,
+        "2": 2
     },
     "mode": {
+        "1": 1,
         "0": 2
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Leveling",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
+            "name": "level up",
             "count": 1
         },
         {
-            "name": "gjhk",
+            "name": "lvup gogo",
+            "count": 1
+        },
+        {
+            "name": "asd",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "gjhk",
+            "normalized": "level up",
             "count": 2,
             "examples": [
-                "gjhk"
+                "level up"
             ]
         }
     ],
     "classified_games": {
+        "Leveling": [
+            {
+                "name": "lvup gogo",
+                "matched": "lv",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
@@ -46,8 +62,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 3.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 6.67
     }
 }
