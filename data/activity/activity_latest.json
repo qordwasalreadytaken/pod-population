@@ -1,40 +1,19 @@
 {
-    "timestamp": "2026-07-08T18:45:00+00:00",
+    "timestamp": "2026-07-08T19:30:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 3
+        "2": 1,
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 4
+        "0": 2
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 2
-        },
-        {
             "name": "Misc. Public MF Runs",
             "count": 2
-        },
-        {
-            "name": "Other",
-            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "lvl",
-            "count": 1
-        },
-        {
-            "name": "n token o ber 2",
-            "count": 1
-        },
-        {
-            "name": "n token o ber 1",
-            "count": 1
-        },
         {
             "name": "asd",
             "count": 1
@@ -44,28 +23,8 @@
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "lvl",
-            "count": 2,
-            "examples": [
-                "lvl"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n token o ber 2",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "n token o ber 1",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
@@ -80,8 +39,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 8.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 3.5
     }
 }
