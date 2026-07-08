@@ -1,36 +1,36 @@
 {
-    "timestamp": "2026-07-08T21:07:00+00:00",
+    "timestamp": "2026-07-08T21:38:00+00:00",
     "difficulty": {
-        "0": 1
+        "2": 1
     },
     "mode": {
         "0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "gord",
+            "name": "o sur 1",
             "count": 1
         }
     ],
-    "unknown_games": [],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            }
-        ]
-    },
+    "unknown_games": [
+        {
+            "normalized": "o sur #",
+            "count": 2,
+            "examples": [
+                "o sur 1"
+            ]
+        }
+    ],
+    "classified_games": {},
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 4.0
+        "average_name_length": 7.0
     }
 }
