@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-08T16:58:00+00:00",
+    "timestamp": "2026-07-08T17:35:00+00:00",
     "difficulty": {
         "0": 1,
         "2": 2
@@ -10,21 +10,25 @@
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 2
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 2
+            "name": "lvl",
+            "count": 1
         },
         {
-            "name": "lvl",
+            "name": "gustav",
+            "count": 1
+        },
+        {
+            "name": "asd",
             "count": 1
         }
     ],
@@ -35,6 +39,13 @@
             "examples": [
                 "lvl"
             ]
+        },
+        {
+            "normalized": "gustav",
+            "count": 2,
+            "examples": [
+                "gustav"
+            ]
         }
     ],
     "classified_games": {
@@ -42,13 +53,13 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
+        "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 3.0
+        "average_name_length": 4.0
     }
 }
