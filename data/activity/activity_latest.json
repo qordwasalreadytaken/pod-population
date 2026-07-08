@@ -1,53 +1,70 @@
 {
-    "timestamp": "2026-07-08T02:37:00+00:00",
+    "timestamp": "2026-07-08T03:53:00+00:00",
     "difficulty": {
-        "0": 2
+        "1": 1,
+        "2": 1,
+        "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 1
+        "0": 2
     },
     "activities": [
         {
-            "name": "Leveling",
+            "name": "Other",
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "trist",
+            "name": "ummmm",
             "count": 1
         },
         {
-            "name": "just playing",
+            "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "swap",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "just playing",
+            "normalized": "ummmm",
             "count": 2,
             "examples": [
-                "just playing"
+                "ummmm"
             ]
         }
     ],
     "classified_games": {
-        "Leveling": [
+        "Misc. Public MF Runs": [
             {
-                "name": "trist",
-                "matched": "trist",
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
+        "Trade": [
+            {
+                "name": "swap",
+                "matched": "swap",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 8.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 4.0
     }
 }
