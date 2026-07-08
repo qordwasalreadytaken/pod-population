@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-08T00:53:00+00:00",
+    "timestamp": "2026-07-08T01:33:00+00:00",
     "difficulty": {
         "0": 1,
         "2": 1
@@ -10,44 +10,40 @@
     },
     "activities": [
         {
-            "name": "Leveling",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "name": "Other",
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "den",
+            "name": "cain",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "111",
             "count": 1
         }
     ],
-    "unknown_games": [],
-    "classified_games": {
-        "Leveling": [
-            {
-                "name": "den",
-                "matched": "den",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "unknown_games": [
+        {
+            "normalized": "cain",
+            "count": 2,
+            "examples": [
+                "cain"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "111"
+            ]
+        }
+    ],
+    "classified_games": {},
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 3.0
+        "average_name_length": 3.5
     }
 }
