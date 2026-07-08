@@ -1,21 +1,15 @@
 {
-    "timestamp": "2026-07-08T03:53:00+00:00",
+    "timestamp": "2026-07-08T05:02:00+00:00",
     "difficulty": {
-        "1": 1,
         "2": 1,
         "0": 1
     },
     "mode": {
-        "1": 1,
         "0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
@@ -25,11 +19,7 @@
     ],
     "top_games": [
         {
-            "name": "ummmm",
-            "count": 1
-        },
-        {
-            "name": "asd",
+            "name": "wertrt",
             "count": 1
         },
         {
@@ -39,21 +29,14 @@
     ],
     "unknown_games": [
         {
-            "normalized": "ummmm",
+            "normalized": "wertrt",
             "count": 2,
             "examples": [
-                "ummmm"
+                "wertrt"
             ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "swap",
@@ -63,8 +46,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 4.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 5.0
     }
 }
