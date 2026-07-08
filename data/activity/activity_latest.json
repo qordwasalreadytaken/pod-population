@@ -1,35 +1,26 @@
 {
-    "timestamp": "2026-07-08T23:07:00+00:00",
+    "timestamp": "2026-07-08T23:37:00+00:00",
     "difficulty": {
         "1": 1,
-        "0": 2,
-        "2": 1
+        "2": 3
     },
     "mode": {
-        "1": 3,
-        "0": 1
+        "1": 1,
+        "0": 3
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
-        },
-        {
-            "name": "Other",
-            "count": 2
+            "count": 4
         }
     ],
     "top_games": [
         {
+            "name": "asd",
+            "count": 2
+        },
+        {
             "name": "ted",
-            "count": 1
-        },
-        {
-            "name": "htry",
-            "count": 1
-        },
-        {
-            "name": "lvl",
             "count": 1
         },
         {
@@ -37,24 +28,14 @@
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "htry",
-            "count": 2,
-            "examples": [
-                "htry"
-            ]
-        },
-        {
-            "normalized": "lvl",
-            "count": 2,
-            "examples": [
-                "lvl"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 2
+            },
             {
                 "name": "ted",
                 "matched": "ted",
@@ -68,8 +49,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
+        "unique_names": 3,
         "public_games": 4,
-        "average_name_length": 5.25
+        "average_name_length": 5.67
     }
 }
