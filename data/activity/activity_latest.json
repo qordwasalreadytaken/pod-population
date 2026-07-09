@@ -1,13 +1,12 @@
 {
-    "timestamp": "2026-07-09T15:46:00+00:00",
+    "timestamp": "2026-07-09T16:49:00+00:00",
     "difficulty": {
-        "0": 1,
-        "2": 3,
-        "1": 1
+        "0": 2,
+        "2": 2
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 3
     },
     "activities": [
         {
@@ -15,21 +14,17 @@
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Trade",
+            "count": 1
         },
         {
-            "name": "Trade",
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 2
-        },
-        {
-            "name": "lvl",
+            "name": "a",
             "count": 1
         },
         {
@@ -39,14 +34,18 @@
         {
             "name": "swap",
             "count": 1
+        },
+        {
+            "name": "1 act",
+            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "lvl",
+            "normalized": "a",
             "count": 2,
             "examples": [
-                "lvl"
+                "a"
             ]
         },
         {
@@ -58,24 +57,24 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 2
-            }
-        ],
         "Trade": [
             {
                 "name": "swap",
                 "matched": "swap",
                 "count": 1
             }
+        ],
+        "Leveling": [
+            {
+                "name": "1 act",
+                "matched": "act",
+                "count": 1
+            }
         ]
     },
     "interesting": {
         "unique_names": 4,
-        "public_games": 5,
+        "public_games": 4,
         "average_name_length": 3.5
     }
 }
