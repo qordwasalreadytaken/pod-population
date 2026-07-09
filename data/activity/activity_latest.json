@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-09T00:07:00+00:00",
+    "timestamp": "2026-07-09T00:59:00+00:00",
     "difficulty": {
         "1": 1,
         "2": 2
@@ -11,7 +11,11 @@
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 2
+        },
+        {
+            "name": "Rush",
+            "count": 1
         }
     ],
     "top_games": [
@@ -24,7 +28,7 @@
             "count": 1
         },
         {
-            "name": "n eld runes",
+            "name": "rush me hell",
             "count": 1
         }
     ],
@@ -40,10 +44,12 @@
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
-            },
+            }
+        ],
+        "Rush": [
             {
-                "name": "n eld runes",
-                "matched": "run",
+                "name": "rush me hell",
+                "matched": "rush",
                 "count": 1
             }
         ]
@@ -51,6 +57,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 5.67
+        "average_name_length": 6.0
     }
 }
