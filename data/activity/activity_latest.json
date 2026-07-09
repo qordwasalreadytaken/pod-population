@@ -1,17 +1,12 @@
 {
-    "timestamp": "2026-07-09T05:38:00+00:00",
+    "timestamp": "2026-07-09T06:57:00+00:00",
     "difficulty": {
-        "2": 1,
         "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 1
     },
     "activities": [
-        {
-            "name": "Other",
-            "count": 1
-        },
         {
             "name": "Trade",
             "count": 1
@@ -19,23 +14,11 @@
     ],
     "top_games": [
         {
-            "name": "jm",
-            "count": 1
-        },
-        {
             "name": "swap",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "jm",
-            "count": 2,
-            "examples": [
-                "jm"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Trade": [
             {
@@ -46,8 +29,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 3.0
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 4.0
     }
 }
