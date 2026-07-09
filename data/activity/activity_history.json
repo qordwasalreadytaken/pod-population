@@ -3331,7 +3331,7 @@
             "Leveling": [
                 {
                     "name": "act 2 start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -8493,7 +8493,7 @@
             "Leveling": [
                 {
                     "name": "act start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -9875,7 +9875,7 @@
                 },
                 {
                     "name": "act hel start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -12791,7 +12791,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "torch",
+                    "matched": "buy",
                     "count": 1
                 }
             ],
@@ -12909,7 +12909,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "torch",
+                    "matched": "buy",
                     "count": 2
                 }
             ],
@@ -13001,7 +13001,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "torch",
+                    "matched": "buy",
                     "count": 1
                 }
             ],
@@ -13194,7 +13194,7 @@
             "Trade": [
                 {
                     "name": "n free amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -13316,7 +13316,7 @@
                 },
                 {
                     "name": "n free amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -13424,7 +13424,7 @@
                 },
                 {
                     "name": "n free amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -13746,7 +13746,7 @@
                 },
                 {
                     "name": "n free amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -21252,7 +21252,7 @@
             "Trade": [
                 {
                     "name": "n free amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -25025,7 +25025,7 @@
                 },
                 {
                     "name": "n free amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -32595,7 +32595,7 @@
             "Trade": [
                 {
                     "name": "n free amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -32675,7 +32675,7 @@
             "Trade": [
                 {
                     "name": "n free amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -33290,7 +33290,7 @@
             "Trade": [
                 {
                     "name": "n free amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -34281,7 +34281,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "for",
+                    "matched": "trade",
                     "count": 1
                 }
             ],
@@ -34382,7 +34382,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "for",
+                    "matched": "trade",
                     "count": 1
                 }
             ]
@@ -35539,7 +35539,7 @@
             "Trade": [
                 {
                     "name": "n amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 },
                 {
@@ -35850,7 +35850,7 @@
             "Trade": [
                 {
                     "name": "n amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 },
                 {
@@ -35896,7 +35896,7 @@
             "Trade": [
                 {
                     "name": "n amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 },
                 {
@@ -40655,7 +40655,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "meph",
+                    "matched": "run",
                     "count": 1
                 },
                 {
@@ -40702,7 +40702,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "meph",
+                    "matched": "run",
                     "count": 1
                 },
                 {
@@ -42872,6 +42872,42 @@
     },
     {
         "timestamp": "2026-07-09T09:31:00+00:00",
+        "difficulty": {
+            "2": 1
+        },
+        "mode": {
+            "1": 1
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "a",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "a",
+                "count": 2,
+                "examples": [
+                    "a"
+                ]
+            }
+        ],
+        "classified_games": {},
+        "interesting": {
+            "unique_names": 1,
+            "public_games": 1,
+            "average_name_length": 1.0
+        }
+    },
+    {
+        "timestamp": "2026-07-09T10:34:00+00:00",
         "difficulty": {
             "2": 1
         },
