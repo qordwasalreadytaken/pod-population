@@ -1,47 +1,79 @@
 {
-    "timestamp": "2026-07-09T01:42:00+00:00",
+    "timestamp": "2026-07-09T02:41:00+00:00",
     "difficulty": {
-        "1": 1,
-        "2": 1
+        "1": 2,
+        "2": 3,
+        "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 1
+        "0": 5
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 4
+        },
+        {
+            "name": "Other",
+            "count": 1
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "asd",
+            "count": 3
+        },
         {
             "name": "ted",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "jm",
+            "count": 1
+        },
+        {
+            "name": "swap",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "jm",
+            "count": 2,
+            "examples": [
+                "jm"
+            ]
+        }
+    ],
     "classified_games": {
         "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 3
+            },
             {
                 "name": "ted",
                 "matched": "ted",
                 "count": 1
-            },
+            }
+        ],
+        "Trade": [
             {
-                "name": "asd",
-                "matched": "asd",
+                "name": "swap",
+                "matched": "swap",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
+        "unique_names": 4,
+        "public_games": 6,
         "average_name_length": 3.0
     }
 }
