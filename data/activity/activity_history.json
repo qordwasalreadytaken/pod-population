@@ -3331,7 +3331,7 @@
             "Leveling": [
                 {
                     "name": "act 2 start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -8140,7 +8140,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -12791,7 +12791,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "torch",
+                    "matched": "buy",
                     "count": 1
                 }
             ],
@@ -12909,7 +12909,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "torch",
+                    "matched": "buy",
                     "count": 2
                 }
             ],
@@ -13001,7 +13001,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "torch",
+                    "matched": "buy",
                     "count": 1
                 }
             ],
@@ -13845,7 +13845,7 @@
                 },
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -14294,7 +14294,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -14364,7 +14364,7 @@
                 },
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ],
@@ -14416,7 +14416,7 @@
                 },
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -14470,7 +14470,7 @@
                 },
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -14538,7 +14538,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 },
                 {
@@ -14810,7 +14810,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -15718,7 +15718,7 @@
             "Leveling": [
                 {
                     "name": "act 5 normal",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -16052,7 +16052,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 },
                 {
@@ -18782,7 +18782,7 @@
                 },
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -18887,7 +18887,7 @@
                 },
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -18939,7 +18939,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "asdffdf",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -19020,7 +19020,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "asdffdf",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -34281,7 +34281,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "trade",
+                    "matched": "for",
                     "count": 1
                 }
             ],
@@ -34382,7 +34382,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "trade",
+                    "matched": "for",
                     "count": 1
                 }
             ]
@@ -35556,7 +35556,7 @@
                 },
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -38092,7 +38092,7 @@
                 },
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -38258,7 +38258,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -40655,7 +40655,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "meph",
+                    "matched": "run",
                     "count": 1
                 },
                 {
@@ -40702,7 +40702,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "meph",
+                    "matched": "run",
                     "count": 1
                 },
                 {
@@ -43079,6 +43079,87 @@
         "interesting": {
             "unique_names": 2,
             "public_games": 2,
+            "average_name_length": 3.5
+        }
+    },
+    {
+        "timestamp": "2026-07-09T14:39:00+00:00",
+        "difficulty": {
+            "0": 1,
+            "2": 2,
+            "1": 1
+        },
+        "mode": {
+            "1": 1,
+            "0": 3
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 2
+            },
+            {
+                "name": "Misc. Public MF Runs",
+                "count": 1
+            },
+            {
+                "name": "Trade",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "lvl",
+                "count": 1
+            },
+            {
+                "name": "asd",
+                "count": 1
+            },
+            {
+                "name": "hell",
+                "count": 1
+            },
+            {
+                "name": "swap",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "lvl",
+                "count": 2,
+                "examples": [
+                    "lvl"
+                ]
+            },
+            {
+                "normalized": "hell",
+                "count": 2,
+                "examples": [
+                    "hell"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Misc. Public MF Runs": [
+                {
+                    "name": "asd",
+                    "matched": "asd",
+                    "count": 1
+                }
+            ],
+            "Trade": [
+                {
+                    "name": "swap",
+                    "matched": "swap",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 4,
+            "public_games": 4,
             "average_name_length": 3.5
         }
     }
