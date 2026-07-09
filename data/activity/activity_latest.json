@@ -1,13 +1,13 @@
 {
-    "timestamp": "2026-07-09T14:39:00+00:00",
+    "timestamp": "2026-07-09T15:46:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 2,
+        "2": 3,
         "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 4
     },
     "activities": [
         {
@@ -16,7 +16,7 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Trade",
@@ -25,11 +25,11 @@
     ],
     "top_games": [
         {
-            "name": "lvl",
-            "count": 1
+            "name": "asd",
+            "count": 2
         },
         {
-            "name": "asd",
+            "name": "lvl",
             "count": 1
         },
         {
@@ -62,7 +62,7 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             }
         ],
         "Trade": [
@@ -75,7 +75,7 @@
     },
     "interesting": {
         "unique_names": 4,
-        "public_games": 4,
+        "public_games": 5,
         "average_name_length": 3.5
     }
 }
