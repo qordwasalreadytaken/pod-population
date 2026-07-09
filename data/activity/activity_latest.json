@@ -1,20 +1,16 @@
 {
-    "timestamp": "2026-07-09T21:09:00+00:00",
+    "timestamp": "2026-07-09T21:45:00+00:00",
     "difficulty": {
-        "1": 1,
-        "0": 2
+        "2": 1,
+        "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 1
     },
     "activities": [
         {
             "name": "Cows",
-            "count": 1
-        },
-        {
-            "name": "Baal",
             "count": 1
         },
         {
@@ -28,10 +24,6 @@
             "count": 1
         },
         {
-            "name": "help baal",
-            "count": 1
-        },
-        {
             "name": "asd",
             "count": 1
         }
@@ -41,14 +33,7 @@
         "Cows": [
             {
                 "name": "cowcowst",
-                "matched": "cow",
-                "count": 1
-            }
-        ],
-        "Baal": [
-            {
-                "name": "help baal",
-                "matched": "baal",
+                "matched": "cows",
                 "count": 1
             }
         ],
@@ -61,8 +46,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.67
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 5.5
     }
 }

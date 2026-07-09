@@ -120,7 +120,7 @@
         {
             "name": "asd",
             "matched": "asd",
-            "count": 424
+            "count": 425
         },
         {
             "name": "mmk",
@@ -461,12 +461,17 @@
         },
         {
             "name": "cows",
-            "matched": "cow",
+            "matched": "cows",
             "count": 10
         },
         {
             "name": "cowcows",
-            "matched": "cow",
+            "matched": "cows",
+            "count": 2
+        },
+        {
+            "name": "cowcowst",
+            "matched": "cows",
             "count": 2
         },
         {
@@ -501,16 +506,11 @@
         },
         {
             "name": "cowsrus",
-            "matched": "cow",
+            "matched": "cows",
             "count": 1
         },
         {
             "name": "cowcow",
-            "matched": "cow",
-            "count": 1
-        },
-        {
-            "name": "cowcowst",
             "matched": "cow",
             "count": 1
         }
@@ -543,7 +543,7 @@
         },
         {
             "name": "n free amatorch",
-            "matched": "torch",
+            "matched": "n",
             "count": 9
         },
         {
@@ -603,7 +603,7 @@
         },
         {
             "name": "n amatorch",
-            "matched": "torch",
+            "matched": "n",
             "count": 3
         },
         {
@@ -648,7 +648,7 @@
         },
         {
             "name": "items for trade",
-            "matched": "for",
+            "matched": "trade",
             "count": 2
         },
         {
@@ -825,7 +825,7 @@
         },
         {
             "name": "norm start",
-            "matched": "start",
+            "matched": "norm",
             "count": 4
         },
         {
@@ -1062,12 +1062,12 @@
         },
         {
             "name": "maps-2",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
             "name": "maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
