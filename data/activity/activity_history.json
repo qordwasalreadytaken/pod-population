@@ -3263,7 +3263,7 @@
             "Maps": [
                 {
                     "name": "maps-2",
-                    "matched": "maps",
+                    "matched": "map",
                     "count": 1
                 }
             ],
@@ -4791,7 +4791,7 @@
             "Maps": [
                 {
                     "name": "maps-2",
-                    "matched": "maps",
+                    "matched": "map",
                     "count": 1
                 }
             ],
@@ -5014,7 +5014,7 @@
             "Cows": [
                 {
                     "name": "cows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 },
                 {
@@ -12791,7 +12791,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "torch",
+                    "matched": "buy",
                     "count": 1
                 }
             ],
@@ -12909,7 +12909,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "torch",
+                    "matched": "buy",
                     "count": 2
                 }
             ],
@@ -13001,7 +13001,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "torch",
+                    "matched": "buy",
                     "count": 1
                 }
             ],
@@ -13582,7 +13582,7 @@
                 },
                 {
                     "name": "norm start",
-                    "matched": "start",
+                    "matched": "norm",
                     "count": 1
                 }
             ],
@@ -13653,7 +13653,7 @@
                 },
                 {
                     "name": "norm start",
-                    "matched": "start",
+                    "matched": "norm",
                     "count": 1
                 }
             ],
@@ -15718,7 +15718,7 @@
             "Leveling": [
                 {
                     "name": "act 5 normal",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -17878,7 +17878,7 @@
             "Leveling": [
                 {
                     "name": "norm start",
-                    "matched": "start",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -17932,7 +17932,7 @@
             "Leveling": [
                 {
                     "name": "norm start",
-                    "matched": "start",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -18770,7 +18770,7 @@
             "Cows": [
                 {
                     "name": "cows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ],
@@ -18875,7 +18875,7 @@
             "Cows": [
                 {
                     "name": "cows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ],
@@ -25956,7 +25956,7 @@
             "Cows": [
                 {
                     "name": "cows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 2
                 }
             ]
@@ -28331,7 +28331,7 @@
             "Cows": [
                 {
                     "name": "cows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 3
                 }
             ]
@@ -29939,7 +29939,7 @@
                 },
                 {
                     "name": "cows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ],
@@ -31474,7 +31474,7 @@
             "Cows": [
                 {
                     "name": "cows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ]
@@ -33512,7 +33512,7 @@
             "Cows": [
                 {
                     "name": "cowsrus",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ],
@@ -34281,7 +34281,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "trade",
+                    "matched": "for",
                     "count": 1
                 }
             ],
@@ -34382,7 +34382,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "trade",
+                    "matched": "for",
                     "count": 1
                 }
             ]
@@ -38547,7 +38547,7 @@
             "Maps": [
                 {
                     "name": "maps",
-                    "matched": "maps",
+                    "matched": "map",
                     "count": 1
                 }
             ],
@@ -38625,7 +38625,7 @@
             "Maps": [
                 {
                     "name": "maps",
-                    "matched": "maps",
+                    "matched": "map",
                     "count": 1
                 }
             ],
@@ -42976,6 +42976,58 @@
             "unique_names": 1,
             "public_games": 1,
             "average_name_length": 4.0
+        }
+    },
+    {
+        "timestamp": "2026-07-09T12:36:00+00:00",
+        "difficulty": {
+            "2": 2,
+            "1": 1
+        },
+        "mode": {
+            "0": 3
+        },
+        "activities": [
+            {
+                "name": "Misc. Public MF Runs",
+                "count": 2
+            },
+            {
+                "name": "Trade",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "asd",
+                "count": 2
+            },
+            {
+                "name": "swap",
+                "count": 1
+            }
+        ],
+        "unknown_games": [],
+        "classified_games": {
+            "Misc. Public MF Runs": [
+                {
+                    "name": "asd",
+                    "matched": "asd",
+                    "count": 2
+                }
+            ],
+            "Trade": [
+                {
+                    "name": "swap",
+                    "matched": "swap",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 2,
+            "public_games": 3,
+            "average_name_length": 3.5
         }
     }
 ]
