@@ -1,21 +1,17 @@
 {
-    "timestamp": "2026-07-09T00:59:00+00:00",
+    "timestamp": "2026-07-09T01:42:00+00:00",
     "difficulty": {
         "1": 1,
-        "2": 2
+        "2": 1
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
             "count": 2
-        },
-        {
-            "name": "Rush",
-            "count": 1
         }
     ],
     "top_games": [
@@ -25,10 +21,6 @@
         },
         {
             "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "rush me hell",
             "count": 1
         }
     ],
@@ -45,18 +37,11 @@
                 "matched": "asd",
                 "count": 1
             }
-        ],
-        "Rush": [
-            {
-                "name": "rush me hell",
-                "matched": "rush",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 3.0
     }
 }
