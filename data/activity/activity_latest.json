@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-07-09T21:45:00+00:00",
+    "timestamp": "2026-07-09T22:16:00+00:00",
     "difficulty": {
         "2": 1,
-        "1": 1
+        "1": 2
     },
     "mode": {
         "1": 1,
-        "0": 1
+        "0": 2
     },
     "activities": [
         {
-            "name": "Cows",
-            "count": 1
+            "name": "Misc. Public MF Runs",
+            "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Cows",
             "count": 1
         }
     ],
@@ -26,6 +26,10 @@
         {
             "name": "asd",
             "count": 1
+        },
+        {
+            "name": "1234",
+            "count": 1
         }
     ],
     "unknown_games": [],
@@ -33,7 +37,7 @@
         "Cows": [
             {
                 "name": "cowcowst",
-                "matched": "cows",
+                "matched": "cow",
                 "count": 1
             }
         ],
@@ -42,12 +46,17 @@
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
+            },
+            {
+                "name": "1234",
+                "matched": "123",
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 5.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 5.0
     }
 }
