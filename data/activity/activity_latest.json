@@ -1,18 +1,18 @@
 {
-    "timestamp": "2026-07-09T19:51:00+00:00",
+    "timestamp": "2026-07-09T20:33:00+00:00",
     "difficulty": {
-        "1": 2,
         "2": 2,
+        "1": 1,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 3
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 4
+            "count": 3
         },
         {
             "name": "Cows",
@@ -21,15 +21,15 @@
     ],
     "top_games": [
         {
-            "name": "gord",
-            "count": 2
-        },
-        {
             "name": "cowcows",
             "count": 1
         },
         {
-            "name": "1234",
+            "name": "gord",
+            "count": 1
+        },
+        {
+            "name": "1235",
             "count": 1
         },
         {
@@ -42,7 +42,7 @@
         "Cows": [
             {
                 "name": "cowcows",
-                "matched": "cows",
+                "matched": "cow",
                 "count": 1
             }
         ],
@@ -50,10 +50,10 @@
             {
                 "name": "gord",
                 "matched": "gord",
-                "count": 2
+                "count": 1
             },
             {
-                "name": "1234",
+                "name": "1235",
                 "matched": "123",
                 "count": 1
             },
@@ -66,7 +66,7 @@
     },
     "interesting": {
         "unique_names": 4,
-        "public_games": 5,
+        "public_games": 4,
         "average_name_length": 4.5
     }
 }
