@@ -1,35 +1,34 @@
 {
-    "timestamp": "2026-07-09T20:33:00+00:00",
+    "timestamp": "2026-07-09T21:09:00+00:00",
     "difficulty": {
-        "2": 2,
         "1": 1,
-        "0": 1
+        "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 2
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 3
+            "name": "Cows",
+            "count": 1
         },
         {
-            "name": "Cows",
+            "name": "Baal",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "cowcows",
+            "name": "cowcowst",
             "count": 1
         },
         {
-            "name": "gord",
-            "count": 1
-        },
-        {
-            "name": "1235",
+            "name": "help baal",
             "count": 1
         },
         {
@@ -41,22 +40,19 @@
     "classified_games": {
         "Cows": [
             {
-                "name": "cowcows",
+                "name": "cowcowst",
                 "matched": "cow",
                 "count": 1
             }
         ],
+        "Baal": [
+            {
+                "name": "help baal",
+                "matched": "baal",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            },
-            {
-                "name": "1235",
-                "matched": "123",
-                "count": 1
-            },
             {
                 "name": "asd",
                 "matched": "asd",
@@ -65,8 +61,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 4.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 6.67
     }
 }
