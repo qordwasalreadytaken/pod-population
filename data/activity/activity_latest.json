@@ -1,18 +1,23 @@
 {
-    "timestamp": "2026-07-10T00:30:00+00:00",
+    "timestamp": "2026-07-10T01:15:00+00:00",
     "difficulty": {
+        "2": 1,
         "1": 1
     },
     "mode": {
-        "0": 1
+        "0": 2
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
+        {
+            "name": "dasdas",
+            "count": 1
+        },
         {
             "name": "asd",
             "count": 1
@@ -22,6 +27,11 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
+                "name": "dasdas",
+                "matched": "asd",
+                "count": 1
+            },
+            {
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
@@ -29,8 +39,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 3.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 4.5
     }
 }
