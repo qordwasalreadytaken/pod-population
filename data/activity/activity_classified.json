@@ -140,7 +140,7 @@
         {
             "name": "gord",
             "matched": "gord",
-            "count": 29
+            "count": 30
         },
         {
             "name": "derp",
@@ -314,7 +314,7 @@
         },
         {
             "name": "meph run",
-            "matched": "meph",
+            "matched": "run",
             "count": 2
         },
         {
@@ -573,7 +573,7 @@
         },
         {
             "name": "buy necr torch",
-            "matched": "buy",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -1077,12 +1077,12 @@
         },
         {
             "name": "maps-2",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
             "name": "maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
@@ -1204,6 +1204,11 @@
         },
         {
             "name": "nm baal",
+            "matched": "baal",
+            "count": 1
+        },
+        {
+            "name": "norm baal",
             "matched": "baal",
             "count": 1
         }
