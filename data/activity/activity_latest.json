@@ -1,19 +1,12 @@
 {
-    "timestamp": "2026-07-10T19:30:00+00:00",
+    "timestamp": "2026-07-10T20:03:00+00:00",
     "difficulty": {
-        "1": 1,
-        "2": 1,
-        "0": 1
+        "2": 1
     },
     "mode": {
-        "1": 1,
-        "0": 2
+        "0": 1
     },
     "activities": [
-        {
-            "name": "Other",
-            "count": 2
-        },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
@@ -21,34 +14,11 @@
     ],
     "top_games": [
         {
-            "name": "window shop",
-            "count": 1
-        },
-        {
             "name": "asd",
             "count": 1
-        },
-        {
-            "name": "new",
-            "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "window shop",
-            "count": 2,
-            "examples": [
-                "window shop"
-            ]
-        },
-        {
-            "normalized": "new",
-            "count": 2,
-            "examples": [
-                "new"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
@@ -59,8 +29,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 5.67
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 3.0
     }
 }
