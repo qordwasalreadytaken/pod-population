@@ -1,54 +1,91 @@
 {
-    "timestamp": "2026-07-11T10:48:00+00:00",
+    "timestamp": "2026-07-11T11:21:00+00:00",
     "difficulty": {
-        "0": 1,
-        "1": 1
+        "0": 4,
+        "2": 1
     },
     "mode": {
-        "1": 1,
-        "0": 1
+        "1": 3,
+        "0": 2
     },
     "activities": [
         {
             "name": "Other",
+            "count": 3
+        },
+        {
+            "name": "Cows",
             "count": 1
         },
         {
-            "name": "Baal",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "eq",
+            "count": 1
+        },
+        {
             "name": "qe",
             "count": 1
         },
         {
-            "name": "nmbaal",
+            "name": "ok",
+            "count": 1
+        },
+        {
+            "name": "cows",
+            "count": 1
+        },
+        {
+            "name": "swap",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "eq",
+            "count": 2,
+            "examples": [
+                "eq"
+            ]
+        },
         {
             "normalized": "qe",
             "count": 2,
             "examples": [
                 "qe"
             ]
+        },
+        {
+            "normalized": "ok",
+            "count": 2,
+            "examples": [
+                "ok"
+            ]
         }
     ],
     "classified_games": {
-        "Baal": [
+        "Cows": [
             {
-                "name": "nmbaal",
-                "matched": "baal",
+                "name": "cows",
+                "matched": "cow",
+                "count": 1
+            }
+        ],
+        "Trade": [
+            {
+                "name": "swap",
+                "matched": "swap",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 4.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 2.8
     }
 }
