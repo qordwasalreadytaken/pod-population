@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-07-11T15:05:00+00:00",
+    "timestamp": "2026-07-11T15:34:00+00:00",
     "difficulty": {
         "1": 1,
-        "0": 3,
+        "0": 2,
         "2": 2
     },
     "mode": {
         "1": 2,
-        "0": 4
+        "0": 3
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 3
         },
         {
-            "name": "Other",
-            "count": 2
+            "name": "Misc. Public MF Runs",
+            "count": 1
         },
         {
             "name": "Trade",
@@ -25,15 +25,19 @@
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 3
-        },
-        {
             "name": "eq",
             "count": 1
         },
         {
             "name": "qordsohandsome",
+            "count": 1
+        },
+        {
+            "name": "hell",
+            "count": 1
+        },
+        {
+            "name": "asd",
             "count": 1
         },
         {
@@ -55,6 +59,13 @@
             "examples": [
                 "qordsohandsome"
             ]
+        },
+        {
+            "normalized": "hell",
+            "count": 2,
+            "examples": [
+                "hell"
+            ]
         }
     ],
     "classified_games": {
@@ -62,7 +73,7 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 3
+                "count": 1
             }
         ],
         "Trade": [
@@ -74,8 +85,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 6,
-        "average_name_length": 5.75
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 5.4
     }
 }
