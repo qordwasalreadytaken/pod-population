@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-11T13:29:00+00:00",
+    "timestamp": "2026-07-11T14:04:00+00:00",
     "difficulty": {
         "2": 2,
         "0": 2
@@ -11,10 +11,14 @@
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
+            "name": "Trade",
             "count": 1
         }
     ],
@@ -28,11 +32,11 @@
             "count": 1
         },
         {
-            "name": "fafs",
+            "name": "fadaffs",
             "count": 1
         },
         {
-            "name": "ffff",
+            "name": "swap",
             "count": 1
         }
     ],
@@ -45,17 +49,10 @@
             ]
         },
         {
-            "normalized": "fafs",
+            "normalized": "fadaffs",
             "count": 2,
             "examples": [
-                "fafs"
-            ]
-        },
-        {
-            "normalized": "ffff",
-            "count": 2,
-            "examples": [
-                "ffff"
+                "fadaffs"
             ]
         }
     ],
@@ -66,11 +63,18 @@
                 "matched": "asd",
                 "count": 1
             }
+        ],
+        "Trade": [
+            {
+                "name": "swap",
+                "matched": "swap",
+                "count": 1
+            }
         ]
     },
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 3.0
+        "average_name_length": 3.75
     }
 }
