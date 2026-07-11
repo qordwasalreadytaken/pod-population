@@ -1,9 +1,8 @@
 {
-    "timestamp": "2026-07-11T17:06:00+00:00",
+    "timestamp": "2026-07-11T17:34:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1,
-        "0": 1
+        "2": 3,
+        "1": 1
     },
     "mode": {
         "1": 1,
@@ -11,15 +10,15 @@
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         },
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -33,11 +32,11 @@
             "count": 1
         },
         {
-            "name": "swap",
+            "name": "n griffon 3s",
             "count": 1
         },
         {
-            "name": "noob",
+            "name": "swap",
             "count": 1
         }
     ],
@@ -47,13 +46,6 @@
             "count": 2,
             "examples": [
                 "crip"
-            ]
-        },
-        {
-            "normalized": "noob",
-            "count": 2,
-            "examples": [
-                "noob"
             ]
         }
     ],
@@ -67,6 +59,11 @@
         ],
         "Trade": [
             {
+                "name": "n griffon 3s",
+                "matched": "n",
+                "count": 1
+            },
+            {
                 "name": "swap",
                 "matched": "swap",
                 "count": 1
@@ -76,6 +73,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 3.75
+        "average_name_length": 5.75
     }
 }
