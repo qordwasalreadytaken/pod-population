@@ -3263,7 +3263,7 @@
             "Maps": [
                 {
                     "name": "maps-2",
-                    "matched": "maps",
+                    "matched": "map",
                     "count": 1
                 }
             ],
@@ -4791,7 +4791,7 @@
             "Maps": [
                 {
                     "name": "maps-2",
-                    "matched": "maps",
+                    "matched": "map",
                     "count": 1
                 }
             ],
@@ -11679,7 +11679,7 @@
             "Trade": [
                 {
                     "name": "lmk what u n",
-                    "matched": "n",
+                    "matched": "lmk",
                     "count": 1
                 }
             ],
@@ -12791,7 +12791,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "torch",
+                    "matched": "buy",
                     "count": 1
                 }
             ],
@@ -12909,7 +12909,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "torch",
+                    "matched": "buy",
                     "count": 2
                 }
             ],
@@ -13001,7 +13001,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "torch",
+                    "matched": "buy",
                     "count": 1
                 }
             ],
@@ -38547,7 +38547,7 @@
             "Maps": [
                 {
                     "name": "maps",
-                    "matched": "maps",
+                    "matched": "map",
                     "count": 1
                 }
             ],
@@ -38625,7 +38625,7 @@
             "Maps": [
                 {
                     "name": "maps",
-                    "matched": "maps",
+                    "matched": "map",
                     "count": 1
                 }
             ],
@@ -45988,7 +45988,7 @@
             "Leveling": [
                 {
                     "name": "norm act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -47633,6 +47633,42 @@
     },
     {
         "timestamp": "2026-07-11T20:29:00+00:00",
+        "difficulty": {
+            "0": 1
+        },
+        "mode": {
+            "1": 1
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "ok",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "ok",
+                "count": 2,
+                "examples": [
+                    "ok"
+                ]
+            }
+        ],
+        "classified_games": {},
+        "interesting": {
+            "unique_names": 1,
+            "public_games": 1,
+            "average_name_length": 2.0
+        }
+    },
+    {
+        "timestamp": "2026-07-11T20:51:00+00:00",
         "difficulty": {
             "0": 1
         },
