@@ -1,101 +1,60 @@
 {
-    "timestamp": "2026-07-11T18:32:00+00:00",
+    "timestamp": "2026-07-11T19:07:00+00:00",
     "difficulty": {
-        "2": 7
+        "2": 4
     },
     "mode": {
-        "1": 2,
-        "0": 5
+        "0": 4
     },
     "activities": [
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 3
         },
         {
-            "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Leveling",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "crip",
+            "name": "asd",
             "count": 2
         },
         {
-            "name": "act new",
-            "count": 1
-        },
-        {
-            "name": "swap",
-            "count": 1
-        },
-        {
-            "name": "asd",
+            "name": "gord",
             "count": 1
         },
         {
             "name": "n 6os windforce",
             "count": 1
-        },
-        {
-            "name": "n griffon 3s",
-            "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "crip",
-            "count": 4,
-            "examples": [
-                "crip"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
-        "Leveling": [
+        "Misc. Public MF Runs": [
             {
-                "name": "act new",
-                "matched": "act",
+                "name": "asd",
+                "matched": "asd",
+                "count": 2
+            },
+            {
+                "name": "gord",
+                "matched": "gord",
                 "count": 1
             }
         ],
         "Trade": [
             {
-                "name": "swap",
-                "matched": "swap",
-                "count": 1
-            },
-            {
                 "name": "n 6os windforce",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "n griffon 3s",
-                "matched": "n",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
+                "matched": "for",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 7.5
+        "unique_names": 3,
+        "public_games": 4,
+        "average_name_length": 7.33
     }
 }
