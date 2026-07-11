@@ -1,7 +1,8 @@
 {
-    "timestamp": "2026-07-11T14:04:00+00:00",
+    "timestamp": "2026-07-11T14:36:00+00:00",
     "difficulty": {
-        "2": 2,
+        "1": 1,
+        "2": 1,
         "0": 2
     },
     "mode": {
@@ -10,11 +11,11 @@
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         },
         {
@@ -24,7 +25,7 @@
     ],
     "top_games": [
         {
-            "name": "a",
+            "name": "eq",
             "count": 1
         },
         {
@@ -32,27 +33,20 @@
             "count": 1
         },
         {
-            "name": "fadaffs",
+            "name": "swap",
             "count": 1
         },
         {
-            "name": "swap",
+            "name": "asfasasd",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "a",
+            "normalized": "eq",
             "count": 2,
             "examples": [
-                "a"
-            ]
-        },
-        {
-            "normalized": "fadaffs",
-            "count": 2,
-            "examples": [
-                "fadaffs"
+                "eq"
             ]
         }
     ],
@@ -60,6 +54,11 @@
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "asfasasd",
                 "matched": "asd",
                 "count": 1
             }
@@ -75,6 +74,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 3.75
+        "average_name_length": 4.25
     }
 }
