@@ -1,11 +1,12 @@
 {
-    "timestamp": "2026-07-11T16:31:00+00:00",
+    "timestamp": "2026-07-11T17:06:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 2,
+        "1": 1,
         "0": 1
     },
     "mode": {
-        "1": 2,
+        "1": 1,
         "0": 3
     },
     "activities": [
@@ -15,7 +16,7 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Trade",
@@ -25,23 +26,34 @@
     "top_games": [
         {
             "name": "crip",
-            "count": 2
+            "count": 1
         },
         {
             "name": "asd",
-            "count": 2
+            "count": 1
         },
         {
             "name": "swap",
+            "count": 1
+        },
+        {
+            "name": "noob",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "crip",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "crip"
+            ]
+        },
+        {
+            "normalized": "noob",
+            "count": 2,
+            "examples": [
+                "noob"
             ]
         }
     ],
@@ -50,7 +62,7 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             }
         ],
         "Trade": [
@@ -62,8 +74,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 5,
-        "average_name_length": 3.67
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 3.75
     }
 }
