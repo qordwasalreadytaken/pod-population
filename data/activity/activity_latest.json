@@ -1,62 +1,51 @@
 {
-    "timestamp": "2026-07-11T19:39:00+00:00",
+    "timestamp": "2026-07-11T20:06:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 1
+        "2": 2
     },
     "mode": {
-        "0": 4
+        "0": 2
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 3
+            "name": "Trade",
+            "count": 1
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "n 6os windforce",
+            "count": 1
+        },
+        {
             "name": "gord",
-            "count": 2
-        },
-        {
-            "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "rer",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "rer",
-            "count": 2,
-            "examples": [
-                "rer"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n 6os windforce",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "gord",
                 "matched": "gord",
-                "count": 2
-            },
-            {
-                "name": "asd",
-                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 4,
-        "average_name_length": 3.33
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 9.5
     }
 }
