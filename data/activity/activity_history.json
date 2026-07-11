@@ -13582,7 +13582,7 @@
                 },
                 {
                     "name": "norm start",
-                    "matched": "start",
+                    "matched": "norm",
                     "count": 1
                 }
             ],
@@ -13653,7 +13653,7 @@
                 },
                 {
                     "name": "norm start",
-                    "matched": "start",
+                    "matched": "norm",
                     "count": 1
                 }
             ],
@@ -17878,7 +17878,7 @@
             "Leveling": [
                 {
                     "name": "norm start",
-                    "matched": "start",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -17932,7 +17932,7 @@
             "Leveling": [
                 {
                     "name": "norm start",
-                    "matched": "start",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -34281,7 +34281,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "trade",
+                    "matched": "for",
                     "count": 1
                 }
             ],
@@ -34382,7 +34382,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "trade",
+                    "matched": "for",
                     "count": 1
                 }
             ]
@@ -40655,7 +40655,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "run",
+                    "matched": "meph",
                     "count": 1
                 },
                 {
@@ -40702,7 +40702,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "run",
+                    "matched": "meph",
                     "count": 1
                 },
                 {
@@ -47806,6 +47806,42 @@
     },
     {
         "timestamp": "2026-07-11T22:15:00+00:00",
+        "difficulty": {
+            "2": 1
+        },
+        "mode": {
+            "0": 1
+        },
+        "activities": [
+            {
+                "name": "Misc. Public MF Runs",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "asd",
+                "count": 1
+            }
+        ],
+        "unknown_games": [],
+        "classified_games": {
+            "Misc. Public MF Runs": [
+                {
+                    "name": "asd",
+                    "matched": "asd",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 1,
+            "public_games": 1,
+            "average_name_length": 3.0
+        }
+    },
+    {
+        "timestamp": "2026-07-11T22:45:00+00:00",
         "difficulty": {
             "2": 1
         },
