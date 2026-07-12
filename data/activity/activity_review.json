@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 154,
+        "count": 156,
         "examples": [
             "1",
             "11",
@@ -24,7 +24,7 @@
     },
     {
         "normalized": "a#h",
-        "count": 62,
+        "count": 64,
         "examples": [
             "a1h",
             "a2h",
@@ -554,6 +554,13 @@
         ]
     },
     {
+        "normalized": "fadfsd",
+        "count": 6,
+        "examples": [
+            "fadfsd"
+        ]
+    },
+    {
         "normalized": "what u need",
         "count": 4,
         "examples": [
@@ -966,13 +973,6 @@
         "count": 4,
         "examples": [
             "adf"
-        ]
-    },
-    {
-        "normalized": "fadfsd",
-        "count": 4,
-        "examples": [
-            "fadfsd"
         ]
     },
     {
@@ -2345,6 +2345,13 @@
         "count": 2,
         "examples": [
             "adfsasfas"
+        ]
+    },
+    {
+        "normalized": "rfref",
+        "count": 2,
+        "examples": [
+            "rfref"
         ]
     }
 ]
