@@ -1,31 +1,22 @@
 {
-    "timestamp": "2026-07-12T15:47:00+00:00",
+    "timestamp": "2026-07-12T16:18:00+00:00",
     "difficulty": {
         "1": 1,
-        "0": 1,
-        "2": 3
+        "2": 2
     },
     "mode": {
-        "1": 2,
-        "0": 3
+        "1": 1,
+        "0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
         {
             "name": "qordsohandsome",
-            "count": 1
-        },
-        {
-            "name": "ok",
             "count": 1
         },
         {
@@ -35,10 +26,6 @@
         {
             "name": "yup",
             "count": 1
-        },
-        {
-            "name": "asd",
-            "count": 1
         }
     ],
     "unknown_games": [
@@ -47,13 +34,6 @@
             "count": 2,
             "examples": [
                 "qordsohandsome"
-            ]
-        },
-        {
-            "normalized": "ok",
-            "count": 2,
-            "examples": [
-                "ok"
             ]
         },
         {
@@ -71,18 +51,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 8.33
     }
 }
