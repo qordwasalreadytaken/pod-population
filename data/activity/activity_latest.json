@@ -1,53 +1,14 @@
 {
-    "timestamp": "2026-07-12T03:01:00+00:00",
-    "difficulty": {
-        "2": 2
-    },
-    "mode": {
-        "1": 1,
-        "0": 1
-    },
-    "activities": [
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Other",
-            "count": 1
-        }
-    ],
-    "top_games": [
-        {
-            "name": "ted",
-            "count": 1
-        },
-        {
-            "name": "wetqwet",
-            "count": 1
-        }
-    ],
-    "unknown_games": [
-        {
-            "normalized": "wetqwet",
-            "count": 2,
-            "examples": [
-                "wetqwet"
-            ]
-        }
-    ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "ted",
-                "matched": "ted",
-                "count": 1
-            }
-        ]
-    },
+    "timestamp": "2026-07-12T04:23:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "activities": [],
+    "top_games": [],
+    "unknown_games": [],
+    "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 5.0
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
