@@ -1,43 +1,35 @@
 {
-    "timestamp": "2026-07-12T12:32:00+00:00",
+    "timestamp": "2026-07-12T13:08:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 1,
         "1": 1,
-        "0": 4
+        "0": 3
     },
     "mode": {
-        "1": 3,
-        "0": 5
+        "1": 1,
+        "0": 4
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
             "count": 2
-        },
-        {
-            "name": "Trade",
-            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "asd",
-            "count": 2
-        },
         {
             "name": "a5h",
             "count": 1
         },
         {
-            "name": "qordsohandsome",
+            "name": "aaa",
             "count": 1
         },
         {
-            "name": "ok",
+            "name": "gord",
             "count": 1
         },
         {
@@ -47,10 +39,6 @@
         {
             "name": "fadfsd",
             "count": 1
-        },
-        {
-            "name": "swap",
-            "count": 1
         }
     ],
     "unknown_games": [
@@ -59,20 +47,6 @@
             "count": 2,
             "examples": [
                 "a5h"
-            ]
-        },
-        {
-            "normalized": "qordsohandsome",
-            "count": 2,
-            "examples": [
-                "qordsohandsome"
-            ]
-        },
-        {
-            "normalized": "ok",
-            "count": 2,
-            "examples": [
-                "ok"
             ]
         },
         {
@@ -93,22 +67,20 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
-                "matched": "asd",
-                "count": 2
-            }
-        ],
-        "Trade": [
+                "name": "aaa",
+                "matched": "aaa",
+                "count": 1
+            },
             {
-                "name": "swap",
-                "matched": "swap",
+                "name": "gord",
+                "matched": "gord",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 8,
-        "average_name_length": 4.86
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 3.6
     }
 }
