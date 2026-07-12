@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-12T08:31:00+00:00",
+    "timestamp": "2026-07-12T09:24:00+00:00",
     "difficulty": {
         "2": 2,
         "0": 1
@@ -10,55 +10,50 @@
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "lvv",
+            "name": "refrf",
             "count": 1
         },
         {
-            "name": "errf",
+            "name": "rth",
             "count": 1
         },
         {
-            "name": "asda",
+            "name": "afdfaff",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "lvv",
+            "normalized": "refrf",
             "count": 2,
             "examples": [
-                "lvv"
+                "refrf"
             ]
         },
         {
-            "normalized": "errf",
+            "normalized": "rth",
             "count": 2,
             "examples": [
-                "errf"
+                "rth"
+            ]
+        },
+        {
+            "normalized": "afdfaff",
+            "count": 2,
+            "examples": [
+                "afdfaff"
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asda",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 3.67
+        "average_name_length": 5.0
     }
 }
