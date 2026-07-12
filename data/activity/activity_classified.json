@@ -163,14 +163,14 @@
             "count": 17
         },
         {
-            "name": "aaa",
-            "matched": "aaa",
+            "name": "asdff",
+            "matched": "asd",
             "count": 15
         },
         {
-            "name": "asdff",
-            "matched": "asd",
-            "count": 14
+            "name": "aaa",
+            "matched": "aaa",
+            "count": 15
         },
         {
             "name": "aa",
@@ -544,7 +544,7 @@
         {
             "name": "swap",
             "matched": "swap",
-            "count": 80
+            "count": 81
         },
         {
             "name": "n shadow gc",
@@ -563,12 +563,12 @@
         },
         {
             "name": "n ama torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 14
         },
         {
             "name": "n free amatorch",
-            "matched": "torch",
+            "matched": "n",
             "count": 9
         },
         {
@@ -633,7 +633,7 @@
         },
         {
             "name": "n amatorch",
-            "matched": "torch",
+            "matched": "n",
             "count": 3
         },
         {
@@ -1035,7 +1035,7 @@
         },
         {
             "name": "act 5 normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -1107,12 +1107,12 @@
         },
         {
             "name": "maps-2",
-            "matched": "map",
+            "matched": "maps",
             "count": 2
         },
         {
             "name": "maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 2
         },
         {
@@ -1132,6 +1132,11 @@
         },
         {
             "name": "mapz-2",
+            "matched": "map",
+            "count": 1
+        },
+        {
+            "name": "mapz-3",
             "matched": "map",
             "count": 1
         }
