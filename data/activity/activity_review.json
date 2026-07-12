@@ -17,7 +17,7 @@
     },
     {
         "normalized": "a",
-        "count": 144,
+        "count": 146,
         "examples": [
             "a"
         ]
@@ -216,6 +216,13 @@
         ]
     },
     {
+        "normalized": "dsf",
+        "count": 12,
+        "examples": [
+            "dsf"
+        ]
+    },
+    {
         "normalized": "hell o",
         "count": 12,
         "examples": [
@@ -293,10 +300,10 @@
         ]
     },
     {
-        "normalized": "dsf",
+        "normalized": "cain",
         "count": 10,
         "examples": [
-            "dsf"
+            "cain"
         ]
     },
     {
@@ -369,13 +376,6 @@
         "count": 8,
         "examples": [
             "glitter"
-        ]
-    },
-    {
-        "normalized": "cain",
-        "count": 8,
-        "examples": [
-            "cain"
         ]
     },
     {
@@ -2373,6 +2373,13 @@
         "count": 2,
         "examples": [
             "rfref"
+        ]
+    },
+    {
+        "normalized": "help plz",
+        "count": 2,
+        "examples": [
+            "help plz"
         ]
     }
 ]
