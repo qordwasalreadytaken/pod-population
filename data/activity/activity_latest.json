@@ -1,9 +1,8 @@
 {
-    "timestamp": "2026-07-12T14:52:00+00:00",
+    "timestamp": "2026-07-12T15:21:00+00:00",
     "difficulty": {
         "1": 2,
-        "2": 1,
-        "0": 1
+        "2": 2
     },
     "mode": {
         "1": 1,
@@ -25,15 +24,15 @@
             "count": 1
         },
         {
+            "name": "lvup gogo",
+            "count": 1
+        },
+        {
             "name": "asd",
             "count": 1
         },
         {
             "name": "gord",
-            "count": 1
-        },
-        {
-            "name": "gagagadg",
             "count": 1
         }
     ],
@@ -46,10 +45,10 @@
             ]
         },
         {
-            "normalized": "gagagadg",
+            "normalized": "lvup gogo",
             "count": 2,
             "examples": [
-                "gagagadg"
+                "lvup gogo"
             ]
         }
     ],
@@ -70,6 +69,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 7.25
+        "average_name_length": 7.5
     }
 }
