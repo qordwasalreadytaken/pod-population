@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 150,
+        "count": 152,
         "examples": [
             "1",
             "11",
@@ -24,7 +24,7 @@
     },
     {
         "normalized": "a#h",
-        "count": 58,
+        "count": 60,
         "examples": [
             "a1h",
             "a2h",
@@ -62,17 +62,17 @@
         ]
     },
     {
+        "normalized": "qordsohandsome",
+        "count": 26,
+        "examples": [
+            "qordsohandsome"
+        ]
+    },
+    {
         "normalized": "v",
         "count": 24,
         "examples": [
             "v"
-        ]
-    },
-    {
-        "normalized": "qordsohandsome",
-        "count": 24,
-        "examples": [
-            "qordsohandsome"
         ]
     },
     {
@@ -121,6 +121,13 @@
         ]
     },
     {
+        "normalized": "ok",
+        "count": 18,
+        "examples": [
+            "ok"
+        ]
+    },
+    {
         "normalized": "huh #",
         "count": 16,
         "examples": [
@@ -136,13 +143,6 @@
         "count": 16,
         "examples": [
             "jm"
-        ]
-    },
-    {
-        "normalized": "ok",
-        "count": 16,
-        "examples": [
-            "ok"
         ]
     },
     {
@@ -2338,6 +2338,13 @@
         "count": 2,
         "examples": [
             "adfsasfas"
+        ]
+    },
+    {
+        "normalized": "fadfsd",
+        "count": 2,
+        "examples": [
+            "fadfsd"
         ]
     }
 ]
