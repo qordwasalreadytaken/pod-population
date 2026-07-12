@@ -1,60 +1,14 @@
 {
-    "timestamp": "2026-07-12T16:18:00+00:00",
-    "difficulty": {
-        "1": 1,
-        "2": 2
-    },
-    "mode": {
-        "1": 1,
-        "0": 2
-    },
-    "activities": [
-        {
-            "name": "Other",
-            "count": 3
-        }
-    ],
-    "top_games": [
-        {
-            "name": "qordsohandsome",
-            "count": 1
-        },
-        {
-            "name": "yatusabe",
-            "count": 1
-        },
-        {
-            "name": "yup",
-            "count": 1
-        }
-    ],
-    "unknown_games": [
-        {
-            "normalized": "qordsohandsome",
-            "count": 2,
-            "examples": [
-                "qordsohandsome"
-            ]
-        },
-        {
-            "normalized": "yatusabe",
-            "count": 2,
-            "examples": [
-                "yatusabe"
-            ]
-        },
-        {
-            "normalized": "yup",
-            "count": 2,
-            "examples": [
-                "yup"
-            ]
-        }
-    ],
+    "timestamp": "2026-07-12T16:46:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "activities": [],
+    "top_games": [],
+    "unknown_games": [],
     "classified_games": {},
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 8.33
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
