@@ -1,31 +1,31 @@
 {
-    "timestamp": "2026-07-12T14:29:00+00:00",
+    "timestamp": "2026-07-12T14:52:00+00:00",
     "difficulty": {
         "1": 2,
-        "2": 2,
+        "2": 1,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 3
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 3
+            "name": "Other",
+            "count": 2
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 2
+            "name": "qordsohandsome",
+            "count": 1
         },
         {
-            "name": "qordsohandsome",
+            "name": "asd",
             "count": 1
         },
         {
@@ -58,7 +58,7 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             },
             {
                 "name": "gord",
@@ -69,7 +69,7 @@
     },
     "interesting": {
         "unique_names": 4,
-        "public_games": 5,
+        "public_games": 4,
         "average_name_length": 7.25
     }
 }
