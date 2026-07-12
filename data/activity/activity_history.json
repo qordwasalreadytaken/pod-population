@@ -35539,7 +35539,7 @@
             "Trade": [
                 {
                     "name": "n amatorch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 },
                 {
@@ -35850,7 +35850,7 @@
             "Trade": [
                 {
                     "name": "n amatorch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 },
                 {
@@ -35896,7 +35896,7 @@
             "Trade": [
                 {
                     "name": "n amatorch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 },
                 {
@@ -45988,7 +45988,7 @@
             "Leveling": [
                 {
                     "name": "norm act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -47435,7 +47435,7 @@
                 },
                 {
                     "name": "n 6os windforce",
-                    "matched": "n",
+                    "matched": "for",
                     "count": 1
                 },
                 {
@@ -47507,7 +47507,7 @@
             "Trade": [
                 {
                     "name": "n 6os windforce",
-                    "matched": "n",
+                    "matched": "for",
                     "count": 1
                 }
             ]
@@ -47613,7 +47613,7 @@
             "Trade": [
                 {
                     "name": "n 6os windforce",
-                    "matched": "n",
+                    "matched": "for",
                     "count": 1
                 }
             ],
@@ -50190,6 +50190,60 @@
                 "count": 2,
                 "examples": [
                     "ok"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Trade": [
+                {
+                    "name": "1 ooc for 1 eld",
+                    "matched": "for",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 2,
+            "public_games": 2,
+            "average_name_length": 8.5
+        }
+    },
+    {
+        "timestamp": "2026-07-12T22:15:00+00:00",
+        "difficulty": {
+            "1": 1,
+            "2": 1
+        },
+        "mode": {
+            "1": 1,
+            "0": 1
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 1
+            },
+            {
+                "name": "Trade",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "qe",
+                "count": 1
+            },
+            {
+                "name": "1 ooc for 1 eld",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "qe",
+                "count": 2,
+                "examples": [
+                    "qe"
                 ]
             }
         ],
