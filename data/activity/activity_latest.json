@@ -1,16 +1,16 @@
 {
-    "timestamp": "2026-07-13T19:09:00+00:00",
+    "timestamp": "2026-07-13T19:46:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 3
     },
     "mode": {
-        "1": 2,
+        "1": 1,
         "0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Trade",
@@ -20,21 +20,21 @@
     "top_games": [
         {
             "name": "hell o",
-            "count": 2
-        },
-        {
-            "name": "lvv",
             "count": 1
         },
         {
-            "name": "bring arach 1",
+            "name": "bring arach 3",
+            "count": 1
+        },
+        {
+            "name": "lvv",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "hell o",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "hell o"
             ]
@@ -50,7 +50,7 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "bring arach 1",
+                "name": "bring arach 3",
                 "matched": "bring",
                 "count": 1
             }
@@ -58,7 +58,7 @@
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 4,
+        "public_games": 3,
         "average_name_length": 7.33
     }
 }
