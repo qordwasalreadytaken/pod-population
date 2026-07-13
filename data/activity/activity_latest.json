@@ -1,35 +1,51 @@
 {
-    "timestamp": "2026-07-13T17:14:00+00:00",
+    "timestamp": "2026-07-13T17:58:00+00:00",
     "difficulty": {
-        "0": 2
+        "1": 2
     },
     "mode": {
-        "0": 2
+        "1": 1,
+        "0": 1
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 2
+            "name": "Cows",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "swap",
-            "count": 2
+            "name": "cow?",
+            "count": 1
+        },
+        {
+            "name": "gord",
+            "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
-        "Trade": [
+        "Cows": [
             {
-                "name": "swap",
-                "matched": "swap",
-                "count": 2
+                "name": "cow?",
+                "matched": "cow",
+                "count": 1
+            }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "gord",
+                "matched": "gord",
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 1,
+        "unique_names": 2,
         "public_games": 2,
         "average_name_length": 4.0
     }
