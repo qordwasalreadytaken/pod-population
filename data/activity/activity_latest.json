@@ -1,30 +1,27 @@
 {
-    "timestamp": "2026-07-13T08:03:00+00:00",
+    "timestamp": "2026-07-13T09:23:00+00:00",
     "difficulty": {
         "2": 1,
         "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 3
+        "1": 1,
+        "0": 2
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
             "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "run",
+            "name": "cain",
             "count": 1
         },
         {
@@ -38,6 +35,13 @@
     ],
     "unknown_games": [
         {
+            "normalized": "cain",
+            "count": 2,
+            "examples": [
+                "cain"
+            ]
+        },
+        {
             "normalized": "yarusabe",
             "count": 2,
             "examples": [
@@ -46,13 +50,6 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "run",
-                "matched": "run",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "swap",
@@ -64,6 +61,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 5.0
+        "average_name_length": 5.33
     }
 }
