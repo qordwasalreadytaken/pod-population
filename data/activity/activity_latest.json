@@ -1,41 +1,40 @@
 {
-    "timestamp": "2026-07-13T18:39:00+00:00",
+    "timestamp": "2026-07-13T19:09:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1
+        "2": 4
     },
     "mode": {
-        "1": 1,
+        "1": 2,
         "0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "hell o",
-            "count": 1
+            "count": 2
         },
         {
             "name": "lvv",
             "count": 1
         },
         {
-            "name": "gord",
+            "name": "bring arach 1",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "hell o",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "hell o"
             ]
@@ -49,17 +48,17 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "gord",
-                "matched": "gord",
+                "name": "bring arach 1",
+                "matched": "bring",
                 "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 4.33
+        "public_games": 4,
+        "average_name_length": 7.33
     }
 }
