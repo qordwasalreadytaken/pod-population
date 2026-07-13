@@ -1,16 +1,17 @@
 {
-    "timestamp": "2026-07-13T17:58:00+00:00",
+    "timestamp": "2026-07-13T18:39:00+00:00",
     "difficulty": {
-        "1": 2
+        "2": 2,
+        "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 1
+        "0": 2
     },
     "activities": [
         {
-            "name": "Cows",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -19,7 +20,11 @@
     ],
     "top_games": [
         {
-            "name": "cow?",
+            "name": "hell o",
+            "count": 1
+        },
+        {
+            "name": "lvv",
             "count": 1
         },
         {
@@ -27,15 +32,23 @@
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "hell o",
+            "count": 2,
+            "examples": [
+                "hell o"
+            ]
+        },
+        {
+            "normalized": "lvv",
+            "count": 2,
+            "examples": [
+                "lvv"
+            ]
+        }
+    ],
     "classified_games": {
-        "Cows": [
-            {
-                "name": "cow?",
-                "matched": "cow",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "gord",
@@ -45,8 +58,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 4.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 4.33
     }
 }
