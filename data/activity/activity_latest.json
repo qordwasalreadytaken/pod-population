@@ -1,13 +1,10 @@
 {
-    "timestamp": "2026-07-13T09:23:00+00:00",
+    "timestamp": "2026-07-13T10:35:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 1,
-        "0": 1
+        "2": 3
     },
     "mode": {
-        "1": 1,
-        "0": 2
+        "0": 3
     },
     "activities": [
         {
@@ -21,31 +18,31 @@
     ],
     "top_games": [
         {
-            "name": "cain",
+            "name": "rferm",
+            "count": 1
+        },
+        {
+            "name": "deerf",
             "count": 1
         },
         {
             "name": "swap",
             "count": 1
-        },
-        {
-            "name": "yarusabe",
-            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "cain",
+            "normalized": "rferm",
             "count": 2,
             "examples": [
-                "cain"
+                "rferm"
             ]
         },
         {
-            "normalized": "yarusabe",
+            "normalized": "deerf",
             "count": 2,
             "examples": [
-                "yarusabe"
+                "deerf"
             ]
         }
     ],
@@ -61,6 +58,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 5.33
+        "average_name_length": 4.67
     }
 }
