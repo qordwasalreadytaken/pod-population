@@ -1,18 +1,21 @@
 {
-    "timestamp": "2026-07-13T01:54:00+00:00",
+    "timestamp": "2026-07-13T03:02:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 2,
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "1": 2
+        "1": 3,
+        "0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "name": "Other",
+            "count": 3
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -22,16 +25,38 @@
             "count": 1
         },
         {
-            "name": "quests",
+            "name": "js",
+            "count": 1
+        },
+        {
+            "name": "a",
+            "count": 1
+        },
+        {
+            "name": "qwerr",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "quests",
+            "normalized": "js",
             "count": 2,
             "examples": [
-                "quests"
+                "js"
+            ]
+        },
+        {
+            "normalized": "a",
+            "count": 2,
+            "examples": [
+                "a"
+            ]
+        },
+        {
+            "normalized": "qwerr",
+            "count": 2,
+            "examples": [
+                "qwerr"
             ]
         }
     ],
@@ -45,8 +70,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 4.5
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 2.75
     }
 }
