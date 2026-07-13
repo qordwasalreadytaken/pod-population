@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-13T21:46:00+00:00",
+    "timestamp": "2026-07-13T22:17:00+00:00",
     "difficulty": {
         "1": 1,
         "0": 3
@@ -10,7 +10,7 @@
     },
     "activities": [
         {
-            "name": "Leveling",
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
@@ -24,19 +24,15 @@
     ],
     "top_games": [
         {
+            "name": "meph run",
+            "count": 2
+        },
+        {
             "name": "cow",
             "count": 1
         },
         {
             "name": "a",
-            "count": 1
-        },
-        {
-            "name": "start",
-            "count": 1
-        },
-        {
-            "name": "norm act",
             "count": 1
         }
     ],
@@ -57,22 +53,17 @@
                 "count": 1
             }
         ],
-        "Leveling": [
+        "Misc. Public MF Runs": [
             {
-                "name": "start",
-                "matched": "start",
-                "count": 1
-            },
-            {
-                "name": "norm act",
-                "matched": "norm",
-                "count": 1
+                "name": "meph run",
+                "matched": "run",
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
+        "unique_names": 3,
         "public_games": 4,
-        "average_name_length": 4.25
+        "average_name_length": 4.0
     }
 }
