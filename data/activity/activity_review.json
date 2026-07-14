@@ -62,17 +62,17 @@
         ]
     },
     {
+        "normalized": "ok",
+        "count": 30,
+        "examples": [
+            "ok"
+        ]
+    },
+    {
         "normalized": "a h",
         "count": 28,
         "examples": [
             "a h"
-        ]
-    },
-    {
-        "normalized": "ok",
-        "count": 28,
-        "examples": [
-            "ok"
         ]
     },
     {
@@ -2464,6 +2464,13 @@
         "count": 2,
         "examples": [
             "deerf"
+        ]
+    },
+    {
+        "normalized": "rerere",
+        "count": 2,
+        "examples": [
+            "rerere"
         ]
     }
 ]
