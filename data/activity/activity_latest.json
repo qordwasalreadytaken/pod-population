@@ -1,39 +1,26 @@
 {
-    "timestamp": "2026-07-14T19:57:00+00:00",
+    "timestamp": "2026-07-14T20:29:00+00:00",
     "difficulty": {
         "1": 2,
-        "2": 2,
         "0": 1
     },
     "mode": {
         "1": 2,
-        "0": 3
+        "0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
-        {
-            "name": "a",
-            "count": 1
-        },
         {
             "name": "lvl up",
             "count": 1
         },
         {
-            "name": "ghfji",
-            "count": 1
-        },
-        {
-            "name": "asd",
+            "name": "a",
             "count": 1
         },
         {
@@ -43,13 +30,6 @@
     ],
     "unknown_games": [
         {
-            "normalized": "a",
-            "count": 2,
-            "examples": [
-                "a"
-            ]
-        },
-        {
             "normalized": "lvl up",
             "count": 2,
             "examples": [
@@ -57,10 +37,10 @@
             ]
         },
         {
-            "normalized": "ghfji",
+            "normalized": "a",
             "count": 2,
             "examples": [
-                "ghfji"
+                "a"
             ]
         },
         {
@@ -71,18 +51,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 5.4
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 6.33
     }
 }

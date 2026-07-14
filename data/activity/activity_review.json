@@ -1,5 +1,12 @@
 [
     {
+        "normalized": "a",
+        "count": 168,
+        "examples": [
+            "a"
+        ]
+    },
+    {
         "normalized": "#",
         "count": 166,
         "examples": [
@@ -13,13 +20,6 @@
             "1221",
             "1222",
             "1223"
-        ]
-    },
-    {
-        "normalized": "a",
-        "count": 166,
-        "examples": [
-            "a"
         ]
     },
     {
@@ -223,6 +223,13 @@
         ]
     },
     {
+        "normalized": "lvl up",
+        "count": 12,
+        "examples": [
+            "lvl up"
+        ]
+    },
+    {
         "normalized": "fvyr",
         "count": 12,
         "examples": [
@@ -248,6 +255,13 @@
         "count": 12,
         "examples": [
             "lvv"
+        ]
+    },
+    {
+        "normalized": "home alone #",
+        "count": 12,
+        "examples": [
+            "home alone 3"
         ]
     },
     {
@@ -293,13 +307,6 @@
         ]
     },
     {
-        "normalized": "lvl up",
-        "count": 10,
-        "examples": [
-            "lvl up"
-        ]
-    },
-    {
         "normalized": "dee",
         "count": 10,
         "examples": [
@@ -318,13 +325,6 @@
         "count": 10,
         "examples": [
             "all be wellcome"
-        ]
-    },
-    {
-        "normalized": "home alone #",
-        "count": 10,
-        "examples": [
-            "home alone 3"
         ]
     },
     {
