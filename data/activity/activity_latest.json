@@ -1,12 +1,16 @@
 {
-    "timestamp": "2026-07-14T10:34:00+00:00",
+    "timestamp": "2026-07-14T11:12:00+00:00",
     "difficulty": {
-        "2": 1
+        "2": 2
     },
     "mode": {
-        "0": 1
+        "0": 2
     },
     "activities": [
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
         {
             "name": "Trade",
             "count": 1
@@ -14,12 +18,23 @@
     ],
     "top_games": [
         {
+            "name": "asd",
+            "count": 1
+        },
+        {
             "name": "swap",
             "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "swap",
@@ -29,8 +44,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 4.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 3.5
     }
 }
