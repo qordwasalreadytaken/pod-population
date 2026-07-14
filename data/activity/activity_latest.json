@@ -1,22 +1,21 @@
 {
-    "timestamp": "2026-07-14T14:23:00+00:00",
+    "timestamp": "2026-07-14T15:04:00+00:00",
     "difficulty": {
         "2": 2,
-        "1": 2,
-        "0": 1
+        "1": 1
     },
     "mode": {
-        "1": 3,
+        "1": 1,
         "0": 2
     },
     "activities": [
         {
-            "name": "Cows",
-            "count": 2
+            "name": "Trade",
+            "count": 1
         },
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Leveling",
@@ -25,15 +24,7 @@
     ],
     "top_games": [
         {
-            "name": "cowqqq",
-            "count": 1
-        },
-        {
-            "name": "cowqq",
-            "count": 1
-        },
-        {
-            "name": "ok",
+            "name": "looking for bow",
             "count": 1
         },
         {
@@ -47,13 +38,6 @@
     ],
     "unknown_games": [
         {
-            "normalized": "ok",
-            "count": 2,
-            "examples": [
-                "ok"
-            ]
-        },
-        {
             "normalized": "rerere",
             "count": 2,
             "examples": [
@@ -62,15 +46,10 @@
         }
     ],
     "classified_games": {
-        "Cows": [
+        "Trade": [
             {
-                "name": "cowqqq",
-                "matched": "cow",
-                "count": 1
-            },
-            {
-                "name": "cowqq",
-                "matched": "cow",
+                "name": "looking for bow",
+                "matched": "for",
                 "count": 1
             }
         ],
@@ -83,8 +62,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 5.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 9.0
     }
 }
