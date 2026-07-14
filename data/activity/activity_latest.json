@@ -1,21 +1,26 @@
 {
-    "timestamp": "2026-07-14T12:25:00+00:00",
+    "timestamp": "2026-07-14T12:52:00+00:00",
     "difficulty": {
-        "1": 1
+        "2": 2,
+        "0": 2
     },
     "mode": {
-        "0": 1
+        "0": 4
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 4
         }
     ],
     "top_games": [
         {
             "name": "asd",
-            "count": 1
+            "count": 2
+        },
+        {
+            "name": "run",
+            "count": 2
         }
     ],
     "unknown_games": [],
@@ -24,13 +29,18 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
+            },
+            {
+                "name": "run",
+                "matched": "run",
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
+        "unique_names": 2,
+        "public_games": 4,
         "average_name_length": 3.0
     }
 }
