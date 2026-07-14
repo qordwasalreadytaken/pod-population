@@ -1,60 +1,14 @@
 {
-    "timestamp": "2026-07-14T20:29:00+00:00",
-    "difficulty": {
-        "1": 2,
-        "0": 1
-    },
-    "mode": {
-        "1": 2,
-        "0": 1
-    },
-    "activities": [
-        {
-            "name": "Other",
-            "count": 3
-        }
-    ],
-    "top_games": [
-        {
-            "name": "lvl up",
-            "count": 1
-        },
-        {
-            "name": "a",
-            "count": 1
-        },
-        {
-            "name": "home alone 3",
-            "count": 1
-        }
-    ],
-    "unknown_games": [
-        {
-            "normalized": "lvl up",
-            "count": 2,
-            "examples": [
-                "lvl up"
-            ]
-        },
-        {
-            "normalized": "a",
-            "count": 2,
-            "examples": [
-                "a"
-            ]
-        },
-        {
-            "normalized": "home alone #",
-            "count": 2,
-            "examples": [
-                "home alone 3"
-            ]
-        }
-    ],
+    "timestamp": "2026-07-14T20:53:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "activities": [],
+    "top_games": [],
+    "unknown_games": [],
     "classified_games": {},
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.33
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
