@@ -1,24 +1,24 @@
 {
-    "timestamp": "2026-07-14T15:45:00+00:00",
+    "timestamp": "2026-07-14T16:15:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 2,
         "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Trade",
             "count": 1
         },
         {
-            "name": "Leveling",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -28,15 +28,11 @@
             "count": 1
         },
         {
-            "name": "n arach soj 4",
+            "name": "n arach soj 5",
             "count": 1
         },
         {
-            "name": "rerere",
-            "count": 1
-        },
-        {
-            "name": "act nm",
+            "name": "asd",
             "count": 1
         }
     ],
@@ -47,34 +43,27 @@
             "examples": [
                 "looking 4 bow"
             ]
-        },
-        {
-            "normalized": "rerere",
-            "count": 2,
-            "examples": [
-                "rerere"
-            ]
         }
     ],
     "classified_games": {
         "Trade": [
             {
-                "name": "n arach soj 4",
+                "name": "n arach soj 5",
                 "matched": "n",
                 "count": 1
             }
         ],
-        "Leveling": [
+        "Misc. Public MF Runs": [
             {
-                "name": "act nm",
-                "matched": "act",
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 9.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 9.67
     }
 }
