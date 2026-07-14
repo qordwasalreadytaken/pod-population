@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-07-14T15:04:00+00:00",
+    "timestamp": "2026-07-14T15:45:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 3,
         "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 3
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 1
         },
         {
@@ -24,7 +24,11 @@
     ],
     "top_games": [
         {
-            "name": "looking for bow",
+            "name": "looking 4 bow",
+            "count": 1
+        },
+        {
+            "name": "n arach soj 4",
             "count": 1
         },
         {
@@ -38,6 +42,13 @@
     ],
     "unknown_games": [
         {
+            "normalized": "looking # bow",
+            "count": 2,
+            "examples": [
+                "looking 4 bow"
+            ]
+        },
+        {
             "normalized": "rerere",
             "count": 2,
             "examples": [
@@ -48,8 +59,8 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "looking for bow",
-                "matched": "for",
+                "name": "n arach soj 4",
+                "matched": "n",
                 "count": 1
             }
         ],
@@ -62,8 +73,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 9.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 9.5
     }
 }
