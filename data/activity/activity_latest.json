@@ -1,13 +1,13 @@
 {
-    "timestamp": "2026-07-14T18:22:00+00:00",
+    "timestamp": "2026-07-14T18:50:00+00:00",
     "difficulty": {
         "1": 1,
-        "2": 2,
+        "2": 1,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 2
     },
     "activities": [
         {
@@ -16,10 +16,6 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Trade",
             "count": 1
         }
     ],
@@ -30,10 +26,6 @@
         },
         {
             "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "n arach soj 6",
             "count": 1
         },
         {
@@ -64,18 +56,11 @@
                 "matched": "asd",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "n arach soj 6",
-                "matched": "n",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 8.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 7.0
     }
 }
