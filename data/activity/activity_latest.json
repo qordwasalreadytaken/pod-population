@@ -1,21 +1,16 @@
 {
-    "timestamp": "2026-07-14T17:26:00+00:00",
+    "timestamp": "2026-07-14T17:51:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 2,
         "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 4
+        "0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Trade",
@@ -24,68 +19,46 @@
     ],
     "top_games": [
         {
-            "name": "looking 4 bow",
+            "name": "n arach soj 6",
             "count": 1
         },
         {
-            "name": "pacha",
+            "name": "lvv",
             "count": 1
         },
         {
-            "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "n arach soj 5",
-            "count": 1
-        },
-        {
-            "name": "nayone home?",
+            "name": "home alone 3",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "looking # bow",
+            "normalized": "lvv",
             "count": 2,
             "examples": [
-                "looking 4 bow"
+                "lvv"
             ]
         },
         {
-            "normalized": "pacha",
+            "normalized": "home alone #",
             "count": 2,
             "examples": [
-                "pacha"
-            ]
-        },
-        {
-            "normalized": "nayone home?",
-            "count": 2,
-            "examples": [
-                "nayone home?"
+                "home alone 3"
             ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
-                "name": "n arach soj 5",
+                "name": "n arach soj 6",
                 "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 9.2
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 9.33
     }
 }
