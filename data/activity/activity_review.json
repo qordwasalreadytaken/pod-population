@@ -771,6 +771,13 @@
         ]
     },
     {
+        "normalized": "lvl up",
+        "count": 4,
+        "examples": [
+            "lvl up"
+        ]
+    },
+    {
         "normalized": "pi",
         "count": 4,
         "examples": [
@@ -1050,6 +1057,13 @@
         "count": 4,
         "examples": [
             "nayone home?"
+        ]
+    },
+    {
+        "normalized": "home alone #",
+        "count": 4,
+        "examples": [
+            "home alone 3"
         ]
     },
     {
@@ -1533,13 +1547,6 @@
         "count": 2,
         "examples": [
             "sas"
-        ]
-    },
-    {
-        "normalized": "lvl up",
-        "count": 2,
-        "examples": [
-            "lvl up"
         ]
     },
     {
@@ -2492,13 +2499,6 @@
         "count": 2,
         "examples": [
             "pacha"
-        ]
-    },
-    {
-        "normalized": "home alone #",
-        "count": 2,
-        "examples": [
-            "home alone 3"
         ]
     }
 ]
