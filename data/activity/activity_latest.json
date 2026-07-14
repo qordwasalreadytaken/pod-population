@@ -1,28 +1,33 @@
 {
-    "timestamp": "2026-07-14T16:15:00+00:00",
+    "timestamp": "2026-07-14T16:45:00+00:00",
     "difficulty": {
         "2": 2,
-        "1": 1
+        "1": 4,
+        "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 6
     },
     "activities": [
         {
+            "name": "Misc. Public MF Runs",
+            "count": 4
+        },
+        {
             "name": "Other",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Trade",
             "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "asd",
+            "count": 4
+        },
         {
             "name": "looking 4 bow",
             "count": 1
@@ -32,7 +37,7 @@
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "nayone home?",
             "count": 1
         }
     ],
@@ -42,6 +47,13 @@
             "count": 2,
             "examples": [
                 "looking 4 bow"
+            ]
+        },
+        {
+            "normalized": "nayone home?",
+            "count": 2,
+            "examples": [
+                "nayone home?"
             ]
         }
     ],
@@ -57,13 +69,13 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
+                "count": 4
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 9.67
+        "unique_names": 4,
+        "public_games": 7,
+        "average_name_length": 10.25
     }
 }
