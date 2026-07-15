@@ -1,12 +1,12 @@
 {
-    "timestamp": "2026-07-15T23:05:00+00:00",
+    "timestamp": "2026-07-15T23:34:00+00:00",
     "difficulty": {
         "0": 1,
-        "1": 2
+        "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 1
     },
     "activities": [
         {
@@ -15,10 +15,6 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Leveling",
             "count": 1
         }
     ],
@@ -29,10 +25,6 @@
         },
         {
             "name": "1234",
-            "count": 1
-        },
-        {
-            "name": "nm act",
             "count": 1
         }
     ],
@@ -52,18 +44,11 @@
                 "matched": "123",
                 "count": 1
             }
-        ],
-        "Leveling": [
-            {
-                "name": "nm act",
-                "matched": "act",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 3.67
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 2.5
     }
 }
