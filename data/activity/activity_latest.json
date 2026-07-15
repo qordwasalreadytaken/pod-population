@@ -1,69 +1,36 @@
 {
-    "timestamp": "2026-07-15T17:31:00+00:00",
+    "timestamp": "2026-07-15T18:07:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 2
+        "0": 1
     },
     "mode": {
-        "1": 2,
-        "0": 1
+        "1": 1
     },
     "activities": [
         {
             "name": "Other",
             "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Rush",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "hellbound",
-            "count": 1
-        },
-        {
-            "name": "ted",
-            "count": 1
-        },
-        {
-            "name": "rush me",
+            "name": "merc",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "hellbound",
+            "normalized": "merc",
             "count": 2,
             "examples": [
-                "hellbound"
+                "merc"
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "ted",
-                "matched": "ted",
-                "count": 1
-            }
-        ],
-        "Rush": [
-            {
-                "name": "rush me",
-                "matched": "rush",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.33
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 4.0
     }
 }
