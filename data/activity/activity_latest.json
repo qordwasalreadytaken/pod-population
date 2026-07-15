@@ -1,36 +1,36 @@
 {
-    "timestamp": "2026-07-15T11:51:00+00:00",
+    "timestamp": "2026-07-15T12:27:00+00:00",
     "difficulty": {
-        "0": 1
+        "2": 1
     },
     "mode": {
-        "1": 1
+        "0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "ted",
+            "name": "a hell help",
             "count": 1
         }
     ],
-    "unknown_games": [],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "ted",
-                "matched": "ted",
-                "count": 1
-            }
-        ]
-    },
+    "unknown_games": [
+        {
+            "normalized": "a hell help",
+            "count": 2,
+            "examples": [
+                "a hell help"
+            ]
+        }
+    ],
+    "classified_games": {},
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 3.0
+        "average_name_length": 11.0
     }
 }
