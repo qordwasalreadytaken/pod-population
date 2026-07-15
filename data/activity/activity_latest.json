@@ -1,8 +1,8 @@
 {
-    "timestamp": "2026-07-15T19:08:00+00:00",
+    "timestamp": "2026-07-15T19:41:00+00:00",
     "difficulty": {
-        "0": 1,
-        "1": 1
+        "1": 1,
+        "0": 1
     },
     "mode": {
         "1": 1,
@@ -14,34 +14,34 @@
             "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Rush",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "merc edes",
+            "name": "check 12",
             "count": 1
         },
         {
-            "name": "1235",
+            "name": "rush mi",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "merc edes",
+            "normalized": "check #",
             "count": 2,
             "examples": [
-                "merc edes"
+                "check 12"
             ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Rush": [
             {
-                "name": "1235",
-                "matched": "123",
+                "name": "rush mi",
+                "matched": "rush",
                 "count": 1
             }
         ]
@@ -49,6 +49,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 6.5
+        "average_name_length": 7.5
     }
 }
