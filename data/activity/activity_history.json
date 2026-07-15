@@ -3331,7 +3331,7 @@
             "Leveling": [
                 {
                     "name": "act 2 start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -8493,7 +8493,7 @@
             "Leveling": [
                 {
                     "name": "act start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -9875,7 +9875,7 @@
                 },
                 {
                     "name": "act hel start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -11679,7 +11679,7 @@
             "Trade": [
                 {
                     "name": "lmk what u n",
-                    "matched": "lmk",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -12791,7 +12791,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "buy",
+                    "matched": "torch",
                     "count": 1
                 }
             ],
@@ -12909,7 +12909,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "buy",
+                    "matched": "torch",
                     "count": 2
                 }
             ],
@@ -13001,7 +13001,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "buy",
+                    "matched": "torch",
                     "count": 1
                 }
             ],
@@ -13582,7 +13582,7 @@
                 },
                 {
                     "name": "norm start",
-                    "matched": "start",
+                    "matched": "norm",
                     "count": 1
                 }
             ],
@@ -13653,7 +13653,7 @@
                 },
                 {
                     "name": "norm start",
-                    "matched": "start",
+                    "matched": "norm",
                     "count": 1
                 }
             ],
@@ -17878,7 +17878,7 @@
             "Leveling": [
                 {
                     "name": "norm start",
-                    "matched": "start",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -17932,7 +17932,7 @@
             "Leveling": [
                 {
                     "name": "norm start",
-                    "matched": "start",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -34281,7 +34281,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "for",
+                    "matched": "trade",
                     "count": 1
                 }
             ],
@@ -34382,7 +34382,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "for",
+                    "matched": "trade",
                     "count": 1
                 }
             ]
@@ -54825,6 +54825,70 @@
             "unique_names": 2,
             "public_games": 2,
             "average_name_length": 5.5
+        }
+    },
+    {
+        "timestamp": "2026-07-15T16:57:00+00:00",
+        "difficulty": {
+            "2": 1,
+            "0": 2
+        },
+        "mode": {
+            "1": 3
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 2
+            },
+            {
+                "name": "Misc. Public MF Runs",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "hellbound",
+                "count": 1
+            },
+            {
+                "name": "ted",
+                "count": 1
+            },
+            {
+                "name": "ok",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "hellbound",
+                "count": 2,
+                "examples": [
+                    "hellbound"
+                ]
+            },
+            {
+                "normalized": "ok",
+                "count": 2,
+                "examples": [
+                    "ok"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Misc. Public MF Runs": [
+                {
+                    "name": "ted",
+                    "matched": "ted",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 3,
+            "public_games": 3,
+            "average_name_length": 4.67
         }
     }
 ]
