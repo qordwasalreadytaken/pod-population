@@ -1,52 +1,26 @@
 {
-    "timestamp": "2026-07-15T07:27:00+00:00",
+    "timestamp": "2026-07-15T08:18:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 1
     },
     "mode": {
-        "1": 1,
-        "0": 2
+        "0": 1
     },
     "activities": [
         {
             "name": "Trade",
-            "count": 2
-        },
-        {
-            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "dsdsd",
-            "count": 1
-        },
-        {
-            "name": "swap",
-            "count": 1
-        },
-        {
             "name": "n griffon 3s",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "dsdsd",
-            "count": 2,
-            "examples": [
-                "dsdsd"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Trade": [
-            {
-                "name": "swap",
-                "matched": "swap",
-                "count": 1
-            },
             {
                 "name": "n griffon 3s",
                 "matched": "n",
@@ -55,8 +29,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 7.0
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 12.0
     }
 }
