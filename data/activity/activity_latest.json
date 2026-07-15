@@ -1,19 +1,14 @@
 {
-    "timestamp": "2026-07-15T20:09:00+00:00",
+    "timestamp": "2026-07-15T20:36:00+00:00",
     "difficulty": {
-        "1": 1,
-        "0": 1
+        "1": 1
     },
     "mode": {
-        "1": 2
+        "1": 1
     },
     "activities": [
         {
             "name": "Cows",
-            "count": 1
-        },
-        {
-            "name": "Other",
             "count": 1
         }
     ],
@@ -21,21 +16,9 @@
         {
             "name": "nm cow?",
             "count": 1
-        },
-        {
-            "name": "ok",
-            "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "ok",
-            "count": 2,
-            "examples": [
-                "ok"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Cows": [
             {
@@ -46,8 +29,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 4.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 7.0
     }
 }
