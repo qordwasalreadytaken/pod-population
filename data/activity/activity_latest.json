@@ -1,27 +1,23 @@
 {
-    "timestamp": "2026-07-15T13:35:00+00:00",
+    "timestamp": "2026-07-15T14:21:00+00:00",
     "difficulty": {
-        "1": 2,
+        "1": 1,
         "2": 1
     },
     "mode": {
-        "1": 2,
+        "1": 1,
         "0": 1
     },
     "activities": [
         {
-            "name": "Cows",
-            "count": 2
-        },
-        {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "cow",
-            "count": 2
+            "name": "gg",
+            "count": 1
         },
         {
             "name": "a hell help",
@@ -30,6 +26,13 @@
     ],
     "unknown_games": [
         {
+            "normalized": "gg",
+            "count": 2,
+            "examples": [
+                "gg"
+            ]
+        },
+        {
             "normalized": "a hell help",
             "count": 2,
             "examples": [
@@ -37,18 +40,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Cows": [
-            {
-                "name": "cow",
-                "matched": "cow",
-                "count": 2
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
         "unique_names": 2,
-        "public_games": 3,
-        "average_name_length": 7.0
+        "public_games": 2,
+        "average_name_length": 6.5
     }
 }
