@@ -3331,7 +3331,7 @@
             "Leveling": [
                 {
                     "name": "act 2 start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -8493,7 +8493,7 @@
             "Leveling": [
                 {
                     "name": "act start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -9875,7 +9875,7 @@
                 },
                 {
                     "name": "act hel start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -11679,7 +11679,7 @@
             "Trade": [
                 {
                     "name": "lmk what u n",
-                    "matched": "n",
+                    "matched": "lmk",
                     "count": 1
                 }
             ],
@@ -34137,7 +34137,7 @@
             "Trade": [
                 {
                     "name": "n ama torch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -34281,7 +34281,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "for",
+                    "matched": "trade",
                     "count": 1
                 }
             ],
@@ -34382,7 +34382,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "for",
+                    "matched": "trade",
                     "count": 1
                 }
             ]
@@ -35544,7 +35544,7 @@
                 },
                 {
                     "name": "n ama torch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -35967,7 +35967,7 @@
             "Trade": [
                 {
                     "name": "n ama torch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 },
                 {
@@ -36038,7 +36038,7 @@
             "Trade": [
                 {
                     "name": "n ama torch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 },
                 {
@@ -36109,7 +36109,7 @@
             "Trade": [
                 {
                     "name": "n ama torch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 },
                 {
@@ -36180,7 +36180,7 @@
             "Trade": [
                 {
                     "name": "n ama torch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 },
                 {
@@ -36251,7 +36251,7 @@
             "Trade": [
                 {
                     "name": "n ama torch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 },
                 {
@@ -36322,7 +36322,7 @@
             "Trade": [
                 {
                     "name": "n ama torch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 },
                 {
@@ -36402,7 +36402,7 @@
             "Trade": [
                 {
                     "name": "n ama torch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 },
                 {
@@ -36482,7 +36482,7 @@
             "Trade": [
                 {
                     "name": "n ama torch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 },
                 {
@@ -37879,7 +37879,7 @@
             "Trade": [
                 {
                     "name": "n ama torch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -39390,7 +39390,7 @@
             "Trade": [
                 {
                     "name": "n ama torch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -40655,7 +40655,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "run",
+                    "matched": "meph",
                     "count": 1
                 },
                 {
@@ -40702,7 +40702,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "run",
+                    "matched": "meph",
                     "count": 1
                 },
                 {
@@ -40775,7 +40775,7 @@
             "Trade": [
                 {
                     "name": "n ama torch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -40843,7 +40843,7 @@
             "Trade": [
                 {
                     "name": "n ama torch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -51659,7 +51659,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "run",
+                    "matched": "meph",
                     "count": 2
                 }
             ]
@@ -54645,6 +54645,60 @@
         "interesting": {
             "unique_names": 2,
             "public_games": 2,
+            "average_name_length": 7.0
+        }
+    },
+    {
+        "timestamp": "2026-07-15T13:35:00+00:00",
+        "difficulty": {
+            "1": 2,
+            "2": 1
+        },
+        "mode": {
+            "1": 2,
+            "0": 1
+        },
+        "activities": [
+            {
+                "name": "Cows",
+                "count": 2
+            },
+            {
+                "name": "Other",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "cow",
+                "count": 2
+            },
+            {
+                "name": "a hell help",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "a hell help",
+                "count": 2,
+                "examples": [
+                    "a hell help"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Cows": [
+                {
+                    "name": "cow",
+                    "matched": "cow",
+                    "count": 2
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 2,
+            "public_games": 3,
             "average_name_length": 7.0
         }
     }
