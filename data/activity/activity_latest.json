@@ -1,49 +1,14 @@
 {
-    "timestamp": "2026-07-15T14:21:00+00:00",
-    "difficulty": {
-        "1": 1,
-        "2": 1
-    },
-    "mode": {
-        "1": 1,
-        "0": 1
-    },
-    "activities": [
-        {
-            "name": "Other",
-            "count": 2
-        }
-    ],
-    "top_games": [
-        {
-            "name": "gg",
-            "count": 1
-        },
-        {
-            "name": "a hell help",
-            "count": 1
-        }
-    ],
-    "unknown_games": [
-        {
-            "normalized": "gg",
-            "count": 2,
-            "examples": [
-                "gg"
-            ]
-        },
-        {
-            "normalized": "a hell help",
-            "count": 2,
-            "examples": [
-                "a hell help"
-            ]
-        }
-    ],
+    "timestamp": "2026-07-15T15:04:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "activities": [],
+    "top_games": [],
+    "unknown_games": [],
     "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 6.5
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
