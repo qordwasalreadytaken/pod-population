@@ -1,9 +1,9 @@
 {
-    "timestamp": "2026-07-15T09:59:00+00:00",
+    "timestamp": "2026-07-15T10:39:00+00:00",
     "difficulty": {
-        "1": 1,
+        "0": 1,
         "2": 2,
-        "0": 1
+        "1": 1
     },
     "mode": {
         "1": 1,
@@ -11,25 +11,21 @@
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 2
+            "name": "Misc. Public MF Runs",
+            "count": 3
         },
         {
-            "name": "Trade",
-            "count": 2
+            "name": "Other",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "swap",
-            "count": 2
+            "name": "asd",
+            "count": 3
         },
         {
             "name": "a",
-            "count": 1
-        },
-        {
-            "name": "a hell help",
             "count": 1
         }
     ],
@@ -40,27 +36,20 @@
             "examples": [
                 "a"
             ]
-        },
-        {
-            "normalized": "a hell help",
-            "count": 2,
-            "examples": [
-                "a hell help"
-            ]
         }
     ],
     "classified_games": {
-        "Trade": [
+        "Misc. Public MF Runs": [
             {
-                "name": "swap",
-                "matched": "swap",
-                "count": 2
+                "name": "asd",
+                "matched": "asd",
+                "count": 3
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
+        "unique_names": 2,
         "public_games": 4,
-        "average_name_length": 5.33
+        "average_name_length": 2.0
     }
 }
