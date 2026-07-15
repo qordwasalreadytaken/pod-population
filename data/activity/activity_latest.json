@@ -1,47 +1,46 @@
 {
-    "timestamp": "2026-07-15T19:41:00+00:00",
+    "timestamp": "2026-07-15T20:09:00+00:00",
     "difficulty": {
         "1": 1,
         "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 1
+        "1": 2
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Cows",
             "count": 1
         },
         {
-            "name": "Rush",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "check 12",
+            "name": "nm cow?",
             "count": 1
         },
         {
-            "name": "rush mi",
+            "name": "ok",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "check #",
+            "normalized": "ok",
             "count": 2,
             "examples": [
-                "check 12"
+                "ok"
             ]
         }
     ],
     "classified_games": {
-        "Rush": [
+        "Cows": [
             {
-                "name": "rush mi",
-                "matched": "rush",
+                "name": "nm cow?",
+                "matched": "cow",
                 "count": 1
             }
         ]
@@ -49,6 +48,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 7.5
+        "average_name_length": 4.5
     }
 }
