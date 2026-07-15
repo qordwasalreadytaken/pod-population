@@ -1,36 +1,54 @@
 {
-    "timestamp": "2026-07-15T18:07:00+00:00",
+    "timestamp": "2026-07-15T18:37:00+00:00",
     "difficulty": {
-        "0": 1
+        "0": 1,
+        "1": 1
     },
     "mode": {
-        "1": 1
+        "1": 1,
+        "0": 1
     },
     "activities": [
         {
             "name": "Other",
             "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "merc",
+            "name": "mercss",
+            "count": 1
+        },
+        {
+            "name": "1235",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "merc",
+            "normalized": "mercss",
             "count": 2,
             "examples": [
-                "merc"
+                "mercss"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "1235",
+                "matched": "123",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 4.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 5.0
     }
 }
