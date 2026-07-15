@@ -55,17 +55,17 @@
         ]
     },
     {
+        "normalized": "ok",
+        "count": 32,
+        "examples": [
+            "ok"
+        ]
+    },
+    {
         "normalized": "lvup gogo",
         "count": 30,
         "examples": [
             "lvup gogo"
-        ]
-    },
-    {
-        "normalized": "ok",
-        "count": 30,
-        "examples": [
-            "ok"
         ]
     },
     {
@@ -2569,6 +2569,13 @@
         "count": 2,
         "examples": [
             "cc"
+        ]
+    },
+    {
+        "normalized": "hellbound",
+        "count": 2,
+        "examples": [
+            "hellbound"
         ]
     }
 ]
