@@ -1,63 +1,53 @@
 {
-    "timestamp": "2026-07-16T17:08:00+00:00",
+    "timestamp": "2026-07-16T17:42:00+00:00",
     "difficulty": {
         "1": 1,
-        "0": 2
+        "0": 1
     },
     "mode": {
-        "1": 2,
-        "0": 1
+        "0": 2
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Other",
+            "count": 1
         },
         {
-            "name": "Other",
+            "name": "Chaos",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "gm",
+            "name": "trapper",
             "count": 1
         },
         {
-            "name": "ted",
-            "count": 1
-        },
-        {
-            "name": "tomb run-1",
+            "name": "chaos-01",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "gm",
+            "normalized": "trapper",
             "count": 2,
             "examples": [
-                "gm"
+                "trapper"
             ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Chaos": [
             {
-                "name": "ted",
-                "matched": "ted",
-                "count": 1
-            },
-            {
-                "name": "tomb run-1",
-                "matched": "run",
+                "name": "chaos-01",
+                "matched": "chaos",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 5.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 7.5
     }
 }
