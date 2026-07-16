@@ -1,62 +1,95 @@
 {
-    "timestamp": "2026-07-16T23:05:00+00:00",
+    "timestamp": "2026-07-16T23:33:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1,
+        "2": 3,
+        "1": 2,
         "0": 1
     },
     "mode": {
-        "0": 4
+        "1": 1,
+        "0": 5
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 3
         },
         {
-            "name": "Leveling",
-            "count": 1
+            "name": "Misc. Public MF Runs",
+            "count": 3
         }
     ],
     "top_games": [
         {
+            "name": "a",
+            "count": 1
+        },
+        {
+            "name": "1235",
+            "count": 1
+        },
+        {
             "name": "nico",
-            "count": 2
+            "count": 1
+        },
+        {
+            "name": "dfgfdg",
+            "count": 1
         },
         {
             "name": "1234",
             "count": 1
         },
         {
-            "name": "act 1 new toon",
+            "name": "trzr",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "a",
+            "count": 2,
+            "examples": [
+                "a"
+            ]
+        },
+        {
+            "normalized": "dfgfdg",
+            "count": 2,
+            "examples": [
+                "dfgfdg"
+            ]
+        },
+        {
+            "normalized": "trzr",
+            "count": 2,
+            "examples": [
+                "trzr"
+            ]
+        }
+    ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
+                "name": "1235",
+                "matched": "123",
+                "count": 1
+            },
+            {
                 "name": "nico",
                 "matched": "nico",
-                "count": 2
+                "count": 1
             },
             {
                 "name": "1234",
                 "matched": "123",
                 "count": 1
             }
-        ],
-        "Leveling": [
-            {
-                "name": "act 1 new toon",
-                "matched": "act",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 4,
-        "average_name_length": 7.33
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 3.83
     }
 }
