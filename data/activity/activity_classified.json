@@ -214,7 +214,7 @@
         },
         {
             "name": "meph run",
-            "matched": "run",
+            "matched": "meph",
             "count": 4
         },
         {
@@ -506,17 +506,17 @@
         },
         {
             "name": "cows",
-            "matched": "cows",
+            "matched": "cow",
             "count": 13
         },
         {
             "name": "cowcowst",
-            "matched": "cows",
+            "matched": "cow",
             "count": 4
         },
         {
             "name": "cowcows",
-            "matched": "cows",
+            "matched": "cow",
             "count": 2
         },
         {
@@ -556,7 +556,7 @@
         },
         {
             "name": "cowsrus",
-            "matched": "cows",
+            "matched": "cow",
             "count": 1
         },
         {
@@ -591,7 +591,7 @@
         },
         {
             "name": "merc cows",
-            "matched": "cows",
+            "matched": "cow",
             "count": 1
         }
     ],
@@ -623,7 +623,7 @@
         },
         {
             "name": "n free amatorch",
-            "matched": "n",
+            "matched": "torch",
             "count": 9
         },
         {
@@ -634,7 +634,7 @@
         {
             "name": "n griffon 3s",
             "matched": "n",
-            "count": 7
+            "count": 8
         },
         {
             "name": "n curseskiller",
@@ -688,7 +688,7 @@
         },
         {
             "name": "n amatorch",
-            "matched": "n",
+            "matched": "torch",
             "count": 3
         },
         {
@@ -698,7 +698,7 @@
         },
         {
             "name": "n 6os windforce",
-            "matched": "n",
+            "matched": "for",
             "count": 3
         },
         {
@@ -743,7 +743,7 @@
         },
         {
             "name": "items for trade",
-            "matched": "trade",
+            "matched": "for",
             "count": 2
         },
         {
@@ -753,6 +753,11 @@
         },
         {
             "name": "n arach soj 6",
+            "matched": "n",
+            "count": 2
+        },
+        {
+            "name": "n eth 40s b axe",
             "matched": "n",
             "count": 2
         },
@@ -910,11 +915,6 @@
             "name": "n arach soj 4",
             "matched": "n",
             "count": 1
-        },
-        {
-            "name": "n eth 40s b axe",
-            "matched": "n",
-            "count": 1
         }
     ],
     "Leveling": [
@@ -965,7 +965,7 @@
         },
         {
             "name": "norm act",
-            "matched": "norm",
+            "matched": "act",
             "count": 4
         },
         {
@@ -1177,6 +1177,16 @@
             "name": "act new",
             "matched": "act",
             "count": 1
+        },
+        {
+            "name": "act help",
+            "matched": "act",
+            "count": 1
+        },
+        {
+            "name": "act 1 help",
+            "matched": "act",
+            "count": 1
         }
     ],
     "Maps": [
@@ -1202,12 +1212,12 @@
         },
         {
             "name": "maps-2",
-            "matched": "map",
+            "matched": "maps",
             "count": 2
         },
         {
             "name": "maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 2
         },
         {
