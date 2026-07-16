@@ -1,7 +1,7 @@
 [
     {
         "normalized": "a",
-        "count": 202,
+        "count": 204,
         "examples": [
             "a"
         ]
@@ -90,6 +90,13 @@
         ]
     },
     {
+        "normalized": "eq",
+        "count": 22,
+        "examples": [
+            "eq"
+        ]
+    },
+    {
         "normalized": "b soj & arach #",
         "count": 22,
         "examples": [
@@ -111,13 +118,6 @@
         "count": 20,
         "examples": [
             "t"
-        ]
-    },
-    {
-        "normalized": "eq",
-        "count": 20,
-        "examples": [
-            "eq"
         ]
     },
     {
