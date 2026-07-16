@@ -1,17 +1,17 @@
 {
-    "timestamp": "2026-07-16T03:49:00+00:00",
+    "timestamp": "2026-07-16T05:01:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 2
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "1": 2,
+        "1": 1,
         "0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 2
+            "name": "Cows",
+            "count": 1
         },
         {
             "name": "Trade",
@@ -20,24 +20,23 @@
     ],
     "top_games": [
         {
-            "name": "a",
-            "count": 2
+            "name": "cows",
+            "count": 1
         },
         {
             "name": "swap",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "a",
-            "count": 4,
-            "examples": [
-                "a"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
+        "Cows": [
+            {
+                "name": "cows",
+                "matched": "cow",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "swap",
@@ -48,7 +47,7 @@
     },
     "interesting": {
         "unique_names": 2,
-        "public_games": 3,
-        "average_name_length": 2.5
+        "public_games": 2,
+        "average_name_length": 4.0
     }
 }
