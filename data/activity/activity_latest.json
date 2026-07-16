@@ -1,53 +1,53 @@
 {
-    "timestamp": "2026-07-16T17:42:00+00:00",
+    "timestamp": "2026-07-16T18:10:00+00:00",
     "difficulty": {
-        "1": 1,
-        "0": 1
+        "2": 1,
+        "0": 2
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 1
+            "name": "Chaos",
+            "count": 2
         },
         {
-            "name": "Chaos",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "trapper",
-            "count": 1
+            "name": "chaos",
+            "count": 2
         },
         {
-            "name": "chaos-01",
+            "name": "g",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "trapper",
+            "normalized": "g",
             "count": 2,
             "examples": [
-                "trapper"
+                "g"
             ]
         }
     ],
     "classified_games": {
         "Chaos": [
             {
-                "name": "chaos-01",
+                "name": "chaos",
                 "matched": "chaos",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
         "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 7.5
+        "public_games": 3,
+        "average_name_length": 3.0
     }
 }
