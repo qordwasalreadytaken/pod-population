@@ -1,22 +1,35 @@
 {
-    "timestamp": "2026-07-16T21:35:00+00:00",
+    "timestamp": "2026-07-16T22:06:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 2
+        "1": 2,
+        "0": 2,
+        "2": 1
     },
     "mode": {
-        "1": 2,
-        "0": 1
+        "1": 3,
+        "0": 2
     },
     "activities": [
         {
             "name": "Other",
             "count": 3
+        },
+        {
+            "name": "Cows",
+            "count": 1
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "hsdfgh",
+            "name": "nm cow",
+            "count": 1
+        },
+        {
+            "name": "sggg",
             "count": 1
         },
         {
@@ -24,16 +37,20 @@
             "count": 1
         },
         {
-            "name": "jjj",
+            "name": "dhgf",
+            "count": 1
+        },
+        {
+            "name": "nm act 3",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "hsdfgh",
+            "normalized": "sggg",
             "count": 2,
             "examples": [
-                "hsdfgh"
+                "sggg"
             ]
         },
         {
@@ -44,17 +61,32 @@
             ]
         },
         {
-            "normalized": "jjj",
+            "normalized": "dhgf",
             "count": 2,
             "examples": [
-                "jjj"
+                "dhgf"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Cows": [
+            {
+                "name": "nm cow",
+                "matched": "cow",
+                "count": 1
+            }
+        ],
+        "Leveling": [
+            {
+                "name": "nm act 3",
+                "matched": "act",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 3.67
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 4.8
     }
 }
