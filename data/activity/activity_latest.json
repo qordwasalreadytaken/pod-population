@@ -1,17 +1,18 @@
 {
-    "timestamp": "2026-07-16T20:06:00+00:00",
+    "timestamp": "2026-07-16T20:32:00+00:00",
     "difficulty": {
         "1": 2,
-        "2": 1
+        "2": 1,
+        "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Trade",
@@ -28,11 +29,15 @@
             "count": 1
         },
         {
-            "name": "skulls for oocf",
+            "name": "skulls for ooch",
             "count": 1
         },
         {
             "name": "nm act",
+            "count": 1
+        },
+        {
+            "name": "lkoo",
             "count": 1
         }
     ],
@@ -43,12 +48,19 @@
             "examples": [
                 "quests nm"
             ]
+        },
+        {
+            "normalized": "lkoo",
+            "count": 2,
+            "examples": [
+                "lkoo"
+            ]
         }
     ],
     "classified_games": {
         "Trade": [
             {
-                "name": "skulls for oocf",
+                "name": "skulls for ooch",
                 "matched": "for",
                 "count": 1
             }
@@ -62,8 +74,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 10.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 8.5
     }
 }
