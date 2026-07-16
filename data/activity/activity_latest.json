@@ -1,76 +1,14 @@
 {
-    "timestamp": "2026-07-16T07:54:00+00:00",
-    "difficulty": {
-        "0": 2,
-        "2": 2
-    },
-    "mode": {
-        "1": 1,
-        "0": 3
-    },
-    "activities": [
-        {
-            "name": "Other",
-            "count": 3
-        },
-        {
-            "name": "Trade",
-            "count": 1
-        }
-    ],
-    "top_games": [
-        {
-            "name": "a",
-            "count": 1
-        },
-        {
-            "name": "lvv",
-            "count": 1
-        },
-        {
-            "name": "erwerw",
-            "count": 1
-        },
-        {
-            "name": "swap",
-            "count": 1
-        }
-    ],
-    "unknown_games": [
-        {
-            "normalized": "a",
-            "count": 2,
-            "examples": [
-                "a"
-            ]
-        },
-        {
-            "normalized": "lvv",
-            "count": 2,
-            "examples": [
-                "lvv"
-            ]
-        },
-        {
-            "normalized": "erwerw",
-            "count": 2,
-            "examples": [
-                "erwerw"
-            ]
-        }
-    ],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "swap",
-                "matched": "swap",
-                "count": 1
-            }
-        ]
-    },
+    "timestamp": "2026-07-16T08:45:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "activities": [],
+    "top_games": [],
+    "unknown_games": [],
+    "classified_games": {},
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 3.5
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
