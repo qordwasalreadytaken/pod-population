@@ -35,7 +35,7 @@
     },
     {
         "normalized": "qe",
-        "count": 46,
+        "count": 48,
         "examples": [
             "qe"
         ]
@@ -1099,6 +1099,13 @@
         "count": 4,
         "examples": [
             "dsdsd"
+        ]
+    },
+    {
+        "normalized": "dsdsdsds #",
+        "count": 4,
+        "examples": [
+            "dsdsdsds 1"
         ]
     },
     {
@@ -2632,13 +2639,6 @@
         "count": 2,
         "examples": [
             "dfddfdf 1"
-        ]
-    },
-    {
-        "normalized": "dsdsdsds #",
-        "count": 2,
-        "examples": [
-            "dsdsdsds 1"
         ]
     }
 ]
