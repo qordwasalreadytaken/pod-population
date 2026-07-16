@@ -1,17 +1,17 @@
 {
-    "timestamp": "2026-07-16T19:39:00+00:00",
+    "timestamp": "2026-07-16T20:06:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 2
+        "1": 2,
+        "2": 1
     },
     "mode": {
-        "1": 2,
+        "1": 1,
         "0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Trade",
@@ -24,15 +24,11 @@
     ],
     "top_games": [
         {
-            "name": "a",
+            "name": "quests nm",
             "count": 1
         },
         {
-            "name": "eq",
-            "count": 1
-        },
-        {
-            "name": "skulls for oocs",
+            "name": "skulls for oocf",
             "count": 1
         },
         {
@@ -42,24 +38,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "a",
+            "normalized": "quests nm",
             "count": 2,
             "examples": [
-                "a"
-            ]
-        },
-        {
-            "normalized": "eq",
-            "count": 2,
-            "examples": [
-                "eq"
+                "quests nm"
             ]
         }
     ],
     "classified_games": {
         "Trade": [
             {
-                "name": "skulls for oocs",
+                "name": "skulls for oocf",
                 "matched": "for",
                 "count": 1
             }
@@ -73,8 +62,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 10.0
     }
 }
