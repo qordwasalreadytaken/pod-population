@@ -1,60 +1,36 @@
 {
-    "timestamp": "2026-07-16T11:09:00+00:00",
+    "timestamp": "2026-07-16T11:49:00+00:00",
     "difficulty": {
-        "1": 1,
-        "2": 2
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 2
+        "0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 3
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "gg",
-            "count": 1
-        },
-        {
-            "name": "dadada 1",
-            "count": 1
-        },
-        {
-            "name": "dfddfdf 1",
+            "name": "act 1",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "gg",
-            "count": 2,
-            "examples": [
-                "gg"
-            ]
-        },
-        {
-            "normalized": "dadada #",
-            "count": 2,
-            "examples": [
-                "dadada 1"
-            ]
-        },
-        {
-            "normalized": "dfddfdf #",
-            "count": 2,
-            "examples": [
-                "dfddfdf 1"
-            ]
-        }
-    ],
-    "classified_games": {},
+    "unknown_games": [],
+    "classified_games": {
+        "Leveling": [
+            {
+                "name": "act 1",
+                "matched": "act",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.33
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 5.0
     }
 }
