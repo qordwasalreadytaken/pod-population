@@ -1,36 +1,54 @@
 {
-    "timestamp": "2026-07-16T12:30:00+00:00",
+    "timestamp": "2026-07-16T13:10:00+00:00",
     "difficulty": {
-        "0": 1
+        "0": 1,
+        "2": 1
     },
     "mode": {
+        "1": 1,
         "0": 1
     },
     "activities": [
         {
-            "name": "Leveling",
+            "name": "Cows",
+            "count": 1
+        },
+        {
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "trist 5",
+            "name": "merc cow",
+            "count": 1
+        },
+        {
+            "name": "dsdsdsds 1",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "dsdsdsds #",
+            "count": 2,
+            "examples": [
+                "dsdsdsds 1"
+            ]
+        }
+    ],
     "classified_games": {
-        "Leveling": [
+        "Cows": [
             {
-                "name": "trist 5",
-                "matched": "trist",
+                "name": "merc cow",
+                "matched": "cow",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 7.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 9.0
     }
 }
