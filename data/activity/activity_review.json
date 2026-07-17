@@ -90,17 +90,17 @@
         ]
     },
     {
+        "normalized": "eq",
+        "count": 24,
+        "examples": [
+            "eq"
+        ]
+    },
+    {
         "normalized": "t",
         "count": 22,
         "examples": [
             "t"
-        ]
-    },
-    {
-        "normalized": "eq",
-        "count": 22,
-        "examples": [
-            "eq"
         ]
     },
     {
@@ -335,6 +335,13 @@
         ]
     },
     {
+        "normalized": "a eu chill",
+        "count": 10,
+        "examples": [
+            "a eu chill"
+        ]
+    },
+    {
         "normalized": "a boss",
         "count": 8,
         "examples": [
@@ -439,13 +446,6 @@
         "count": 8,
         "examples": [
             "level"
-        ]
-    },
-    {
-        "normalized": "a eu chill",
-        "count": 8,
-        "examples": [
-            "a eu chill"
         ]
     },
     {

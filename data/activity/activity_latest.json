@@ -1,15 +1,19 @@
 {
-    "timestamp": "2026-07-17T09:26:00+00:00",
+    "timestamp": "2026-07-17T10:10:00+00:00",
     "difficulty": {
         "1": 1,
-        "0": 2,
+        "0": 4,
         "2": 3
     },
     "mode": {
         "1": 2,
-        "0": 4
+        "0": 6
     },
     "activities": [
+        {
+            "name": "Trade",
+            "count": 3
+        },
         {
             "name": "Other",
             "count": 2
@@ -21,15 +25,15 @@
         {
             "name": "Misc. Public MF Runs",
             "count": 1
-        },
-        {
-            "name": "Trade",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "qe",
+            "name": "swap",
+            "count": 3
+        },
+        {
+            "name": "eq",
             "count": 1
         },
         {
@@ -37,28 +41,24 @@
             "count": 1
         },
         {
-            "name": "mapper-3",
-            "count": 1
-        },
-        {
             "name": "run",
             "count": 1
         },
         {
-            "name": "mapper-2",
+            "name": "mapper-6",
             "count": 1
         },
         {
-            "name": "swap",
+            "name": "mapper-5",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "qe",
+            "normalized": "eq",
             "count": 2,
             "examples": [
-                "qe"
+                "eq"
             ]
         },
         {
@@ -70,18 +70,6 @@
         }
     ],
     "classified_games": {
-        "Maps": [
-            {
-                "name": "mapper-3",
-                "matched": "map",
-                "count": 1
-            },
-            {
-                "name": "mapper-2",
-                "matched": "map",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "run",
@@ -89,17 +77,29 @@
                 "count": 1
             }
         ],
+        "Maps": [
+            {
+                "name": "mapper-6",
+                "matched": "map",
+                "count": 1
+            },
+            {
+                "name": "mapper-5",
+                "matched": "map",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "swap",
                 "matched": "swap",
-                "count": 1
+                "count": 3
             }
         ]
     },
     "interesting": {
         "unique_names": 6,
-        "public_games": 6,
+        "public_games": 8,
         "average_name_length": 5.83
     }
 }
