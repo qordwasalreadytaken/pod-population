@@ -1,8 +1,8 @@
 {
-    "timestamp": "2026-07-17T03:49:00+00:00",
+    "timestamp": "2026-07-17T05:01:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "1": 1,
+        "2": 2
     },
     "mode": {
         "1": 1,
@@ -11,55 +11,44 @@
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Chaos",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "a",
+            "name": "gg",
             "count": 1
         },
         {
-            "name": "test",
+            "name": "test 27",
             "count": 1
         },
         {
-            "name": "chaos 3",
+            "name": "test 25",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "a",
-            "count": 2,
+            "normalized": "test #",
+            "count": 4,
             "examples": [
-                "a"
+                "test 25",
+                "test 27"
             ]
         },
         {
-            "normalized": "test",
+            "normalized": "gg",
             "count": 2,
             "examples": [
-                "test"
+                "gg"
             ]
         }
     ],
-    "classified_games": {
-        "Chaos": [
-            {
-                "name": "chaos 3",
-                "matched": "chaos",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 4.0
+        "average_name_length": 5.33
     }
 }
