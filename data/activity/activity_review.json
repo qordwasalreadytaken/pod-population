@@ -42,7 +42,7 @@
     },
     {
         "normalized": "a nm",
-        "count": 44,
+        "count": 46,
         "examples": [
             "a nm"
         ]
@@ -107,6 +107,13 @@
         ]
     },
     {
+        "normalized": "lvl",
+        "count": 22,
+        "examples": [
+            "lvl"
+        ]
+    },
+    {
         "normalized": "q",
         "count": 20,
         "examples": [
@@ -139,13 +146,6 @@
         "count": 20,
         "examples": [
             "hell o"
-        ]
-    },
-    {
-        "normalized": "lvl",
-        "count": 20,
-        "examples": [
-            "lvl"
         ]
     },
     {
@@ -2737,6 +2737,13 @@
         "count": 2,
         "examples": [
             "xping"
+        ]
+    },
+    {
+        "normalized": "xping #",
+        "count": 2,
+        "examples": [
+            "xping 2"
         ]
     }
 ]
