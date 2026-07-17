@@ -1,8 +1,7 @@
 {
-    "timestamp": "2026-07-17T16:41:00+00:00",
+    "timestamp": "2026-07-17T17:09:00+00:00",
     "difficulty": {
-        "1": 1,
-        "2": 3,
+        "2": 4,
         "0": 1
     },
     "mode": {
@@ -12,11 +11,11 @@
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Leveling",
@@ -25,7 +24,7 @@
     ],
     "top_games": [
         {
-            "name": "quests",
+            "name": "questsss",
             "count": 1
         },
         {
@@ -33,11 +32,11 @@
             "count": 1
         },
         {
-            "name": "fdsafda",
+            "name": "asdsad",
             "count": 1
         },
         {
-            "name": "fdfdfdfd 1",
+            "name": "fdsafda",
             "count": 1
         },
         {
@@ -47,10 +46,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "quests",
+            "normalized": "questsss",
             "count": 2,
             "examples": [
-                "quests"
+                "questsss"
             ]
         },
         {
@@ -59,13 +58,6 @@
             "examples": [
                 "fdsafda"
             ]
-        },
-        {
-            "normalized": "fdfdfdfd #",
-            "count": 2,
-            "examples": [
-                "fdfdfdfd 1"
-            ]
         }
     ],
     "classified_games": {
@@ -73,6 +65,11 @@
             {
                 "name": "run",
                 "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "asdsad",
+                "matched": "asd",
                 "count": 1
             }
         ],
@@ -87,6 +84,6 @@
     "interesting": {
         "unique_names": 5,
         "public_games": 5,
-        "average_name_length": 6.2
+        "average_name_length": 5.8
     }
 }
