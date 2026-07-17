@@ -153,14 +153,14 @@
             "count": 44
         },
         {
+            "name": "nico",
+            "matched": "nico",
+            "count": 42
+        },
+        {
             "name": "gord",
             "matched": "gord",
             "count": 41
-        },
-        {
-            "name": "nico",
-            "matched": "nico",
-            "count": 39
         },
         {
             "name": "run",
@@ -234,7 +234,7 @@
         },
         {
             "name": "meph run",
-            "matched": "meph",
+            "matched": "run",
             "count": 4
         },
         {
@@ -654,7 +654,7 @@
         {
             "name": "1 ooc for 1 eld",
             "matched": "for",
-            "count": 53
+            "count": 54
         },
         {
             "name": "n shadow gc",
@@ -668,7 +668,7 @@
         },
         {
             "name": "n ama torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 14
         },
         {
@@ -738,7 +738,7 @@
         },
         {
             "name": "n amatorch",
-            "matched": "n",
+            "matched": "torch",
             "count": 3
         },
         {
@@ -748,7 +748,7 @@
         },
         {
             "name": "n 6os windforce",
-            "matched": "n",
+            "matched": "for",
             "count": 3
         },
         {
@@ -1050,7 +1050,7 @@
         },
         {
             "name": "norm act",
-            "matched": "norm",
+            "matched": "act",
             "count": 4
         },
         {
@@ -1154,6 +1154,11 @@
             "count": 2
         },
         {
+            "name": "fresh start",
+            "matched": "start",
+            "count": 2
+        },
+        {
             "name": "hell mode exp-2",
             "matched": "exp",
             "count": 1
@@ -1165,7 +1170,7 @@
         },
         {
             "name": "act 2 start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -1225,7 +1230,7 @@
         },
         {
             "name": "act 5 normal",
-            "matched": "norm",
+            "matched": "act",
             "count": 1
         },
         {
@@ -1282,11 +1287,6 @@
             "name": "act 6",
             "matched": "act",
             "count": 1
-        },
-        {
-            "name": "fresh start",
-            "matched": "start",
-            "count": 1
         }
     ],
     "Maps": [
@@ -1312,12 +1312,12 @@
         },
         {
             "name": "maps-2",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
             "name": "maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
