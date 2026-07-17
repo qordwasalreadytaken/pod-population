@@ -1,12 +1,10 @@
 {
-    "timestamp": "2026-07-17T18:07:00+00:00",
+    "timestamp": "2026-07-17T18:36:00+00:00",
     "difficulty": {
-        "1": 2,
-        "2": 2,
-        "0": 1
+        "2": 3,
+        "1": 1
     },
     "mode": {
-        "1": 1,
         "0": 4
     },
     "activities": [
@@ -17,43 +15,40 @@
         {
             "name": "Misc. Public MF Runs",
             "count": 1
-        },
-        {
-            "name": "Leveling",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "xxzcz",
-            "count": 2
+            "name": "trapper jim 2",
+            "count": 1
         },
         {
-            "name": "questsd",
+            "name": "trapper jim 1",
+            "count": 1
+        },
+        {
+            "name": "lvv",
             "count": 1
         },
         {
             "name": "aa",
             "count": 1
-        },
-        {
-            "name": "act 6",
-            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "xxzcz",
+            "normalized": "trapper jim #",
             "count": 4,
             "examples": [
-                "xxzcz"
+                "trapper jim 1",
+                "trapper jim 2"
             ]
         },
         {
-            "normalized": "questsd",
+            "normalized": "lvv",
             "count": 2,
             "examples": [
-                "questsd"
+                "lvv"
             ]
         }
     ],
@@ -64,18 +59,11 @@
                 "matched": "aa",
                 "count": 1
             }
-        ],
-        "Leveling": [
-            {
-                "name": "act 6",
-                "matched": "act",
-                "count": 1
-            }
         ]
     },
     "interesting": {
         "unique_names": 4,
-        "public_games": 5,
-        "average_name_length": 4.75
+        "public_games": 4,
+        "average_name_length": 7.75
     }
 }
