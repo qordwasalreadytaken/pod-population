@@ -12791,7 +12791,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "buy",
+                    "matched": "torch",
                     "count": 1
                 }
             ],
@@ -12909,7 +12909,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "buy",
+                    "matched": "torch",
                     "count": 2
                 }
             ],
@@ -13001,7 +13001,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "buy",
+                    "matched": "torch",
                     "count": 1
                 }
             ],
@@ -13194,7 +13194,7 @@
             "Trade": [
                 {
                     "name": "n free amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -13316,7 +13316,7 @@
                 },
                 {
                     "name": "n free amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -13424,7 +13424,7 @@
                 },
                 {
                     "name": "n free amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -13746,7 +13746,7 @@
                 },
                 {
                     "name": "n free amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -21252,7 +21252,7 @@
             "Trade": [
                 {
                     "name": "n free amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -25025,7 +25025,7 @@
                 },
                 {
                     "name": "n free amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -32595,7 +32595,7 @@
             "Trade": [
                 {
                     "name": "n free amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -32675,7 +32675,7 @@
             "Trade": [
                 {
                     "name": "n free amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -33290,7 +33290,7 @@
             "Trade": [
                 {
                     "name": "n free amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -35539,7 +35539,7 @@
             "Trade": [
                 {
                     "name": "n amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 },
                 {
@@ -35850,7 +35850,7 @@
             "Trade": [
                 {
                     "name": "n amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 },
                 {
@@ -35896,7 +35896,7 @@
             "Trade": [
                 {
                     "name": "n amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 },
                 {
@@ -40655,7 +40655,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "run",
+                    "matched": "meph",
                     "count": 1
                 },
                 {
@@ -40702,7 +40702,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "run",
+                    "matched": "meph",
                     "count": 1
                 },
                 {
@@ -51659,7 +51659,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "run",
+                    "matched": "meph",
                     "count": 2
                 }
             ]
@@ -59350,6 +59350,59 @@
             "unique_names": 3,
             "public_games": 3,
             "average_name_length": 6.0
+        }
+    },
+    {
+        "timestamp": "2026-07-17T19:38:00+00:00",
+        "difficulty": {
+            "2": 1,
+            "1": 1
+        },
+        "mode": {
+            "0": 2
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 1
+            },
+            {
+                "name": "Misc. Public MF Runs",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "trapper jim 3",
+                "count": 1
+            },
+            {
+                "name": "aa",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "trapper jim #",
+                "count": 2,
+                "examples": [
+                    "trapper jim 3"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Misc. Public MF Runs": [
+                {
+                    "name": "aa",
+                    "matched": "aa",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 2,
+            "public_games": 2,
+            "average_name_length": 7.5
         }
     }
 ]
