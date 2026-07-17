@@ -1,14 +1,52 @@
 {
-    "timestamp": "2026-07-17T15:08:00+00:00",
-    "difficulty": {},
-    "mode": {},
-    "activities": [],
-    "top_games": [],
-    "unknown_games": [],
-    "classified_games": {},
+    "timestamp": "2026-07-17T15:43:00+00:00",
+    "difficulty": {
+        "0": 2
+    },
+    "mode": {
+        "0": 2
+    },
+    "activities": [
+        {
+            "name": "Other",
+            "count": 1
+        },
+        {
+            "name": "Leveling",
+            "count": 1
+        }
+    ],
+    "top_games": [
+        {
+            "name": "lvup gogo",
+            "count": 1
+        },
+        {
+            "name": "act 2",
+            "count": 1
+        }
+    ],
+    "unknown_games": [
+        {
+            "normalized": "lvup gogo",
+            "count": 2,
+            "examples": [
+                "lvup gogo"
+            ]
+        }
+    ],
+    "classified_games": {
+        "Leveling": [
+            {
+                "name": "act 2",
+                "matched": "act",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 0,
-        "public_games": 0,
-        "average_name_length": 0.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 7.0
     }
 }
