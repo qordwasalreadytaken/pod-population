@@ -1,36 +1,88 @@
 {
-    "timestamp": "2026-07-17T00:05:00+00:00",
+    "timestamp": "2026-07-17T00:53:00+00:00",
     "difficulty": {
+        "1": 2,
+        "0": 2,
         "2": 1
     },
     "mode": {
-        "1": 1
+        "1": 3,
+        "0": 2
     },
     "activities": [
         {
             "name": "Other",
+            "count": 4
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "a",
+            "name": "a nm",
+            "count": 1
+        },
+        {
+            "name": "new game",
+            "count": 1
+        },
+        {
+            "name": "lvl",
+            "count": 1
+        },
+        {
+            "name": "nico",
+            "count": 1
+        },
+        {
+            "name": "xping",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "a",
+            "normalized": "a nm",
             "count": 2,
             "examples": [
-                "a"
+                "a nm"
+            ]
+        },
+        {
+            "normalized": "new game",
+            "count": 2,
+            "examples": [
+                "new game"
+            ]
+        },
+        {
+            "normalized": "lvl",
+            "count": 2,
+            "examples": [
+                "lvl"
+            ]
+        },
+        {
+            "normalized": "xping",
+            "count": 2,
+            "examples": [
+                "xping"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "nico",
+                "matched": "nico",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 1.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 4.8
     }
 }
