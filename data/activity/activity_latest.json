@@ -1,21 +1,25 @@
 {
-    "timestamp": "2026-07-17T07:54:00+00:00",
+    "timestamp": "2026-07-17T08:42:00+00:00",
     "difficulty": {
-        "1": 2,
-        "0": 1,
-        "2": 2
+        "1": 1,
+        "0": 2,
+        "2": 1
     },
     "mode": {
         "1": 2,
-        "0": 3
+        "0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Chaos",
+            "count": 1
+        },
+        {
+            "name": "Trade",
             "count": 1
         }
     ],
@@ -29,15 +33,11 @@
             "count": 1
         },
         {
-            "name": "sgfdg",
+            "name": "chaos-6",
             "count": 1
         },
         {
-            "name": "t",
-            "count": 1
-        },
-        {
-            "name": "run",
+            "name": "swap",
             "count": 1
         }
     ],
@@ -55,34 +55,27 @@
             "examples": [
                 "a eu chill"
             ]
-        },
-        {
-            "normalized": "sgfdg",
-            "count": 2,
-            "examples": [
-                "sgfdg"
-            ]
-        },
-        {
-            "normalized": "t",
-            "count": 2,
-            "examples": [
-                "t"
-            ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Chaos": [
             {
-                "name": "run",
-                "matched": "run",
+                "name": "chaos-6",
+                "matched": "chaos",
+                "count": 1
+            }
+        ],
+        "Trade": [
+            {
+                "name": "swap",
+                "matched": "swap",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 4.6
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 6.25
     }
 }
