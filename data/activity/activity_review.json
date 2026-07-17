@@ -189,6 +189,13 @@
         ]
     },
     {
+        "normalized": "quests",
+        "count": 16,
+        "examples": [
+            "quests"
+        ]
+    },
+    {
         "normalized": "jm",
         "count": 16,
         "examples": [
@@ -221,13 +228,6 @@
         "count": 14,
         "examples": [
             "nm a"
-        ]
-    },
-    {
-        "normalized": "quests",
-        "count": 14,
-        "examples": [
-            "quests"
         ]
     },
     {
@@ -1159,6 +1159,13 @@
         "examples": [
             "test 25",
             "test 27"
+        ]
+    },
+    {
+        "normalized": "fdfdfdfd #",
+        "count": 4,
+        "examples": [
+            "fdfdfdfd 1"
         ]
     },
     {
@@ -2800,10 +2807,10 @@
         ]
     },
     {
-        "normalized": "fdfdfdfd #",
+        "normalized": "fdsafda",
         "count": 2,
         "examples": [
-            "fdfdfdfd 1"
+            "fdsafda"
         ]
     }
 ]
