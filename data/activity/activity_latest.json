@@ -1,58 +1,59 @@
 {
-    "timestamp": "2026-07-17T13:08:00+00:00",
+    "timestamp": "2026-07-17T13:51:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "1": 1,
+        "2": 3
     },
     "mode": {
+        "1": 1,
         "0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Trade",
-            "count": 1
+            "count": 4
         }
     ],
     "top_games": [
         {
-            "name": "trapper jim 6",
+            "name": "gg",
             "count": 1
         },
         {
-            "name": "trapper jim 5",
+            "name": "trapper jim 11",
             "count": 1
         },
         {
-            "name": "swap",
+            "name": "trapper jim 10",
+            "count": 1
+        },
+        {
+            "name": "trapper jim 9",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "trapper jim #",
-            "count": 4,
+            "count": 6,
             "examples": [
-                "trapper jim 5",
-                "trapper jim 6"
+                "trapper jim 10",
+                "trapper jim 11",
+                "trapper jim 9"
+            ]
+        },
+        {
+            "normalized": "gg",
+            "count": 2,
+            "examples": [
+                "gg"
             ]
         }
     ],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "swap",
-                "matched": "swap",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 10.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 10.75
     }
 }
