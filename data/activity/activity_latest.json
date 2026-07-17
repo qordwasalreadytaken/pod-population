@@ -1,47 +1,20 @@
 {
-    "timestamp": "2026-07-16T23:33:00+00:00",
+    "timestamp": "2026-07-17T00:05:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 2,
-        "0": 1
+        "2": 1
     },
     "mode": {
-        "1": 1,
-        "0": 5
+        "1": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "a",
-            "count": 1
-        },
-        {
-            "name": "1235",
-            "count": 1
-        },
-        {
-            "name": "nico",
-            "count": 1
-        },
-        {
-            "name": "dfgfdg",
-            "count": 1
-        },
-        {
-            "name": "1234",
-            "count": 1
-        },
-        {
-            "name": "trzr",
             "count": 1
         }
     ],
@@ -52,44 +25,12 @@
             "examples": [
                 "a"
             ]
-        },
-        {
-            "normalized": "dfgfdg",
-            "count": 2,
-            "examples": [
-                "dfgfdg"
-            ]
-        },
-        {
-            "normalized": "trzr",
-            "count": 2,
-            "examples": [
-                "trzr"
-            ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "1235",
-                "matched": "123",
-                "count": 1
-            },
-            {
-                "name": "nico",
-                "matched": "nico",
-                "count": 1
-            },
-            {
-                "name": "1234",
-                "matched": "123",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 3.83
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 1.0
     }
 }
