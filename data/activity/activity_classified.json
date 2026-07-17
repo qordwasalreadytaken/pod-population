@@ -180,7 +180,7 @@
         {
             "name": "run",
             "matched": "run",
-            "count": 24
+            "count": 25
         },
         {
             "name": "aaa",
@@ -234,7 +234,7 @@
         },
         {
             "name": "meph run",
-            "matched": "meph",
+            "matched": "run",
             "count": 4
         },
         {
@@ -551,12 +551,12 @@
         },
         {
             "name": "cows",
-            "matched": "cows",
+            "matched": "cow",
             "count": 13
         },
         {
             "name": "cowcowst",
-            "matched": "cows",
+            "matched": "cow",
             "count": 4
         },
         {
@@ -566,7 +566,7 @@
         },
         {
             "name": "cowcows",
-            "matched": "cows",
+            "matched": "cow",
             "count": 2
         },
         {
@@ -601,7 +601,7 @@
         },
         {
             "name": "cowsrus",
-            "matched": "cows",
+            "matched": "cow",
             "count": 1
         },
         {
@@ -636,12 +636,12 @@
         },
         {
             "name": "merc cows",
-            "matched": "cows",
+            "matched": "cow",
             "count": 1
         },
         {
             "name": "cows 1",
-            "matched": "cows",
+            "matched": "cow",
             "count": 1
         }
     ],
@@ -649,7 +649,7 @@
         {
             "name": "swap",
             "matched": "swap",
-            "count": 109
+            "count": 110
         },
         {
             "name": "1 ooc for 1 eld",
@@ -668,12 +668,12 @@
         },
         {
             "name": "n ama torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 14
         },
         {
             "name": "n free amatorch",
-            "matched": "torch",
+            "matched": "n",
             "count": 9
         },
         {
@@ -738,7 +738,7 @@
         },
         {
             "name": "n amatorch",
-            "matched": "torch",
+            "matched": "n",
             "count": 3
         },
         {
@@ -1040,7 +1040,7 @@
         },
         {
             "name": "norm act",
-            "matched": "norm",
+            "matched": "act",
             "count": 4
         },
         {
@@ -1215,7 +1215,7 @@
         },
         {
             "name": "act 5 normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -1297,12 +1297,12 @@
         },
         {
             "name": "maps-2",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
             "name": "maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
@@ -1327,6 +1327,16 @@
         },
         {
             "name": "mapz-3",
+            "matched": "map",
+            "count": 1
+        },
+        {
+            "name": "mapper-3",
+            "matched": "map",
+            "count": 1
+        },
+        {
+            "name": "mapper-2",
             "matched": "map",
             "count": 1
         }
