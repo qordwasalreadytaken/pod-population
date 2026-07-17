@@ -1,16 +1,16 @@
 {
-    "timestamp": "2026-07-17T18:36:00+00:00",
+    "timestamp": "2026-07-17T19:07:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 2,
         "1": 1
     },
     "mode": {
-        "0": 4
+        "0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -19,11 +19,7 @@
     ],
     "top_games": [
         {
-            "name": "trapper jim 2",
-            "count": 1
-        },
-        {
-            "name": "trapper jim 1",
+            "name": "trapper jim 3",
             "count": 1
         },
         {
@@ -38,10 +34,9 @@
     "unknown_games": [
         {
             "normalized": "trapper jim #",
-            "count": 4,
+            "count": 2,
             "examples": [
-                "trapper jim 1",
-                "trapper jim 2"
+                "trapper jim 3"
             ]
         },
         {
@@ -62,8 +57,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 7.75
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 6.0
     }
 }
