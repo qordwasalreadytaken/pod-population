@@ -1,17 +1,17 @@
 {
-    "timestamp": "2026-07-17T13:51:00+00:00",
+    "timestamp": "2026-07-17T14:31:00+00:00",
     "difficulty": {
         "1": 1,
-        "2": 3
+        "2": 4
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 4
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 5
         }
     ],
     "top_games": [
@@ -20,26 +20,29 @@
             "count": 1
         },
         {
-            "name": "trapper jim 11",
+            "name": "trapper jim 17",
             "count": 1
         },
         {
-            "name": "trapper jim 10",
+            "name": "fdsfs",
             "count": 1
         },
         {
-            "name": "trapper jim 9",
+            "name": "fdfdfdfd 1",
+            "count": 1
+        },
+        {
+            "name": "trapper jim 14",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "trapper jim #",
-            "count": 6,
+            "count": 4,
             "examples": [
-                "trapper jim 10",
-                "trapper jim 11",
-                "trapper jim 9"
+                "trapper jim 14",
+                "trapper jim 17"
             ]
         },
         {
@@ -48,12 +51,26 @@
             "examples": [
                 "gg"
             ]
+        },
+        {
+            "normalized": "fdsfs",
+            "count": 2,
+            "examples": [
+                "fdsfs"
+            ]
+        },
+        {
+            "normalized": "fdfdfdfd #",
+            "count": 2,
+            "examples": [
+                "fdfdfdfd 1"
+            ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 10.75
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 9.0
     }
 }
