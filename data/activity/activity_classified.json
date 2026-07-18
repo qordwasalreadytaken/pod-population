@@ -254,7 +254,7 @@
         },
         {
             "name": "meph run",
-            "matched": "meph",
+            "matched": "run",
             "count": 4
         },
         {
@@ -384,6 +384,11 @@
         },
         {
             "name": "run 5",
+            "matched": "run",
+            "count": 2
+        },
+        {
+            "name": "a running",
             "matched": "run",
             "count": 2
         },
@@ -576,11 +581,6 @@
             "name": "run 3",
             "matched": "run",
             "count": 1
-        },
-        {
-            "name": "a running",
-            "matched": "run",
-            "count": 1
         }
     ],
     "Cows": [
@@ -694,7 +694,7 @@
         {
             "name": "1 ooc for 1 eld",
             "matched": "for",
-            "count": 56
+            "count": 57
         },
         {
             "name": "n shadow gc",
@@ -788,7 +788,7 @@
         },
         {
             "name": "n 6os windforce",
-            "matched": "n",
+            "matched": "for",
             "count": 3
         },
         {
@@ -1100,7 +1100,7 @@
         },
         {
             "name": "norm act",
-            "matched": "norm",
+            "matched": "act",
             "count": 4
         },
         {
@@ -1225,7 +1225,7 @@
         },
         {
             "name": "act 2 start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -1255,7 +1255,7 @@
         },
         {
             "name": "act start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -1265,7 +1265,7 @@
         },
         {
             "name": "act hel start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -1285,7 +1285,7 @@
         },
         {
             "name": "act 5 normal",
-            "matched": "norm",
+            "matched": "act",
             "count": 1
         },
         {
@@ -1372,12 +1372,12 @@
         },
         {
             "name": "maps-2",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
             "name": "maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
