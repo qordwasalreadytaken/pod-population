@@ -1,28 +1,29 @@
 {
-    "timestamp": "2026-07-18T09:46:00+00:00",
+    "timestamp": "2026-07-18T10:28:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 1,
+        "0": 1
     },
     "mode": {
         "0": 2
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Rush",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "run 5",
+            "name": "hhgfhg",
             "count": 1
         },
         {
-            "name": "hhgfhg",
+            "name": "i rush u normal",
             "count": 1
         }
     ],
@@ -36,10 +37,10 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Rush": [
             {
-                "name": "run 5",
-                "matched": "run",
+                "name": "i rush u normal",
+                "matched": "rush",
                 "count": 1
             }
         ]
@@ -47,6 +48,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 5.5
+        "average_name_length": 10.5
     }
 }
