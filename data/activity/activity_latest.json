@@ -1,88 +1,53 @@
 {
-    "timestamp": "2026-07-18T14:02:00+00:00",
+    "timestamp": "2026-07-18T14:35:00+00:00",
     "difficulty": {
-        "1": 2,
-        "2": 2,
-        "0": 1
+        "2": 1,
+        "1": 1
     },
     "mode": {
-        "1": 1,
-        "0": 4
+        "0": 2
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 3
-        },
-        {
-            "name": "Chaos",
+            "name": "Other",
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Chaos",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "baaa",
+            "name": "hgfgfgf",
             "count": 1
         },
         {
-            "name": "run 5",
-            "count": 1
-        },
-        {
-            "name": "run 4",
-            "count": 1
-        },
-        {
-            "name": "diarun nm 01",
-            "count": 1
-        },
-        {
-            "name": "oops 1",
+            "name": "diarun nm 4",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "oops #",
+            "normalized": "hgfgfgf",
             "count": 2,
             "examples": [
-                "oops 1"
+                "hgfgfgf"
             ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "baaa",
-                "matched": "aaa",
-                "count": 1
-            },
-            {
-                "name": "run 5",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "run 4",
-                "matched": "run",
-                "count": 1
-            }
-        ],
         "Chaos": [
             {
-                "name": "diarun nm 01",
+                "name": "diarun nm 4",
                 "matched": "dia",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.4
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 9.0
     }
 }
