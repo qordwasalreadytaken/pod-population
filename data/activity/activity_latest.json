@@ -1,14 +1,19 @@
 {
-    "timestamp": "2026-07-18T11:21:00+00:00",
+    "timestamp": "2026-07-18T11:46:00+00:00",
     "difficulty": {
-        "0": 1,
-        "2": 1
+        "0": 2,
+        "2": 1,
+        "1": 2
     },
     "mode": {
         "1": 1,
-        "0": 1
+        "0": 4
     },
     "activities": [
+        {
+            "name": "Leveling",
+            "count": 3
+        },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
@@ -19,6 +24,10 @@
         }
     ],
     "top_games": [
+        {
+            "name": "leveling",
+            "count": 3
+        },
         {
             "name": "a run",
             "count": 1
@@ -44,11 +53,18 @@
                 "matched": "run",
                 "count": 1
             }
+        ],
+        "Leveling": [
+            {
+                "name": "leveling",
+                "matched": "leveli",
+                "count": 3
+            }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 7.5
+        "unique_names": 3,
+        "public_games": 5,
+        "average_name_length": 7.67
     }
 }
