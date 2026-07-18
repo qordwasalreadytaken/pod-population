@@ -1,14 +1,54 @@
 {
-    "timestamp": "2026-07-18T07:10:00+00:00",
-    "difficulty": {},
-    "mode": {},
-    "activities": [],
-    "top_games": [],
-    "unknown_games": [],
-    "classified_games": {},
+    "timestamp": "2026-07-18T07:53:00+00:00",
+    "difficulty": {
+        "2": 1,
+        "0": 1
+    },
+    "mode": {
+        "1": 1,
+        "0": 1
+    },
+    "activities": [
+        {
+            "name": "Chaos",
+            "count": 1
+        },
+        {
+            "name": "Other",
+            "count": 1
+        }
+    ],
+    "top_games": [
+        {
+            "name": "hchaos-eu-1",
+            "count": 1
+        },
+        {
+            "name": "lvup gogo",
+            "count": 1
+        }
+    ],
+    "unknown_games": [
+        {
+            "normalized": "lvup gogo",
+            "count": 2,
+            "examples": [
+                "lvup gogo"
+            ]
+        }
+    ],
+    "classified_games": {
+        "Chaos": [
+            {
+                "name": "hchaos-eu-1",
+                "matched": "chaos",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 0,
-        "public_games": 0,
-        "average_name_length": 0.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 10.0
     }
 }
