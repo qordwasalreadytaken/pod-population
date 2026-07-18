@@ -1,21 +1,20 @@
 {
-    "timestamp": "2026-07-18T17:34:00+00:00",
+    "timestamp": "2026-07-18T18:03:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
+        "2": 4
     },
     "mode": {
         "1": 1,
-        "0": 1
+        "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
-        "0|0": 1
+        "2|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 4
         }
     ],
     "top_games": [
@@ -24,30 +23,40 @@
             "count": 1
         },
         {
-            "name": "derf",
+            "name": "barb lvling-9",
+            "count": 1
+        },
+        {
+            "name": "barb lvling-8",
+            "count": 1
+        },
+        {
+            "name": "barb lvling-6",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "barb lvling-#",
+            "count": 6,
+            "examples": [
+                "barb lvling-6",
+                "barb lvling-8",
+                "barb lvling-9"
+            ]
+        },
         {
             "normalized": "a",
             "count": 2,
             "examples": [
                 "a"
             ]
-        },
-        {
-            "normalized": "derf",
-            "count": 2,
-            "examples": [
-                "derf"
-            ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 2.5
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 10.0
     }
 }
