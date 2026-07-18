@@ -1,20 +1,16 @@
 {
-    "timestamp": "2026-07-18T10:52:00+00:00",
+    "timestamp": "2026-07-18T11:21:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1,
-        "0": 2
+        "0": 1,
+        "2": 1
     },
     "mode": {
-        "0": 5
+        "1": 1,
+        "0": 1
     },
     "activities": [
         {
-            "name": "Rush",
-            "count": 3
-        },
-        {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
@@ -24,55 +20,35 @@
     ],
     "top_games": [
         {
-            "name": "i rush u nm",
-            "count": 2
-        },
-        {
-            "name": "n ama torch",
+            "name": "a run",
             "count": 1
         },
         {
-            "name": "hhgfhg",
-            "count": 1
-        },
-        {
-            "name": "i rush u norma",
+            "name": "fdfdfdfd 1",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "hhgfhg",
+            "normalized": "fdfdfdfd #",
             "count": 2,
             "examples": [
-                "hhgfhg"
+                "fdfdfdfd 1"
             ]
         }
     ],
     "classified_games": {
-        "Trade": [
+        "Misc. Public MF Runs": [
             {
-                "name": "n ama torch",
-                "matched": "torch",
-                "count": 1
-            }
-        ],
-        "Rush": [
-            {
-                "name": "i rush u nm",
-                "matched": "rush",
-                "count": 2
-            },
-            {
-                "name": "i rush u norma",
-                "matched": "rush",
+                "name": "a run",
+                "matched": "run",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 5,
-        "average_name_length": 10.5
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 7.5
     }
 }
