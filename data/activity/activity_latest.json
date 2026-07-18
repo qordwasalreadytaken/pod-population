@@ -1,32 +1,28 @@
 {
-    "timestamp": "2026-07-18T22:46:00+00:00",
+    "timestamp": "2026-07-18T23:17:00+00:00",
     "difficulty": {
+        "2": 3,
         "1": 1,
-        "0": 2,
-        "2": 4
+        "0": 1
     },
     "mode": {
         "1": 2,
-        "0": 5
+        "0": 3
     },
     "difficulty_mode": {
+        "2|1": 1,
         "1|1": 1,
-        "0|1": 1,
-        "2|0": 4,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
-        },
-        {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
-            "name": "Chaos",
-            "count": 2
+            "name": "Misc. Public MF Runs",
+            "count": 1
         },
         {
             "name": "Trade",
@@ -35,23 +31,15 @@
     ],
     "top_games": [
         {
+            "name": "a4h",
+            "count": 1
+        },
+        {
             "name": "ted",
             "count": 1
         },
         {
-            "name": "a running",
-            "count": 1
-        },
-        {
             "name": "hgj",
-            "count": 1
-        },
-        {
-            "name": "idiau 2",
-            "count": 1
-        },
-        {
-            "name": "idiau 01",
             "count": 1
         },
         {
@@ -64,6 +52,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "a#h",
+            "count": 2,
+            "examples": [
+                "a4h"
+            ]
+        },
         {
             "normalized": "hgj",
             "count": 2,
@@ -85,23 +80,6 @@
                 "name": "ted",
                 "matched": "ted",
                 "count": 1
-            },
-            {
-                "name": "a running",
-                "matched": "run",
-                "count": 1
-            }
-        ],
-        "Chaos": [
-            {
-                "name": "idiau 2",
-                "matched": "dia",
-                "count": 1
-            },
-            {
-                "name": "idiau 01",
-                "matched": "dia",
-                "count": 1
             }
         ],
         "Trade": [
@@ -113,8 +91,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 6.71
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 5.2
     }
 }
