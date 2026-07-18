@@ -1,24 +1,25 @@
 {
-    "timestamp": "2026-07-18T23:17:00+00:00",
+    "timestamp": "2026-07-18T23:46:00+00:00",
     "difficulty": {
         "2": 3,
         "1": 1,
-        "0": 1
+        "0": 3
     },
     "mode": {
-        "1": 2,
+        "1": 4,
         "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
         "1|1": 1,
+        "0|1": 2,
         "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 5
         },
         {
             "name": "Misc. Public MF Runs",
@@ -36,6 +37,14 @@
         },
         {
             "name": "ted",
+            "count": 1
+        },
+        {
+            "name": "reht",
+            "count": 1
+        },
+        {
+            "name": "qq",
             "count": 1
         },
         {
@@ -57,6 +66,20 @@
             "count": 2,
             "examples": [
                 "a4h"
+            ]
+        },
+        {
+            "normalized": "reht",
+            "count": 2,
+            "examples": [
+                "reht"
+            ]
+        },
+        {
+            "normalized": "qq",
+            "count": 2,
+            "examples": [
+                "qq"
             ]
         },
         {
@@ -91,8 +114,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 5.2
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 4.57
     }
 }
