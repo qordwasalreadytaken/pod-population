@@ -1,70 +1,57 @@
 {
-    "timestamp": "2026-07-18T16:32:00+00:00",
+    "timestamp": "2026-07-18T17:05:00+00:00",
     "difficulty": {
-        "2": 5
+        "2": 3
     },
     "mode": {
-        "0": 5
+        "1": 1,
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 5
+        "2|1": 1,
+        "2|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Trade",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
         {
+            "name": "a",
+            "count": 1
+        },
+        {
+            "name": "barb lvling-40",
+            "count": 1
+        },
+        {
             "name": "barb lvling-39",
-            "count": 1
-        },
-        {
-            "name": "barb lvling-38",
-            "count": 1
-        },
-        {
-            "name": "barb lvling-36",
-            "count": 1
-        },
-        {
-            "name": "barb lvling-35",
-            "count": 1
-        },
-        {
-            "name": "n amatorch",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "barb lvling-#",
-            "count": 8,
+            "count": 4,
             "examples": [
-                "barb lvling-35",
-                "barb lvling-36",
-                "barb lvling-38",
-                "barb lvling-39"
+                "barb lvling-39",
+                "barb lvling-40"
+            ]
+        },
+        {
+            "normalized": "a",
+            "count": 2,
+            "examples": [
+                "a"
             ]
         }
     ],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "n amatorch",
-                "matched": "n",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 13.2
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 9.67
     }
 }
