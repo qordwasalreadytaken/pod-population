@@ -1,20 +1,26 @@
 {
-    "timestamp": "2026-07-18T18:03:00+00:00",
+    "timestamp": "2026-07-18T18:32:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 8,
+        "0": 3
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 10
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 3
+        "2|0": 7,
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 10
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         }
     ],
     "top_games": [
@@ -23,26 +29,58 @@
             "count": 1
         },
         {
-            "name": "barb lvling-9",
+            "name": "jm",
             "count": 1
         },
         {
-            "name": "barb lvling-8",
+            "name": "barb lvling-34",
             "count": 1
         },
         {
-            "name": "barb lvling-6",
+            "name": "barb lvling-33",
+            "count": 1
+        },
+        {
+            "name": "barb lvling-32",
+            "count": 1
+        },
+        {
+            "name": "barb lvling-31",
+            "count": 1
+        },
+        {
+            "name": "barb lvling-30",
+            "count": 1
+        },
+        {
+            "name": "barb lvling-29",
+            "count": 1
+        },
+        {
+            "name": "uryur",
+            "count": 1
+        },
+        {
+            "name": "barb lvling-35",
+            "count": 1
+        },
+        {
+            "name": "dasd",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "barb lvling-#",
-            "count": 6,
+            "count": 14,
             "examples": [
-                "barb lvling-6",
-                "barb lvling-8",
-                "barb lvling-9"
+                "barb lvling-29",
+                "barb lvling-30",
+                "barb lvling-31",
+                "barb lvling-32",
+                "barb lvling-33",
+                "barb lvling-34",
+                "barb lvling-35"
             ]
         },
         {
@@ -51,12 +89,34 @@
             "examples": [
                 "a"
             ]
+        },
+        {
+            "normalized": "jm",
+            "count": 2,
+            "examples": [
+                "jm"
+            ]
+        },
+        {
+            "normalized": "uryur",
+            "count": 2,
+            "examples": [
+                "uryur"
+            ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "dasd",
+                "matched": "asd",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
+        "unique_names": 11,
+        "public_games": 11,
         "average_name_length": 10.0
     }
 }

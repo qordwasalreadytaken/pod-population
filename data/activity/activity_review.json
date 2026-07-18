@@ -1,7 +1,7 @@
 [
     {
         "normalized": "a",
-        "count": 222,
+        "count": 224,
         "examples": [
             "a"
         ]
@@ -69,6 +69,22 @@
         ]
     },
     {
+        "normalized": "barb lvling-#",
+        "count": 38,
+        "examples": [
+            "barb lvling-29",
+            "barb lvling-3",
+            "barb lvling-30",
+            "barb lvling-31",
+            "barb lvling-32",
+            "barb lvling-33",
+            "barb lvling-34",
+            "barb lvling-35",
+            "barb lvling-36",
+            "barb lvling-38"
+        ]
+    },
+    {
         "normalized": "trapper jim #",
         "count": 36,
         "examples": [
@@ -127,22 +143,6 @@
         ]
     },
     {
-        "normalized": "barb lvling-#",
-        "count": 24,
-        "examples": [
-            "barb lvling-3",
-            "barb lvling-35",
-            "barb lvling-36",
-            "barb lvling-38",
-            "barb lvling-39",
-            "barb lvling-40",
-            "barb lvling-6",
-            "barb lvling-7",
-            "barb lvling-8",
-            "barb lvling-9"
-        ]
-    },
-    {
         "normalized": "t",
         "count": 22,
         "examples": [
@@ -188,6 +188,13 @@
         ]
     },
     {
+        "normalized": "jm",
+        "count": 18,
+        "examples": [
+            "jm"
+        ]
+    },
+    {
         "normalized": "help",
         "count": 16,
         "examples": [
@@ -210,13 +217,6 @@
         "count": 16,
         "examples": [
             "quests"
-        ]
-    },
-    {
-        "normalized": "jm",
-        "count": 16,
-        "examples": [
-            "jm"
         ]
     },
     {
@@ -2926,6 +2926,13 @@
         "count": 2,
         "examples": [
             "derf"
+        ]
+    },
+    {
+        "normalized": "uryur",
+        "count": 2,
+        "examples": [
+            "uryur"
         ]
     }
 ]
