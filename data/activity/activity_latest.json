@@ -1,12 +1,12 @@
 {
-    "timestamp": "2026-07-18T03:45:00+00:00",
+    "timestamp": "2026-07-18T04:45:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 1,
-        "0": 1
+        "2": 2,
+        "1": 1
     },
     "mode": {
-        "0": 3
+        "1": 1,
+        "0": 2
     },
     "activities": [
         {
@@ -16,45 +16,34 @@
     ],
     "top_games": [
         {
-            "name": "trapper jim 6",
-            "count": 1
-        },
-        {
             "name": "a",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "lvup gogo",
+            "name": "trapper jim 1",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "trapper jim #",
-            "count": 2,
-            "examples": [
-                "trapper jim 6"
-            ]
-        },
-        {
             "normalized": "a",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "a"
             ]
         },
         {
-            "normalized": "lvup gogo",
+            "normalized": "trapper jim #",
             "count": 2,
             "examples": [
-                "lvup gogo"
+                "trapper jim 1"
             ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 3,
+        "unique_names": 2,
         "public_games": 3,
-        "average_name_length": 7.67
+        "average_name_length": 7.0
     }
 }
