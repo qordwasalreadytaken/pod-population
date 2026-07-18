@@ -1,21 +1,21 @@
 {
-    "timestamp": "2026-07-17T23:32:00+00:00",
+    "timestamp": "2026-07-18T00:03:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 3
+        "2": 2,
+        "0": 2
     },
     "mode": {
-        "1": 1,
-        "0": 4
+        "1": 2,
+        "0": 2
     },
     "activities": [
         {
-            "name": "Leveling",
+            "name": "Other",
             "count": 2
         },
         {
-            "name": "Other",
-            "count": 2
+            "name": "Leveling",
+            "count": 1
         },
         {
             "name": "Trade",
@@ -24,39 +24,35 @@
     ],
     "top_games": [
         {
+            "name": "peteza",
+            "count": 1
+        },
+        {
             "name": "starting fresh",
             "count": 1
         },
         {
-            "name": "rfer",
+            "name": "o keyset n amat",
             "count": 1
         },
         {
-            "name": "rferkuk",
-            "count": 1
-        },
-        {
-            "name": "1 ooc for 1 eld",
-            "count": 1
-        },
-        {
-            "name": "act 1 xp",
+            "name": "countess",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "rfer",
+            "normalized": "peteza",
             "count": 2,
             "examples": [
-                "rfer"
+                "peteza"
             ]
         },
         {
-            "normalized": "rferkuk",
+            "normalized": "countess",
             "count": 2,
             "examples": [
-                "rferkuk"
+                "countess"
             ]
         }
     ],
@@ -66,24 +62,19 @@
                 "name": "starting fresh",
                 "matched": "start",
                 "count": 1
-            },
-            {
-                "name": "act 1 xp",
-                "matched": "act",
-                "count": 1
             }
         ],
         "Trade": [
             {
-                "name": "1 ooc for 1 eld",
-                "matched": "for",
+                "name": "o keyset n amat",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 9.6
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 10.75
     }
 }
