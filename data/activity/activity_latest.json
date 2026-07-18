@@ -1,70 +1,36 @@
 {
-    "timestamp": "2026-07-18T11:46:00+00:00",
+    "timestamp": "2026-07-18T12:16:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 1,
-        "1": 2
+        "1": 4
     },
     "mode": {
-        "1": 1,
         "0": 4
     },
     "activities": [
         {
             "name": "Leveling",
-            "count": 3
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Other",
-            "count": 1
+            "count": 4
         }
     ],
     "top_games": [
         {
             "name": "leveling",
-            "count": 3
-        },
-        {
-            "name": "a run",
-            "count": 1
-        },
-        {
-            "name": "fdfdfdfd 1",
-            "count": 1
+            "count": 4
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "fdfdfdfd #",
-            "count": 2,
-            "examples": [
-                "fdfdfdfd 1"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "a run",
-                "matched": "run",
-                "count": 1
-            }
-        ],
         "Leveling": [
             {
                 "name": "leveling",
                 "matched": "leveli",
-                "count": 3
+                "count": 4
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 5,
-        "average_name_length": 7.67
+        "unique_names": 1,
+        "public_games": 4,
+        "average_name_length": 8.0
     }
 }
