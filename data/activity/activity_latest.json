@@ -1,29 +1,42 @@
 {
-    "timestamp": "2026-07-18T10:28:00+00:00",
+    "timestamp": "2026-07-18T10:52:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
+        "2": 2,
+        "1": 1,
+        "0": 2
     },
     "mode": {
-        "0": 2
+        "0": 5
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Rush",
+            "count": 3
+        },
+        {
+            "name": "Trade",
             "count": 1
         },
         {
-            "name": "Rush",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "i rush u nm",
+            "count": 2
+        },
+        {
+            "name": "n ama torch",
+            "count": 1
+        },
+        {
             "name": "hhgfhg",
             "count": 1
         },
         {
-            "name": "i rush u normal",
+            "name": "i rush u norma",
             "count": 1
         }
     ],
@@ -37,17 +50,29 @@
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n ama torch",
+                "matched": "torch",
+                "count": 1
+            }
+        ],
         "Rush": [
             {
-                "name": "i rush u normal",
+                "name": "i rush u nm",
+                "matched": "rush",
+                "count": 2
+            },
+            {
+                "name": "i rush u norma",
                 "matched": "rush",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
+        "unique_names": 4,
+        "public_games": 5,
         "average_name_length": 10.5
     }
 }
