@@ -723,12 +723,17 @@
         },
         {
             "name": "buy necr torch",
-            "matched": "torch",
+            "matched": "buy",
             "count": 4
         },
         {
             "name": "bring soj 2",
             "matched": "bring",
+            "count": 4
+        },
+        {
+            "name": "n amatorch",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -762,18 +767,13 @@
             "count": 3
         },
         {
-            "name": "n amatorch",
-            "matched": "torch",
-            "count": 3
-        },
-        {
             "name": "swapp",
             "matched": "swap",
             "count": 3
         },
         {
             "name": "n 6os windforce",
-            "matched": "n",
+            "matched": "for",
             "count": 3
         },
         {
@@ -1080,12 +1080,12 @@
         },
         {
             "name": "norm start",
-            "matched": "norm",
+            "matched": "start",
             "count": 4
         },
         {
             "name": "norm act",
-            "matched": "norm",
+            "matched": "act",
             "count": 4
         },
         {
