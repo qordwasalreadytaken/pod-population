@@ -1,15 +1,39 @@
 {
-    "timestamp": "2026-07-18T15:04:00+00:00",
-    "difficulty": {},
-    "mode": {},
-    "difficulty_mode": {},
-    "activities": [],
-    "top_games": [],
+    "timestamp": "2026-07-18T15:33:00+00:00",
+    "difficulty": {
+        "2": 1
+    },
+    "mode": {
+        "0": 1
+    },
+    "difficulty_mode": {
+        "2|0": 1
+    },
+    "activities": [
+        {
+            "name": "Rush",
+            "count": 1
+        }
+    ],
+    "top_games": [
+        {
+            "name": "rush hell",
+            "count": 1
+        }
+    ],
     "unknown_games": [],
-    "classified_games": {},
+    "classified_games": {
+        "Rush": [
+            {
+                "name": "rush hell",
+                "matched": "rush",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 0,
-        "public_games": 0,
-        "average_name_length": 0.0
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 9.0
     }
 }
