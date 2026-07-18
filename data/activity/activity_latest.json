@@ -1,49 +1,53 @@
 {
-    "timestamp": "2026-07-18T04:45:00+00:00",
+    "timestamp": "2026-07-18T05:44:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1
+        "2": 2
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 1
     },
     "activities": [
         {
+            "name": "Baal",
+            "count": 1
+        },
+        {
             "name": "Other",
-            "count": 3
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "a",
-            "count": 2
+            "name": "kill baal",
+            "count": 1
         },
         {
-            "name": "trapper jim 1",
+            "name": "trapper jim 10",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "a",
-            "count": 4,
-            "examples": [
-                "a"
-            ]
-        },
-        {
             "normalized": "trapper jim #",
             "count": 2,
             "examples": [
-                "trapper jim 1"
+                "trapper jim 10"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Baal": [
+            {
+                "name": "kill baal",
+                "matched": "baal",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
         "unique_names": 2,
-        "public_games": 3,
-        "average_name_length": 7.0
+        "public_games": 2,
+        "average_name_length": 11.5
     }
 }
