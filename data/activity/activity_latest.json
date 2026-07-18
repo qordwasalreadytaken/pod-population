@@ -1,18 +1,22 @@
 {
-    "timestamp": "2026-07-18T13:29:00+00:00",
+    "timestamp": "2026-07-18T14:02:00+00:00",
     "difficulty": {
         "1": 2,
-        "2": 1,
+        "2": 2,
         "0": 1
     },
     "mode": {
-        "1": 2,
-        "0": 2
+        "1": 1,
+        "0": 4
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
             "count": 3
+        },
+        {
+            "name": "Chaos",
+            "count": 1
         },
         {
             "name": "Other",
@@ -22,10 +26,18 @@
     "top_games": [
         {
             "name": "baaa",
-            "count": 2
+            "count": 1
         },
         {
-            "name": "run 2",
+            "name": "run 5",
+            "count": 1
+        },
+        {
+            "name": "run 4",
+            "count": 1
+        },
+        {
+            "name": "diarun nm 01",
             "count": 1
         },
         {
@@ -47,18 +59,30 @@
             {
                 "name": "baaa",
                 "matched": "aaa",
-                "count": 2
+                "count": 1
             },
             {
-                "name": "run 2",
+                "name": "run 5",
                 "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "run 4",
+                "matched": "run",
+                "count": 1
+            }
+        ],
+        "Chaos": [
+            {
+                "name": "diarun nm 01",
+                "matched": "dia",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 4,
-        "average_name_length": 5.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 6.4
     }
 }
