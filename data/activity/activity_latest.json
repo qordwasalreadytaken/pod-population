@@ -1,26 +1,22 @@
 {
-    "timestamp": "2026-07-18T18:32:00+00:00",
+    "timestamp": "2026-07-18T19:07:00+00:00",
     "difficulty": {
-        "2": 8,
-        "0": 3
+        "2": 3,
+        "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 10
+        "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 7,
-        "0|0": 3
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 10
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 4
         }
     ],
     "top_games": [
@@ -29,65 +25,31 @@
             "count": 1
         },
         {
+            "name": "ghfjg",
+            "count": 1
+        },
+        {
             "name": "jm",
             "count": 1
         },
         {
-            "name": "barb lvling-34",
-            "count": 1
-        },
-        {
-            "name": "barb lvling-33",
-            "count": 1
-        },
-        {
-            "name": "barb lvling-32",
-            "count": 1
-        },
-        {
-            "name": "barb lvling-31",
-            "count": 1
-        },
-        {
-            "name": "barb lvling-30",
-            "count": 1
-        },
-        {
-            "name": "barb lvling-29",
-            "count": 1
-        },
-        {
-            "name": "uryur",
-            "count": 1
-        },
-        {
-            "name": "barb lvling-35",
-            "count": 1
-        },
-        {
-            "name": "dasd",
+            "name": "oops 1",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "barb lvling-#",
-            "count": 14,
-            "examples": [
-                "barb lvling-29",
-                "barb lvling-30",
-                "barb lvling-31",
-                "barb lvling-32",
-                "barb lvling-33",
-                "barb lvling-34",
-                "barb lvling-35"
-            ]
-        },
-        {
             "normalized": "a",
             "count": 2,
             "examples": [
                 "a"
+            ]
+        },
+        {
+            "normalized": "ghfjg",
+            "count": 2,
+            "examples": [
+                "ghfjg"
             ]
         },
         {
@@ -98,25 +60,17 @@
             ]
         },
         {
-            "normalized": "uryur",
+            "normalized": "oops #",
             "count": 2,
             "examples": [
-                "uryur"
+                "oops 1"
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "dasd",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 11,
-        "public_games": 11,
-        "average_name_length": 10.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 3.5
     }
 }
