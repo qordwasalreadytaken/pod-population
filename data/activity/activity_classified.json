@@ -239,7 +239,7 @@
         },
         {
             "name": "meph run",
-            "matched": "meph",
+            "matched": "run",
             "count": 4
         },
         {
@@ -546,6 +546,11 @@
             "name": "nico 3",
             "matched": "nico",
             "count": 1
+        },
+        {
+            "name": "run 5",
+            "matched": "run",
+            "count": 1
         }
     ],
     "Cows": [
@@ -556,12 +561,12 @@
         },
         {
             "name": "cows",
-            "matched": "cows",
+            "matched": "cow",
             "count": 13
         },
         {
             "name": "cowcowst",
-            "matched": "cows",
+            "matched": "cow",
             "count": 4
         },
         {
@@ -571,7 +576,7 @@
         },
         {
             "name": "cowcows",
-            "matched": "cows",
+            "matched": "cow",
             "count": 2
         },
         {
@@ -606,7 +611,7 @@
         },
         {
             "name": "cowsrus",
-            "matched": "cows",
+            "matched": "cow",
             "count": 1
         },
         {
@@ -641,12 +646,12 @@
         },
         {
             "name": "merc cows",
-            "matched": "cows",
+            "matched": "cow",
             "count": 1
         },
         {
             "name": "cows 1",
-            "matched": "cows",
+            "matched": "cow",
             "count": 1
         }
     ],
@@ -678,7 +683,7 @@
         },
         {
             "name": "n free amatorch",
-            "matched": "torch",
+            "matched": "n",
             "count": 9
         },
         {
@@ -703,7 +708,7 @@
         },
         {
             "name": "buy necr torch",
-            "matched": "torch",
+            "matched": "buy",
             "count": 4
         },
         {
@@ -743,7 +748,7 @@
         },
         {
             "name": "n amatorch",
-            "matched": "torch",
+            "matched": "n",
             "count": 3
         },
         {
@@ -753,7 +758,7 @@
         },
         {
             "name": "n 6os windforce",
-            "matched": "n",
+            "matched": "for",
             "count": 3
         },
         {
@@ -798,7 +803,7 @@
         },
         {
             "name": "items for trade",
-            "matched": "for",
+            "matched": "trade",
             "count": 2
         },
         {
@@ -1337,12 +1342,12 @@
         },
         {
             "name": "maps-2",
-            "matched": "map",
+            "matched": "maps",
             "count": 2
         },
         {
             "name": "maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 2
         },
         {
