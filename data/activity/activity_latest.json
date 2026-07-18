@@ -1,36 +1,52 @@
 {
-    "timestamp": "2026-07-18T12:16:00+00:00",
+    "timestamp": "2026-07-18T12:46:00+00:00",
     "difficulty": {
-        "1": 4
+        "1": 2
     },
     "mode": {
-        "0": 4
+        "1": 1,
+        "0": 1
     },
     "activities": [
         {
-            "name": "Leveling",
-            "count": 4
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
+            "name": "Rush",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "leveling",
-            "count": 4
+            "name": "baaa",
+            "count": 1
+        },
+        {
+            "name": "need hell rush",
+            "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
-        "Leveling": [
+        "Misc. Public MF Runs": [
             {
-                "name": "leveling",
-                "matched": "leveli",
-                "count": 4
+                "name": "baaa",
+                "matched": "aaa",
+                "count": 1
+            }
+        ],
+        "Rush": [
+            {
+                "name": "need hell rush",
+                "matched": "rush",
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 4,
-        "average_name_length": 8.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 9.0
     }
 }
