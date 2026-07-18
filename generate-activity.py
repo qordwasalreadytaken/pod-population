@@ -253,6 +253,7 @@ def summarize_snapshot(snapshot):
 
     difficulty = Counter()
     mode = Counter()
+    difficulty_mode = Counter()
     names = Counter()
     activities = Counter()
     unknown = Counter()
@@ -271,6 +272,26 @@ def summarize_snapshot(snapshot):
 
         difficulty[game.get("difficulty")] += 1
         mode[game.get("mode")] += 1
+
+        raw_difficulty = game.get("difficulty")
+        raw_mode = game.get("mode")
+
+        if raw_difficulty == 3:
+            raw_difficulty = 2
+
+        difficulty_key = (
+            str(raw_difficulty)
+            if raw_difficulty in (0, 1, 2)
+            else "null"
+        )
+
+        mode_key = (
+            str(raw_mode)
+            if raw_mode in (0, 1)
+            else "null"
+        )
+
+        difficulty_mode[f"{difficulty_key}|{mode_key}"] += 1
 
         name = normalize(game.get("name"))
 
@@ -309,6 +330,8 @@ def summarize_snapshot(snapshot):
         "difficulty": dict(difficulty),
 
         "mode": dict(mode),
+
+        "difficulty_mode": dict(difficulty_mode),
 
         "activities": [
 
@@ -430,6 +453,7 @@ latest = history[-1] if history else {
     "timestamp": None,
     "difficulty": {},
     "mode": {},
+    "difficulty_mode": {},
     "activities": [],
     "top_games": [],
     "interesting": {

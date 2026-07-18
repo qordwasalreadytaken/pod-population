@@ -173,6 +173,7 @@ function redraw() {
         document.getElementById("activities").innerHTML = "";
         document.getElementById("difficulty").innerHTML = "";
         document.getElementById("mode").innerHTML = "";
+        document.getElementById("difficultyMode").innerHTML = "";
         document.getElementById("games").innerHTML = "";
         document.getElementById("stats").innerHTML = "";
         return;
@@ -190,6 +191,10 @@ function redraw() {
 
     const difficulty = mergeObjectCounts(currentSnapshots, "difficulty");
     const mode = mergeObjectCounts(currentSnapshots, "mode");
+    const difficultyMode = mergeObjectCounts(
+        currentSnapshots,
+        "difficulty_mode"
+    );
     const activities = mergeArrayCounts(currentSnapshots, "activities");
     const games = mergeArrayCounts(currentSnapshots, "top_games");
     const interesting = aggregateInteresting(currentSnapshots);
@@ -198,9 +203,136 @@ function redraw() {
     renderActivities(activities);
     renderCounts("difficulty", difficulty);
     renderCounts("mode", mode);
+    renderDifficultyMode(difficultyMode);
     renderGames(games.slice(0, 10));
     renderStats(interesting);
 
+}
+
+function renderDifficultyMode(values) {
+
+    const normalizeDifficulty = code => {
+        const key = String(code);
+        if (key === "3")
+            return "2";
+        if (key === "0" || key === "1" || key === "2")
+            return key;
+        return "null";
+    };
+
+    const normalizeMode = code => {
+        const key = String(code);
+        if (key === "0" || key === "1")
+            return key;
+        return "null";
+    };
+
+    const matrix = {
+        "0": { "0": 0, "1": 0 },
+        "1": { "0": 0, "1": 0 },
+        "2": { "0": 0, "1": 0 },
+    };
+
+    Object.entries(values || {}).forEach(([key, count]) => {
+
+        const [difficultyCode, modeCode] =
+            String(key).split("|");
+
+        const difficulty =
+            normalizeDifficulty(difficultyCode);
+
+        const mode =
+            normalizeMode(modeCode);
+
+        if (!matrix[difficulty] || mode === "null")
+            return;
+
+        matrix[difficulty][mode] += Number(count || 0);
+
+    });
+
+    const totalKnown =
+        Object.values(matrix).reduce(
+            (sum, modes) => sum + modes["0"] + modes["1"],
+            0
+        );
+
+    if (!totalKnown) {
+        document.getElementById("difficultyMode").innerHTML = `
+            <div class="muted">
+                Difficulty+mode combo data is not available yet.
+                Run <b>generate-activity.py</b> to populate it.
+            </div>
+        `;
+        return;
+    }
+
+    const rows = [
+        { code: "0", name: "Normal" },
+        { code: "1", name: "Nightmare" },
+        { code: "2", name: "Hell" },
+    ];
+
+    let html = "<div class='dist-grid'>";
+
+    rows.forEach(row => {
+
+        const sc = matrix[row.code]["0"];
+        const hc = matrix[row.code]["1"];
+
+        const scPct = totalKnown ? (sc / totalKnown * 100) : 0;
+        const hcPct = totalKnown ? (hc / totalKnown * 100) : 0;
+
+        html += `
+            <div class="dist-row">
+                <div class="dist-label">${row.name}</div>
+
+                <div class="dist-bars">
+                    <div class="dist-segment">
+                        <div class="dist-segment-label">SC</div>
+                        <div class="mini-bar">
+                            <div
+                                class="mini-bar-fill"
+                                style="
+                                    width:${scPct}%;
+                                    background:#3fa7ff;
+                                ">
+                            </div>
+                        </div>
+                        <div class="dist-segment-value">
+                            ${sc} (${scPct.toFixed(1)}%)
+                        </div>
+                    </div>
+
+                    <div class="dist-segment">
+                        <div class="dist-segment-label">HC</div>
+                        <div class="mini-bar">
+                            <div
+                                class="mini-bar-fill"
+                                style="
+                                    width:${hcPct}%;
+                                    background:#9e9e9e;
+                                ">
+                            </div>
+                        </div>
+                        <div class="dist-segment-value">
+                            ${hc} (${hcPct.toFixed(1)}%)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+
+    });
+
+    html += `
+        </div>
+        <div class="dist-note">
+            Percentages are across all known difficulty+mode games in the selected range.
+        </div>
+    `;
+
+    document.getElementById("difficultyMode").innerHTML = html;
 }
 
 function renderSnapshotSummary(snapshots, activities, difficulty, mode) {
