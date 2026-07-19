@@ -1,70 +1,57 @@
 {
-    "timestamp": "2026-07-19T05:33:00+00:00",
+    "timestamp": "2026-07-19T06:36:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 1,
         "0": 1
     },
     "mode": {
-        "1": 1,
         "0": 2
     },
     "difficulty_mode": {
-        "2|1": 1,
         "2|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "yonder",
+            "name": "fdfdfdfd 2",
             "count": 1
         },
         {
-            "name": "lvv",
-            "count": 1
-        },
-        {
-            "name": "asdxc",
+            "name": "swap",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "yonder",
+            "normalized": "fdfdfdfd #",
             "count": 2,
             "examples": [
-                "yonder"
-            ]
-        },
-        {
-            "normalized": "lvv",
-            "count": 2,
-            "examples": [
-                "lvv"
+                "fdfdfdfd 2"
             ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "asdxc",
-                "matched": "asd",
+                "name": "swap",
+                "matched": "swap",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 4.67
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 7.0
     }
 }
