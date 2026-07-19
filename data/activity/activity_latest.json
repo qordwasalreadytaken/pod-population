@@ -1,9 +1,8 @@
 {
-    "timestamp": "2026-07-19T22:45:00+00:00",
+    "timestamp": "2026-07-19T23:17:00+00:00",
     "difficulty": {
-        "1": 2,
-        "2": 2,
-        "0": 3
+        "1": 3,
+        "0": 4
     },
     "mode": {
         "1": 1,
@@ -11,25 +10,20 @@
     },
     "difficulty_mode": {
         "1|1": 1,
-        "2|0": 2,
-        "1|0": 1,
-        "0|0": 3
+        "1|0": 2,
+        "0|0": 4
     },
     "activities": [
         {
-            "name": "Chaos",
-            "count": 2
+            "name": "Other",
+            "count": 3
         },
         {
-            "name": "Other",
+            "name": "Baal",
             "count": 2
         },
         {
             "name": "Leveling",
-            "count": 1
-        },
-        {
-            "name": "Trade",
             "count": 1
         },
         {
@@ -39,23 +33,19 @@
     ],
     "top_games": [
         {
+            "name": "norm baal",
+            "count": 2
+        },
+        {
             "name": "walking nm",
             "count": 1
         },
         {
-            "name": "i dia u 9",
+            "name": "nm",
             "count": 1
         },
         {
-            "name": "1 ooc for 1 eld",
-            "count": 1
-        },
-        {
-            "name": "nm 2",
-            "count": 1
-        },
-        {
-            "name": "i dia u 8",
+            "name": "nm 3",
             "count": 1
         },
         {
@@ -69,10 +59,17 @@
     ],
     "unknown_games": [
         {
+            "normalized": "nm",
+            "count": 2,
+            "examples": [
+                "nm"
+            ]
+        },
+        {
             "normalized": "nm #",
             "count": 2,
             "examples": [
-                "nm 2"
+                "nm 3"
             ]
         },
         {
@@ -91,23 +88,11 @@
                 "count": 1
             }
         ],
-        "Chaos": [
+        "Baal": [
             {
-                "name": "i dia u 9",
-                "matched": "dia",
-                "count": 1
-            },
-            {
-                "name": "i dia u 8",
-                "matched": "dia",
-                "count": 1
-            }
-        ],
-        "Trade": [
-            {
-                "name": "1 ooc for 1 eld",
-                "matched": "for",
-                "count": 1
+                "name": "norm baal",
+                "matched": "baal",
+                "count": 2
             }
         ],
         "Misc. Public MF Runs": [
@@ -119,8 +104,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 7,
+        "unique_names": 6,
         "public_games": 7,
-        "average_name_length": 8.29
+        "average_name_length": 6.0
     }
 }
