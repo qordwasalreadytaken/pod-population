@@ -143,6 +143,36 @@
         background: #0078d4;
     }
 
+    .live-row {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 6px 0 14px;
+    }
+
+    .live-btn {
+        padding: 8px 16px;
+        background: #14532d;
+        color: #eafff0;
+        border: 1px solid #1f7a45;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    .live-btn:hover {
+        background: #1a6a3a;
+    }
+
+    .live-btn:disabled {
+        opacity: .6;
+        cursor: wait;
+    }
+
+    .live-status {
+        color: #9ac6ff;
+        font-size: .92em;
+    }
+
     .chart-wrap {
         background: #1a1a1a;
         padding: 10px;
@@ -257,6 +287,11 @@
     <button class="range-btn" data-days="30">Last 30 Days</button>
     <button class="range-btn" data-days="7">Last 7 Days</button>
     <button class="range-btn" data-days="1">Last 24 Hours</button>
+</div>
+
+<div class="live-row">
+    <button id="liveNowBtn" class="live-btn">Live Snapshot Now</button>
+    <small id="liveStatus" class="live-status"></small>
 </div>
 
 <p id="rangeStatus" class="muted"></p>
