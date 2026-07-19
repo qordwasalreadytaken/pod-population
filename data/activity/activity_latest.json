@@ -1,17 +1,23 @@
 {
-    "timestamp": "2026-07-19T20:45:00+00:00",
+    "timestamp": "2026-07-19T21:16:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 3,
         "0": 1
     },
     "mode": {
+        "1": 1,
         "0": 3
     },
     "difficulty_mode": {
+        "2|1": 1,
         "2|0": 2,
         "0|0": 1
     },
     "activities": [
+        {
+            "name": "Other",
+            "count": 2
+        },
         {
             "name": "Chaos",
             "count": 1
@@ -19,13 +25,13 @@
         {
             "name": "Trade",
             "count": 1
-        },
-        {
-            "name": "Leveling",
-            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "a",
+            "count": 1
+        },
         {
             "name": "i dia u 2",
             "count": 1
@@ -35,11 +41,26 @@
             "count": 1
         },
         {
-            "name": "norm levelin",
+            "name": "lel 2",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "a",
+            "count": 2,
+            "examples": [
+                "a"
+            ]
+        },
+        {
+            "normalized": "lel #",
+            "count": 2,
+            "examples": [
+                "lel 2"
+            ]
+        }
+    ],
     "classified_games": {
         "Chaos": [
             {
@@ -54,18 +75,11 @@
                 "matched": "for",
                 "count": 1
             }
-        ],
-        "Leveling": [
-            {
-                "name": "norm levelin",
-                "matched": "norm",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 12.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 7.5
     }
 }
