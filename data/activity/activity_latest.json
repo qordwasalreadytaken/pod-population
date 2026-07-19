@@ -1,23 +1,17 @@
 {
-    "timestamp": "2026-07-19T21:16:00+00:00",
+    "timestamp": "2026-07-19T21:45:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 1
+        "2": 2,
+        "0": 2
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
-        "2|1": 1,
         "2|0": 2,
-        "0|0": 1
+        "0|0": 2
     },
     "activities": [
-        {
-            "name": "Other",
-            "count": 2
-        },
         {
             "name": "Chaos",
             "count": 1
@@ -25,15 +19,19 @@
         {
             "name": "Trade",
             "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
+            "name": "Other",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "a",
-            "count": 1
-        },
-        {
-            "name": "i dia u 2",
+            "name": "i dia u 3",
             "count": 1
         },
         {
@@ -41,30 +39,27 @@
             "count": 1
         },
         {
-            "name": "lel 2",
+            "name": "asdasd",
+            "count": 1
+        },
+        {
+            "name": "lel 3",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "a",
-            "count": 2,
-            "examples": [
-                "a"
-            ]
-        },
-        {
             "normalized": "lel #",
             "count": 2,
             "examples": [
-                "lel 2"
+                "lel 3"
             ]
         }
     ],
     "classified_games": {
         "Chaos": [
             {
-                "name": "i dia u 2",
+                "name": "i dia u 3",
                 "matched": "dia",
                 "count": 1
             }
@@ -75,11 +70,18 @@
                 "matched": "for",
                 "count": 1
             }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "asdasd",
+                "matched": "asd",
+                "count": 1
+            }
         ]
     },
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 7.5
+        "average_name_length": 8.75
     }
 }
