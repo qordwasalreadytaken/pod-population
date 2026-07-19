@@ -1,26 +1,21 @@
 {
-    "timestamp": "2026-07-19T14:27:00+00:00",
+    "timestamp": "2026-07-19T14:49:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 1
+        "0": 1,
+        "2": 2
     },
     "mode": {
-        "1": 2,
+        "1": 1,
         "0": 2
     },
     "difficulty_mode": {
-        "0|1": 2,
-        "2|0": 1,
-        "0|0": 1
+        "0|1": 1,
+        "2|0": 2
     },
     "activities": [
         {
-            "name": "Leveling",
-            "count": 2
-        },
-        {
             "name": "Other",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Maps",
@@ -29,19 +24,15 @@
     ],
     "top_games": [
         {
-            "name": "a normal",
-            "count": 1
-        },
-        {
             "name": "qq",
             "count": 1
         },
         {
-            "name": "mapper jim-2",
+            "name": "fdfd 1",
             "count": 1
         },
         {
-            "name": "help act",
+            "name": "mapper jim-5",
             "count": 1
         }
     ],
@@ -52,32 +43,27 @@
             "examples": [
                 "qq"
             ]
+        },
+        {
+            "normalized": "fdfd #",
+            "count": 2,
+            "examples": [
+                "fdfd 1"
+            ]
         }
     ],
     "classified_games": {
-        "Leveling": [
-            {
-                "name": "a normal",
-                "matched": "norm",
-                "count": 1
-            },
-            {
-                "name": "help act",
-                "matched": "act",
-                "count": 1
-            }
-        ],
         "Maps": [
             {
-                "name": "mapper jim-2",
+                "name": "mapper jim-5",
                 "matched": "map",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 7.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 6.67
     }
 }
