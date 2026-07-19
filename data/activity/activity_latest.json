@@ -1,23 +1,25 @@
 {
-    "timestamp": "2026-07-19T04:22:00+00:00",
+    "timestamp": "2026-07-19T05:33:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 2,
+        "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 1
+        "2|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "Maps",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -27,7 +29,11 @@
             "count": 1
         },
         {
-            "name": "mapper jim-3",
+            "name": "lvv",
+            "count": 1
+        },
+        {
+            "name": "asdxc",
             "count": 1
         }
     ],
@@ -38,20 +44,27 @@
             "examples": [
                 "yonder"
             ]
+        },
+        {
+            "normalized": "lvv",
+            "count": 2,
+            "examples": [
+                "lvv"
+            ]
         }
     ],
     "classified_games": {
-        "Maps": [
+        "Misc. Public MF Runs": [
             {
-                "name": "mapper jim-3",
-                "matched": "map",
+                "name": "asdxc",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 9.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 4.67
     }
 }
