@@ -1,59 +1,58 @@
 {
-    "timestamp": "2026-07-19T11:12:00+00:00",
+    "timestamp": "2026-07-19T11:38:00+00:00",
     "difficulty": {
-        "0": 1,
+        "0": 2,
         "2": 2
     },
     "mode": {
-        "1": 1,
+        "1": 2,
         "0": 2
     },
     "difficulty_mode": {
-        "0|1": 1,
+        "0|1": 2,
         "2|0": 2
     },
     "activities": [
         {
-            "name": "Maps",
+            "name": "Baal",
             "count": 2
         },
         {
-            "name": "Other",
-            "count": 1
+            "name": "Maps",
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "qq",
+            "name": "baal",
+            "count": 2
+        },
+        {
+            "name": "mapper jim-11",
             "count": 1
         },
         {
-            "name": "mapper jim-9",
-            "count": 1
-        },
-        {
-            "name": "mapper jim-8",
+            "name": "mapper jim-10",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "qq",
-            "count": 2,
-            "examples": [
-                "qq"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
+        "Baal": [
+            {
+                "name": "baal",
+                "matched": "baal",
+                "count": 2
+            }
+        ],
         "Maps": [
             {
-                "name": "mapper jim-9",
+                "name": "mapper jim-11",
                 "matched": "map",
                 "count": 1
             },
             {
-                "name": "mapper jim-8",
+                "name": "mapper jim-10",
                 "matched": "map",
                 "count": 1
             }
@@ -61,7 +60,7 @@
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 8.67
+        "public_games": 4,
+        "average_name_length": 10.0
     }
 }
