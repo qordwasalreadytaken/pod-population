@@ -1,7 +1,7 @@
 [
     {
         "normalized": "a",
-        "count": 234,
+        "count": 236,
         "examples": [
             "a"
         ]
@@ -665,6 +665,14 @@
         ]
     },
     {
+        "normalized": "dfdfdf #",
+        "count": 6,
+        "examples": [
+            "dfdfdf 1",
+            "dfdfdf 2"
+        ]
+    },
+    {
         "normalized": "shootemup",
         "count": 6,
         "examples": [
@@ -1086,14 +1094,6 @@
         "count": 4,
         "examples": [
             "desert dessert"
-        ]
-    },
-    {
-        "normalized": "dfdfdf #",
-        "count": 4,
-        "examples": [
-            "dfdfdf 1",
-            "dfdfdf 2"
         ]
     },
     {
