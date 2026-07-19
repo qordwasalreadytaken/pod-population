@@ -59,6 +59,11 @@ def main():
     stats = fetch_json(URLS["stats"])
     raw_open_games = fetch_json(URLS["open_games"])
 
+    active_servers = [
+        server for server in servers
+        if server.get("serverStatus") == 0
+    ]
+
     open_games = []
 
     for item in raw_open_games:
@@ -73,8 +78,14 @@ def main():
     #
     # Server totals
     #
-    server_players = sum(s.get("players", 0) for s in servers)
-    server_games = sum(s.get("games", 0) for s in servers)
+    server_players = sum(
+        server.get("players", 0)
+        for server in active_servers
+    )
+    server_games = sum(
+        server.get("games", 0)
+        for server in active_servers
+    )
 
     #
     # Public games
