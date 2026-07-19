@@ -219,7 +219,7 @@
         },
         {
             "name": "asdff",
-            "matched": "asdff",
+            "matched": "asd",
             "count": 15
         },
         {
@@ -349,7 +349,7 @@
         },
         {
             "name": "asdffdf",
-            "matched": "asdff",
+            "matched": "asd",
             "count": 2
         },
         {
@@ -728,7 +728,7 @@
         },
         {
             "name": "n free amatorch",
-            "matched": "n",
+            "matched": "torch",
             "count": 9
         },
         {
@@ -753,12 +753,12 @@
         },
         {
             "name": "n amatorch",
-            "matched": "n",
+            "matched": "torch",
             "count": 5
         },
         {
             "name": "buy necr torch",
-            "matched": "torch",
+            "matched": "buy",
             "count": 4
         },
         {
@@ -1134,6 +1134,11 @@
             "count": 4
         },
         {
+            "name": "help act",
+            "matched": "act",
+            "count": 3
+        },
+        {
             "name": "andarial bit",
             "matched": "andar",
             "count": 3
@@ -1161,11 +1166,6 @@
         {
             "name": "andariel",
             "matched": "andar",
-            "count": 2
-        },
-        {
-            "name": "help act",
-            "matched": "act",
             "count": 2
         },
         {
@@ -1240,7 +1240,7 @@
         },
         {
             "name": "act 2 start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -1270,7 +1270,7 @@
         },
         {
             "name": "act start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -1280,7 +1280,7 @@
         },
         {
             "name": "act hel start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -1300,7 +1300,7 @@
         },
         {
             "name": "act 5 normal",
-            "matched": "norm",
+            "matched": "act",
             "count": 1
         },
         {
@@ -1362,6 +1362,11 @@
             "name": "act 1 xp",
             "matched": "act",
             "count": 1
+        },
+        {
+            "name": "a normal",
+            "matched": "norm",
+            "count": 1
         }
     ],
     "Maps": [
@@ -1387,12 +1392,17 @@
         },
         {
             "name": "maps-2",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
             "name": "maps",
-            "matched": "maps",
+            "matched": "map",
+            "count": 2
+        },
+        {
+            "name": "mapper jim-2",
+            "matched": "map",
             "count": 2
         },
         {
@@ -1487,11 +1497,6 @@
         },
         {
             "name": "mapper jim-21",
-            "matched": "map",
-            "count": 1
-        },
-        {
-            "name": "mapper jim-2",
             "matched": "map",
             "count": 1
         }
