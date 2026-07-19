@@ -1,62 +1,33 @@
 {
-    "timestamp": "2026-07-18T23:46:00+00:00",
+    "timestamp": "2026-07-19T00:24:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 1,
-        "0": 3
+        "2": 1,
+        "0": 1
     },
     "mode": {
-        "1": 4,
-        "0": 3
+        "1": 2
     },
     "difficulty_mode": {
         "2|1": 1,
-        "1|1": 1,
-        "0|1": 2,
-        "2|0": 2,
-        "0|0": 1
+        "0|1": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
-        },
-        {
-            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "a4h",
+            "name": "a5h",
             "count": 1
         },
         {
             "name": "ted",
-            "count": 1
-        },
-        {
-            "name": "reht",
-            "count": 1
-        },
-        {
-            "name": "qq",
-            "count": 1
-        },
-        {
-            "name": "hgj",
-            "count": 1
-        },
-        {
-            "name": "1 ooc for 1 eld",
-            "count": 1
-        },
-        {
-            "name": "jm",
             "count": 1
         }
     ],
@@ -65,35 +36,7 @@
             "normalized": "a#h",
             "count": 2,
             "examples": [
-                "a4h"
-            ]
-        },
-        {
-            "normalized": "reht",
-            "count": 2,
-            "examples": [
-                "reht"
-            ]
-        },
-        {
-            "normalized": "qq",
-            "count": 2,
-            "examples": [
-                "qq"
-            ]
-        },
-        {
-            "normalized": "hgj",
-            "count": 2,
-            "examples": [
-                "hgj"
-            ]
-        },
-        {
-            "normalized": "jm",
-            "count": 2,
-            "examples": [
-                "jm"
+                "a5h"
             ]
         }
     ],
@@ -104,18 +47,11 @@
                 "matched": "ted",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "1 ooc for 1 eld",
-                "matched": "for",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 4.57
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 3.0
     }
 }
