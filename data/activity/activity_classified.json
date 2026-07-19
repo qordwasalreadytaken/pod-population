@@ -234,7 +234,7 @@
         },
         {
             "name": "meph run",
-            "matched": "run",
+            "matched": "meph",
             "count": 8
         },
         {
@@ -625,12 +625,12 @@
             "count": 4
         },
         {
-            "name": "nm cow",
+            "name": "hellcow",
             "matched": "cow",
-            "count": 3
+            "count": 4
         },
         {
-            "name": "hellcow",
+            "name": "nm cow",
             "matched": "cow",
             "count": 3
         },
@@ -714,7 +714,7 @@
         {
             "name": "1 ooc for 1 eld",
             "matched": "for",
-            "count": 75
+            "count": 76
         },
         {
             "name": "n shadow gc",
@@ -798,7 +798,7 @@
         },
         {
             "name": "buy necr torch",
-            "matched": "buy",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -813,7 +813,7 @@
         },
         {
             "name": "items for trade",
-            "matched": "for",
+            "matched": "trade",
             "count": 4
         },
         {
@@ -1008,7 +1008,7 @@
         },
         {
             "name": "lmk what u n",
-            "matched": "lmk",
+            "matched": "n",
             "count": 1
         },
         {
@@ -1120,7 +1120,7 @@
         },
         {
             "name": "norm act",
-            "matched": "act",
+            "matched": "norm",
             "count": 8
         },
         {
@@ -1160,7 +1160,7 @@
         },
         {
             "name": "norm start",
-            "matched": "start",
+            "matched": "norm",
             "count": 4
         },
         {
@@ -1206,6 +1206,11 @@
         {
             "name": "trist",
             "matched": "trist",
+            "count": 3
+        },
+        {
+            "name": "norm lvlin",
+            "matched": "norm",
             "count": 3
         },
         {
@@ -1304,11 +1309,6 @@
             "count": 2
         },
         {
-            "name": "norm lvlin",
-            "matched": "norm",
-            "count": 2
-        },
-        {
             "name": "hell mode exp-2",
             "matched": "exp",
             "count": 1
@@ -1380,7 +1380,7 @@
         },
         {
             "name": "act 5 normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 1
         },
         {
