@@ -1,58 +1,65 @@
 {
-    "timestamp": "2026-07-19T12:04:00+00:00",
+    "timestamp": "2026-07-19T12:32:00+00:00",
     "difficulty": {
         "0": 2,
-        "2": 2
+        "2": 1
     },
     "mode": {
         "1": 2,
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
         "0|1": 2,
-        "2|0": 2
+        "2|0": 1
     },
     "activities": [
         {
-            "name": "Baal",
-            "count": 2
+            "name": "Leveling",
+            "count": 1
+        },
+        {
+            "name": "Other",
+            "count": 1
         },
         {
             "name": "Maps",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "baal",
-            "count": 2
-        },
-        {
-            "name": "mapper jim-15",
+            "name": "fresh start",
             "count": 1
         },
         {
-            "name": "mapper jim-14",
+            "name": "qq",
+            "count": 1
+        },
+        {
+            "name": "mapper jim-18",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "qq",
+            "count": 2,
+            "examples": [
+                "qq"
+            ]
+        }
+    ],
     "classified_games": {
-        "Baal": [
+        "Leveling": [
             {
-                "name": "baal",
-                "matched": "baal",
-                "count": 2
+                "name": "fresh start",
+                "matched": "start",
+                "count": 1
             }
         ],
         "Maps": [
             {
-                "name": "mapper jim-15",
-                "matched": "map",
-                "count": 1
-            },
-            {
-                "name": "mapper jim-14",
+                "name": "mapper jim-18",
                 "matched": "map",
                 "count": 1
             }
@@ -60,7 +67,7 @@
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 4,
-        "average_name_length": 10.0
+        "public_games": 3,
+        "average_name_length": 8.67
     }
 }
