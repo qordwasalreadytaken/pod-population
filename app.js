@@ -8,20 +8,11 @@ Chart.defaults.color = "#ddd";
 const charts = {};
 const chartConfigs = {};
 
-const POD_API_BASE = "https://beta.pathofdiablo.com/api";
-const POD_API_URLS = {
-    servers: `${POD_API_BASE}/servers`,
-    stats: `${POD_API_BASE}/stats`,
-    openGames: `${POD_API_BASE}/open-games`,
-};
-
 let expandedChart = null;
 let currentChart = null;
 
 let allData = [];
 let currentData = [];
-let liveSnapshot = null;
-let includeLiveSnapshot = false;
 
 const chartOrder = [
     "online",
@@ -91,6 +82,28 @@ function formatPercent(value, digits = 0) {
 
 }
 
+function isPlaceholderNullGame(game) {
+
+    if (!game || typeof game !== "object")
+        return true;
+
+    const players = game.players ?? game.plrs;
+    const difficulty = game.difficulty ?? game.diff;
+    const server = game.server ?? game.gsID;
+    const created = game.created ?? game.crtd;
+
+    return (
+        game.name == null
+        && difficulty == null
+        && game.mode == null
+        && server == null
+        && game.country == null
+        && created == null
+        && (players == null || Number(players) === 0)
+    );
+
+}
+
 function latestTime(data) {
 
     return new Date(data.at(-1).timestamp);
@@ -116,26 +129,6 @@ function filterRange(data, days) {
 
 }
 
-function upsertLiveSnapshot(data, snapshot) {
-
-    if (!snapshot?.timestamp)
-        return [...data];
-
-    const filtered = data.filter(
-        d => d.timestamp !== snapshot.timestamp
-    );
-
-    filtered.push(snapshot);
-
-    filtered.sort(
-        (a, b) =>
-            new Date(a.timestamp) - new Date(b.timestamp)
-    );
-
-    return filtered;
-
-}
-
 function refreshCurrentData() {
 
     const baseData = filterRange(
@@ -145,9 +138,7 @@ function refreshCurrentData() {
             : Number(currentRange)
     );
 
-    currentData = includeLiveSnapshot && liveSnapshot
-        ? upsertLiveSnapshot(baseData, liveSnapshot)
-        : baseData;
+    currentData = baseData;
 
 }
 
@@ -276,6 +267,8 @@ function redrawDashboard() {
         destroyCharts();
         document.getElementById("summary").innerHTML =
             "No data found for selected range.";
+        document.getElementById("rightNow").innerHTML =
+            "No data found for selected range.";
         updateStatus(currentData);
         return;
     }
@@ -292,6 +285,8 @@ function redrawDashboard() {
         currentData,
         rolling
     );
+
+    renderRightNow(rolling.latest);
 
     updateStatus(currentData);
 
@@ -418,33 +413,24 @@ function renderCharts(chartData) {
 
 function renderSummary(latest, data, rolling) {
 
-    const totals = latest.totals;
     const metrics = latest.metrics;
+
+    const spanHours = (
+        new Date(data.at(-1).timestamp) -
+        new Date(data[0].timestamp)
+    ) / 3600000;
 
     document.getElementById("summary").innerHTML = `
 
-        <h2>Latest Snapshot
+        <h2>Range Summary
             <span class="help" title="Statistics are derived from public game listings and estimated private games.">
                 ⓘ
             </span>
         </h2>
+
         <p>
-
-            <strong>${totals.server_players}</strong> players
-            across
-            <strong>${totals.server_games}</strong> games.
-            <br>
-            <strong>${totals.public_players}</strong> in public games.
-            <br>
-            <strong>${totals.private_players_est}</strong> in private games (est).
-            <br>
-            Public Avg:
-            <strong>${formatNumber(metrics.avg_public_players_per_game, 2)}</strong>  players/game
-
-            <br>
-
-            Private Avg:
-            <strong>${formatNumber(metrics.avg_private_players_per_game_est, 2)}</strong>  players/game
+            Showing <strong>${data.length}</strong> snapshots over
+            <strong>${spanHours.toFixed(1)}h</strong>.
 
         </p>
 
@@ -488,6 +474,50 @@ function renderSummary(latest, data, rolling) {
 
         </p>
 
+    `;
+
+}
+
+function renderRightNow(latest) {
+
+    if (!latest) {
+        document.getElementById("rightNow").innerHTML =
+            "No snapshots available yet.";
+        return;
+    }
+
+    const totals = latest.totals;
+    const metrics = latest.metrics;
+    const publicGames = Array.isArray(latest.public_games)
+        ? latest.public_games
+        : [];
+
+    const knownPublicGames = publicGames.filter(
+        game => !isPlaceholderNullGame(game)
+    ).length;
+
+    const latestTime = new Date(latest.timestamp);
+
+    const ageMinutes = Math.max(
+        Math.round((Date.now() - latestTime.getTime()) / 60000),
+        0
+    );
+
+    document.getElementById("rightNow").innerHTML = `
+        <h2>Latest Snapshot</h2>
+        <p>
+            Latest captured snapshot in selected range:
+            <strong>${latestTime.toLocaleString()}</strong>
+            (${ageMinutes} minutes ago)
+        </p>
+        <ul>
+            <li><strong>${totals.server_games}</strong> games live server-wide</li>
+            <li><strong>${knownPublicGames}</strong> known public games listed</li>
+            <li><strong>${totals.private_games_est}</strong> private games estimated</li>
+            <li><strong>${totals.server_players}</strong> players online</li>
+            <li>Public Avg: <strong>${formatNumber(metrics.avg_public_players_per_game, 2)}</strong> players/game</li>
+            <li>Private Avg: <strong>${formatNumber(metrics.avg_private_players_per_game_est, 2)}</strong> players/game</li>
+        </ul>
     `;
 
 }
@@ -539,168 +569,6 @@ function openChart(name) {
 
 }
 
-async function fetchJSON(url) {
-
-    const response = await fetch(url);
-
-    if (!response.ok)
-        throw new Error(`HTTP ${response.status} for ${url}`);
-
-    return response.json();
-
-}
-
-function flattenOpenGames(rawOpenGames) {
-
-    const openGames = [];
-
-    (rawOpenGames || []).forEach(item => {
-
-        if (item && typeof item === "object" && !Array.isArray(item)) {
-            openGames.push(item);
-            return;
-        }
-
-        if (Array.isArray(item)) {
-            item.forEach(entry => {
-                if (entry && typeof entry === "object")
-                    openGames.push(entry);
-            });
-        }
-
-    });
-
-    return openGames;
-
-}
-
-function buildLivePopulationSnapshot(servers, stats, rawOpenGames) {
-
-    const openGames = flattenOpenGames(rawOpenGames);
-
-    const serverPlayers = servers.reduce(
-        (sum, server) => sum + Number(server?.players || 0),
-        0
-    );
-
-    const serverGames = servers.reduce(
-        (sum, server) => sum + Number(server?.games || 0),
-        0
-    );
-
-    const publicGames = openGames.length;
-
-    const publicPlayers = openGames.reduce(
-        (sum, game) => sum + Number(game?.plrs || 0),
-        0
-    );
-
-    const privateGames = Math.max(serverGames - publicGames, 0);
-    const privatePlayers = Math.max(serverPlayers - publicPlayers, 0);
-
-    const avgTotal = serverGames > 0
-        ? serverPlayers / serverGames
-        : null;
-
-    const avgPublic = publicGames > 0
-        ? publicPlayers / publicGames
-        : null;
-
-    const avgPrivate = privateGames > 0
-        ? privatePlayers / privateGames
-        : null;
-
-    const onlineInAnyGames = Number(
-        stats?.[0]?.online_in_any_games || 0
-    );
-
-    const publicParticipation = onlineInAnyGames > 0
-        ? publicPlayers / onlineInAnyGames
-        : null;
-
-    const introvertIndex = serverPlayers > 0
-        ? 1 - (publicPlayers / serverPlayers)
-        : null;
-
-    return {
-        timestamp: new Date().toISOString(),
-        stats: stats?.[0] ?? {},
-        totals: {
-            server_players: serverPlayers,
-            server_games: serverGames,
-            public_players: publicPlayers,
-            public_games: publicGames,
-            private_players_est: privatePlayers,
-            private_games_est: privateGames,
-        },
-        metrics: {
-            avg_players_per_game: avgTotal,
-            avg_public_players_per_game: avgPublic,
-            avg_private_players_per_game_est: avgPrivate,
-            public_participation: publicParticipation,
-            introvert_index: introvertIndex,
-        },
-        live: true,
-    };
-
-}
-
-async function fetchLivePopulationSnapshot() {
-
-    const [servers, stats, openGames] = await Promise.all([
-        fetchJSON(POD_API_URLS.servers),
-        fetchJSON(POD_API_URLS.stats),
-        fetchJSON(POD_API_URLS.openGames),
-    ]);
-
-    return buildLivePopulationSnapshot(servers, stats, openGames);
-
-}
-
-function setLiveStatus(text) {
-
-    const status = document.getElementById("liveStatus");
-
-    if (status)
-        status.textContent = text;
-
-}
-
-function wireLiveButton() {
-
-    const button = document.getElementById("liveNowBtn");
-
-    if (!button)
-        return;
-
-    button.onclick = async () => {
-
-        button.disabled = true;
-        setLiveStatus("Fetching live snapshot...");
-
-        try {
-            liveSnapshot = await fetchLivePopulationSnapshot();
-            includeLiveSnapshot = true;
-
-            refreshCurrentData();
-            redrawDashboard();
-
-            setLiveStatus(
-                `Live point added at ${new Date(liveSnapshot.timestamp).toLocaleTimeString()}.`
-            );
-        } catch (error) {
-            console.error("Live snapshot failed", error);
-            setLiveStatus(
-                "Live fetch failed (likely API/CORS/network)."
-            );
-        } finally {
-            button.disabled = false;
-        }
-
-    };
-
-}
-
 (async function () {
 
     allData = [
@@ -708,8 +576,12 @@ function wireLiveButton() {
         ...await loadJSONL("./data/social/2026-07.jsonl")
     ];
 
+    allData.sort(
+        (a, b) =>
+            new Date(a.timestamp) - new Date(b.timestamp)
+    );
+
     refreshCurrentData();
-    wireLiveButton();
 
     document.querySelectorAll(".range-btn").forEach(btn => {
 

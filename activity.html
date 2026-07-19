@@ -24,7 +24,7 @@
         width: auto;
     }
 
-    #snapshotSummary, .grid {
+    #rightNowSummary, #snapshotSummary, .grid {
         margin: 12px 0 18px;
         text-align: left;
         background: #1a1a1a;
@@ -143,35 +143,6 @@
         background: #0078d4;
     }
 
-    .live-row {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        margin: 6px 0 14px;
-    }
-
-    .live-btn {
-        padding: 8px 16px;
-        background: #14532d;
-        color: #eafff0;
-        border: 1px solid #1f7a45;
-        border-radius: 6px;
-        cursor: pointer;
-    }
-
-    .live-btn:hover {
-        background: #1a6a3a;
-    }
-
-    .live-btn:disabled {
-        opacity: .6;
-        cursor: wait;
-    }
-
-    .live-status {
-        color: #9ac6ff;
-        font-size: .92em;
-    }
 
     .chart-wrap {
         background: #1a1a1a;
@@ -280,6 +251,9 @@
 <h1>PoD Activity Watch</h1> 
 <h3>This is derived from data for KNOWN public games, not ALL public games. Snapshots are scheduled to run every 15 minutes but the scheduler has been found to be unreliable.</h3>
 
+<div id="rightNowSummary" class="summary-box"></div>
+
+<h3>Snapshot History</h3>
 <p id="timestamp"></p>
 
 <div class="range-bar">
@@ -287,11 +261,6 @@
     <button class="range-btn" data-days="30">Last 30 Days</button>
     <button class="range-btn" data-days="7">Last 7 Days</button>
     <button class="range-btn" data-days="1">Last 24 Hours</button>
-</div>
-
-<div class="live-row">
-    <button id="liveNowBtn" class="live-btn">Live Snapshot Now</button>
-    <small id="liveStatus" class="live-status"></small>
 </div>
 
 <p id="rangeStatus" class="muted"></p>

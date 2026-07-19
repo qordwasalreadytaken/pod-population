@@ -4,35 +4,6 @@ let difficultyModeTimelineChart = null;
 let difficultyModeTimelineExpandedChart = null;
 let difficultyModeInteractionsWired = false;
 let currentRange = "all";
-let liveSnapshot = null;
-let includeLiveSnapshot = false;
-
-const POD_API_BASE = "https://beta.pathofdiablo.com/api";
-const POD_API_OPEN_GAMES_URL = `${POD_API_BASE}/open-games`;
-
-const ACTIVITY_KEYWORDS = {
-    Maps: ["map", "maps", "mapping", "maap"],
-    Baal: ["baal"],
-    Chaos: ["chaos", "cs", "i dia u", "dia", "arcane"],
-    Cows: ["cow", "cows", "bovine"],
-    Rush: ["rush", "rushing"],
-    "Misc. Public MF Runs": [
-        "asd", "asdff", "mf", "derp", "nico", "gord", "aa",
-        "run", "123", "hielitos", "ted", "mmk", "aaa", "meph",
-    ],
-    Leveling: [
-        "trist", "tomb", "walk", "exp", "ct", "act", "norm",
-        "lv", "leveli", "start", "andy", "andar", "den", "a1",
-        "a2", "a3", "a4", "a5", "act1", "act2", "act3", "act4",
-        "act5", "anci",
-    ],
-    Trade: [
-        "trade", "bring", "iso", "wug", "wuw", "ft", "torch",
-        "n", "swap", "lmk", "for", "buy",
-    ],
-    Uber: ["uber", "ubers"],
-    DClone: ["dclone", "clone"],
-};
 
 if (typeof Chart !== "undefined") {
     Chart.defaults.font.size = 14;
@@ -69,7 +40,6 @@ async function load() {
     allSnapshots = Array.isArray(data) ? data : [];
 
     wireRangeButtons();
-    wireLiveButton();
     wireDifficultyModeTimelineInteractions();
     refreshCurrentSnapshots();
     redraw();
@@ -120,26 +90,6 @@ function filterRange(data, days) {
 
 }
 
-function upsertLiveSnapshot(data, snapshot) {
-
-    if (!snapshot?.timestamp)
-        return [...data];
-
-    const filtered = data.filter(
-        s => s.timestamp !== snapshot.timestamp
-    );
-
-    filtered.push(snapshot);
-
-    filtered.sort(
-        (a, b) =>
-            new Date(a.timestamp) - new Date(b.timestamp)
-    );
-
-    return filtered;
-
-}
-
 function refreshCurrentSnapshots() {
 
     const baseSnapshots = filterRange(
@@ -149,9 +99,7 @@ function refreshCurrentSnapshots() {
             : Number(currentRange)
     );
 
-    currentSnapshots = includeLiveSnapshot && liveSnapshot
-        ? upsertLiveSnapshot(baseSnapshots, liveSnapshot)
-        : baseSnapshots;
+    currentSnapshots = baseSnapshots;
 
 }
 
@@ -242,257 +190,6 @@ function aggregateInteresting(snapshots) {
 
 }
 
-function normalizeGameName(name) {
-
-    if (!name)
-        return null;
-
-    let value = String(name).trim().toLowerCase();
-
-    value = value.replace(/\s+/g, " ");
-    value = value.replace(/([a-z]+)\d+\b/g, "$1");
-
-    return value || null;
-
-}
-
-function tokenizeGameName(name) {
-
-    if (!name)
-        return [];
-
-    let value = String(name).toLowerCase();
-
-    value = value.replace(/([a-z]+)\d+\b/g, "$1");
-    value = value.replace(/[^a-z0-9]+/g, " ");
-    value = value.replace(/\s+/g, " ").trim();
-
-    const tokens = [];
-
-    value.split(" ").forEach(token => {
-
-        if (!token)
-            return;
-
-        tokens.push(token);
-
-        ["n", "h", "nm"].forEach(prefix => {
-            if (token.startsWith(prefix) && token.length > prefix.length + 2)
-                tokens.push(token.slice(prefix.length));
-        });
-
-    });
-
-    return [...new Set(tokens)];
-
-}
-
-function classifyActivityName(name) {
-
-    const tokens = tokenizeGameName(name);
-
-    for (const [activity, keywords] of Object.entries(ACTIVITY_KEYWORDS)) {
-
-        for (const token of tokens) {
-
-            for (const keyword of keywords) {
-
-                if (keyword.length <= 2) {
-                    if (token === keyword)
-                        return [activity, keyword];
-                } else if (token.includes(keyword)) {
-                    return [activity, keyword];
-                }
-
-            }
-
-        }
-
-    }
-
-    return ["Other", null];
-
-}
-
-function flattenOpenGames(rawOpenGames) {
-
-    const openGames = [];
-
-    (rawOpenGames || []).forEach(item => {
-
-        if (item && typeof item === "object" && !Array.isArray(item)) {
-            openGames.push(item);
-            return;
-        }
-
-        if (Array.isArray(item)) {
-            item.forEach(entry => {
-                if (entry && typeof entry === "object")
-                    openGames.push(entry);
-            });
-        }
-
-    });
-
-    return openGames;
-
-}
-
-function incrementCount(store, key, amount = 1) {
-
-    store[key] = (store[key] ?? 0) + amount;
-
-}
-
-function toSortedCountArray(store, limit = Number.POSITIVE_INFINITY) {
-
-    return Object.entries(store)
-        .sort((a, b) => b[1] - a[1])
-        .slice(0, limit)
-        .map(([name, count]) => ({ name, count }));
-
-}
-
-function buildLiveActivitySnapshot(rawOpenGames) {
-
-    const games = flattenOpenGames(rawOpenGames);
-
-    const difficulty = {};
-    const mode = {};
-    const difficultyMode = {};
-    const activities = {};
-    const names = {};
-
-    let publicGames = 0;
-
-    games.forEach(game => {
-
-        if (!game || typeof game !== "object")
-            return;
-
-        publicGames += 1;
-
-        const rawDifficulty = Number(game.diff);
-        const rawMode = Number(game.mode);
-
-        const normalizedDifficulty = rawDifficulty === 3
-            ? 2
-            : rawDifficulty;
-
-        const difficultyKey = [0, 1, 2].includes(normalizedDifficulty)
-            ? String(normalizedDifficulty)
-            : "null";
-
-        const modeKey = [0, 1].includes(rawMode)
-            ? String(rawMode)
-            : "null";
-
-        incrementCount(difficulty, difficultyKey, 1);
-        incrementCount(mode, modeKey, 1);
-        incrementCount(difficultyMode, `${difficultyKey}|${modeKey}`, 1);
-
-        const normalizedName = normalizeGameName(game.name);
-
-        if (!normalizedName)
-            return;
-
-        incrementCount(names, normalizedName, 1);
-
-        const [activity] = classifyActivityName(normalizedName);
-        incrementCount(activities, activity, 1);
-
-    });
-
-    const uniqueNames = Object.keys(names);
-    const averageNameLength = uniqueNames.length
-        ? Number(
-            (
-                uniqueNames.reduce((sum, name) => sum + name.length, 0)
-                / uniqueNames.length
-            ).toFixed(2)
-        )
-        : 0;
-
-    return {
-        timestamp: new Date().toISOString(),
-        difficulty,
-        mode,
-        difficulty_mode: difficultyMode,
-        activities: toSortedCountArray(activities),
-        top_games: toSortedCountArray(names, 15),
-        interesting: {
-            unique_names: uniqueNames.length,
-            public_games: publicGames,
-            average_name_length: averageNameLength,
-        },
-        live: true,
-    };
-
-}
-
-async function fetchJSON(url) {
-
-    const response = await fetch(url);
-
-    if (!response.ok)
-        throw new Error(`HTTP ${response.status} for ${url}`);
-
-    return response.json();
-
-}
-
-async function fetchLiveActivitySnapshot() {
-
-    const openGames = await fetchJSON(POD_API_OPEN_GAMES_URL);
-    return buildLiveActivitySnapshot(openGames);
-
-}
-
-function setLiveStatus(text) {
-
-    const status = document.getElementById("liveStatus");
-
-    if (status)
-        status.textContent = text;
-
-}
-
-function wireLiveButton() {
-
-    const button = document.getElementById("liveNowBtn");
-
-    if (!button)
-        return;
-
-    button.onclick = async () => {
-
-        button.disabled = true;
-        setLiveStatus("Fetching live activity snapshot...");
-
-        try {
-            liveSnapshot = await fetchLiveActivitySnapshot();
-            includeLiveSnapshot = true;
-
-            refreshCurrentSnapshots();
-            redraw();
-
-            setLiveStatus(
-                `Live point added at ${new Date(liveSnapshot.timestamp).toLocaleTimeString()}.`
-            );
-        } catch (error) {
-            console.error("Live activity snapshot failed", error);
-            setLiveStatus(
-                "Live fetch failed (likely API/CORS/network)."
-            );
-        } finally {
-            button.disabled = false;
-        }
-
-    };
-
-}
-
-
 function redraw() {
 
     const timestamp = document.getElementById("timestamp");
@@ -500,6 +197,7 @@ function redraw() {
     if (!currentSnapshots.length) {
         timestamp.textContent = "No data found for selected range.";
         document.getElementById("rangeStatus").textContent = "";
+        document.getElementById("rightNowSummary").innerHTML = "No data.";
         document.getElementById("snapshotSummary").innerHTML = "No data.";
         document.getElementById("activities").innerHTML = "";
         document.getElementById("difficulty").innerHTML = "";
@@ -532,6 +230,7 @@ function redraw() {
     const games = mergeArrayCounts(currentSnapshots, "top_games");
     const interesting = aggregateInteresting(currentSnapshots);
 
+    renderRightNowSummary(latest);
     renderSnapshotSummary(currentSnapshots, activities, difficulty, mode);
     renderActivities(activities);
     renderCounts("difficulty", difficulty);
@@ -540,6 +239,61 @@ function redraw() {
     renderDifficultyModeTimeline(currentSnapshots);
     renderGames(games.slice(0, 10));
     renderStats(interesting);
+
+}
+
+function renderRightNowSummary(latestSnapshot) {
+
+    if (!latestSnapshot) {
+        document.getElementById("rightNowSummary").innerHTML = "No data.";
+        return;
+    }
+
+    const difficultyNames = {
+        0: "Normal",
+        1: "Nightmare",
+        2: "Hell",
+        null: "Unknown",
+    };
+
+    const modeNames = {
+        0: "Softcore",
+        1: "Hardcore",
+        null: "Unknown",
+    };
+
+    const latestDifficultyEntries =
+        Object.entries(latestSnapshot.difficulty || {});
+
+    const latestModeEntries =
+        Object.entries(latestSnapshot.mode || {});
+
+    const topDifficulty = latestDifficultyEntries.length
+        ? latestDifficultyEntries.sort((a, b) => b[1] - a[1])[0]
+        : ["null", 0];
+
+    const topMode = latestModeEntries.length
+        ? latestModeEntries.sort((a, b) => b[1] - a[1])[0]
+        : ["null", 0];
+
+    const publicGames =
+        Number(latestSnapshot.interesting?.public_games || 0);
+
+    const uniqueNames =
+        Number(latestSnapshot.interesting?.unique_names || 0);
+
+    document.getElementById("rightNowSummary").innerHTML = `
+        <div class="snapshot-line"><b>Latest Snapshot</b></div>
+        <div class="snapshot-line muted">
+            Latest captured snapshot: ${new Date(latestSnapshot.timestamp).toLocaleString()}
+        </div>
+        <ul>
+            <li><b>${publicGames}</b> public games listed</li>
+            <li><b>${uniqueNames}</b> unique game names visible</li>
+            <li><b>${difficultyNames[topDifficulty[0]] ?? "Unknown"}</b> is the top difficulty (${topDifficulty[1]} games)</li>
+            <li><b>${modeNames[topMode[0]] ?? "Unknown"}</b> is the top mode (${topMode[1]} games)</li>
+        </ul>
+    `;
 
 }
 
