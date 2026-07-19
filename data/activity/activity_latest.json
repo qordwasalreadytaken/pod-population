@@ -1,20 +1,19 @@
 {
-    "timestamp": "2026-07-19T19:52:00+00:00",
+    "timestamp": "2026-07-19T20:16:00+00:00",
     "difficulty": {
-        "1": 1,
-        "2": 2
+        "2": 3,
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 2
+        "0": 4
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "2|0": 2
+        "2|0": 3,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Cows",
+            "name": "Chaos",
             "count": 1
         },
         {
@@ -24,11 +23,15 @@
         {
             "name": "Trade",
             "count": 1
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "cow",
+            "name": "i dia u 01",
             "count": 1
         },
         {
@@ -38,14 +41,18 @@
         {
             "name": "1 ooc for 1 eld",
             "count": 1
+        },
+        {
+            "name": "norm levelin",
+            "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
-        "Cows": [
+        "Chaos": [
             {
-                "name": "cow",
-                "matched": "cow",
+                "name": "i dia u 01",
+                "matched": "dia",
                 "count": 1
             }
         ],
@@ -62,11 +69,18 @@
                 "matched": "for",
                 "count": 1
             }
+        ],
+        "Leveling": [
+            {
+                "name": "norm levelin",
+                "matched": "norm",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 8.67
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 11.25
     }
 }
