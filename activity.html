@@ -9,6 +9,7 @@
 <title>PoD Activity Watch</title>
 
 <link rel="stylesheet" href="css/pod.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
   <style>
     body {
@@ -141,12 +142,25 @@
     .range-btn.active {
         background: #0078d4;
     }
+
+    .chart-wrap {
+        background: #1a1a1a;
+        padding: 10px;
+        border-radius: 8px;
+        margin-top: 8px;
+    }
+
+    #difficultyModeTimelineChart {
+        width: 100%;
+                height: 340px;
+    }
   </style>
 </head>
 
 <body>
 
-<h1>PoD Activity Watch</h1>
+<h1>PoD Activity Watch</h1> 
+<h3>This is derived from data for KNOWN public games, not ALL public games. Snapshots are scheduled to run every 15 minutes but the scheduler has been found to be unreliable.</h3>
 
 <p id="timestamp"></p>
 
@@ -184,6 +198,16 @@
 <h2>Difficulty by Mode (Range)</h2>
 
 <div id="difficultyMode"></div>
+
+</div>
+
+<div class="panel">
+
+<h2>Difficulty + Mode Over Time</h2>
+
+<div class="chart-wrap">
+    <canvas id="difficultyModeTimelineChart"></canvas>
+</div>
 
 </div>
 

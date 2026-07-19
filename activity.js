@@ -1,5 +1,11 @@
 let allSnapshots = [];
 let currentSnapshots = [];
+let difficultyModeTimelineChart = null;
+
+if (typeof Chart !== "undefined") {
+    Chart.defaults.font.size = 14;
+    Chart.defaults.color = "#ddd";
+}
 
 
 async function load() {
@@ -176,6 +182,7 @@ function redraw() {
         document.getElementById("difficultyMode").innerHTML = "";
         document.getElementById("games").innerHTML = "";
         document.getElementById("stats").innerHTML = "";
+        renderDifficultyModeTimeline([]);
         return;
     }
 
@@ -204,8 +211,153 @@ function redraw() {
     renderCounts("difficulty", difficulty);
     renderCounts("mode", mode);
     renderDifficultyMode(difficultyMode);
+    renderDifficultyModeTimeline(currentSnapshots);
     renderGames(games.slice(0, 10));
     renderStats(interesting);
+
+}
+
+function renderDifficultyModeTimeline(snapshots) {
+
+    const canvas = document.getElementById("difficultyModeTimelineChart");
+
+    if (!canvas || typeof Chart === "undefined")
+        return;
+
+    if (difficultyModeTimelineChart) {
+        difficultyModeTimelineChart.destroy();
+        difficultyModeTimelineChart = null;
+    }
+
+    if (!snapshots.length) {
+        return;
+    }
+
+    const labels = snapshots.map(snapshot =>
+        new Date(snapshot.timestamp).toLocaleString()
+    );
+
+    const comboSpecs = [
+        { key: "0|0", label: "Normal SC", color: "#3fa7ff" },
+        { key: "0|1", label: "Normal HC", color: "#8ec9ff" },
+        { key: "1|0", label: "Nightmare SC", color: "#f39c12" },
+        { key: "1|1", label: "Nightmare HC", color: "#f5c26b" },
+        { key: "2|0", label: "Hell SC", color: "#ff4d4f" },
+        { key: "2|1", label: "Hell HC", color: "#c6c6c6" },
+    ];
+
+    const normalizeDifficulty = code => {
+        const key = String(code);
+        if (key === "3")
+            return "2";
+        if (key === "0" || key === "1" || key === "2")
+            return key;
+        return null;
+    };
+
+    const normalizeMode = code => {
+        const key = String(code);
+        if (key === "0" || key === "1")
+            return key;
+        return null;
+    };
+
+    const seriesByCombo = Object.fromEntries(
+        comboSpecs.map(spec => [spec.key, []])
+    );
+
+    snapshots.forEach(snapshot => {
+
+        const counts = {
+            "0|0": 0,
+            "0|1": 0,
+            "1|0": 0,
+            "1|1": 0,
+            "2|0": 0,
+            "2|1": 0,
+        };
+
+        const difficultyMode = snapshot.difficulty_mode ?? {};
+
+        Object.entries(difficultyMode).forEach(([key, value]) => {
+
+            const [difficultyCode, modeCode] =
+                String(key).split("|");
+
+            const difficulty = normalizeDifficulty(difficultyCode);
+            const mode = normalizeMode(modeCode);
+
+            if (!difficulty || !mode)
+                return;
+
+            const comboKey = `${difficulty}|${mode}`;
+
+            if (comboKey in counts)
+                counts[comboKey] += Number(value || 0);
+
+        });
+
+        comboSpecs.forEach(spec => {
+            seriesByCombo[spec.key].push(counts[spec.key]);
+        });
+
+    });
+
+    const datasets = comboSpecs.map(spec => ({
+        label: spec.label,
+        data: seriesByCombo[spec.key],
+        borderColor: spec.color,
+        backgroundColor: spec.color,
+        fill: false,
+        tension: 0.2,
+        pointRadius: 2,
+        pointHoverRadius: 4,
+    }));
+
+    difficultyModeTimelineChart = new Chart(canvas, {
+        type: "line",
+        data: {
+            labels,
+            datasets,
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    labels: {
+                        color: "#ddd",
+                    },
+                },
+                title: {
+                    display: true,
+                    text: "Games per Snapshot by Difficulty + Mode",
+                    color: "#eee",
+                },
+            },
+            scales: {
+                x: {
+                    ticks: {
+                        color: "#aaa",
+                        maxRotation: 45,
+                        minRotation: 45,
+                    },
+                    grid: {
+                        color: "rgba(255, 255, 255, 0.08)",
+                    },
+                },
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        color: "#aaa",
+                    },
+                    grid: {
+                        color: "rgba(255, 255, 255, 0.08)",
+                    },
+                },
+            },
+        },
+    });
 
 }
 
