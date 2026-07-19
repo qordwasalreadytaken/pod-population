@@ -1,57 +1,67 @@
 {
-    "timestamp": "2026-07-19T10:44:00+00:00",
+    "timestamp": "2026-07-19T11:12:00+00:00",
     "difficulty": {
+        "0": 1,
         "2": 2
     },
     "mode": {
         "1": 1,
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 1
+        "0|1": 1,
+        "2|0": 2
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 1
+            "name": "Maps",
+            "count": 2
         },
         {
-            "name": "Maps",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "a",
+            "name": "qq",
             "count": 1
         },
         {
-            "name": "mapper jim-6",
+            "name": "mapper jim-9",
+            "count": 1
+        },
+        {
+            "name": "mapper jim-8",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "a",
+            "normalized": "qq",
             "count": 2,
             "examples": [
-                "a"
+                "qq"
             ]
         }
     ],
     "classified_games": {
         "Maps": [
             {
-                "name": "mapper jim-6",
+                "name": "mapper jim-9",
+                "matched": "map",
+                "count": 1
+            },
+            {
+                "name": "mapper jim-8",
                 "matched": "map",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 6.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 8.67
     }
 }
