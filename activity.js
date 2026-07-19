@@ -1,11 +1,22 @@
 let allSnapshots = [];
 let currentSnapshots = [];
 let difficultyModeTimelineChart = null;
+let difficultyModeTimelineExpandedChart = null;
+let difficultyModeInteractionsWired = false;
 
 if (typeof Chart !== "undefined") {
     Chart.defaults.font.size = 14;
     Chart.defaults.color = "#ddd";
 }
+
+const DIFFICULTY_MODE_COMBO_SPECS = [
+    { key: "0|0", label: "Normal SC", color: "#3fa7ff" },
+    { key: "0|1", label: "Normal HC", color: "#8ec9ff" },
+    { key: "1|0", label: "Nightmare SC", color: "#f39c12" },
+    { key: "1|1", label: "Nightmare HC", color: "#f5c26b" },
+    { key: "2|0", label: "Hell SC", color: "#ff4d4f" },
+    { key: "2|1", label: "Hell HC", color: "#c6c6c6" },
+];
 
 
 async function load() {
@@ -29,6 +40,7 @@ async function load() {
     currentSnapshots = [...allSnapshots];
 
     wireRangeButtons();
+    wireDifficultyModeTimelineInteractions();
     redraw();
 
 }
@@ -183,6 +195,7 @@ function redraw() {
         document.getElementById("games").innerHTML = "";
         document.getElementById("stats").innerHTML = "";
         renderDifficultyModeTimeline([]);
+        closeDifficultyModeModal();
         return;
     }
 
@@ -233,37 +246,43 @@ function renderDifficultyModeTimeline(snapshots) {
         return;
     }
 
+    difficultyModeTimelineChart = createDifficultyModeTimelineChart(
+        canvas,
+        snapshots,
+        {
+            title: "Games per Snapshot by Difficulty + Mode",
+            pointRadius: 2,
+            pointHoverRadius: 4,
+            maintainAspectRatio: false,
+        }
+    );
+
+}
+
+function normalizeDifficulty(code) {
+    const key = String(code);
+    if (key === "3")
+        return "2";
+    if (key === "0" || key === "1" || key === "2")
+        return key;
+    return null;
+}
+
+function normalizeMode(code) {
+    const key = String(code);
+    if (key === "0" || key === "1")
+        return key;
+    return null;
+}
+
+function buildDifficultyModeTimelineData(snapshots) {
+
     const labels = snapshots.map(snapshot =>
         new Date(snapshot.timestamp).toLocaleString()
     );
 
-    const comboSpecs = [
-        { key: "0|0", label: "Normal SC", color: "#3fa7ff" },
-        { key: "0|1", label: "Normal HC", color: "#8ec9ff" },
-        { key: "1|0", label: "Nightmare SC", color: "#f39c12" },
-        { key: "1|1", label: "Nightmare HC", color: "#f5c26b" },
-        { key: "2|0", label: "Hell SC", color: "#ff4d4f" },
-        { key: "2|1", label: "Hell HC", color: "#c6c6c6" },
-    ];
-
-    const normalizeDifficulty = code => {
-        const key = String(code);
-        if (key === "3")
-            return "2";
-        if (key === "0" || key === "1" || key === "2")
-            return key;
-        return null;
-    };
-
-    const normalizeMode = code => {
-        const key = String(code);
-        if (key === "0" || key === "1")
-            return key;
-        return null;
-    };
-
     const seriesByCombo = Object.fromEntries(
-        comboSpecs.map(spec => [spec.key, []])
+        DIFFICULTY_MODE_COMBO_SPECS.map(spec => [spec.key, []])
     );
 
     snapshots.forEach(snapshot => {
@@ -297,43 +316,81 @@ function renderDifficultyModeTimeline(snapshots) {
 
         });
 
-        comboSpecs.forEach(spec => {
+        DIFFICULTY_MODE_COMBO_SPECS.forEach(spec => {
             seriesByCombo[spec.key].push(counts[spec.key]);
         });
 
     });
 
-    const datasets = comboSpecs.map(spec => ({
+    const datasets = DIFFICULTY_MODE_COMBO_SPECS.map(spec => ({
         label: spec.label,
         data: seriesByCombo[spec.key],
         borderColor: spec.color,
         backgroundColor: spec.color,
         fill: false,
         tension: 0.2,
-        pointRadius: 2,
-        pointHoverRadius: 4,
     }));
 
-    difficultyModeTimelineChart = new Chart(canvas, {
+    return { labels, datasets };
+
+}
+
+function createDifficultyModeTimelineChart(canvas, snapshots, options = {}) {
+
+    const { labels, datasets } =
+        buildDifficultyModeTimelineData(snapshots);
+
+    const pointRadius = options.pointRadius ?? 2;
+    const pointHoverRadius = options.pointHoverRadius ?? 4;
+    const title = options.title ?? "Games per Snapshot by Difficulty + Mode";
+    const maintainAspectRatio = options.maintainAspectRatio ?? false;
+
+    const tunedDatasets = datasets.map(dataset => ({
+        ...dataset,
+        pointRadius,
+        pointHoverRadius,
+    }));
+
+    return new Chart(canvas, {
         type: "line",
         data: {
             labels,
-            datasets,
+            datasets: tunedDatasets,
         },
         options: {
             responsive: true,
-            maintainAspectRatio: false,
+            maintainAspectRatio,
             plugins: {
                 legend: {
                     labels: {
                         color: "#ddd",
                     },
+                    onClick(event, legendItem, legend) {
+                        const chart = legend.chart;
+                        const index = legendItem.datasetIndex;
+                        const meta = chart.getDatasetMeta(index);
+
+                        meta.hidden = meta.hidden === null
+                            ? !chart.data.datasets[index].hidden
+                            : null;
+
+                        chart.update();
+                    },
                 },
                 title: {
                     display: true,
-                    text: "Games per Snapshot by Difficulty + Mode",
+                    text: title,
                     color: "#eee",
                 },
+                tooltip: {
+                    mode: "index",
+                    intersect: false,
+                },
+            },
+            interaction: {
+                mode: "nearest",
+                axis: "x",
+                intersect: false,
             },
             scales: {
                 x: {
@@ -358,6 +415,86 @@ function renderDifficultyModeTimeline(snapshots) {
             },
         },
     });
+
+}
+
+function wireDifficultyModeTimelineInteractions() {
+
+    if (difficultyModeInteractionsWired)
+        return;
+
+    difficultyModeInteractionsWired = true;
+
+    const chartCard =
+        document.getElementById("difficultyModeChartCard");
+
+    const modal =
+        document.getElementById("difficultyModeModal");
+
+    const closeBtn =
+        document.getElementById("closeDifficultyModeModal");
+
+    const modalCanvas =
+        document.getElementById("difficultyModeTimelineModalChart");
+
+    chartCard?.addEventListener("click", openDifficultyModeModal);
+    closeBtn?.addEventListener("click", closeDifficultyModeModal);
+    modalCanvas?.addEventListener("dblclick", closeDifficultyModeModal);
+
+    modal?.addEventListener("click", event => {
+        if (event.target === modal)
+            closeDifficultyModeModal();
+    });
+
+    document.addEventListener("keydown", event => {
+        if (event.key === "Escape")
+            closeDifficultyModeModal();
+    });
+
+}
+
+function openDifficultyModeModal() {
+
+    if (!currentSnapshots.length)
+        return;
+
+    const modal = document.getElementById("difficultyModeModal");
+    const stats = document.getElementById("difficultyModeModalStats");
+    const canvas = document.getElementById("difficultyModeTimelineModalChart");
+
+    if (!modal || !stats || !canvas || typeof Chart === "undefined")
+        return;
+
+    stats.textContent =
+        `${currentSnapshots.length} snapshots in current range. ` +
+        "Click legend labels to toggle series. Press Esc to close.";
+
+    modal.classList.add("show");
+
+    if (difficultyModeTimelineExpandedChart)
+        difficultyModeTimelineExpandedChart.destroy();
+
+    difficultyModeTimelineExpandedChart =
+        createDifficultyModeTimelineChart(canvas, currentSnapshots, {
+            title: "Difficulty + Mode Over Time (Expanded)",
+            pointRadius: 3,
+            pointHoverRadius: 5,
+            maintainAspectRatio: false,
+        });
+
+    setTimeout(() => difficultyModeTimelineExpandedChart?.resize(), 200);
+
+}
+
+function closeDifficultyModeModal() {
+
+    const modal = document.getElementById("difficultyModeModal");
+    modal?.classList.remove("show");
+
+    if (difficultyModeTimelineExpandedChart) {
+        difficultyModeTimelineExpandedChart.destroy();
+        difficultyModeTimelineExpandedChart = null;
+    }
 
 }
 
