@@ -1,18 +1,19 @@
 {
-    "timestamp": "2026-07-19T22:16:00+00:00",
+    "timestamp": "2026-07-19T22:45:00+00:00",
     "difficulty": {
-        "1": 1,
-        "2": 3,
-        "0": 2
+        "1": 2,
+        "2": 2,
+        "0": 3
     },
     "mode": {
         "1": 1,
-        "0": 5
+        "0": 6
     },
     "difficulty_mode": {
         "1|1": 1,
-        "2|0": 3,
-        "0|0": 2
+        "2|0": 2,
+        "1|0": 1,
+        "0|0": 3
     },
     "activities": [
         {
@@ -30,6 +31,10 @@
         {
             "name": "Trade",
             "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         }
     ],
     "top_games": [
@@ -38,11 +43,7 @@
             "count": 1
         },
         {
-            "name": "i dia u 4",
-            "count": 1
-        },
-        {
-            "name": "i dia u 3",
+            "name": "i dia u 9",
             "count": 1
         },
         {
@@ -50,7 +51,15 @@
             "count": 1
         },
         {
-            "name": "sdsd",
+            "name": "nm 2",
+            "count": 1
+        },
+        {
+            "name": "i dia u 8",
+            "count": 1
+        },
+        {
+            "name": "123dsf",
             "count": 1
         },
         {
@@ -60,10 +69,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "sdsd",
+            "normalized": "nm #",
             "count": 2,
             "examples": [
-                "sdsd"
+                "nm 2"
             ]
         },
         {
@@ -84,12 +93,12 @@
         ],
         "Chaos": [
             {
-                "name": "i dia u 4",
+                "name": "i dia u 9",
                 "matched": "dia",
                 "count": 1
             },
             {
-                "name": "i dia u 3",
+                "name": "i dia u 8",
                 "matched": "dia",
                 "count": 1
             }
@@ -100,11 +109,18 @@
                 "matched": "for",
                 "count": 1
             }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "123dsf",
+                "matched": "123",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 8.67
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 8.29
     }
 }
