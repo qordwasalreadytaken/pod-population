@@ -1,7 +1,7 @@
 [
     {
         "normalized": "a",
-        "count": 244,
+        "count": 246,
         "examples": [
             "a"
         ]
@@ -115,6 +115,19 @@
         ]
     },
     {
+        "normalized": "lel #",
+        "count": 30,
+        "examples": [
+            "lel 1",
+            "lel 2",
+            "lel 3",
+            "lel 5",
+            "lel 6",
+            "lel 8",
+            "lel 9"
+        ]
+    },
+    {
         "normalized": "a h",
         "count": 28,
         "examples": [
@@ -143,17 +156,6 @@
         ]
     },
     {
-        "normalized": "lel #",
-        "count": 26,
-        "examples": [
-            "lel 1",
-            "lel 2",
-            "lel 3",
-            "lel 5",
-            "lel 6"
-        ]
-    },
-    {
         "normalized": "v",
         "count": 24,
         "examples": [
@@ -175,6 +177,13 @@
             "b soj & arach 2",
             "b soj & arach 4",
             "b soj & arach 5"
+        ]
+    },
+    {
+        "normalized": "tomas",
+        "count": 22,
+        "examples": [
+            "tomas"
         ]
     },
     {
@@ -210,13 +219,6 @@
         "count": 20,
         "examples": [
             "hell o"
-        ]
-    },
-    {
-        "normalized": "tomas",
-        "count": 18,
-        "examples": [
-            "tomas"
         ]
     },
     {
