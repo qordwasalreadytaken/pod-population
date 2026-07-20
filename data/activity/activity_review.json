@@ -109,7 +109,7 @@
     },
     {
         "normalized": "lvv",
-        "count": 32,
+        "count": 34,
         "examples": [
             "lvv"
         ]
@@ -1337,6 +1337,13 @@
         "examples": [
             "nm 2",
             "nm 3"
+        ]
+    },
+    {
+        "normalized": "where bear #",
+        "count": 4,
+        "examples": [
+            "where bear 2"
         ]
     },
     {
@@ -3080,13 +3087,6 @@
         "count": 2,
         "examples": [
             "sdxcx"
-        ]
-    },
-    {
-        "normalized": "where bear #",
-        "count": 2,
-        "examples": [
-            "where bear 2"
         ]
     },
     {
