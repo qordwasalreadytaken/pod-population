@@ -1,39 +1,39 @@
 {
-    "timestamp": "2026-07-20T11:38:00+00:00",
+    "timestamp": "2026-07-20T12:27:00+00:00",
     "difficulty": {
-        "2": 1
+        "1": 1
     },
     "mode": {
         "0": 1
     },
     "difficulty_mode": {
-        "2|0": 1
+        "1|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "hell run 10",
+            "name": "dlkjfhg",
             "count": 1
         }
     ],
-    "unknown_games": [],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "hell run 10",
-                "matched": "run",
-                "count": 1
-            }
-        ]
-    },
+    "unknown_games": [
+        {
+            "normalized": "dlkjfhg",
+            "count": 2,
+            "examples": [
+                "dlkjfhg"
+            ]
+        }
+    ],
+    "classified_games": {},
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 11.0
+        "average_name_length": 7.0
     }
 }
