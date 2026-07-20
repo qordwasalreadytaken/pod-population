@@ -1,15 +1,17 @@
 {
-    "timestamp": "2026-07-20T15:35:00+00:00",
+    "timestamp": "2026-07-20T16:15:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1
+        "2": 1,
+        "1": 1,
+        "0": 1
     },
     "mode": {
         "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 1
+        "2|0": 1,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
@@ -17,45 +19,45 @@
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "run !",
+            "name": "lel 5",
             "count": 1
         },
         {
-            "name": "dlfkgj",
+            "name": "sdxcx",
             "count": 1
         },
         {
-            "name": "lel 2",
+            "name": "swap",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "dlfkgj",
-            "count": 2,
-            "examples": [
-                "dlfkgj"
-            ]
-        },
-        {
             "normalized": "lel #",
             "count": 2,
             "examples": [
-                "lel 2"
+                "lel 5"
+            ]
+        },
+        {
+            "normalized": "sdxcx",
+            "count": 2,
+            "examples": [
+                "sdxcx"
             ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "run !",
-                "matched": "run",
+                "name": "swap",
+                "matched": "swap",
                 "count": 1
             }
         ]
@@ -63,6 +65,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 5.33
+        "average_name_length": 4.67
     }
 }
