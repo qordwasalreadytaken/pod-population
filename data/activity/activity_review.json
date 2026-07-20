@@ -1,7 +1,7 @@
 [
     {
         "normalized": "a",
-        "count": 242,
+        "count": 244,
         "examples": [
             "a"
         ]
@@ -143,6 +143,17 @@
         ]
     },
     {
+        "normalized": "lel #",
+        "count": 26,
+        "examples": [
+            "lel 1",
+            "lel 2",
+            "lel 3",
+            "lel 5",
+            "lel 6"
+        ]
+    },
+    {
         "normalized": "v",
         "count": 24,
         "examples": [
@@ -154,16 +165,6 @@
         "count": 24,
         "examples": [
             "t"
-        ]
-    },
-    {
-        "normalized": "lel #",
-        "count": 24,
-        "examples": [
-            "lel 1",
-            "lel 2",
-            "lel 3",
-            "lel 5"
         ]
     },
     {
@@ -212,6 +213,13 @@
         ]
     },
     {
+        "normalized": "tomas",
+        "count": 18,
+        "examples": [
+            "tomas"
+        ]
+    },
+    {
         "normalized": "help",
         "count": 16,
         "examples": [
@@ -234,13 +242,6 @@
         "count": 16,
         "examples": [
             "quests"
-        ]
-    },
-    {
-        "normalized": "tomas",
-        "count": 16,
-        "examples": [
-            "tomas"
         ]
     },
     {
@@ -788,6 +789,13 @@
         "count": 6,
         "examples": [
             "tttt"
+        ]
+    },
+    {
+        "normalized": "dslkfghjfgf",
+        "count": 6,
+        "examples": [
+            "dslkfghjfgf"
         ]
     },
     {
@@ -1346,13 +1354,6 @@
         "examples": [
             "nm 2",
             "nm 3"
-        ]
-    },
-    {
-        "normalized": "dslkfghjfgf",
-        "count": 4,
-        "examples": [
-            "dslkfghjfgf"
         ]
     },
     {
