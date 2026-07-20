@@ -1,65 +1,63 @@
 {
-    "timestamp": "2026-07-20T05:46:00+00:00",
+    "timestamp": "2026-07-20T07:01:00+00:00",
     "difficulty": {
         "2": 1,
-        "0": 2
+        "1": 1,
+        "0": 1
     },
     "mode": {
         "0": 3
     },
     "difficulty_mode": {
         "2|0": 1,
-        "0|0": 2
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Baal",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "1111",
+            "name": "lvv",
             "count": 1
         },
         {
-            "name": "qasdaxc",
+            "name": "swap",
             "count": 1
         },
         {
-            "name": "baal 8",
+            "name": "lklk",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "#",
+            "normalized": "lvv",
             "count": 2,
             "examples": [
-                "1111"
+                "lvv"
+            ]
+        },
+        {
+            "normalized": "lklk",
+            "count": 2,
+            "examples": [
+                "lklk"
             ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "qasdaxc",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
-        "Baal": [
-            {
-                "name": "baal 8",
-                "matched": "baal",
+                "name": "swap",
+                "matched": "swap",
                 "count": 1
             }
         ]
@@ -67,6 +65,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 5.67
+        "average_name_length": 3.67
     }
 }
