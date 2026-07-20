@@ -24,7 +24,7 @@
     },
     {
         "normalized": "a#h",
-        "count": 72,
+        "count": 74,
         "examples": [
             "a1h",
             "a2h",
@@ -204,6 +204,13 @@
         ]
     },
     {
+        "normalized": "crip",
+        "count": 18,
+        "examples": [
+            "crip"
+        ]
+    },
+    {
         "normalized": "help",
         "count": 16,
         "examples": [
@@ -226,13 +233,6 @@
         "count": 16,
         "examples": [
             "quests"
-        ]
-    },
-    {
-        "normalized": "crip",
-        "count": 16,
-        "examples": [
-            "crip"
         ]
     },
     {
@@ -3080,6 +3080,20 @@
         "count": 2,
         "examples": [
             "sdxcx"
+        ]
+    },
+    {
+        "normalized": "where bear #",
+        "count": 2,
+        "examples": [
+            "where bear 2"
+        ]
+    },
+    {
+        "normalized": "glhk",
+        "count": 2,
+        "examples": [
+            "glhk"
         ]
     }
 ]
