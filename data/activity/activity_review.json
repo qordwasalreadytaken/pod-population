@@ -24,7 +24,7 @@
     },
     {
         "normalized": "a#h",
-        "count": 78,
+        "count": 80,
         "examples": [
             "a1h",
             "a2h",
@@ -55,6 +55,13 @@
         ]
     },
     {
+        "normalized": "ok",
+        "count": 44,
+        "examples": [
+            "ok"
+        ]
+    },
+    {
         "normalized": "qordsohandsome",
         "count": 42,
         "examples": [
@@ -66,13 +73,6 @@
         "count": 40,
         "examples": [
             "lvup gogo"
-        ]
-    },
-    {
-        "normalized": "ok",
-        "count": 40,
-        "examples": [
-            "ok"
         ]
     },
     {
@@ -3095,6 +3095,13 @@
         "count": 2,
         "examples": [
             "glhk"
+        ]
+    },
+    {
+        "normalized": "hell #",
+        "count": 2,
+        "examples": [
+            "hell 1"
         ]
     }
 ]
