@@ -1,85 +1,39 @@
 {
-    "timestamp": "2026-07-19T23:46:00+00:00",
+    "timestamp": "2026-07-20T02:57:00+00:00",
     "difficulty": {
-        "1": 2,
-        "0": 2
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "0": 1
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "1|0": 1,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Leveling",
-            "count": 1
-        },
-        {
-            "name": "Baal",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "walking nm",
-            "count": 1
-        },
-        {
-            "name": "nm",
-            "count": 1
-        },
-        {
-            "name": "norm baal",
-            "count": 1
-        },
-        {
-            "name": "lel 3",
+            "name": "lel 5",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "nm",
-            "count": 2,
-            "examples": [
-                "nm"
-            ]
-        },
-        {
             "normalized": "lel #",
             "count": 2,
             "examples": [
-                "lel 3"
+                "lel 5"
             ]
         }
     ],
-    "classified_games": {
-        "Leveling": [
-            {
-                "name": "walking nm",
-                "matched": "walk",
-                "count": 1
-            }
-        ],
-        "Baal": [
-            {
-                "name": "norm baal",
-                "matched": "baal",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 5.0
     }
 }
