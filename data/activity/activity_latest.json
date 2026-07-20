@@ -1,21 +1,25 @@
 {
-    "timestamp": "2026-07-20T19:08:00+00:00",
+    "timestamp": "2026-07-20T19:51:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 4,
         "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 4
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 1,
+        "2|0": 3,
         "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
+            "count": 2
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
@@ -26,6 +30,14 @@
     "top_games": [
         {
             "name": "a2h",
+            "count": 1
+        },
+        {
+            "name": "hellrun 2",
+            "count": 1
+        },
+        {
+            "name": "asdxcv",
             "count": 1
         },
         {
@@ -54,6 +66,18 @@
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "hellrun 2",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "asdxcv",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
         "Baal": [
             {
                 "name": "baal",
@@ -63,8 +87,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.33
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 6.8
     }
 }
