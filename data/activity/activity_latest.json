@@ -1,22 +1,20 @@
 {
-    "timestamp": "2026-07-20T04:26:00+00:00",
+    "timestamp": "2026-07-20T05:46:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 2
+        "2": 1,
+        "0": 2
     },
     "mode": {
-        "1": 1,
         "0": 3
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 2,
-        "0|0": 1
+        "2|0": 1,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
@@ -29,19 +27,15 @@
     ],
     "top_games": [
         {
-            "name": "aaaa",
-            "count": 1
-        },
-        {
             "name": "1111",
             "count": 1
         },
         {
-            "name": "qwerqr",
+            "name": "qasdaxc",
             "count": 1
         },
         {
-            "name": "baal 3",
+            "name": "baal 8",
             "count": 1
         }
     ],
@@ -52,34 +46,27 @@
             "examples": [
                 "1111"
             ]
-        },
-        {
-            "normalized": "qwerqr",
-            "count": 2,
-            "examples": [
-                "qwerqr"
-            ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "aaaa",
-                "matched": "aaa",
+                "name": "qasdaxc",
+                "matched": "asd",
                 "count": 1
             }
         ],
         "Baal": [
             {
-                "name": "baal 3",
+                "name": "baal 8",
                 "matched": "baal",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 5.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 5.67
     }
 }
