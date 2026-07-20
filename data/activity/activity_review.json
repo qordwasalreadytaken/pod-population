@@ -157,6 +157,16 @@
         ]
     },
     {
+        "normalized": "lel #",
+        "count": 24,
+        "examples": [
+            "lel 1",
+            "lel 2",
+            "lel 3",
+            "lel 5"
+        ]
+    },
+    {
         "normalized": "b soj & arach #",
         "count": 22,
         "examples": [
@@ -178,16 +188,6 @@
         "count": 22,
         "examples": [
             "crip"
-        ]
-    },
-    {
-        "normalized": "lel #",
-        "count": 22,
-        "examples": [
-            "lel 1",
-            "lel 2",
-            "lel 3",
-            "lel 5"
         ]
     },
     {
@@ -234,6 +234,13 @@
         "count": 16,
         "examples": [
             "quests"
+        ]
+    },
+    {
+        "normalized": "tomas",
+        "count": 16,
+        "examples": [
+            "tomas"
         ]
     },
     {
@@ -312,13 +319,6 @@
         "count": 12,
         "examples": [
             "dsf"
-        ]
-    },
-    {
-        "normalized": "tomas",
-        "count": 12,
-        "examples": [
-            "tomas"
         ]
     },
     {
@@ -1346,6 +1346,13 @@
         "examples": [
             "nm 2",
             "nm 3"
+        ]
+    },
+    {
+        "normalized": "dslkfghjfgf",
+        "count": 4,
+        "examples": [
+            "dslkfghjfgf"
         ]
     },
     {
@@ -3110,13 +3117,6 @@
         "count": 2,
         "examples": [
             "dfscv"
-        ]
-    },
-    {
-        "normalized": "dslkfghjfgf",
-        "count": 2,
-        "examples": [
-            "dslkfghjfgf"
         ]
     }
 ]
