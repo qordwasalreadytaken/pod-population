@@ -1,52 +1,70 @@
 {
-    "timestamp": "2026-07-20T18:25:00+00:00",
+    "timestamp": "2026-07-20T19:08:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 2,
+        "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 1
+        "2|0": 1,
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
             "count": 2
+        },
+        {
+            "name": "Baal",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "crip",
+            "name": "a2h",
             "count": 1
         },
         {
-            "name": "lvv",
+            "name": "baal",
+            "count": 1
+        },
+        {
+            "name": "where bear 4",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "crip",
+            "normalized": "a#h",
             "count": 2,
             "examples": [
-                "crip"
+                "a2h"
             ]
         },
         {
-            "normalized": "lvv",
+            "normalized": "where bear #",
             "count": 2,
             "examples": [
-                "lvv"
+                "where bear 4"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Baal": [
+            {
+                "name": "baal",
+                "matched": "baal",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 3.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 6.33
     }
 }
