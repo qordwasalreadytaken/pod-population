@@ -1,20 +1,22 @@
 {
-    "timestamp": "2026-07-20T17:38:00+00:00",
+    "timestamp": "2026-07-20T17:40:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 2,
         "1": 2
     },
     "mode": {
+        "1": 1,
         "0": 3
     },
     "difficulty_mode": {
+        "2|1": 1,
         "2|0": 1,
         "1|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
@@ -22,6 +24,10 @@
         }
     ],
     "top_games": [
+        {
+            "name": "crip",
+            "count": 1
+        },
         {
             "name": "lvv",
             "count": 1
@@ -36,6 +42,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "crip",
+            "count": 2,
+            "examples": [
+                "crip"
+            ]
+        },
         {
             "normalized": "lvv",
             "count": 2,
@@ -61,8 +74,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.33
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 5.75
     }
 }
