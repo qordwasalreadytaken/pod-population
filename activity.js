@@ -80,12 +80,23 @@ function filterRange(data, days) {
     if (!data.length)
         return [];
 
+    // Data corrected (July 19, 2026 @ 12:00 PM UTC)
+    if (days === "corrected") {
+
+        const cutoff = new Date("2026-07-19T12:00:00Z").getTime();
+
+        return data.filter(d =>
+            new Date(d.timestamp).getTime() >= cutoff
+        );
+
+    }
+
     const newest =
         new Date(data.at(-1).timestamp).getTime();
 
     return data.filter(d =>
         newest - new Date(d.timestamp).getTime()
-        <= days * 86400000
+        <= Number(days) * 86400000
     );
 
 }
