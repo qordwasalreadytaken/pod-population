@@ -1,14 +1,14 @@
 [
     {
         "normalized": "a",
-        "count": 248,
+        "count": 250,
         "examples": [
             "a"
         ]
     },
     {
         "normalized": "#",
-        "count": 188,
+        "count": 190,
         "examples": [
             "1",
             "11",
@@ -99,6 +99,21 @@
         ]
     },
     {
+        "normalized": "lel #",
+        "count": 38,
+        "examples": [
+            "lel 1",
+            "lel 10",
+            "lel 2",
+            "lel 3",
+            "lel 4",
+            "lel 5",
+            "lel 6",
+            "lel 8",
+            "lel 9"
+        ]
+    },
+    {
         "normalized": "trapper jim #",
         "count": 36,
         "examples": [
@@ -112,21 +127,6 @@
             "trapper jim 4",
             "trapper jim 5",
             "trapper jim 6"
-        ]
-    },
-    {
-        "normalized": "lel #",
-        "count": 36,
-        "examples": [
-            "lel 1",
-            "lel 10",
-            "lel 2",
-            "lel 3",
-            "lel 4",
-            "lel 5",
-            "lel 6",
-            "lel 8",
-            "lel 9"
         ]
     },
     {
@@ -1365,6 +1365,13 @@
         "examples": [
             "nm 2",
             "nm 3"
+        ]
+    },
+    {
+        "normalized": "dsflgk",
+        "count": 4,
+        "examples": [
+            "dsflgk"
         ]
     },
     {
@@ -3178,13 +3185,6 @@
         "count": 2,
         "examples": [
             "bvbvb"
-        ]
-    },
-    {
-        "normalized": "dsflgk",
-        "count": 2,
-        "examples": [
-            "dsflgk"
         ]
     }
 ]
