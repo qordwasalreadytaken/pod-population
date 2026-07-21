@@ -3491,7 +3491,7 @@
             "Maps": [
                 {
                     "name": "maps-2",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -3563,7 +3563,7 @@
             "Leveling": [
                 {
                     "name": "act 2 start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -5126,7 +5126,7 @@
             "Maps": [
                 {
                     "name": "maps-2",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -9069,7 +9069,7 @@
             "Leveling": [
                 {
                     "name": "act start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -10541,7 +10541,7 @@
                 },
                 {
                     "name": "act hel start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -14512,7 +14512,7 @@
                 },
                 {
                     "name": "norm start",
-                    "matched": "norm",
+                    "matched": "start",
                     "count": 1
                 }
             ],
@@ -14588,7 +14588,7 @@
                 },
                 {
                     "name": "norm start",
-                    "matched": "norm",
+                    "matched": "start",
                     "count": 1
                 }
             ],
@@ -19108,7 +19108,7 @@
             "Leveling": [
                 {
                     "name": "norm start",
-                    "matched": "norm",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -19166,7 +19166,7 @@
             "Leveling": [
                 {
                     "name": "norm start",
-                    "matched": "norm",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -41158,7 +41158,7 @@
             "Maps": [
                 {
                     "name": "maps",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -41242,7 +41242,7 @@
             "Maps": [
                 {
                     "name": "maps",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -43416,7 +43416,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "run",
+                    "matched": "meph",
                     "count": 1
                 },
                 {
@@ -43467,7 +43467,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "run",
+                    "matched": "meph",
                     "count": 1
                 },
                 {
@@ -49132,7 +49132,7 @@
             "Leveling": [
                 {
                     "name": "norm act",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -54986,7 +54986,7 @@
             "Leveling": [
                 {
                     "name": "norm act",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -55034,7 +55034,7 @@
                 },
                 {
                     "name": "norm act",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -55117,7 +55117,7 @@
                 },
                 {
                     "name": "norm act",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -55191,7 +55191,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "run",
+                    "matched": "meph",
                     "count": 2
                 }
             ]
@@ -68887,7 +68887,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -68958,7 +68958,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -72038,6 +72038,45 @@
             "unique_names": 3,
             "public_games": 3,
             "average_name_length": 2.67
+        }
+    },
+    {
+        "timestamp": "2026-07-21T11:34:00+00:00",
+        "difficulty": {
+            "0": 1
+        },
+        "mode": {
+            "0": 1
+        },
+        "difficulty_mode": {
+            "0|0": 1
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "sadxc",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "sadxc",
+                "count": 2,
+                "examples": [
+                    "sadxc"
+                ]
+            }
+        ],
+        "classified_games": {},
+        "interesting": {
+            "unique_names": 1,
+            "public_games": 1,
+            "average_name_length": 5.0
         }
     }
 ]
