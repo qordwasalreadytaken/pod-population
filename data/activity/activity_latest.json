@@ -1,24 +1,22 @@
 {
-    "timestamp": "2026-07-20T23:46:00+00:00",
+    "timestamp": "2026-07-21T00:25:00+00:00",
     "difficulty": {
-        "2": 4,
-        "1": 1,
-        "0": 1
+        "0": 2,
+        "2": 2
     },
     "mode": {
         "1": 1,
-        "0": 5
+        "0": 3
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 3,
-        "1|0": 1,
+        "0|1": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
@@ -27,62 +25,57 @@
     ],
     "top_games": [
         {
+            "name": "aa",
+            "count": 1
+        },
+        {
+            "name": "wesdsd",
+            "count": 1
+        },
+        {
+            "name": "lel 10",
+            "count": 1
+        },
+        {
             "name": "tomas",
-            "count": 2
-        },
-        {
-            "name": "a",
-            "count": 1
-        },
-        {
-            "name": "lel 9",
-            "count": 1
-        },
-        {
-            "name": "lel 8",
-            "count": 1
-        },
-        {
-            "name": "asdasd'",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "lel #",
-            "count": 4,
+            "normalized": "wesdsd",
+            "count": 2,
             "examples": [
-                "lel 8",
-                "lel 9"
+                "wesdsd"
+            ]
+        },
+        {
+            "normalized": "lel #",
+            "count": 2,
+            "examples": [
+                "lel 10"
             ]
         },
         {
             "normalized": "tomas",
-            "count": 4,
-            "examples": [
-                "tomas"
-            ]
-        },
-        {
-            "normalized": "a",
             "count": 2,
             "examples": [
-                "a"
+                "tomas"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asdasd'",
-                "matched": "asd",
+                "name": "aa",
+                "matched": "aa",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 6,
-        "average_name_length": 4.6
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 4.75
     }
 }

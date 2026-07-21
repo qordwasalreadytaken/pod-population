@@ -116,9 +116,10 @@
     },
     {
         "normalized": "lel #",
-        "count": 30,
+        "count": 32,
         "examples": [
             "lel 1",
+            "lel 10",
             "lel 2",
             "lel 3",
             "lel 5",
@@ -170,6 +171,13 @@
         ]
     },
     {
+        "normalized": "tomas",
+        "count": 24,
+        "examples": [
+            "tomas"
+        ]
+    },
+    {
         "normalized": "b soj & arach #",
         "count": 22,
         "examples": [
@@ -177,13 +185,6 @@
             "b soj & arach 2",
             "b soj & arach 4",
             "b soj & arach 5"
-        ]
-    },
-    {
-        "normalized": "tomas",
-        "count": 22,
-        "examples": [
-            "tomas"
         ]
     },
     {
@@ -3120,6 +3121,13 @@
         "count": 2,
         "examples": [
             "dfscv"
+        ]
+    },
+    {
+        "normalized": "wesdsd",
+        "count": 2,
+        "examples": [
+            "wesdsd"
         ]
     }
 ]
