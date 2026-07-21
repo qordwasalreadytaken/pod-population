@@ -60,7 +60,7 @@ function wireRangeButtons() {
             btn.classList.add("active");
 
             currentRange = btn.dataset.days;
-
+            console.log("Button clicked:", btn.dataset.days);
             refreshCurrentSnapshots();
 
             redraw();
@@ -74,43 +74,83 @@ function wireRangeButtons() {
 
 function filterRange(data, days) {
 
-    if (days === "all")
+    console.log("filterRange()");
+    console.log("Requested range:", days);
+    console.log("Snapshots:", data.length);
+
+    if (days === "all") {
+        console.log("Returning all snapshots");
         return [...data];
+    }
 
-    if (!data.length)
+    if (!data.length) {
+        console.log("No data!");
         return [];
+    }
 
-    // Data corrected (July 19, 2026 @ 12:00 PM UTC)
     if (days === "corrected") {
 
-        const cutoff = new Date("2026-07-19T12:00:00Z").getTime();
+        const cutoff = new Date("2026-07-19T16:00:00+00:00").getTime();
 
-        return data.filter(d =>
-            new Date(d.timestamp).getTime() >= cutoff
-        );
+        console.log("Cutoff:",
+            new Date(cutoff).toISOString(),
+            cutoff);
+
+        const filtered = data.filter(d => {
+
+            const ts = new Date(d.timestamp).getTime();
+            const keep = ts >= cutoff;
+
+            console.log(
+                d.timestamp,
+                ts,
+                keep ? "KEEP" : "DROP"
+            );
+
+            return keep;
+
+        });
+
+        console.log("Filtered count:", filtered.length);
+
+        return filtered;
 
     }
 
-    const newest =
-        new Date(data.at(-1).timestamp).getTime();
+    const newest = new Date(data.at(-1).timestamp).getTime();
 
-    return data.filter(d =>
-        newest - new Date(d.timestamp).getTime()
-        <= Number(days) * 86400000
-    );
+    console.log("Newest:",
+        new Date(newest).toISOString());
+
+    const filtered = data.filter(d => {
+
+        const age =
+            (newest - new Date(d.timestamp).getTime()) / 86400000;
+
+        const keep = age <= Number(days);
+
+        console.log(
+            d.timestamp,
+            age.toFixed(2) + " days old",
+            keep ? "KEEP" : "DROP"
+        );
+
+        return keep;
+
+    });
+
+    console.log("Filtered count:", filtered.length);
+
+    return filtered;
 
 }
 
 function refreshCurrentSnapshots() {
 
-    const baseSnapshots = filterRange(
+    currentSnapshots = filterRange(
         allSnapshots,
-        currentRange === "all"
-            ? "all"
-            : Number(currentRange)
+        currentRange
     );
-
-    currentSnapshots = baseSnapshots;
 
 }
 

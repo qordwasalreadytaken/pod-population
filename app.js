@@ -112,20 +112,74 @@ function latestTime(data) {
 
 function filterRange(data, days) {
 
-    if (days === "all")
+    console.log("filterRange()");
+    console.log("Requested range:", days);
+    console.log("Snapshots:", data.length);
+
+    if (days === "all") {
+        console.log("Returning all snapshots");
         return [...data];
+    }
 
-    if (!data.length)
+    if (!data.length) {
+        console.log("No data!");
         return [];
+    }
 
-    const newest = latestTime(data).getTime();
+    if (days === "corrected") {
 
-    return data.filter(d =>
+        const cutoff = new Date("2026-07-19T16:00:00+00:00").getTime();
 
-        newest - new Date(d.timestamp).getTime()
-        <= days * 86400000
+        console.log("Cutoff:",
+            new Date(cutoff).toISOString(),
+            cutoff);
 
-    );
+        const filtered = data.filter(d => {
+
+            const ts = new Date(d.timestamp).getTime();
+            const keep = ts >= cutoff;
+
+            console.log(
+                d.timestamp,
+                ts,
+                keep ? "KEEP" : "DROP"
+            );
+
+            return keep;
+
+        });
+
+        console.log("Filtered count:", filtered.length);
+
+        return filtered;
+
+    }
+
+    const newest = new Date(data.at(-1).timestamp).getTime();
+
+    console.log("Newest:",
+        new Date(newest).toISOString());
+
+    const filtered = data.filter(d => {
+
+        const age =
+            (newest - new Date(d.timestamp).getTime()) / 86400000;
+
+        const keep = age <= Number(days);
+
+        console.log(
+            d.timestamp,
+            age.toFixed(2) + " days old",
+            keep ? "KEEP" : "DROP"
+        );
+
+        return keep;
+
+    });
+
+    console.log("Filtered count:", filtered.length);
+
+    return filtered;
 
 }
 
@@ -133,9 +187,7 @@ function refreshCurrentData() {
 
     const baseData = filterRange(
         allData,
-        currentRange === "all"
-            ? "all"
-            : Number(currentRange)
+        currentRange
     );
 
     currentData = baseData;
