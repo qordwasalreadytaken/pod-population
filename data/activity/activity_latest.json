@@ -1,89 +1,15 @@
 {
-    "timestamp": "2026-07-21T18:26:00+00:00",
-    "difficulty": {
-        "2": 2,
-        "0": 3
-    },
-    "mode": {
-        "1": 2,
-        "0": 3
-    },
-    "difficulty_mode": {
-        "2|1": 2,
-        "0|0": 3
-    },
-    "activities": [
-        {
-            "name": "Other",
-            "count": 3
-        },
-        {
-            "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Cows",
-            "count": 1
-        }
-    ],
-    "top_games": [
-        {
-            "name": "n eth b-axe",
-            "count": 1
-        },
-        {
-            "name": "cow",
-            "count": 1
-        },
-        {
-            "name": "16",
-            "count": 1
-        },
-        {
-            "name": "15",
-            "count": 1
-        },
-        {
-            "name": "fghl",
-            "count": 1
-        }
-    ],
-    "unknown_games": [
-        {
-            "normalized": "#",
-            "count": 4,
-            "examples": [
-                "15",
-                "16"
-            ]
-        },
-        {
-            "normalized": "fghl",
-            "count": 2,
-            "examples": [
-                "fghl"
-            ]
-        }
-    ],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "n eth b-axe",
-                "matched": "n",
-                "count": 1
-            }
-        ],
-        "Cows": [
-            {
-                "name": "cow",
-                "matched": "cow",
-                "count": 1
-            }
-        ]
-    },
+    "timestamp": "2026-07-21T18:55:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "difficulty_mode": {},
+    "activities": [],
+    "top_games": [],
+    "unknown_games": [],
+    "classified_games": {},
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 4.4
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
