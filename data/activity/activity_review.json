@@ -76,6 +76,21 @@
         ]
     },
     {
+        "normalized": "lel #",
+        "count": 40,
+        "examples": [
+            "lel 1",
+            "lel 10",
+            "lel 2",
+            "lel 3",
+            "lel 4",
+            "lel 5",
+            "lel 6",
+            "lel 8",
+            "lel 9"
+        ]
+    },
+    {
         "normalized": "lvv",
         "count": 38,
         "examples": [
@@ -96,21 +111,6 @@
             "barb lvling-35",
             "barb lvling-36",
             "barb lvling-38"
-        ]
-    },
-    {
-        "normalized": "lel #",
-        "count": 38,
-        "examples": [
-            "lel 1",
-            "lel 10",
-            "lel 2",
-            "lel 3",
-            "lel 4",
-            "lel 5",
-            "lel 6",
-            "lel 8",
-            "lel 9"
         ]
     },
     {
@@ -3185,6 +3185,13 @@
         "count": 2,
         "examples": [
             "bvbvb"
+        ]
+    },
+    {
+        "normalized": "fghl",
+        "count": 2,
+        "examples": [
+            "fghl"
         ]
     }
 ]

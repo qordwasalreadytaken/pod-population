@@ -1,37 +1,31 @@
 {
-    "timestamp": "2026-07-21T16:43:00+00:00",
+    "timestamp": "2026-07-21T17:13:00+00:00",
     "difficulty": {
-        "2": 4,
-        "1": 1,
+        "2": 3,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 5
+        "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 3,
-        "1|0": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 4
-        },
-        {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "Leveling",
-            "count": 1
+            "name": "Other",
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "a",
+            "name": "aa",
             "count": 1
         },
         {
@@ -39,37 +33,15 @@
             "count": 1
         },
         {
-            "name": "dsflgk",
-            "count": 1
-        },
-        {
             "name": "lel 4",
             "count": 1
         },
         {
-            "name": "11",
-            "count": 1
-        },
-        {
-            "name": "help normal",
+            "name": "fghl",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "a",
-            "count": 2,
-            "examples": [
-                "a"
-            ]
-        },
-        {
-            "normalized": "dsflgk",
-            "count": 2,
-            "examples": [
-                "dsflgk"
-            ]
-        },
         {
             "normalized": "lel #",
             "count": 2,
@@ -78,32 +50,30 @@
             ]
         },
         {
-            "normalized": "#",
+            "normalized": "fghl",
             "count": 2,
             "examples": [
-                "11"
+                "fghl"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
+                "name": "aa",
+                "matched": "aa",
+                "count": 1
+            },
+            {
                 "name": "gord",
                 "matched": "gord",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "help normal",
-                "matched": "norm",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 4.83
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 3.75
     }
 }
