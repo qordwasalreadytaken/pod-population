@@ -1,27 +1,58 @@
 {
-    "timestamp": "2026-07-21T21:08:00+00:00",
+    "timestamp": "2026-07-21T21:37:00+00:00",
     "difficulty": {
-        "2": 1
-    },
-    "mode": {
+        "2": 3,
         "0": 1
     },
+    "mode": {
+        "1": 1,
+        "0": 3
+    },
     "difficulty_mode": {
-        "2|0": 1
+        "2|1": 1,
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
+            "count": 2
+        },
+        {
+            "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "h",
+            "count": 1
+        },
+        {
+            "name": "1 ooc for 1 eld",
+            "count": 1
+        },
+        {
             "name": "lel 8",
+            "count": 1
+        },
+        {
+            "name": "normalish",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "h",
+            "count": 2,
+            "examples": [
+                "h"
+            ]
+        },
         {
             "normalized": "lel #",
             "count": 2,
@@ -30,10 +61,25 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Trade": [
+            {
+                "name": "1 ooc for 1 eld",
+                "matched": "for",
+                "count": 1
+            }
+        ],
+        "Leveling": [
+            {
+                "name": "normalish",
+                "matched": "norm",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 5.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 7.5
     }
 }
