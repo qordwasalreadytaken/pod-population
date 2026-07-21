@@ -210,7 +210,7 @@
         {
             "name": "aa",
             "matched": "aa",
-            "count": 28
+            "count": 29
         },
         {
             "name": "derp",
@@ -229,7 +229,7 @@
         },
         {
             "name": "asdff",
-            "matched": "asd",
+            "matched": "asdff",
             "count": 15
         },
         {
@@ -284,7 +284,7 @@
         },
         {
             "name": "meph run",
-            "matched": "run",
+            "matched": "meph",
             "count": 4
         },
         {
@@ -294,6 +294,11 @@
         },
         {
             "name": "a running",
+            "matched": "run",
+            "count": 4
+        },
+        {
+            "name": "qrun",
             "matched": "run",
             "count": 4
         },
@@ -369,7 +374,7 @@
         },
         {
             "name": "asdffdf",
-            "matched": "asd",
+            "matched": "asdff",
             "count": 2
         },
         {
@@ -435,11 +440,6 @@
         {
             "name": "alkjasd",
             "matched": "asd",
-            "count": 2
-        },
-        {
-            "name": "qrun",
-            "matched": "run",
             "count": 2
         },
         {
@@ -1210,12 +1210,12 @@
         },
         {
             "name": "norm start",
-            "matched": "start",
+            "matched": "norm",
             "count": 4
         },
         {
             "name": "norm act",
-            "matched": "act",
+            "matched": "norm",
             "count": 4
         },
         {
@@ -1335,7 +1335,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "leveli",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -1355,7 +1355,7 @@
         },
         {
             "name": "act 2 start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -1385,7 +1385,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -1395,7 +1395,7 @@
         },
         {
             "name": "act hel start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -1415,7 +1415,7 @@
         },
         {
             "name": "act 5 normal",
-            "matched": "norm",
+            "matched": "act",
             "count": 1
         },
         {
