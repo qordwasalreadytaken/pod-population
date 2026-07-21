@@ -1,53 +1,39 @@
 {
-    "timestamp": "2026-07-21T20:03:00+00:00",
+    "timestamp": "2026-07-21T20:39:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
+        "1": 1
     },
     "mode": {
-        "1": 1,
         "0": 1
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "0|0": 1
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "quests",
-            "count": 1
-        },
-        {
-            "name": "lel 4",
+            "name": "lel 7",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "quests",
-            "count": 2,
-            "examples": [
-                "quests"
-            ]
-        },
-        {
             "normalized": "lel #",
             "count": 2,
             "examples": [
-                "lel 4"
+                "lel 7"
             ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 5.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 5.0
     }
 }
