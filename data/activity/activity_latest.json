@@ -1,88 +1,39 @@
 {
-    "timestamp": "2026-07-22T21:37:00+00:00",
+    "timestamp": "2026-07-22T22:06:00+00:00",
     "difficulty": {
-        "1": 1,
-        "2": 3
+        "2": 1
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "0": 1
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "2|0": 3
+        "2|0": 1
     },
     "activities": [
         {
-            "name": "Baal",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Trade",
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "nm baal walk",
-            "count": 1
-        },
-        {
-            "name": "act_3 first run",
-            "count": 1
-        },
-        {
-            "name": "lvl 1",
-            "count": 1
-        },
-        {
-            "name": "1 ooc for 1 eld",
+            "name": "act_3",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "lvl #",
-            "count": 2,
-            "examples": [
-                "lvl 1"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
-        "Baal": [
+        "Leveling": [
             {
-                "name": "nm baal walk",
-                "matched": "baal",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "act_3 first run",
-                "matched": "run",
-                "count": 1
-            }
-        ],
-        "Trade": [
-            {
-                "name": "1 ooc for 1 eld",
-                "matched": "for",
+                "name": "act_3",
+                "matched": "act",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 11.75
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 5.0
     }
 }
