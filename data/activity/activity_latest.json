@@ -1,21 +1,15 @@
 {
-    "timestamp": "2026-07-22T14:27:00+00:00",
+    "timestamp": "2026-07-22T15:14:00+00:00",
     "difficulty": {
-        "2": 2
+        "1": 1
     },
     "mode": {
-        "1": 1,
-        "0": 1
+        "1": 1
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 1
+        "1|1": 1
     },
     "activities": [
-        {
-            "name": "Trade",
-            "count": 1
-        },
         {
             "name": "Other",
             "count": 1
@@ -23,35 +17,23 @@
     ],
     "top_games": [
         {
-            "name": "n highlords",
-            "count": 1
-        },
-        {
-            "name": "cc",
+            "name": "ghfgh",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "cc",
+            "normalized": "ghfgh",
             "count": 2,
             "examples": [
-                "cc"
+                "ghfgh"
             ]
         }
     ],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "n highlords",
-                "matched": "n",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 6.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 5.0
     }
 }
