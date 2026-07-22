@@ -1,79 +1,80 @@
 {
-    "timestamp": "2026-07-22T17:00:00+00:00",
+    "timestamp": "2026-07-22T17:43:00+00:00",
     "difficulty": {
         "2": 3,
-        "1": 1,
         "0": 2
     },
     "mode": {
-        "1": 1,
-        "0": 5
+        "1": 2,
+        "0": 3
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 2,
-        "1|0": 1,
+        "2|1": 2,
+        "2|0": 1,
         "0|0": 2
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 3
+            "name": "Other",
+            "count": 2
         },
         {
-            "name": "Other",
+            "name": "Cows",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
             "name": "Trade",
             "count": 1
-        },
-        {
-            "name": "Rush",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "gord",
-            "count": 2
-        },
-        {
-            "name": "gear",
+            "name": "letsseewhomcows",
             "count": 1
         },
         {
-            "name": "asdxc",
+            "name": "1",
+            "count": 1
+        },
+        {
+            "name": "gord",
+            "count": 1
+        },
+        {
+            "name": "12",
             "count": 1
         },
         {
             "name": "swap",
             "count": 1
-        },
-        {
-            "name": "n norm rush",
-            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "gear",
-            "count": 2,
+            "normalized": "#",
+            "count": 4,
             "examples": [
-                "gear"
+                "1",
+                "12"
             ]
         }
     ],
     "classified_games": {
+        "Cows": [
+            {
+                "name": "letsseewhomcows",
+                "matched": "cows",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "gord",
                 "matched": "gord",
-                "count": 2
-            },
-            {
-                "name": "asdxc",
-                "matched": "asd",
                 "count": 1
             }
         ],
@@ -83,18 +84,11 @@
                 "matched": "swap",
                 "count": 1
             }
-        ],
-        "Rush": [
-            {
-                "name": "n norm rush",
-                "matched": "rush",
-                "count": 1
-            }
         ]
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 6,
-        "average_name_length": 5.6
+        "public_games": 5,
+        "average_name_length": 5.2
     }
 }
