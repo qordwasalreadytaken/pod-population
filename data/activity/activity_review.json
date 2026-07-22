@@ -35,7 +35,7 @@
     },
     {
         "normalized": "lel #",
-        "count": 56,
+        "count": 58,
         "examples": [
             "lel 1",
             "lel 10",
@@ -363,6 +363,13 @@
         ]
     },
     {
+        "normalized": "test",
+        "count": 10,
+        "examples": [
+            "test"
+        ]
+    },
+    {
         "normalized": "sad",
         "count": 10,
         "examples": [
@@ -438,13 +445,6 @@
         "count": 8,
         "examples": [
             "g"
-        ]
-    },
-    {
-        "normalized": "test",
-        "count": 8,
-        "examples": [
-            "test"
         ]
     },
     {
@@ -3214,6 +3214,13 @@
         "count": 2,
         "examples": [
             "dcvcv"
+        ]
+    },
+    {
+        "normalized": "dxcxcx",
+        "count": 2,
+        "examples": [
+            "dxcxcx"
         ]
     }
 ]
