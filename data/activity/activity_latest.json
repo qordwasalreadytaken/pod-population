@@ -1,57 +1,101 @@
 {
-    "timestamp": "2026-07-22T19:08:00+00:00",
+    "timestamp": "2026-07-22T19:44:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 5,
+        "1": 1,
+        "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 1
+        "0": 7
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 1
+        "2|0": 4,
+        "1|0": 1,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 5
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
+        {
+            "name": "mana",
+            "count": 3
+        },
         {
             "name": "gear",
             "count": 1
         },
         {
+            "name": "hellrun 4",
+            "count": 1
+        },
+        {
             "name": "gord",
+            "count": 1
+        },
+        {
+            "name": "hellrun 3",
+            "count": 1
+        },
+        {
+            "name": "gflks",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "mana",
+            "count": 6,
+            "examples": [
+                "mana"
+            ]
+        },
         {
             "normalized": "gear",
             "count": 2,
             "examples": [
                 "gear"
             ]
+        },
+        {
+            "normalized": "gflks",
+            "count": 2,
+            "examples": [
+                "gflks"
+            ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
+                "name": "hellrun 4",
+                "matched": "run",
+                "count": 1
+            },
+            {
                 "name": "gord",
                 "matched": "gord",
+                "count": 1
+            },
+            {
+                "name": "hellrun 3",
+                "matched": "run",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 4.0
+        "unique_names": 6,
+        "public_games": 8,
+        "average_name_length": 5.83
     }
 }
