@@ -1,63 +1,57 @@
 {
-    "timestamp": "2026-07-22T01:33:00+00:00",
+    "timestamp": "2026-07-22T02:37:00+00:00",
     "difficulty": {
-        "2": 3
+        "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 2
+        "0|1": 1,
+        "0|0": 1
     },
     "activities": [
         {
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
             "name": "Other",
-            "count": 3
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "test",
+            "name": "ted",
             "count": 1
         },
         {
-            "name": "dxcxcx",
-            "count": 1
-        },
-        {
-            "name": "lel 3",
+            "name": "sdcxvcv",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "test",
+            "normalized": "sdcxvcv",
             "count": 2,
             "examples": [
-                "test"
-            ]
-        },
-        {
-            "normalized": "dxcxcx",
-            "count": 2,
-            "examples": [
-                "dxcxcx"
-            ]
-        },
-        {
-            "normalized": "lel #",
-            "count": 2,
-            "examples": [
-                "lel 3"
+                "sdcxvcv"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "ted",
+                "matched": "ted",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
+        "unique_names": 2,
+        "public_games": 2,
         "average_name_length": 5.0
     }
 }
