@@ -51,7 +51,7 @@
     },
     {
         "normalized": "qe",
-        "count": 54,
+        "count": 56,
         "examples": [
             "qe"
         ]
@@ -131,6 +131,13 @@
         ]
     },
     {
+        "normalized": "eq",
+        "count": 30,
+        "examples": [
+            "eq"
+        ]
+    },
+    {
         "normalized": "a h",
         "count": 28,
         "examples": [
@@ -142,13 +149,6 @@
         "count": 28,
         "examples": [
             "nm"
-        ]
-    },
-    {
-        "normalized": "eq",
-        "count": 28,
-        "examples": [
-            "eq"
         ]
     },
     {
@@ -3256,6 +3256,20 @@
         "count": 2,
         "examples": [
             "sfdsvcv"
+        ]
+    },
+    {
+        "normalized": "sdadsxc",
+        "count": 2,
+        "examples": [
+            "sdadsxc"
+        ]
+    },
+    {
+        "normalized": "dik",
+        "count": 2,
+        "examples": [
+            "dik"
         ]
     }
 ]
