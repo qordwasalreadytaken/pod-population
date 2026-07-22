@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-22T06:08:00+00:00",
+    "timestamp": "2026-07-22T07:08:00+00:00",
     "difficulty": {
         "1": 1
     },
@@ -11,29 +11,29 @@
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asdasdxc",
+            "name": "gkhj",
             "count": 1
         }
     ],
-    "unknown_games": [],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asdasdxc",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "unknown_games": [
+        {
+            "normalized": "gkhj",
+            "count": 2,
+            "examples": [
+                "gkhj"
+            ]
+        }
+    ],
+    "classified_games": {},
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 8.0
+        "average_name_length": 4.0
     }
 }
