@@ -1,33 +1,23 @@
 {
-    "timestamp": "2026-07-21T23:34:00+00:00",
+    "timestamp": "2026-07-22T00:02:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 1
+        "2": 1
     },
     "mode": {
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 1
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "lel 1",
-            "count": 1
-        },
-        {
-            "name": "1235",
             "count": 1
         }
     ],
@@ -40,18 +30,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "1235",
-                "matched": "123",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 4.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 5.0
     }
 }
