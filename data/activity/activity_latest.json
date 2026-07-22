@@ -1,15 +1,21 @@
 {
-    "timestamp": "2026-07-22T22:06:00+00:00",
+    "timestamp": "2026-07-22T22:35:00+00:00",
     "difficulty": {
-        "2": 1
+        "2": 2
     },
     "mode": {
+        "1": 1,
         "0": 1
     },
     "difficulty_mode": {
+        "2|1": 1,
         "2|0": 1
     },
     "activities": [
+        {
+            "name": "Other",
+            "count": 1
+        },
         {
             "name": "Leveling",
             "count": 1
@@ -17,11 +23,23 @@
     ],
     "top_games": [
         {
+            "name": "finish quests",
+            "count": 1
+        },
+        {
             "name": "act_3",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "finish quests",
+            "count": 2,
+            "examples": [
+                "finish quests"
+            ]
+        }
+    ],
     "classified_games": {
         "Leveling": [
             {
@@ -32,8 +50,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 5.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 9.0
     }
 }
