@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-22T18:39:00+00:00",
+    "timestamp": "2026-07-22T19:08:00+00:00",
     "difficulty": {
         "2": 2
     },
@@ -13,7 +13,7 @@
     },
     "activities": [
         {
-            "name": "Cows",
+            "name": "Other",
             "count": 1
         },
         {
@@ -23,7 +23,7 @@
     ],
     "top_games": [
         {
-            "name": "letsseewhomcows",
+            "name": "gear",
             "count": 1
         },
         {
@@ -31,15 +31,16 @@
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "gear",
+            "count": 2,
+            "examples": [
+                "gear"
+            ]
+        }
+    ],
     "classified_games": {
-        "Cows": [
-            {
-                "name": "letsseewhomcows",
-                "matched": "cow",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "gord",
@@ -51,6 +52,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 9.5
+        "average_name_length": 4.0
     }
 }
