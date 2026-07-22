@@ -34,15 +34,8 @@
         ]
     },
     {
-        "normalized": "qe",
-        "count": 54,
-        "examples": [
-            "qe"
-        ]
-    },
-    {
         "normalized": "lel #",
-        "count": 54,
+        "count": 56,
         "examples": [
             "lel 1",
             "lel 10",
@@ -54,6 +47,13 @@
             "lel 7",
             "lel 8",
             "lel 9"
+        ]
+    },
+    {
+        "normalized": "qe",
+        "count": 54,
+        "examples": [
+            "qe"
         ]
     },
     {
@@ -441,6 +441,13 @@
         ]
     },
     {
+        "normalized": "test",
+        "count": 8,
+        "examples": [
+            "test"
+        ]
+    },
+    {
         "normalized": "dirka",
         "count": 8,
         "examples": [
@@ -574,13 +581,6 @@
         "count": 6,
         "examples": [
             "f"
-        ]
-    },
-    {
-        "normalized": "test",
-        "count": 6,
-        "examples": [
-            "test"
         ]
     },
     {
@@ -3207,6 +3207,13 @@
         "count": 2,
         "examples": [
             "fafew"
+        ]
+    },
+    {
+        "normalized": "dcvcv",
+        "count": 2,
+        "examples": [
+            "dcvcv"
         ]
     }
 ]
