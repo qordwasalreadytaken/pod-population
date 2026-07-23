@@ -8,18 +8,18 @@
     },
     {
         "normalized": "#",
-        "count": 214,
+        "count": 218,
         "examples": [
             "1",
             "11",
             "111",
             "1111",
             "112",
+            "113",
             "12",
             "122",
             "1221",
-            "1222",
-            "1223"
+            "1222"
         ]
     },
     {
@@ -3355,6 +3355,34 @@
         "count": 2,
         "examples": [
             "sdfsdf"
+        ]
+    },
+    {
+        "normalized": "sdcvlkjk",
+        "count": 2,
+        "examples": [
+            "sdcvlkjk"
+        ]
+    },
+    {
+        "normalized": "afwe",
+        "count": 2,
+        "examples": [
+            "afwe"
+        ]
+    },
+    {
+        "normalized": "fkgjfjg",
+        "count": 2,
+        "examples": [
+            "fkgjfjg"
+        ]
+    },
+    {
+        "normalized": "item plz",
+        "count": 2,
+        "examples": [
+            "item plz"
         ]
     }
 ]

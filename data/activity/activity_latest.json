@@ -1,74 +1,93 @@
 {
-    "timestamp": "2026-07-23T12:49:00+00:00",
+    "timestamp": "2026-07-23T13:32:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 2,
+        "1": 3,
         "0": 1
     },
     "mode": {
+        "1": 2,
         "0": 4
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|1": 2,
+        "1|0": 3,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 6
         }
     ],
     "top_games": [
         {
-            "name": "sdfsdf",
+            "name": "113",
             "count": 1
         },
         {
-            "name": "g",
+            "name": "112",
             "count": 1
         },
         {
-            "name": "lfkglfg",
+            "name": "sdcvlkjk",
             "count": 1
         },
         {
-            "name": "waef",
+            "name": "afwe",
+            "count": 1
+        },
+        {
+            "name": "fkgjfjg",
+            "count": 1
+        },
+        {
+            "name": "item plz",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "sdfsdf",
-            "count": 2,
+            "normalized": "#",
+            "count": 4,
             "examples": [
-                "sdfsdf"
+                "112",
+                "113"
             ]
         },
         {
-            "normalized": "g",
+            "normalized": "sdcvlkjk",
             "count": 2,
             "examples": [
-                "g"
+                "sdcvlkjk"
             ]
         },
         {
-            "normalized": "lfkglfg",
+            "normalized": "afwe",
             "count": 2,
             "examples": [
-                "lfkglfg"
+                "afwe"
             ]
         },
         {
-            "normalized": "waef",
+            "normalized": "fkgjfjg",
             "count": 2,
             "examples": [
-                "waef"
+                "fkgjfjg"
+            ]
+        },
+        {
+            "normalized": "item plz",
+            "count": 2,
+            "examples": [
+                "item plz"
             ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 4.5
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 5.5
     }
 }
