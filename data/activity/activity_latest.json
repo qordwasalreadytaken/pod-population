@@ -1,26 +1,20 @@
 {
-    "timestamp": "2026-07-23T20:22:00+00:00",
+    "timestamp": "2026-07-23T20:47:00+00:00",
     "difficulty": {
         "2": 2,
         "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
             "name": "Rush",
@@ -29,11 +23,11 @@
     ],
     "top_games": [
         {
-            "name": "n highlords",
+            "name": "dkm doi",
             "count": 1
         },
         {
-            "name": "aa",
+            "name": "ffff",
             "count": 1
         },
         {
@@ -41,22 +35,23 @@
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "dkm doi",
+            "count": 2,
+            "examples": [
+                "dkm doi"
+            ]
+        },
+        {
+            "normalized": "ffff",
+            "count": 2,
+            "examples": [
+                "ffff"
+            ]
+        }
+    ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n highlords",
-                "matched": "n",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "aa",
-                "matched": "aa",
-                "count": 1
-            }
-        ],
         "Rush": [
             {
                 "name": "n norm rush",
@@ -68,6 +63,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 8.0
+        "average_name_length": 7.33
     }
 }
