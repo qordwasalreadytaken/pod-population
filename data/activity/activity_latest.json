@@ -1,36 +1,36 @@
 {
-    "timestamp": "2026-07-23T18:00:00+00:00",
+    "timestamp": "2026-07-23T18:40:00+00:00",
     "difficulty": {
         "0": 1,
         "2": 1,
-        "1": 2
+        "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
         "0|1": 1,
         "2|0": 1,
-        "1|0": 2
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 2
+        },
+        {
+            "name": "Cows",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "where am i?",
+            "name": "cow",
             "count": 1
         },
         {
             "name": "fgfgvb",
-            "count": 1
-        },
-        {
-            "name": "waeff",
             "count": 1
         },
         {
@@ -40,24 +40,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "where am i?",
-            "count": 2,
-            "examples": [
-                "where am i?"
-            ]
-        },
-        {
             "normalized": "fgfgvb",
             "count": 2,
             "examples": [
                 "fgfgvb"
-            ]
-        },
-        {
-            "normalized": "waeff",
-            "count": 2,
-            "examples": [
-                "waeff"
             ]
         },
         {
@@ -68,10 +54,18 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Cows": [
+            {
+                "name": "cow",
+                "matched": "cow",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 7.75
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 6.0
     }
 }
