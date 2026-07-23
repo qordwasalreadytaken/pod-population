@@ -1,92 +1,50 @@
 {
-    "timestamp": "2026-07-23T22:46:00+00:00",
+    "timestamp": "2026-07-23T23:18:00+00:00",
     "difficulty": {
-        "1": 2,
-        "2": 3
+        "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 1
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "2|0": 3,
-        "1|0": 1
+        "0|1": 1,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Cows",
-            "count": 1
+            "name": "Leveling",
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "nm anythingg",
+            "name": "ancients norm",
             "count": 1
         },
         {
-            "name": "hell cows",
-            "count": 1
-        },
-        {
-            "name": "fghgfj",
-            "count": 1
-        },
-        {
-            "name": "dfgfgfgf",
-            "count": 1
-        },
-        {
-            "name": "jiji",
+            "name": "act",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "nm anythingg",
-            "count": 2,
-            "examples": [
-                "nm anythingg"
-            ]
-        },
-        {
-            "normalized": "fghgfj",
-            "count": 2,
-            "examples": [
-                "fghgfj"
-            ]
-        },
-        {
-            "normalized": "dfgfgfgf",
-            "count": 2,
-            "examples": [
-                "dfgfgfgf"
-            ]
-        },
-        {
-            "normalized": "jiji",
-            "count": 2,
-            "examples": [
-                "jiji"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
-        "Cows": [
+        "Leveling": [
             {
-                "name": "hell cows",
-                "matched": "cow",
+                "name": "ancients norm",
+                "matched": "norm",
+                "count": 1
+            },
+            {
+                "name": "act",
+                "matched": "act",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 7.8
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 8.0
     }
 }
