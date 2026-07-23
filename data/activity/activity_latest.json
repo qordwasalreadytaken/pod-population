@@ -1,16 +1,13 @@
 {
-    "timestamp": "2026-07-23T18:40:00+00:00",
+    "timestamp": "2026-07-23T19:09:00+00:00",
     "difficulty": {
-        "0": 1,
         "2": 1,
         "1": 1
     },
     "mode": {
-        "1": 1,
         "0": 2
     },
     "difficulty_mode": {
-        "0|1": 1,
         "2|0": 1,
         "1|0": 1
     },
@@ -18,54 +15,38 @@
         {
             "name": "Other",
             "count": 2
-        },
-        {
-            "name": "Cows",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "cow",
+            "name": "lol",
             "count": 1
         },
         {
-            "name": "fgfgvb",
-            "count": 1
-        },
-        {
-            "name": "lvup gogo",
+            "name": "13",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "fgfgvb",
+            "normalized": "lol",
             "count": 2,
             "examples": [
-                "fgfgvb"
+                "lol"
             ]
         },
         {
-            "normalized": "lvup gogo",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "lvup gogo"
+                "13"
             ]
         }
     ],
-    "classified_games": {
-        "Cows": [
-            {
-                "name": "cow",
-                "matched": "cow",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 2.5
     }
 }
