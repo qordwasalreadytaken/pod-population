@@ -1,9 +1,9 @@
 {
-    "timestamp": "2026-07-23T17:29:00+00:00",
+    "timestamp": "2026-07-23T18:00:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 2,
-        "1": 1
+        "2": 1,
+        "1": 2
     },
     "mode": {
         "1": 1,
@@ -11,8 +11,8 @@
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 2,
-        "1|0": 1
+        "2|0": 1,
+        "1|0": 2
     },
     "activities": [
         {
@@ -30,7 +30,7 @@
             "count": 1
         },
         {
-            "name": "quest_2",
+            "name": "waeff",
             "count": 1
         },
         {
@@ -54,10 +54,10 @@
             ]
         },
         {
-            "normalized": "quest_#",
+            "normalized": "waeff",
             "count": 2,
             "examples": [
-                "quest_2"
+                "waeff"
             ]
         },
         {
@@ -72,6 +72,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 8.25
+        "average_name_length": 7.75
     }
 }
