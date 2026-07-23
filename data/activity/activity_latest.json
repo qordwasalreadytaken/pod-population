@@ -1,13 +1,17 @@
 {
-    "timestamp": "2026-07-23T21:48:00+00:00",
+    "timestamp": "2026-07-23T22:20:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 2,
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 3
+        "2|0": 2,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
@@ -17,35 +21,43 @@
         {
             "name": "Trade",
             "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "dfgfgfgf",
+            "count": 1
+        },
         {
             "name": "1 ooc for 1 eld",
             "count": 1
         },
         {
-            "name": "fsdfsdfsdfg",
+            "name": "asdasdadsasd",
             "count": 1
         },
         {
-            "name": "dkm doi",
+            "name": "hglhgl",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "fsdfsdfsdfg",
+            "normalized": "dfgfgfgf",
             "count": 2,
             "examples": [
-                "fsdfsdfsdfg"
+                "dfgfgfgf"
             ]
         },
         {
-            "normalized": "dkm doi",
+            "normalized": "hglhgl",
             "count": 2,
             "examples": [
-                "dkm doi"
+                "hglhgl"
             ]
         }
     ],
@@ -56,11 +68,18 @@
                 "matched": "for",
                 "count": 1
             }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "asdasdadsasd",
+                "matched": "asd",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 11.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 10.25
     }
 }
