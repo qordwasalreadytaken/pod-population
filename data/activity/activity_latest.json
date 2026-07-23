@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-23T21:22:00+00:00",
+    "timestamp": "2026-07-23T21:48:00+00:00",
     "difficulty": {
         "2": 3
     },
@@ -12,16 +12,20 @@
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "fsdfsdfsdfg",
+            "name": "1 ooc for 1 eld",
             "count": 1
         },
         {
-            "name": "fsdfsdf",
+            "name": "fsdfsdfsdfg",
             "count": 1
         },
         {
@@ -38,13 +42,6 @@
             ]
         },
         {
-            "normalized": "fsdfsdf",
-            "count": 2,
-            "examples": [
-                "fsdfsdf"
-            ]
-        },
-        {
             "normalized": "dkm doi",
             "count": 2,
             "examples": [
@@ -52,10 +49,18 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Trade": [
+            {
+                "name": "1 ooc for 1 eld",
+                "matched": "for",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 8.33
+        "average_name_length": 11.0
     }
 }
