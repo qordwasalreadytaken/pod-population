@@ -1,51 +1,65 @@
 {
-    "timestamp": "2026-07-23T22:20:00+00:00",
+    "timestamp": "2026-07-23T22:46:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1,
-        "0": 1
+        "1": 2,
+        "2": 3
     },
     "mode": {
+        "1": 1,
         "0": 4
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 1,
-        "0|0": 1
+        "1|1": 1,
+        "2|0": 3,
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 4
         },
         {
-            "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
+            "name": "Cows",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "nm anythingg",
+            "count": 1
+        },
+        {
+            "name": "hell cows",
+            "count": 1
+        },
+        {
+            "name": "fghgfj",
+            "count": 1
+        },
+        {
             "name": "dfgfgfgf",
             "count": 1
         },
         {
-            "name": "1 ooc for 1 eld",
-            "count": 1
-        },
-        {
-            "name": "asdasdadsasd",
-            "count": 1
-        },
-        {
-            "name": "hglhgl",
+            "name": "jiji",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "nm anythingg",
+            "count": 2,
+            "examples": [
+                "nm anythingg"
+            ]
+        },
+        {
+            "normalized": "fghgfj",
+            "count": 2,
+            "examples": [
+                "fghgfj"
+            ]
+        },
         {
             "normalized": "dfgfgfgf",
             "count": 2,
@@ -54,32 +68,25 @@
             ]
         },
         {
-            "normalized": "hglhgl",
+            "normalized": "jiji",
             "count": 2,
             "examples": [
-                "hglhgl"
+                "jiji"
             ]
         }
     ],
     "classified_games": {
-        "Trade": [
+        "Cows": [
             {
-                "name": "1 ooc for 1 eld",
-                "matched": "for",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asdasdadsasd",
-                "matched": "asd",
+                "name": "hell cows",
+                "matched": "cow",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 10.25
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 7.8
     }
 }
