@@ -8,7 +8,7 @@
     },
     {
         "normalized": "#",
-        "count": 222,
+        "count": 224,
         "examples": [
             "1",
             "11",
@@ -64,6 +64,13 @@
         ]
     },
     {
+        "normalized": "lvup gogo",
+        "count": 44,
+        "examples": [
+            "lvup gogo"
+        ]
+    },
+    {
         "normalized": "jm",
         "count": 44,
         "examples": [
@@ -75,13 +82,6 @@
         "count": 44,
         "examples": [
             "ok"
-        ]
-    },
-    {
-        "normalized": "lvup gogo",
-        "count": 42,
-        "examples": [
-            "lvup gogo"
         ]
     },
     {
@@ -1444,6 +1444,20 @@
         "count": 4,
         "examples": [
             "lfkglfg"
+        ]
+    },
+    {
+        "normalized": "where am i?",
+        "count": 4,
+        "examples": [
+            "where am i?"
+        ]
+    },
+    {
+        "normalized": "quest_#",
+        "count": 4,
+        "examples": [
+            "quest_2"
         ]
     },
     {
@@ -3400,24 +3414,10 @@
         ]
     },
     {
-        "normalized": "where am i?",
-        "count": 2,
-        "examples": [
-            "where am i?"
-        ]
-    },
-    {
         "normalized": "gffgf",
         "count": 2,
         "examples": [
             "gffgf"
-        ]
-    },
-    {
-        "normalized": "quest_#",
-        "count": 2,
-        "examples": [
-            "quest_2"
         ]
     }
 ]
