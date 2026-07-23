@@ -1,13 +1,13 @@
 {
-    "timestamp": "2026-07-23T07:09:00+00:00",
+    "timestamp": "2026-07-23T08:00:00+00:00",
     "difficulty": {
         "1": 1
     },
     "mode": {
-        "0": 1
+        "1": 1
     },
     "difficulty_mode": {
-        "1|0": 1
+        "1|1": 1
     },
     "activities": [
         {
@@ -17,16 +17,16 @@
     ],
     "top_games": [
         {
-            "name": "13",
+            "name": "a",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "#",
+            "normalized": "a",
             "count": 2,
             "examples": [
-                "13"
+                "a"
             ]
         }
     ],
@@ -34,6 +34,6 @@
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 2.0
+        "average_name_length": 1.0
     }
 }
