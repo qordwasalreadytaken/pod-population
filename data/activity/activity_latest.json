@@ -1,15 +1,22 @@
 {
-    "timestamp": "2026-07-24T05:02:00+00:00",
+    "timestamp": "2026-07-24T06:08:00+00:00",
     "difficulty": {
-        "1": 1
+        "1": 1,
+        "2": 1
     },
     "mode": {
-        "1": 1
+        "1": 1,
+        "0": 1
     },
     "difficulty_mode": {
-        "1|1": 1
+        "1|1": 1,
+        "2|0": 1
     },
     "activities": [
+        {
+            "name": "Other",
+            "count": 1
+        },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
@@ -17,23 +24,35 @@
     ],
     "top_games": [
         {
-            "name": "ted",
+            "name": "3",
+            "count": 1
+        },
+        {
+            "name": "hellrun 2",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "3"
+            ]
+        }
+    ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "ted",
-                "matched": "ted",
+                "name": "hellrun 2",
+                "matched": "run",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 3.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 5.0
     }
 }
