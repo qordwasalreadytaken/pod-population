@@ -3491,7 +3491,7 @@
             "Maps": [
                 {
                     "name": "maps-2",
-                    "matched": "maps",
+                    "matched": "map",
                     "count": 1
                 }
             ],
@@ -3563,7 +3563,7 @@
             "Leveling": [
                 {
                     "name": "act 2 start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -5126,7 +5126,7 @@
             "Maps": [
                 {
                     "name": "maps-2",
-                    "matched": "maps",
+                    "matched": "map",
                     "count": 1
                 }
             ],
@@ -9069,7 +9069,7 @@
             "Leveling": [
                 {
                     "name": "act start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -10541,7 +10541,7 @@
                 },
                 {
                     "name": "act hel start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -12474,7 +12474,7 @@
             "Trade": [
                 {
                     "name": "lmk what u n",
-                    "matched": "n",
+                    "matched": "lmk",
                     "count": 1
                 }
             ],
@@ -16799,7 +16799,7 @@
             "Leveling": [
                 {
                     "name": "act 5 normal",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -36606,7 +36606,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "trade",
+                    "matched": "for",
                     "count": 1
                 }
             ],
@@ -36713,7 +36713,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "trade",
+                    "matched": "for",
                     "count": 1
                 }
             ]
@@ -41158,7 +41158,7 @@
             "Maps": [
                 {
                     "name": "maps",
-                    "matched": "maps",
+                    "matched": "map",
                     "count": 1
                 }
             ],
@@ -41242,7 +41242,7 @@
             "Maps": [
                 {
                     "name": "maps",
-                    "matched": "maps",
+                    "matched": "map",
                     "count": 1
                 }
             ],
@@ -50674,7 +50674,7 @@
                 },
                 {
                     "name": "n 6os windforce",
-                    "matched": "n",
+                    "matched": "for",
                     "count": 1
                 },
                 {
@@ -50749,7 +50749,7 @@
             "Trade": [
                 {
                     "name": "n 6os windforce",
-                    "matched": "n",
+                    "matched": "for",
                     "count": 1
                 }
             ]
@@ -50862,7 +50862,7 @@
             "Trade": [
                 {
                     "name": "n 6os windforce",
-                    "matched": "n",
+                    "matched": "for",
                     "count": 1
                 }
             ],
@@ -68402,7 +68402,7 @@
             "Trade": [
                 {
                     "name": "n pala torch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 },
                 {
@@ -68887,7 +68887,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -68958,7 +68958,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -73758,7 +73758,7 @@
             "Maps": [
                 {
                     "name": "maps",
-                    "matched": "maps",
+                    "matched": "map",
                     "count": 1
                 }
             ],
@@ -77752,6 +77752,58 @@
             "unique_names": 2,
             "public_games": 2,
             "average_name_length": 3.0
+        }
+    },
+    {
+        "timestamp": "2026-07-24T09:52:00+00:00",
+        "difficulty": {
+            "2": 1,
+            "1": 1
+        },
+        "mode": {
+            "0": 2
+        },
+        "difficulty_mode": {
+            "2|0": 1,
+            "1|0": 1
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 2
+            }
+        ],
+        "top_games": [
+            {
+                "name": "dfcvcv",
+                "count": 1
+            },
+            {
+                "name": "15",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "dfcvcv",
+                "count": 2,
+                "examples": [
+                    "dfcvcv"
+                ]
+            },
+            {
+                "normalized": "#",
+                "count": 2,
+                "examples": [
+                    "15"
+                ]
+            }
+        ],
+        "classified_games": {},
+        "interesting": {
+            "unique_names": 2,
+            "public_games": 2,
+            "average_name_length": 4.0
         }
     }
 ]
