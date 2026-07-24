@@ -3491,7 +3491,7 @@
             "Maps": [
                 {
                     "name": "maps-2",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -3563,7 +3563,7 @@
             "Leveling": [
                 {
                     "name": "act 2 start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -5126,7 +5126,7 @@
             "Maps": [
                 {
                     "name": "maps-2",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -9069,7 +9069,7 @@
             "Leveling": [
                 {
                     "name": "act start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -12474,7 +12474,7 @@
             "Trade": [
                 {
                     "name": "lmk what u n",
-                    "matched": "n",
+                    "matched": "lmk",
                     "count": 1
                 }
             ],
@@ -14098,7 +14098,7 @@
             "Trade": [
                 {
                     "name": "n free amatorch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -14227,7 +14227,7 @@
                 },
                 {
                     "name": "n free amatorch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ],
@@ -14342,7 +14342,7 @@
                 },
                 {
                     "name": "n free amatorch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ],
@@ -14686,7 +14686,7 @@
                 },
                 {
                     "name": "n free amatorch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -22713,7 +22713,7 @@
             "Trade": [
                 {
                     "name": "n free amatorch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -26717,7 +26717,7 @@
                 },
                 {
                     "name": "n free amatorch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -34802,7 +34802,7 @@
             "Trade": [
                 {
                     "name": "n free amatorch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -34887,7 +34887,7 @@
             "Trade": [
                 {
                     "name": "n free amatorch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -35547,7 +35547,7 @@
             "Trade": [
                 {
                     "name": "n free amatorch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ],
@@ -37941,7 +37941,7 @@
             "Trade": [
                 {
                     "name": "n amatorch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 },
                 {
@@ -38273,7 +38273,7 @@
             "Trade": [
                 {
                     "name": "n amatorch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 },
                 {
@@ -38323,7 +38323,7 @@
             "Trade": [
                 {
                     "name": "n amatorch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 },
                 {
@@ -41158,7 +41158,7 @@
             "Maps": [
                 {
                     "name": "maps",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -41242,7 +41242,7 @@
             "Maps": [
                 {
                     "name": "maps",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -65433,7 +65433,7 @@
             "Trade": [
                 {
                     "name": "n amatorch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -65503,7 +65503,7 @@
             "Trade": [
                 {
                     "name": "n amatorch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -68402,7 +68402,7 @@
             "Trade": [
                 {
                     "name": "n pala torch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 },
                 {
@@ -73758,7 +73758,7 @@
             "Maps": [
                 {
                     "name": "maps",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -77354,6 +77354,76 @@
             "unique_names": 3,
             "public_games": 3,
             "average_name_length": 4.67
+        }
+    },
+    {
+        "timestamp": "2026-07-24T01:40:00+00:00",
+        "difficulty": {
+            "2": 2,
+            "1": 1
+        },
+        "mode": {
+            "1": 1,
+            "0": 2
+        },
+        "difficulty_mode": {
+            "2|1": 1,
+            "2|0": 1,
+            "1|0": 1
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 2
+            },
+            {
+                "name": "Misc. Public MF Runs",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "2",
+                "count": 1
+            },
+            {
+                "name": "dansd",
+                "count": 1
+            },
+            {
+                "name": "1234",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "#",
+                "count": 2,
+                "examples": [
+                    "2"
+                ]
+            },
+            {
+                "normalized": "dansd",
+                "count": 2,
+                "examples": [
+                    "dansd"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Misc. Public MF Runs": [
+                {
+                    "name": "1234",
+                    "matched": "123",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 3,
+            "public_games": 3,
+            "average_name_length": 3.33
         }
     }
 ]
