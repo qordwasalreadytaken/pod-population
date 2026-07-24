@@ -1,39 +1,56 @@
 {
-    "timestamp": "2026-07-24T14:09:00+00:00",
+    "timestamp": "2026-07-24T14:52:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 1
+        "2": 3,
+        "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 1
+        "0": 4
     },
     "difficulty_mode": {
         "2|1": 1,
-        "1|0": 1
+        "2|0": 2,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
+            "count": 3
+        },
+        {
+            "name": "Leveling",
             "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "quests",
+            "name": "izzy",
             "count": 1
         },
         {
             "name": "lvup gogo",
             "count": 1
+        },
+        {
+            "name": "aslkjhdxc",
+            "count": 1
+        },
+        {
+            "name": "act",
+            "count": 1
+        },
+        {
+            "name": "act 3 wps plz",
+            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "quests",
+            "normalized": "izzy",
             "count": 2,
             "examples": [
-                "quests"
+                "izzy"
             ]
         },
         {
@@ -42,12 +59,32 @@
             "examples": [
                 "lvup gogo"
             ]
+        },
+        {
+            "normalized": "aslkjhdxc",
+            "count": 2,
+            "examples": [
+                "aslkjhdxc"
+            ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Leveling": [
+            {
+                "name": "act",
+                "matched": "act",
+                "count": 1
+            },
+            {
+                "name": "act 3 wps plz",
+                "matched": "act",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 7.5
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 7.6
     }
 }
