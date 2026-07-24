@@ -1,90 +1,74 @@
 {
-    "timestamp": "2026-07-24T14:52:00+00:00",
+    "timestamp": "2026-07-24T15:29:00+00:00",
     "difficulty": {
         "2": 3,
-        "0": 2
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 4
+        "1": 2,
+        "0": 2
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 2,
-        "0|0": 2
+        "2|1": 2,
+        "2|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
+            "name": "Chaos",
+            "count": 2
+        },
+        {
             "name": "Other",
-            "count": 3
+            "count": 1
         },
         {
             "name": "Leveling",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "izzy",
-            "count": 1
+            "name": "hellchaos",
+            "count": 2
         },
         {
             "name": "lvup gogo",
             "count": 1
         },
         {
-            "name": "aslkjhdxc",
-            "count": 1
-        },
-        {
             "name": "act",
-            "count": 1
-        },
-        {
-            "name": "act 3 wps plz",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "izzy",
-            "count": 2,
-            "examples": [
-                "izzy"
-            ]
-        },
         {
             "normalized": "lvup gogo",
             "count": 2,
             "examples": [
                 "lvup gogo"
             ]
-        },
-        {
-            "normalized": "aslkjhdxc",
-            "count": 2,
-            "examples": [
-                "aslkjhdxc"
-            ]
         }
     ],
     "classified_games": {
+        "Chaos": [
+            {
+                "name": "hellchaos",
+                "matched": "chaos",
+                "count": 2
+            }
+        ],
         "Leveling": [
             {
                 "name": "act",
-                "matched": "act",
-                "count": 1
-            },
-            {
-                "name": "act 3 wps plz",
                 "matched": "act",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 7.6
+        "unique_names": 3,
+        "public_games": 4,
+        "average_name_length": 7.0
     }
 }
