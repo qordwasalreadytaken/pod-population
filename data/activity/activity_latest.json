@@ -1,26 +1,20 @@
 {
-    "timestamp": "2026-07-24T15:29:00+00:00",
+    "timestamp": "2026-07-24T16:50:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 1
-    },
-    "mode": {
-        "1": 2,
+        "2": 1,
         "0": 2
     },
+    "mode": {
+        "0": 3
+    },
     "difficulty_mode": {
-        "2|1": 2,
         "2|0": 1,
-        "0|0": 1
+        "0|0": 2
     },
     "activities": [
         {
-            "name": "Chaos",
-            "count": 2
-        },
-        {
             "name": "Other",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Leveling",
@@ -29,35 +23,35 @@
     ],
     "top_games": [
         {
-            "name": "hellchaos",
-            "count": 2
-        },
-        {
-            "name": "lvup gogo",
+            "name": "ghlkvb",
             "count": 1
         },
         {
             "name": "act",
             "count": 1
+        },
+        {
+            "name": "1221",
+            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "lvup gogo",
+            "normalized": "ghlkvb",
             "count": 2,
             "examples": [
-                "lvup gogo"
+                "ghlkvb"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1221"
             ]
         }
     ],
     "classified_games": {
-        "Chaos": [
-            {
-                "name": "hellchaos",
-                "matched": "chaos",
-                "count": 2
-            }
-        ],
         "Leveling": [
             {
                 "name": "act",
@@ -68,7 +62,7 @@
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 4,
-        "average_name_length": 7.0
+        "public_games": 3,
+        "average_name_length": 4.33
     }
 }
