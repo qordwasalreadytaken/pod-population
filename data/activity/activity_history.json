@@ -3491,7 +3491,7 @@
             "Maps": [
                 {
                     "name": "maps-2",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -5126,7 +5126,7 @@
             "Maps": [
                 {
                     "name": "maps-2",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -12474,7 +12474,7 @@
             "Trade": [
                 {
                     "name": "lmk what u n",
-                    "matched": "n",
+                    "matched": "lmk",
                     "count": 1
                 }
             ],
@@ -41158,7 +41158,7 @@
             "Maps": [
                 {
                     "name": "maps",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -41242,7 +41242,7 @@
             "Maps": [
                 {
                     "name": "maps",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -43416,7 +43416,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "run",
+                    "matched": "meph",
                     "count": 1
                 },
                 {
@@ -43467,7 +43467,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "run",
+                    "matched": "meph",
                     "count": 1
                 },
                 {
@@ -50674,7 +50674,7 @@
                 },
                 {
                     "name": "n 6os windforce",
-                    "matched": "for",
+                    "matched": "n",
                     "count": 1
                 },
                 {
@@ -50749,7 +50749,7 @@
             "Trade": [
                 {
                     "name": "n 6os windforce",
-                    "matched": "for",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -50862,7 +50862,7 @@
             "Trade": [
                 {
                     "name": "n 6os windforce",
-                    "matched": "for",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -55191,7 +55191,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "run",
+                    "matched": "meph",
                     "count": 2
                 }
             ]
@@ -68402,7 +68402,7 @@
             "Trade": [
                 {
                     "name": "n pala torch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 },
                 {
@@ -73758,7 +73758,7 @@
             "Maps": [
                 {
                     "name": "maps",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -77181,7 +77181,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 },
                 {
@@ -77656,6 +77656,50 @@
             "unique_names": 1,
             "public_games": 1,
             "average_name_length": 4.0
+        }
+    },
+    {
+        "timestamp": "2026-07-24T07:58:00+00:00",
+        "difficulty": {
+            "1": 2
+        },
+        "mode": {
+            "0": 2
+        },
+        "difficulty_mode": {
+            "1|0": 2
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 2
+            }
+        ],
+        "top_games": [
+            {
+                "name": "13",
+                "count": 1
+            },
+            {
+                "name": "12",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "#",
+                "count": 4,
+                "examples": [
+                    "12",
+                    "13"
+                ]
+            }
+        ],
+        "classified_games": {},
+        "interesting": {
+            "unique_names": 2,
+            "public_games": 2,
+            "average_name_length": 2.0
         }
     }
 ]
