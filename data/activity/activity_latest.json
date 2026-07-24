@@ -1,23 +1,44 @@
 {
-    "timestamp": "2026-07-24T18:09:00+00:00",
+    "timestamp": "2026-07-24T18:45:00+00:00",
     "difficulty": {
-        "1": 1
+        "1": 1,
+        "2": 1,
+        "0": 1
     },
     "mode": {
-        "1": 1
+        "1": 1,
+        "0": 2
     },
     "difficulty_mode": {
-        "1|1": 1
+        "1|1": 1,
+        "2|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "nm",
+            "count": 1
+        },
+        {
+            "name": "asdxc",
+            "count": 1
+        },
+        {
+            "name": "act 3",
             "count": 1
         }
     ],
@@ -30,10 +51,25 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asdxc",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
+        "Leveling": [
+            {
+                "name": "act 3",
+                "matched": "act",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 2.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 4.0
     }
 }
