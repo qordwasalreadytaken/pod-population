@@ -1,14 +1,7 @@
 [
     {
-        "normalized": "a",
-        "count": 262,
-        "examples": [
-            "a"
-        ]
-    },
-    {
         "normalized": "#",
-        "count": 260,
+        "count": 262,
         "examples": [
             "1",
             "11",
@@ -20,6 +13,13 @@
             "12",
             "122",
             "1221"
+        ]
+    },
+    {
+        "normalized": "a",
+        "count": 262,
+        "examples": [
+            "a"
         ]
     },
     {
@@ -1542,6 +1542,13 @@
         "count": 4,
         "examples": [
             "qqq"
+        ]
+    },
+    {
+        "normalized": "adsfhg",
+        "count": 4,
+        "examples": [
+            "adsfhg"
         ]
     },
     {
@@ -3722,10 +3729,10 @@
         ]
     },
     {
-        "normalized": "adsfhg",
+        "normalized": "waefefaw",
         "count": 2,
         "examples": [
-            "adsfhg"
+            "waefefaw"
         ]
     }
 ]
