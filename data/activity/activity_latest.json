@@ -1,55 +1,74 @@
 {
-    "timestamp": "2026-07-25T12:34:00+00:00",
+    "timestamp": "2026-07-25T13:09:00+00:00",
     "difficulty": {
-        "0": 2
+        "0": 2,
+        "1": 1
     },
     "mode": {
+        "1": 1,
         "0": 2
     },
     "difficulty_mode": {
-        "0|0": 2
+        "0|1": 1,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
+        {
+            "name": "Baal",
+            "count": 1
+        },
         {
             "name": "Other",
             "count": 1
         },
         {
-            "name": "Rush",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "fgfgfj",
+            "name": "baal fix my ac",
             "count": 1
         },
         {
-            "name": "n norm rush",
+            "name": "adsad",
+            "count": 1
+        },
+        {
+            "name": "n pala t",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "fgfgfj",
+            "normalized": "adsad",
             "count": 2,
             "examples": [
-                "fgfgfj"
+                "adsad"
             ]
         }
     ],
     "classified_games": {
-        "Rush": [
+        "Baal": [
             {
-                "name": "n norm rush",
-                "matched": "rush",
+                "name": "baal fix my ac",
+                "matched": "baal",
+                "count": 1
+            }
+        ],
+        "Trade": [
+            {
+                "name": "n pala t",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 8.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 9.0
     }
 }
