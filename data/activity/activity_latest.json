@@ -1,41 +1,41 @@
 {
-    "timestamp": "2026-07-25T21:04:00+00:00",
+    "timestamp": "2026-07-25T21:32:00+00:00",
     "difficulty": {
         "2": 3,
-        "1": 1
+        "1": 2
     },
     "mode": {
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
         "2|0": 3,
-        "1|0": 1
+        "1|0": 2
     },
     "activities": [
+        {
+            "name": "Chaos",
+            "count": 2
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
         {
             "name": "Maps",
             "count": 1
         },
         {
-            "name": "Other",
-            "count": 1
-        },
-        {
             "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "chillmap-4",
+            "name": "run",
             "count": 1
         },
         {
-            "name": "hkfztj",
+            "name": "chillmap-4",
             "count": 1
         },
         {
@@ -43,20 +43,23 @@
             "count": 1
         },
         {
-            "name": "act nm",
+            "name": "chaos 4",
+            "count": 1
+        },
+        {
+            "name": "chaos 3",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "hkfztj",
-            "count": 2,
-            "examples": [
-                "hkfztj"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "run",
+                "matched": "run",
+                "count": 1
+            }
+        ],
         "Maps": [
             {
                 "name": "chillmap-4",
@@ -71,17 +74,22 @@
                 "count": 1
             }
         ],
-        "Leveling": [
+        "Chaos": [
             {
-                "name": "act nm",
-                "matched": "act",
+                "name": "chaos 4",
+                "matched": "chaos",
+                "count": 1
+            },
+            {
+                "name": "chaos 3",
+                "matched": "chaos",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 9.25
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 8.4
     }
 }
