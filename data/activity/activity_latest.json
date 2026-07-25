@@ -1,31 +1,32 @@
 {
-    "timestamp": "2026-07-25T16:31:00+00:00",
+    "timestamp": "2026-07-25T17:06:00+00:00",
     "difficulty": {
-        "2": 5,
-        "1": 1,
-        "0": 1
+        "2": 2,
+        "0": 2,
+        "1": 1
     },
     "mode": {
-        "1": 1,
-        "0": 6
+        "1": 2,
+        "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 4,
+        "0|1": 1,
+        "2|0": 1,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
+            "name": "Misc. Public MF Runs",
+            "count": 2
+        },
+        {
             "name": "Other",
-            "count": 5
+            "count": 2
         },
         {
             "name": "Maps",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -35,15 +36,7 @@
             "count": 1
         },
         {
-            "name": "feawfeaw",
-            "count": 1
-        },
-        {
-            "name": "weafwaef",
-            "count": 1
-        },
-        {
-            "name": "faewwe",
+            "name": "qordruns",
             "count": 1
         },
         {
@@ -60,27 +53,6 @@
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "feawfeaw",
-            "count": 2,
-            "examples": [
-                "feawfeaw"
-            ]
-        },
-        {
-            "normalized": "weafwaef",
-            "count": 2,
-            "examples": [
-                "weafwaef"
-            ]
-        },
-        {
-            "normalized": "faewwe",
-            "count": 2,
-            "examples": [
-                "faewwe"
-            ]
-        },
         {
             "normalized": "lvup gogo",
             "count": 2,
@@ -106,6 +78,11 @@
         ],
         "Misc. Public MF Runs": [
             {
+                "name": "qordruns",
+                "matched": "run",
+                "count": 1
+            },
+            {
                 "name": "gord",
                 "matched": "gord",
                 "count": 1
@@ -113,8 +90,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 6.29
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 6.0
     }
 }
