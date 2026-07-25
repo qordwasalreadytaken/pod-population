@@ -1,26 +1,25 @@
 {
-    "timestamp": "2026-07-25T19:39:00+00:00",
+    "timestamp": "2026-07-25T20:08:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 3,
         "1": 1,
         "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 2
+        "0": 5
     },
     "difficulty_mode": {
-        "2|1": 1,
+        "2|0": 3,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Maps",
-            "count": 1
+            "name": "Other",
+            "count": 3
         },
         {
-            "name": "Other",
+            "name": "Maps",
             "count": 1
         },
         {
@@ -30,46 +29,68 @@
     ],
     "top_games": [
         {
-            "name": "mapp",
+            "name": "fffhh",
             "count": 1
         },
         {
-            "name": "afdsfgfg",
+            "name": "chillmap",
             "count": 1
         },
         {
-            "name": "n pala skillers",
+            "name": "fff",
+            "count": 1
+        },
+        {
+            "name": "dfggfo",
+            "count": 1
+        },
+        {
+            "name": "n pala skiller",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "afdsfgfg",
+            "normalized": "fffhh",
             "count": 2,
             "examples": [
-                "afdsfgfg"
+                "fffhh"
+            ]
+        },
+        {
+            "normalized": "fff",
+            "count": 2,
+            "examples": [
+                "fff"
+            ]
+        },
+        {
+            "normalized": "dfggfo",
+            "count": 2,
+            "examples": [
+                "dfggfo"
             ]
         }
     ],
     "classified_games": {
         "Maps": [
             {
-                "name": "mapp",
+                "name": "chillmap",
                 "matched": "map",
                 "count": 1
             }
         ],
         "Trade": [
             {
-                "name": "n pala skillers",
+                "name": "n pala skiller",
                 "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 9.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 7.2
     }
 }
