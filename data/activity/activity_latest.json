@@ -1,20 +1,28 @@
 {
-    "timestamp": "2026-07-25T16:06:00+00:00",
+    "timestamp": "2026-07-25T16:31:00+00:00",
     "difficulty": {
-        "1": 2,
-        "0": 2
+        "2": 5,
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "0": 4
+        "1": 1,
+        "0": 6
     },
     "difficulty_mode": {
-        "1|0": 2,
-        "0|0": 2
+        "2|1": 1,
+        "2|0": 4,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 5
+        },
+        {
+            "name": "Maps",
+            "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
@@ -23,15 +31,27 @@
     ],
     "top_games": [
         {
-            "name": "waefefaw",
+            "name": "mmmap",
             "count": 1
         },
         {
-            "name": "adsfhg",
+            "name": "feawfeaw",
             "count": 1
         },
         {
-            "name": "1221",
+            "name": "weafwaef",
+            "count": 1
+        },
+        {
+            "name": "faewwe",
+            "count": 1
+        },
+        {
+            "name": "lvup gogo",
+            "count": 1
+        },
+        {
+            "name": "dcgv",
             "count": 1
         },
         {
@@ -41,28 +61,49 @@
     ],
     "unknown_games": [
         {
-            "normalized": "waefefaw",
+            "normalized": "feawfeaw",
             "count": 2,
             "examples": [
-                "waefefaw"
+                "feawfeaw"
             ]
         },
         {
-            "normalized": "adsfhg",
+            "normalized": "weafwaef",
             "count": 2,
             "examples": [
-                "adsfhg"
+                "weafwaef"
             ]
         },
         {
-            "normalized": "#",
+            "normalized": "faewwe",
             "count": 2,
             "examples": [
-                "1221"
+                "faewwe"
+            ]
+        },
+        {
+            "normalized": "lvup gogo",
+            "count": 2,
+            "examples": [
+                "lvup gogo"
+            ]
+        },
+        {
+            "normalized": "dcgv",
+            "count": 2,
+            "examples": [
+                "dcgv"
             ]
         }
     ],
     "classified_games": {
+        "Maps": [
+            {
+                "name": "mmmap",
+                "matched": "map",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "gord",
@@ -72,8 +113,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 5.5
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 6.29
     }
 }
