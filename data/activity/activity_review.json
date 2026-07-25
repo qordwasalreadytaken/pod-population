@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 256,
+        "count": 258,
         "examples": [
             "1",
             "11",
@@ -17,7 +17,7 @@
     },
     {
         "normalized": "a",
-        "count": 256,
+        "count": 258,
         "examples": [
             "a"
         ]
@@ -3705,6 +3705,13 @@
         "count": 2,
         "examples": [
             "dflkghj"
+        ]
+    },
+    {
+        "normalized": "ghgfh",
+        "count": 2,
+        "examples": [
+            "ghgfh"
         ]
     }
 ]
