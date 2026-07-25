@@ -1,116 +1,87 @@
 {
-    "timestamp": "2026-07-25T20:31:00+00:00",
+    "timestamp": "2026-07-25T21:04:00+00:00",
     "difficulty": {
-        "2": 4,
-        "0": 5
+        "2": 3,
+        "1": 1
     },
     "mode": {
-        "0": 9
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 4,
-        "0|0": 5
+        "2|0": 3,
+        "1|0": 1
     },
     "activities": [
         {
-            "name": "Leveling",
-            "count": 3
+            "name": "Maps",
+            "count": 1
         },
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Maps",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Trade",
-            "count": 2
+            "count": 1
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "trist",
-            "count": 2
-        },
-        {
-            "name": "n pala skiller",
-            "count": 2
-        },
-        {
-            "name": "234",
+            "name": "chillmap-4",
             "count": 1
         },
         {
-            "name": "fffhhhhjjdadad",
+            "name": "hkfztj",
             "count": 1
         },
         {
-            "name": "chillmap-2",
+            "name": "1 ooc for 1 eld",
             "count": 1
         },
         {
-            "name": "chillmap",
-            "count": 1
-        },
-        {
-            "name": "act 1 and on",
+            "name": "act nm",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "#",
+            "normalized": "hkfztj",
             "count": 2,
             "examples": [
-                "234"
-            ]
-        },
-        {
-            "normalized": "fffhhhhjjdadad",
-            "count": 2,
-            "examples": [
-                "fffhhhhjjdadad"
+                "hkfztj"
             ]
         }
     ],
     "classified_games": {
         "Maps": [
             {
-                "name": "chillmap-2",
+                "name": "chillmap-4",
                 "matched": "map",
-                "count": 1
-            },
-            {
-                "name": "chillmap",
-                "matched": "map",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "trist",
-                "matched": "trist",
-                "count": 2
-            },
-            {
-                "name": "act 1 and on",
-                "matched": "act",
                 "count": 1
             }
         ],
         "Trade": [
             {
-                "name": "n pala skiller",
-                "matched": "n",
-                "count": 2
+                "name": "1 ooc for 1 eld",
+                "matched": "for",
+                "count": 1
+            }
+        ],
+        "Leveling": [
+            {
+                "name": "act nm",
+                "matched": "act",
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 9,
-        "average_name_length": 9.43
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 9.25
     }
 }
