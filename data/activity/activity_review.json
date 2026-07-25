@@ -1,14 +1,7 @@
 [
     {
-        "normalized": "a",
-        "count": 256,
-        "examples": [
-            "a"
-        ]
-    },
-    {
         "normalized": "#",
-        "count": 254,
+        "count": 256,
         "examples": [
             "1",
             "11",
@@ -20,6 +13,13 @@
             "12",
             "122",
             "1221"
+        ]
+    },
+    {
+        "normalized": "a",
+        "count": 256,
+        "examples": [
+            "a"
         ]
     },
     {
@@ -3663,6 +3663,13 @@
         "count": 2,
         "examples": [
             "qeq"
+        ]
+    },
+    {
+        "normalized": "nkjk",
+        "count": 2,
+        "examples": [
+            "nkjk"
         ]
     }
 ]
