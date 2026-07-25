@@ -309,7 +309,7 @@
         },
         {
             "name": "meph run",
-            "matched": "meph",
+            "matched": "run",
             "count": 4
         },
         {
@@ -903,7 +903,7 @@
         },
         {
             "name": "n ama torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 15
         },
         {
@@ -913,7 +913,7 @@
         },
         {
             "name": "n free amatorch",
-            "matched": "n",
+            "matched": "torch",
             "count": 9
         },
         {
@@ -933,7 +933,7 @@
         },
         {
             "name": "n amatorch",
-            "matched": "n",
+            "matched": "torch",
             "count": 5
         },
         {
@@ -944,6 +944,11 @@
         {
             "name": "bring soj 2",
             "matched": "bring",
+            "count": 4
+        },
+        {
+            "name": "n pala skiller",
+            "matched": "n",
             "count": 4
         },
         {
@@ -1048,11 +1053,6 @@
         },
         {
             "name": "n eth 40s b axe",
-            "matched": "n",
-            "count": 2
-        },
-        {
-            "name": "n pala skiller",
             "matched": "n",
             "count": 2
         },
@@ -1258,7 +1258,7 @@
         },
         {
             "name": "n pala torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -1336,6 +1336,11 @@
         {
             "name": "norm start",
             "matched": "start",
+            "count": 4
+        },
+        {
+            "name": "trist",
+            "matched": "trist",
             "count": 4
         },
         {
@@ -1439,11 +1444,6 @@
             "count": 2
         },
         {
-            "name": "trist",
-            "matched": "trist",
-            "count": 2
-        },
-        {
             "name": "mn act",
             "matched": "act",
             "count": 2
@@ -1495,7 +1495,7 @@
         },
         {
             "name": "act 2 start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -1525,7 +1525,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -1535,7 +1535,7 @@
         },
         {
             "name": "act hel start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -1652,13 +1652,18 @@
             "name": "leveling (new)",
             "matched": "leveli",
             "count": 1
+        },
+        {
+            "name": "act 1 and on",
+            "matched": "act",
+            "count": 1
         }
     ],
     "Maps": [
         {
             "name": "chillmap",
             "matched": "map",
-            "count": 5
+            "count": 6
         },
         {
             "name": "map",
@@ -1792,6 +1797,11 @@
         },
         {
             "name": "mapper jim-5",
+            "matched": "map",
+            "count": 1
+        },
+        {
+            "name": "chillmap-2",
             "matched": "map",
             "count": 1
         }
