@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-25T19:07:00+00:00",
+    "timestamp": "2026-07-25T19:39:00+00:00",
     "difficulty": {
         "2": 1,
         "1": 1,
@@ -16,49 +16,53 @@
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 2
+            "name": "Maps",
+            "count": 1
         },
         {
-            "name": "Leveling",
+            "name": "Other",
+            "count": 1
+        },
+        {
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "maa",
+            "name": "mapp",
             "count": 1
         },
         {
-            "name": "sdsghgh",
+            "name": "afdsfgfg",
             "count": 1
         },
         {
-            "name": "ancients norm",
+            "name": "n pala skillers",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "maa",
+            "normalized": "afdsfgfg",
             "count": 2,
             "examples": [
-                "maa"
-            ]
-        },
-        {
-            "normalized": "sdsghgh",
-            "count": 2,
-            "examples": [
-                "sdsghgh"
+                "afdsfgfg"
             ]
         }
     ],
     "classified_games": {
-        "Leveling": [
+        "Maps": [
             {
-                "name": "ancients norm",
-                "matched": "anci",
+                "name": "mapp",
+                "matched": "map",
+                "count": 1
+            }
+        ],
+        "Trade": [
+            {
+                "name": "n pala skillers",
+                "matched": "n",
                 "count": 1
             }
         ]
@@ -66,6 +70,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 7.67
+        "average_name_length": 9.0
     }
 }
