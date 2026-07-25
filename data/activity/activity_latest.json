@@ -1,84 +1,80 @@
 {
-    "timestamp": "2026-07-25T22:04:00+00:00",
+    "timestamp": "2026-07-25T22:33:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 5
     },
     "mode": {
+        "1": 1,
         "0": 4
     },
     "difficulty_mode": {
+        "2|1": 1,
         "2|0": 4
     },
     "activities": [
         {
-            "name": "Maps",
-            "count": 1
-        },
-        {
-            "name": "Chaos",
-            "count": 1
-        },
-        {
             "name": "Misc. Public MF Runs",
+            "count": 3
+        },
+        {
+            "name": "Cows",
             "count": 1
         },
         {
-            "name": "Trade",
+            "name": "Maps",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "exploitmap",
+            "name": "asd",
+            "count": 2
+        },
+        {
+            "name": "hcow",
             "count": 1
         },
         {
-            "name": "chaos 4",
+            "name": "exploitmap",
             "count": 1
         },
         {
             "name": "run",
             "count": 1
-        },
-        {
-            "name": "1 ooc for 1 eld",
-            "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
-        "Maps": [
+        "Cows": [
             {
-                "name": "exploitmap",
-                "matched": "map",
-                "count": 1
-            }
-        ],
-        "Chaos": [
-            {
-                "name": "chaos 4",
-                "matched": "chaos",
+                "name": "hcow",
+                "matched": "cow",
                 "count": 1
             }
         ],
         "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 2
+            },
             {
                 "name": "run",
                 "matched": "run",
                 "count": 1
             }
         ],
-        "Trade": [
+        "Maps": [
             {
-                "name": "1 ooc for 1 eld",
-                "matched": "for",
+                "name": "exploitmap",
+                "matched": "map",
                 "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 8.75
+        "public_games": 5,
+        "average_name_length": 5.0
     }
 }
