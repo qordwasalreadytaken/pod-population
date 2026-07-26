@@ -3491,7 +3491,7 @@
             "Maps": [
                 {
                     "name": "maps-2",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -5126,7 +5126,7 @@
             "Maps": [
                 {
                     "name": "maps-2",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -10541,7 +10541,7 @@
                 },
                 {
                     "name": "act hel start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -12474,7 +12474,7 @@
             "Trade": [
                 {
                     "name": "lmk what u n",
-                    "matched": "n",
+                    "matched": "lmk",
                     "count": 1
                 }
             ],
@@ -14512,7 +14512,7 @@
                 },
                 {
                     "name": "norm start",
-                    "matched": "start",
+                    "matched": "norm",
                     "count": 1
                 }
             ],
@@ -14588,7 +14588,7 @@
                 },
                 {
                     "name": "norm start",
-                    "matched": "start",
+                    "matched": "norm",
                     "count": 1
                 }
             ],
@@ -19108,7 +19108,7 @@
             "Leveling": [
                 {
                     "name": "norm start",
-                    "matched": "start",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -19166,7 +19166,7 @@
             "Leveling": [
                 {
                     "name": "norm start",
-                    "matched": "start",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -36606,7 +36606,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "for",
+                    "matched": "trade",
                     "count": 1
                 }
             ],
@@ -36713,7 +36713,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "for",
+                    "matched": "trade",
                     "count": 1
                 }
             ]
@@ -41158,7 +41158,7 @@
             "Maps": [
                 {
                     "name": "maps",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -41242,7 +41242,7 @@
             "Maps": [
                 {
                     "name": "maps",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -43416,7 +43416,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "meph",
+                    "matched": "run",
                     "count": 1
                 },
                 {
@@ -43467,7 +43467,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "meph",
+                    "matched": "run",
                     "count": 1
                 },
                 {
@@ -55191,7 +55191,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "meph",
+                    "matched": "run",
                     "count": 2
                 }
             ]
@@ -73758,7 +73758,7 @@
             "Maps": [
                 {
                     "name": "maps",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -77181,7 +77181,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 },
                 {
@@ -81010,7 +81010,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 }
             ]
@@ -82157,6 +82157,56 @@
             "unique_names": 3,
             "public_games": 3,
             "average_name_length": 7.0
+        }
+    },
+    {
+        "timestamp": "2026-07-26T08:16:00+00:00",
+        "difficulty": {
+            "2": 2
+        },
+        "mode": {
+            "0": 2
+        },
+        "difficulty_mode": {
+            "2|0": 2
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 2
+            }
+        ],
+        "top_games": [
+            {
+                "name": "tga",
+                "count": 1
+            },
+            {
+                "name": "folhgklgkh",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "tga",
+                "count": 2,
+                "examples": [
+                    "tga"
+                ]
+            },
+            {
+                "normalized": "folhgklgkh",
+                "count": 2,
+                "examples": [
+                    "folhgklgkh"
+                ]
+            }
+        ],
+        "classified_games": {},
+        "interesting": {
+            "unique_names": 2,
+            "public_games": 2,
+            "average_name_length": 6.5
         }
     }
 ]
