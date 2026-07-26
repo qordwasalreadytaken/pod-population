@@ -1,32 +1,26 @@
 {
-    "timestamp": "2026-07-26T19:07:00+00:00",
+    "timestamp": "2026-07-26T19:40:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 5,
         "1": 1,
         "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 5
+        "0": 7
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 3,
+        "2|0": 5,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
-        },
-        {
-            "name": "Cows",
-            "count": 1
+            "count": 4
         },
         {
             "name": "Trade",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -35,19 +29,19 @@
     ],
     "top_games": [
         {
-            "name": "h cow all by my",
-            "count": 1
-        },
-        {
-            "name": "ddsgfdg",
-            "count": 1
-        },
-        {
-            "name": "afweewaf",
-            "count": 1
-        },
-        {
             "name": "1 ooc for 1 eld",
+            "count": 2
+        },
+        {
+            "name": "awefe",
+            "count": 1
+        },
+        {
+            "name": "awefwfae",
+            "count": 1
+        },
+        {
+            "name": "gfhk",
             "count": 1
         },
         {
@@ -55,46 +49,46 @@
             "count": 1
         },
         {
-            "name": "1221",
+            "name": "1223",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "ddsgfdg",
+            "normalized": "awefe",
             "count": 2,
             "examples": [
-                "ddsgfdg"
+                "awefe"
             ]
         },
         {
-            "normalized": "afweewaf",
+            "normalized": "awefwfae",
             "count": 2,
             "examples": [
-                "afweewaf"
+                "awefwfae"
+            ]
+        },
+        {
+            "normalized": "gfhk",
+            "count": 2,
+            "examples": [
+                "gfhk"
             ]
         },
         {
             "normalized": "#",
             "count": 2,
             "examples": [
-                "1221"
+                "1223"
             ]
         }
     ],
     "classified_games": {
-        "Cows": [
-            {
-                "name": "h cow all by my",
-                "matched": "cow",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "1 ooc for 1 eld",
                 "matched": "for",
-                "count": 1
+                "count": 2
             }
         ],
         "Misc. Public MF Runs": [
@@ -107,7 +101,7 @@
     },
     "interesting": {
         "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 8.5
+        "public_games": 7,
+        "average_name_length": 6.33
     }
 }

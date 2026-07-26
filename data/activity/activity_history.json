@@ -3563,7 +3563,7 @@
             "Leveling": [
                 {
                     "name": "act 2 start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -9069,7 +9069,7 @@
             "Leveling": [
                 {
                     "name": "act start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -10541,7 +10541,7 @@
                 },
                 {
                     "name": "act hel start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -36606,7 +36606,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "trade",
+                    "matched": "for",
                     "count": 1
                 }
             ],
@@ -36713,7 +36713,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "trade",
+                    "matched": "for",
                     "count": 1
                 }
             ]
@@ -37941,7 +37941,7 @@
             "Trade": [
                 {
                     "name": "n amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 },
                 {
@@ -38273,7 +38273,7 @@
             "Trade": [
                 {
                     "name": "n amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 },
                 {
@@ -38323,7 +38323,7 @@
             "Trade": [
                 {
                     "name": "n amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 },
                 {
@@ -65433,7 +65433,7 @@
             "Trade": [
                 {
                     "name": "n amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -65503,7 +65503,7 @@
             "Trade": [
                 {
                     "name": "n amatorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -68402,7 +68402,7 @@
             "Trade": [
                 {
                     "name": "n pala torch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 },
                 {
@@ -77181,7 +77181,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "anci",
+                    "matched": "norm",
                     "count": 1
                 },
                 {
@@ -81010,7 +81010,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "anci",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -83745,6 +83745,113 @@
             "unique_names": 6,
             "public_games": 6,
             "average_name_length": 8.5
+        }
+    },
+    {
+        "timestamp": "2026-07-26T19:40:00+00:00",
+        "difficulty": {
+            "2": 5,
+            "1": 1,
+            "0": 1
+        },
+        "mode": {
+            "0": 7
+        },
+        "difficulty_mode": {
+            "2|0": 5,
+            "1|0": 1,
+            "0|0": 1
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 4
+            },
+            {
+                "name": "Trade",
+                "count": 2
+            },
+            {
+                "name": "Misc. Public MF Runs",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "1 ooc for 1 eld",
+                "count": 2
+            },
+            {
+                "name": "awefe",
+                "count": 1
+            },
+            {
+                "name": "awefwfae",
+                "count": 1
+            },
+            {
+                "name": "gfhk",
+                "count": 1
+            },
+            {
+                "name": "aa",
+                "count": 1
+            },
+            {
+                "name": "1223",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "awefe",
+                "count": 2,
+                "examples": [
+                    "awefe"
+                ]
+            },
+            {
+                "normalized": "awefwfae",
+                "count": 2,
+                "examples": [
+                    "awefwfae"
+                ]
+            },
+            {
+                "normalized": "gfhk",
+                "count": 2,
+                "examples": [
+                    "gfhk"
+                ]
+            },
+            {
+                "normalized": "#",
+                "count": 2,
+                "examples": [
+                    "1223"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Trade": [
+                {
+                    "name": "1 ooc for 1 eld",
+                    "matched": "for",
+                    "count": 2
+                }
+            ],
+            "Misc. Public MF Runs": [
+                {
+                    "name": "aa",
+                    "matched": "aa",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 6,
+            "public_games": 7,
+            "average_name_length": 6.33
         }
     }
 ]
