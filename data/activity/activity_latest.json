@@ -1,53 +1,53 @@
 {
-    "timestamp": "2026-07-26T14:30:00+00:00",
+    "timestamp": "2026-07-26T15:06:00+00:00",
     "difficulty": {
         "2": 6,
         "1": 1,
         "0": 1
     },
     "mode": {
-        "1": 2,
-        "0": 6
+        "1": 1,
+        "0": 7
     },
     "difficulty_mode": {
-        "2|1": 2,
-        "2|0": 4,
+        "2|1": 1,
+        "2|0": 5,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 4
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 2
+        },
+        {
+            "name": "Maps",
+            "count": 2
         }
     ],
     "top_games": [
+        {
+            "name": "chillmap",
+            "count": 2
+        },
         {
             "name": "ted",
             "count": 1
         },
         {
-            "name": "i try hell",
-            "count": 1
-        },
-        {
-            "name": "sdfkjdf",
-            "count": 1
-        },
-        {
-            "name": "dfgjhg",
-            "count": 1
-        },
-        {
-            "name": "asdlkgf",
+            "name": "fsdfkn",
             "count": 1
         },
         {
             "name": "lvup gogo",
+            "count": 1
+        },
+        {
+            "name": "sdfkjdf",
             "count": 1
         },
         {
@@ -61,24 +61,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "i try hell",
+            "normalized": "fsdfkn",
             "count": 2,
             "examples": [
-                "i try hell"
-            ]
-        },
-        {
-            "normalized": "sdfkjdf",
-            "count": 2,
-            "examples": [
-                "sdfkjdf"
-            ]
-        },
-        {
-            "normalized": "dfgjhg",
-            "count": 2,
-            "examples": [
-                "dfgjhg"
+                "fsdfkn"
             ]
         },
         {
@@ -86,6 +72,13 @@
             "count": 2,
             "examples": [
                 "lvup gogo"
+            ]
+        },
+        {
+            "normalized": "sdfkjdf",
+            "count": 2,
+            "examples": [
+                "sdfkjdf"
             ]
         },
         {
@@ -104,20 +97,22 @@
                 "count": 1
             },
             {
-                "name": "asdlkgf",
-                "matched": "asd",
-                "count": 1
-            },
-            {
                 "name": "aa",
                 "matched": "aa",
                 "count": 1
             }
+        ],
+        "Maps": [
+            {
+                "name": "chillmap",
+                "matched": "map",
+                "count": 2
+            }
         ]
     },
     "interesting": {
-        "unique_names": 8,
+        "unique_names": 7,
         "public_games": 8,
-        "average_name_length": 6.0
+        "average_name_length": 5.57
     }
 }
