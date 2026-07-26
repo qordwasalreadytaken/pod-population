@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-25T23:34:00+00:00",
+    "timestamp": "2026-07-26T00:06:00+00:00",
     "difficulty": {
         "2": 1
     },
@@ -11,22 +11,22 @@
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
+            "name": "act 5",
             "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Leveling": [
             {
-                "name": "asd",
-                "matched": "asd",
+                "name": "act 5",
+                "matched": "act",
                 "count": 1
             }
         ]
@@ -34,6 +34,6 @@
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 3.0
+        "average_name_length": 5.0
     }
 }
