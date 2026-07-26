@@ -1,24 +1,23 @@
 {
-    "timestamp": "2026-07-26T15:38:00+00:00",
+    "timestamp": "2026-07-26T16:06:00+00:00",
     "difficulty": {
         "2": 2,
         "1": 1,
         "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "1": 2,
+        "0": 2
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 1,
+        "2|1": 2,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Baal",
@@ -27,15 +26,19 @@
         {
             "name": "Misc. Public MF Runs",
             "count": 1
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "baal",
+            "name": "anya",
             "count": 1
         },
         {
-            "name": "fsdfkn",
+            "name": "baal",
             "count": 1
         },
         {
@@ -43,23 +46,16 @@
             "count": 1
         },
         {
-            "name": "1221",
+            "name": "acte 4",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "fsdfkn",
+            "normalized": "anya",
             "count": 2,
             "examples": [
-                "fsdfkn"
-            ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "1221"
+                "anya"
             ]
         }
     ],
@@ -75,6 +71,13 @@
             {
                 "name": "aa",
                 "matched": "aa",
+                "count": 1
+            }
+        ],
+        "Leveling": [
+            {
+                "name": "acte 4",
+                "matched": "act",
                 "count": 1
             }
         ]
