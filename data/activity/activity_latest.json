@@ -1,55 +1,63 @@
 {
-    "timestamp": "2026-07-26T06:17:00+00:00",
+    "timestamp": "2026-07-26T07:21:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 2,
+        "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "fgkjbvc",
+            "name": "lvup gogo",
             "count": 1
         },
         {
-            "name": "run 1",
+            "name": "fghjghjk",
+            "count": 1
+        },
+        {
+            "name": "1221",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "fgkjbvc",
+            "normalized": "lvup gogo",
             "count": 2,
             "examples": [
-                "fgkjbvc"
+                "lvup gogo"
+            ]
+        },
+        {
+            "normalized": "fghjghjk",
+            "count": 2,
+            "examples": [
+                "fghjghjk"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1221"
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "run 1",
-                "matched": "run",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 6.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 7.0
     }
 }
