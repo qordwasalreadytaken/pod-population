@@ -1,53 +1,41 @@
 {
-    "timestamp": "2026-07-26T15:06:00+00:00",
+    "timestamp": "2026-07-26T15:38:00+00:00",
     "difficulty": {
-        "2": 6,
+        "2": 2,
         "1": 1,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 7
+        "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 5,
+        "2|0": 1,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 2
+        },
+        {
+            "name": "Baal",
+            "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
-        },
-        {
-            "name": "Maps",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "chillmap",
-            "count": 2
-        },
-        {
-            "name": "ted",
+            "name": "baal",
             "count": 1
         },
         {
             "name": "fsdfkn",
-            "count": 1
-        },
-        {
-            "name": "lvup gogo",
-            "count": 1
-        },
-        {
-            "name": "sdfkjdf",
             "count": 1
         },
         {
@@ -68,20 +56,6 @@
             ]
         },
         {
-            "normalized": "lvup gogo",
-            "count": 2,
-            "examples": [
-                "lvup gogo"
-            ]
-        },
-        {
-            "normalized": "sdfkjdf",
-            "count": 2,
-            "examples": [
-                "sdfkjdf"
-            ]
-        },
-        {
             "normalized": "#",
             "count": 2,
             "examples": [
@@ -90,29 +64,24 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Baal": [
             {
-                "name": "ted",
-                "matched": "ted",
+                "name": "baal",
+                "matched": "baal",
                 "count": 1
-            },
+            }
+        ],
+        "Misc. Public MF Runs": [
             {
                 "name": "aa",
                 "matched": "aa",
                 "count": 1
             }
-        ],
-        "Maps": [
-            {
-                "name": "chillmap",
-                "matched": "map",
-                "count": 2
-            }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 8,
-        "average_name_length": 5.57
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 4.0
     }
 }
