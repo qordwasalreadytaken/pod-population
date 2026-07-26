@@ -1,30 +1,20 @@
 {
-    "timestamp": "2026-07-26T12:37:00+00:00",
+    "timestamp": "2026-07-26T13:08:00+00:00",
     "difficulty": {
-        "2": 5,
-        "0": 2
+        "2": 4
     },
     "mode": {
         "1": 1,
-        "0": 6
+        "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 4,
-        "0|0": 2
+        "2|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Maps",
-            "count": 1
-        },
-        {
-            "name": "Leveling",
-            "count": 1
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
@@ -33,38 +23,23 @@
     ],
     "top_games": [
         {
-            "name": "t",
-            "count": 2
-        },
-        {
             "name": "eth phaseblade",
             "count": 1
         },
         {
-            "name": "mapping 1",
+            "name": "lvup gogo",
             "count": 1
         },
         {
-            "name": "kjhsdf",
+            "name": "asddfg",
             "count": 1
         },
         {
-            "name": "act 4",
-            "count": 1
-        },
-        {
-            "name": "gord",
+            "name": "t",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "t",
-            "count": 4,
-            "examples": [
-                "t"
-            ]
-        },
         {
             "normalized": "eth phaseblade",
             "count": 2,
@@ -73,39 +48,32 @@
             ]
         },
         {
-            "normalized": "kjhsdf",
+            "normalized": "lvup gogo",
             "count": 2,
             "examples": [
-                "kjhsdf"
+                "lvup gogo"
+            ]
+        },
+        {
+            "normalized": "t",
+            "count": 2,
+            "examples": [
+                "t"
             ]
         }
     ],
     "classified_games": {
-        "Maps": [
-            {
-                "name": "mapping 1",
-                "matched": "mapping",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "act 4",
-                "matched": "act",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
-                "name": "gord",
-                "matched": "gord",
+                "name": "asddfg",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 6.5
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 7.5
     }
 }
