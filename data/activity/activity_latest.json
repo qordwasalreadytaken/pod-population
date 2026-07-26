@@ -1,24 +1,22 @@
 {
-    "timestamp": "2026-07-26T21:05:00+00:00",
+    "timestamp": "2026-07-26T21:33:00+00:00",
     "difficulty": {
         "0": 3,
-        "2": 1,
-        "1": 2
+        "2": 2
     },
     "mode": {
         "1": 1,
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 1,
-        "1|0": 2,
+        "2|0": 2,
         "0|0": 2
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 4
+            "count": 3
         },
         {
             "name": "Other",
@@ -27,11 +25,11 @@
     ],
     "top_games": [
         {
-            "name": "aa",
-            "count": 2
+            "name": "fresh re-roll",
+            "count": 1
         },
         {
-            "name": "fresh re-roll",
+            "name": "aa",
             "count": 1
         },
         {
@@ -39,7 +37,7 @@
             "count": 1
         },
         {
-            "name": "asdgdh",
+            "name": "asdsagdf",
             "count": 1
         },
         {
@@ -68,7 +66,7 @@
             {
                 "name": "aa",
                 "matched": "aa",
-                "count": 2
+                "count": 1
             },
             {
                 "name": "n eld runes",
@@ -76,7 +74,7 @@
                 "count": 1
             },
             {
-                "name": "asdgdh",
+                "name": "asdsagdf",
                 "matched": "asd",
                 "count": 1
             }
@@ -84,7 +82,7 @@
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 6,
-        "average_name_length": 7.2
+        "public_games": 5,
+        "average_name_length": 7.6
     }
 }
