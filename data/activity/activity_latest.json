@@ -1,57 +1,15 @@
 {
-    "timestamp": "2026-07-26T03:58:00+00:00",
-    "difficulty": {
-        "1": 1,
-        "0": 1
-    },
-    "mode": {
-        "1": 2
-    },
-    "difficulty_mode": {
-        "1|1": 1,
-        "0|1": 1
-    },
-    "activities": [
-        {
-            "name": "Baal",
-            "count": 1
-        },
-        {
-            "name": "Other",
-            "count": 1
-        }
-    ],
-    "top_games": [
-        {
-            "name": "nm baal",
-            "count": 1
-        },
-        {
-            "name": "qe",
-            "count": 1
-        }
-    ],
-    "unknown_games": [
-        {
-            "normalized": "qe",
-            "count": 2,
-            "examples": [
-                "qe"
-            ]
-        }
-    ],
-    "classified_games": {
-        "Baal": [
-            {
-                "name": "nm baal",
-                "matched": "baal",
-                "count": 1
-            }
-        ]
-    },
+    "timestamp": "2026-07-26T05:13:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "difficulty_mode": {},
+    "activities": [],
+    "top_games": [],
+    "unknown_games": [],
+    "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 4.5
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
