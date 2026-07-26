@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-07-26T11:41:00+00:00",
+    "timestamp": "2026-07-26T12:07:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 5,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 3,
+        "2|0": 4,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 5
         },
         {
             "name": "Misc. Public MF Runs",
@@ -25,15 +25,15 @@
     ],
     "top_games": [
         {
+            "name": "t",
+            "count": 2
+        },
+        {
             "name": "eth phaseblade",
             "count": 1
         },
         {
-            "name": "t",
-            "count": 1
-        },
-        {
-            "name": "sdfgfg",
+            "name": "tga",
             "count": 1
         },
         {
@@ -47,6 +47,13 @@
     ],
     "unknown_games": [
         {
+            "normalized": "t",
+            "count": 4,
+            "examples": [
+                "t"
+            ]
+        },
+        {
             "normalized": "eth phaseblade",
             "count": 2,
             "examples": [
@@ -54,17 +61,10 @@
             ]
         },
         {
-            "normalized": "t",
+            "normalized": "tga",
             "count": 2,
             "examples": [
-                "t"
-            ]
-        },
-        {
-            "normalized": "sdfgfg",
-            "count": 2,
-            "examples": [
-                "sdfgfg"
+                "tga"
             ]
         },
         {
@@ -86,7 +86,7 @@
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.0
+        "public_games": 6,
+        "average_name_length": 5.4
     }
 }
