@@ -1,129 +1,90 @@
 {
-    "timestamp": "2026-07-26T20:33:00+00:00",
+    "timestamp": "2026-07-26T21:05:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 2,
-        "0": 3
+        "0": 3,
+        "2": 1,
+        "1": 2
     },
     "mode": {
-        "0": 8
+        "1": 1,
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "0|1": 1,
+        "2|0": 1,
         "1|0": 2,
-        "0|0": 3
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Other",
-            "count": 3
-        },
-        {
-            "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Rush",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
+        {
+            "name": "aa",
+            "count": 2
+        },
+        {
+            "name": "fresh re-roll",
+            "count": 1
+        },
         {
             "name": "n eld runes",
             "count": 1
         },
         {
-            "name": "gfhk",
+            "name": "asdgdh",
             "count": 1
         },
         {
-            "name": "1 ooc for 1 eld",
-            "count": 1
-        },
-        {
-            "name": "aa",
-            "count": 1
-        },
-        {
-            "name": "nightmare rush",
-            "count": 1
-        },
-        {
-            "name": "hi",
-            "count": 1
-        },
-        {
-            "name": "hi all",
-            "count": 1
-        },
-        {
-            "name": "1234",
+            "name": "hihi",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "gfhk",
+            "normalized": "fresh re-roll",
             "count": 2,
             "examples": [
-                "gfhk"
+                "fresh re-roll"
             ]
         },
         {
-            "normalized": "hi",
+            "normalized": "hihi",
             "count": 2,
             "examples": [
-                "hi"
-            ]
-        },
-        {
-            "normalized": "hi all",
-            "count": 2,
-            "examples": [
-                "hi all"
+                "hihi"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
+                "name": "aa",
+                "matched": "aa",
+                "count": 2
+            },
+            {
                 "name": "n eld runes",
                 "matched": "run",
                 "count": 1
             },
             {
-                "name": "aa",
-                "matched": "aa",
-                "count": 1
-            },
-            {
-                "name": "1234",
-                "matched": "123",
-                "count": 1
-            }
-        ],
-        "Trade": [
-            {
-                "name": "1 ooc for 1 eld",
-                "matched": "for",
-                "count": 1
-            }
-        ],
-        "Rush": [
-            {
-                "name": "nightmare rush",
-                "matched": "rush",
+                "name": "asdgdh",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 8,
-        "average_name_length": 7.25
+        "unique_names": 5,
+        "public_games": 6,
+        "average_name_length": 7.2
     }
 }
