@@ -1,27 +1,22 @@
 {
-    "timestamp": "2026-07-26T22:05:00+00:00",
+    "timestamp": "2026-07-26T22:34:00+00:00",
     "difficulty": {
-        "2": 4,
-        "0": 2
+        "2": 1,
+        "0": 3
     },
     "mode": {
         "1": 3,
-        "0": 3
+        "0": 1
     },
     "difficulty_mode": {
-        "2|1": 2,
-        "0|1": 1,
-        "2|0": 2,
+        "2|1": 1,
+        "0|1": 2,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 4
         }
     ],
     "top_games": [
@@ -30,23 +25,15 @@
             "count": 1
         },
         {
+            "name": "tacosrgreat",
+            "count": 1
+        },
+        {
             "name": "a",
             "count": 1
         },
         {
-            "name": "fresh re-roll",
-            "count": 1
-        },
-        {
-            "name": "aa",
-            "count": 1
-        },
-        {
-            "name": "n eld runes",
-            "count": 1
-        },
-        {
-            "name": "asdsagdf",
+            "name": "vm,l;nb",
             "count": 1
         }
     ],
@@ -59,6 +46,13 @@
             ]
         },
         {
+            "normalized": "tacosrgreat",
+            "count": 2,
+            "examples": [
+                "tacosrgreat"
+            ]
+        },
+        {
             "normalized": "a",
             "count": 2,
             "examples": [
@@ -66,35 +60,17 @@
             ]
         },
         {
-            "normalized": "fresh re-roll",
+            "normalized": "vm,l;nb",
             "count": 2,
             "examples": [
-                "fresh re-roll"
+                "vm,l;nb"
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "aa",
-                "matched": "aa",
-                "count": 1
-            },
-            {
-                "name": "n eld runes",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "asdsagdf",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 6.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 5.0
     }
 }
