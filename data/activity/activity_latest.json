@@ -1,33 +1,61 @@
 {
-    "timestamp": "2026-07-26T13:49:00+00:00",
+    "timestamp": "2026-07-26T14:30:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 6,
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 2
+        "1": 2,
+        "0": 6
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 2
+        "2|1": 2,
+        "2|0": 4,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
+            "count": 5
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 3
         }
     ],
     "top_games": [
         {
+            "name": "ted",
+            "count": 1
+        },
+        {
             "name": "i try hell",
             "count": 1
         },
         {
-            "name": "sadkj",
+            "name": "sdfkjdf",
+            "count": 1
+        },
+        {
+            "name": "dfgjhg",
+            "count": 1
+        },
+        {
+            "name": "asdlkgf",
             "count": 1
         },
         {
             "name": "lvup gogo",
+            "count": 1
+        },
+        {
+            "name": "aa",
+            "count": 1
+        },
+        {
+            "name": "1221",
             "count": 1
         }
     ],
@@ -40,10 +68,17 @@
             ]
         },
         {
-            "normalized": "sadkj",
+            "normalized": "sdfkjdf",
             "count": 2,
             "examples": [
-                "sadkj"
+                "sdfkjdf"
+            ]
+        },
+        {
+            "normalized": "dfgjhg",
+            "count": 2,
+            "examples": [
+                "dfgjhg"
             ]
         },
         {
@@ -52,12 +87,37 @@
             "examples": [
                 "lvup gogo"
             ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1221"
+            ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "ted",
+                "matched": "ted",
+                "count": 1
+            },
+            {
+                "name": "asdlkgf",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "aa",
+                "matched": "aa",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 8.0
+        "unique_names": 8,
+        "public_games": 8,
+        "average_name_length": 6.0
     }
 }
