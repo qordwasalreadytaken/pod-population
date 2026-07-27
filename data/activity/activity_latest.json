@@ -1,13 +1,13 @@
 {
-    "timestamp": "2026-07-27T04:02:00+00:00",
+    "timestamp": "2026-07-27T05:29:00+00:00",
     "difficulty": {
-        "2": 1
+        "0": 1
     },
     "mode": {
-        "1": 1
+        "0": 1
     },
     "difficulty_mode": {
-        "2|1": 1
+        "0|0": 1
     },
     "activities": [
         {
@@ -17,16 +17,16 @@
     ],
     "top_games": [
         {
-            "name": "hquest",
+            "name": "dsfdsfd",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "hquest",
+            "normalized": "dsfdsfd",
             "count": 2,
             "examples": [
-                "hquest"
+                "dsfdsfd"
             ]
         }
     ],
@@ -34,6 +34,6 @@
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 6.0
+        "average_name_length": 7.0
     }
 }
