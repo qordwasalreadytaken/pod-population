@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 294,
+        "count": 296,
         "examples": [
             "1",
             "11",
@@ -939,6 +939,13 @@
         ]
     },
     {
+        "normalized": "helpme",
+        "count": 6,
+        "examples": [
+            "helpme"
+        ]
+    },
+    {
         "normalized": "what u need",
         "count": 4,
         "examples": [
@@ -1647,13 +1654,6 @@
         "count": 4,
         "examples": [
             "hihi"
-        ]
-    },
-    {
-        "normalized": "helpme",
-        "count": 4,
-        "examples": [
-            "helpme"
         ]
     },
     {
@@ -4083,6 +4083,13 @@
         "count": 2,
         "examples": [
             "asff"
+        ]
+    },
+    {
+        "normalized": "adfs",
+        "count": 2,
+        "examples": [
+            "adfs"
         ]
     }
 ]
