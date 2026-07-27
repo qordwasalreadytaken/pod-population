@@ -1,39 +1,79 @@
 {
-    "timestamp": "2026-07-27T05:29:00+00:00",
+    "timestamp": "2026-07-27T06:43:00+00:00",
     "difficulty": {
-        "0": 1
+        "2": 2,
+        "0": 2
     },
     "mode": {
-        "0": 1
+        "0": 4
     },
     "difficulty_mode": {
-        "0|0": 1
+        "2|0": 2,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
+            "count": 3
+        },
+        {
+            "name": "Maps",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "dsfdsfd",
+            "name": "tethalmap",
+            "count": 1
+        },
+        {
+            "name": "need wp trav",
+            "count": 1
+        },
+        {
+            "name": "1222",
+            "count": 1
+        },
+        {
+            "name": "kghghj",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "dsfdsfd",
+            "normalized": "need wp trav",
             "count": 2,
             "examples": [
-                "dsfdsfd"
+                "need wp trav"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1222"
+            ]
+        },
+        {
+            "normalized": "kghghj",
+            "count": 2,
+            "examples": [
+                "kghghj"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Maps": [
+            {
+                "name": "tethalmap",
+                "matched": "map",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 7.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 7.75
     }
 }
