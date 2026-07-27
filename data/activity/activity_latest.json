@@ -1,53 +1,69 @@
 {
-    "timestamp": "2026-07-27T16:02:00+00:00",
+    "timestamp": "2026-07-27T16:53:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 1
+        "2": 1,
+        "0": 2
     },
     "mode": {
-        "1": 3,
-        "0": 1
+        "1": 1,
+        "0": 2
     },
     "difficulty_mode": {
-        "2|1": 3,
-        "0|0": 1
+        "2|1": 1,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 2
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "shaos",
-            "count": 3
+            "count": 1
         },
         {
-            "name": "dfjgh",
+            "name": "fkghj",
+            "count": 1
+        },
+        {
+            "name": "act 4",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "shaos",
-            "count": 6,
+            "count": 2,
             "examples": [
                 "shaos"
             ]
         },
         {
-            "normalized": "dfjgh",
+            "normalized": "fkghj",
             "count": 2,
             "examples": [
-                "dfjgh"
+                "fkghj"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Leveling": [
+            {
+                "name": "act 4",
+                "matched": "act",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 4,
+        "unique_names": 3,
+        "public_games": 3,
         "average_name_length": 5.0
     }
 }
