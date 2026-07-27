@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-27T07:59:00+00:00",
+    "timestamp": "2026-07-27T09:17:00+00:00",
     "difficulty": {
         "0": 2,
         "2": 1
@@ -19,7 +19,7 @@
             "count": 2
         },
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -29,11 +29,11 @@
             "count": 1
         },
         {
-            "name": "o 3x n amatorc",
+            "name": "aa",
             "count": 1
         },
         {
-            "name": "hi",
+            "name": "asff",
             "count": 1
         }
     ],
@@ -46,18 +46,18 @@
             ]
         },
         {
-            "normalized": "hi",
+            "normalized": "asff",
             "count": 2,
             "examples": [
-                "hi"
+                "asff"
             ]
         }
     ],
     "classified_games": {
-        "Trade": [
+        "Misc. Public MF Runs": [
             {
-                "name": "o 3x n amatorc",
-                "matched": "n",
+                "name": "aa",
+                "matched": "aa",
                 "count": 1
             }
         ]
@@ -65,6 +65,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 7.33
+        "average_name_length": 4.0
     }
 }
