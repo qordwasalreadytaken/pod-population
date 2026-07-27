@@ -1,8 +1,8 @@
 {
-    "timestamp": "2026-07-27T13:01:00+00:00",
+    "timestamp": "2026-07-27T13:59:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 1
+        "2": 2,
+        "0": 2
     },
     "mode": {
         "1": 2,
@@ -11,7 +11,8 @@
     "difficulty_mode": {
         "2|1": 1,
         "0|1": 1,
-        "2|0": 2
+        "2|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
@@ -29,11 +30,11 @@
             "count": 1
         },
         {
-            "name": "jah ber plz 1",
+            "name": "lvv",
             "count": 1
         },
         {
-            "name": "lvv",
+            "name": "1221",
             "count": 1
         }
     ],
@@ -53,17 +54,17 @@
             ]
         },
         {
-            "normalized": "jah ber plz #",
-            "count": 2,
-            "examples": [
-                "jah ber plz 1"
-            ]
-        },
-        {
             "normalized": "lvv",
             "count": 2,
             "examples": [
                 "lvv"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1221"
             ]
         }
     ],
@@ -71,6 +72,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 6.0
+        "average_name_length": 3.75
     }
 }
