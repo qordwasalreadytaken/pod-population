@@ -1,68 +1,92 @@
 {
-    "timestamp": "2026-07-27T21:12:00+00:00",
+    "timestamp": "2026-07-27T21:40:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 2
+        "0": 4,
+        "2": 1
     },
     "mode": {
-        "0": 3
+        "1": 1,
+        "0": 4
     },
     "difficulty_mode": {
+        "0|1": 1,
         "2|0": 1,
-        "0|0": 2
+        "0|0": 3
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Leveling",
             "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
+            "count": 2
+        },
+        {
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "normal tombin",
+            "count": 1
+        },
+        {
             "name": "n eld runes",
             "count": 1
         },
         {
-            "name": "dslkfldsf",
+            "name": "dfghsdfg",
             "count": 1
         },
         {
-            "name": "dfdf",
+            "name": "normal 3",
+            "count": 1
+        },
+        {
+            "name": "asdgh",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "dslkfldsf",
+            "normalized": "dfghsdfg",
             "count": 2,
             "examples": [
-                "dslkfldsf"
-            ]
-        },
-        {
-            "normalized": "dfdf",
-            "count": 2,
-            "examples": [
-                "dfdf"
+                "dfghsdfg"
             ]
         }
     ],
     "classified_games": {
+        "Leveling": [
+            {
+                "name": "normal tombin",
+                "matched": "norm",
+                "count": 1
+            },
+            {
+                "name": "normal 3",
+                "matched": "norm",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "n eld runes",
                 "matched": "run",
                 "count": 1
+            },
+            {
+                "name": "asdgh",
+                "matched": "asd",
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 8.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 9.0
     }
 }
