@@ -1,17 +1,15 @@
 {
-    "timestamp": "2026-07-28T21:37:00+00:00",
+    "timestamp": "2026-07-28T22:07:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1,
-        "0": 2
+        "2": 3,
+        "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 1,
-        "0|0": 2
+        "2|0": 3,
+        "0|0": 1
     },
     "activities": [
         {
@@ -20,7 +18,7 @@
         },
         {
             "name": "Chaos",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Other",
@@ -29,7 +27,7 @@
     ],
     "top_games": [
         {
-            "name": "fgghsff",
+            "name": "i dia u 6",
             "count": 1
         },
         {
@@ -37,11 +35,7 @@
             "count": 1
         },
         {
-            "name": "i dia u 2",
-            "count": 1
-        },
-        {
-            "name": "i dia u 3",
+            "name": "fgghsff",
             "count": 1
         },
         {
@@ -59,6 +53,13 @@
         }
     ],
     "classified_games": {
+        "Chaos": [
+            {
+                "name": "i dia u 6",
+                "matched": "dia",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "n eld runes",
@@ -70,23 +71,11 @@
                 "matched": "123",
                 "count": 1
             }
-        ],
-        "Chaos": [
-            {
-                "name": "i dia u 2",
-                "matched": "dia",
-                "count": 1
-            },
-            {
-                "name": "i dia u 3",
-                "matched": "dia",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 8.6
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 8.5
     }
 }
