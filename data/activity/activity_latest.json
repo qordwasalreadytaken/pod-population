@@ -1,26 +1,20 @@
 {
-    "timestamp": "2026-07-28T00:50:00+00:00",
+    "timestamp": "2026-07-28T01:32:00+00:00",
     "difficulty": {
         "2": 1,
-        "1": 1,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
         "2|1": 1,
-        "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Maps",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
@@ -31,10 +25,6 @@
     "top_games": [
         {
             "name": "map",
-            "count": 1
-        },
-        {
-            "name": "asdghjgj",
             "count": 1
         },
         {
@@ -58,18 +48,11 @@
                 "matched": "map",
                 "count": 1
             }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asdghjgj",
-                "matched": "asd",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 4.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 2.0
     }
 }
