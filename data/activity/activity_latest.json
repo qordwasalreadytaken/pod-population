@@ -1,22 +1,24 @@
 {
-    "timestamp": "2026-07-28T12:34:00+00:00",
+    "timestamp": "2026-07-28T13:17:00+00:00",
     "difficulty": {
-        "2": 5,
+        "2": 3,
+        "1": 1,
         "0": 1
     },
     "mode": {
-        "1": 2,
+        "1": 1,
         "0": 4
     },
     "difficulty_mode": {
-        "2|1": 2,
-        "2|0": 3,
+        "2|1": 1,
+        "2|0": 2,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 4
         },
         {
             "name": "Trade",
@@ -29,7 +31,7 @@
             "count": 1
         },
         {
-            "name": "n aldurs set",
+            "name": "n necro torch",
             "count": 1
         },
         {
@@ -37,11 +39,7 @@
             "count": 1
         },
         {
-            "name": "jah ber plz 2",
-            "count": 1
-        },
-        {
-            "name": "waefewaf",
+            "name": "okij",
             "count": 1
         },
         {
@@ -66,32 +64,25 @@
             ]
         },
         {
-            "normalized": "jah ber plz #",
+            "normalized": "okij",
             "count": 2,
             "examples": [
-                "jah ber plz 2"
-            ]
-        },
-        {
-            "normalized": "waefewaf",
-            "count": 2,
-            "examples": [
-                "waefewaf"
+                "okij"
             ]
         }
     ],
     "classified_games": {
         "Trade": [
             {
-                "name": "n aldurs set",
-                "matched": "n",
+                "name": "n necro torch",
+                "matched": "torch",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 7.17
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 5.4
     }
 }
