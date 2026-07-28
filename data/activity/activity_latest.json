@@ -1,79 +1,60 @@
 {
-    "timestamp": "2026-07-28T10:08:00+00:00",
+    "timestamp": "2026-07-28T11:01:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 1,
+        "1": 1,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 2,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Trade",
-            "count": 2
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "gg",
+            "name": "1",
             "count": 1
         },
         {
-            "name": "n druid torch",
+            "name": "dkjfcv",
             "count": 1
         },
         {
-            "name": "n necro torch",
-            "count": 1
-        },
-        {
-            "name": "4",
+            "name": "5",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "gg",
-            "count": 2,
+            "normalized": "#",
+            "count": 4,
             "examples": [
-                "gg"
+                "1",
+                "5"
             ]
         },
         {
-            "normalized": "#",
+            "normalized": "dkjfcv",
             "count": 2,
             "examples": [
-                "4"
+                "dkjfcv"
             ]
         }
     ],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "n druid torch",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "n necro torch",
-                "matched": "n",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 7.25
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 2.67
     }
 }
