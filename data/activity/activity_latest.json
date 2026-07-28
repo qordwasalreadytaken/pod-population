@@ -1,27 +1,27 @@
 {
-    "timestamp": "2026-07-28T15:55:00+00:00",
+    "timestamp": "2026-07-28T16:32:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 1,
-        "0": 1
+        "2": 9
     },
     "mode": {
         "1": 2,
-        "0": 3
+        "0": 7
     },
     "difficulty_mode": {
         "2|1": 2,
-        "2|0": 1,
-        "1|0": 1,
-        "0|0": 1
+        "2|0": 7
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 7
         },
         {
             "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Maps",
             "count": 1
         }
     ],
@@ -35,25 +35,75 @@
             "count": 1
         },
         {
+            "name": "fgfgfg",
+            "count": 1
+        },
+        {
+            "name": "dfhjhj",
+            "count": 1
+        },
+        {
+            "name": "hjkhjk",
+            "count": 1
+        },
+        {
+            "name": "hjkmlm",
+            "count": 1
+        },
+        {
+            "name": "fghgh",
+            "count": 1
+        },
+        {
+            "name": "cripmap",
+            "count": 1
+        },
+        {
             "name": "okijuh",
-            "count": 1
-        },
-        {
-            "name": "ooofff",
-            "count": 1
-        },
-        {
-            "name": "6",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "#",
-            "count": 4,
+            "count": 2,
             "examples": [
-                "1",
-                "6"
+                "1"
+            ]
+        },
+        {
+            "normalized": "fgfgfg",
+            "count": 2,
+            "examples": [
+                "fgfgfg"
+            ]
+        },
+        {
+            "normalized": "dfhjhj",
+            "count": 2,
+            "examples": [
+                "dfhjhj"
+            ]
+        },
+        {
+            "normalized": "hjkhjk",
+            "count": 2,
+            "examples": [
+                "hjkhjk"
+            ]
+        },
+        {
+            "normalized": "hjkmlm",
+            "count": 2,
+            "examples": [
+                "hjkmlm"
+            ]
+        },
+        {
+            "normalized": "fghgh",
+            "count": 2,
+            "examples": [
+                "fghgh"
             ]
         },
         {
@@ -61,13 +111,6 @@
             "count": 2,
             "examples": [
                 "okijuh"
-            ]
-        },
-        {
-            "normalized": "ooofff",
-            "count": 2,
-            "examples": [
-                "ooofff"
             ]
         }
     ],
@@ -78,11 +121,18 @@
                 "matched": "torch",
                 "count": 1
             }
+        ],
+        "Maps": [
+            {
+                "name": "cripmap",
+                "matched": "map",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 5.6
+        "unique_names": 9,
+        "public_games": 9,
+        "average_name_length": 6.33
     }
 }
