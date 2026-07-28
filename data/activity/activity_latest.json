@@ -1,9 +1,8 @@
 {
-    "timestamp": "2026-07-28T20:09:00+00:00",
+    "timestamp": "2026-07-28T20:39:00+00:00",
     "difficulty": {
         "2": 3,
-        "1": 1,
-        "0": 1
+        "0": 2
     },
     "mode": {
         "1": 1,
@@ -12,16 +11,19 @@
     "difficulty_mode": {
         "2|1": 1,
         "2|0": 2,
-        "1|0": 1,
-        "0|0": 1
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
@@ -35,15 +37,15 @@
             "count": 1
         },
         {
-            "name": "weaff",
+            "name": "n eld runes",
             "count": 1
         },
         {
-            "name": "aefweafw",
+            "name": "fewafwae",
             "count": 1
         },
         {
-            "name": "xodkfs",
+            "name": "mana",
             "count": 1
         },
         {
@@ -53,24 +55,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "weaff",
+            "normalized": "fewafwae",
             "count": 2,
             "examples": [
-                "weaff"
+                "fewafwae"
             ]
         },
         {
-            "normalized": "aefweafw",
+            "normalized": "mana",
             "count": 2,
             "examples": [
-                "aefweafw"
-            ]
-        },
-        {
-            "normalized": "xodkfs",
-            "count": 2,
-            "examples": [
-                "xodkfs"
+                "mana"
             ]
         }
     ],
@@ -82,10 +77,17 @@
                 "count": 1
             }
         ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "n eld runes",
+                "matched": "run",
+                "count": 1
+            }
+        ],
         "Leveling": [
             {
                 "name": "normal act",
-                "matched": "norm",
+                "matched": "act",
                 "count": 1
             }
         ]
@@ -93,6 +95,6 @@
     "interesting": {
         "unique_names": 5,
         "public_games": 5,
-        "average_name_length": 8.6
+        "average_name_length": 9.4
     }
 }
