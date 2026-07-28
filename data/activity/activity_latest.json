@@ -1,37 +1,33 @@
 {
-    "timestamp": "2026-07-28T21:07:00+00:00",
+    "timestamp": "2026-07-28T21:37:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 2,
+        "1": 1,
         "0": 2
     },
     "mode": {
-        "1": 1,
         "0": 5
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 3,
+        "2|0": 2,
+        "1|0": 1,
         "0|0": 2
     },
     "activities": [
-        {
-            "name": "Other",
-            "count": 3
-        },
         {
             "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
-            "name": "Trade",
+            "name": "Chaos",
+            "count": 2
+        },
+        {
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "need anixtorch",
-            "count": 1
-        },
         {
             "name": "fgghsff",
             "count": 1
@@ -41,15 +37,15 @@
             "count": 1
         },
         {
-            "name": "fewafwae",
+            "name": "i dia u 2",
+            "count": 1
+        },
+        {
+            "name": "i dia u 3",
             "count": 1
         },
         {
             "name": "3412342",
-            "count": 1
-        },
-        {
-            "name": "mana",
             "count": 1
         }
     ],
@@ -60,30 +56,9 @@
             "examples": [
                 "fgghsff"
             ]
-        },
-        {
-            "normalized": "fewafwae",
-            "count": 2,
-            "examples": [
-                "fewafwae"
-            ]
-        },
-        {
-            "normalized": "mana",
-            "count": 2,
-            "examples": [
-                "mana"
-            ]
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "need anixtorch",
-                "matched": "torch",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "n eld runes",
@@ -95,11 +70,23 @@
                 "matched": "123",
                 "count": 1
             }
+        ],
+        "Chaos": [
+            {
+                "name": "i dia u 2",
+                "matched": "dia",
+                "count": 1
+            },
+            {
+                "name": "i dia u 3",
+                "matched": "dia",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 8.5
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 8.6
     }
 }
