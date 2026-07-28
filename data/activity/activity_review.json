@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 342,
+        "count": 346,
         "examples": [
             "1",
             "11",
@@ -1668,6 +1668,14 @@
         "count": 4,
         "examples": [
             "hihi"
+        ]
+    },
+    {
+        "normalized": "jah ber plz #",
+        "count": 4,
+        "examples": [
+            "jah ber plz 1",
+            "jah ber plz 2"
         ]
     },
     {
@@ -4114,13 +4122,6 @@
         ]
     },
     {
-        "normalized": "jah ber plz #",
-        "count": 2,
-        "examples": [
-            "jah ber plz 1"
-        ]
-    },
-    {
         "normalized": "dd",
         "count": 2,
         "examples": [
@@ -4223,6 +4224,20 @@
         "count": 2,
         "examples": [
             "dkjfcv"
+        ]
+    },
+    {
+        "normalized": "ewafaefw",
+        "count": 2,
+        "examples": [
+            "ewafaefw"
+        ]
+    },
+    {
+        "normalized": "waefewaf",
+        "count": 2,
+        "examples": [
+            "waefewaf"
         ]
     }
 ]
