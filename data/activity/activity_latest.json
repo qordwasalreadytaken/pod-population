@@ -1,39 +1,39 @@
 {
-    "timestamp": "2026-07-28T20:39:00+00:00",
+    "timestamp": "2026-07-28T21:07:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 4,
         "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 2,
+        "2|0": 3,
         "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
+            "count": 3
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
             "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "need anixtorch",
+            "count": 1
+        },
+        {
+            "name": "fgghsff",
             "count": 1
         },
         {
@@ -45,15 +45,22 @@
             "count": 1
         },
         {
-            "name": "mana",
+            "name": "3412342",
             "count": 1
         },
         {
-            "name": "normal act",
+            "name": "mana",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "fgghsff",
+            "count": 2,
+            "examples": [
+                "fgghsff"
+            ]
+        },
         {
             "normalized": "fewafwae",
             "count": 2,
@@ -82,19 +89,17 @@
                 "name": "n eld runes",
                 "matched": "run",
                 "count": 1
-            }
-        ],
-        "Leveling": [
+            },
             {
-                "name": "normal act",
-                "matched": "act",
+                "name": "3412342",
+                "matched": "123",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 9.4
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 8.5
     }
 }
