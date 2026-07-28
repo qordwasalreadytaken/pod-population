@@ -1,47 +1,69 @@
 {
-    "timestamp": "2026-07-28T07:08:00+00:00",
+    "timestamp": "2026-07-28T08:03:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 3,
         "0": 1
     },
     "mode": {
-        "0": 2
+        "1": 1,
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1,
+        "2|1": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
-            "name": "Other",
-            "count": 1
+            "name": "Trade",
+            "count": 2
         }
     ],
     "top_games": [
+        {
+            "name": "gg",
+            "count": 1
+        },
+        {
+            "name": "n necro torch",
+            "count": 1
+        },
         {
             "name": "n druid torch",
             "count": 1
         },
         {
-            "name": "3",
+            "name": "4",
             "count": 1
         }
     ],
     "unknown_games": [
         {
+            "normalized": "gg",
+            "count": 2,
+            "examples": [
+                "gg"
+            ]
+        },
+        {
             "normalized": "#",
             "count": 2,
             "examples": [
-                "3"
+                "4"
             ]
         }
     ],
     "classified_games": {
         "Trade": [
+            {
+                "name": "n necro torch",
+                "matched": "torch",
+                "count": 1
+            },
             {
                 "name": "n druid torch",
                 "matched": "torch",
@@ -50,8 +72,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 7.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 7.25
     }
 }
