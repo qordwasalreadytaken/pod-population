@@ -801,6 +801,11 @@
             "name": "asdfg",
             "matched": "asd",
             "count": 1
+        },
+        {
+            "name": "asddgf",
+            "matched": "asd",
+            "count": 1
         }
     ],
     "Cows": [
@@ -968,7 +973,7 @@
         },
         {
             "name": "n free amatorch",
-            "matched": "torch",
+            "matched": "n",
             "count": 9
         },
         {
@@ -988,7 +993,7 @@
         },
         {
             "name": "n amatorch",
-            "matched": "torch",
+            "matched": "n",
             "count": 5
         },
         {
@@ -998,7 +1003,7 @@
         },
         {
             "name": "buy necr torch",
-            "matched": "buy",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -1013,6 +1018,11 @@
         },
         {
             "name": "n necro torch",
+            "matched": "torch",
+            "count": 4
+        },
+        {
+            "name": "need anixtorch",
             "matched": "torch",
             "count": 4
         },
@@ -1053,7 +1063,7 @@
         },
         {
             "name": "n 6os windforce",
-            "matched": "for",
+            "matched": "n",
             "count": 3
         },
         {
@@ -1064,11 +1074,6 @@
         {
             "name": "n highlords",
             "matched": "n",
-            "count": 3
-        },
-        {
-            "name": "need anixtorch",
-            "matched": "torch",
             "count": 3
         },
         {
@@ -1425,7 +1430,7 @@
         },
         {
             "name": "norm start",
-            "matched": "start",
+            "matched": "norm",
             "count": 4
         },
         {
@@ -1440,7 +1445,7 @@
         },
         {
             "name": "norm act",
-            "matched": "act",
+            "matched": "norm",
             "count": 4
         },
         {
@@ -1575,7 +1580,7 @@
         },
         {
             "name": "act 2 start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -1605,7 +1610,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -1792,7 +1797,7 @@
         },
         {
             "name": "maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 3
         },
         {
@@ -1802,7 +1807,7 @@
         },
         {
             "name": "maps-2",
-            "matched": "map",
+            "matched": "maps",
             "count": 2
         },
         {
