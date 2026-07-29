@@ -1,17 +1,18 @@
 {
-    "timestamp": "2026-07-29T21:32:00+00:00",
+    "timestamp": "2026-07-29T22:06:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 3
+        "2": 3,
+        "0": 2
     },
     "mode": {
-        "1": 1,
-        "0": 5
+        "1": 2,
+        "0": 3
     },
     "difficulty_mode": {
+        "2|1": 1,
         "0|1": 1,
-        "2|0": 3,
-        "0|0": 2
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
@@ -20,10 +21,14 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "1",
+            "count": 1
+        },
         {
             "name": "qe",
             "count": 1
@@ -37,19 +42,18 @@
             "count": 1
         },
         {
-            "name": "asdxc",
-            "count": 1
-        },
-        {
-            "name": "digdog",
-            "count": 1
-        },
-        {
             "name": "sgdf",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1"
+            ]
+        },
         {
             "normalized": "qe",
             "count": 2,
@@ -62,13 +66,6 @@
             "count": 2,
             "examples": [
                 "hfgdgh"
-            ]
-        },
-        {
-            "normalized": "digdog",
-            "count": 2,
-            "examples": [
-                "digdog"
             ]
         },
         {
@@ -85,17 +82,12 @@
                 "name": "n eld runes",
                 "matched": "run",
                 "count": 1
-            },
-            {
-                "name": "asdxc",
-                "matched": "asd",
-                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 5.67
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 4.8
     }
 }

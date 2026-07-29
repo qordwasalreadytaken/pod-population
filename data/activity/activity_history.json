@@ -3563,7 +3563,7 @@
             "Leveling": [
                 {
                     "name": "act 2 start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -9069,7 +9069,7 @@
             "Leveling": [
                 {
                     "name": "act start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -10541,7 +10541,7 @@
                 },
                 {
                     "name": "act hel start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -49132,7 +49132,7 @@
             "Leveling": [
                 {
                     "name": "norm act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -50674,7 +50674,7 @@
                 },
                 {
                     "name": "n 6os windforce",
-                    "matched": "for",
+                    "matched": "n",
                     "count": 1
                 },
                 {
@@ -50749,7 +50749,7 @@
             "Trade": [
                 {
                     "name": "n 6os windforce",
-                    "matched": "for",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -50862,7 +50862,7 @@
             "Trade": [
                 {
                     "name": "n 6os windforce",
-                    "matched": "for",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -54986,7 +54986,7 @@
             "Leveling": [
                 {
                     "name": "norm act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -55034,7 +55034,7 @@
                 },
                 {
                     "name": "norm act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -55117,7 +55117,7 @@
                 },
                 {
                     "name": "norm act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -68887,7 +68887,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "leveli",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -68958,7 +68958,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "leveli",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -86010,7 +86010,7 @@
             "Leveling": [
                 {
                     "name": "normal tombin",
-                    "matched": "tomb",
+                    "matched": "norm",
                     "count": 1
                 },
                 {
@@ -88273,7 +88273,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -88373,7 +88373,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -90867,6 +90867,99 @@
             "unique_names": 6,
             "public_games": 6,
             "average_name_length": 5.67
+        }
+    },
+    {
+        "timestamp": "2026-07-29T22:06:00+00:00",
+        "difficulty": {
+            "2": 3,
+            "0": 2
+        },
+        "mode": {
+            "1": 2,
+            "0": 3
+        },
+        "difficulty_mode": {
+            "2|1": 1,
+            "0|1": 1,
+            "2|0": 2,
+            "0|0": 1
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 4
+            },
+            {
+                "name": "Misc. Public MF Runs",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "1",
+                "count": 1
+            },
+            {
+                "name": "qe",
+                "count": 1
+            },
+            {
+                "name": "hfgdgh",
+                "count": 1
+            },
+            {
+                "name": "n eld runes",
+                "count": 1
+            },
+            {
+                "name": "sgdf",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "#",
+                "count": 2,
+                "examples": [
+                    "1"
+                ]
+            },
+            {
+                "normalized": "qe",
+                "count": 2,
+                "examples": [
+                    "qe"
+                ]
+            },
+            {
+                "normalized": "hfgdgh",
+                "count": 2,
+                "examples": [
+                    "hfgdgh"
+                ]
+            },
+            {
+                "normalized": "sgdf",
+                "count": 2,
+                "examples": [
+                    "sgdf"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Misc. Public MF Runs": [
+                {
+                    "name": "n eld runes",
+                    "matched": "run",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 5,
+            "public_games": 5,
+            "average_name_length": 4.8
         }
     }
 ]

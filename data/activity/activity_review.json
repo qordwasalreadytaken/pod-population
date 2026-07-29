@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 380,
+        "count": 382,
         "examples": [
             "1",
             "11",
@@ -42,7 +42,7 @@
     },
     {
         "normalized": "qe",
-        "count": 66,
+        "count": 68,
         "examples": [
             "qe"
         ]
@@ -483,6 +483,13 @@
         ]
     },
     {
+        "normalized": "sgdf",
+        "count": 10,
+        "examples": [
+            "sgdf"
+        ]
+    },
+    {
         "normalized": "a boss",
         "count": 8,
         "examples": [
@@ -665,13 +672,6 @@
         "count": 8,
         "examples": [
             "digdog"
-        ]
-    },
-    {
-        "normalized": "sgdf",
-        "count": 8,
-        "examples": [
-            "sgdf"
         ]
     },
     {
@@ -1789,6 +1789,13 @@
         "examples": [
             "fdfdfd 1",
             "fdfdfd 2"
+        ]
+    },
+    {
+        "normalized": "hfgdgh",
+        "count": 4,
+        "examples": [
+            "hfgdgh"
         ]
     },
     {
@@ -4498,13 +4505,6 @@
         "count": 2,
         "examples": [
             "wrtwrthr"
-        ]
-    },
-    {
-        "normalized": "hfgdgh",
-        "count": 2,
-        "examples": [
-            "hfgdgh"
         ]
     }
 ]
