@@ -1,39 +1,52 @@
 {
-    "timestamp": "2026-07-29T02:37:00+00:00",
+    "timestamp": "2026-07-29T03:51:00+00:00",
     "difficulty": {
-        "0": 1
+        "2": 2
     },
     "mode": {
-        "1": 1
+        "1": 1,
+        "0": 1
     },
     "difficulty_mode": {
-        "0|1": 1
+        "2|1": 1,
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "trav plz",
+            "name": "countess q",
+            "count": 1
+        },
+        {
+            "name": "qwe",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "trav plz",
+            "normalized": "countess q",
             "count": 2,
             "examples": [
-                "trav plz"
+                "countess q"
+            ]
+        },
+        {
+            "normalized": "qwe",
+            "count": 2,
+            "examples": [
+                "qwe"
             ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 8.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 6.5
     }
 }
