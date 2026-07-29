@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 372,
+        "count": 374,
         "examples": [
             "1",
             "11",
@@ -48,6 +48,13 @@
         ]
     },
     {
+        "normalized": "lvv",
+        "count": 64,
+        "examples": [
+            "lvv"
+        ]
+    },
+    {
         "normalized": "lel #",
         "count": 64,
         "examples": [
@@ -61,13 +68,6 @@
             "lel 7",
             "lel 8",
             "lel 9"
-        ]
-    },
-    {
-        "normalized": "lvv",
-        "count": 62,
-        "examples": [
-            "lvv"
         ]
     },
     {
@@ -4463,6 +4463,34 @@
         "count": 2,
         "examples": [
             "hell lvl"
+        ]
+    },
+    {
+        "normalized": "aefwaefw",
+        "count": 2,
+        "examples": [
+            "aefwaefw"
+        ]
+    },
+    {
+        "normalized": "digdog",
+        "count": 2,
+        "examples": [
+            "digdog"
+        ]
+    },
+    {
+        "normalized": "sgdf",
+        "count": 2,
+        "examples": [
+            "sgdf"
+        ]
+    },
+    {
+        "normalized": "tr",
+        "count": 2,
+        "examples": [
+            "tr"
         ]
     }
 ]

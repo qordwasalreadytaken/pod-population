@@ -1,24 +1,22 @@
 {
-    "timestamp": "2026-07-29T19:44:00+00:00",
+    "timestamp": "2026-07-29T20:13:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 1,
-        "0": 2
+        "2": 4,
+        "0": 5
     },
     "mode": {
         "1": 1,
-        "0": 5
+        "0": 8
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 2,
-        "1|0": 1,
-        "0|0": 2
+        "2|0": 3,
+        "0|0": 5
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 6
         },
         {
             "name": "Misc. Public MF Runs",
@@ -31,11 +29,15 @@
             "count": 2
         },
         {
-            "name": "hell lvl",
+            "name": "1",
             "count": 1
         },
         {
-            "name": "asddgf",
+            "name": "aefwaefw",
+            "count": 1
+        },
+        {
+            "name": "asdxc",
             "count": 1
         },
         {
@@ -43,16 +45,31 @@
             "count": 1
         },
         {
-            "name": "help plz",
+            "name": "digdog",
+            "count": 1
+        },
+        {
+            "name": "sgdf",
+            "count": 1
+        },
+        {
+            "name": "tr",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "hell lvl",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "hell lvl"
+                "1"
+            ]
+        },
+        {
+            "normalized": "aefwaefw",
+            "count": 2,
+            "examples": [
+                "aefwaefw"
             ]
         },
         {
@@ -63,10 +80,24 @@
             ]
         },
         {
-            "normalized": "help plz",
+            "normalized": "digdog",
             "count": 2,
             "examples": [
-                "help plz"
+                "digdog"
+            ]
+        },
+        {
+            "normalized": "sgdf",
+            "count": 2,
+            "examples": [
+                "sgdf"
+            ]
+        },
+        {
+            "normalized": "tr",
+            "count": 2,
+            "examples": [
+                "tr"
             ]
         }
     ],
@@ -78,15 +109,15 @@
                 "count": 2
             },
             {
-                "name": "asddgf",
+                "name": "asdxc",
                 "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 6,
-        "average_name_length": 5.8
+        "unique_names": 8,
+        "public_games": 9,
+        "average_name_length": 4.12
     }
 }
