@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 374,
+        "count": 376,
         "examples": [
             "1",
             "11",
@@ -1775,6 +1775,20 @@
         "examples": [
             "fdfdfd 1",
             "fdfdfd 2"
+        ]
+    },
+    {
+        "normalized": "digdog",
+        "count": 4,
+        "examples": [
+            "digdog"
+        ]
+    },
+    {
+        "normalized": "sgdf",
+        "count": 4,
+        "examples": [
+            "sgdf"
         ]
     },
     {
@@ -4473,24 +4487,17 @@
         ]
     },
     {
-        "normalized": "digdog",
-        "count": 2,
-        "examples": [
-            "digdog"
-        ]
-    },
-    {
-        "normalized": "sgdf",
-        "count": 2,
-        "examples": [
-            "sgdf"
-        ]
-    },
-    {
         "normalized": "tr",
         "count": 2,
         "examples": [
             "tr"
+        ]
+    },
+    {
+        "normalized": "wrtwrthr",
+        "count": 2,
+        "examples": [
+            "wrtwrthr"
         ]
     }
 ]
