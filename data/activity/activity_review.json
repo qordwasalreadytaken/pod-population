@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 388,
+        "count": 390,
         "examples": [
             "1",
             "11",
@@ -1867,6 +1867,13 @@
         "count": 4,
         "examples": [
             "br"
+        ]
+    },
+    {
+        "normalized": "erte",
+        "count": 4,
+        "examples": [
+            "erte"
         ]
     },
     {
@@ -4705,10 +4712,10 @@
         ]
     },
     {
-        "normalized": "erte",
+        "normalized": "erte #",
         "count": 2,
         "examples": [
-            "erte"
+            "erte 21"
         ]
     }
 ]

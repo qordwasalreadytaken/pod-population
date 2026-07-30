@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-30T21:39:00+00:00",
+    "timestamp": "2026-07-30T22:07:00+00:00",
     "difficulty": {
         "2": 3,
         "0": 2
@@ -17,13 +17,21 @@
             "count": 3
         },
         {
+            "name": "Trade",
+            "count": 1
+        },
+        {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "br",
+            "name": "erte 21",
+            "count": 1
+        },
+        {
+            "name": "o lo n ohm",
             "count": 1
         },
         {
@@ -31,24 +39,27 @@
             "count": 1
         },
         {
-            "name": "sdfgtfdsagasdg",
+            "name": "42343",
             "count": 1
         },
         {
             "name": "erte",
             "count": 1
-        },
-        {
-            "name": "41343",
-            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "br",
+            "normalized": "erte #",
             "count": 2,
             "examples": [
-                "br"
+                "erte 21"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "42343"
             ]
         },
         {
@@ -57,25 +68,20 @@
             "examples": [
                 "erte"
             ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "41343"
-            ]
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "o lo n ohm",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "n eld runes",
                 "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "sdfgtfdsagasdg",
-                "matched": "asd",
                 "count": 1
             }
         ]
@@ -83,6 +89,6 @@
     "interesting": {
         "unique_names": 5,
         "public_games": 5,
-        "average_name_length": 7.2
+        "average_name_length": 7.4
     }
 }
