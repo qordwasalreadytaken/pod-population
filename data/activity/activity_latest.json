@@ -1,107 +1,39 @@
 {
-    "timestamp": "2026-07-30T07:57:00+00:00",
+    "timestamp": "2026-07-30T09:00:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 4
+        "0": 2
     },
     "mode": {
-        "1": 1,
-        "0": 6
+        "0": 2
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 2,
-        "0|0": 4
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Leveling",
             "count": 2
-        },
-        {
-            "name": "Maps",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "lvl act",
-            "count": 2
-        },
-        {
-            "name": "gg",
-            "count": 1
-        },
-        {
-            "name": "chillmap",
-            "count": 1
-        },
-        {
-            "name": "fd 1",
-            "count": 1
-        },
-        {
-            "name": "hbgvrfcedxs",
-            "count": 1
-        },
-        {
             "name": "tt",
-            "count": 1
+            "count": 2
         }
     ],
     "unknown_games": [
         {
-            "normalized": "gg",
-            "count": 2,
-            "examples": [
-                "gg"
-            ]
-        },
-        {
-            "normalized": "fd #",
-            "count": 2,
-            "examples": [
-                "fd 1"
-            ]
-        },
-        {
-            "normalized": "hbgvrfcedxs",
-            "count": 2,
-            "examples": [
-                "hbgvrfcedxs"
-            ]
-        },
-        {
             "normalized": "tt",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "tt"
             ]
         }
     ],
-    "classified_games": {
-        "Maps": [
-            {
-                "name": "chillmap",
-                "matched": "map",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "lvl act",
-                "matched": "act",
-                "count": 2
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 5.67
+        "unique_names": 1,
+        "public_games": 2,
+        "average_name_length": 2.0
     }
 }
