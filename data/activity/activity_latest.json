@@ -1,25 +1,26 @@
 {
-    "timestamp": "2026-07-30T03:45:00+00:00",
+    "timestamp": "2026-07-30T05:00:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "2": 1,
+        "1": 1,
+        "0": 3
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 4
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 1,
-        "0|0": 1
+        "1|0": 1,
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 4
         },
         {
-            "name": "Trade",
+            "name": "Leveling",
             "count": 1
         }
     ],
@@ -29,7 +30,15 @@
             "count": 1
         },
         {
-            "name": "n nec torch :)",
+            "name": "undead",
+            "count": 1
+        },
+        {
+            "name": "lvlnorm 2",
+            "count": 1
+        },
+        {
+            "name": "help",
             "count": 1
         },
         {
@@ -46,6 +55,20 @@
             ]
         },
         {
+            "normalized": "undead",
+            "count": 2,
+            "examples": [
+                "undead"
+            ]
+        },
+        {
+            "normalized": "help",
+            "count": 2,
+            "examples": [
+                "help"
+            ]
+        },
+        {
             "normalized": "tt",
             "count": 2,
             "examples": [
@@ -54,17 +77,17 @@
         }
     ],
     "classified_games": {
-        "Trade": [
+        "Leveling": [
             {
-                "name": "n nec torch :)",
-                "matched": "n",
+                "name": "lvlnorm 2",
+                "matched": "norm",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 4.6
     }
 }
