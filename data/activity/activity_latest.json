@@ -1,33 +1,33 @@
 {
-    "timestamp": "2026-07-30T10:54:00+00:00",
+    "timestamp": "2026-07-30T11:36:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 2,
+        "1": 1,
         "0": 2
     },
     "mode": {
-        "0": 5
+        "1": 1,
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|1": 1,
+        "2|0": 1,
+        "1|0": 1,
         "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "fd 2",
+            "name": "a",
             "count": 1
         },
         {
@@ -35,38 +35,45 @@
             "count": 1
         },
         {
-            "name": "xc",
+            "name": "t",
             "count": 1
         },
         {
-            "name": "nhtybrve",
+            "name": "ynhjbtgvr",
             "count": 1
         },
         {
-            "name": "dasd",
+            "name": "hbtgvfd",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "fd #",
+            "normalized": "a",
             "count": 2,
             "examples": [
-                "fd 2"
+                "a"
             ]
         },
         {
-            "normalized": "xc",
+            "normalized": "t",
             "count": 2,
             "examples": [
-                "xc"
+                "t"
             ]
         },
         {
-            "normalized": "nhtybrve",
+            "normalized": "ynhjbtgvr",
             "count": 2,
             "examples": [
-                "nhtybrve"
+                "ynhjbtgvr"
+            ]
+        },
+        {
+            "normalized": "hbtgvfd",
+            "count": 2,
+            "examples": [
+                "hbtgvfd"
             ]
         }
     ],
@@ -75,13 +82,6 @@
             {
                 "name": "n druid torch",
                 "matched": "torch",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "dasd",
-                "matched": "asd",
                 "count": 1
             }
         ]
