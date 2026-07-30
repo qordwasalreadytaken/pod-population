@@ -1,31 +1,27 @@
 {
-    "timestamp": "2026-07-30T06:07:00+00:00",
+    "timestamp": "2026-07-30T07:08:00+00:00",
     "difficulty": {
-        "0": 4
+        "0": 3
     },
     "mode": {
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
-        "0|0": 4
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "vrgfecdxs",
+            "name": "nybhtgvrfc",
             "count": 1
         },
         {
-            "name": "hbtgvr",
-            "count": 1
-        },
-        {
-            "name": "btgvrfcess",
+            "name": "btvrgfced",
             "count": 1
         },
         {
@@ -35,24 +31,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "vrgfecdxs",
+            "normalized": "nybhtgvrfc",
             "count": 2,
             "examples": [
-                "vrgfecdxs"
+                "nybhtgvrfc"
             ]
         },
         {
-            "normalized": "hbtgvr",
+            "normalized": "btvrgfced",
             "count": 2,
             "examples": [
-                "hbtgvr"
-            ]
-        },
-        {
-            "normalized": "btgvrfcess",
-            "count": 2,
-            "examples": [
-                "btgvrfcess"
+                "btvrgfced"
             ]
         },
         {
@@ -65,8 +54,8 @@
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.75
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 7.0
     }
 }
