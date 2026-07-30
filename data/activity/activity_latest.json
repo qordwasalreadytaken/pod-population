@@ -1,98 +1,52 @@
 {
-    "timestamp": "2026-07-30T13:32:00+00:00",
+    "timestamp": "2026-07-30T14:30:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 4
+        "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 5
+        "0": 1
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 1,
-        "1|0": 4
+        "0|1": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 6
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "gg",
+            "name": "a",
             "count": 1
         },
         {
-            "name": "sgfnsgh",
-            "count": 1
-        },
-        {
-            "name": "njyhbtgvrf",
-            "count": 1
-        },
-        {
-            "name": "nyjhtbgvrfce",
-            "count": 1
-        },
-        {
-            "name": "heplps",
-            "count": 1
-        },
-        {
-            "name": "t",
+            "name": "help",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "gg",
+            "normalized": "a",
             "count": 2,
             "examples": [
-                "gg"
+                "a"
             ]
         },
         {
-            "normalized": "sgfnsgh",
+            "normalized": "help",
             "count": 2,
             "examples": [
-                "sgfnsgh"
-            ]
-        },
-        {
-            "normalized": "njyhbtgvrf",
-            "count": 2,
-            "examples": [
-                "njyhbtgvrf"
-            ]
-        },
-        {
-            "normalized": "nyjhtbgvrfce",
-            "count": 2,
-            "examples": [
-                "nyjhtbgvrfce"
-            ]
-        },
-        {
-            "normalized": "heplps",
-            "count": 2,
-            "examples": [
-                "heplps"
-            ]
-        },
-        {
-            "normalized": "t",
-            "count": 2,
-            "examples": [
-                "t"
+                "help"
             ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 6.33
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 2.5
     }
 }
