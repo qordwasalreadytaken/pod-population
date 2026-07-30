@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 390,
+        "count": 392,
         "examples": [
             "1",
             "11",
@@ -48,17 +48,17 @@
         ]
     },
     {
+        "normalized": "qe",
+        "count": 70,
+        "examples": [
+            "qe"
+        ]
+    },
+    {
         "normalized": "gg",
         "count": 70,
         "examples": [
             "gg"
-        ]
-    },
-    {
-        "normalized": "qe",
-        "count": 68,
-        "examples": [
-            "qe"
         ]
     },
     {
@@ -1874,6 +1874,13 @@
         "count": 4,
         "examples": [
             "erte"
+        ]
+    },
+    {
+        "normalized": "erte #",
+        "count": 4,
+        "examples": [
+            "erte 21"
         ]
     },
     {
@@ -4709,13 +4716,6 @@
         "count": 2,
         "examples": [
             "hell taxi new"
-        ]
-    },
-    {
-        "normalized": "erte #",
-        "count": 2,
-        "examples": [
-            "erte 21"
         ]
     }
 ]
