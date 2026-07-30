@@ -1,61 +1,61 @@
 {
-    "timestamp": "2026-07-30T19:15:00+00:00",
+    "timestamp": "2026-07-30T20:00:00+00:00",
     "difficulty": {
-        "1": 1,
-        "0": 3
+        "2": 1,
+        "1": 2,
+        "0": 1
     },
     "mode": {
         "0": 4
     },
     "difficulty_mode": {
-        "1|0": 1,
-        "0|0": 3
+        "2|0": 1,
+        "1|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 3
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asfgjh",
+            "name": "drun",
             "count": 2
         },
         {
-            "name": "taxi",
+            "name": "hell taxi new",
             "count": 1
         },
         {
-            "name": "dasda",
+            "name": "341234",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "asfgjh",
-            "count": 4,
-            "examples": [
-                "asfgjh"
-            ]
-        },
-        {
-            "normalized": "taxi",
+            "normalized": "hell taxi new",
             "count": 2,
             "examples": [
-                "taxi"
+                "hell taxi new"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "dasda",
-                "matched": "asd",
+                "name": "drun",
+                "matched": "run",
+                "count": 2
+            },
+            {
+                "name": "341234",
+                "matched": "123",
                 "count": 1
             }
         ]
@@ -63,6 +63,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 4,
-        "average_name_length": 5.0
+        "average_name_length": 7.67
     }
 }
