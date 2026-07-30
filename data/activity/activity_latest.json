@@ -1,50 +1,27 @@
 {
-    "timestamp": "2026-07-30T01:32:00+00:00",
+    "timestamp": "2026-07-30T02:36:00+00:00",
     "difficulty": {
-        "0": 2,
-        "1": 1
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "qordruns",
-            "count": 1
-        },
-        {
-            "name": "stevie is cool",
-            "count": 1
-        },
         {
             "name": "t",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "stevie is cool",
-            "count": 2,
-            "examples": [
-                "stevie is cool"
-            ]
-        },
         {
             "normalized": "t",
             "count": 2,
@@ -53,18 +30,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "qordruns",
-                "matched": "run",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 7.67
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 1.0
     }
 }
