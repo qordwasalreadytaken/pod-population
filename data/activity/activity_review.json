@@ -218,6 +218,13 @@
         ]
     },
     {
+        "normalized": "hell o",
+        "count": 22,
+        "examples": [
+            "hell o"
+        ]
+    },
+    {
         "normalized": "lvl",
         "count": 22,
         "examples": [
@@ -250,13 +257,6 @@
         "count": 20,
         "examples": [
             "fueguitos"
-        ]
-    },
-    {
-        "normalized": "hell o",
-        "count": 20,
-        "examples": [
-            "hell o"
         ]
     },
     {
@@ -4646,6 +4646,20 @@
         "count": 2,
         "examples": [
             "heplps"
+        ]
+    },
+    {
+        "normalized": "gs # gs # only",
+        "count": 2,
+        "examples": [
+            "gs 10 gs 9 only"
+        ]
+    },
+    {
+        "normalized": "qehqerh",
+        "count": 2,
+        "examples": [
+            "qehqerh"
         ]
     }
 ]
