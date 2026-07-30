@@ -1,27 +1,51 @@
 {
-    "timestamp": "2026-07-30T07:08:00+00:00",
+    "timestamp": "2026-07-30T07:57:00+00:00",
     "difficulty": {
-        "0": 3
+        "2": 3,
+        "0": 4
     },
     "mode": {
-        "0": 3
+        "1": 1,
+        "0": 6
     },
     "difficulty_mode": {
-        "0|0": 3
+        "2|1": 1,
+        "2|0": 2,
+        "0|0": 4
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
+        },
+        {
+            "name": "Leveling",
+            "count": 2
+        },
+        {
+            "name": "Maps",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "nybhtgvrfc",
+            "name": "lvl act",
+            "count": 2
+        },
+        {
+            "name": "gg",
             "count": 1
         },
         {
-            "name": "btvrgfced",
+            "name": "chillmap",
+            "count": 1
+        },
+        {
+            "name": "fd 1",
+            "count": 1
+        },
+        {
+            "name": "hbgvrfcedxs",
             "count": 1
         },
         {
@@ -31,17 +55,24 @@
     ],
     "unknown_games": [
         {
-            "normalized": "nybhtgvrfc",
+            "normalized": "gg",
             "count": 2,
             "examples": [
-                "nybhtgvrfc"
+                "gg"
             ]
         },
         {
-            "normalized": "btvrgfced",
+            "normalized": "fd #",
             "count": 2,
             "examples": [
-                "btvrgfced"
+                "fd 1"
+            ]
+        },
+        {
+            "normalized": "hbgvrfcedxs",
+            "count": 2,
+            "examples": [
+                "hbgvrfcedxs"
             ]
         },
         {
@@ -52,10 +83,25 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Maps": [
+            {
+                "name": "chillmap",
+                "matched": "map",
+                "count": 1
+            }
+        ],
+        "Leveling": [
+            {
+                "name": "lvl act",
+                "matched": "act",
+                "count": 2
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 7.0
+        "unique_names": 6,
+        "public_games": 7,
+        "average_name_length": 5.67
     }
 }
