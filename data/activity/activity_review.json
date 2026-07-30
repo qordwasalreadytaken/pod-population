@@ -63,7 +63,7 @@
     },
     {
         "normalized": "lvv",
-        "count": 64,
+        "count": 66,
         "examples": [
             "lvv"
         ]
@@ -1023,6 +1023,14 @@
         ]
     },
     {
+        "normalized": "fd #",
+        "count": 6,
+        "examples": [
+            "fd 1",
+            "fd 2"
+        ]
+    },
+    {
         "normalized": "sgfnsgh",
         "count": 6,
         "examples": [
@@ -1820,14 +1828,6 @@
         ]
     },
     {
-        "normalized": "fd #",
-        "count": 4,
-        "examples": [
-            "fd 1",
-            "fd 2"
-        ]
-    },
-    {
         "normalized": "needpal t#oset",
         "count": 4,
         "examples": [
@@ -1839,6 +1839,13 @@
         "count": 4,
         "examples": [
             "xc"
+        ]
+    },
+    {
+        "normalized": "thbgrvcefd",
+        "count": 4,
+        "examples": [
+            "thbgrvcefd"
         ]
     },
     {
@@ -4660,13 +4667,6 @@
         "count": 2,
         "examples": [
             "qehqerh"
-        ]
-    },
-    {
-        "normalized": "thbgrvcefd",
-        "count": 2,
-        "examples": [
-            "thbgrvcefd"
         ]
     }
 ]
