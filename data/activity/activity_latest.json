@@ -1,24 +1,22 @@
 {
-    "timestamp": "2026-07-30T11:36:00+00:00",
+    "timestamp": "2026-07-30T12:15:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1,
-        "0": 2
+        "2": 3,
+        "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 1,
-        "1|0": 1,
-        "0|0": 2
+        "2|0": 2,
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 3
         },
         {
             "name": "Trade",
@@ -31,19 +29,15 @@
             "count": 1
         },
         {
+            "name": "sgfnsgh",
+            "count": 1
+        },
+        {
             "name": "n druid torch",
             "count": 1
         },
         {
             "name": "t",
-            "count": 1
-        },
-        {
-            "name": "ynhjbtgvr",
-            "count": 1
-        },
-        {
-            "name": "hbtgvfd",
             "count": 1
         }
     ],
@@ -56,24 +50,17 @@
             ]
         },
         {
+            "normalized": "sgfnsgh",
+            "count": 2,
+            "examples": [
+                "sgfnsgh"
+            ]
+        },
+        {
             "normalized": "t",
             "count": 2,
             "examples": [
                 "t"
-            ]
-        },
-        {
-            "normalized": "ynhjbtgvr",
-            "count": 2,
-            "examples": [
-                "ynhjbtgvr"
-            ]
-        },
-        {
-            "normalized": "hbtgvfd",
-            "count": 2,
-            "examples": [
-                "hbtgvfd"
             ]
         }
     ],
@@ -81,14 +68,14 @@
         "Trade": [
             {
                 "name": "n druid torch",
-                "matched": "torch",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.2
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 5.5
     }
 }
