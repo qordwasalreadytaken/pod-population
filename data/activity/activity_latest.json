@@ -1,22 +1,24 @@
 {
-    "timestamp": "2026-07-30T10:01:00+00:00",
+    "timestamp": "2026-07-30T10:54:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 3,
         "0": 2
     },
     "mode": {
-        "1": 1,
         "0": 5
     },
     "difficulty_mode": {
-        "2|1": 1,
         "2|0": 3,
         "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 3
+        },
+        {
+            "name": "Trade",
+            "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
@@ -25,11 +27,11 @@
     ],
     "top_games": [
         {
-            "name": "needpal t4oset",
-            "count": 2
+            "name": "fd 2",
+            "count": 1
         },
         {
-            "name": "gg",
+            "name": "n druid torch",
             "count": 1
         },
         {
@@ -37,27 +39,20 @@
             "count": 1
         },
         {
-            "name": "dasd",
+            "name": "nhtybrve",
             "count": 1
         },
         {
-            "name": "tt",
+            "name": "dasd",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "needpal t#oset",
-            "count": 4,
-            "examples": [
-                "needpal t4oset"
-            ]
-        },
-        {
-            "normalized": "gg",
+            "normalized": "fd #",
             "count": 2,
             "examples": [
-                "gg"
+                "fd 2"
             ]
         },
         {
@@ -68,14 +63,21 @@
             ]
         },
         {
-            "normalized": "tt",
+            "normalized": "nhtybrve",
             "count": 2,
             "examples": [
-                "tt"
+                "nhtybrve"
             ]
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n druid torch",
+                "matched": "torch",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "dasd",
@@ -86,7 +88,7 @@
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 6,
-        "average_name_length": 4.8
+        "public_games": 5,
+        "average_name_length": 6.2
     }
 }

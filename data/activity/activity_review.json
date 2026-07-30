@@ -1813,10 +1813,25 @@
         ]
     },
     {
+        "normalized": "fd #",
+        "count": 4,
+        "examples": [
+            "fd 1",
+            "fd 2"
+        ]
+    },
+    {
         "normalized": "needpal t#oset",
         "count": 4,
         "examples": [
             "needpal t4oset"
+        ]
+    },
+    {
+        "normalized": "xc",
+        "count": 4,
+        "examples": [
+            "xc"
         ]
     },
     {
@@ -4578,13 +4593,6 @@
         ]
     },
     {
-        "normalized": "fd #",
-        "count": 2,
-        "examples": [
-            "fd 1"
-        ]
-    },
-    {
         "normalized": "hbgvrfcedxs",
         "count": 2,
         "examples": [
@@ -4592,10 +4600,10 @@
         ]
     },
     {
-        "normalized": "xc",
+        "normalized": "nhtybrve",
         "count": 2,
         "examples": [
-            "xc"
+            "nhtybrve"
         ]
     }
 ]
