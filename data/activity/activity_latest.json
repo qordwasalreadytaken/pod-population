@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-31T11:17:00+00:00",
+    "timestamp": "2026-07-31T12:10:00+00:00",
     "difficulty": {
         "2": 1
     },
@@ -17,16 +17,16 @@
     ],
     "top_games": [
         {
-            "name": "fd 3",
+            "name": "gg",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "fd #",
+            "normalized": "gg",
             "count": 2,
             "examples": [
-                "fd 3"
+                "gg"
             ]
         }
     ],
@@ -34,6 +34,6 @@
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 4.0
+        "average_name_length": 2.0
     }
 }
