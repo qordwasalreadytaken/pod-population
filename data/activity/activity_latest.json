@@ -1,15 +1,16 @@
 {
-    "timestamp": "2026-07-31T15:29:00+00:00",
+    "timestamp": "2026-07-31T16:12:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
+        "1": 1,
+        "2": 1
     },
     "mode": {
-        "0": 2
+        "1": 1,
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 1
+        "1|1": 1,
+        "2|0": 1
     },
     "activities": [
         {
@@ -19,27 +20,27 @@
     ],
     "top_games": [
         {
-            "name": "btvgrfc",
+            "name": "gg",
             "count": 1
         },
         {
-            "name": "fate",
+            "name": "btrvcwfw",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "btvgrfc",
+            "normalized": "gg",
             "count": 2,
             "examples": [
-                "btvgrfc"
+                "gg"
             ]
         },
         {
-            "normalized": "fate",
+            "normalized": "btrvcwfw",
             "count": 2,
             "examples": [
-                "fate"
+                "btrvcwfw"
             ]
         }
     ],
@@ -47,6 +48,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 5.5
+        "average_name_length": 5.0
     }
 }
