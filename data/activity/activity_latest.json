@@ -1,19 +1,15 @@
 {
-    "timestamp": "2026-07-31T22:07:00+00:00",
+    "timestamp": "2026-07-31T22:35:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 1
     },
     "mode": {
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 1
     },
     "activities": [
-        {
-            "name": "Other",
-            "count": 1
-        },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
@@ -21,23 +17,11 @@
     ],
     "top_games": [
         {
-            "name": "dafgaerg",
-            "count": 1
-        },
-        {
             "name": "run",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "dafgaerg",
-            "count": 2,
-            "examples": [
-                "dafgaerg"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
@@ -48,8 +32,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 5.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 3.0
     }
 }
