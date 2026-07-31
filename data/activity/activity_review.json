@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 392,
+        "count": 394,
         "examples": [
             "1",
             "11",
@@ -497,6 +497,15 @@
         ]
     },
     {
+        "normalized": "fd #",
+        "count": 10,
+        "examples": [
+            "fd 1",
+            "fd 2",
+            "fd 3"
+        ]
+    },
+    {
         "normalized": "asfgjh",
         "count": 10,
         "examples": [
@@ -679,15 +688,6 @@
         "count": 8,
         "examples": [
             "digdog"
-        ]
-    },
-    {
-        "normalized": "fd #",
-        "count": 8,
-        "examples": [
-            "fd 1",
-            "fd 2",
-            "fd 3"
         ]
     },
     {
