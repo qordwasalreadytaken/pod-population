@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-07-31T21:37:00+00:00",
+    "timestamp": "2026-07-31T22:07:00+00:00",
     "difficulty": {
         "2": 2
     },
@@ -11,30 +11,30 @@
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "run",
+            "name": "dafgaerg",
             "count": 1
         },
         {
-            "name": "dgjdjsdgfd",
+            "name": "run",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "dgjdjsdgfd",
+            "normalized": "dafgaerg",
             "count": 2,
             "examples": [
-                "dgjdjsdgfd"
+                "dafgaerg"
             ]
         }
     ],
@@ -50,6 +50,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 6.5
+        "average_name_length": 5.5
     }
 }
