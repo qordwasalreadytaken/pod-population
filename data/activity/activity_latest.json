@@ -1,63 +1,15 @@
 {
-    "timestamp": "2026-07-31T09:26:00+00:00",
-    "difficulty": {
-        "2": 3
-    },
-    "mode": {
-        "1": 1,
-        "0": 2
-    },
-    "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 2
-    },
-    "activities": [
-        {
-            "name": "Other",
-            "count": 3
-        }
-    ],
-    "top_games": [
-        {
-            "name": "gg",
-            "count": 1
-        },
-        {
-            "name": "jah ber plz 2",
-            "count": 1
-        },
-        {
-            "name": "hbtvgrfce",
-            "count": 1
-        }
-    ],
-    "unknown_games": [
-        {
-            "normalized": "gg",
-            "count": 2,
-            "examples": [
-                "gg"
-            ]
-        },
-        {
-            "normalized": "jah ber plz #",
-            "count": 2,
-            "examples": [
-                "jah ber plz 2"
-            ]
-        },
-        {
-            "normalized": "hbtvgrfce",
-            "count": 2,
-            "examples": [
-                "hbtvgrfce"
-            ]
-        }
-    ],
+    "timestamp": "2026-07-31T10:21:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "difficulty_mode": {},
+    "activities": [],
+    "top_games": [],
+    "unknown_games": [],
     "classified_games": {},
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 8.0
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
