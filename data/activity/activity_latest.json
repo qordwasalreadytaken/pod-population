@@ -1,28 +1,29 @@
 {
-    "timestamp": "2026-08-01T21:16:00+00:00",
+    "timestamp": "2026-08-01T21:46:00+00:00",
     "difficulty": {
         "1": 2,
-        "2": 1,
-        "0": 2
+        "0": 2,
+        "2": 3
     },
     "mode": {
-        "1": 1,
-        "0": 4
+        "1": 2,
+        "0": 5
     },
     "difficulty_mode": {
         "1|1": 1,
-        "2|0": 1,
+        "0|1": 1,
+        "2|0": 3,
         "1|0": 1,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 5
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
@@ -31,15 +32,23 @@
             "count": 1
         },
         {
-            "name": "dfhzhr",
+            "name": "qe",
+            "count": 1
+        },
+        {
+            "name": "255",
+            "count": 1
+        },
+        {
+            "name": "123123",
+            "count": 1
+        },
+        {
+            "name": "efvcevce",
             "count": 1
         },
         {
             "name": "gord",
-            "count": 1
-        },
-        {
-            "name": "need dur wp plz",
             "count": 1
         },
         {
@@ -56,17 +65,24 @@
             ]
         },
         {
-            "normalized": "dfhzhr",
+            "normalized": "qe",
             "count": 2,
             "examples": [
-                "dfhzhr"
+                "qe"
             ]
         },
         {
-            "normalized": "need dur wp plz",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "need dur wp plz"
+                "255"
+            ]
+        },
+        {
+            "normalized": "efvcevce",
+            "count": 2,
+            "examples": [
+                "efvcevce"
             ]
         },
         {
@@ -80,6 +96,11 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
+                "name": "123123",
+                "matched": "123",
+                "count": 1
+            },
+            {
                 "name": "gord",
                 "matched": "gord",
                 "count": 1
@@ -87,8 +108,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.0
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 4.0
     }
 }
