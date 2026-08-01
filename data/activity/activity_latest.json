@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-08-01T17:20:00+00:00",
+    "timestamp": "2026-08-01T17:47:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "2": 3,
+        "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 1,
-        "0|0": 1
+        "2|0": 2,
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
@@ -29,11 +29,15 @@
             "count": 1
         },
         {
+            "name": "need infin base",
+            "count": 1
+        },
+        {
             "name": "fd 1",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "gord",
             "count": 1
         }
     ],
@@ -43,6 +47,13 @@
             "count": 2,
             "examples": [
                 "npalaskiler"
+            ]
+        },
+        {
+            "normalized": "need infin base",
+            "count": 2,
+            "examples": [
+                "need infin base"
             ]
         },
         {
@@ -56,15 +67,15 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
-                "matched": "asd",
+                "name": "gord",
+                "matched": "gord",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 8.5
     }
 }

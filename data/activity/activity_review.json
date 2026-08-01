@@ -153,7 +153,7 @@
     },
     {
         "normalized": "npalaskiler",
-        "count": 32,
+        "count": 34,
         "examples": [
             "npalaskiler"
         ]
@@ -335,6 +335,15 @@
         ]
     },
     {
+        "normalized": "fd #",
+        "count": 14,
+        "examples": [
+            "fd 1",
+            "fd 2",
+            "fd 3"
+        ]
+    },
+    {
         "normalized": "qwerqwer",
         "count": 12,
         "examples": [
@@ -402,15 +411,6 @@
         "count": 12,
         "examples": [
             "helpme"
-        ]
-    },
-    {
-        "normalized": "fd #",
-        "count": 12,
-        "examples": [
-            "fd 1",
-            "fd 2",
-            "fd 3"
         ]
     },
     {
@@ -4920,6 +4920,13 @@
         "count": 2,
         "examples": [
             "5r3r"
+        ]
+    },
+    {
+        "normalized": "need infin base",
+        "count": 2,
+        "examples": [
+            "need infin base"
         ]
     }
 ]
