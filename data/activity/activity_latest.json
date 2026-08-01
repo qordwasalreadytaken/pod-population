@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-08-01T21:46:00+00:00",
+    "timestamp": "2026-08-01T22:17:00+00:00",
     "difficulty": {
-        "1": 2,
-        "0": 2,
-        "2": 3
+        "1": 5,
+        "0": 4,
+        "2": 2
     },
     "mode": {
         "1": 2,
-        "0": 5
+        "0": 9
     },
     "difficulty_mode": {
         "1|1": 1,
         "0|1": 1,
-        "2|0": 3,
-        "1|0": 1,
-        "0|0": 1
+        "2|0": 2,
+        "1|0": 4,
+        "0|0": 3
     },
     "activities": [
         {
@@ -22,11 +22,19 @@
             "count": 5
         },
         {
+            "name": "Chaos",
+            "count": 3
+        },
+        {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 3
         }
     ],
     "top_games": [
+        {
+            "name": "asd",
+            "count": 2
+        },
         {
             "name": "nm",
             "count": 1
@@ -36,15 +44,23 @@
             "count": 1
         },
         {
-            "name": "255",
+            "name": "ytbhgvrfc",
             "count": 1
         },
         {
-            "name": "123123",
+            "name": "dfgokdf",
             "count": 1
         },
         {
-            "name": "efvcevce",
+            "name": "nm chaos 3",
+            "count": 1
+        },
+        {
+            "name": "nm chaos 2",
+            "count": 1
+        },
+        {
+            "name": "nm chaos 1",
             "count": 1
         },
         {
@@ -72,17 +88,17 @@
             ]
         },
         {
-            "normalized": "#",
+            "normalized": "ytbhgvrfc",
             "count": 2,
             "examples": [
-                "255"
+                "ytbhgvrfc"
             ]
         },
         {
-            "normalized": "efvcevce",
+            "normalized": "dfgokdf",
             "count": 2,
             "examples": [
-                "efvcevce"
+                "dfgokdf"
             ]
         },
         {
@@ -94,11 +110,28 @@
         }
     ],
     "classified_games": {
+        "Chaos": [
+            {
+                "name": "nm chaos 3",
+                "matched": "chaos",
+                "count": 1
+            },
+            {
+                "name": "nm chaos 2",
+                "matched": "chaos",
+                "count": 1
+            },
+            {
+                "name": "nm chaos 1",
+                "matched": "chaos",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
-                "name": "123123",
-                "matched": "123",
-                "count": 1
+                "name": "asd",
+                "matched": "asd",
+                "count": 2
             },
             {
                 "name": "gord",
@@ -108,8 +141,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 4.0
+        "unique_names": 10,
+        "public_games": 11,
+        "average_name_length": 6.0
     }
 }
