@@ -1,39 +1,47 @@
 {
-    "timestamp": "2026-08-01T22:17:00+00:00",
+    "timestamp": "2026-08-01T22:46:00+00:00",
     "difficulty": {
-        "1": 5,
+        "1": 3,
         "0": 4,
         "2": 2
     },
     "mode": {
-        "1": 2,
-        "0": 9
+        "1": 3,
+        "0": 6
     },
     "difficulty_mode": {
-        "1|1": 1,
+        "1|1": 2,
         "0|1": 1,
         "2|0": 2,
-        "1|0": 4,
+        "1|0": 1,
         "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
-        },
-        {
-            "name": "Chaos",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Misc. Public MF Runs",
             "count": 3
+        },
+        {
+            "name": "Leveling",
+            "count": 1
+        },
+        {
+            "name": "Rush",
+            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "asd",
             "count": 2
+        },
+        {
+            "name": "act",
+            "count": 1
         },
         {
             "name": "nm",
@@ -44,23 +52,11 @@
             "count": 1
         },
         {
-            "name": "ytbhgvrfc",
+            "name": "hell rush",
             "count": 1
         },
         {
             "name": "dfgokdf",
-            "count": 1
-        },
-        {
-            "name": "nm chaos 3",
-            "count": 1
-        },
-        {
-            "name": "nm chaos 2",
-            "count": 1
-        },
-        {
-            "name": "nm chaos 1",
             "count": 1
         },
         {
@@ -88,13 +84,6 @@
             ]
         },
         {
-            "normalized": "ytbhgvrfc",
-            "count": 2,
-            "examples": [
-                "ytbhgvrfc"
-            ]
-        },
-        {
             "normalized": "dfgokdf",
             "count": 2,
             "examples": [
@@ -110,20 +99,17 @@
         }
     ],
     "classified_games": {
-        "Chaos": [
+        "Leveling": [
             {
-                "name": "nm chaos 3",
-                "matched": "chaos",
+                "name": "act",
+                "matched": "act",
                 "count": 1
-            },
+            }
+        ],
+        "Rush": [
             {
-                "name": "nm chaos 2",
-                "matched": "chaos",
-                "count": 1
-            },
-            {
-                "name": "nm chaos 1",
-                "matched": "chaos",
+                "name": "hell rush",
+                "matched": "rush",
                 "count": 1
             }
         ],
@@ -141,8 +127,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 10,
-        "public_games": 11,
-        "average_name_length": 6.0
+        "unique_names": 8,
+        "public_games": 9,
+        "average_name_length": 4.12
     }
 }
