@@ -152,17 +152,17 @@
         ]
     },
     {
+        "normalized": "npalaskiler",
+        "count": 32,
+        "examples": [
+            "npalaskiler"
+        ]
+    },
+    {
         "normalized": "eq",
         "count": 30,
         "examples": [
             "eq"
-        ]
-    },
-    {
-        "normalized": "npalaskiler",
-        "count": 30,
-        "examples": [
-            "npalaskiler"
         ]
     },
     {
@@ -405,6 +405,15 @@
         ]
     },
     {
+        "normalized": "fd #",
+        "count": 12,
+        "examples": [
+            "fd 1",
+            "fd 2",
+            "fd 3"
+        ]
+    },
+    {
         "normalized": "ist,ohm plz",
         "count": 10,
         "examples": [
@@ -501,15 +510,6 @@
         "count": 10,
         "examples": [
             "sgdf"
-        ]
-    },
-    {
-        "normalized": "fd #",
-        "count": 10,
-        "examples": [
-            "fd 1",
-            "fd 2",
-            "fd 3"
         ]
     },
     {
