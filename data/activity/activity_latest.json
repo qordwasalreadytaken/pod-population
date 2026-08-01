@@ -1,19 +1,19 @@
 {
-    "timestamp": "2026-08-01T20:46:00+00:00",
+    "timestamp": "2026-08-01T21:16:00+00:00",
     "difficulty": {
         "1": 2,
         "2": 1,
-        "0": 3
+        "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
         "1|1": 1,
         "2|0": 1,
         "1|0": 1,
-        "0|0": 3
+        "0|0": 2
     },
     "activities": [
         {
@@ -22,7 +22,7 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
@@ -31,7 +31,7 @@
             "count": 1
         },
         {
-            "name": "atrhzaezt",
+            "name": "dfhzhr",
             "count": 1
         },
         {
@@ -39,15 +39,11 @@
             "count": 1
         },
         {
+            "name": "need dur wp plz",
+            "count": 1
+        },
+        {
             "name": "lvv",
-            "count": 1
-        },
-        {
-            "name": "need trav wpplz",
-            "count": 1
-        },
-        {
-            "name": "asd",
             "count": 1
         }
     ],
@@ -60,10 +56,17 @@
             ]
         },
         {
-            "normalized": "atrhzaezt",
+            "normalized": "dfhzhr",
             "count": 2,
             "examples": [
-                "atrhzaezt"
+                "dfhzhr"
+            ]
+        },
+        {
+            "normalized": "need dur wp plz",
+            "count": 2,
+            "examples": [
+                "need dur wp plz"
             ]
         },
         {
@@ -71,13 +74,6 @@
             "count": 2,
             "examples": [
                 "lvv"
-            ]
-        },
-        {
-            "normalized": "need trav wpplz",
-            "count": 2,
-            "examples": [
-                "need trav wpplz"
             ]
         }
     ],
@@ -87,17 +83,12 @@
                 "name": "gord",
                 "matched": "gord",
                 "count": 1
-            },
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
+        "unique_names": 5,
+        "public_games": 5,
         "average_name_length": 6.0
     }
 }
