@@ -1,64 +1,15 @@
 {
-    "timestamp": "2026-08-01T01:34:00+00:00",
-    "difficulty": {
-        "1": 1,
-        "2": 2
-    },
-    "mode": {
-        "1": 1,
-        "0": 2
-    },
-    "difficulty_mode": {
-        "1|1": 1,
-        "2|0": 2
-    },
-    "activities": [
-        {
-            "name": "Other",
-            "count": 3
-        }
-    ],
-    "top_games": [
-        {
-            "name": "gg",
-            "count": 1
-        },
-        {
-            "name": "tttt",
-            "count": 1
-        },
-        {
-            "name": "need tr amulet",
-            "count": 1
-        }
-    ],
-    "unknown_games": [
-        {
-            "normalized": "gg",
-            "count": 2,
-            "examples": [
-                "gg"
-            ]
-        },
-        {
-            "normalized": "tttt",
-            "count": 2,
-            "examples": [
-                "tttt"
-            ]
-        },
-        {
-            "normalized": "need tr amulet",
-            "count": 2,
-            "examples": [
-                "need tr amulet"
-            ]
-        }
-    ],
+    "timestamp": "2026-08-01T02:37:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "difficulty_mode": {},
+    "activities": [],
+    "top_games": [],
+    "unknown_games": [],
     "classified_games": {},
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.67
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
