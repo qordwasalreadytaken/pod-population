@@ -1,47 +1,41 @@
 {
-    "timestamp": "2026-08-01T15:22:00+00:00",
+    "timestamp": "2026-08-01T15:47:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 3
+        "2": 4
     },
     "mode": {
         "1": 1,
-        "0": 5
+        "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 2,
-        "0|0": 3
+        "2|0": 3
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 4
-        },
-        {
             "name": "Other",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "Leveling",
-            "count": 1
+            "name": "Misc. Public MF Runs",
+            "count": 2
         }
     ],
     "top_games": [
-        {
-            "name": "asd",
-            "count": 3
-        },
         {
             "name": "npalaskiler",
             "count": 1
         },
         {
-            "name": "hell start",
+            "name": "5r3r",
             "count": 1
         },
         {
             "name": "run",
+            "count": 1
+        },
+        {
+            "name": "asd",
             "count": 1
         }
     ],
@@ -52,32 +46,32 @@
             "examples": [
                 "npalaskiler"
             ]
+        },
+        {
+            "normalized": "#r#r",
+            "count": 2,
+            "examples": [
+                "5r3r"
+            ]
         }
     ],
     "classified_games": {
-        "Leveling": [
-            {
-                "name": "hell start",
-                "matched": "start",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 3
-            },
             {
                 "name": "run",
                 "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 4,
-        "public_games": 6,
-        "average_name_length": 6.75
+        "public_games": 4,
+        "average_name_length": 5.25
     }
 }
