@@ -1,42 +1,58 @@
 {
-    "timestamp": "2026-08-01T13:08:00+00:00",
+    "timestamp": "2026-08-01T13:48:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 4,
+        "1": 1,
         "0": 1
     },
     "mode": {
-        "1": 3
+        "1": 2,
+        "0": 4
     },
     "difficulty_mode": {
         "2|1": 2,
-        "0|1": 1
+        "2|0": 2,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 5
+        },
+        {
+            "name": "Maps",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "count",
-            "count": 1
+            "name": "t",
+            "count": 2
         },
         {
             "name": "npalaskiler",
             "count": 1
         },
         {
-            "name": "qe",
+            "name": "count",
+            "count": 1
+        },
+        {
+            "name": "chillmap",
+            "count": 1
+        },
+        {
+            "name": "thbved",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "count",
-            "count": 2,
+            "normalized": "t",
+            "count": 4,
             "examples": [
-                "count"
+                "t"
             ]
         },
         {
@@ -47,17 +63,32 @@
             ]
         },
         {
-            "normalized": "qe",
+            "normalized": "count",
             "count": 2,
             "examples": [
-                "qe"
+                "count"
+            ]
+        },
+        {
+            "normalized": "thbved",
+            "count": 2,
+            "examples": [
+                "thbved"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Maps": [
+            {
+                "name": "chillmap",
+                "matched": "map",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.0
+        "unique_names": 5,
+        "public_games": 6,
+        "average_name_length": 6.2
     }
 }
