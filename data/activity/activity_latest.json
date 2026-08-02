@@ -1,19 +1,15 @@
 {
-    "timestamp": "2026-08-02T15:37:00+00:00",
+    "timestamp": "2026-08-02T16:06:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 2
     },
     "mode": {
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 3
+        "2|0": 2
     },
     "activities": [
-        {
-            "name": "Chaos",
-            "count": 1
-        },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
@@ -24,10 +20,6 @@
         }
     ],
     "top_games": [
-        {
-            "name": "hell chaos",
-            "count": 1
-        },
         {
             "name": "asd",
             "count": 1
@@ -47,13 +39,6 @@
         }
     ],
     "classified_games": {
-        "Chaos": [
-            {
-                "name": "hell chaos",
-                "matched": "chaos",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
@@ -63,8 +48,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 5.67
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 3.5
     }
 }

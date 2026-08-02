@@ -246,6 +246,15 @@
         ]
     },
     {
+        "normalized": "fd #",
+        "count": 22,
+        "examples": [
+            "fd 1",
+            "fd 2",
+            "fd 3"
+        ]
+    },
+    {
         "normalized": "help",
         "count": 20,
         "examples": [
@@ -264,15 +273,6 @@
         "count": 20,
         "examples": [
             "fueguitos"
-        ]
-    },
-    {
-        "normalized": "fd #",
-        "count": 20,
-        "examples": [
-            "fd 1",
-            "fd 2",
-            "fd 3"
         ]
     },
     {
