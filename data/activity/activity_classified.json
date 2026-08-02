@@ -339,7 +339,7 @@
         },
         {
             "name": "meph run",
-            "matched": "run",
+            "matched": "meph",
             "count": 4
         },
         {
@@ -360,6 +360,11 @@
         {
             "name": "qrun",
             "matched": "run",
+            "count": 4
+        },
+        {
+            "name": "1235125",
+            "matched": "123",
             "count": 4
         },
         {
@@ -430,11 +435,6 @@
         {
             "name": "drun",
             "matched": "run",
-            "count": 3
-        },
-        {
-            "name": "1235125",
-            "matched": "123",
             "count": 3
         },
         {
@@ -1043,12 +1043,12 @@
         },
         {
             "name": "n ama torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 15
         },
         {
             "name": "n druid torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 15
         },
         {
@@ -1063,7 +1063,7 @@
         },
         {
             "name": "n free amatorch",
-            "matched": "torch",
+            "matched": "n",
             "count": 9
         },
         {
@@ -1143,7 +1143,7 @@
         },
         {
             "name": "n 6os windforce",
-            "matched": "for",
+            "matched": "n",
             "count": 3
         },
         {
@@ -1193,7 +1193,7 @@
         },
         {
             "name": "items for trade",
-            "matched": "for",
+            "matched": "trade",
             "count": 2
         },
         {
@@ -1428,7 +1428,7 @@
         },
         {
             "name": "n pala torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
@@ -1453,7 +1453,7 @@
         },
         {
             "name": "n nec torch :)",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         }
     ],
@@ -1640,7 +1640,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -1665,7 +1665,7 @@
         },
         {
             "name": "normal act",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -1685,7 +1685,7 @@
         },
         {
             "name": "act 2 start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -1715,7 +1715,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -1725,7 +1725,7 @@
         },
         {
             "name": "act hel start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -1865,7 +1865,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "tomb",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -1913,7 +1913,7 @@
         {
             "name": "map-2",
             "matched": "map",
-            "count": 4
+            "count": 5
         },
         {
             "name": "mapp",
@@ -1932,7 +1932,7 @@
         },
         {
             "name": "maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 3
         },
         {
@@ -1942,7 +1942,7 @@
         },
         {
             "name": "maps-2",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
