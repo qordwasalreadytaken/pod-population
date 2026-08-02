@@ -1,86 +1,15 @@
 {
-    "timestamp": "2026-08-02T17:35:00+00:00",
-    "difficulty": {
-        "2": 5,
-        "1": 1
-    },
-    "mode": {
-        "0": 6
-    },
-    "difficulty_mode": {
-        "2|0": 5,
-        "1|0": 1
-    },
-    "activities": [
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 4
-        },
-        {
-            "name": "Other",
-            "count": 2
-        }
-    ],
-    "top_games": [
-        {
-            "name": "asd",
-            "count": 2
-        },
-        {
-            "name": "51235123",
-            "count": 1
-        },
-        {
-            "name": "513532132",
-            "count": 1
-        },
-        {
-            "name": "asdasda",
-            "count": 1
-        },
-        {
-            "name": "lvv",
-            "count": 1
-        }
-    ],
-    "unknown_games": [
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "513532132"
-            ]
-        },
-        {
-            "normalized": "lvv",
-            "count": 2,
-            "examples": [
-                "lvv"
-            ]
-        }
-    ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 2
-            },
-            {
-                "name": "51235123",
-                "matched": "123",
-                "count": 1
-            },
-            {
-                "name": "asdasda",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "timestamp": "2026-08-02T18:05:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "difficulty_mode": {},
+    "activities": [],
+    "top_games": [],
+    "unknown_games": [],
+    "classified_games": {},
     "interesting": {
-        "unique_names": 5,
-        "public_games": 6,
-        "average_name_length": 6.0
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
