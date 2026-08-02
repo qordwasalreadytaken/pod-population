@@ -349,7 +349,7 @@
         },
         {
             "name": "meph run",
-            "matched": "meph",
+            "matched": "run",
             "count": 4
         },
         {
@@ -370,6 +370,11 @@
         {
             "name": "qrun",
             "matched": "run",
+            "count": 4
+        },
+        {
+            "name": "12352135",
+            "matched": "123",
             "count": 4
         },
         {
@@ -440,11 +445,6 @@
         {
             "name": "drun",
             "matched": "run",
-            "count": 3
-        },
-        {
-            "name": "12352135",
-            "matched": "123",
             "count": 3
         },
         {
@@ -926,7 +926,7 @@
         },
         {
             "name": "cows",
-            "matched": "cow",
+            "matched": "cows",
             "count": 13
         },
         {
@@ -941,17 +941,17 @@
         },
         {
             "name": "cowcowst",
-            "matched": "cow",
+            "matched": "cows",
             "count": 4
         },
         {
             "name": "letsseewhomcows",
-            "matched": "cow",
+            "matched": "cows",
             "count": 3
         },
         {
             "name": "cowcows",
-            "matched": "cow",
+            "matched": "cows",
             "count": 2
         },
         {
@@ -991,7 +991,7 @@
         },
         {
             "name": "cowsrus",
-            "matched": "cow",
+            "matched": "cows",
             "count": 1
         },
         {
@@ -1026,12 +1026,12 @@
         },
         {
             "name": "merc cows",
-            "matched": "cow",
+            "matched": "cows",
             "count": 1
         },
         {
             "name": "cows 1",
-            "matched": "cow",
+            "matched": "cows",
             "count": 1
         },
         {
@@ -1041,7 +1041,7 @@
         },
         {
             "name": "hell cows",
-            "matched": "cow",
+            "matched": "cows",
             "count": 1
         },
         {
@@ -1051,17 +1051,17 @@
         },
         {
             "name": "cows 2",
-            "matched": "cow",
+            "matched": "cows",
             "count": 1
         },
         {
             "name": "cows 4",
-            "matched": "cow",
+            "matched": "cows",
             "count": 1
         },
         {
             "name": "cows 5",
-            "matched": "cow",
+            "matched": "cows",
             "count": 1
         }
     ],
@@ -1108,7 +1108,7 @@
         },
         {
             "name": "n free amatorch",
-            "matched": "torch",
+            "matched": "n",
             "count": 9
         },
         {
@@ -1128,7 +1128,7 @@
         },
         {
             "name": "n amatorch",
-            "matched": "torch",
+            "matched": "n",
             "count": 5
         },
         {
@@ -1188,7 +1188,7 @@
         },
         {
             "name": "n 6os windforce",
-            "matched": "for",
+            "matched": "n",
             "count": 3
         },
         {
@@ -1308,7 +1308,7 @@
         },
         {
             "name": "lmk what u n",
-            "matched": "lmk",
+            "matched": "n",
             "count": 1
         },
         {
@@ -1705,12 +1705,12 @@
         },
         {
             "name": "ancients norm",
-            "matched": "anci",
+            "matched": "norm",
             "count": 2
         },
         {
             "name": "normal act",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -1730,7 +1730,7 @@
         },
         {
             "name": "act 2 start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -1760,7 +1760,7 @@
         },
         {
             "name": "act start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -1770,7 +1770,7 @@
         },
         {
             "name": "act hel start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -1790,7 +1790,7 @@
         },
         {
             "name": "act 5 normal",
-            "matched": "norm",
+            "matched": "act",
             "count": 1
         },
         {
@@ -1977,7 +1977,7 @@
         },
         {
             "name": "maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 3
         },
         {
@@ -1987,7 +1987,7 @@
         },
         {
             "name": "maps-2",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
@@ -2137,6 +2137,11 @@
         },
         {
             "name": "pubmap-1",
+            "matched": "map",
+            "count": 1
+        },
+        {
+            "name": "pubmap-2",
             "matched": "map",
             "count": 1
         }
