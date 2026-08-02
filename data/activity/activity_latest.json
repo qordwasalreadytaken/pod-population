@@ -1,39 +1,51 @@
 {
-    "timestamp": "2026-08-02T12:20:00+00:00",
+    "timestamp": "2026-08-02T12:47:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 1,
-        "0": 1
+        "2": 4,
+        "1": 2,
+        "0": 2
     },
     "mode": {
-        "0": 3
+        "0": 8
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 1,
-        "0|0": 1
+        "2|0": 4,
+        "1|0": 2,
+        "0|0": 2
     },
     "activities": [
         {
-            "name": "Maps",
-            "count": 1
+            "name": "Misc. Public MF Runs",
+            "count": 4
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "name": "Maps",
+            "count": 2
         },
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "map",
+            "name": "asd",
+            "count": 3
+        },
+        {
+            "name": "map-2",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "1235125",
+            "count": 1
+        },
+        {
+            "name": "2541515",
+            "count": 1
+        },
+        {
+            "name": "map",
             "count": 1
         },
         {
@@ -42,6 +54,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "2541515"
+            ]
+        },
         {
             "normalized": "plkghgh",
             "count": 2,
@@ -53,6 +72,11 @@
     "classified_games": {
         "Maps": [
             {
+                "name": "map-2",
+                "matched": "map",
+                "count": 1
+            },
+            {
                 "name": "map",
                 "matched": "map",
                 "count": 1
@@ -62,13 +86,18 @@
             {
                 "name": "asd",
                 "matched": "asd",
+                "count": 3
+            },
+            {
+                "name": "1235125",
+                "matched": "123",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 4.33
+        "unique_names": 6,
+        "public_games": 8,
+        "average_name_length": 5.33
     }
 }
