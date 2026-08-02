@@ -24,14 +24,14 @@
     },
     {
         "normalized": "gg",
-        "count": 90,
+        "count": 92,
         "examples": [
             "gg"
         ]
     },
     {
         "normalized": "lvv",
-        "count": 90,
+        "count": 92,
         "examples": [
             "lvv"
         ]
@@ -285,6 +285,15 @@
         ]
     },
     {
+        "normalized": "fd #",
+        "count": 16,
+        "examples": [
+            "fd 1",
+            "fd 2",
+            "fd 3"
+        ]
+    },
+    {
         "normalized": "g",
         "count": 14,
         "examples": [
@@ -332,15 +341,6 @@
         "count": 14,
         "examples": [
             "mana"
-        ]
-    },
-    {
-        "normalized": "fd #",
-        "count": 14,
-        "examples": [
-            "fd 1",
-            "fd 2",
-            "fd 3"
         ]
     },
     {
@@ -1960,6 +1960,13 @@
         "count": 4,
         "examples": [
             "zgkjhg"
+        ]
+    },
+    {
+        "normalized": "yhtbngvrfec",
+        "count": 4,
+        "examples": [
+            "yhtbngvrfec"
         ]
     },
     {
@@ -5040,13 +5047,6 @@
         "count": 2,
         "examples": [
             "zgkjhggre"
-        ]
-    },
-    {
-        "normalized": "yhtbngvrfec",
-        "count": 2,
-        "examples": [
-            "yhtbngvrfec"
         ]
     }
 ]
