@@ -1,15 +1,13 @@
 {
-    "timestamp": "2026-08-02T20:32:00+00:00",
+    "timestamp": "2026-08-02T21:05:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 1
+        "2": 4
     },
     "mode": {
         "0": 4
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "0|0": 1
+        "2|0": 4
     },
     "activities": [
         {
@@ -18,53 +16,59 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
+        },
+        {
+            "name": "Maps",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "sgfee",
+            "name": "asd",
             "count": 1
         },
         {
-            "name": "fgshatrzsdfgds",
+            "name": "pubmap-3",
             "count": 1
         },
         {
-            "name": "12352135",
+            "name": "hdfghdfghsftghj",
             "count": 1
         },
         {
-            "name": "asdsdgf",
+            "name": "sgfeenvb",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "sgfee",
+            "normalized": "hdfghdfghsftghj",
             "count": 2,
             "examples": [
-                "sgfee"
+                "hdfghdfghsftghj"
             ]
         },
         {
-            "normalized": "fgshatrzsdfgds",
+            "normalized": "sgfeenvb",
             "count": 2,
             "examples": [
-                "fgshatrzsdfgds"
+                "sgfeenvb"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "12352135",
-                "matched": "123",
-                "count": 1
-            },
-            {
-                "name": "asdsdgf",
+                "name": "asd",
                 "matched": "asd",
+                "count": 1
+            }
+        ],
+        "Maps": [
+            {
+                "name": "pubmap-3",
+                "matched": "map",
                 "count": 1
             }
         ]
