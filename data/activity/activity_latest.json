@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-02T20:07:00+00:00",
+    "timestamp": "2026-08-02T20:32:00+00:00",
     "difficulty": {
         "2": 3,
         "0": 1
@@ -17,21 +17,17 @@
             "count": 2
         },
         {
-            "name": "Maps",
-            "count": 1
-        },
-        {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "sdfgsdfgsdg",
+            "name": "sgfee",
             "count": 1
         },
         {
-            "name": "pubmap-2",
+            "name": "fgshatrzsdfgds",
             "count": 1
         },
         {
@@ -39,38 +35,36 @@
             "count": 1
         },
         {
-            "name": "fchgh",
+            "name": "asdsdgf",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "sdfgsdfgsdg",
+            "normalized": "sgfee",
             "count": 2,
             "examples": [
-                "sdfgsdfgsdg"
+                "sgfee"
             ]
         },
         {
-            "normalized": "fchgh",
+            "normalized": "fgshatrzsdfgds",
             "count": 2,
             "examples": [
-                "fchgh"
+                "fgshatrzsdfgds"
             ]
         }
     ],
     "classified_games": {
-        "Maps": [
-            {
-                "name": "pubmap-2",
-                "matched": "map",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "12352135",
                 "matched": "123",
+                "count": 1
+            },
+            {
+                "name": "asdsdgf",
+                "matched": "asd",
                 "count": 1
             }
         ]
@@ -78,6 +72,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 8.0
+        "average_name_length": 8.5
     }
 }
