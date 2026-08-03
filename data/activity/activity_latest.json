@@ -1,22 +1,20 @@
 {
-    "timestamp": "2026-08-03T16:51:00+00:00",
+    "timestamp": "2026-08-03T17:33:00+00:00",
     "difficulty": {
         "2": 2,
-        "1": 1,
-        "0": 1
+        "1": 1
     },
     "mode": {
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
         "2|0": 2,
-        "1|0": 1,
-        "0|0": 1
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Maps",
@@ -29,7 +27,7 @@
     ],
     "top_games": [
         {
-            "name": "run 31",
+            "name": "run 34",
             "count": 1
         },
         {
@@ -38,10 +36,6 @@
         },
         {
             "name": "lvv",
-            "count": 1
-        },
-        {
-            "name": "gord",
             "count": 1
         }
     ],
@@ -57,13 +51,8 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "run 31",
+                "name": "run 34",
                 "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "gord",
-                "matched": "gord",
                 "count": 1
             }
         ],
@@ -76,8 +65,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 5.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 5.33
     }
 }
