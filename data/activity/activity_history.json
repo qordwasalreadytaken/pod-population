@@ -3563,7 +3563,7 @@
             "Leveling": [
                 {
                     "name": "act 2 start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -10541,7 +10541,7 @@
                 },
                 {
                     "name": "act hel start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -13667,7 +13667,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "buy",
+                    "matched": "torch",
                     "count": 1
                 }
             ],
@@ -13795,7 +13795,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "buy",
+                    "matched": "torch",
                     "count": 2
                 }
             ],
@@ -13893,7 +13893,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "buy",
+                    "matched": "torch",
                     "count": 1
                 }
             ],
@@ -36606,7 +36606,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "trade",
+                    "matched": "for",
                     "count": 1
                 }
             ],
@@ -36713,7 +36713,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "trade",
+                    "matched": "for",
                     "count": 1
                 }
             ]
@@ -49132,7 +49132,7 @@
             "Leveling": [
                 {
                     "name": "norm act",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -54986,7 +54986,7 @@
             "Leveling": [
                 {
                     "name": "norm act",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -55034,7 +55034,7 @@
                 },
                 {
                     "name": "norm act",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -55117,7 +55117,7 @@
                 },
                 {
                     "name": "norm act",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -77181,7 +77181,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 },
                 {
@@ -81010,7 +81010,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 }
             ]
@@ -82721,7 +82721,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ],
@@ -99776,6 +99776,21 @@
             "unique_names": 3,
             "public_games": 3,
             "average_name_length": 8.0
+        }
+    },
+    {
+        "timestamp": "2026-08-03T00:05:00+00:00",
+        "difficulty": {},
+        "mode": {},
+        "difficulty_mode": {},
+        "activities": [],
+        "top_games": [],
+        "unknown_games": [],
+        "classified_games": {},
+        "interesting": {
+            "unique_names": 0,
+            "public_games": 0,
+            "average_name_length": 0.0
         }
     }
 ]
