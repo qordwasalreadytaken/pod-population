@@ -1,37 +1,53 @@
 {
-    "timestamp": "2026-08-03T17:33:00+00:00",
+    "timestamp": "2026-08-03T18:20:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1
+        "2": 8
     },
     "mode": {
-        "0": 3
+        "1": 1,
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 1
+        "2|1": 1,
+        "2|0": 7
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Maps",
-            "count": 1
+            "count": 5
         },
         {
             "name": "Other",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "run 34",
+            "name": "sssk",
             "count": 1
         },
         {
-            "name": "map_run",
+            "name": "run 14",
+            "count": 1
+        },
+        {
+            "name": "run 13",
+            "count": 1
+        },
+        {
+            "name": "run 12",
+            "count": 1
+        },
+        {
+            "name": "run 11",
+            "count": 1
+        },
+        {
+            "name": "run 10",
+            "count": 1
+        },
+        {
+            "name": "0klkjl",
             "count": 1
         },
         {
@@ -40,6 +56,20 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "sssk",
+            "count": 2,
+            "examples": [
+                "sssk"
+            ]
+        },
+        {
+            "normalized": "#klkjl",
+            "count": 2,
+            "examples": [
+                "0klkjl"
+            ]
+        },
         {
             "normalized": "lvv",
             "count": 2,
@@ -51,22 +81,35 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "run 34",
+                "name": "run 14",
                 "matched": "run",
                 "count": 1
-            }
-        ],
-        "Maps": [
+            },
             {
-                "name": "map_run",
-                "matched": "map",
+                "name": "run 13",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "run 12",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "run 11",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "run 10",
+                "matched": "run",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 5.33
+        "unique_names": 8,
+        "public_games": 8,
+        "average_name_length": 5.38
     }
 }
