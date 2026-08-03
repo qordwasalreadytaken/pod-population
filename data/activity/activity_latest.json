@@ -1,55 +1,110 @@
 {
-    "timestamp": "2026-08-03T14:59:00+00:00",
+    "timestamp": "2026-08-03T15:56:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 5,
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 5,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 1
+            "name": "Misc. Public MF Runs",
+            "count": 4
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Maps",
+            "count": 2
+        },
+        {
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "t",
+            "name": "run 23",
             "count": 1
         },
         {
-            "name": "run 10",
+            "name": "run 22",
+            "count": 1
+        },
+        {
+            "name": "run 21",
+            "count": 1
+        },
+        {
+            "name": "dim map",
+            "count": 1
+        },
+        {
+            "name": "map_run",
+            "count": 1
+        },
+        {
+            "name": "lvv",
+            "count": 1
+        },
+        {
+            "name": "gord",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "t",
+            "normalized": "lvv",
             "count": 2,
             "examples": [
-                "t"
+                "lvv"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "run 10",
+                "name": "run 23",
                 "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "run 22",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "run 21",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "gord",
+                "matched": "gord",
+                "count": 1
+            }
+        ],
+        "Maps": [
+            {
+                "name": "dim map",
+                "matched": "map",
+                "count": 1
+            },
+            {
+                "name": "map_run",
+                "matched": "map",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 3.5
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 5.57
     }
 }
