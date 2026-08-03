@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-03T21:23:00+00:00",
+    "timestamp": "2026-08-03T21:50:00+00:00",
     "difficulty": {
         "2": 2,
         "1": 1
@@ -14,20 +14,16 @@
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "sdfgaghsjh",
+            "name": "ate",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "sdfgaghsjh",
             "count": 1
         },
         {
@@ -36,6 +32,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "ate",
+            "count": 2,
+            "examples": [
+                "ate"
+            ]
+        },
         {
             "normalized": "sdfgaghsjh",
             "count": 2,
@@ -51,15 +54,7 @@
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
