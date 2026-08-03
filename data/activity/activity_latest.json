@@ -1,41 +1,43 @@
 {
-    "timestamp": "2026-08-03T19:01:00+00:00",
+    "timestamp": "2026-08-03T19:49:00+00:00",
     "difficulty": {
-        "2": 7
+        "2": 3,
+        "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 6
+        "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 6
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 4
-        },
-        {
             "name": "Other",
             "count": 3
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "asd",
-            "count": 4
-        },
         {
             "name": "frostwind",
             "count": 1
         },
         {
-            "name": "0klkjlz",
+            "name": "t",
             "count": 1
         },
         {
-            "name": "0klkjl",
+            "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "cans",
             "count": 1
         }
     ],
@@ -48,17 +50,17 @@
             ]
         },
         {
-            "normalized": "#klkjlz",
+            "normalized": "t",
             "count": 2,
             "examples": [
-                "0klkjlz"
+                "t"
             ]
         },
         {
-            "normalized": "#klkjl",
+            "normalized": "cans",
             "count": 2,
             "examples": [
-                "0klkjl"
+                "cans"
             ]
         }
     ],
@@ -67,13 +69,13 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 4
+                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 4,
-        "public_games": 7,
-        "average_name_length": 6.25
+        "public_games": 4,
+        "average_name_length": 4.25
     }
 }
