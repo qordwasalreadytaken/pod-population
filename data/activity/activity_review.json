@@ -38,7 +38,7 @@
     },
     {
         "normalized": "t",
-        "count": 84,
+        "count": 86,
         "examples": [
             "t"
         ]
@@ -194,6 +194,15 @@
         ]
     },
     {
+        "normalized": "fd #",
+        "count": 26,
+        "examples": [
+            "fd 1",
+            "fd 2",
+            "fd 3"
+        ]
+    },
+    {
         "normalized": "v",
         "count": 24,
         "examples": [
@@ -212,15 +221,6 @@
         "count": 24,
         "examples": [
             "tomas"
-        ]
-    },
-    {
-        "normalized": "fd #",
-        "count": 24,
-        "examples": [
-            "fd 1",
-            "fd 2",
-            "fd 3"
         ]
     },
     {
