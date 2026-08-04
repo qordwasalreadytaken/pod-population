@@ -1,55 +1,68 @@
 {
-    "timestamp": "2026-08-04T19:30:00+00:00",
+    "timestamp": "2026-08-04T20:13:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 3
     },
     "mode": {
+        "1": 1,
         "0": 2
     },
     "difficulty_mode": {
+        "2|1": 1,
         "2|0": 2
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
-            "name": "Other",
+            "name": "Maps",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "run 4",
+            "name": "cripmap",
             "count": 1
         },
         {
-            "name": "wzs",
+            "name": "sdgf",
+            "count": 1
+        },
+        {
+            "name": "sdzue",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "wzs",
+            "normalized": "sdgf",
             "count": 2,
             "examples": [
-                "wzs"
+                "sdgf"
+            ]
+        },
+        {
+            "normalized": "sdzue",
+            "count": 2,
+            "examples": [
+                "sdzue"
             ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Maps": [
             {
-                "name": "run 4",
-                "matched": "run",
+                "name": "cripmap",
+                "matched": "map",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 4.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 5.33
     }
 }
