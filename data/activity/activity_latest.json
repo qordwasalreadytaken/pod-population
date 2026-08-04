@@ -1,32 +1,32 @@
 {
-    "timestamp": "2026-08-04T01:53:00+00:00",
+    "timestamp": "2026-08-04T03:01:00+00:00",
     "difficulty": {
         "2": 1
     },
     "mode": {
-        "0": 1
+        "1": 1
     },
     "difficulty_mode": {
-        "2|0": 1
+        "2|1": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Maps",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
+            "name": "mappopotumus",
             "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Maps": [
             {
-                "name": "asd",
-                "matched": "asd",
+                "name": "mappopotumus",
+                "matched": "map",
                 "count": 1
             }
         ]
@@ -34,6 +34,6 @@
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 3.0
+        "average_name_length": 12.0
     }
 }
