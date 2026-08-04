@@ -1,15 +1,23 @@
 {
-    "timestamp": "2026-08-04T03:01:00+00:00",
+    "timestamp": "2026-08-04T04:20:00+00:00",
     "difficulty": {
-        "2": 1
-    },
-    "mode": {
+        "2": 2,
         "1": 1
     },
+    "mode": {
+        "1": 1,
+        "0": 2
+    },
     "difficulty_mode": {
-        "2|1": 1
+        "2|1": 1,
+        "2|0": 1,
+        "1|0": 1
     },
     "activities": [
+        {
+            "name": "Other",
+            "count": 2
+        },
         {
             "name": "Maps",
             "count": 1
@@ -19,9 +27,32 @@
         {
             "name": "mappopotumus",
             "count": 1
+        },
+        {
+            "name": "jah ber plz 1",
+            "count": 1
+        },
+        {
+            "name": "hjkjk",
+            "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "jah ber plz #",
+            "count": 2,
+            "examples": [
+                "jah ber plz 1"
+            ]
+        },
+        {
+            "normalized": "hjkjk",
+            "count": 2,
+            "examples": [
+                "hjkjk"
+            ]
+        }
+    ],
     "classified_games": {
         "Maps": [
             {
@@ -32,8 +63,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 12.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 10.0
     }
 }
