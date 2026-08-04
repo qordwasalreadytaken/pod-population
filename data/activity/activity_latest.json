@@ -1,82 +1,39 @@
 {
-    "timestamp": "2026-08-04T22:54:00+00:00",
+    "timestamp": "2026-08-04T23:56:00+00:00",
     "difficulty": {
-        "1": 1,
-        "2": 3
+        "2": 1
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "0": 1
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "2|0": 3
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
-        },
-        {
-            "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Maps",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "qordruns",
-            "count": 1
-        },
-        {
-            "name": "qwe",
-            "count": 1
-        },
-        {
-            "name": "n eld runes",
-            "count": 1
-        },
-        {
-            "name": "cripmap",
+            "name": "asd",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "qwe",
-            "count": 2,
-            "examples": [
-                "qwe"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "qordruns",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "n eld runes",
-                "matched": "run",
-                "count": 1
-            }
-        ],
-        "Maps": [
-            {
-                "name": "cripmap",
-                "matched": "map",
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 7.25
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 3.0
     }
 }
