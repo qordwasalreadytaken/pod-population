@@ -1,21 +1,17 @@
 {
-    "timestamp": "2026-08-04T07:37:00+00:00",
+    "timestamp": "2026-08-04T08:37:00+00:00",
     "difficulty": {
-        "2": 6
+        "2": 2
     },
     "mode": {
-        "0": 6
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 6
+        "2|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Maps",
             "count": 1
         },
         {
@@ -25,23 +21,7 @@
     ],
     "top_games": [
         {
-            "name": "jah ber plz 10",
-            "count": 1
-        },
-        {
-            "name": "jah ber plz 9",
-            "count": 1
-        },
-        {
-            "name": "jah ber plz 8",
-            "count": 1
-        },
-        {
-            "name": "jah ber plz 7",
-            "count": 1
-        },
-        {
-            "name": "cripmap",
+            "name": "fwaefawef",
             "count": 1
         },
         {
@@ -51,35 +31,25 @@
     ],
     "unknown_games": [
         {
-            "normalized": "jah ber plz #",
-            "count": 8,
+            "normalized": "fwaefawef",
+            "count": 2,
             "examples": [
-                "jah ber plz 10",
-                "jah ber plz 7",
-                "jah ber plz 8",
-                "jah ber plz 9"
+                "fwaefawef"
             ]
         }
     ],
     "classified_games": {
-        "Maps": [
-            {
-                "name": "cripmap",
-                "matched": "map",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "n druid torch",
-                "matched": "torch",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 12.17
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 11.0
     }
 }
