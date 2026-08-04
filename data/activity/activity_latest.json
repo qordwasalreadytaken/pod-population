@@ -1,21 +1,15 @@
 {
-    "timestamp": "2026-08-04T01:00:00+00:00",
+    "timestamp": "2026-08-04T01:53:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 1
     },
     "mode": {
-        "1": 1,
         "0": 1
     },
     "difficulty_mode": {
-        "2|1": 1,
         "2|0": 1
     },
     "activities": [
-        {
-            "name": "Maps",
-            "count": 1
-        },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
@@ -23,23 +17,12 @@
     ],
     "top_games": [
         {
-            "name": "mappi gas",
-            "count": 1
-        },
-        {
             "name": "asd",
             "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
-        "Maps": [
-            {
-                "name": "mappi gas",
-                "matched": "map",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
@@ -49,8 +32,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 6.0
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 3.0
     }
 }
