@@ -1,69 +1,65 @@
 {
-    "timestamp": "2026-08-04T16:35:00+00:00",
+    "timestamp": "2026-08-04T17:17:00+00:00",
     "difficulty": {
-        "2": 6,
-        "0": 1
+        "2": 4,
+        "1": 2
     },
     "mode": {
-        "0": 7
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 6,
-        "0|0": 1
+        "2|0": 4,
+        "1|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 2
+        },
+        {
+            "name": "Maps",
+            "count": 2
         }
     ],
     "top_games": [
         {
+            "name": "lonelymapper",
+            "count": 2
+        },
+        {
+            "name": "fhd",
+            "count": 1
+        },
+        {
             "name": "asd",
-            "count": 3
-        },
-        {
-            "name": "fd 2",
             "count": 1
         },
         {
-            "name": "fd 1",
+            "name": "312323",
             "count": 1
         },
         {
-            "name": "2344",
-            "count": 1
-        },
-        {
-            "name": "qweqwe",
+            "name": "234534343523232",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "fd #",
-            "count": 4,
+            "normalized": "fhd",
+            "count": 2,
             "examples": [
-                "fd 1",
-                "fd 2"
+                "fhd"
             ]
         },
         {
             "normalized": "#",
             "count": 2,
             "examples": [
-                "2344"
-            ]
-        },
-        {
-            "normalized": "qweqwe",
-            "count": 2,
-            "examples": [
-                "qweqwe"
+                "234534343523232"
             ]
         }
     ],
@@ -72,13 +68,25 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 3
+                "count": 1
+            },
+            {
+                "name": "312323",
+                "matched": "123",
+                "count": 1
+            }
+        ],
+        "Maps": [
+            {
+                "name": "lonelymapper",
+                "matched": "map",
+                "count": 2
             }
         ]
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 7,
-        "average_name_length": 4.2
+        "public_games": 6,
+        "average_name_length": 7.8
     }
 }
