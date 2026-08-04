@@ -1,28 +1,17 @@
 {
-    "timestamp": "2026-08-04T18:05:00+00:00",
+    "timestamp": "2026-08-04T18:47:00+00:00",
     "difficulty": {
-        "0": 1,
-        "2": 3
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "1": 1
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 3
+        "0|1": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
-        },
-        {
-            "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Maps",
             "count": 1
         }
     ],
@@ -30,53 +19,21 @@
         {
             "name": "qordruns",
             "count": 1
-        },
-        {
-            "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "fhd",
-            "count": 1
-        },
-        {
-            "name": "lonelymapper",
-            "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "fhd",
-            "count": 2,
-            "examples": [
-                "fhd"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
                 "name": "qordruns",
                 "matched": "run",
                 "count": 1
-            },
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
-        "Maps": [
-            {
-                "name": "lonelymapper",
-                "matched": "map",
-                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 8.0
     }
 }
