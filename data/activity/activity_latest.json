@@ -1,45 +1,59 @@
 {
-    "timestamp": "2026-08-04T12:23:00+00:00",
+    "timestamp": "2026-08-04T13:08:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1
+        "2": 6
     },
     "mode": {
-        "0": 3
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 1
+        "2|0": 6
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Uber",
-            "count": 1
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
+            "count": 2
+        },
+        {
+            "name": "Maps",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "asd",
+            "count": 2
+        },
+        {
+            "name": "fd 4",
+            "count": 1
+        },
+        {
+            "name": "fd 3",
+            "count": 1
+        },
+        {
+            "name": "desertmap",
+            "count": 1
+        },
+        {
             "name": "t",
-            "count": 1
-        },
-        {
-            "name": "ubers",
-            "count": 1
-        },
-        {
-            "name": "123",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "fd #",
+            "count": 4,
+            "examples": [
+                "fd 3",
+                "fd 4"
+            ]
+        },
         {
             "normalized": "t",
             "count": 2,
@@ -49,24 +63,24 @@
         }
     ],
     "classified_games": {
-        "Uber": [
-            {
-                "name": "ubers",
-                "matched": "ubers",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
-                "name": "123",
-                "matched": "123",
+                "name": "asd",
+                "matched": "asd",
+                "count": 2
+            }
+        ],
+        "Maps": [
+            {
+                "name": "desertmap",
+                "matched": "map",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 3.0
+        "unique_names": 5,
+        "public_games": 6,
+        "average_name_length": 4.2
     }
 }

@@ -38,7 +38,7 @@
     },
     {
         "normalized": "t",
-        "count": 88,
+        "count": 90,
         "examples": [
             "t"
         ]
@@ -159,6 +159,16 @@
         ]
     },
     {
+        "normalized": "fd #",
+        "count": 32,
+        "examples": [
+            "fd 1",
+            "fd 2",
+            "fd 3",
+            "fd 4"
+        ]
+    },
+    {
         "normalized": "eq",
         "count": 30,
         "examples": [
@@ -177,15 +187,6 @@
         "count": 28,
         "examples": [
             "hell o"
-        ]
-    },
-    {
-        "normalized": "fd #",
-        "count": 28,
-        "examples": [
-            "fd 1",
-            "fd 2",
-            "fd 3"
         ]
     },
     {
