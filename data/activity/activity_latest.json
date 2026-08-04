@@ -1,39 +1,55 @@
 {
-    "timestamp": "2026-08-04T18:47:00+00:00",
+    "timestamp": "2026-08-04T19:30:00+00:00",
     "difficulty": {
-        "0": 1
+        "2": 2
     },
     "mode": {
-        "1": 1
+        "0": 2
     },
     "difficulty_mode": {
-        "0|1": 1
+        "2|0": 2
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
             "count": 1
+        },
+        {
+            "name": "Other",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "qordruns",
+            "name": "run 4",
+            "count": 1
+        },
+        {
+            "name": "wzs",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "wzs",
+            "count": 2,
+            "examples": [
+                "wzs"
+            ]
+        }
+    ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "qordruns",
+                "name": "run 4",
                 "matched": "run",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 8.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 4.0
     }
 }
