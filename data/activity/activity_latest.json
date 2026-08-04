@@ -1,20 +1,22 @@
 {
-    "timestamp": "2026-08-04T20:13:00+00:00",
+    "timestamp": "2026-08-04T20:45:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 4
     },
     "mode": {
-        "1": 1,
-        "0": 2
+        "0": 4
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 2
+        "2|0": 4
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 2
+        },
+        {
+            "name": "Other",
+            "count": 1
         },
         {
             "name": "Maps",
@@ -23,38 +25,38 @@
     ],
     "top_games": [
         {
-            "name": "cripmap",
+            "name": "asd",
+            "count": 2
+        },
+        {
+            "name": "jgzfolhgpol",
             "count": 1
         },
         {
-            "name": "sdgf",
-            "count": 1
-        },
-        {
-            "name": "sdzue",
+            "name": "cripmap-3",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "sdgf",
+            "normalized": "jgzfolhgpol",
             "count": 2,
             "examples": [
-                "sdgf"
-            ]
-        },
-        {
-            "normalized": "sdzue",
-            "count": 2,
-            "examples": [
-                "sdzue"
+                "jgzfolhgpol"
             ]
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 2
+            }
+        ],
         "Maps": [
             {
-                "name": "cripmap",
+                "name": "cripmap-3",
                 "matched": "map",
                 "count": 1
             }
@@ -62,7 +64,7 @@
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 5.33
+        "public_games": 4,
+        "average_name_length": 7.67
     }
 }
