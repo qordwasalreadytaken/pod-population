@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 438,
+        "count": 440,
         "examples": [
             "1",
             "11",
@@ -160,7 +160,7 @@
     },
     {
         "normalized": "fd #",
-        "count": 32,
+        "count": 36,
         "examples": [
             "fd 1",
             "fd 2",
@@ -5255,6 +5255,13 @@
         "count": 2,
         "examples": [
             "fwaefawef"
+        ]
+    },
+    {
+        "normalized": "qweqwe",
+        "count": 2,
+        "examples": [
+            "qweqwe"
         ]
     }
 ]
