@@ -1,72 +1,55 @@
 {
-    "timestamp": "2026-08-05T12:25:00+00:00",
+    "timestamp": "2026-08-05T14:44:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "2": 6
     },
     "mode": {
-        "0": 3
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "0|0": 1
+        "2|0": 6
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Maps",
-            "count": 1
-        },
-        {
             "name": "Other",
-            "count": 1
+            "count": 3
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "nec torch 4ama",
-            "count": 1
+            "name": "as",
+            "count": 3
         },
         {
-            "name": "cripmap",
-            "count": 1
-        },
-        {
-            "name": "sss 222",
-            "count": 1
+            "name": "asd",
+            "count": 3
         }
     ],
     "unknown_games": [
         {
-            "normalized": "sss #",
-            "count": 2,
+            "normalized": "as",
+            "count": 6,
             "examples": [
-                "sss 222"
+                "as"
             ]
         }
     ],
     "classified_games": {
-        "Trade": [
+        "Misc. Public MF Runs": [
             {
-                "name": "nec torch 4ama",
-                "matched": "torch",
-                "count": 1
-            }
-        ],
-        "Maps": [
-            {
-                "name": "cripmap",
-                "matched": "map",
-                "count": 1
+                "name": "asd",
+                "matched": "asd",
+                "count": 3
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 9.33
+        "unique_names": 2,
+        "public_games": 6,
+        "average_name_length": 2.5
     }
 }
