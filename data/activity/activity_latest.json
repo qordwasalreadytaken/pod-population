@@ -1,15 +1,13 @@
 {
-    "timestamp": "2026-08-05T02:01:00+00:00",
+    "timestamp": "2026-08-05T05:23:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 1
+        "2": 2
     },
     "mode": {
-        "1": 2
+        "0": 2
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "1|1": 1
+        "2|0": 2
     },
     "activities": [
         {
@@ -23,28 +21,28 @@
     ],
     "top_games": [
         {
-            "name": "ff",
+            "name": "dtfhgj",
             "count": 1
         },
         {
-            "name": "qordruns",
+            "name": "aa",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "ff",
+            "normalized": "dtfhgj",
             "count": 2,
             "examples": [
-                "ff"
+                "dtfhgj"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "qordruns",
-                "matched": "run",
+                "name": "aa",
+                "matched": "aa",
                 "count": 1
             }
         ]
@@ -52,6 +50,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 5.0
+        "average_name_length": 4.0
     }
 }
