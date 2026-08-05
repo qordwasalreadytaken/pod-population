@@ -1,25 +1,29 @@
 {
-    "timestamp": "2026-08-05T22:13:00+00:00",
+    "timestamp": "2026-08-05T23:17:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 2,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 2,
+        "2|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 1
         },
         {
             "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -33,11 +37,7 @@
             "count": 1
         },
         {
-            "name": "srfdztg",
-            "count": 1
-        },
-        {
-            "name": "g",
+            "name": "gord",
             "count": 1
         }
     ],
@@ -48,20 +48,6 @@
             "examples": [
                 "end game"
             ]
-        },
-        {
-            "normalized": "srfdztg",
-            "count": 2,
-            "examples": [
-                "srfdztg"
-            ]
-        },
-        {
-            "normalized": "g",
-            "count": 2,
-            "examples": [
-                "g"
-            ]
         }
     ],
     "classified_games": {
@@ -71,11 +57,18 @@
                 "matched": "torch",
                 "count": 1
             }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "gord",
+                "matched": "gord",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 7.25
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 8.33
     }
 }
