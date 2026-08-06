@@ -1,15 +1,13 @@
 {
-    "timestamp": "2026-08-06T13:17:00+00:00",
+    "timestamp": "2026-08-06T15:39:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "2": 2
     },
     "mode": {
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "0|0": 1
+        "2|0": 2
     },
     "activities": [
         {
@@ -17,25 +15,17 @@
             "count": 1
         },
         {
-            "name": "Maps",
-            "count": 1
-        },
-        {
-            "name": "Leveling",
+            "name": "Cows",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "rune run 32",
+            "name": "ohm rune plz 34",
             "count": 1
         },
         {
-            "name": "pub map 2",
-            "count": 1
-        },
-        {
-            "name": "n andy wp",
+            "name": "cow",
             "count": 1
         }
     ],
@@ -43,29 +33,22 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "rune run 32",
+                "name": "ohm rune plz 34",
                 "matched": "run",
                 "count": 1
             }
         ],
-        "Maps": [
+        "Cows": [
             {
-                "name": "pub map 2",
-                "matched": "map",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "n andy wp",
-                "matched": "andy",
+                "name": "cow",
+                "matched": "cow",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 9.67
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 9.0
     }
 }
