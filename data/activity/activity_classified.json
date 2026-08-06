@@ -354,7 +354,7 @@
         },
         {
             "name": "meph run",
-            "matched": "run",
+            "matched": "meph",
             "count": 4
         },
         {
@@ -991,6 +991,11 @@
             "name": "312323",
             "matched": "123",
             "count": 1
+        },
+        {
+            "name": "rune run 32",
+            "matched": "run",
+            "count": 1
         }
     ],
     "Cows": [
@@ -1001,7 +1006,7 @@
         },
         {
             "name": "cows",
-            "matched": "cow",
+            "matched": "cows",
             "count": 13
         },
         {
@@ -1016,17 +1021,17 @@
         },
         {
             "name": "cowcowst",
-            "matched": "cow",
+            "matched": "cows",
             "count": 4
         },
         {
             "name": "letsseewhomcows",
-            "matched": "cow",
+            "matched": "cows",
             "count": 3
         },
         {
             "name": "cowcows",
-            "matched": "cow",
+            "matched": "cows",
             "count": 2
         },
         {
@@ -1066,7 +1071,7 @@
         },
         {
             "name": "cowsrus",
-            "matched": "cow",
+            "matched": "cows",
             "count": 1
         },
         {
@@ -1101,12 +1106,12 @@
         },
         {
             "name": "merc cows",
-            "matched": "cow",
+            "matched": "cows",
             "count": 1
         },
         {
             "name": "cows 1",
-            "matched": "cow",
+            "matched": "cows",
             "count": 1
         },
         {
@@ -1116,7 +1121,7 @@
         },
         {
             "name": "hell cows",
-            "matched": "cow",
+            "matched": "cows",
             "count": 1
         },
         {
@@ -1126,17 +1131,17 @@
         },
         {
             "name": "cows 2",
-            "matched": "cow",
+            "matched": "cows",
             "count": 1
         },
         {
             "name": "cows 4",
-            "matched": "cow",
+            "matched": "cows",
             "count": 1
         },
         {
             "name": "cows 5",
-            "matched": "cow",
+            "matched": "cows",
             "count": 1
         }
     ],
@@ -1318,7 +1323,7 @@
         },
         {
             "name": "items for trade",
-            "matched": "trade",
+            "matched": "for",
             "count": 2
         },
         {
@@ -1665,7 +1670,7 @@
         },
         {
             "name": "norm start",
-            "matched": "norm",
+            "matched": "start",
             "count": 4
         },
         {
@@ -1680,7 +1685,7 @@
         },
         {
             "name": "norm act",
-            "matched": "norm",
+            "matched": "act",
             "count": 4
         },
         {
@@ -1745,7 +1750,7 @@
         },
         {
             "name": "act start",
-            "matched": "start",
+            "matched": "act",
             "count": 2
         },
         {
@@ -1785,7 +1790,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -1830,7 +1835,7 @@
         },
         {
             "name": "act 2 start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -1865,7 +1870,7 @@
         },
         {
             "name": "act hel start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -2037,6 +2042,11 @@
             "name": "hell start",
             "matched": "start",
             "count": 1
+        },
+        {
+            "name": "n andy wp",
+            "matched": "andy",
+            "count": 1
         }
     ],
     "Maps": [
@@ -2072,7 +2082,7 @@
         },
         {
             "name": "maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 3
         },
         {
@@ -2092,7 +2102,7 @@
         },
         {
             "name": "maps-2",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
@@ -2287,6 +2297,11 @@
         },
         {
             "name": "pubmap",
+            "matched": "map",
+            "count": 1
+        },
+        {
+            "name": "pub map 2",
             "matched": "map",
             "count": 1
         }
