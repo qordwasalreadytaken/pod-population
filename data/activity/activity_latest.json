@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-07T14:54:00+00:00",
+    "timestamp": "2026-08-07T15:45:00+00:00",
     "difficulty": {
         "2": 2,
         "1": 1
@@ -13,47 +13,49 @@
     },
     "activities": [
         {
-            "name": "Chaos",
+            "name": "Other",
             "count": 2
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "hell chaos 9",
+            "name": "lvv",
             "count": 1
         },
         {
-            "name": "hell chaos 8",
+            "name": "mf runs",
             "count": 1
         },
         {
-            "name": "1",
+            "name": "3",
             "count": 1
         }
     ],
     "unknown_games": [
         {
+            "normalized": "lvv",
+            "count": 2,
+            "examples": [
+                "lvv"
+            ]
+        },
+        {
             "normalized": "#",
             "count": 2,
             "examples": [
-                "1"
+                "3"
             ]
         }
     ],
     "classified_games": {
-        "Chaos": [
+        "Misc. Public MF Runs": [
             {
-                "name": "hell chaos 9",
-                "matched": "chaos",
-                "count": 1
-            },
-            {
-                "name": "hell chaos 8",
-                "matched": "chaos",
+                "name": "mf runs",
+                "matched": "run",
                 "count": 1
             }
         ]
@@ -61,6 +63,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 8.33
+        "average_name_length": 3.67
     }
 }
