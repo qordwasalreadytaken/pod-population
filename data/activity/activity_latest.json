@@ -1,54 +1,15 @@
 {
-    "timestamp": "2026-08-06T15:39:00+00:00",
-    "difficulty": {
-        "2": 2
-    },
-    "mode": {
-        "0": 2
-    },
-    "difficulty_mode": {
-        "2|0": 2
-    },
-    "activities": [
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Cows",
-            "count": 1
-        }
-    ],
-    "top_games": [
-        {
-            "name": "ohm rune plz 34",
-            "count": 1
-        },
-        {
-            "name": "cow",
-            "count": 1
-        }
-    ],
+    "timestamp": "2026-08-07T00:36:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "difficulty_mode": {},
+    "activities": [],
+    "top_games": [],
     "unknown_games": [],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "ohm rune plz 34",
-                "matched": "run",
-                "count": 1
-            }
-        ],
-        "Cows": [
-            {
-                "name": "cow",
-                "matched": "cow",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 9.0
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
