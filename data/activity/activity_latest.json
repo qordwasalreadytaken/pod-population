@@ -1,9 +1,9 @@
 {
-    "timestamp": "2026-08-08T14:47:00+00:00",
+    "timestamp": "2026-08-08T15:21:00+00:00",
     "difficulty": {
         "1": 1,
-        "2": 2,
-        "0": 2
+        "2": 1,
+        "0": 3
     },
     "mode": {
         "1": 1,
@@ -11,17 +11,17 @@
     },
     "difficulty_mode": {
         "1|1": 1,
-        "2|0": 2,
-        "0|0": 2
+        "2|0": 1,
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
@@ -30,19 +30,19 @@
             "count": 1
         },
         {
-            "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "zuig",
-            "count": 1
-        },
-        {
-            "name": "tyh",
+            "name": "gfdhg",
             "count": 1
         },
         {
             "name": "gord",
+            "count": 1
+        },
+        {
+            "name": "dfgd",
+            "count": 1
+        },
+        {
+            "name": "tyh",
             "count": 1
         }
     ],
@@ -55,10 +55,17 @@
             ]
         },
         {
-            "normalized": "zuig",
+            "normalized": "gfdhg",
             "count": 2,
             "examples": [
-                "zuig"
+                "gfdhg"
+            ]
+        },
+        {
+            "normalized": "dfgd",
+            "count": 2,
+            "examples": [
+                "dfgd"
             ]
         },
         {
@@ -72,11 +79,6 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
                 "name": "gord",
                 "matched": "gord",
                 "count": 1
@@ -86,6 +88,6 @@
     "interesting": {
         "unique_names": 5,
         "public_games": 5,
-        "average_name_length": 3.2
+        "average_name_length": 3.6
     }
 }
