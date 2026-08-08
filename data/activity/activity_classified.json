@@ -369,7 +369,7 @@
         },
         {
             "name": "meph run",
-            "matched": "run",
+            "matched": "meph",
             "count": 4
         },
         {
@@ -1268,7 +1268,7 @@
         },
         {
             "name": "buy necr torch",
-            "matched": "torch",
+            "matched": "buy",
             "count": 4
         },
         {
@@ -1383,7 +1383,7 @@
         },
         {
             "name": "items for trade",
-            "matched": "trade",
+            "matched": "for",
             "count": 2
         },
         {
@@ -1458,7 +1458,7 @@
         },
         {
             "name": "lmk what u n",
-            "matched": "lmk",
+            "matched": "n",
             "count": 1
         },
         {
@@ -1790,7 +1790,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 3
         },
         {
@@ -1855,7 +1855,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "leveli",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -1875,12 +1875,12 @@
         },
         {
             "name": "ancients norm",
-            "matched": "anci",
+            "matched": "norm",
             "count": 2
         },
         {
             "name": "normal act",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -1955,7 +1955,7 @@
         },
         {
             "name": "act 5 normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -2075,7 +2075,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "norm",
+            "matched": "tomb",
             "count": 1
         },
         {
@@ -2560,6 +2560,11 @@
             "count": 2
         },
         {
+            "name": "rush nm",
+            "matched": "rush",
+            "count": 2
+        },
+        {
             "name": "rush me hell",
             "matched": "rush",
             "count": 1
@@ -2603,17 +2608,12 @@
             "name": "hell act rush",
             "matched": "rush",
             "count": 1
-        },
-        {
-            "name": "rush nm",
-            "matched": "rush",
-            "count": 1
         }
     ],
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
