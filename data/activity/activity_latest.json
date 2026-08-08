@@ -1,23 +1,30 @@
 {
-    "timestamp": "2026-08-08T22:06:00+00:00",
+    "timestamp": "2026-08-08T22:23:00+00:00",
     "difficulty": {
-        "0": 1
+        "0": 1,
+        "2": 1
     },
     "mode": {
-        "1": 1
+        "1": 1,
+        "0": 1
     },
     "difficulty_mode": {
-        "0|1": 1
+        "0|1": 1,
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
             "name": "eq",
+            "count": 1
+        },
+        {
+            "name": "kmkol",
             "count": 1
         }
     ],
@@ -28,12 +35,19 @@
             "examples": [
                 "eq"
             ]
+        },
+        {
+            "normalized": "kmkol",
+            "count": 2,
+            "examples": [
+                "kmkol"
+            ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 2.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 3.5
     }
 }
