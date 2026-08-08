@@ -1,19 +1,25 @@
 {
-    "timestamp": "2026-08-08T21:08:00+00:00",
+    "timestamp": "2026-08-08T21:23:00+00:00",
     "difficulty": {
         "2": 1,
+        "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
         "2|0": 1,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
+            "count": 1
+        },
+        {
+            "name": "Rush",
             "count": 1
         },
         {
@@ -24,6 +30,10 @@
     "top_games": [
         {
             "name": "lvv",
+            "count": 1
+        },
+        {
+            "name": "rush nm",
             "count": 1
         },
         {
@@ -41,17 +51,24 @@
         }
     ],
     "classified_games": {
+        "Rush": [
+            {
+                "name": "rush nm",
+                "matched": "rush",
+                "count": 1
+            }
+        ],
         "Leveling": [
             {
                 "name": "act 1 start",
-                "matched": "start",
+                "matched": "act",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
+        "unique_names": 3,
+        "public_games": 3,
         "average_name_length": 7.0
     }
 }
