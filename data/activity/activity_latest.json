@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-08T10:58:00+00:00",
+    "timestamp": "2026-08-08T11:27:00+00:00",
     "difficulty": {
         "2": 2,
         "1": 1,
@@ -15,25 +15,29 @@
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 2
+            "name": "Misc. Public MF Runs",
+            "count": 1
         },
         {
             "name": "Trade",
             "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
+            "count": 1
+        },
+        {
+            "name": "Baal",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n 18frw wisp",
+            "name": "adasd",
             "count": 1
         },
         {
-            "name": "n eld runes",
+            "name": "n 18frw wisp",
             "count": 1
         },
         {
@@ -41,7 +45,7 @@
             "count": 1
         },
         {
-            "name": "r",
+            "name": "nbaal",
             "count": 1
         }
     ],
@@ -52,16 +56,16 @@
             "examples": [
                 "2"
             ]
-        },
-        {
-            "normalized": "r",
-            "count": 2,
-            "examples": [
-                "r"
-            ]
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "adasd",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n 18frw wisp",
@@ -69,10 +73,10 @@
                 "count": 1
             }
         ],
-        "Misc. Public MF Runs": [
+        "Baal": [
             {
-                "name": "n eld runes",
-                "matched": "run",
+                "name": "nbaal",
+                "matched": "baal",
                 "count": 1
             }
         ]
@@ -80,6 +84,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 6.25
+        "average_name_length": 5.75
     }
 }
