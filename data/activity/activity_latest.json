@@ -1,29 +1,23 @@
 {
-    "timestamp": "2026-08-08T23:06:00+00:00",
+    "timestamp": "2026-08-08T23:23:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
+        "2": 1
     },
     "mode": {
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 1
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "kmkol",
-            "count": 1
-        },
-        {
-            "name": "rthsarth",
             "count": 1
         }
     ],
@@ -34,19 +28,12 @@
             "examples": [
                 "kmkol"
             ]
-        },
-        {
-            "normalized": "rthsarth",
-            "count": 2,
-            "examples": [
-                "rthsarth"
-            ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 6.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 5.0
     }
 }
