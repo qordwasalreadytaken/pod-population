@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-08T05:54:00+00:00",
+    "timestamp": "2026-08-08T06:36:00+00:00",
     "difficulty": {
         "2": 2
     },
@@ -21,7 +21,7 @@
     ],
     "top_games": [
         {
-            "name": "kokoball 1",
+            "name": "lvv",
             "count": 1
         },
         {
@@ -31,10 +31,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "kokoball #",
+            "normalized": "lvv",
             "count": 2,
             "examples": [
-                "kokoball 1"
+                "lvv"
             ]
         }
     ],
@@ -50,6 +50,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 11.5
+        "average_name_length": 8.0
     }
 }
