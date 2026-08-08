@@ -1,25 +1,19 @@
 {
-    "timestamp": "2026-08-08T17:44:00+00:00",
+    "timestamp": "2026-08-08T18:04:00+00:00",
     "difficulty": {
-        "1": 2,
-        "0": 1,
-        "2": 1
+        "2": 2,
+        "1": 1
     },
     "mode": {
-        "1": 2,
+        "1": 1,
         "0": 2
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "0|1": 1,
+        "2|1": 1,
         "2|0": 1,
         "1|0": 1
     },
     "activities": [
-        {
-            "name": "Baal",
-            "count": 1
-        },
         {
             "name": "Other",
             "count": 1
@@ -35,11 +29,7 @@
     ],
     "top_games": [
         {
-            "name": "baal money",
-            "count": 1
-        },
-        {
-            "name": "wwww",
+            "name": "hell",
             "count": 1
         },
         {
@@ -53,21 +43,14 @@
     ],
     "unknown_games": [
         {
-            "normalized": "wwww",
+            "normalized": "hell",
             "count": 2,
             "examples": [
-                "wwww"
+                "hell"
             ]
         }
     ],
     "classified_games": {
-        "Baal": [
-            {
-                "name": "baal money",
-                "matched": "baal",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "n griffon 3s",
@@ -84,8 +67,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 7.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 6.67
     }
 }
