@@ -1,34 +1,46 @@
 {
-    "timestamp": "2026-08-08T22:23:00+00:00",
+    "timestamp": "2026-08-08T22:41:00+00:00",
     "difficulty": {
-        "0": 1,
-        "2": 1
+        "0": 2,
+        "2": 2
     },
     "mode": {
         "1": 1,
-        "0": 1
+        "0": 3
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 1
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 4
         }
     ],
     "top_games": [
+        {
+            "name": "kmkol",
+            "count": 2
+        },
         {
             "name": "eq",
             "count": 1
         },
         {
-            "name": "kmkol",
+            "name": "rthsarth",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "kmkol",
+            "count": 4,
+            "examples": [
+                "kmkol"
+            ]
+        },
         {
             "normalized": "eq",
             "count": 2,
@@ -37,17 +49,17 @@
             ]
         },
         {
-            "normalized": "kmkol",
+            "normalized": "rthsarth",
             "count": 2,
             "examples": [
-                "kmkol"
+                "rthsarth"
             ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 3.5
+        "unique_names": 3,
+        "public_games": 4,
+        "average_name_length": 5.0
     }
 }

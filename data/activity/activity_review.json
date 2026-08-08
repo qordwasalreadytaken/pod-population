@@ -143,6 +143,13 @@
         ]
     },
     {
+        "normalized": "eq",
+        "count": 36,
+        "examples": [
+            "eq"
+        ]
+    },
+    {
         "normalized": "trapper jim #",
         "count": 36,
         "examples": [
@@ -166,13 +173,6 @@
             "fd 2",
             "fd 3",
             "fd 4"
-        ]
-    },
-    {
-        "normalized": "eq",
-        "count": 34,
-        "examples": [
-            "eq"
         ]
     },
     {
@@ -1141,6 +1141,13 @@
         "count": 6,
         "examples": [
             "wt"
+        ]
+    },
+    {
+        "normalized": "kmkol",
+        "count": 6,
+        "examples": [
+            "kmkol"
         ]
     },
     {
@@ -5503,10 +5510,10 @@
         ]
     },
     {
-        "normalized": "kmkol",
+        "normalized": "rthsarth",
         "count": 2,
         "examples": [
-            "kmkol"
+            "rthsarth"
         ]
     }
 ]
