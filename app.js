@@ -623,16 +623,31 @@ function openChart(name) {
 
 (async function () {
 
-    allData = [
-        ...await loadJSONL("./data/social/2026-06.jsonl"),
-        ...await loadJSONL("./data/social/2026-07.jsonl"),
-        ...await loadJSONL("./data/social/2026-08.jsonl")
-    ];
+    // allData = [
+    //     ...await loadJSONL("./data/social/2026-06.jsonl"),
+    //     ...await loadJSONL("./data/social/2026-07.jsonl"),
+    //     ...await loadJSONL("./data/social/2026-08.jsonl")
+    // ];
+
+    // allData.sort(
+    //     (a, b) =>
+    //         new Date(a.timestamp) - new Date(b.timestamp)
+    // );
+
+    const files = await fetch("./data/social-files.json")
+        .then(response => response.json());
+
+    allData = (
+        await Promise.all(
+            files.map(file => loadJSONL(`./data/social/${file}`))
+        )
+    ).flat();
 
     allData.sort(
         (a, b) =>
             new Date(a.timestamp) - new Date(b.timestamp)
     );
+
 
     refreshCurrentData();
 
