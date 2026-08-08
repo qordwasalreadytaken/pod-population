@@ -1,40 +1,57 @@
 {
-    "timestamp": "2026-08-08T17:00:00+00:00",
+    "timestamp": "2026-08-08T17:44:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
+        "1": 2,
+        "0": 1,
+        "2": 1
     },
     "mode": {
-        "1": 2
+        "1": 2,
+        "0": 2
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "0|1": 1
+        "1|1": 1,
+        "0|1": 1,
+        "2|0": 1,
+        "1|0": 1
     },
     "activities": [
         {
+            "name": "Baal",
+            "count": 1
+        },
+        {
             "name": "Other",
-            "count": 2
+            "count": 1
+        },
+        {
+            "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "sdfg",
+            "name": "baal money",
             "count": 1
         },
         {
             "name": "wwww",
             "count": 1
+        },
+        {
+            "name": "n griffon 3s",
+            "count": 1
+        },
+        {
+            "name": "gord",
+            "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "sdfg",
-            "count": 2,
-            "examples": [
-                "sdfg"
-            ]
-        },
         {
             "normalized": "wwww",
             "count": 2,
@@ -43,10 +60,32 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Baal": [
+            {
+                "name": "baal money",
+                "matched": "baal",
+                "count": 1
+            }
+        ],
+        "Trade": [
+            {
+                "name": "n griffon 3s",
+                "matched": "n",
+                "count": 1
+            }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "gord",
+                "matched": "gord",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 4.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 7.5
     }
 }
