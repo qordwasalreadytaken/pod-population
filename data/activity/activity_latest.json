@@ -1,29 +1,25 @@
 {
-    "timestamp": "2026-08-08T21:41:00+00:00",
+    "timestamp": "2026-08-08T21:54:00+00:00",
     "difficulty": {
+        "0": 2
+    },
+    "mode": {
         "1": 1,
         "0": 1
     },
-    "mode": {
-        "0": 2
-    },
     "difficulty_mode": {
-        "1|0": 1,
+        "0|1": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Rush",
-            "count": 1
-        },
-        {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "rush nm",
+            "name": "qe",
             "count": 1
         },
         {
@@ -33,6 +29,13 @@
     ],
     "unknown_games": [
         {
+            "normalized": "qe",
+            "count": 2,
+            "examples": [
+                "qe"
+            ]
+        },
+        {
             "normalized": "dfha",
             "count": 2,
             "examples": [
@@ -40,18 +43,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Rush": [
-            {
-                "name": "rush nm",
-                "matched": "rush",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 5.5
+        "average_name_length": 3.0
     }
 }
