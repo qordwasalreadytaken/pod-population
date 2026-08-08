@@ -1,33 +1,47 @@
 {
-    "timestamp": "2026-08-08T10:22:00+00:00",
+    "timestamp": "2026-08-08T10:58:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 1
+        "2": 2,
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 1
+        "2|0": 2,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
+            "count": 2
+        },
+        {
+            "name": "Trade",
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
+            "name": "n 18frw wisp",
+            "count": 1
+        },
+        {
+            "name": "n eld runes",
             "count": 1
         },
         {
             "name": "2",
+            "count": 1
+        },
+        {
+            "name": "r",
             "count": 1
         }
     ],
@@ -38,20 +52,34 @@
             "examples": [
                 "2"
             ]
+        },
+        {
+            "normalized": "r",
+            "count": 2,
+            "examples": [
+                "r"
+            ]
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n 18frw wisp",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
-                "matched": "asd",
+                "name": "n eld runes",
+                "matched": "run",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 2.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 6.25
     }
 }
