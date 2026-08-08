@@ -218,6 +218,16 @@ def main():
         f.write(json.dumps(snapshot))
         f.write("\n")
 
+    social_dir = Path("./data/social")
+
+    social_files = sorted(
+        f.name
+        for f in social_dir.glob("*.jsonl")
+    )
+
+    with open("./data/social-files.json", "w") as f:
+        json.dump(social_files, f, indent=2)
+        
     print(
         f"{timestamp.isoformat()} "
         f"- public={public_players}/{public_games} "
