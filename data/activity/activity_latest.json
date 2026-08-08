@@ -1,22 +1,20 @@
 {
-    "timestamp": "2026-08-08T06:36:00+00:00",
+    "timestamp": "2026-08-08T07:34:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 1,
+        "0": 1
     },
     "mode": {
         "0": 2
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Trade",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
@@ -25,7 +23,7 @@
             "count": 1
         },
         {
-            "name": "n 30fcr arach",
+            "name": "r",
             "count": 1
         }
     ],
@@ -36,20 +34,19 @@
             "examples": [
                 "lvv"
             ]
+        },
+        {
+            "normalized": "r",
+            "count": 2,
+            "examples": [
+                "r"
+            ]
         }
     ],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "n 30fcr arach",
-                "matched": "n",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 8.0
+        "average_name_length": 2.0
     }
 }
