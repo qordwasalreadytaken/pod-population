@@ -625,7 +625,8 @@ function openChart(name) {
 
     allData = [
         ...await loadJSONL("./data/social/2026-06.jsonl"),
-        ...await loadJSONL("./data/social/2026-07.jsonl")
+        ...await loadJSONL("./data/social/2026-07.jsonl"),
+        ...await loadJSONL("./data/social/2026-08.jsonl")
     ];
 
     allData.sort(
