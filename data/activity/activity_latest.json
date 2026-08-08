@@ -1,17 +1,18 @@
 {
-    "timestamp": "2026-08-08T14:05:00+00:00",
+    "timestamp": "2026-08-08T14:47:00+00:00",
     "difficulty": {
-        "2": 4,
-        "0": 1
+        "1": 1,
+        "2": 2,
+        "0": 2
     },
     "mode": {
         "1": 1,
         "0": 4
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 3,
-        "0|0": 1
+        "1|1": 1,
+        "2|0": 2,
+        "0|0": 2
     },
     "activities": [
         {
@@ -19,21 +20,17 @@
             "count": 3
         },
         {
-            "name": "Maps",
-            "count": 1
-        },
-        {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "atlas",
+            "name": "wt",
             "count": 1
         },
         {
-            "name": "lvv",
+            "name": "asd",
             "count": 1
         },
         {
@@ -41,7 +38,7 @@
             "count": 1
         },
         {
-            "name": "cripmap",
+            "name": "tyh",
             "count": 1
         },
         {
@@ -51,17 +48,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "atlas",
+            "normalized": "wt",
             "count": 2,
             "examples": [
-                "atlas"
-            ]
-        },
-        {
-            "normalized": "lvv",
-            "count": 2,
-            "examples": [
-                "lvv"
+                "wt"
             ]
         },
         {
@@ -70,17 +60,22 @@
             "examples": [
                 "zuig"
             ]
+        },
+        {
+            "normalized": "tyh",
+            "count": 2,
+            "examples": [
+                "tyh"
+            ]
         }
     ],
     "classified_games": {
-        "Maps": [
-            {
-                "name": "cripmap",
-                "matched": "map",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            },
             {
                 "name": "gord",
                 "matched": "gord",
@@ -91,6 +86,6 @@
     "interesting": {
         "unique_names": 5,
         "public_games": 5,
-        "average_name_length": 4.6
+        "average_name_length": 3.2
     }
 }
