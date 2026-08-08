@@ -1,25 +1,30 @@
 {
-    "timestamp": "2026-08-08T13:27:00+00:00",
+    "timestamp": "2026-08-08T14:05:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 2
+        "2": 4,
+        "0": 1
     },
     "mode": {
-        "1": 2,
-        "0": 2
+        "1": 1,
+        "0": 4
     },
     "difficulty_mode": {
-        "2|1": 2,
-        "0|0": 2
+        "2|1": 1,
+        "2|0": 3,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
+        },
+        {
+            "name": "Maps",
+            "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
@@ -28,15 +33,19 @@
             "count": 1
         },
         {
-            "name": "fghj",
+            "name": "lvv",
+            "count": 1
+        },
+        {
+            "name": "zuig",
+            "count": 1
+        },
+        {
+            "name": "cripmap",
             "count": 1
         },
         {
             "name": "gord",
-            "count": 1
-        },
-        {
-            "name": "n low runes 1",
             "count": 1
         }
     ],
@@ -49,30 +58,39 @@
             ]
         },
         {
-            "normalized": "fghj",
+            "normalized": "lvv",
             "count": 2,
             "examples": [
-                "fghj"
+                "lvv"
+            ]
+        },
+        {
+            "normalized": "zuig",
+            "count": 2,
+            "examples": [
+                "zuig"
             ]
         }
     ],
     "classified_games": {
+        "Maps": [
+            {
+                "name": "cripmap",
+                "matched": "map",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "gord",
                 "matched": "gord",
                 "count": 1
-            },
-            {
-                "name": "n low runes 1",
-                "matched": "run",
-                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.5
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 4.6
     }
 }
