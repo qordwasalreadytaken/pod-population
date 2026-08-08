@@ -1,32 +1,45 @@
 {
-    "timestamp": "2026-08-08T15:21:00+00:00",
+    "timestamp": "2026-08-08T15:54:00+00:00",
     "difficulty": {
-        "1": 1,
-        "2": 1,
-        "0": 3
+        "1": 2,
+        "2": 3,
+        "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 6
     },
     "difficulty_mode": {
         "1|1": 1,
-        "2|0": 1,
-        "0|0": 3
+        "2|0": 3,
+        "1|0": 1,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 5
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
+            "name": "gord",
+            "count": 2
+        },
+        {
             "name": "wt",
+            "count": 1
+        },
+        {
+            "name": "awefaewf",
+            "count": 1
+        },
+        {
+            "name": "aefw",
             "count": 1
         },
         {
@@ -34,15 +47,7 @@
             "count": 1
         },
         {
-            "name": "gord",
-            "count": 1
-        },
-        {
             "name": "dfgd",
-            "count": 1
-        },
-        {
-            "name": "tyh",
             "count": 1
         }
     ],
@@ -52,6 +57,20 @@
             "count": 2,
             "examples": [
                 "wt"
+            ]
+        },
+        {
+            "normalized": "awefaewf",
+            "count": 2,
+            "examples": [
+                "awefaewf"
+            ]
+        },
+        {
+            "normalized": "aefw",
+            "count": 2,
+            "examples": [
+                "aefw"
             ]
         },
         {
@@ -67,13 +86,6 @@
             "examples": [
                 "dfgd"
             ]
-        },
-        {
-            "normalized": "tyh",
-            "count": 2,
-            "examples": [
-                "tyh"
-            ]
         }
     ],
     "classified_games": {
@@ -81,13 +93,13 @@
             {
                 "name": "gord",
                 "matched": "gord",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 3.6
+        "unique_names": 6,
+        "public_games": 7,
+        "average_name_length": 4.5
     }
 }
