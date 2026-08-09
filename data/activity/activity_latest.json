@@ -1,33 +1,23 @@
 {
-    "timestamp": "2026-08-09T03:59:00+00:00",
+    "timestamp": "2026-08-09T04:32:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 1
     },
     "mode": {
-        "1": 1,
-        "0": 1
+        "1": 1
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 1
+        "2|1": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "hellbound",
-            "count": 1
-        },
-        {
-            "name": "hell start",
             "count": 1
         }
     ],
@@ -40,18 +30,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Leveling": [
-            {
-                "name": "hell start",
-                "matched": "start",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 9.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 9.0
     }
 }
