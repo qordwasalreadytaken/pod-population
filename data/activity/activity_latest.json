@@ -1,23 +1,23 @@
 {
-    "timestamp": "2026-08-09T09:49:00+00:00",
+    "timestamp": "2026-08-09T10:10:00+00:00",
     "difficulty": {
         "2": 1,
-        "0": 2
+        "0": 1
     },
     "mode": {
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
         "2|0": 1,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         },
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -27,11 +27,7 @@
             "count": 1
         },
         {
-            "name": "tal eth",
-            "count": 1
-        },
-        {
-            "name": "n eth 2",
+            "name": "n ort rune",
             "count": 1
         }
     ],
@@ -42,27 +38,20 @@
             "examples": [
                 "lvv"
             ]
-        },
-        {
-            "normalized": "tal eth",
-            "count": 2,
-            "examples": [
-                "tal eth"
-            ]
         }
     ],
     "classified_games": {
-        "Trade": [
+        "Misc. Public MF Runs": [
             {
-                "name": "n eth 2",
-                "matched": "n",
+                "name": "n ort rune",
+                "matched": "run",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 5.67
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 6.5
     }
 }
