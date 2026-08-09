@@ -1,26 +1,39 @@
 {
-    "timestamp": "2026-08-09T17:00:00+00:00",
+    "timestamp": "2026-08-09T17:23:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 3,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 1
+        "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
             "count": 2
+        },
+        {
+            "name": "Chaos",
+            "count": 2
         }
     ],
     "top_games": [
         {
             "name": "atlas'3",
+            "count": 1
+        },
+        {
+            "name": "hell chaos 2",
+            "count": 1
+        },
+        {
+            "name": "hell chaos 1",
             "count": 1
         },
         {
@@ -44,10 +57,23 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Chaos": [
+            {
+                "name": "hell chaos 2",
+                "matched": "chaos",
+                "count": 1
+            },
+            {
+                "name": "hell chaos 1",
+                "matched": "chaos",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 5.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 8.5
     }
 }
