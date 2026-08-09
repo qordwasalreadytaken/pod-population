@@ -270,7 +270,7 @@
         {
             "name": "n eld runes",
             "matched": "run",
-            "count": 52
+            "count": 53
         },
         {
             "name": "aa",
@@ -404,7 +404,7 @@
         },
         {
             "name": "meph run",
-            "matched": "run",
+            "matched": "meph",
             "count": 4
         },
         {
@@ -1064,7 +1064,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -1258,12 +1258,12 @@
         },
         {
             "name": "n druid torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 20
         },
         {
             "name": "n ama torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 15
         },
         {
@@ -1328,12 +1328,12 @@
         },
         {
             "name": "n necro torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
             "name": "n torch necro",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -1378,7 +1378,7 @@
         },
         {
             "name": "n 6os windforce",
-            "matched": "n",
+            "matched": "for",
             "count": 3
         },
         {
@@ -1428,7 +1428,7 @@
         },
         {
             "name": "items for trade",
-            "matched": "trade",
+            "matched": "for",
             "count": 2
         },
         {
@@ -1668,7 +1668,7 @@
         },
         {
             "name": "n pala torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -1693,7 +1693,7 @@
         },
         {
             "name": "n nec torch :)",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -1708,6 +1708,11 @@
         },
         {
             "name": "n eth 1",
+            "matched": "n",
+            "count": 1
+        },
+        {
+            "name": "n bloodfist",
             "matched": "n",
             "count": 1
         }
@@ -2217,7 +2222,7 @@
         },
         {
             "name": "maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 3
         },
         {
@@ -2247,7 +2252,7 @@
         },
         {
             "name": "maps-2",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
@@ -2382,7 +2387,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -2673,7 +2678,7 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
