@@ -1,23 +1,24 @@
 {
-    "timestamp": "2026-08-09T21:43:00+00:00",
+    "timestamp": "2026-08-09T21:57:00+00:00",
     "difficulty": {
+        "2": 3,
         "1": 1,
-        "2": 1,
-        "0": 2
+        "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "2|0": 1,
-        "0|0": 2
+        "2|1": 1,
+        "2|0": 2,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
@@ -30,7 +31,11 @@
     ],
     "top_games": [
         {
-            "name": "atlas'4",
+            "name": "atlas'1",
+            "count": 1
+        },
+        {
+            "name": "goat",
             "count": 1
         },
         {
@@ -38,7 +43,7 @@
             "count": 1
         },
         {
-            "name": "n bloodfist 1",
+            "name": "n bloodfist 2",
             "count": 1
         },
         {
@@ -51,7 +56,14 @@
             "normalized": "atlas'#",
             "count": 2,
             "examples": [
-                "atlas'4"
+                "atlas'1"
+            ]
+        },
+        {
+            "normalized": "goat",
+            "count": 2,
+            "examples": [
+                "goat"
             ]
         },
         {
@@ -72,15 +84,15 @@
         ],
         "Trade": [
             {
-                "name": "n bloodfist 1",
+                "name": "n bloodfist 2",
                 "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 10.5
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 9.2
     }
 }
