@@ -3491,7 +3491,7 @@
             "Maps": [
                 {
                     "name": "maps-2",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -5126,7 +5126,7 @@
             "Maps": [
                 {
                     "name": "maps-2",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -12474,7 +12474,7 @@
             "Trade": [
                 {
                     "name": "lmk what u n",
-                    "matched": "n",
+                    "matched": "lmk",
                     "count": 1
                 }
             ],
@@ -41158,7 +41158,7 @@
             "Maps": [
                 {
                     "name": "maps",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -41242,7 +41242,7 @@
             "Maps": [
                 {
                     "name": "maps",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -43416,7 +43416,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "run",
+                    "matched": "meph",
                     "count": 1
                 },
                 {
@@ -43467,7 +43467,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "run",
+                    "matched": "meph",
                     "count": 1
                 },
                 {
@@ -55191,7 +55191,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "run",
+                    "matched": "meph",
                     "count": 2
                 }
             ]
@@ -73758,7 +73758,7 @@
             "Maps": [
                 {
                     "name": "maps",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -102133,7 +102133,7 @@
             "Uber": [
                 {
                     "name": "ubers",
-                    "matched": "uber",
+                    "matched": "ubers",
                     "count": 1
                 }
             ],
@@ -104640,7 +104640,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "mf runs",
-                    "matched": "run",
+                    "matched": "mf",
                     "count": 1
                 }
             ]
@@ -108686,6 +108686,100 @@
             "unique_names": 4,
             "public_games": 4,
             "average_name_length": 5.25
+        }
+    },
+    {
+        "timestamp": "2026-08-09T08:27:00+00:00",
+        "difficulty": {
+            "2": 3,
+            "0": 2
+        },
+        "mode": {
+            "0": 5
+        },
+        "difficulty_mode": {
+            "2|0": 3,
+            "0|0": 2
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 3
+            },
+            {
+                "name": "Maps",
+                "count": 1
+            },
+            {
+                "name": "Trade",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "pubmap",
+                "count": 1
+            },
+            {
+                "name": "lvv",
+                "count": 1
+            },
+            {
+                "name": "hell",
+                "count": 1
+            },
+            {
+                "name": "tal eth",
+                "count": 1
+            },
+            {
+                "name": "n eth 2",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "lvv",
+                "count": 2,
+                "examples": [
+                    "lvv"
+                ]
+            },
+            {
+                "normalized": "hell",
+                "count": 2,
+                "examples": [
+                    "hell"
+                ]
+            },
+            {
+                "normalized": "tal eth",
+                "count": 2,
+                "examples": [
+                    "tal eth"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Maps": [
+                {
+                    "name": "pubmap",
+                    "matched": "map",
+                    "count": 1
+                }
+            ],
+            "Trade": [
+                {
+                    "name": "n eth 2",
+                    "matched": "n",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 5,
+            "public_games": 5,
+            "average_name_length": 5.4
         }
     }
 ]

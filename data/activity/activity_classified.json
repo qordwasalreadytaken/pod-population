@@ -369,7 +369,7 @@
         },
         {
             "name": "meph run",
-            "matched": "run",
+            "matched": "meph",
             "count": 4
         },
         {
@@ -1029,7 +1029,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -1347,6 +1347,11 @@
             "count": 3
         },
         {
+            "name": "n eth 2",
+            "matched": "n",
+            "count": 3
+        },
+        {
             "name": "hellforge",
             "matched": "for",
             "count": 2
@@ -1422,11 +1427,6 @@
             "count": 2
         },
         {
-            "name": "n eth 2",
-            "matched": "n",
-            "count": 2
-        },
-        {
             "name": "work n chill",
             "matched": "n",
             "count": 1
@@ -1463,7 +1463,7 @@
         },
         {
             "name": "lmk what u n",
-            "matched": "n",
+            "matched": "lmk",
             "count": 1
         },
         {
@@ -2167,7 +2167,7 @@
         },
         {
             "name": "maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 3
         },
         {
@@ -2187,7 +2187,7 @@
         },
         {
             "name": "maps-2",
-            "matched": "map",
+            "matched": "maps",
             "count": 2
         },
         {
@@ -2217,6 +2217,11 @@
         },
         {
             "name": "mappopotumus",
+            "matched": "map",
+            "count": 2
+        },
+        {
+            "name": "pubmap",
             "matched": "map",
             "count": 2
         },
@@ -2377,11 +2382,6 @@
         },
         {
             "name": "cripmap-3",
-            "matched": "map",
-            "count": 1
-        },
-        {
-            "name": "pubmap",
             "matched": "map",
             "count": 1
         },
@@ -2623,7 +2623,7 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
