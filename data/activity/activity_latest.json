@@ -1,24 +1,23 @@
 {
-    "timestamp": "2026-08-09T03:19:00+00:00",
+    "timestamp": "2026-08-09T03:59:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 2
+        "2": 2
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
         "2|1": 1,
-        "1|0": 2
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         },
         {
-            "name": "Baal",
+            "name": "Leveling",
             "count": 1
         }
     ],
@@ -28,11 +27,7 @@
             "count": 1
         },
         {
-            "name": "baal",
-            "count": 1
-        },
-        {
-            "name": "tt",
+            "name": "hell start",
             "count": 1
         }
     ],
@@ -43,27 +38,20 @@
             "examples": [
                 "hellbound"
             ]
-        },
-        {
-            "normalized": "tt",
-            "count": 2,
-            "examples": [
-                "tt"
-            ]
         }
     ],
     "classified_games": {
-        "Baal": [
+        "Leveling": [
             {
-                "name": "baal",
-                "matched": "baal",
+                "name": "hell start",
+                "matched": "start",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 5.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 9.5
     }
 }
