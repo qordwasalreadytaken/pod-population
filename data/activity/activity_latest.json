@@ -1,49 +1,23 @@
 {
-    "timestamp": "2026-08-09T15:12:00+00:00",
+    "timestamp": "2026-08-09T15:26:00+00:00",
     "difficulty": {
-        "2": 5
+        "2": 1
     },
     "mode": {
-        "1": 2,
-        "0": 3
+        "1": 1
     },
     "difficulty_mode": {
-        "2|1": 2,
-        "2|0": 3
+        "2|1": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Chaos",
-            "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "atlas'1",
-            "count": 1
-        },
-        {
-            "name": "atlas'",
-            "count": 1
-        },
-        {
-            "name": "hell chaos 6",
-            "count": 1
-        },
-        {
-            "name": "hell chaos 5",
-            "count": 1
-        },
-        {
-            "name": "nicoo",
             "count": 1
         }
     ],
@@ -54,39 +28,12 @@
             "examples": [
                 "atlas'1"
             ]
-        },
-        {
-            "normalized": "atlas'",
-            "count": 2,
-            "examples": [
-                "atlas'"
-            ]
         }
     ],
-    "classified_games": {
-        "Chaos": [
-            {
-                "name": "hell chaos 6",
-                "matched": "chaos",
-                "count": 1
-            },
-            {
-                "name": "hell chaos 5",
-                "matched": "chaos",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "nicoo",
-                "matched": "nico",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 8.4
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 7.0
     }
 }
