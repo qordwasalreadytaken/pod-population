@@ -1,9 +1,8 @@
 {
-    "timestamp": "2026-08-09T02:41:00+00:00",
+    "timestamp": "2026-08-09T03:19:00+00:00",
     "difficulty": {
         "2": 1,
-        "1": 1,
-        "0": 1
+        "1": 2
     },
     "mode": {
         "1": 1,
@@ -11,13 +10,16 @@
     },
     "difficulty_mode": {
         "2|1": 1,
-        "1|0": 1,
-        "0|0": 1
+        "1|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
+        },
+        {
+            "name": "Baal",
+            "count": 1
         }
     ],
     "top_games": [
@@ -26,11 +28,11 @@
             "count": 1
         },
         {
-            "name": "tt",
+            "name": "baal",
             "count": 1
         },
         {
-            "name": "bxbc",
+            "name": "tt",
             "count": 1
         }
     ],
@@ -48,16 +50,17 @@
             "examples": [
                 "tt"
             ]
-        },
-        {
-            "normalized": "bxbc",
-            "count": 2,
-            "examples": [
-                "bxbc"
-            ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Baal": [
+            {
+                "name": "baal",
+                "matched": "baal",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
