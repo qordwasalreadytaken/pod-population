@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 468,
+        "count": 470,
         "examples": [
             "1",
             "11",
@@ -150,6 +150,13 @@
         ]
     },
     {
+        "normalized": "hell",
+        "count": 36,
+        "examples": [
+            "hell"
+        ]
+    },
+    {
         "normalized": "trapper jim #",
         "count": 36,
         "examples": [
@@ -180,13 +187,6 @@
             "fd 2",
             "fd 3",
             "fd 4"
-        ]
-    },
-    {
-        "normalized": "hell",
-        "count": 34,
-        "examples": [
-            "hell"
         ]
     },
     {
@@ -5521,6 +5521,13 @@
         "count": 2,
         "examples": [
             "aefw"
+        ]
+    },
+    {
+        "normalized": "egererhpp",
+        "count": 2,
+        "examples": [
+            "egererhpp"
         ]
     }
 ]
