@@ -1,27 +1,20 @@
 {
-    "timestamp": "2026-08-09T19:04:00+00:00",
+    "timestamp": "2026-08-09T19:24:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1,
-        "0": 1
+        "2": 1,
+        "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 1
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 1,
-        "1|0": 1,
-        "0|0": 1
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Maps",
             "count": 1
         },
         {
@@ -31,19 +24,11 @@
     ],
     "top_games": [
         {
-            "name": "atlas'2",
-            "count": 1
-        },
-        {
-            "name": "map",
+            "name": "atlas'3",
             "count": 1
         },
         {
             "name": "act 3 nightmer",
-            "count": 1
-        },
-        {
-            "name": "aag",
             "count": 1
         }
     ],
@@ -52,25 +37,11 @@
             "normalized": "atlas'#",
             "count": 2,
             "examples": [
-                "atlas'2"
-            ]
-        },
-        {
-            "normalized": "aag",
-            "count": 2,
-            "examples": [
-                "aag"
+                "atlas'3"
             ]
         }
     ],
     "classified_games": {
-        "Maps": [
-            {
-                "name": "map",
-                "matched": "map",
-                "count": 1
-            }
-        ],
         "Leveling": [
             {
                 "name": "act 3 nightmer",
@@ -80,8 +51,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.75
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 10.5
     }
 }
