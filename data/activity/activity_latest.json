@@ -1,15 +1,25 @@
 {
-    "timestamp": "2026-08-09T14:42:00+00:00",
+    "timestamp": "2026-08-09T14:58:00+00:00",
     "difficulty": {
-        "2": 1
+        "2": 5
     },
     "mode": {
-        "0": 1
+        "1": 1,
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 1
+        "2|1": 1,
+        "2|0": 4
     },
     "activities": [
+        {
+            "name": "Chaos",
+            "count": 3
+        },
+        {
+            "name": "Other",
+            "count": 1
+        },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
@@ -17,12 +27,53 @@
     ],
     "top_games": [
         {
+            "name": "atlas'",
+            "count": 1
+        },
+        {
+            "name": "hell chaos 3",
+            "count": 1
+        },
+        {
+            "name": "hell chaos 2",
+            "count": 1
+        },
+        {
+            "name": "hell chaos 1",
+            "count": 1
+        },
+        {
             "name": "nicoo",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "atlas'",
+            "count": 2,
+            "examples": [
+                "atlas'"
+            ]
+        }
+    ],
     "classified_games": {
+        "Chaos": [
+            {
+                "name": "hell chaos 3",
+                "matched": "chaos",
+                "count": 1
+            },
+            {
+                "name": "hell chaos 2",
+                "matched": "chaos",
+                "count": 1
+            },
+            {
+                "name": "hell chaos 1",
+                "matched": "chaos",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "nicoo",
@@ -32,8 +83,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 5.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 9.4
     }
 }
