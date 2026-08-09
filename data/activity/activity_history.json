@@ -3563,7 +3563,7 @@
             "Leveling": [
                 {
                     "name": "act 2 start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -9069,7 +9069,7 @@
             "Leveling": [
                 {
                     "name": "act start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -10541,7 +10541,7 @@
                 },
                 {
                     "name": "act hel start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -12474,7 +12474,7 @@
             "Trade": [
                 {
                     "name": "lmk what u n",
-                    "matched": "lmk",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -16799,7 +16799,7 @@
             "Leveling": [
                 {
                     "name": "act 5 normal",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -36606,7 +36606,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "for",
+                    "matched": "trade",
                     "count": 1
                 }
             ],
@@ -36713,7 +36713,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "for",
+                    "matched": "trade",
                     "count": 1
                 }
             ]
@@ -68887,7 +68887,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -68958,7 +68958,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -82721,7 +82721,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ],
@@ -88273,7 +88273,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -88373,7 +88373,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -91341,7 +91341,7 @@
             "Trade": [
                 {
                     "name": "n nec torch :)",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -104035,7 +104035,7 @@
             "Leveling": [
                 {
                     "name": "act start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -109163,6 +109163,45 @@
             "unique_names": 2,
             "public_games": 2,
             "average_name_length": 6.5
+        }
+    },
+    {
+        "timestamp": "2026-08-09T10:23:00+00:00",
+        "difficulty": {
+            "0": 1
+        },
+        "mode": {
+            "0": 1
+        },
+        "difficulty_mode": {
+            "0|0": 1
+        },
+        "activities": [
+            {
+                "name": "Misc. Public MF Runs",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "n ort rune",
+                "count": 1
+            }
+        ],
+        "unknown_games": [],
+        "classified_games": {
+            "Misc. Public MF Runs": [
+                {
+                    "name": "n ort rune",
+                    "matched": "run",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 1,
+            "public_games": 1,
+            "average_name_length": 10.0
         }
     }
 ]
