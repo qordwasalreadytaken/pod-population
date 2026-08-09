@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-08-09T05:07:00+00:00",
+    "timestamp": "2026-08-09T05:32:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
+        "0": 2
     },
     "mode": {
-        "1": 2
+        "1": 1,
+        "0": 1
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "0|1": 1
+        "0|1": 1,
+        "0|0": 1
     },
     "activities": [
         {
@@ -19,27 +19,27 @@
     ],
     "top_games": [
         {
-            "name": "hellbound",
+            "name": "qe",
             "count": 1
         },
         {
-            "name": "qe",
+            "name": "t",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "hellbound",
-            "count": 2,
-            "examples": [
-                "hellbound"
-            ]
-        },
-        {
             "normalized": "qe",
             "count": 2,
             "examples": [
                 "qe"
+            ]
+        },
+        {
+            "normalized": "t",
+            "count": 2,
+            "examples": [
+                "t"
             ]
         }
     ],
@@ -47,6 +47,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 5.5
+        "average_name_length": 1.5
     }
 }
