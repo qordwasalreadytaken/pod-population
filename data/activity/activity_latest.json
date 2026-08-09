@@ -1,24 +1,24 @@
 {
-    "timestamp": "2026-08-09T14:58:00+00:00",
+    "timestamp": "2026-08-09T15:12:00+00:00",
     "difficulty": {
         "2": 5
     },
     "mode": {
-        "1": 1,
-        "0": 4
+        "1": 2,
+        "0": 3
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 4
+        "2|1": 2,
+        "2|0": 3
     },
     "activities": [
         {
-            "name": "Chaos",
-            "count": 3
+            "name": "Other",
+            "count": 2
         },
         {
-            "name": "Other",
-            "count": 1
+            "name": "Chaos",
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -27,19 +27,19 @@
     ],
     "top_games": [
         {
+            "name": "atlas'1",
+            "count": 1
+        },
+        {
             "name": "atlas'",
             "count": 1
         },
         {
-            "name": "hell chaos 3",
+            "name": "hell chaos 6",
             "count": 1
         },
         {
-            "name": "hell chaos 2",
-            "count": 1
-        },
-        {
-            "name": "hell chaos 1",
+            "name": "hell chaos 5",
             "count": 1
         },
         {
@@ -48,6 +48,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "atlas'#",
+            "count": 2,
+            "examples": [
+                "atlas'1"
+            ]
+        },
         {
             "normalized": "atlas'",
             "count": 2,
@@ -59,17 +66,12 @@
     "classified_games": {
         "Chaos": [
             {
-                "name": "hell chaos 3",
+                "name": "hell chaos 6",
                 "matched": "chaos",
                 "count": 1
             },
             {
-                "name": "hell chaos 2",
-                "matched": "chaos",
-                "count": 1
-            },
-            {
-                "name": "hell chaos 1",
+                "name": "hell chaos 5",
                 "matched": "chaos",
                 "count": 1
             }
@@ -85,6 +87,6 @@
     "interesting": {
         "unique_names": 5,
         "public_games": 5,
-        "average_name_length": 9.4
+        "average_name_length": 8.4
     }
 }
