@@ -12474,7 +12474,7 @@
             "Trade": [
                 {
                     "name": "lmk what u n",
-                    "matched": "lmk",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -13667,7 +13667,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "buy",
+                    "matched": "torch",
                     "count": 1
                 }
             ],
@@ -13795,7 +13795,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "buy",
+                    "matched": "torch",
                     "count": 2
                 }
             ],
@@ -13893,7 +13893,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "buy",
+                    "matched": "torch",
                     "count": 1
                 }
             ],
@@ -14512,7 +14512,7 @@
                 },
                 {
                     "name": "norm start",
-                    "matched": "start",
+                    "matched": "norm",
                     "count": 1
                 }
             ],
@@ -14588,7 +14588,7 @@
                 },
                 {
                     "name": "norm start",
-                    "matched": "start",
+                    "matched": "norm",
                     "count": 1
                 }
             ],
@@ -19108,7 +19108,7 @@
             "Leveling": [
                 {
                     "name": "norm start",
-                    "matched": "start",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -19166,7 +19166,7 @@
             "Leveling": [
                 {
                     "name": "norm start",
-                    "matched": "start",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -36606,7 +36606,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "for",
+                    "matched": "trade",
                     "count": 1
                 }
             ],
@@ -36713,7 +36713,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "for",
+                    "matched": "trade",
                     "count": 1
                 }
             ]
@@ -68887,7 +68887,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -68958,7 +68958,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -77181,7 +77181,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 },
                 {
@@ -81010,7 +81010,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 }
             ]
@@ -86010,7 +86010,7 @@
             "Leveling": [
                 {
                     "name": "normal tombin",
-                    "matched": "norm",
+                    "matched": "tomb",
                     "count": 1
                 },
                 {
@@ -108526,6 +108526,87 @@
             "unique_names": 3,
             "public_games": 3,
             "average_name_length": 5.67
+        }
+    },
+    {
+        "timestamp": "2026-08-09T07:46:00+00:00",
+        "difficulty": {
+            "2": 1,
+            "0": 3
+        },
+        "mode": {
+            "0": 4
+        },
+        "difficulty_mode": {
+            "2|0": 1,
+            "0|0": 3
+        },
+        "activities": [
+            {
+                "name": "Trade",
+                "count": 2
+            },
+            {
+                "name": "Other",
+                "count": 1
+            },
+            {
+                "name": "Leveling",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "hell",
+                "count": 1
+            },
+            {
+                "name": "n eth 2",
+                "count": 1
+            },
+            {
+                "name": "andariel",
+                "count": 1
+            },
+            {
+                "name": "n eth 1",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "hell",
+                "count": 2,
+                "examples": [
+                    "hell"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Trade": [
+                {
+                    "name": "n eth 2",
+                    "matched": "n",
+                    "count": 1
+                },
+                {
+                    "name": "n eth 1",
+                    "matched": "n",
+                    "count": 1
+                }
+            ],
+            "Leveling": [
+                {
+                    "name": "andariel",
+                    "matched": "andar",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 4,
+            "public_games": 4,
+            "average_name_length": 6.5
         }
     }
 ]

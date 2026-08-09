@@ -1,65 +1,81 @@
 {
-    "timestamp": "2026-08-09T07:20:00+00:00",
+    "timestamp": "2026-08-09T07:46:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 1
+        "2": 1,
+        "0": 3
     },
     "mode": {
-        "1": 1,
-        "0": 2
+        "0": 4
     },
     "difficulty_mode": {
-        "0|1": 1,
         "2|0": 1,
-        "0|0": 1
+        "0|0": 3
     },
     "activities": [
         {
+            "name": "Trade",
+            "count": 2
+        },
+        {
             "name": "Other",
-            "count": 3
+            "count": 1
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "1111",
-            "count": 1
-        },
         {
             "name": "hell",
             "count": 1
         },
         {
-            "name": "egererhpp",
+            "name": "n eth 2",
+            "count": 1
+        },
+        {
+            "name": "andariel",
+            "count": 1
+        },
+        {
+            "name": "n eth 1",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "1111"
-            ]
-        },
         {
             "normalized": "hell",
             "count": 2,
             "examples": [
                 "hell"
             ]
-        },
-        {
-            "normalized": "egererhpp",
-            "count": 2,
-            "examples": [
-                "egererhpp"
-            ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Trade": [
+            {
+                "name": "n eth 2",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n eth 1",
+                "matched": "n",
+                "count": 1
+            }
+        ],
+        "Leveling": [
+            {
+                "name": "andariel",
+                "matched": "andar",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 5.67
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 6.5
     }
 }
