@@ -1,19 +1,15 @@
 {
-    "timestamp": "2026-08-09T12:45:00+00:00",
+    "timestamp": "2026-08-09T13:11:00+00:00",
     "difficulty": {
-        "0": 2
+        "2": 1
     },
     "mode": {
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
-        "0|0": 2
+        "2|0": 1
     },
     "activities": [
-        {
-            "name": "Leveling",
-            "count": 1
-        },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
@@ -21,34 +17,23 @@
     ],
     "top_games": [
         {
-            "name": "act",
-            "count": 1
-        },
-        {
-            "name": "n ort rune",
+            "name": "nicoo",
             "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
-        "Leveling": [
-            {
-                "name": "act",
-                "matched": "act",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
-                "name": "n ort rune",
-                "matched": "run",
+                "name": "nicoo",
+                "matched": "nico",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 6.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 5.0
     }
 }
