@@ -1,17 +1,17 @@
 {
-    "timestamp": "2026-08-09T19:41:00+00:00",
+    "timestamp": "2026-08-09T19:55:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 2
+        "2": 2,
+        "0": 1
     },
     "mode": {
-        "1": 2,
-        "0": 1
+        "1": 1,
+        "0": 2
     },
     "difficulty_mode": {
         "2|1": 1,
-        "1|1": 1,
-        "1|0": 1
+        "2|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
@@ -19,7 +19,7 @@
             "count": 2
         },
         {
-            "name": "Leveling",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -29,29 +29,35 @@
             "count": 1
         },
         {
-            "name": "atlas'6",
+            "name": "n eld runes",
             "count": 1
         },
         {
-            "name": "act 3 nightmer",
+            "name": "fsgthsartha",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "atlas'#",
-            "count": 4,
+            "count": 2,
             "examples": [
-                "atlas'3",
-                "atlas'6"
+                "atlas'3"
+            ]
+        },
+        {
+            "normalized": "fsgthsartha",
+            "count": 2,
+            "examples": [
+                "fsgthsartha"
             ]
         }
     ],
     "classified_games": {
-        "Leveling": [
+        "Misc. Public MF Runs": [
             {
-                "name": "act 3 nightmer",
-                "matched": "act",
+                "name": "n eld runes",
+                "matched": "run",
                 "count": 1
             }
         ]
@@ -59,6 +65,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 9.33
+        "average_name_length": 9.67
     }
 }
