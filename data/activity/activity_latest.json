@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-09T15:56:00+00:00",
+    "timestamp": "2026-08-09T16:08:00+00:00",
     "difficulty": {
         "2": 1,
         "0": 1
@@ -15,11 +15,7 @@
     "activities": [
         {
             "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
@@ -28,7 +24,7 @@
             "count": 1
         },
         {
-            "name": "123",
+            "name": "few",
             "count": 1
         }
     ],
@@ -39,17 +35,16 @@
             "examples": [
                 "atlas'1"
             ]
+        },
+        {
+            "normalized": "few",
+            "count": 2,
+            "examples": [
+                "few"
+            ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "123",
-                "matched": "123",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
