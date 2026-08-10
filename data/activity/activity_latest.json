@@ -1,39 +1,46 @@
 {
-    "timestamp": "2026-08-09T23:55:00+00:00",
+    "timestamp": "2026-08-10T00:18:00+00:00",
     "difficulty": {
-        "2": 1
-    },
-    "mode": {
+        "2": 1,
         "1": 1
     },
+    "mode": {
+        "1": 2
+    },
     "difficulty_mode": {
-        "2|1": 1
+        "2|1": 1,
+        "1|1": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
             "name": "atlas'3",
             "count": 1
+        },
+        {
+            "name": "atlas'8",
+            "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "atlas'#",
-            "count": 2,
+            "count": 4,
             "examples": [
-                "atlas'3"
+                "atlas'3",
+                "atlas'8"
             ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
+        "unique_names": 2,
+        "public_games": 2,
         "average_name_length": 7.0
     }
 }
