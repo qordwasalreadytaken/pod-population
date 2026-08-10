@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-10T13:44:00+00:00",
+    "timestamp": "2026-08-10T14:15:00+00:00",
     "difficulty": {
         "2": 2
     },
@@ -11,7 +11,7 @@
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         },
         {
@@ -21,7 +21,7 @@
     ],
     "top_games": [
         {
-            "name": "ohm rune plz 9",
+            "name": "kokoball",
             "count": 1
         },
         {
@@ -29,15 +29,16 @@
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "kokoball",
+            "count": 2,
+            "examples": [
+                "kokoball"
+            ]
+        }
+    ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "ohm rune plz 9",
-                "matched": "run",
-                "count": 1
-            }
-        ],
         "Maps": [
             {
                 "name": "map",
@@ -49,6 +50,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 8.5
+        "average_name_length": 5.5
     }
 }
