@@ -1,23 +1,31 @@
 {
-    "timestamp": "2026-08-10T15:20:00+00:00",
+    "timestamp": "2026-08-10T15:47:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 1,
+        "0": 1,
+        "2": 5,
         "1": 1
     },
     "mode": {
-        "1": 2,
-        "0": 2
+        "1": 1,
+        "0": 6
     },
     "difficulty_mode": {
-        "0|1": 2,
-        "2|0": 1,
+        "0|1": 1,
+        "2|0": 5,
         "1|0": 1
     },
     "activities": [
         {
-            "name": "Leveling",
+            "name": "Misc. Public MF Runs",
             "count": 3
+        },
+        {
+            "name": "Leveling",
+            "count": 2
+        },
+        {
+            "name": "Other",
+            "count": 1
         },
         {
             "name": "Maps",
@@ -26,8 +34,16 @@
     ],
     "top_games": [
         {
+            "name": "runningkeys",
+            "count": 3
+        },
+        {
             "name": "start",
-            "count": 2
+            "count": 1
+        },
+        {
+            "name": "lvv",
+            "count": 1
         },
         {
             "name": "mapping 1",
@@ -38,13 +54,21 @@
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "lvv",
+            "count": 2,
+            "examples": [
+                "lvv"
+            ]
+        }
+    ],
     "classified_games": {
         "Leveling": [
             {
                 "name": "start",
                 "matched": "start",
-                "count": 2
+                "count": 1
             },
             {
                 "name": "act 2 clear",
@@ -52,17 +76,24 @@
                 "count": 1
             }
         ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "runningkeys",
+                "matched": "run",
+                "count": 3
+            }
+        ],
         "Maps": [
             {
                 "name": "mapping 1",
-                "matched": "mapping",
+                "matched": "map",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 4,
-        "average_name_length": 8.33
+        "unique_names": 5,
+        "public_games": 7,
+        "average_name_length": 7.8
     }
 }
