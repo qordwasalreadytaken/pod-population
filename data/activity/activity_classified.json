@@ -260,7 +260,7 @@
         {
             "name": "gord",
             "matched": "gord",
-            "count": 127
+            "count": 128
         },
         {
             "name": "ted",
@@ -409,7 +409,7 @@
         },
         {
             "name": "meph run",
-            "matched": "meph",
+            "matched": "run",
             "count": 4
         },
         {
@@ -1079,7 +1079,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -1293,12 +1293,12 @@
         },
         {
             "name": "n druid torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 20
         },
         {
             "name": "n ama torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 15
         },
         {
@@ -1313,7 +1313,7 @@
         },
         {
             "name": "n free amatorch",
-            "matched": "n",
+            "matched": "torch",
             "count": 9
         },
         {
@@ -1348,7 +1348,7 @@
         },
         {
             "name": "n amatorch",
-            "matched": "n",
+            "matched": "torch",
             "count": 5
         },
         {
@@ -1368,12 +1368,12 @@
         },
         {
             "name": "n necro torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
             "name": "n torch necro",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -1418,7 +1418,7 @@
         },
         {
             "name": "n 6os windforce",
-            "matched": "n",
+            "matched": "for",
             "count": 3
         },
         {
@@ -1563,7 +1563,7 @@
         },
         {
             "name": "lmk what u n",
-            "matched": "n",
+            "matched": "lmk",
             "count": 1
         },
         {
@@ -1728,7 +1728,7 @@
         },
         {
             "name": "n pala torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -1753,7 +1753,7 @@
         },
         {
             "name": "n nec torch :)",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -2005,7 +2005,7 @@
         },
         {
             "name": "ancients norm",
-            "matched": "anci",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -2021,6 +2021,11 @@
         {
             "name": "hell start",
             "matched": "start",
+            "count": 2
+        },
+        {
+            "name": "hell ancients",
+            "matched": "anci",
             "count": 2
         },
         {
@@ -2210,7 +2215,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "tomb",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -2246,11 +2251,6 @@
         {
             "name": "act hell",
             "matched": "act",
-            "count": 1
-        },
-        {
-            "name": "hell ancients",
-            "matched": "anci",
             "count": 1
         },
         {
@@ -2753,7 +2753,7 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
