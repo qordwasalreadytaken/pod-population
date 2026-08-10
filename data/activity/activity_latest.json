@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-10T05:30:00+00:00",
+    "timestamp": "2026-08-10T06:08:00+00:00",
     "difficulty": {
         "2": 2
     },
@@ -11,28 +11,44 @@
     },
     "activities": [
         {
+            "name": "Other",
+            "count": 1
+        },
+        {
             "name": "Maps",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "lvv",
+            "count": 1
+        },
+        {
             "name": "map",
-            "count": 2
+            "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "lvv",
+            "count": 2,
+            "examples": [
+                "lvv"
+            ]
+        }
+    ],
     "classified_games": {
         "Maps": [
             {
                 "name": "map",
                 "matched": "map",
-                "count": 2
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 1,
+        "unique_names": 2,
         "public_games": 2,
         "average_name_length": 3.0
     }
