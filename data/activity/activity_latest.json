@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-10T13:07:00+00:00",
+    "timestamp": "2026-08-10T13:44:00+00:00",
     "difficulty": {
         "2": 2
     },
@@ -11,37 +11,37 @@
     },
     "activities": [
         {
-            "name": "Maps",
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Maps",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "map",
+            "name": "ohm rune plz 9",
             "count": 1
         },
         {
-            "name": "ohm rune plz 8",
+            "name": "map",
             "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "ohm rune plz 9",
+                "matched": "run",
+                "count": 1
+            }
+        ],
         "Maps": [
             {
                 "name": "map",
                 "matched": "map",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "ohm rune plz 8",
-                "matched": "run",
                 "count": 1
             }
         ]
