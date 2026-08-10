@@ -404,7 +404,7 @@
         },
         {
             "name": "meph run",
-            "matched": "run",
+            "matched": "meph",
             "count": 4
         },
         {
@@ -505,6 +505,11 @@
         {
             "name": "asdkoo",
             "matched": "asd",
+            "count": 3
+        },
+        {
+            "name": "ohm run plz 4",
+            "matched": "run",
             "count": 3
         },
         {
@@ -619,11 +624,6 @@
         },
         {
             "name": "n low runes 1",
-            "matched": "run",
-            "count": 2
-        },
-        {
-            "name": "ohm run plz 4",
             "matched": "run",
             "count": 2
         },
@@ -1273,7 +1273,7 @@
         },
         {
             "name": "n ama torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 15
         },
         {
@@ -1746,7 +1746,7 @@
         {
             "name": "act",
             "matched": "act",
-            "count": 21
+            "count": 22
         },
         {
             "name": "leveling",
@@ -1825,7 +1825,7 @@
         },
         {
             "name": "norm act",
-            "matched": "norm",
+            "matched": "act",
             "count": 4
         },
         {
@@ -1875,7 +1875,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "start",
+            "matched": "act",
             "count": 3
         },
         {
@@ -1905,7 +1905,7 @@
         },
         {
             "name": "act start",
-            "matched": "start",
+            "matched": "act",
             "count": 2
         },
         {
@@ -1945,7 +1945,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -1970,7 +1970,7 @@
         },
         {
             "name": "normal act",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -2030,7 +2030,7 @@
         },
         {
             "name": "act hel start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -2050,7 +2050,7 @@
         },
         {
             "name": "act 5 normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -2703,7 +2703,7 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
