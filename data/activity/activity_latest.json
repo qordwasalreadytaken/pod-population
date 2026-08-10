@@ -1,53 +1,50 @@
 {
-    "timestamp": "2026-08-10T16:16:00+00:00",
+    "timestamp": "2026-08-10T16:46:00+00:00",
     "difficulty": {
-        "2": 6,
-        "1": 2
+        "0": 1,
+        "2": 3
     },
     "mode": {
-        "0": 8
+        "1": 1,
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 6,
-        "1|0": 2
+        "0|1": 1,
+        "2|0": 3
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 5
+            "name": "Leveling",
+            "count": 1
         },
         {
-            "name": "Maps",
+            "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
             "name": "Other",
             "count": 1
-        },
-        {
-            "name": "Leveling",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "runningkeys",
-            "count": 4
+            "name": "act 23",
+            "count": 1
         },
         {
-            "name": "mapping 2",
+            "name": "n draculs",
+            "count": 1
+        },
+        {
+            "name": "runningkeys",
             "count": 1
         },
         {
             "name": "lvv",
-            "count": 1
-        },
-        {
-            "name": "asdasds",
-            "count": 1
-        },
-        {
-            "name": "act 2 clear",
             "count": 1
         }
     ],
@@ -61,36 +58,31 @@
         }
     ],
     "classified_games": {
+        "Leveling": [
+            {
+                "name": "act 23",
+                "matched": "act",
+                "count": 1
+            }
+        ],
+        "Trade": [
+            {
+                "name": "n draculs",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "runningkeys",
                 "matched": "run",
-                "count": 4
-            },
-            {
-                "name": "asdasds",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
-        "Maps": [
-            {
-                "name": "mapping 2",
-                "matched": "mapping",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "act 2 clear",
-                "matched": "act",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 8,
-        "average_name_length": 8.2
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 7.25
     }
 }
