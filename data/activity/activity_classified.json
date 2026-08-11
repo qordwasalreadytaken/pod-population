@@ -314,7 +314,7 @@
         },
         {
             "name": "asdff",
-            "matched": "asd",
+            "matched": "asdff",
             "count": 15
         },
         {
@@ -409,7 +409,7 @@
         },
         {
             "name": "meph run",
-            "matched": "meph",
+            "matched": "run",
             "count": 4
         },
         {
@@ -544,7 +544,7 @@
         },
         {
             "name": "asdffdf",
-            "matched": "asd",
+            "matched": "asdff",
             "count": 2
         },
         {
@@ -639,6 +639,11 @@
         },
         {
             "name": "ohm rune plz 8",
+            "matched": "run",
+            "count": 2
+        },
+        {
+            "name": "ohm rune plz 2",
             "matched": "run",
             "count": 2
         },
@@ -1126,11 +1131,6 @@
             "name": "asdfa",
             "matched": "asd",
             "count": 1
-        },
-        {
-            "name": "ohm rune plz 2",
-            "matched": "run",
-            "count": 1
         }
     ],
     "Cows": [
@@ -1303,12 +1303,12 @@
         },
         {
             "name": "n druid torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 20
         },
         {
             "name": "n ama torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 15
         },
         {
@@ -1323,7 +1323,7 @@
         },
         {
             "name": "n free amatorch",
-            "matched": "n",
+            "matched": "torch",
             "count": 9
         },
         {
@@ -1363,7 +1363,7 @@
         },
         {
             "name": "buy necr torch",
-            "matched": "buy",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -1378,12 +1378,12 @@
         },
         {
             "name": "n necro torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
             "name": "n torch necro",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -1533,6 +1533,11 @@
         },
         {
             "name": "n bloodfist 3",
+            "matched": "n",
+            "count": 2
+        },
+        {
+            "name": "n fcr soj",
             "matched": "n",
             "count": 2
         },
@@ -1738,7 +1743,7 @@
         },
         {
             "name": "n pala torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -1763,7 +1768,7 @@
         },
         {
             "name": "n nec torch :)",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -1778,11 +1783,6 @@
         },
         {
             "name": "n eth 1",
-            "matched": "n",
-            "count": 1
-        },
-        {
-            "name": "n fcr soj",
             "matched": "n",
             "count": 1
         }
@@ -2030,7 +2030,7 @@
         },
         {
             "name": "normal act",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -2110,7 +2110,7 @@
         },
         {
             "name": "act 5 normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -2230,7 +2230,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "tomb",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -2278,7 +2278,7 @@
         {
             "name": "map",
             "matched": "map",
-            "count": 34
+            "count": 35
         },
         {
             "name": "chillmap",
@@ -2317,7 +2317,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "map",
+            "matched": "mapping",
             "count": 3
         },
         {
@@ -2532,7 +2532,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         }
     ],
