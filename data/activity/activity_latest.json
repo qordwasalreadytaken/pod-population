@@ -1,13 +1,15 @@
 {
-    "timestamp": "2026-08-11T07:54:00+00:00",
+    "timestamp": "2026-08-11T08:19:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 2,
+        "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
@@ -17,23 +19,39 @@
         {
             "name": "Maps",
             "count": 1
+        },
+        {
+            "name": "Other",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "ohm rune plz 3",
+            "name": "ohm rune plz 11",
             "count": 1
         },
         {
             "name": "map",
             "count": 1
+        },
+        {
+            "name": "help plz any gr",
+            "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "help plz any gr",
+            "count": 2,
+            "examples": [
+                "help plz any gr"
+            ]
+        }
+    ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "ohm rune plz 3",
+                "name": "ohm rune plz 11",
                 "matched": "run",
                 "count": 1
             }
@@ -47,8 +65,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 8.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 11.0
     }
 }
