@@ -1,39 +1,79 @@
 {
-    "timestamp": "2026-08-11T14:01:00+00:00",
+    "timestamp": "2026-08-11T14:36:00+00:00",
     "difficulty": {
-        "0": 1
+        "2": 2,
+        "1": 2
     },
     "mode": {
-        "0": 1
+        "0": 4
     },
     "difficulty_mode": {
-        "0|0": 1
+        "2|0": 2,
+        "1|0": 2
     },
     "activities": [
         {
             "name": "Other",
+            "count": 3
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "kk",
+            "name": "sad",
+            "count": 1
+        },
+        {
+            "name": "ohm rune 2",
+            "count": 1
+        },
+        {
+            "name": "1223adssd",
+            "count": 1
+        },
+        {
+            "name": "1",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "kk",
+            "normalized": "sad",
             "count": 2,
             "examples": [
-                "kk"
+                "sad"
+            ]
+        },
+        {
+            "normalized": "#adssd",
+            "count": 2,
+            "examples": [
+                "1223adssd"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "ohm rune 2",
+                "matched": "run",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 2.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 5.75
     }
 }
