@@ -1,38 +1,27 @@
 {
-    "timestamp": "2026-08-10T23:58:00+00:00",
+    "timestamp": "2026-08-11T00:29:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 2
+        "0": 3
     },
     "mode": {
-        "1": 1,
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "0|0": 2
+        "0|0": 3
     },
     "activities": [
         {
-            "name": "Leveling",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
             "name": "Other",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "hell ancients",
+            "name": "gnffj",
             "count": 1
         },
         {
-            "name": "gord",
+            "name": "mowa [pstac",
             "count": 1
         },
         {
@@ -42,6 +31,20 @@
     ],
     "unknown_games": [
         {
+            "normalized": "gnffj",
+            "count": 2,
+            "examples": [
+                "gnffj"
+            ]
+        },
+        {
+            "normalized": "mowa [pstac",
+            "count": 2,
+            "examples": [
+                "mowa [pstac"
+            ]
+        },
+        {
             "normalized": "newbie any gear",
             "count": 2,
             "examples": [
@@ -49,25 +52,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Leveling": [
-            {
-                "name": "hell ancients",
-                "matched": "anci",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 10.67
+        "average_name_length": 10.33
     }
 }
