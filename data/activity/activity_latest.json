@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-11T08:46:00+00:00",
+    "timestamp": "2026-08-11T09:19:00+00:00",
     "difficulty": {
         "2": 1,
         "0": 1
@@ -13,7 +13,7 @@
     },
     "activities": [
         {
-            "name": "Maps",
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
@@ -23,7 +23,7 @@
     ],
     "top_games": [
         {
-            "name": "map",
+            "name": "rune run 1",
             "count": 1
         },
         {
@@ -41,10 +41,10 @@
         }
     ],
     "classified_games": {
-        "Maps": [
+        "Misc. Public MF Runs": [
             {
-                "name": "map",
-                "matched": "map",
+                "name": "rune run 1",
+                "matched": "run",
                 "count": 1
             }
         ]
@@ -52,6 +52,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 9.0
+        "average_name_length": 12.5
     }
 }
