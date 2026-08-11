@@ -1,27 +1,37 @@
 {
-    "timestamp": "2026-08-11T00:29:00+00:00",
+    "timestamp": "2026-08-11T00:53:00+00:00",
     "difficulty": {
+        "2": 1,
         "0": 3
     },
     "mode": {
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
+        "2|0": 1,
         "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
             "count": 3
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "gnffj",
+            "name": "n 30fcr arach",
             "count": 1
         },
         {
-            "name": "mowa [pstac",
+            "name": "hello",
+            "count": 1
+        },
+        {
+            "name": "dfd",
             "count": 1
         },
         {
@@ -31,17 +41,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "gnffj",
+            "normalized": "hello",
             "count": 2,
             "examples": [
-                "gnffj"
+                "hello"
             ]
         },
         {
-            "normalized": "mowa [pstac",
+            "normalized": "dfd",
             "count": 2,
             "examples": [
-                "mowa [pstac"
+                "dfd"
             ]
         },
         {
@@ -52,10 +62,18 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Trade": [
+            {
+                "name": "n 30fcr arach",
+                "matched": "n",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 10.33
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 9.0
     }
 }
