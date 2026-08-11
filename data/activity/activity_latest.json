@@ -1,101 +1,68 @@
 {
-    "timestamp": "2026-08-11T16:31:00+00:00",
+    "timestamp": "2026-08-11T17:05:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 2,
+        "1": 1,
         "0": 2
     },
     "mode": {
-        "0": 6
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 2,
+        "1|0": 1,
         "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 2
         },
         {
-            "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Leveling",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n lightskiller",
+            "name": "1",
             "count": 1
         },
         {
-            "name": "lvv",
+            "name": "gord",
             "count": 1
         },
         {
-            "name": "12",
-            "count": 1
-        },
-        {
-            "name": "11",
-            "count": 1
-        },
-        {
-            "name": "help pls any gr",
-            "count": 1
-        },
-        {
-            "name": "acte 1",
+            "name": "help newbie gr",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "#",
-            "count": 4,
+            "count": 2,
             "examples": [
-                "11",
-                "12"
+                "1"
             ]
         },
         {
-            "normalized": "lvv",
+            "normalized": "help newbie gr",
             "count": 2,
             "examples": [
-                "lvv"
-            ]
-        },
-        {
-            "normalized": "help pls any gr",
-            "count": 2,
-            "examples": [
-                "help pls any gr"
+                "help newbie gr"
             ]
         }
     ],
     "classified_games": {
-        "Trade": [
+        "Misc. Public MF Runs": [
             {
-                "name": "n lightskiller",
-                "matched": "n",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "acte 1",
-                "matched": "act",
+                "name": "gord",
+                "matched": "gord",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 7.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 6.33
     }
 }
