@@ -1,22 +1,26 @@
 {
-    "timestamp": "2026-08-11T16:05:00+00:00",
+    "timestamp": "2026-08-11T16:31:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 2,
         "1": 2,
-        "0": 1
+        "0": 2
     },
     "mode": {
-        "0": 4
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 1,
+        "2|0": 2,
         "1|0": 2,
-        "0|0": 1
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
+        },
+        {
+            "name": "Trade",
+            "count": 1
         },
         {
             "name": "Leveling",
@@ -25,15 +29,23 @@
     ],
     "top_games": [
         {
+            "name": "n lightskiller",
+            "count": 1
+        },
+        {
             "name": "lvv",
             "count": 1
         },
         {
-            "name": "1223adssd",
+            "name": "12",
             "count": 1
         },
         {
-            "name": "1",
+            "name": "11",
+            "count": 1
+        },
+        {
+            "name": "help pls any gr",
             "count": 1
         },
         {
@@ -43,6 +55,14 @@
     ],
     "unknown_games": [
         {
+            "normalized": "#",
+            "count": 4,
+            "examples": [
+                "11",
+                "12"
+            ]
+        },
+        {
             "normalized": "lvv",
             "count": 2,
             "examples": [
@@ -50,21 +70,21 @@
             ]
         },
         {
-            "normalized": "#adssd",
+            "normalized": "help pls any gr",
             "count": 2,
             "examples": [
-                "1223adssd"
-            ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "1"
+                "help pls any gr"
             ]
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n lightskiller",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Leveling": [
             {
                 "name": "acte 1",
@@ -74,8 +94,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 4.75
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 7.0
     }
 }
