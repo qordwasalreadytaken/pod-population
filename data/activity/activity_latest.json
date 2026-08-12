@@ -1,17 +1,21 @@
 {
-    "timestamp": "2026-08-12T08:09:00+00:00",
+    "timestamp": "2026-08-12T08:41:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 3,
         "1": 2
     },
     "mode": {
-        "0": 3
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 1,
+        "2|0": 3,
         "1|0": 2
     },
     "activities": [
+        {
+            "name": "Trade",
+            "count": 2
+        },
         {
             "name": "Other",
             "count": 2
@@ -22,6 +26,10 @@
         }
     ],
     "top_games": [
+        {
+            "name": "n lightskiller",
+            "count": 2
+        },
         {
             "name": "lvv",
             "count": 1
@@ -52,6 +60,13 @@
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n lightskiller",
+                "matched": "n",
+                "count": 2
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "adsdasd",
@@ -61,8 +76,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 3.67
+        "unique_names": 4,
+        "public_games": 5,
+        "average_name_length": 6.25
     }
 }
