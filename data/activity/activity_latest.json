@@ -1,17 +1,21 @@
 {
-    "timestamp": "2026-08-12T11:51:00+00:00",
+    "timestamp": "2026-08-12T12:15:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 5,
         "1": 1
     },
     "mode": {
-        "0": 2
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 1,
+        "2|0": 5,
         "1|0": 1
     },
     "activities": [
+        {
+            "name": "Trade",
+            "count": 4
+        },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
@@ -22,6 +26,10 @@
         }
     ],
     "top_games": [
+        {
+            "name": "n lightskiller",
+            "count": 4
+        },
         {
             "name": "ohm rune plz 1",
             "count": 1
@@ -41,6 +49,13 @@
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n lightskiller",
+                "matched": "n",
+                "count": 4
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "ohm rune plz 1",
@@ -50,8 +65,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 7.5
+        "unique_names": 3,
+        "public_games": 6,
+        "average_name_length": 9.67
     }
 }
