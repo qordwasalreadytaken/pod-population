@@ -1,27 +1,22 @@
 {
-    "timestamp": "2026-08-12T19:37:00+00:00",
+    "timestamp": "2026-08-12T20:03:00+00:00",
     "difficulty": {
-        "0": 1,
-        "2": 2,
-        "1": 1
+        "2": 1,
+        "1": 2,
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 2,
-        "1|0": 1
+        "2|0": 1,
+        "1|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 3
         },
         {
             "name": "Leveling",
@@ -30,46 +25,46 @@
     ],
     "top_games": [
         {
-            "name": "aa",
+            "name": "hell yeah",
             "count": 1
         },
         {
-            "name": "hellyeah",
-            "count": 1
-        },
-        {
-            "name": "lvv",
+            "name": "qq",
             "count": 1
         },
         {
             "name": "act",
             "count": 1
+        },
+        {
+            "name": "nec rise",
+            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "hellyeah",
+            "normalized": "hell yeah",
             "count": 2,
             "examples": [
-                "hellyeah"
+                "hell yeah"
             ]
         },
         {
-            "normalized": "lvv",
+            "normalized": "qq",
             "count": 2,
             "examples": [
-                "lvv"
+                "qq"
+            ]
+        },
+        {
+            "normalized": "nec rise",
+            "count": 2,
+            "examples": [
+                "nec rise"
             ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "aa",
-                "matched": "aa",
-                "count": 1
-            }
-        ],
         "Leveling": [
             {
                 "name": "act",
@@ -81,6 +76,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 4.0
+        "average_name_length": 5.5
     }
 }
