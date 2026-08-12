@@ -1,68 +1,84 @@
 {
-    "timestamp": "2026-08-12T01:31:00+00:00",
+    "timestamp": "2026-08-12T02:35:00+00:00",
     "difficulty": {
-        "2": 2,
+        "0": 2,
+        "2": 1,
         "1": 1
     },
     "mode": {
+        "1": 1,
         "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 1
+        "0|1": 1,
+        "2|0": 1,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Leveling",
             "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "sdfasd",
+            "name": "start",
             "count": 1
         },
         {
-            "name": "ohm plz 2",
+            "name": "run run",
             "count": 1
         },
         {
-            "name": "nm newbies",
+            "name": "n any gear assa",
+            "count": 1
+        },
+        {
+            "name": "fresh start",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "ohm plz #",
-            "count": 2,
-            "examples": [
-                "ohm plz 2"
-            ]
-        },
-        {
-            "normalized": "nm newbies",
-            "count": 2,
-            "examples": [
-                "nm newbies"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
+        "Leveling": [
+            {
+                "name": "start",
+                "matched": "start",
+                "count": 1
+            },
+            {
+                "name": "fresh start",
+                "matched": "start",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
-                "name": "sdfasd",
-                "matched": "asd",
+                "name": "run run",
+                "matched": "run",
+                "count": 1
+            }
+        ],
+        "Trade": [
+            {
+                "name": "n any gear assa",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 8.33
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 9.5
     }
 }
