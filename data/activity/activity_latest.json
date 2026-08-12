@@ -1,15 +1,13 @@
 {
-    "timestamp": "2026-08-12T23:25:00+00:00",
+    "timestamp": "2026-08-12T23:45:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 1
+        "2": 3
     },
     "mode": {
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "0|0": 1
+        "2|0": 3
     },
     "activities": [
         {
@@ -18,7 +16,7 @@
         },
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
@@ -29,10 +27,6 @@
         {
             "name": "hell yeah",
             "count": 1
-        },
-        {
-            "name": "nec grow 4",
-            "count": 1
         }
     ],
     "unknown_games": [
@@ -41,13 +35,6 @@
             "count": 2,
             "examples": [
                 "hell yeah"
-            ]
-        },
-        {
-            "normalized": "nec grow #",
-            "count": 2,
-            "examples": [
-                "nec grow 4"
             ]
         }
     ],
@@ -61,8 +48,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 4,
-        "average_name_length": 7.33
+        "unique_names": 2,
+        "public_games": 3,
+        "average_name_length": 6.0
     }
 }
