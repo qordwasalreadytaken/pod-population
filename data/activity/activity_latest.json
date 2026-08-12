@@ -1,29 +1,27 @@
 {
-    "timestamp": "2026-08-12T14:36:00+00:00",
+    "timestamp": "2026-08-12T15:06:00+00:00",
     "difficulty": {
+        "2": 1,
         "0": 3,
-        "1": 2
+        "1": 1
     },
     "mode": {
-        "1": 1,
-        "0": 4
+        "1": 2,
+        "0": 3
     },
     "difficulty_mode": {
+        "2|1": 1,
         "0|1": 1,
-        "1|0": 2,
+        "1|0": 1,
         "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Cows",
             "count": 1
         },
         {
@@ -33,11 +31,11 @@
     ],
     "top_games": [
         {
-            "name": "qordruns",
+            "name": "hell o",
             "count": 1
         },
         {
-            "name": "nm cowrun new",
+            "name": "qordruns",
             "count": 1
         },
         {
@@ -54,6 +52,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "hell o",
+            "count": 2,
+            "examples": [
+                "hell o"
+            ]
+        },
         {
             "normalized": "#",
             "count": 2,
@@ -77,13 +82,6 @@
                 "count": 1
             }
         ],
-        "Cows": [
-            {
-                "name": "nm cowrun new",
-                "matched": "cow",
-                "count": 1
-            }
-        ],
         "Leveling": [
             {
                 "name": "act 2",
@@ -95,6 +93,6 @@
     "interesting": {
         "unique_names": 5,
         "public_games": 5,
-        "average_name_length": 5.6
+        "average_name_length": 4.2
     }
 }
