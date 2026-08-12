@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-12T20:46:00+00:00",
+    "timestamp": "2026-08-12T21:15:00+00:00",
     "difficulty": {
         "2": 4,
         "0": 1
@@ -13,7 +13,7 @@
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 2
         },
         {
@@ -21,17 +21,17 @@
             "count": 2
         },
         {
-            "name": "Leveling",
+            "name": "Maps",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "keyrun",
+            "name": "n lightskiller",
             "count": 2
         },
         {
-            "name": "act",
+            "name": "maps?2",
             "count": 1
         },
         {
@@ -60,17 +60,17 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "keyrun",
-                "matched": "run",
+                "name": "n lightskiller",
+                "matched": "n",
                 "count": 2
             }
         ],
-        "Leveling": [
+        "Maps": [
             {
-                "name": "act",
-                "matched": "act",
+                "name": "maps?2",
+                "matched": "maps",
                 "count": 1
             }
         ]
@@ -78,6 +78,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 5,
-        "average_name_length": 7.0
+        "average_name_length": 9.75
     }
 }
