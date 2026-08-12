@@ -1,27 +1,25 @@
 {
-    "timestamp": "2026-08-12T02:35:00+00:00",
+    "timestamp": "2026-08-12T03:29:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 1,
-        "1": 1
+        "0": 3,
+        "2": 1
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "1": 2,
+        "0": 2
     },
     "difficulty_mode": {
-        "0|1": 1,
+        "0|1": 2,
         "2|0": 1,
-        "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Leveling",
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Leveling",
             "count": 1
         },
         {
@@ -31,46 +29,46 @@
     ],
     "top_games": [
         {
+            "name": "ted",
+            "count": 1
+        },
+        {
             "name": "start",
             "count": 1
         },
         {
-            "name": "run run",
+            "name": "ohm rune plz 2",
             "count": 1
         },
         {
-            "name": "n any gear assa",
-            "count": 1
-        },
-        {
-            "name": "fresh start",
+            "name": "n fcr soj",
             "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "ted",
+                "matched": "ted",
+                "count": 1
+            },
+            {
+                "name": "ohm rune plz 2",
+                "matched": "run",
+                "count": 1
+            }
+        ],
         "Leveling": [
             {
                 "name": "start",
                 "matched": "start",
                 "count": 1
-            },
-            {
-                "name": "fresh start",
-                "matched": "start",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "run run",
-                "matched": "run",
-                "count": 1
             }
         ],
         "Trade": [
             {
-                "name": "n any gear assa",
+                "name": "n fcr soj",
                 "matched": "n",
                 "count": 1
             }
@@ -79,6 +77,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 9.5
+        "average_name_length": 7.75
     }
 }
