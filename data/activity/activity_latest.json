@@ -1,31 +1,55 @@
 {
-    "timestamp": "2026-08-12T14:02:00+00:00",
+    "timestamp": "2026-08-12T14:36:00+00:00",
     "difficulty": {
+        "0": 3,
         "1": 2
     },
     "mode": {
-        "0": 2
+        "1": 1,
+        "0": 4
     },
     "difficulty_mode": {
-        "1|0": 2
+        "0|1": 1,
+        "1|0": 2,
+        "0|0": 2
     },
     "activities": [
+        {
+            "name": "Other",
+            "count": 2
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
         {
             "name": "Cows",
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "qordruns",
+            "count": 1
+        },
         {
             "name": "nm cowrun new",
             "count": 1
         },
         {
             "name": "1",
+            "count": 1
+        },
+        {
+            "name": "act 2",
+            "count": 1
+        },
+        {
+            "name": "a",
             "count": 1
         }
     ],
@@ -36,20 +60,41 @@
             "examples": [
                 "1"
             ]
+        },
+        {
+            "normalized": "a",
+            "count": 2,
+            "examples": [
+                "a"
+            ]
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "qordruns",
+                "matched": "run",
+                "count": 1
+            }
+        ],
         "Cows": [
             {
                 "name": "nm cowrun new",
                 "matched": "cow",
                 "count": 1
             }
+        ],
+        "Leveling": [
+            {
+                "name": "act 2",
+                "matched": "act",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 7.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 5.6
     }
 }
