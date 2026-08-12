@@ -1,39 +1,68 @@
 {
-    "timestamp": "2026-08-12T07:35:00+00:00",
+    "timestamp": "2026-08-12T08:09:00+00:00",
     "difficulty": {
-        "1": 1
+        "2": 1,
+        "1": 2
     },
     "mode": {
-        "0": 1
+        "0": 3
     },
     "difficulty_mode": {
-        "1|0": 1
+        "2|0": 1,
+        "1|0": 2
     },
     "activities": [
         {
             "name": "Other",
+            "count": 2
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "lf assa gear fr",
+            "name": "lvv",
+            "count": 1
+        },
+        {
+            "name": "1",
+            "count": 1
+        },
+        {
+            "name": "adsdasd",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "lf assa gear fr",
+            "normalized": "lvv",
             "count": 2,
             "examples": [
-                "lf assa gear fr"
+                "lvv"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "adsdasd",
+                "matched": "asd",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 15.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 3.67
     }
 }
