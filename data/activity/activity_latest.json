@@ -1,34 +1,48 @@
 {
-    "timestamp": "2026-08-12T12:15:00+00:00",
+    "timestamp": "2026-08-12T12:46:00+00:00",
     "difficulty": {
-        "2": 5,
-        "1": 1
+        "2": 7,
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "0": 6
+        "0": 9
     },
     "difficulty_mode": {
-        "2|0": 5,
-        "1|0": 1
+        "2|0": 7,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 4
+            "name": "Misc. Public MF Runs",
+            "count": 6
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 1
         },
         {
             "name": "Other",
             "count": 1
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "countessrun",
+            "count": 3
+        },
+        {
+            "name": "run run",
+            "count": 2
+        },
+        {
             "name": "n lightskiller",
-            "count": 4
+            "count": 1
         },
         {
             "name": "ohm rune plz 1",
@@ -36,6 +50,10 @@
         },
         {
             "name": "1",
+            "count": 1
+        },
+        {
+            "name": "acte 1",
             "count": 1
         }
     ],
@@ -49,24 +67,41 @@
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n lightskiller",
-                "matched": "n",
-                "count": 4
-            }
-        ],
         "Misc. Public MF Runs": [
+            {
+                "name": "countessrun",
+                "matched": "run",
+                "count": 3
+            },
+            {
+                "name": "run run",
+                "matched": "run",
+                "count": 2
+            },
             {
                 "name": "ohm rune plz 1",
                 "matched": "run",
                 "count": 1
             }
+        ],
+        "Trade": [
+            {
+                "name": "n lightskiller",
+                "matched": "n",
+                "count": 1
+            }
+        ],
+        "Leveling": [
+            {
+                "name": "acte 1",
+                "matched": "act",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 6,
-        "average_name_length": 9.67
+        "unique_names": 6,
+        "public_games": 9,
+        "average_name_length": 8.83
     }
 }
