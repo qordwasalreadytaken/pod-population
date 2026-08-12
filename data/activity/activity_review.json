@@ -349,6 +349,13 @@
         ]
     },
     {
+        "normalized": "mana",
+        "count": 16,
+        "examples": [
+            "mana"
+        ]
+    },
+    {
         "normalized": "jah ber plz #",
         "count": 16,
         "examples": [
@@ -394,13 +401,6 @@
         "examples": [
             "fdfdfdfd 1",
             "fdfdfdfd 2"
-        ]
-    },
-    {
-        "normalized": "mana",
-        "count": 14,
-        "examples": [
-            "mana"
         ]
     },
     {
@@ -2292,6 +2292,13 @@
         "count": 4,
         "examples": [
             "hellyeah"
+        ]
+    },
+    {
+        "normalized": "hell yeah",
+        "count": 4,
+        "examples": [
+            "hell yeah"
         ]
     },
     {
@@ -5781,17 +5788,17 @@
         ]
     },
     {
-        "normalized": "hell yeah",
-        "count": 2,
-        "examples": [
-            "hell yeah"
-        ]
-    },
-    {
         "normalized": "nec rise",
         "count": 2,
         "examples": [
             "nec rise"
+        ]
+    },
+    {
+        "normalized": "nec grow #",
+        "count": 2,
+        "examples": [
+            "nec grow 3"
         ]
     }
 ]
