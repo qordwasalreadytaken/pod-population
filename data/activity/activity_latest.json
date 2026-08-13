@@ -1,31 +1,23 @@
 {
-    "timestamp": "2026-08-13T20:26:00+00:00",
+    "timestamp": "2026-08-13T20:45:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 1
     },
     "mode": {
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Trade",
             "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n lightskill",
-            "count": 1
-        },
-        {
-            "name": "asd",
+            "name": "n frostburns",
             "count": 1
         }
     ],
@@ -33,22 +25,15 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "n lightskill",
+                "name": "n frostburns",
                 "matched": "n",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 7.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 12.0
     }
 }
