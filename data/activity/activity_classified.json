@@ -419,7 +419,7 @@
         },
         {
             "name": "meph run",
-            "matched": "meph",
+            "matched": "run",
             "count": 4
         },
         {
@@ -1114,7 +1114,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -1186,7 +1186,7 @@
         },
         {
             "name": "cows",
-            "matched": "cows",
+            "matched": "cow",
             "count": 14
         },
         {
@@ -1201,17 +1201,17 @@
         },
         {
             "name": "cowcowst",
-            "matched": "cows",
+            "matched": "cow",
             "count": 4
         },
         {
             "name": "letsseewhomcows",
-            "matched": "cows",
+            "matched": "cow",
             "count": 3
         },
         {
             "name": "cowcows",
-            "matched": "cows",
+            "matched": "cow",
             "count": 2
         },
         {
@@ -1256,7 +1256,7 @@
         },
         {
             "name": "cowsrus",
-            "matched": "cows",
+            "matched": "cow",
             "count": 1
         },
         {
@@ -1291,12 +1291,12 @@
         },
         {
             "name": "merc cows",
-            "matched": "cows",
+            "matched": "cow",
             "count": 1
         },
         {
             "name": "cows 1",
-            "matched": "cows",
+            "matched": "cow",
             "count": 1
         },
         {
@@ -1306,7 +1306,7 @@
         },
         {
             "name": "hell cows",
-            "matched": "cows",
+            "matched": "cow",
             "count": 1
         },
         {
@@ -1316,17 +1316,17 @@
         },
         {
             "name": "cows 2",
-            "matched": "cows",
+            "matched": "cow",
             "count": 1
         },
         {
             "name": "cows 4",
-            "matched": "cows",
+            "matched": "cow",
             "count": 1
         },
         {
             "name": "cows 5",
-            "matched": "cows",
+            "matched": "cow",
             "count": 1
         }
     ],
@@ -1358,12 +1358,12 @@
         },
         {
             "name": "n druid torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 20
         },
         {
             "name": "n ama torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 15
         },
         {
@@ -1378,7 +1378,7 @@
         },
         {
             "name": "n free amatorch",
-            "matched": "n",
+            "matched": "torch",
             "count": 9
         },
         {
@@ -1413,6 +1413,11 @@
         },
         {
             "name": "n amatorch",
+            "matched": "torch",
+            "count": 5
+        },
+        {
+            "name": "n fcr soj",
             "matched": "n",
             "count": 5
         },
@@ -1423,7 +1428,7 @@
         },
         {
             "name": "buy necr torch",
-            "matched": "torch",
+            "matched": "buy",
             "count": 4
         },
         {
@@ -1438,12 +1443,12 @@
         },
         {
             "name": "n necro torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
             "name": "n torch necro",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -1453,11 +1458,6 @@
         },
         {
             "name": "n draculs",
-            "matched": "n",
-            "count": 4
-        },
-        {
-            "name": "n fcr soj",
             "matched": "n",
             "count": 4
         },
@@ -1498,7 +1498,7 @@
         },
         {
             "name": "n 6os windforce",
-            "matched": "n",
+            "matched": "for",
             "count": 3
         },
         {
@@ -1548,7 +1548,7 @@
         },
         {
             "name": "items for trade",
-            "matched": "trade",
+            "matched": "for",
             "count": 2
         },
         {
@@ -1803,7 +1803,7 @@
         },
         {
             "name": "n pala torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -1828,7 +1828,7 @@
         },
         {
             "name": "n nec torch :)",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -2100,7 +2100,7 @@
         },
         {
             "name": "normal act",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -2348,7 +2348,7 @@
         {
             "name": "map",
             "matched": "map",
-            "count": 38
+            "count": 39
         },
         {
             "name": "chillmap",
@@ -2377,7 +2377,7 @@
         },
         {
             "name": "maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 3
         },
         {
@@ -2412,7 +2412,7 @@
         },
         {
             "name": "maps-2",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
@@ -2612,7 +2612,7 @@
         },
         {
             "name": "maps?2",
-            "matched": "maps",
+            "matched": "map",
             "count": 1
         }
     ],
