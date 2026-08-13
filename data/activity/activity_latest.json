@@ -1,31 +1,21 @@
 {
-    "timestamp": "2026-08-13T21:15:00+00:00",
+    "timestamp": "2026-08-13T21:44:00+00:00",
     "difficulty": {
-        "2": 3,
         "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 3,
         "0|0": 1
     },
     "activities": [
-        {
-            "name": "Trade",
-            "count": 3
-        },
         {
             "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "n sorch torch",
-            "count": 3
-        },
         {
             "name": "cucumber",
             "count": 1
@@ -40,18 +30,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "n sorch torch",
-                "matched": "torch",
-                "count": 3
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 4,
-        "average_name_length": 10.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 8.0
     }
 }
