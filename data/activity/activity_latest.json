@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-13T07:47:00+00:00",
+    "timestamp": "2026-08-13T08:29:00+00:00",
     "difficulty": {
         "2": 3
     },
@@ -11,25 +11,21 @@
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Maps",
             "count": 2
         },
         {
-            "name": "Maps",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "map",
-            "count": 1
+            "count": 2
         },
         {
             "name": "lvv",
-            "count": 1
-        },
-        {
-            "name": "hell yeah",
             "count": 1
         }
     ],
@@ -40,13 +36,6 @@
             "examples": [
                 "lvv"
             ]
-        },
-        {
-            "normalized": "hell yeah",
-            "count": 2,
-            "examples": [
-                "hell yeah"
-            ]
         }
     ],
     "classified_games": {
@@ -54,13 +43,13 @@
             {
                 "name": "map",
                 "matched": "map",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
+        "unique_names": 2,
         "public_games": 3,
-        "average_name_length": 5.0
+        "average_name_length": 3.0
     }
 }
