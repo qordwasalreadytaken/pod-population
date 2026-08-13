@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-08-13T18:46:00+00:00",
+    "timestamp": "2026-08-13T19:22:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 3,
         "0": 2
     },
     "mode": {
-        "0": 6
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 4,
+        "2|0": 3,
         "0|0": 2
     },
     "activities": [
         {
             "name": "Trade",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Other",
@@ -27,8 +27,8 @@
     ],
     "top_games": [
         {
-            "name": "n lightskillr",
-            "count": 3
+            "name": "n lightskill",
+            "count": 2
         },
         {
             "name": "asd",
@@ -62,9 +62,9 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "n lightskillr",
+                "name": "n lightskill",
                 "matched": "n",
-                "count": 3
+                "count": 2
             }
         ],
         "Misc. Public MF Runs": [
@@ -77,7 +77,7 @@
     },
     "interesting": {
         "unique_names": 4,
-        "public_games": 6,
-        "average_name_length": 6.25
+        "public_games": 5,
+        "average_name_length": 6.0
     }
 }

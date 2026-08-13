@@ -524,6 +524,13 @@
         ]
     },
     {
+        "normalized": "i",
+        "count": 12,
+        "examples": [
+            "i"
+        ]
+    },
+    {
         "normalized": "ist,ohm plz",
         "count": 10,
         "examples": [
@@ -642,13 +649,6 @@
         "examples": [
             "nec grow 3",
             "nec grow 4"
-        ]
-    },
-    {
-        "normalized": "i",
-        "count": 10,
-        "examples": [
-            "i"
         ]
     },
     {
@@ -1273,6 +1273,13 @@
         "count": 6,
         "examples": [
             "help newbie gr"
+        ]
+    },
+    {
+        "normalized": "cucumber",
+        "count": 6,
+        "examples": [
+            "cucumber"
         ]
     },
     {
@@ -2314,13 +2321,6 @@
         "count": 4,
         "examples": [
             "hellyeah"
-        ]
-    },
-    {
-        "normalized": "cucumber",
-        "count": 4,
-        "examples": [
-            "cucumber"
         ]
     },
     {
