@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-13T15:20:00+00:00",
+    "timestamp": "2026-08-13T15:47:00+00:00",
     "difficulty": {
         "2": 3
     },
@@ -11,21 +11,17 @@
     },
     "activities": [
         {
-            "name": "Maps",
-            "count": 1
+            "name": "Misc. Public MF Runs",
+            "count": 2
         },
         {
             "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "map",
+            "name": "run",
             "count": 1
         },
         {
@@ -47,14 +43,12 @@
         }
     ],
     "classified_games": {
-        "Maps": [
-            {
-                "name": "map",
-                "matched": "map",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
+            {
+                "name": "run",
+                "matched": "run",
+                "count": 1
+            },
             {
                 "name": "dsadasds",
                 "matched": "asd",
