@@ -645,6 +645,13 @@
         ]
     },
     {
+        "normalized": "i",
+        "count": 10,
+        "examples": [
+            "i"
+        ]
+    },
+    {
         "normalized": "a boss",
         "count": 8,
         "examples": [
@@ -855,13 +862,6 @@
         "count": 8,
         "examples": [
             "didy>?"
-        ]
-    },
-    {
-        "normalized": "i",
-        "count": 8,
-        "examples": [
-            "i"
         ]
     },
     {
@@ -2314,6 +2314,13 @@
         "count": 4,
         "examples": [
             "hellyeah"
+        ]
+    },
+    {
+        "normalized": "cucumber",
+        "count": 4,
+        "examples": [
+            "cucumber"
         ]
     },
     {
@@ -5821,13 +5828,6 @@
         "count": 2,
         "examples": [
             "token farming 2"
-        ]
-    },
-    {
-        "normalized": "cucumber",
-        "count": 2,
-        "examples": [
-            "cucumber"
         ]
     }
 ]
