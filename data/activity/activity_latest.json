@@ -1,21 +1,39 @@
 {
-    "timestamp": "2026-08-13T23:14:00+00:00",
+    "timestamp": "2026-08-13T23:30:00+00:00",
     "difficulty": {
+        "2": 2,
         "0": 1
     },
     "mode": {
-        "0": 1
+        "0": 3
     },
     "difficulty_mode": {
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
+        {
+            "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Baal",
+            "count": 1
+        },
         {
             "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "n fcr soj",
+            "count": 1
+        },
+        {
+            "name": "baal run 3",
+            "count": 1
+        },
         {
             "name": "cucumber",
             "count": 1
@@ -30,10 +48,25 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Trade": [
+            {
+                "name": "n fcr soj",
+                "matched": "n",
+                "count": 1
+            }
+        ],
+        "Baal": [
+            {
+                "name": "baal run 3",
+                "matched": "baal",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 8.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 9.0
     }
 }
