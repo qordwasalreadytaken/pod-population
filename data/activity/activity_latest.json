@@ -1,21 +1,15 @@
 {
-    "timestamp": "2026-08-13T19:47:00+00:00",
+    "timestamp": "2026-08-13T20:10:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 2
+        "2": 1
     },
     "mode": {
-        "0": 3
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 2
+        "2|0": 1
     },
     "activities": [
-        {
-            "name": "Other",
-            "count": 2
-        },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
@@ -25,32 +19,9 @@
         {
             "name": "asd",
             "count": 1
-        },
-        {
-            "name": "i",
-            "count": 1
-        },
-        {
-            "name": "cucumber",
-            "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "i",
-            "count": 2,
-            "examples": [
-                "i"
-            ]
-        },
-        {
-            "normalized": "cucumber",
-            "count": 2,
-            "examples": [
-                "cucumber"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
@@ -61,8 +32,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 4.0
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 3.0
     }
 }
