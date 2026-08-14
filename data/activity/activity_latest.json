@@ -1,38 +1,27 @@
 {
-    "timestamp": "2026-08-14T11:50:00+00:00",
+    "timestamp": "2026-08-14T12:14:00+00:00",
     "difficulty": {
-        "0": 2
+        "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "iii",
-            "count": 1
-        },
         {
             "name": "butt cheeks",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "iii",
-            "count": 2,
-            "examples": [
-                "iii"
-            ]
-        },
         {
             "normalized": "butt cheeks",
             "count": 2,
@@ -43,8 +32,8 @@
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 7.0
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 11.0
     }
 }
