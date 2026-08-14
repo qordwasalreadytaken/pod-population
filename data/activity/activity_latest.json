@@ -1,34 +1,30 @@
 {
-    "timestamp": "2026-08-14T13:44:00+00:00",
+    "timestamp": "2026-08-14T14:14:00+00:00",
     "difficulty": {
-        "2": 4,
-        "0": 4
+        "2": 2,
+        "0": 1
     },
     "mode": {
-        "0": 8
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 4,
-        "0|0": 4
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 2
         },
         {
             "name": "Trade",
-            "count": 3
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n sorc torch",
-            "count": 3
-        },
-        {
-            "name": "cucumber",
-            "count": 2
+            "name": "n sorc torch 6",
+            "count": 1
         },
         {
             "name": "t",
@@ -37,20 +33,9 @@
         {
             "name": "lvup gogo",
             "count": 1
-        },
-        {
-            "name": "butt cheek",
-            "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "cucumber",
-            "count": 4,
-            "examples": [
-                "cucumber"
-            ]
-        },
         {
             "normalized": "t",
             "count": 2,
@@ -64,27 +49,20 @@
             "examples": [
                 "lvup gogo"
             ]
-        },
-        {
-            "normalized": "butt cheek",
-            "count": 2,
-            "examples": [
-                "butt cheek"
-            ]
         }
     ],
     "classified_games": {
         "Trade": [
             {
-                "name": "n sorc torch",
-                "matched": "n",
-                "count": 3
+                "name": "n sorc torch 6",
+                "matched": "torch",
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 8,
+        "unique_names": 3,
+        "public_games": 3,
         "average_name_length": 8.0
     }
 }
