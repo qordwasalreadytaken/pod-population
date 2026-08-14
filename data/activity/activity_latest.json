@@ -1,39 +1,44 @@
 {
-    "timestamp": "2026-08-14T19:05:00+00:00",
+    "timestamp": "2026-08-14T19:33:00+00:00",
     "difficulty": {
-        "0": 1
+        "0": 2
     },
     "mode": {
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
-        "0|0": 1
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "i",
+            "name": "lf free targe 5",
+            "count": 1
+        },
+        {
+            "name": "lf free targe 4",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "i",
-            "count": 2,
+            "normalized": "lf free targe #",
+            "count": 4,
             "examples": [
-                "i"
+                "lf free targe 4",
+                "lf free targe 5"
             ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 1.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 15.0
     }
 }
