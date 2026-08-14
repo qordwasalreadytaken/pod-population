@@ -1,49 +1,56 @@
 {
-    "timestamp": "2026-08-14T13:07:00+00:00",
+    "timestamp": "2026-08-14T13:44:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 2
+        "2": 4,
+        "0": 4
     },
     "mode": {
-        "0": 5
+        "0": 8
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "0|0": 2
+        "2|0": 4,
+        "0|0": 4
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 5
         },
         {
-            "name": "Baal",
-            "count": 2
+            "name": "Trade",
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "baal run 7",
-            "count": 1
+            "name": "n sorc torch",
+            "count": 3
         },
         {
-            "name": "baal run 6",
-            "count": 1
+            "name": "cucumber",
+            "count": 2
         },
         {
             "name": "t",
             "count": 1
         },
         {
-            "name": "cucumberr",
+            "name": "lvup gogo",
             "count": 1
         },
         {
-            "name": "butt cheeks",
+            "name": "butt cheek",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "cucumber",
+            "count": 4,
+            "examples": [
+                "cucumber"
+            ]
+        },
         {
             "normalized": "t",
             "count": 2,
@@ -52,37 +59,32 @@
             ]
         },
         {
-            "normalized": "cucumberr",
+            "normalized": "lvup gogo",
             "count": 2,
             "examples": [
-                "cucumberr"
+                "lvup gogo"
             ]
         },
         {
-            "normalized": "butt cheeks",
+            "normalized": "butt cheek",
             "count": 2,
             "examples": [
-                "butt cheeks"
+                "butt cheek"
             ]
         }
     ],
     "classified_games": {
-        "Baal": [
+        "Trade": [
             {
-                "name": "baal run 7",
-                "matched": "baal",
-                "count": 1
-            },
-            {
-                "name": "baal run 6",
-                "matched": "baal",
-                "count": 1
+                "name": "n sorc torch",
+                "matched": "n",
+                "count": 3
             }
         ]
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 8.2
+        "public_games": 8,
+        "average_name_length": 8.0
     }
 }
