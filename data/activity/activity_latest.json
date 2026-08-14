@@ -1,33 +1,45 @@
 {
-    "timestamp": "2026-08-14T14:37:00+00:00",
+    "timestamp": "2026-08-14T15:03:00+00:00",
     "difficulty": {
-        "2": 5,
+        "2": 7,
         "0": 2
     },
     "mode": {
-        "0": 7
+        "0": 9
     },
     "difficulty_mode": {
-        "2|0": 5,
+        "2|0": 7,
         "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 5
         },
         {
             "name": "Trade",
-            "count": 3
+            "count": 4
         }
     ],
     "top_games": [
         {
-            "name": "n sorc torch 14",
+            "name": "h",
             "count": 1
         },
         {
-            "name": "n sorc torch 13",
+            "name": "n sorc torch 23",
+            "count": 1
+        },
+        {
+            "name": "n sorc torch 22",
+            "count": 1
+        },
+        {
+            "name": "n sorc torch 21",
+            "count": 1
+        },
+        {
+            "name": "n sorc torch 20",
             "count": 1
         },
         {
@@ -35,23 +47,26 @@
             "count": 1
         },
         {
-            "name": "n sorc torch 12",
+            "name": "g",
             "count": 1
         },
         {
-            "name": "g",
+            "name": "big butt",
             "count": 1
         },
         {
             "name": "big booty judy",
             "count": 1
-        },
-        {
-            "name": "lvup gogo",
-            "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "h",
+            "count": 2,
+            "examples": [
+                "h"
+            ]
+        },
         {
             "normalized": "t",
             "count": 2,
@@ -67,42 +82,47 @@
             ]
         },
         {
+            "normalized": "big butt",
+            "count": 2,
+            "examples": [
+                "big butt"
+            ]
+        },
+        {
             "normalized": "big booty judy",
             "count": 2,
             "examples": [
                 "big booty judy"
-            ]
-        },
-        {
-            "normalized": "lvup gogo",
-            "count": 2,
-            "examples": [
-                "lvup gogo"
             ]
         }
     ],
     "classified_games": {
         "Trade": [
             {
-                "name": "n sorc torch 14",
+                "name": "n sorc torch 23",
                 "matched": "torch",
                 "count": 1
             },
             {
-                "name": "n sorc torch 13",
+                "name": "n sorc torch 22",
                 "matched": "torch",
                 "count": 1
             },
             {
-                "name": "n sorc torch 12",
+                "name": "n sorc torch 21",
+                "matched": "torch",
+                "count": 1
+            },
+            {
+                "name": "n sorc torch 20",
                 "matched": "torch",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 10.0
+        "unique_names": 9,
+        "public_games": 9,
+        "average_name_length": 9.44
     }
 }
