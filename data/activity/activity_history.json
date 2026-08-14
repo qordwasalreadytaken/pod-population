@@ -13667,7 +13667,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "torch",
+                    "matched": "buy",
                     "count": 1
                 }
             ],
@@ -13795,7 +13795,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "torch",
+                    "matched": "buy",
                     "count": 2
                 }
             ],
@@ -13893,7 +13893,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "torch",
+                    "matched": "buy",
                     "count": 1
                 }
             ],
@@ -36606,7 +36606,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "for",
+                    "matched": "trade",
                     "count": 1
                 }
             ],
@@ -36713,7 +36713,7 @@
             "Trade": [
                 {
                     "name": "items for trade",
-                    "matched": "for",
+                    "matched": "trade",
                     "count": 1
                 }
             ]
@@ -43416,7 +43416,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "run",
+                    "matched": "meph",
                     "count": 1
                 },
                 {
@@ -43467,7 +43467,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "run",
+                    "matched": "meph",
                     "count": 1
                 },
                 {
@@ -55191,7 +55191,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "meph run",
-                    "matched": "run",
+                    "matched": "meph",
                     "count": 2
                 }
             ]
@@ -82721,7 +82721,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ],
@@ -88273,7 +88273,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -88373,7 +88373,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -104640,7 +104640,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "mf runs",
-                    "matched": "mf",
+                    "matched": "run",
                     "count": 1
                 }
             ]
@@ -113381,7 +113381,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -113480,7 +113480,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -113569,7 +113569,7 @@
             "Maps": [
                 {
                     "name": "mapping 2",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ],
@@ -124636,6 +124636,45 @@
     },
     {
         "timestamp": "2026-08-14T21:38:00+00:00",
+        "difficulty": {
+            "1": 1
+        },
+        "mode": {
+            "0": 1
+        },
+        "difficulty_mode": {
+            "1|0": 1
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "cucumber",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "cucumber",
+                "count": 2,
+                "examples": [
+                    "cucumber"
+                ]
+            }
+        ],
+        "classified_games": {},
+        "interesting": {
+            "unique_names": 1,
+            "public_games": 1,
+            "average_name_length": 8.0
+        }
+    },
+    {
+        "timestamp": "2026-08-14T21:50:00+00:00",
         "difficulty": {
             "1": 1
         },
