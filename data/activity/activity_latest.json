@@ -1,79 +1,50 @@
 {
-    "timestamp": "2026-08-14T11:29:00+00:00",
+    "timestamp": "2026-08-14T11:50:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 3
+        "0": 2
     },
     "mode": {
-        "0": 4
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 3
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "n meph essence",
+            "name": "iii",
             "count": 1
         },
         {
-            "name": "ii",
-            "count": 1
-        },
-        {
-            "name": "butt cheek",
-            "count": 1
-        },
-        {
-            "name": "i",
+            "name": "butt cheeks",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "ii",
+            "normalized": "iii",
             "count": 2,
             "examples": [
-                "ii"
+                "iii"
             ]
         },
         {
-            "normalized": "butt cheek",
+            "normalized": "butt cheeks",
             "count": 2,
             "examples": [
-                "butt cheek"
-            ]
-        },
-        {
-            "normalized": "i",
-            "count": 2,
-            "examples": [
-                "i"
+                "butt cheeks"
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "n meph essence",
-                "matched": "meph",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.75
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 7.0
     }
 }
