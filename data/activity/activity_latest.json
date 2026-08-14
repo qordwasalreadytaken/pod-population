@@ -1,119 +1,50 @@
 {
-    "timestamp": "2026-08-14T15:30:00+00:00",
+    "timestamp": "2026-08-14T16:02:00+00:00",
     "difficulty": {
-        "2": 5,
-        "0": 3
+        "2": 2
     },
     "mode": {
-        "0": 8
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 5,
-        "0|0": 3
+        "2|0": 2
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 4
-        },
-        {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Baal",
             "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "n sorc torch 38",
-            "count": 1
-        },
-        {
-            "name": "n sorc torch 37",
-            "count": 1
-        },
-        {
-            "name": "n sorc torch 36",
-            "count": 1
-        },
-        {
-            "name": "n sorc torch 35",
+            "name": "lvv",
             "count": 1
         },
         {
             "name": "t",
             "count": 1
-        },
-        {
-            "name": "baal walk 2",
-            "count": 1
-        },
-        {
-            "name": "gs",
-            "count": 1
-        },
-        {
-            "name": "baal walk 1",
-            "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "lvv",
+            "count": 2,
+            "examples": [
+                "lvv"
+            ]
+        },
         {
             "normalized": "t",
             "count": 2,
             "examples": [
                 "t"
             ]
-        },
-        {
-            "normalized": "gs",
-            "count": 2,
-            "examples": [
-                "gs"
-            ]
         }
     ],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "n sorc torch 38",
-                "matched": "torch",
-                "count": 1
-            },
-            {
-                "name": "n sorc torch 37",
-                "matched": "torch",
-                "count": 1
-            },
-            {
-                "name": "n sorc torch 36",
-                "matched": "torch",
-                "count": 1
-            },
-            {
-                "name": "n sorc torch 35",
-                "matched": "torch",
-                "count": 1
-            }
-        ],
-        "Baal": [
-            {
-                "name": "baal walk 2",
-                "matched": "baal",
-                "count": 1
-            },
-            {
-                "name": "baal walk 1",
-                "matched": "baal",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 8,
-        "public_games": 8,
-        "average_name_length": 10.62
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 2.0
     }
 }
