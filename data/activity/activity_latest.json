@@ -1,29 +1,37 @@
 {
-    "timestamp": "2026-08-14T11:04:00+00:00",
+    "timestamp": "2026-08-14T11:29:00+00:00",
     "difficulty": {
         "2": 1,
-        "0": 1
+        "0": 3
     },
     "mode": {
-        "0": 2
+        "0": 4
     },
     "difficulty_mode": {
         "2|0": 1,
-        "0|0": 1
+        "0|0": 3
     },
     "activities": [
         {
-            "name": "Baal",
-            "count": 1
+            "name": "Other",
+            "count": 3
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n baal essence",
+            "name": "n meph essence",
+            "count": 1
+        },
+        {
+            "name": "ii",
+            "count": 1
+        },
+        {
+            "name": "butt cheek",
             "count": 1
         },
         {
@@ -33,6 +41,20 @@
     ],
     "unknown_games": [
         {
+            "normalized": "ii",
+            "count": 2,
+            "examples": [
+                "ii"
+            ]
+        },
+        {
+            "normalized": "butt cheek",
+            "count": 2,
+            "examples": [
+                "butt cheek"
+            ]
+        },
+        {
             "normalized": "i",
             "count": 2,
             "examples": [
@@ -41,17 +63,17 @@
         }
     ],
     "classified_games": {
-        "Baal": [
+        "Misc. Public MF Runs": [
             {
-                "name": "n baal essence",
-                "matched": "baal",
+                "name": "n meph essence",
+                "matched": "meph",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 7.5
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 6.75
     }
 }
