@@ -1,8 +1,8 @@
 {
-    "timestamp": "2026-08-14T03:43:00+00:00",
+    "timestamp": "2026-08-14T04:24:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 1
+        "0": 1,
+        "2": 2
     },
     "mode": {
         "1": 1,
@@ -10,8 +10,7 @@
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 1,
-        "0|0": 1
+        "2|0": 2
     },
     "activities": [
         {
@@ -21,45 +20,34 @@
     ],
     "top_games": [
         {
-            "name": "aura",
-            "count": 1
-        },
-        {
             "name": "tt",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "cucumber",
+            "name": "aura",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "tt",
+            "count": 4,
+            "examples": [
+                "tt"
+            ]
+        },
         {
             "normalized": "aura",
             "count": 2,
             "examples": [
                 "aura"
             ]
-        },
-        {
-            "normalized": "tt",
-            "count": 2,
-            "examples": [
-                "tt"
-            ]
-        },
-        {
-            "normalized": "cucumber",
-            "count": 2,
-            "examples": [
-                "cucumber"
-            ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 3,
+        "unique_names": 2,
         "public_games": 3,
-        "average_name_length": 4.67
+        "average_name_length": 3.0
     }
 }
