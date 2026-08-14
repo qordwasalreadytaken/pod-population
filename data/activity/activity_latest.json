@@ -1,27 +1,63 @@
 {
-    "timestamp": "2026-08-14T12:32:00+00:00",
+    "timestamp": "2026-08-14T13:07:00+00:00",
     "difficulty": {
-        "0": 1
+        "2": 3,
+        "0": 2
     },
     "mode": {
-        "0": 1
+        "0": 5
     },
     "difficulty_mode": {
-        "0|0": 1
+        "2|0": 3,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 3
+        },
+        {
+            "name": "Baal",
+            "count": 2
         }
     ],
     "top_games": [
+        {
+            "name": "baal run 7",
+            "count": 1
+        },
+        {
+            "name": "baal run 6",
+            "count": 1
+        },
+        {
+            "name": "t",
+            "count": 1
+        },
+        {
+            "name": "cucumberr",
+            "count": 1
+        },
         {
             "name": "butt cheeks",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "t",
+            "count": 2,
+            "examples": [
+                "t"
+            ]
+        },
+        {
+            "normalized": "cucumberr",
+            "count": 2,
+            "examples": [
+                "cucumberr"
+            ]
+        },
         {
             "normalized": "butt cheeks",
             "count": 2,
@@ -30,10 +66,23 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Baal": [
+            {
+                "name": "baal run 7",
+                "matched": "baal",
+                "count": 1
+            },
+            {
+                "name": "baal run 6",
+                "matched": "baal",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 11.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 8.2
     }
 }
