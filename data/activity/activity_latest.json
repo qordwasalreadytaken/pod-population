@@ -1,23 +1,15 @@
 {
-    "timestamp": "2026-08-15T14:04:00+00:00",
+    "timestamp": "2026-08-15T14:22:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 3
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 1,
         "0|0": 1
     },
     "activities": [
-        {
-            "name": "Other",
-            "count": 2
-        },
         {
             "name": "Leveling",
             "count": 1
@@ -25,34 +17,11 @@
     ],
     "top_games": [
         {
-            "name": "kokoball",
-            "count": 1
-        },
-        {
-            "name": "cucumber",
-            "count": 1
-        },
-        {
             "name": "1 act hammer",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "kokoball",
-            "count": 2,
-            "examples": [
-                "kokoball"
-            ]
-        },
-        {
-            "normalized": "cucumber",
-            "count": 2,
-            "examples": [
-                "cucumber"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Leveling": [
             {
@@ -63,8 +32,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 9.33
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 12.0
     }
 }
