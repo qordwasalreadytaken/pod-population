@@ -1,17 +1,21 @@
 {
-    "timestamp": "2026-08-15T12:44:00+00:00",
+    "timestamp": "2026-08-15T13:02:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 2,
         "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
+        {
+            "name": "Other",
+            "count": 1
+        },
         {
             "name": "Maps",
             "count": 1
@@ -23,6 +27,10 @@
     ],
     "top_games": [
         {
+            "name": "kokoball",
+            "count": 1
+        },
+        {
             "name": "noob mappin",
             "count": 1
         },
@@ -31,7 +39,15 @@
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "kokoball",
+            "count": 2,
+            "examples": [
+                "kokoball"
+            ]
+        }
+    ],
     "classified_games": {
         "Maps": [
             {
@@ -49,8 +65,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 11.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 10.33
     }
 }
