@@ -1,15 +1,13 @@
 {
-    "timestamp": "2026-08-15T01:29:00+00:00",
+    "timestamp": "2026-08-15T02:01:00+00:00",
     "difficulty": {
-        "1": 1,
-        "0": 1
+        "0": 2
     },
     "mode": {
         "0": 2
     },
     "difficulty_mode": {
-        "1|0": 1,
-        "0|0": 1
+        "0|0": 2
     },
     "activities": [
         {
@@ -23,7 +21,7 @@
     ],
     "top_games": [
         {
-            "name": "cucumber nm",
+            "name": "1 lets go",
             "count": 1
         },
         {
@@ -33,10 +31,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "cucumber nm",
+            "normalized": "# lets go",
             "count": 2,
             "examples": [
-                "cucumber nm"
+                "1 lets go"
             ]
         }
     ],
@@ -52,6 +50,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 12.0
+        "average_name_length": 11.0
     }
 }
