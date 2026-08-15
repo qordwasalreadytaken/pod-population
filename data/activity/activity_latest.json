@@ -1,15 +1,21 @@
 {
-    "timestamp": "2026-08-15T12:23:00+00:00",
+    "timestamp": "2026-08-15T12:44:00+00:00",
     "difficulty": {
+        "2": 1,
         "0": 1
     },
     "mode": {
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
+        "2|0": 1,
         "0|0": 1
     },
     "activities": [
+        {
+            "name": "Maps",
+            "count": 1
+        },
         {
             "name": "Leveling",
             "count": 1
@@ -17,12 +23,23 @@
     ],
     "top_games": [
         {
+            "name": "noob mappin",
+            "count": 1
+        },
+        {
             "name": "1 act hammer",
             "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
+        "Maps": [
+            {
+                "name": "noob mappin",
+                "matched": "map",
+                "count": 1
+            }
+        ],
         "Leveling": [
             {
                 "name": "1 act hammer",
@@ -32,8 +49,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 12.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 11.5
     }
 }
