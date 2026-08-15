@@ -1,15 +1,57 @@
 {
-    "timestamp": "2026-08-15T15:36:00+00:00",
-    "difficulty": {},
-    "mode": {},
-    "difficulty_mode": {},
-    "activities": [],
-    "top_games": [],
-    "unknown_games": [],
-    "classified_games": {},
+    "timestamp": "2026-08-15T15:49:00+00:00",
+    "difficulty": {
+        "2": 1,
+        "1": 1
+    },
+    "mode": {
+        "0": 2
+    },
+    "difficulty_mode": {
+        "2|0": 1,
+        "1|0": 1
+    },
+    "activities": [
+        {
+            "name": "Baal",
+            "count": 1
+        },
+        {
+            "name": "Other",
+            "count": 1
+        }
+    ],
+    "top_games": [
+        {
+            "name": "baal run 7",
+            "count": 1
+        },
+        {
+            "name": "cucumber",
+            "count": 1
+        }
+    ],
+    "unknown_games": [
+        {
+            "normalized": "cucumber",
+            "count": 2,
+            "examples": [
+                "cucumber"
+            ]
+        }
+    ],
+    "classified_games": {
+        "Baal": [
+            {
+                "name": "baal run 7",
+                "matched": "baal",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 0,
-        "public_games": 0,
-        "average_name_length": 0.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 9.0
     }
 }
