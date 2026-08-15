@@ -1,23 +1,17 @@
 {
-    "timestamp": "2026-08-15T20:21:00+00:00",
+    "timestamp": "2026-08-15T20:37:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
+        "2": 1
     },
     "mode": {
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 1
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Other",
             "count": 1
         }
     ],
@@ -25,21 +19,9 @@
         {
             "name": "asd",
             "count": 1
-        },
-        {
-            "name": "czarek",
-            "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "czarek",
-            "count": 2,
-            "examples": [
-                "czarek"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
@@ -50,8 +32,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 4.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 3.0
     }
 }
