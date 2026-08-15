@@ -1,23 +1,33 @@
 {
-    "timestamp": "2026-08-15T00:08:00+00:00",
+    "timestamp": "2026-08-15T00:25:00+00:00",
     "difficulty": {
-        "1": 1
-    },
-    "mode": {
+        "1": 1,
         "0": 1
     },
+    "mode": {
+        "0": 2
+    },
     "difficulty_mode": {
-        "1|0": 1
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
+            "count": 1
+        },
+        {
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "cucumber nm",
+            "count": 1
+        },
+        {
+            "name": "act 2 lets go",
             "count": 1
         }
     ],
@@ -30,10 +40,18 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Leveling": [
+            {
+                "name": "act 2 lets go",
+                "matched": "act",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 11.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 12.0
     }
 }
