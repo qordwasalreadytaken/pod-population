@@ -1,29 +1,15 @@
 {
-    "timestamp": "2026-08-16T17:21:00+00:00",
+    "timestamp": "2026-08-16T17:35:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 2,
         "1": 1
     },
     "mode": {
-        "1": 1,
-        "0": 5
+        "0": 1
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 2,
-        "1|0": 1,
-        "0|0": 2
+        "1|0": 1
     },
     "activities": [
-        {
-            "name": "Other",
-            "count": 3
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 2
-        },
         {
             "name": "Leveling",
             "count": 1
@@ -31,77 +17,23 @@
     ],
     "top_games": [
         {
-            "name": "123qeqwe",
-            "count": 1
-        },
-        {
-            "name": "cucumber",
-            "count": 1
-        },
-        {
-            "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "act 1 nm",
-            "count": 1
-        },
-        {
-            "name": "gooning",
-            "count": 1
-        },
-        {
-            "name": "sad",
+            "name": "act 2 nm",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "cucumber",
-            "count": 2,
-            "examples": [
-                "cucumber"
-            ]
-        },
-        {
-            "normalized": "gooning",
-            "count": 2,
-            "examples": [
-                "gooning"
-            ]
-        },
-        {
-            "normalized": "sad",
-            "count": 2,
-            "examples": [
-                "sad"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "123qeqwe",
-                "matched": "123",
-                "count": 1
-            },
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
         "Leveling": [
             {
-                "name": "act 1 nm",
+                "name": "act 2 nm",
                 "matched": "act",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 6.17
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 8.0
     }
 }
