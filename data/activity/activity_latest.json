@@ -1,15 +1,33 @@
 {
-    "timestamp": "2026-08-16T17:35:00+00:00",
+    "timestamp": "2026-08-16T17:49:00+00:00",
     "difficulty": {
+        "0": 3,
+        "2": 3,
         "1": 1
     },
     "mode": {
-        "0": 1
+        "1": 1,
+        "0": 6
     },
     "difficulty_mode": {
-        "1|0": 1
+        "0|1": 1,
+        "2|0": 3,
+        "1|0": 1,
+        "0|0": 2
     },
     "activities": [
+        {
+            "name": "Other",
+            "count": 3
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 2
+        },
+        {
+            "name": "Baal",
+            "count": 1
+        },
         {
             "name": "Leveling",
             "count": 1
@@ -17,12 +35,57 @@
     ],
     "top_games": [
         {
+            "name": "sad",
+            "count": 2
+        },
+        {
+            "name": "asd",
+            "count": 2
+        },
+        {
+            "name": "baal run 11",
+            "count": 1
+        },
+        {
+            "name": "cucumber",
+            "count": 1
+        },
+        {
             "name": "act 2 nm",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "sad",
+            "count": 4,
+            "examples": [
+                "sad"
+            ]
+        },
+        {
+            "normalized": "cucumber",
+            "count": 2,
+            "examples": [
+                "cucumber"
+            ]
+        }
+    ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 2
+            }
+        ],
+        "Baal": [
+            {
+                "name": "baal run 11",
+                "matched": "baal",
+                "count": 1
+            }
+        ],
         "Leveling": [
             {
                 "name": "act 2 nm",
@@ -32,8 +95,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 8.0
+        "unique_names": 5,
+        "public_games": 7,
+        "average_name_length": 6.6
     }
 }
