@@ -13667,7 +13667,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "torch",
+                    "matched": "buy",
                     "count": 1
                 }
             ],
@@ -13795,7 +13795,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "torch",
+                    "matched": "buy",
                     "count": 2
                 }
             ],
@@ -13893,7 +13893,7 @@
             "Trade": [
                 {
                     "name": "buy necr torch",
-                    "matched": "torch",
+                    "matched": "buy",
                     "count": 1
                 }
             ],
@@ -49132,7 +49132,7 @@
             "Leveling": [
                 {
                     "name": "norm act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -50674,7 +50674,7 @@
                 },
                 {
                     "name": "n 6os windforce",
-                    "matched": "for",
+                    "matched": "n",
                     "count": 1
                 },
                 {
@@ -50749,7 +50749,7 @@
             "Trade": [
                 {
                     "name": "n 6os windforce",
-                    "matched": "for",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -50862,7 +50862,7 @@
             "Trade": [
                 {
                     "name": "n 6os windforce",
-                    "matched": "for",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -54986,7 +54986,7 @@
             "Leveling": [
                 {
                     "name": "norm act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -55034,7 +55034,7 @@
                 },
                 {
                     "name": "norm act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -55117,7 +55117,7 @@
                 },
                 {
                     "name": "norm act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -68887,7 +68887,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "leveli",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -68958,7 +68958,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "leveli",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -77181,7 +77181,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 },
                 {
@@ -81010,7 +81010,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 }
             ]
@@ -82721,7 +82721,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ],
@@ -86010,7 +86010,7 @@
             "Leveling": [
                 {
                     "name": "normal tombin",
-                    "matched": "norm",
+                    "matched": "tomb",
                     "count": 1
                 },
                 {
@@ -107165,7 +107165,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -107222,7 +107222,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -107296,7 +107296,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -113381,7 +113381,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -113480,7 +113480,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -113569,7 +113569,7 @@
             "Maps": [
                 {
                     "name": "mapping 2",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ],
@@ -129654,7 +129654,7 @@
                 },
                 {
                     "name": "mapping",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -131804,7 +131804,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "14123awdasdfqwr",
-                    "matched": "asd",
+                    "matched": "123",
                     "count": 1
                 },
                 {
@@ -134895,6 +134895,66 @@
             "unique_names": 4,
             "public_games": 5,
             "average_name_length": 11.5
+        }
+    },
+    {
+        "timestamp": "2026-08-16T23:03:00+00:00",
+        "difficulty": {
+            "1": 1,
+            "2": 1,
+            "0": 2
+        },
+        "mode": {
+            "1": 1,
+            "0": 3
+        },
+        "difficulty_mode": {
+            "1|1": 1,
+            "2|0": 1,
+            "0|0": 2
+        },
+        "activities": [
+            {
+                "name": "Misc. Public MF Runs",
+                "count": 3
+            },
+            {
+                "name": "Other",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "n eld runes",
+                "count": 3
+            },
+            {
+                "name": "qe",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "qe",
+                "count": 2,
+                "examples": [
+                    "qe"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Misc. Public MF Runs": [
+                {
+                    "name": "n eld runes",
+                    "matched": "run",
+                    "count": 3
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 2,
+            "public_games": 4,
+            "average_name_length": 6.5
         }
     }
 ]
