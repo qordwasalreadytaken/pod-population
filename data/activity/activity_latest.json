@@ -1,23 +1,29 @@
 {
-    "timestamp": "2026-08-16T05:11:00+00:00",
+    "timestamp": "2026-08-16T05:24:00+00:00",
     "difficulty": {
-        "2": 1
+        "2": 2
     },
     "mode": {
-        "1": 1
+        "1": 1,
+        "0": 1
     },
     "difficulty_mode": {
-        "2|1": 1
+        "2|1": 1,
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
             "name": "trav",
+            "count": 1
+        },
+        {
+            "name": "cucumber",
             "count": 1
         }
     ],
@@ -28,12 +34,19 @@
             "examples": [
                 "trav"
             ]
+        },
+        {
+            "normalized": "cucumber",
+            "count": 2,
+            "examples": [
+                "cucumber"
+            ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 4.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 6.0
     }
 }
