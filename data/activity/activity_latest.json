@@ -1,14 +1,16 @@
 {
-    "timestamp": "2026-08-16T08:05:00+00:00",
+    "timestamp": "2026-08-16T08:23:00+00:00",
     "difficulty": {
+        "0": 2,
         "2": 3,
-        "1": 1,
-        "0": 1
+        "1": 1
     },
     "mode": {
+        "1": 1,
         "0": 5
     },
     "difficulty_mode": {
+        "0|1": 1,
         "2|0": 3,
         "1|0": 1,
         "0|0": 1
@@ -16,10 +18,10 @@
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
-            "name": "Maps",
+            "name": "Baal",
             "count": 1
         },
         {
@@ -33,11 +35,15 @@
     ],
     "top_games": [
         {
-            "name": "454554656",
+            "name": "qe",
             "count": 1
         },
         {
-            "name": "cripmap",
+            "name": "baal run 8",
+            "count": 1
+        },
+        {
+            "name": "454554656",
             "count": 1
         },
         {
@@ -55,6 +61,13 @@
     ],
     "unknown_games": [
         {
+            "normalized": "qe",
+            "count": 2,
+            "examples": [
+                "qe"
+            ]
+        },
+        {
             "normalized": "#",
             "count": 2,
             "examples": [
@@ -70,10 +83,10 @@
         }
     ],
     "classified_games": {
-        "Maps": [
+        "Baal": [
             {
-                "name": "cripmap",
-                "matched": "map",
+                "name": "baal run 8",
+                "matched": "baal",
                 "count": 1
             }
         ],
@@ -93,8 +106,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 5.6
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 5.5
     }
 }
