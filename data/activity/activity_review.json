@@ -125,6 +125,13 @@
         ]
     },
     {
+        "normalized": "eq",
+        "count": 44,
+        "examples": [
+            "eq"
+        ]
+    },
+    {
         "normalized": "jm",
         "count": 44,
         "examples": [
@@ -150,13 +157,6 @@
         "count": 42,
         "examples": [
             "hell"
-        ]
-    },
-    {
-        "normalized": "eq",
-        "count": 42,
-        "examples": [
-            "eq"
         ]
     },
     {
@@ -900,6 +900,21 @@
         ]
     },
     {
+        "normalized": "d ball",
+        "count": 8,
+        "examples": [
+            "d ball"
+        ]
+    },
+    {
+        "normalized": "slow #",
+        "count": 8,
+        "examples": [
+            "slow 01",
+            "slow 2"
+        ]
+    },
+    {
         "normalized": "lvling",
         "count": 6,
         "examples": [
@@ -1324,21 +1339,6 @@
         "count": 6,
         "examples": [
             "cucumber hell"
-        ]
-    },
-    {
-        "normalized": "d ball",
-        "count": 6,
-        "examples": [
-            "d ball"
-        ]
-    },
-    {
-        "normalized": "slow #",
-        "count": 6,
-        "examples": [
-            "slow 01",
-            "slow 2"
         ]
     },
     {
