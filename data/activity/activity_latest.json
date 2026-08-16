@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-08-16T13:03:00+00:00",
+    "timestamp": "2026-08-16T13:23:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 2,
         "1": 1
     },
     "mode": {
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 2,
         "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -25,10 +25,6 @@
         {
             "name": "coco",
             "count": 2
-        },
-        {
-            "name": "lvv",
-            "count": 1
         },
         {
             "name": "gord",
@@ -42,13 +38,6 @@
             "examples": [
                 "coco"
             ]
-        },
-        {
-            "normalized": "lvv",
-            "count": 2,
-            "examples": [
-                "lvv"
-            ]
         }
     ],
     "classified_games": {
@@ -61,8 +50,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 4,
-        "average_name_length": 3.67
+        "unique_names": 2,
+        "public_games": 3,
+        "average_name_length": 4.0
     }
 }
