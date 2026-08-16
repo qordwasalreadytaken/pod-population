@@ -1,31 +1,33 @@
 {
-    "timestamp": "2026-08-16T15:50:00+00:00",
+    "timestamp": "2026-08-16T16:03:00+00:00",
     "difficulty": {
-        "0": 2
+        "1": 1,
+        "0": 1
     },
     "mode": {
         "0": 2
     },
     "difficulty_mode": {
-        "0|0": 2
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Leveling",
             "count": 1
         },
         {
-            "name": "Chaos",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "sad",
+            "name": "nm act 1",
             "count": 1
         },
         {
-            "name": "act 4 diablo",
+            "name": "sad",
             "count": 1
         }
     ],
@@ -39,10 +41,10 @@
         }
     ],
     "classified_games": {
-        "Chaos": [
+        "Leveling": [
             {
-                "name": "act 4 diablo",
-                "matched": "dia",
+                "name": "nm act 1",
+                "matched": "act",
                 "count": 1
             }
         ]
@@ -50,6 +52,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 7.5
+        "average_name_length": 5.5
     }
 }
