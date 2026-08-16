@@ -38,7 +38,7 @@
     },
     {
         "normalized": "qe",
-        "count": 100,
+        "count": 102,
         "examples": [
             "qe"
         ]
@@ -126,7 +126,7 @@
     },
     {
         "normalized": "eq",
-        "count": 44,
+        "count": 46,
         "examples": [
             "eq"
         ]
@@ -673,6 +673,21 @@
         ]
     },
     {
+        "normalized": "d ball",
+        "count": 10,
+        "examples": [
+            "d ball"
+        ]
+    },
+    {
+        "normalized": "slow #",
+        "count": 10,
+        "examples": [
+            "slow 01",
+            "slow 2"
+        ]
+    },
+    {
         "normalized": "a boss",
         "count": 8,
         "examples": [
@@ -897,21 +912,6 @@
         "count": 8,
         "examples": [
             "cucumber nm"
-        ]
-    },
-    {
-        "normalized": "d ball",
-        "count": 8,
-        "examples": [
-            "d ball"
-        ]
-    },
-    {
-        "normalized": "slow #",
-        "count": 8,
-        "examples": [
-            "slow 01",
-            "slow 2"
         ]
     },
     {
