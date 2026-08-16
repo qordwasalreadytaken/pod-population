@@ -1,21 +1,25 @@
 {
-    "timestamp": "2026-08-16T18:23:00+00:00",
+    "timestamp": "2026-08-16T18:41:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 1
+        "0": 3,
+        "2": 3
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 5
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 1,
-        "0|0": 1
+        "2|0": 3,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
+            "count": 3
+        },
+        {
+            "name": "Baal",
             "count": 2
         },
         {
@@ -29,7 +33,19 @@
             "count": 1
         },
         {
+            "name": "baal run 13",
+            "count": 1
+        },
+        {
+            "name": "baal run 12",
+            "count": 1
+        },
+        {
             "name": "cucumber",
+            "count": 1
+        },
+        {
+            "name": "czarrre",
             "count": 1
         },
         {
@@ -51,9 +67,28 @@
             "examples": [
                 "cucumber"
             ]
+        },
+        {
+            "normalized": "czarrre",
+            "count": 2,
+            "examples": [
+                "czarrre"
+            ]
         }
     ],
     "classified_games": {
+        "Baal": [
+            {
+                "name": "baal run 13",
+                "matched": "baal",
+                "count": 1
+            },
+            {
+                "name": "baal run 12",
+                "matched": "baal",
+                "count": 1
+            }
+        ],
         "Leveling": [
             {
                 "name": "act 1",
@@ -63,8 +98,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 5.33
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 7.5
     }
 }
