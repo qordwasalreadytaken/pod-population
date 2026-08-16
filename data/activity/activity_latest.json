@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-16T02:06:00+00:00",
+    "timestamp": "2026-08-16T02:38:00+00:00",
     "difficulty": {
         "2": 1
     },
@@ -11,29 +11,29 @@
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Maps",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "cucumber",
+            "name": "noob mappin",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "cucumber",
-            "count": 2,
-            "examples": [
-                "cucumber"
-            ]
-        }
-    ],
-    "classified_games": {},
+    "unknown_games": [],
+    "classified_games": {
+        "Maps": [
+            {
+                "name": "noob mappin",
+                "matched": "map",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 8.0
+        "average_name_length": 11.0
     }
 }
