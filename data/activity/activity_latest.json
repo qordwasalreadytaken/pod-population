@@ -1,39 +1,23 @@
 {
-    "timestamp": "2026-08-16T00:46:00+00:00",
+    "timestamp": "2026-08-16T01:29:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 1
+        "0": 1
     },
     "mode": {
-        "1": 2,
-        "0": 2
+        "1": 1
     },
     "difficulty_mode": {
-        "0|1": 2,
-        "2|0": 1,
-        "0|0": 1
+        "0|1": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "eq",
-            "count": 1
-        },
-        {
-            "name": "qe",
-            "count": 1
-        },
-        {
-            "name": "d ball",
-            "count": 1
-        },
-        {
-            "name": "slow 2",
             "count": 1
         }
     ],
@@ -44,33 +28,12 @@
             "examples": [
                 "eq"
             ]
-        },
-        {
-            "normalized": "qe",
-            "count": 2,
-            "examples": [
-                "qe"
-            ]
-        },
-        {
-            "normalized": "d ball",
-            "count": 2,
-            "examples": [
-                "d ball"
-            ]
-        },
-        {
-            "normalized": "slow #",
-            "count": 2,
-            "examples": [
-                "slow 2"
-            ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 4.0
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 2.0
     }
 }
