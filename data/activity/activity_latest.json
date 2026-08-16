@@ -1,28 +1,26 @@
 {
-    "timestamp": "2026-08-16T17:49:00+00:00",
+    "timestamp": "2026-08-16T18:02:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 3,
-        "1": 1
+        "0": 2,
+        "2": 3
     },
     "mode": {
         "1": 1,
-        "0": 6
+        "0": 4
     },
     "difficulty_mode": {
         "0|1": 1,
         "2|0": 3,
-        "1|0": 1,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Baal",
@@ -36,11 +34,11 @@
     "top_games": [
         {
             "name": "sad",
-            "count": 2
+            "count": 1
         },
         {
             "name": "asd",
-            "count": 2
+            "count": 1
         },
         {
             "name": "baal run 11",
@@ -51,14 +49,14 @@
             "count": 1
         },
         {
-            "name": "act 2 nm",
+            "name": "act 1",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "sad",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "sad"
             ]
@@ -76,7 +74,7 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             }
         ],
         "Baal": [
@@ -88,7 +86,7 @@
         ],
         "Leveling": [
             {
-                "name": "act 2 nm",
+                "name": "act 1",
                 "matched": "act",
                 "count": 1
             }
@@ -96,7 +94,7 @@
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 7,
-        "average_name_length": 6.6
+        "public_games": 5,
+        "average_name_length": 6.0
     }
 }
