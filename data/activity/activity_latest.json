@@ -1,15 +1,21 @@
 {
-    "timestamp": "2026-08-16T03:59:00+00:00",
+    "timestamp": "2026-08-16T04:17:00+00:00",
     "difficulty": {
-        "2": 1
+        "2": 3
     },
     "mode": {
-        "1": 1
+        "1": 1,
+        "0": 2
     },
     "difficulty_mode": {
-        "2|1": 1
+        "2|1": 1,
+        "2|0": 2
     },
     "activities": [
+        {
+            "name": "Maps",
+            "count": 2
+        },
         {
             "name": "Other",
             "count": 1
@@ -18,6 +24,14 @@
     "top_games": [
         {
             "name": "trav",
+            "count": 1
+        },
+        {
+            "name": "mappin",
+            "count": 1
+        },
+        {
+            "name": "mapping",
             "count": 1
         }
     ],
@@ -30,10 +44,23 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Maps": [
+            {
+                "name": "mappin",
+                "matched": "map",
+                "count": 1
+            },
+            {
+                "name": "mapping",
+                "matched": "mapping",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 4.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 5.67
     }
 }
