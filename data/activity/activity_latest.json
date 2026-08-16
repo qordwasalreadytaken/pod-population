@@ -1,13 +1,13 @@
 {
-    "timestamp": "2026-08-16T01:29:00+00:00",
+    "timestamp": "2026-08-16T02:06:00+00:00",
     "difficulty": {
-        "0": 1
+        "2": 1
     },
     "mode": {
-        "1": 1
+        "0": 1
     },
     "difficulty_mode": {
-        "0|1": 1
+        "2|0": 1
     },
     "activities": [
         {
@@ -17,16 +17,16 @@
     ],
     "top_games": [
         {
-            "name": "eq",
+            "name": "cucumber",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "eq",
+            "normalized": "cucumber",
             "count": 2,
             "examples": [
-                "eq"
+                "cucumber"
             ]
         }
     ],
@@ -34,6 +34,6 @@
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 2.0
+        "average_name_length": 8.0
     }
 }
