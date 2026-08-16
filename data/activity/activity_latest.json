@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-08-15T23:49:00+00:00",
+    "timestamp": "2026-08-16T00:07:00+00:00",
     "difficulty": {
         "2": 2,
-        "0": 2
+        "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
         "2|1": 1,
         "2|0": 1,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -35,26 +35,21 @@
         {
             "name": "slow 2",
             "count": 1
-        },
-        {
-            "name": "slow 01",
-            "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "slow #",
-            "count": 4,
-            "examples": [
-                "slow 01",
-                "slow 2"
-            ]
-        },
         {
             "normalized": "d ball",
             "count": 2,
             "examples": [
                 "d ball"
+            ]
+        },
+        {
+            "normalized": "slow #",
+            "count": 2,
+            "examples": [
+                "slow 2"
             ]
         }
     ],
@@ -68,8 +63,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.75
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 6.67
     }
 }
