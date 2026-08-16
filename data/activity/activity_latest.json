@@ -1,24 +1,24 @@
 {
-    "timestamp": "2026-08-16T08:55:00+00:00",
+    "timestamp": "2026-08-16T09:06:00+00:00",
     "difficulty": {
         "1": 2,
-        "2": 1,
+        "2": 2,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
         "1|1": 1,
-        "2|0": 1,
+        "2|0": 2,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
@@ -32,6 +32,10 @@
     "top_games": [
         {
             "name": "eq",
+            "count": 1
+        },
+        {
+            "name": "adssdsd",
             "count": 1
         },
         {
@@ -56,6 +60,13 @@
             ]
         },
         {
+            "normalized": "adssdsd",
+            "count": 2,
+            "examples": [
+                "adssdsd"
+            ]
+        },
+        {
             "normalized": "lvv",
             "count": 2,
             "examples": [
@@ -74,14 +85,14 @@
         "Leveling": [
             {
                 "name": "act 1 andariel",
-                "matched": "act",
+                "matched": "andar",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 5.75
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 6.0
     }
 }
