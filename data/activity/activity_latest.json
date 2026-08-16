@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-08-16T10:38:00+00:00",
+    "timestamp": "2026-08-16T10:50:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 2,
         "0": 3
     },
     "mode": {
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 1,
+        "2|0": 2,
         "0|0": 3
     },
     "activities": [
         {
             "name": "Maps",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -30,6 +30,10 @@
         }
     ],
     "top_games": [
+        {
+            "name": "cripmap-2",
+            "count": 1
+        },
         {
             "name": "cripmap",
             "count": 1
@@ -59,6 +63,11 @@
     "classified_games": {
         "Maps": [
             {
+                "name": "cripmap-2",
+                "matched": "map",
+                "count": 1
+            },
+            {
                 "name": "cripmap",
                 "matched": "map",
                 "count": 1
@@ -74,14 +83,14 @@
         "Leveling": [
             {
                 "name": "act 1 andariel",
-                "matched": "act",
+                "matched": "andar",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 8.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 8.2
     }
 }
