@@ -1,26 +1,26 @@
 {
-    "timestamp": "2026-08-16T18:41:00+00:00",
+    "timestamp": "2026-08-16T18:54:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 3
+        "0": 5,
+        "2": 2
     },
     "mode": {
-        "1": 1,
+        "1": 2,
         "0": 5
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 3,
-        "0|0": 2
+        "0|1": 2,
+        "2|0": 2,
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 5
         },
         {
             "name": "Baal",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Leveling",
@@ -30,6 +30,10 @@
     "top_games": [
         {
             "name": "sad",
+            "count": 2
+        },
+        {
+            "name": "cucumber",
             "count": 1
         },
         {
@@ -37,26 +41,22 @@
             "count": 1
         },
         {
-            "name": "baal run 12",
+            "name": "heghe",
             "count": 1
         },
         {
-            "name": "cucumber",
+            "name": "act 4",
             "count": 1
         },
         {
             "name": "czarrre",
-            "count": 1
-        },
-        {
-            "name": "act 1",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "sad",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "sad"
             ]
@@ -66,6 +66,13 @@
             "count": 2,
             "examples": [
                 "cucumber"
+            ]
+        },
+        {
+            "normalized": "heghe",
+            "count": 2,
+            "examples": [
+                "heghe"
             ]
         },
         {
@@ -82,16 +89,11 @@
                 "name": "baal run 13",
                 "matched": "baal",
                 "count": 1
-            },
-            {
-                "name": "baal run 12",
-                "matched": "baal",
-                "count": 1
             }
         ],
         "Leveling": [
             {
-                "name": "act 1",
+                "name": "act 4",
                 "matched": "act",
                 "count": 1
             }
@@ -99,7 +101,7 @@
     },
     "interesting": {
         "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 7.5
+        "public_games": 7,
+        "average_name_length": 6.5
     }
 }
