@@ -1,36 +1,32 @@
 {
-    "timestamp": "2026-08-16T19:05:00+00:00",
+    "timestamp": "2026-08-16T19:21:00+00:00",
     "difficulty": {
-        "0": 5,
+        "0": 3,
         "2": 2
     },
     "mode": {
-        "1": 2,
-        "0": 5
+        "1": 1,
+        "0": 4
     },
     "difficulty_mode": {
-        "0|1": 2,
+        "0|1": 1,
         "2|0": 2,
-        "0|0": 3
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 4
         },
         {
             "name": "Baal",
-            "count": 1
-        },
-        {
-            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "sad",
-            "count": 2
+            "count": 1
         },
         {
             "name": "cucumber",
@@ -41,11 +37,7 @@
             "count": 1
         },
         {
-            "name": "heghe",
-            "count": 1
-        },
-        {
-            "name": "act 4",
+            "name": "fads",
             "count": 1
         },
         {
@@ -56,7 +48,7 @@
     "unknown_games": [
         {
             "normalized": "sad",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "sad"
             ]
@@ -69,10 +61,10 @@
             ]
         },
         {
-            "normalized": "heghe",
+            "normalized": "fads",
             "count": 2,
             "examples": [
-                "heghe"
+                "fads"
             ]
         },
         {
@@ -90,18 +82,11 @@
                 "matched": "baal",
                 "count": 1
             }
-        ],
-        "Leveling": [
-            {
-                "name": "act 4",
-                "matched": "act",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 6.5
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 6.6
     }
 }
