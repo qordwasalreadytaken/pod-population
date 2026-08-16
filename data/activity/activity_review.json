@@ -111,17 +111,17 @@
         ]
     },
     {
+        "normalized": "eq",
+        "count": 54,
+        "examples": [
+            "eq"
+        ]
+    },
+    {
         "normalized": "a nm",
         "count": 52,
         "examples": [
             "a nm"
-        ]
-    },
-    {
-        "normalized": "eq",
-        "count": 52,
-        "examples": [
-            "eq"
         ]
     },
     {
@@ -2408,6 +2408,13 @@
         "count": 4,
         "examples": [
             "big booty judy"
+        ]
+    },
+    {
+        "normalized": "adssdsd",
+        "count": 4,
+        "examples": [
+            "adssdsd"
         ]
     },
     {
@@ -6027,13 +6034,6 @@
         "count": 2,
         "examples": [
             "doberto"
-        ]
-    },
-    {
-        "normalized": "adssdsd",
-        "count": 2,
-        "examples": [
-            "adssdsd"
         ]
     }
 ]
