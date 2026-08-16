@@ -1,23 +1,21 @@
 {
-    "timestamp": "2026-08-16T15:21:00+00:00",
+    "timestamp": "2026-08-16T15:36:00+00:00",
     "difficulty": {
         "1": 1,
-        "2": 1,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
         "1|1": 1,
-        "2|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Chaos",
@@ -27,10 +25,6 @@
     "top_games": [
         {
             "name": "qe",
-            "count": 1
-        },
-        {
-            "name": "crip",
             "count": 1
         },
         {
@@ -45,13 +39,6 @@
             "examples": [
                 "qe"
             ]
-        },
-        {
-            "normalized": "crip",
-            "count": 2,
-            "examples": [
-                "crip"
-            ]
         }
     ],
     "classified_games": {
@@ -64,8 +51,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 7.0
     }
 }
