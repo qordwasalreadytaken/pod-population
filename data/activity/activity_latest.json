@@ -1,56 +1,71 @@
 {
-    "timestamp": "2026-08-16T15:03:00+00:00",
+    "timestamp": "2026-08-16T15:21:00+00:00",
     "difficulty": {
+        "1": 1,
         "2": 1,
         "0": 1
     },
     "mode": {
+        "1": 1,
         "0": 2
     },
     "difficulty_mode": {
+        "1|1": 1,
         "2|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Maps",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
-            "name": "Leveling",
+            "name": "Chaos",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "dimmap",
+            "name": "qe",
             "count": 1
         },
         {
-            "name": "act 4",
+            "name": "crip",
+            "count": 1
+        },
+        {
+            "name": "act 4 diablo",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "qe",
+            "count": 2,
+            "examples": [
+                "qe"
+            ]
+        },
+        {
+            "normalized": "crip",
+            "count": 2,
+            "examples": [
+                "crip"
+            ]
+        }
+    ],
     "classified_games": {
-        "Maps": [
+        "Chaos": [
             {
-                "name": "dimmap",
-                "matched": "map",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "act 4",
-                "matched": "act",
+                "name": "act 4 diablo",
+                "matched": "dia",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 5.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 6.0
     }
 }
