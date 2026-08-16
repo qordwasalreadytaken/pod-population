@@ -1,57 +1,92 @@
 {
-    "timestamp": "2026-08-16T16:03:00+00:00",
+    "timestamp": "2026-08-16T16:22:00+00:00",
     "difficulty": {
+        "2": 3,
         "1": 1,
-        "0": 1
+        "0": 3
     },
     "mode": {
-        "0": 2
+        "0": 7
     },
     "difficulty_mode": {
+        "2|0": 3,
         "1|0": 1,
-        "0|0": 1
+        "0|0": 3
     },
     "activities": [
         {
+            "name": "Misc. Public MF Runs",
+            "count": 3
+        },
+        {
             "name": "Leveling",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
+        {
+            "name": "asd",
+            "count": 2
+        },
+        {
+            "name": "sad",
+            "count": 2
+        },
+        {
+            "name": "aa",
+            "count": 1
+        },
         {
             "name": "nm act 1",
             "count": 1
         },
         {
-            "name": "sad",
+            "name": "act",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "sad",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "sad"
             ]
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 2
+            },
+            {
+                "name": "aa",
+                "matched": "aa",
+                "count": 1
+            }
+        ],
         "Leveling": [
             {
                 "name": "nm act 1",
+                "matched": "act",
+                "count": 1
+            },
+            {
+                "name": "act",
                 "matched": "act",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 5.5
+        "unique_names": 5,
+        "public_games": 7,
+        "average_name_length": 3.8
     }
 }
