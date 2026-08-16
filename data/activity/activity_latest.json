@@ -1,16 +1,16 @@
 {
-    "timestamp": "2026-08-16T07:53:00+00:00",
+    "timestamp": "2026-08-16T08:05:00+00:00",
     "difficulty": {
         "2": 3,
-        "1": 2,
+        "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 6
+        "0": 5
     },
     "difficulty_mode": {
         "2|0": 3,
-        "1|0": 2,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
@@ -19,11 +19,11 @@
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Maps",
+            "count": 1
         },
         {
-            "name": "Maps",
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
@@ -42,10 +42,6 @@
         },
         {
             "name": "lvv",
-            "count": 1
-        },
-        {
-            "name": "3113asdsdsdasds",
             "count": 1
         },
         {
@@ -83,11 +79,6 @@
         ],
         "Misc. Public MF Runs": [
             {
-                "name": "3113asdsdsdasds",
-                "matched": "asd",
-                "count": 1
-            },
-            {
                 "name": "gord",
                 "matched": "gord",
                 "count": 1
@@ -102,8 +93,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 7.17
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 5.6
     }
 }
