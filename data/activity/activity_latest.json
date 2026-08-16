@@ -1,22 +1,28 @@
 {
-    "timestamp": "2026-08-16T16:39:00+00:00",
+    "timestamp": "2026-08-16T16:51:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1,
-        "0": 1
+        "0": 2,
+        "2": 3,
+        "1": 1
     },
     "mode": {
-        "0": 4
+        "1": 1,
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 2,
+        "0|1": 1,
+        "2|0": 3,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
+            "name": "Other",
+            "count": 2
+        },
+        {
             "name": "Baal",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -25,13 +31,17 @@
         {
             "name": "Leveling",
             "count": 1
-        },
-        {
-            "name": "Other",
-            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "12weqwe",
+            "count": 1
+        },
+        {
+            "name": "baal run 10",
+            "count": 1
+        },
         {
             "name": "baal run 9",
             "count": 1
@@ -41,7 +51,7 @@
             "count": 1
         },
         {
-            "name": "nm act 1",
+            "name": "act 1 nm",
             "count": 1
         },
         {
@@ -50,6 +60,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "#weqwe",
+            "count": 2,
+            "examples": [
+                "12weqwe"
+            ]
+        },
         {
             "normalized": "sad",
             "count": 2,
@@ -60,6 +77,11 @@
     ],
     "classified_games": {
         "Baal": [
+            {
+                "name": "baal run 10",
+                "matched": "baal",
+                "count": 1
+            },
             {
                 "name": "baal run 9",
                 "matched": "baal",
@@ -75,15 +97,15 @@
         ],
         "Leveling": [
             {
-                "name": "nm act 1",
+                "name": "act 1 nm",
                 "matched": "act",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.0
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 7.0
     }
 }
