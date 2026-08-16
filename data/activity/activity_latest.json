@@ -1,57 +1,50 @@
 {
-    "timestamp": "2026-08-16T13:23:00+00:00",
+    "timestamp": "2026-08-16T13:40:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1
+        "2": 2
     },
     "mode": {
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 1
+        "2|0": 2
     },
     "activities": [
         {
             "name": "Other",
             "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "coco",
-            "count": 2
+            "name": "crip",
+            "count": 1
         },
         {
-            "name": "gord",
+            "name": "coco",
             "count": 1
         }
     ],
     "unknown_games": [
         {
+            "normalized": "crip",
+            "count": 2,
+            "examples": [
+                "crip"
+            ]
+        },
+        {
             "normalized": "coco",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "coco"
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
         "unique_names": 2,
-        "public_games": 3,
+        "public_games": 2,
         "average_name_length": 4.0
     }
 }
