@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-17T00:06:00+00:00",
+    "timestamp": "2026-08-17T00:24:00+00:00",
     "difficulty": {
         "1": 1,
         "0": 1,
@@ -17,7 +17,11 @@
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
@@ -30,7 +34,7 @@
             "count": 1
         },
         {
-            "name": "doom",
+            "name": "n 3os g face",
             "count": 1
         }
     ],
@@ -48,19 +52,20 @@
             "examples": [
                 "eq"
             ]
-        },
-        {
-            "normalized": "doom",
-            "count": 2,
-            "examples": [
-                "doom"
-            ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Trade": [
+            {
+                "name": "n 3os g face",
+                "matched": "n",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 2.67
+        "average_name_length": 5.33
     }
 }
