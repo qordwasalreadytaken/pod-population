@@ -1,24 +1,22 @@
 {
-    "timestamp": "2026-08-17T22:04:00+00:00",
+    "timestamp": "2026-08-17T22:22:00+00:00",
     "difficulty": {
-        "2": 4,
-        "0": 1
+        "2": 2
     },
     "mode": {
-        "0": 5
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 4,
-        "0|0": 1
+        "2|0": 2
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 3
+            "name": "Misc. Public MF Runs",
+            "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Other",
+            "count": 1
         }
     ],
     "top_games": [
@@ -27,42 +25,16 @@
             "count": 1
         },
         {
-            "name": "gord",
-            "count": 1
-        },
-        {
-            "name": "ja ber plz 2",
-            "count": 1
-        },
-        {
             "name": "cucumber",
-            "count": 1
-        },
-        {
-            "name": "11",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "ja ber plz #",
-            "count": 2,
-            "examples": [
-                "ja ber plz 2"
-            ]
-        },
-        {
             "normalized": "cucumber",
             "count": 2,
             "examples": [
                 "cucumber"
-            ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "11"
             ]
         }
     ],
@@ -72,17 +44,12 @@
                 "name": "n eld runes",
                 "matched": "run",
                 "count": 1
-            },
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 7.4
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 9.5
     }
 }
