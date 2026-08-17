@@ -1,39 +1,39 @@
 {
-    "timestamp": "2026-08-17T12:24:00+00:00",
+    "timestamp": "2026-08-17T12:44:00+00:00",
     "difficulty": {
-        "0": 1
+        "0": 2
     },
     "mode": {
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
-        "0|0": 1
+        "0|0": 2
     },
     "activities": [
         {
-            "name": "Leveling",
-            "count": 1
+            "name": "Baal",
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "act",
-            "count": 1
+            "name": "nbaal",
+            "count": 2
         }
     ],
     "unknown_games": [],
     "classified_games": {
-        "Leveling": [
+        "Baal": [
             {
-                "name": "act",
-                "matched": "act",
-                "count": 1
+                "name": "nbaal",
+                "matched": "baal",
+                "count": 2
             }
         ]
     },
     "interesting": {
         "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 3.0
+        "public_games": 2,
+        "average_name_length": 5.0
     }
 }
