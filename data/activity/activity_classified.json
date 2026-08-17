@@ -439,7 +439,7 @@
         },
         {
             "name": "meph run",
-            "matched": "meph",
+            "matched": "run",
             "count": 4
         },
         {
@@ -569,6 +569,11 @@
         },
         {
             "name": "123qeqwe",
+            "matched": "123",
+            "count": 3
+        },
+        {
+            "name": "123qwe",
             "matched": "123",
             "count": 3
         },
@@ -704,11 +709,6 @@
         },
         {
             "name": "123qweqwe",
-            "matched": "123",
-            "count": 2
-        },
-        {
-            "name": "123qwe",
             "matched": "123",
             "count": 2
         },
@@ -1418,12 +1418,12 @@
         },
         {
             "name": "n druid torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 20
         },
         {
             "name": "n ama torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 15
         },
         {
@@ -1493,7 +1493,7 @@
         },
         {
             "name": "buy necr torch",
-            "matched": "buy",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -1513,7 +1513,7 @@
         },
         {
             "name": "n torch necro",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -1528,7 +1528,7 @@
         },
         {
             "name": "n sorc torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -1593,6 +1593,11 @@
         },
         {
             "name": "n sorch torch",
+            "matched": "torch",
+            "count": 3
+        },
+        {
+            "name": "n anni o zod 1",
             "matched": "n",
             "count": 3
         },
@@ -1633,7 +1638,7 @@
         },
         {
             "name": "items for trade",
-            "matched": "for",
+            "matched": "trade",
             "count": 2
         },
         {
@@ -1693,11 +1698,6 @@
         },
         {
             "name": "n 3os nats helm",
-            "matched": "n",
-            "count": 2
-        },
-        {
-            "name": "n anni o zod 1",
             "matched": "n",
             "count": 2
         },
@@ -1903,7 +1903,7 @@
         },
         {
             "name": "n pala torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -1928,7 +1928,7 @@
         },
         {
             "name": "n nec torch :)",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -1958,62 +1958,62 @@
         },
         {
             "name": "n sorc torch 6",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 14",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 13",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 12",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 23",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 22",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 21",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 20",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 38",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 37",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 36",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 35",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -2050,7 +2050,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "act",
+            "matched": "andar",
             "count": 12
         },
         {
@@ -2129,6 +2129,11 @@
             "count": 5
         },
         {
+            "name": "act 2 nm",
+            "matched": "act",
+            "count": 5
+        },
+        {
             "name": "norm start",
             "matched": "norm",
             "count": 4
@@ -2140,7 +2145,7 @@
         },
         {
             "name": "norm act",
-            "matched": "act",
+            "matched": "norm",
             "count": 4
         },
         {
@@ -2155,11 +2160,6 @@
         },
         {
             "name": "act 2 lets go",
-            "matched": "act",
-            "count": 4
-        },
-        {
-            "name": "act 2 nm",
             "matched": "act",
             "count": 4
         },
@@ -2310,7 +2310,7 @@
         },
         {
             "name": "ancients norm",
-            "matched": "norm",
+            "matched": "anci",
             "count": 2
         },
         {
@@ -2380,7 +2380,7 @@
         },
         {
             "name": "act hel start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -2400,7 +2400,7 @@
         },
         {
             "name": "act 5 normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -3148,7 +3148,7 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]

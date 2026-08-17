@@ -1,8 +1,9 @@
 {
-    "timestamp": "2026-08-17T18:07:00+00:00",
+    "timestamp": "2026-08-17T18:24:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 5
+        "2": 4,
+        "1": 1
     },
     "mode": {
         "1": 1,
@@ -10,12 +11,13 @@
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 5
+        "2|0": 4,
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
@@ -24,15 +26,19 @@
         {
             "name": "Trade",
             "count": 1
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "esensfarm",
-            "count": 2
+            "name": "123qwe",
+            "count": 1
         },
         {
-            "name": "123qwe",
+            "name": "esensfarm",
             "count": 1
         },
         {
@@ -46,12 +52,16 @@
         {
             "name": "n anni o zod 1",
             "count": 1
+        },
+        {
+            "name": "act 2 nm",
+            "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "esensfarm",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "esensfarm"
             ]
@@ -85,10 +95,17 @@
                 "matched": "n",
                 "count": 1
             }
+        ],
+        "Leveling": [
+            {
+                "name": "act 2 nm",
+                "matched": "act",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 5,
+        "unique_names": 6,
         "public_games": 6,
         "average_name_length": 8.0
     }
