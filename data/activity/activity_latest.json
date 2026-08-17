@@ -1,25 +1,27 @@
 {
-    "timestamp": "2026-08-17T20:04:00+00:00",
+    "timestamp": "2026-08-17T20:22:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 2
+        "2": 3,
+        "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 4
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 2
+        "2|0": 3,
+        "1|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 2
+            "name": "Misc. Public MF Runs",
+            "count": 3
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "name": "Other",
+            "count": 2
         }
     ],
     "top_games": [
@@ -28,11 +30,19 @@
             "count": 1
         },
         {
+            "name": "give me rune 1",
+            "count": 1
+        },
+        {
             "name": "esensfarm",
             "count": 1
         },
         {
             "name": "sad",
+            "count": 1
+        },
+        {
+            "name": "gord",
             "count": 1
         }
     ],
@@ -58,12 +68,22 @@
                 "name": "123qwe",
                 "matched": "123",
                 "count": 1
+            },
+            {
+                "name": "give me rune 1",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "gord",
+                "matched": "gord",
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 7.2
     }
 }
