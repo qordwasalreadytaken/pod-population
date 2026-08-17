@@ -1,13 +1,13 @@
 {
-    "timestamp": "2026-08-17T01:30:00+00:00",
+    "timestamp": "2026-08-17T02:05:00+00:00",
     "difficulty": {
-        "2": 1
+        "0": 1
     },
     "mode": {
         "0": 1
     },
     "difficulty_mode": {
-        "2|0": 1
+        "0|0": 1
     },
     "activities": [
         {
@@ -17,16 +17,16 @@
     ],
     "top_games": [
         {
-            "name": "awefawe",
+            "name": "toderjy snake 1",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "awefawe",
+            "normalized": "toderjy snake #",
             "count": 2,
             "examples": [
-                "awefawe"
+                "toderjy snake 1"
             ]
         }
     ],
@@ -34,6 +34,6 @@
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 7.0
+        "average_name_length": 15.0
     }
 }
