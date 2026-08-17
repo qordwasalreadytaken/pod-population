@@ -1,40 +1,27 @@
 {
-    "timestamp": "2026-08-17T14:39:00+00:00",
+    "timestamp": "2026-08-17T14:52:00+00:00",
     "difficulty": {
-        "2": 1,
         "1": 1
     },
     "mode": {
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 1,
         "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "icy",
-            "count": 1
-        },
         {
             "name": "nm",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "icy",
-            "count": 2,
-            "examples": [
-                "icy"
-            ]
-        },
         {
             "normalized": "nm",
             "count": 2,
@@ -45,8 +32,8 @@
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 2.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 2.0
     }
 }
