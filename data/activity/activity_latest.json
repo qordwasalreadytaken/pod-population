@@ -1,39 +1,53 @@
 {
-    "timestamp": "2026-08-17T02:05:00+00:00",
+    "timestamp": "2026-08-17T02:38:00+00:00",
     "difficulty": {
-        "0": 1
+        "1": 1,
+        "2": 1
     },
     "mode": {
+        "1": 1,
         "0": 1
     },
     "difficulty_mode": {
-        "0|0": 1
+        "1|1": 1,
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "toderjy snake 1",
+            "name": "qe",
+            "count": 1
+        },
+        {
+            "name": "cucumber",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "toderjy snake #",
+            "normalized": "qe",
             "count": 2,
             "examples": [
-                "toderjy snake 1"
+                "qe"
+            ]
+        },
+        {
+            "normalized": "cucumber",
+            "count": 2,
+            "examples": [
+                "cucumber"
             ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 15.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 5.0
     }
 }
