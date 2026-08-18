@@ -1,66 +1,15 @@
 {
-    "timestamp": "2026-08-18T14:42:00+00:00",
-    "difficulty": {
-        "0": 4
-    },
-    "mode": {
-        "0": 4
-    },
-    "difficulty_mode": {
-        "0|0": 4
-    },
-    "activities": [
-        {
-            "name": "Other",
-            "count": 3
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        }
-    ],
-    "top_games": [
-        {
-            "name": "sad",
-            "count": 2
-        },
-        {
-            "name": "hi im noob :d",
-            "count": 1
-        },
-        {
-            "name": "a1adsasd",
-            "count": 1
-        }
-    ],
-    "unknown_games": [
-        {
-            "normalized": "sad",
-            "count": 4,
-            "examples": [
-                "sad"
-            ]
-        },
-        {
-            "normalized": "hi im noob :d",
-            "count": 2,
-            "examples": [
-                "hi im noob :d"
-            ]
-        }
-    ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "a1adsasd",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "timestamp": "2026-08-18T14:58:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "difficulty_mode": {},
+    "activities": [],
+    "top_games": [],
+    "unknown_games": [],
+    "classified_games": {},
     "interesting": {
-        "unique_names": 3,
-        "public_games": 4,
-        "average_name_length": 8.0
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
