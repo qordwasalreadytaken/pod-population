@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-18T23:04:00+00:00",
+    "timestamp": "2026-08-18T23:22:00+00:00",
     "difficulty": {
         "2": 3
     },
@@ -21,12 +21,8 @@
     ],
     "top_games": [
         {
-            "name": "fghj",
-            "count": 1
-        },
-        {
-            "name": "kjlkkl",
-            "count": 1
+            "name": "cucumber",
+            "count": 2
         },
         {
             "name": "n eld runes",
@@ -35,17 +31,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "fghj",
-            "count": 2,
+            "normalized": "cucumber",
+            "count": 4,
             "examples": [
-                "fghj"
-            ]
-        },
-        {
-            "normalized": "kjlkkl",
-            "count": 2,
-            "examples": [
-                "kjlkkl"
+                "cucumber"
             ]
         }
     ],
@@ -59,8 +48,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
+        "unique_names": 2,
         "public_games": 3,
-        "average_name_length": 7.0
+        "average_name_length": 9.5
     }
 }
