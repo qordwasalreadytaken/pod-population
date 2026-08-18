@@ -1,57 +1,52 @@
 {
-    "timestamp": "2026-08-18T17:52:00+00:00",
+    "timestamp": "2026-08-18T18:06:00+00:00",
     "difficulty": {
-        "1": 1,
+        "2": 1,
         "0": 1
     },
     "mode": {
         "0": 2
     },
     "difficulty_mode": {
-        "1|0": 1,
+        "2|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Leveling",
-            "count": 1
-        },
-        {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "acte 3",
+            "name": "lvv",
             "count": 1
         },
         {
-            "name": "hi im noob",
+            "name": "hi im noob 3",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "hi im noob",
+            "normalized": "lvv",
             "count": 2,
             "examples": [
-                "hi im noob"
+                "lvv"
+            ]
+        },
+        {
+            "normalized": "hi im noob #",
+            "count": 2,
+            "examples": [
+                "hi im noob 3"
             ]
         }
     ],
-    "classified_games": {
-        "Leveling": [
-            {
-                "name": "acte 3",
-                "matched": "act",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 8.0
+        "average_name_length": 7.5
     }
 }
