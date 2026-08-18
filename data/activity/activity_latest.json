@@ -1,31 +1,23 @@
 {
-    "timestamp": "2026-08-18T15:26:00+00:00",
+    "timestamp": "2026-08-18T15:42:00+00:00",
     "difficulty": {
-        "0": 3
+        "0": 2
     },
     "mode": {
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
-        "0|0": 3
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
             "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "ome",
-            "count": 1
-        },
-        {
-            "name": "tomb run 1",
+            "name": "hi im noob 3",
             "count": 1
         },
         {
@@ -35,32 +27,18 @@
     ],
     "unknown_games": [
         {
-            "normalized": "ome",
-            "count": 2,
-            "examples": [
-                "ome"
-            ]
-        },
-        {
             "normalized": "hi im noob #",
-            "count": 2,
+            "count": 4,
             "examples": [
-                "hi im noob 2"
+                "hi im noob 2",
+                "hi im noob 3"
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "tomb run 1",
-                "matched": "run",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 8.33
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 12.0
     }
 }
