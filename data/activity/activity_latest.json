@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-18T15:12:00+00:00",
+    "timestamp": "2026-08-18T15:26:00+00:00",
     "difficulty": {
         "0": 3
     },
@@ -21,31 +21,31 @@
     ],
     "top_games": [
         {
+            "name": "ome",
+            "count": 1
+        },
+        {
             "name": "tomb run 1",
             "count": 1
         },
         {
             "name": "hi im noob 2",
             "count": 1
-        },
-        {
-            "name": "ome",
-            "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "hi im noob #",
-            "count": 2,
-            "examples": [
-                "hi im noob 2"
-            ]
-        },
         {
             "normalized": "ome",
             "count": 2,
             "examples": [
                 "ome"
+            ]
+        },
+        {
+            "normalized": "hi im noob #",
+            "count": 2,
+            "examples": [
+                "hi im noob 2"
             ]
         }
     ],
