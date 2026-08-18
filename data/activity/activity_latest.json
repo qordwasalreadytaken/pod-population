@@ -1,33 +1,33 @@
 {
-    "timestamp": "2026-08-18T18:23:00+00:00",
+    "timestamp": "2026-08-18T18:44:00+00:00",
     "difficulty": {
         "2": 3,
-        "0": 2
+        "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
         "2|0": 3,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 3
+            "name": "Trade",
+            "count": 2
         },
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "n anni o zod 2",
+            "name": "n anni o zod 5",
             "count": 1
         },
         {
-            "name": "n anni o zod 1",
+            "name": "n anni o zod 4",
             "count": 1
         },
         {
@@ -36,10 +36,6 @@
         },
         {
             "name": "sad",
-            "count": 1
-        },
-        {
-            "name": "hi im noob 3",
             "count": 1
         }
     ],
@@ -57,32 +53,25 @@
             "examples": [
                 "sad"
             ]
-        },
-        {
-            "normalized": "hi im noob #",
-            "count": 2,
-            "examples": [
-                "hi im noob 3"
-            ]
         }
     ],
     "classified_games": {
         "Trade": [
             {
-                "name": "n anni o zod 2",
+                "name": "n anni o zod 5",
                 "matched": "n",
                 "count": 1
             },
             {
-                "name": "n anni o zod 1",
+                "name": "n anni o zod 4",
                 "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 9.2
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 8.5
     }
 }
