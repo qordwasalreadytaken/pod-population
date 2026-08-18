@@ -1,21 +1,27 @@
 {
-    "timestamp": "2026-08-18T11:06:00+00:00",
+    "timestamp": "2026-08-18T11:22:00+00:00",
     "difficulty": {
-        "0": 1
+        "0": 2
     },
     "mode": {
+        "1": 1,
         "0": 1
     },
     "difficulty_mode": {
+        "0|1": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
+        {
+            "name": "1231231eqwegs 1",
+            "count": 1
+        },
         {
             "name": "a1adsasd",
             "count": 1
@@ -25,6 +31,11 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
+                "name": "1231231eqwegs 1",
+                "matched": "123",
+                "count": 1
+            },
+            {
                 "name": "a1adsasd",
                 "matched": "asd",
                 "count": 1
@@ -32,8 +43,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 8.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 11.5
     }
 }
