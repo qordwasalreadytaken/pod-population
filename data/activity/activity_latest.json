@@ -1,39 +1,68 @@
 {
-    "timestamp": "2026-08-18T00:46:00+00:00",
+    "timestamp": "2026-08-18T01:29:00+00:00",
     "difficulty": {
-        "2": 1
-    },
-    "mode": {
+        "2": 2,
         "0": 1
     },
+    "mode": {
+        "0": 3
+    },
     "difficulty_mode": {
-        "2|0": 1
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
+            "count": 2
+        },
+        {
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "lf pala skiller",
+            "name": "hujkpjl",
+            "count": 1
+        },
+        {
+            "name": "lf fohpala gear",
+            "count": 1
+        },
+        {
+            "name": "trist",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "lf pala skiller",
+            "normalized": "hujkpjl",
             "count": 2,
             "examples": [
-                "lf pala skiller"
+                "hujkpjl"
+            ]
+        },
+        {
+            "normalized": "lf fohpala gear",
+            "count": 2,
+            "examples": [
+                "lf fohpala gear"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Leveling": [
+            {
+                "name": "trist",
+                "matched": "trist",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 15.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 9.0
     }
 }
