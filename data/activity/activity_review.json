@@ -31,7 +31,7 @@
     },
     {
         "normalized": "t",
-        "count": 246,
+        "count": 248,
         "examples": [
             "t"
         ]
@@ -730,6 +730,13 @@
         ]
     },
     {
+        "normalized": "farming #",
+        "count": 10,
+        "examples": [
+            "farming 1"
+        ]
+    },
+    {
         "normalized": "a boss",
         "count": 8,
         "examples": [
@@ -982,13 +989,6 @@
         "count": 8,
         "examples": [
             "yoggi"
-        ]
-    },
-    {
-        "normalized": "farming #",
-        "count": 8,
-        "examples": [
-            "farming 1"
         ]
     },
     {
@@ -2520,6 +2520,13 @@
         "count": 4,
         "examples": [
             "dfgwsgwsg"
+        ]
+    },
+    {
+        "normalized": "adsdad",
+        "count": 4,
+        "examples": [
+            "adsdad"
         ]
     },
     {
@@ -6251,13 +6258,6 @@
         "count": 2,
         "examples": [
             "hgghhgg"
-        ]
-    },
-    {
-        "normalized": "adsdad",
-        "count": 2,
-        "examples": [
-            "adsdad"
         ]
     }
 ]
