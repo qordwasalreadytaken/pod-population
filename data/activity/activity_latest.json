@@ -1,15 +1,21 @@
 {
-    "timestamp": "2026-08-18T13:07:00+00:00",
+    "timestamp": "2026-08-18T13:29:00+00:00",
     "difficulty": {
+        "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
+        {
+            "name": "Leveling",
+            "count": 1
+        },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
@@ -17,12 +23,23 @@
     ],
     "top_games": [
         {
+            "name": "acte 3",
+            "count": 1
+        },
+        {
             "name": "a1adsasd",
             "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
+        "Leveling": [
+            {
+                "name": "acte 3",
+                "matched": "act",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "a1adsasd",
@@ -32,8 +49,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 8.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 7.0
     }
 }
