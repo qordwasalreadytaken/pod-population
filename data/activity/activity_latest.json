@@ -1,23 +1,25 @@
 {
-    "timestamp": "2026-08-19T20:22:00+00:00",
+    "timestamp": "2026-08-19T20:40:00+00:00",
     "difficulty": {
         "2": 1,
-        "0": 2
+        "1": 1,
+        "0": 1
     },
     "mode": {
         "0": 3
     },
     "difficulty_mode": {
         "2|0": 1,
-        "0|0": 2
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Leveling",
             "count": 2
         },
         {
-            "name": "Leveling",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -27,7 +29,7 @@
             "count": 1
         },
         {
-            "name": "aa",
+            "name": "acte 3",
             "count": 1
         },
         {
@@ -42,14 +44,14 @@
                 "name": "n eld runes",
                 "matched": "run",
                 "count": 1
-            },
-            {
-                "name": "aa",
-                "matched": "aa",
-                "count": 1
             }
         ],
         "Leveling": [
+            {
+                "name": "acte 3",
+                "matched": "act",
+                "count": 1
+            },
             {
                 "name": "act",
                 "matched": "act",
@@ -60,6 +62,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 5.33
+        "average_name_length": 6.67
     }
 }
