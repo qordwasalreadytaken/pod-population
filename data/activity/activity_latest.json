@@ -1,72 +1,66 @@
 {
-    "timestamp": "2026-08-19T22:22:00+00:00",
+    "timestamp": "2026-08-19T22:38:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 3
+        "1": 1,
+        "0": 2
     },
     "mode": {
-        "0": 6
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "0|0": 3
+        "1|0": 1,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Leveling",
-            "count": 3
-        },
-        {
-            "name": "Other",
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "act 11",
+            "count": 1
+        },
+        {
+            "name": "cnmjdxfhj",
+            "count": 1
+        },
+        {
             "name": "act",
-            "count": 3
-        },
-        {
-            "name": "cucumber",
-            "count": 2
-        },
-        {
-            "name": "n eld runes",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "cucumber",
-            "count": 4,
+            "normalized": "cnmjdxfhj",
+            "count": 2,
             "examples": [
-                "cucumber"
+                "cnmjdxfhj"
             ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "n eld runes",
-                "matched": "run",
-                "count": 1
-            }
-        ],
         "Leveling": [
+            {
+                "name": "act 11",
+                "matched": "act",
+                "count": 1
+            },
             {
                 "name": "act",
                 "matched": "act",
-                "count": 3
+                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 6,
-        "average_name_length": 7.33
+        "public_games": 3,
+        "average_name_length": 6.0
     }
 }
