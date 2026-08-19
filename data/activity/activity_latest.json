@@ -1,27 +1,23 @@
 {
-    "timestamp": "2026-08-19T08:01:00+00:00",
+    "timestamp": "2026-08-19T08:24:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 1
     },
     "mode": {
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "choas run 7",
-            "count": 1
-        },
-        {
-            "name": "choas run 6",
+            "name": "choas run 9",
             "count": 1
         }
     ],
@@ -29,20 +25,15 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "choas run 7",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "choas run 6",
+                "name": "choas run 9",
                 "matched": "run",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
+        "unique_names": 1,
+        "public_games": 1,
         "average_name_length": 11.0
     }
 }
