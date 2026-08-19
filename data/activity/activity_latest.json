@@ -1,37 +1,43 @@
 {
-    "timestamp": "2026-08-19T21:38:00+00:00",
+    "timestamp": "2026-08-19T21:51:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
+        "2": 3
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 1
+        "2|0": 3
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
-            "name": "Leveling",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n eld runes",
-            "count": 1
+            "name": "cucumber",
+            "count": 2
         },
         {
-            "name": "act",
+            "name": "n eld runes",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "cucumber",
+            "count": 4,
+            "examples": [
+                "cucumber"
+            ]
+        }
+    ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
@@ -39,18 +45,11 @@
                 "matched": "run",
                 "count": 1
             }
-        ],
-        "Leveling": [
-            {
-                "name": "act",
-                "matched": "act",
-                "count": 1
-            }
         ]
     },
     "interesting": {
         "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 7.0
+        "public_games": 3,
+        "average_name_length": 9.5
     }
 }
