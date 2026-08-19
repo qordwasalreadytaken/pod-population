@@ -1,39 +1,15 @@
 {
-    "timestamp": "2026-08-19T05:54:00+00:00",
-    "difficulty": {
-        "2": 2
-    },
-    "mode": {
-        "0": 2
-    },
-    "difficulty_mode": {
-        "2|0": 2
-    },
-    "activities": [
-        {
-            "name": "Other",
-            "count": 2
-        }
-    ],
-    "top_games": [
-        {
-            "name": "cucumber",
-            "count": 2
-        }
-    ],
-    "unknown_games": [
-        {
-            "normalized": "cucumber",
-            "count": 4,
-            "examples": [
-                "cucumber"
-            ]
-        }
-    ],
+    "timestamp": "2026-08-19T06:07:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "difficulty_mode": {},
+    "activities": [],
+    "top_games": [],
+    "unknown_games": [],
     "classified_games": {},
     "interesting": {
-        "unique_names": 1,
-        "public_games": 2,
-        "average_name_length": 8.0
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
