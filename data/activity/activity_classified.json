@@ -498,6 +498,11 @@
             "count": 4
         },
         {
+            "name": "adasdds",
+            "matched": "asd",
+            "count": 4
+        },
+        {
             "name": "asdf",
             "matched": "asd",
             "count": 3
@@ -590,11 +595,6 @@
         {
             "name": "choas run 9",
             "matched": "run",
-            "count": 3
-        },
-        {
-            "name": "adasdds",
-            "matched": "asd",
             "count": 3
         },
         {
@@ -1291,6 +1291,11 @@
             "name": "choas run 6",
             "matched": "run",
             "count": 1
+        },
+        {
+            "name": "choas run 10",
+            "matched": "run",
+            "count": 1
         }
     ],
     "Cows": [
@@ -1498,7 +1503,7 @@
         },
         {
             "name": "n free amatorch",
-            "matched": "torch",
+            "matched": "n",
             "count": 9
         },
         {
@@ -1553,7 +1558,7 @@
         },
         {
             "name": "buy necr torch",
-            "matched": "buy",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -1568,7 +1573,7 @@
         },
         {
             "name": "n necro torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 4
         },
         {
@@ -2250,7 +2255,7 @@
         },
         {
             "name": "norm start",
-            "matched": "norm",
+            "matched": "start",
             "count": 4
         },
         {
@@ -2310,7 +2315,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 3
         },
         {
@@ -2455,7 +2460,7 @@
         },
         {
             "name": "act 2 start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -2510,7 +2515,7 @@
         },
         {
             "name": "act 5 normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -2727,7 +2732,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "map",
+            "matched": "mapping",
             "count": 3
         },
         {
@@ -2952,7 +2957,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -2967,7 +2972,7 @@
         },
         {
             "name": "mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         }
     ],
