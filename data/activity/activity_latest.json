@@ -1,39 +1,48 @@
 {
-    "timestamp": "2026-08-19T14:58:00+00:00",
+    "timestamp": "2026-08-19T15:12:00+00:00",
     "difficulty": {
-        "1": 1
+        "2": 2
     },
     "mode": {
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
-        "1|0": 1
+        "2|0": 2
     },
     "activities": [
         {
-            "name": "Leveling",
-            "count": 1
+            "name": "Trade",
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "acte 3",
+            "name": "n ele skiller 7",
+            "count": 1
+        },
+        {
+            "name": "n ele skiller 6",
             "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
-        "Leveling": [
+        "Trade": [
             {
-                "name": "acte 3",
-                "matched": "act",
+                "name": "n ele skiller 7",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n ele skiller 6",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 6.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 15.0
     }
 }
