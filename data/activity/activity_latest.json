@@ -1,27 +1,37 @@
 {
-    "timestamp": "2026-08-19T23:36:00+00:00",
+    "timestamp": "2026-08-19T23:50:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 2,
+        "1": 1
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 2,
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
             "count": 2
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "jah ber plz 12",
+            "count": 1
+        },
         {
             "name": "jah ber plz 11",
             "count": 1
         },
         {
-            "name": "jah ber plz 10",
+            "name": "n toch necro",
             "count": 1
         }
     ],
@@ -30,15 +40,23 @@
             "normalized": "jah ber plz #",
             "count": 4,
             "examples": [
-                "jah ber plz 10",
-                "jah ber plz 11"
+                "jah ber plz 11",
+                "jah ber plz 12"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Trade": [
+            {
+                "name": "n toch necro",
+                "matched": "n",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 14.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 13.33
     }
 }
