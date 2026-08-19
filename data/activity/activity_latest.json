@@ -1,23 +1,43 @@
 {
-    "timestamp": "2026-08-19T22:51:00+00:00",
+    "timestamp": "2026-08-19T23:05:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 6,
         "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 1,
+        "2|0": 6,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 4
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 3
         }
     ],
     "top_games": [
+        {
+            "name": "asd",
+            "count": 2
+        },
+        {
+            "name": "sdfsdfasf",
+            "count": 1
+        },
+        {
+            "name": "jah ber plz 8",
+            "count": 1
+        },
+        {
+            "name": "asdasd",
+            "count": 1
+        },
         {
             "name": "jah ber plz 7",
             "count": 1
@@ -30,9 +50,17 @@
     "unknown_games": [
         {
             "normalized": "jah ber plz #",
+            "count": 4,
+            "examples": [
+                "jah ber plz 7",
+                "jah ber plz 8"
+            ]
+        },
+        {
+            "normalized": "sdfsdfasf",
             "count": 2,
             "examples": [
-                "jah ber plz 7"
+                "sdfsdfasf"
             ]
         },
         {
@@ -43,10 +71,23 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 2
+            },
+            {
+                "name": "asdasd",
+                "matched": "asd",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 11.0
+        "unique_names": 6,
+        "public_games": 7,
+        "average_name_length": 8.83
     }
 }
