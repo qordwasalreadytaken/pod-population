@@ -1,27 +1,31 @@
 {
-    "timestamp": "2026-08-19T15:12:00+00:00",
+    "timestamp": "2026-08-19T15:26:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 3
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 3
     },
     "activities": [
         {
             "name": "Trade",
-            "count": 2
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "n ele skiller 7",
+            "name": "n ele skiller 5",
             "count": 1
         },
         {
-            "name": "n ele skiller 6",
+            "name": "n ele skiller 4",
+            "count": 1
+        },
+        {
+            "name": "n ele skiller 3",
             "count": 1
         }
     ],
@@ -29,20 +33,25 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "n ele skiller 7",
+                "name": "n ele skiller 5",
                 "matched": "n",
                 "count": 1
             },
             {
-                "name": "n ele skiller 6",
+                "name": "n ele skiller 4",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n ele skiller 3",
                 "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
+        "unique_names": 3,
+        "public_games": 3,
         "average_name_length": 15.0
     }
 }
