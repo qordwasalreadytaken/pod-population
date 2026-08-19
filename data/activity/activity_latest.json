@@ -1,55 +1,15 @@
 {
-    "timestamp": "2026-08-18T23:50:00+00:00",
-    "difficulty": {
-        "2": 2
-    },
-    "mode": {
-        "0": 2
-    },
-    "difficulty_mode": {
-        "2|0": 2
-    },
-    "activities": [
-        {
-            "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        }
-    ],
-    "top_games": [
-        {
-            "name": "cucumber",
-            "count": 1
-        },
-        {
-            "name": "n eld runes",
-            "count": 1
-        }
-    ],
-    "unknown_games": [
-        {
-            "normalized": "cucumber",
-            "count": 2,
-            "examples": [
-                "cucumber"
-            ]
-        }
-    ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "n eld runes",
-                "matched": "run",
-                "count": 1
-            }
-        ]
-    },
+    "timestamp": "2026-08-19T00:07:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "difficulty_mode": {},
+    "activities": [],
+    "top_games": [],
+    "unknown_games": [],
+    "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 9.5
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
