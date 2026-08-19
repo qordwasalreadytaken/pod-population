@@ -449,7 +449,7 @@
         },
         {
             "name": "meph run",
-            "matched": "meph",
+            "matched": "run",
             "count": 4
         },
         {
@@ -1169,7 +1169,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "mf",
+            "matched": "run",
             "count": 1
         },
         {
@@ -1468,7 +1468,7 @@
         },
         {
             "name": "n free amatorch",
-            "matched": "torch",
+            "matched": "n",
             "count": 9
         },
         {
@@ -1508,7 +1508,7 @@
         },
         {
             "name": "n amatorch",
-            "matched": "torch",
+            "matched": "n",
             "count": 5
         },
         {
@@ -1598,7 +1598,7 @@
         },
         {
             "name": "n 6os windforce",
-            "matched": "for",
+            "matched": "n",
             "count": 3
         },
         {
@@ -1668,7 +1668,7 @@
         },
         {
             "name": "items for trade",
-            "matched": "trade",
+            "matched": "for",
             "count": 2
         },
         {
@@ -2125,7 +2125,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "andar",
+            "matched": "act",
             "count": 12
         },
         {
@@ -2225,7 +2225,7 @@
         },
         {
             "name": "norm act",
-            "matched": "norm",
+            "matched": "act",
             "count": 4
         },
         {
@@ -2280,7 +2280,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "start",
+            "matched": "act",
             "count": 3
         },
         {
@@ -2335,7 +2335,7 @@
         },
         {
             "name": "act start",
-            "matched": "start",
+            "matched": "act",
             "count": 2
         },
         {
@@ -2395,7 +2395,7 @@
         },
         {
             "name": "normal act",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -2425,7 +2425,7 @@
         },
         {
             "name": "act 2 start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -2460,7 +2460,7 @@
         },
         {
             "name": "act hel start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -2480,7 +2480,7 @@
         },
         {
             "name": "act 5 normal",
-            "matched": "norm",
+            "matched": "act",
             "count": 1
         },
         {
@@ -2600,7 +2600,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "norm",
+            "matched": "tomb",
             "count": 1
         },
         {
@@ -2641,6 +2641,11 @@
         {
             "name": "start 1",
             "matched": "start",
+            "count": 1
+        },
+        {
+            "name": "lizardden",
+            "matched": "den",
             "count": 1
         }
     ],
@@ -2692,7 +2697,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "map",
+            "matched": "mapping",
             "count": 3
         },
         {
@@ -2917,7 +2922,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -2932,7 +2937,7 @@
         },
         {
             "name": "mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         }
     ],
@@ -3228,7 +3233,7 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
