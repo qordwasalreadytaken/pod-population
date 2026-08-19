@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-08-19T18:05:00+00:00",
+    "timestamp": "2026-08-19T18:23:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 2
+        "2": 1,
+        "0": 3
     },
     "mode": {
         "0": 4
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "0|0": 2
+        "2|0": 1,
+        "0|0": 3
     },
     "activities": [
         {
@@ -28,7 +28,11 @@
     "top_games": [
         {
             "name": "gord",
-            "count": 2
+            "count": 1
+        },
+        {
+            "name": "tomb run",
+            "count": 1
         },
         {
             "name": "act",
@@ -45,7 +49,12 @@
             {
                 "name": "gord",
                 "matched": "gord",
-                "count": 2
+                "count": 1
+            },
+            {
+                "name": "tomb run",
+                "matched": "run",
+                "count": 1
             }
         ],
         "Leveling": [
@@ -64,8 +73,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
+        "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 4.33
+        "average_name_length": 5.25
     }
 }
