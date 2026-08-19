@@ -1,22 +1,20 @@
 {
-    "timestamp": "2026-08-19T17:51:00+00:00",
+    "timestamp": "2026-08-19T18:05:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 1,
-        "0": 1
+        "2": 2,
+        "0": 2
     },
     "mode": {
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 1,
-        "0|0": 1
+        "2|0": 2,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Leveling",
@@ -30,10 +28,10 @@
     "top_games": [
         {
             "name": "gord",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "acte 3",
+            "name": "act",
             "count": 1
         },
         {
@@ -47,12 +45,12 @@
             {
                 "name": "gord",
                 "matched": "gord",
-                "count": 1
+                "count": 2
             }
         ],
         "Leveling": [
             {
-                "name": "acte 3",
+                "name": "act",
                 "matched": "act",
                 "count": 1
             }
@@ -67,7 +65,7 @@
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 5.33
+        "public_games": 4,
+        "average_name_length": 4.33
     }
 }
