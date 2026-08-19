@@ -1,31 +1,41 @@
 {
-    "timestamp": "2026-08-19T15:26:00+00:00",
+    "timestamp": "2026-08-19T15:42:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 3,
+        "0": 1
     },
     "mode": {
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 3
+        "2|0": 3,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Trade",
             "count": 3
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n ele skiller 5",
+            "name": "n ele skiller 0",
             "count": 1
         },
         {
-            "name": "n ele skiller 4",
+            "name": "n ele skiller 9",
             "count": 1
         },
         {
-            "name": "n ele skiller 3",
+            "name": "n ele skiller 8",
+            "count": 1
+        },
+        {
+            "name": "adasdds",
             "count": 1
         }
     ],
@@ -33,25 +43,32 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "n ele skiller 5",
+                "name": "n ele skiller 0",
                 "matched": "n",
                 "count": 1
             },
             {
-                "name": "n ele skiller 4",
+                "name": "n ele skiller 9",
                 "matched": "n",
                 "count": 1
             },
             {
-                "name": "n ele skiller 3",
+                "name": "n ele skiller 8",
                 "matched": "n",
+                "count": 1
+            }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "adasdds",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 15.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 13.0
     }
 }
