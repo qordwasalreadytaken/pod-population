@@ -1,31 +1,41 @@
 {
-    "timestamp": "2026-08-19T16:23:00+00:00",
+    "timestamp": "2026-08-19T16:41:00+00:00",
     "difficulty": {
-        "1": 2,
+        "2": 1,
+        "1": 3,
         "0": 1
     },
     "mode": {
-        "0": 3
+        "0": 5
     },
     "difficulty_mode": {
-        "1|0": 2,
+        "2|0": 1,
+        "1|0": 3,
         "0|0": 1
     },
     "activities": [
+        {
+            "name": "Other",
+            "count": 3
+        },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
-            "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Leveling",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "3",
+            "count": 1
+        },
+        {
+            "name": "2",
+            "count": 1
+        },
         {
             "name": "adasdds",
             "count": 1
@@ -35,16 +45,18 @@
             "count": 1
         },
         {
-            "name": "normal",
+            "name": "n ele skillers",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "#",
-            "count": 2,
+            "count": 6,
             "examples": [
-                "1"
+                "1",
+                "2",
+                "3"
             ]
         }
     ],
@@ -56,17 +68,17 @@
                 "count": 1
             }
         ],
-        "Leveling": [
+        "Trade": [
             {
-                "name": "normal",
-                "matched": "norm",
+                "name": "n ele skillers",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 4.67
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 4.8
     }
 }
