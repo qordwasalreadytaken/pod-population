@@ -342,6 +342,18 @@
         ]
     },
     {
+        "normalized": "jah ber plz #",
+        "count": 20,
+        "examples": [
+            "jah ber plz 1",
+            "jah ber plz 10",
+            "jah ber plz 2",
+            "jah ber plz 7",
+            "jah ber plz 8",
+            "jah ber plz 9"
+        ]
+    },
+    {
         "normalized": "aag",
         "count": 20,
         "examples": [
@@ -381,18 +393,6 @@
         "count": 18,
         "examples": [
             "hellbound"
-        ]
-    },
-    {
-        "normalized": "jah ber plz #",
-        "count": 18,
-        "examples": [
-            "jah ber plz 1",
-            "jah ber plz 10",
-            "jah ber plz 2",
-            "jah ber plz 7",
-            "jah ber plz 8",
-            "jah ber plz 9"
         ]
     },
     {
@@ -2587,6 +2587,13 @@
         "count": 4,
         "examples": [
             "1v"
+        ]
+    },
+    {
+        "normalized": "cnmjdxfhj",
+        "count": 4,
+        "examples": [
+            "cnmjdxfhj"
         ]
     },
     {
@@ -6353,13 +6360,6 @@
         "count": 2,
         "examples": [
             "meow 1"
-        ]
-    },
-    {
-        "normalized": "cnmjdxfhj",
-        "count": 2,
-        "examples": [
-            "cnmjdxfhj"
         ]
     }
 ]

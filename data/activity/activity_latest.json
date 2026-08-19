@@ -1,41 +1,40 @@
 {
-    "timestamp": "2026-08-19T22:38:00+00:00",
+    "timestamp": "2026-08-19T22:51:00+00:00",
     "difficulty": {
-        "1": 1,
-        "0": 2
+        "2": 1,
+        "0": 1
     },
     "mode": {
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
-        "1|0": 1,
-        "0|0": 2
+        "2|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Leveling",
-            "count": 2
-        },
-        {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "act 11",
+            "name": "jah ber plz 7",
             "count": 1
         },
         {
             "name": "cnmjdxfhj",
             "count": 1
-        },
-        {
-            "name": "act",
-            "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "jah ber plz #",
+            "count": 2,
+            "examples": [
+                "jah ber plz 7"
+            ]
+        },
         {
             "normalized": "cnmjdxfhj",
             "count": 2,
@@ -44,23 +43,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Leveling": [
-            {
-                "name": "act 11",
-                "matched": "act",
-                "count": 1
-            },
-            {
-                "name": "act",
-                "matched": "act",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 11.0
     }
 }
