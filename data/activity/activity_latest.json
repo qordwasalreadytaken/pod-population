@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-19T23:22:00+00:00",
+    "timestamp": "2026-08-19T23:36:00+00:00",
     "difficulty": {
         "2": 2
     },
@@ -12,44 +12,33 @@
     "activities": [
         {
             "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "jah ber plz 9",
+            "name": "jah ber plz 11",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "jah ber plz 10",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "jah ber plz #",
-            "count": 2,
+            "count": 4,
             "examples": [
-                "jah ber plz 9"
+                "jah ber plz 10",
+                "jah ber plz 11"
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 8.0
+        "average_name_length": 14.0
     }
 }
