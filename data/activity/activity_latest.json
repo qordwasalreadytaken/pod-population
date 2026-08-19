@@ -1,59 +1,39 @@
 {
-    "timestamp": "2026-08-19T02:37:00+00:00",
+    "timestamp": "2026-08-19T03:05:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1,
-        "0": 1
+        "1": 1
     },
     "mode": {
-        "0": 4
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 1,
-        "0|0": 1
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "cucumber",
-            "count": 2
-        },
-        {
-            "name": "hi im noob 2",
-            "count": 1
-        },
-        {
-            "name": "hi im noob 3",
+            "name": "hi im noob 11",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "cucumber",
-            "count": 4,
-            "examples": [
-                "cucumber"
-            ]
-        },
-        {
             "normalized": "hi im noob #",
-            "count": 4,
+            "count": 2,
             "examples": [
-                "hi im noob 2",
-                "hi im noob 3"
+                "hi im noob 11"
             ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 3,
-        "public_games": 4,
-        "average_name_length": 10.67
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 13.0
     }
 }
