@@ -1,78 +1,72 @@
 {
-    "timestamp": "2026-08-19T17:06:00+00:00",
+    "timestamp": "2026-08-19T17:22:00+00:00",
     "difficulty": {
-        "2": 4,
-        "0": 2
+        "2": 2,
+        "0": 1
     },
     "mode": {
-        "0": 6
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 4,
-        "0|0": 2
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
             "name": "Other",
-            "count": 4
+            "count": 1
         },
         {
             "name": "Trade",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "gord",
+            "count": 1
+        },
+        {
+            "name": "9",
+            "count": 1
+        },
+        {
             "name": "n ele skillers",
-            "count": 2
-        },
-        {
-            "name": "8",
-            "count": 1
-        },
-        {
-            "name": "7",
-            "count": 1
-        },
-        {
-            "name": "6",
-            "count": 1
-        },
-        {
-            "name": "crip",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "#",
-            "count": 6,
-            "examples": [
-                "6",
-                "7",
-                "8"
-            ]
-        },
-        {
-            "normalized": "crip",
             "count": 2,
             "examples": [
-                "crip"
+                "9"
             ]
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "gord",
+                "matched": "gord",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n ele skillers",
                 "matched": "n",
-                "count": 2
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 6,
-        "average_name_length": 4.2
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 6.33
     }
 }
