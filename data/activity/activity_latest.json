@@ -1,21 +1,15 @@
 {
-    "timestamp": "2026-08-19T19:24:00+00:00",
+    "timestamp": "2026-08-19T19:37:00+00:00",
     "difficulty": {
-        "2": 1,
         "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 1,
         "0|0": 1
     },
     "activities": [
-        {
-            "name": "Trade",
-            "count": 1
-        },
         {
             "name": "Leveling",
             "count": 1
@@ -23,23 +17,12 @@
     ],
     "top_games": [
         {
-            "name": "n griffon 3s",
-            "count": 1
-        },
-        {
             "name": "act",
             "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n griffon 3s",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Leveling": [
             {
                 "name": "act",
@@ -49,8 +32,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 7.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 3.0
     }
 }
