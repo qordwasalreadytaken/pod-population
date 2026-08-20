@@ -1,17 +1,23 @@
 {
-    "timestamp": "2026-08-20T21:39:00+00:00",
+    "timestamp": "2026-08-20T21:52:00+00:00",
     "difficulty": {
-        "2": 1
-    },
-    "mode": {
+        "2": 1,
         "0": 1
     },
+    "mode": {
+        "0": 2
+    },
     "difficulty_mode": {
-        "2|0": 1
+        "2|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Other",
             "count": 1
         }
     ],
@@ -19,9 +25,21 @@
         {
             "name": "n 2sk amacircle",
             "count": 1
+        },
+        {
+            "name": "vf v",
+            "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "vf v",
+            "count": 2,
+            "examples": [
+                "vf v"
+            ]
+        }
+    ],
     "classified_games": {
         "Trade": [
             {
@@ -32,8 +50,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 15.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 9.5
     }
 }
