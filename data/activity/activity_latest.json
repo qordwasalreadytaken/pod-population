@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-08-20T19:40:00+00:00",
+    "timestamp": "2026-08-20T19:53:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 2,
         "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 4,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
@@ -35,14 +35,6 @@
             "count": 1
         },
         {
-            "name": "t",
-            "count": 1
-        },
-        {
-            "name": "lvv",
-            "count": 1
-        },
-        {
             "name": "n torch necro",
             "count": 1
         }
@@ -53,20 +45,6 @@
             "count": 2,
             "examples": [
                 "n2sk amacircle"
-            ]
-        },
-        {
-            "normalized": "t",
-            "count": 2,
-            "examples": [
-                "t"
-            ]
-        },
-        {
-            "normalized": "lvv",
-            "count": 2,
-            "examples": [
-                "lvv"
             ]
         }
     ],
@@ -87,8 +65,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 7.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 10.33
     }
 }
