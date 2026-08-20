@@ -1,13 +1,15 @@
 {
-    "timestamp": "2026-08-20T13:18:00+00:00",
+    "timestamp": "2026-08-20T13:45:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 2,
+        "1": 1
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 2,
+        "1|0": 1
     },
     "activities": [
         {
@@ -16,6 +18,10 @@
         },
         {
             "name": "Other",
+            "count": 1
+        },
+        {
+            "name": "Leveling",
             "count": 1
         }
     ],
@@ -26,6 +32,10 @@
         },
         {
             "name": "trash talk",
+            "count": 1
+        },
+        {
+            "name": "acte 3",
             "count": 1
         }
     ],
@@ -45,11 +55,18 @@
                 "matched": "torch",
                 "count": 1
             }
+        ],
+        "Leveling": [
+            {
+                "name": "acte 3",
+                "matched": "act",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 12.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 10.33
     }
 }
