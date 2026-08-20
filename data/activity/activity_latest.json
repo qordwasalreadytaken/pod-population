@@ -1,18 +1,20 @@
 {
-    "timestamp": "2026-08-20T16:58:00+00:00",
+    "timestamp": "2026-08-20T17:11:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 4,
+        "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 4
+        "2|0": 4,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Trade",
@@ -29,11 +31,11 @@
     ],
     "top_games": [
         {
-            "name": "aefwwef",
+            "name": "n torch necro",
             "count": 1
         },
         {
-            "name": "buy torch necro",
+            "name": "aefwwef",
             "count": 1
         },
         {
@@ -42,6 +44,10 @@
         },
         {
             "name": "chillmap",
+            "count": 1
+        },
+        {
+            "name": "crip",
             "count": 1
         }
     ],
@@ -52,12 +58,19 @@
             "examples": [
                 "aefwwef"
             ]
+        },
+        {
+            "normalized": "crip",
+            "count": 2,
+            "examples": [
+                "crip"
+            ]
         }
     ],
     "classified_games": {
         "Trade": [
             {
-                "name": "buy torch necro",
+                "name": "n torch necro",
                 "matched": "torch",
                 "count": 1
             }
@@ -78,8 +91,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 8.5
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 7.2
     }
 }
