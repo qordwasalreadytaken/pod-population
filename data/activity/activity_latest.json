@@ -1,24 +1,18 @@
 {
-    "timestamp": "2026-08-20T22:22:00+00:00",
+    "timestamp": "2026-08-20T22:40:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "2": 2
     },
     "mode": {
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "0|0": 1
+        "2|0": 2
     },
     "activities": [
         {
             "name": "Trade",
             "count": 2
-        },
-        {
-            "name": "Other",
-            "count": 1
         }
     ],
     "top_games": [
@@ -29,26 +23,14 @@
         {
             "name": "n 2sk amacircle",
             "count": 1
-        },
-        {
-            "name": "vf v",
-            "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "vf v",
-            "count": 2,
-            "examples": [
-                "vf v"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Trade": [
             {
                 "name": "n torch necro",
-                "matched": "n",
+                "matched": "torch",
                 "count": 1
             },
             {
@@ -59,8 +41,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 10.67
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 14.0
     }
 }
