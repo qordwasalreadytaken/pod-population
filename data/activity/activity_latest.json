@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-08-20T17:11:00+00:00",
+    "timestamp": "2026-08-20T17:25:00+00:00",
     "difficulty": {
-        "2": 4,
-        "0": 1
+        "2": 3,
+        "0": 2
     },
     "mode": {
         "0": 5
     },
     "difficulty_mode": {
-        "2|0": 4,
-        "0|0": 1
+        "2|0": 3,
+        "0|0": 2
     },
     "activities": [
         {
@@ -17,25 +17,21 @@
             "count": 2
         },
         {
-            "name": "Trade",
-            "count": 1
-        },
-        {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "Maps",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n torch necro",
+            "name": "fgjhghj",
             "count": 1
         },
         {
-            "name": "aefwwef",
+            "name": "n torch necro",
             "count": 1
         },
         {
@@ -43,7 +39,7 @@
             "count": 1
         },
         {
-            "name": "chillmap",
+            "name": "tomb run",
             "count": 1
         },
         {
@@ -53,10 +49,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "aefwwef",
+            "normalized": "fgjhghj",
             "count": 2,
             "examples": [
-                "aefwwef"
+                "fgjhghj"
             ]
         },
         {
@@ -71,7 +67,7 @@
         "Trade": [
             {
                 "name": "n torch necro",
-                "matched": "torch",
+                "matched": "n",
                 "count": 1
             }
         ],
@@ -80,12 +76,10 @@
                 "name": "gord",
                 "matched": "gord",
                 "count": 1
-            }
-        ],
-        "Maps": [
+            },
             {
-                "name": "chillmap",
-                "matched": "map",
+                "name": "tomb run",
+                "matched": "run",
                 "count": 1
             }
         ]
