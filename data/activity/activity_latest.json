@@ -1,20 +1,22 @@
 {
-    "timestamp": "2026-08-20T14:24:00+00:00",
+    "timestamp": "2026-08-20T14:43:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 2
+        "2": 3
     },
     "mode": {
         "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 2
+        "2|0": 3
     },
     "activities": [
         {
+            "name": "Maps",
+            "count": 1
+        },
+        {
             "name": "Leveling",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Trade",
@@ -23,7 +25,7 @@
     ],
     "top_games": [
         {
-            "name": "buy torch necro",
+            "name": "map",
             "count": 1
         },
         {
@@ -31,16 +33,16 @@
             "count": 1
         },
         {
-            "name": "acte 3",
+            "name": "buy torch necro",
             "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
-        "Trade": [
+        "Maps": [
             {
-                "name": "buy torch necro",
-                "matched": "torch",
+                "name": "map",
+                "matched": "map",
                 "count": 1
             }
         ],
@@ -49,10 +51,12 @@
                 "name": "acte",
                 "matched": "act",
                 "count": 1
-            },
+            }
+        ],
+        "Trade": [
             {
-                "name": "acte 3",
-                "matched": "act",
+                "name": "buy torch necro",
+                "matched": "torch",
                 "count": 1
             }
         ]
@@ -60,6 +64,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 8.33
+        "average_name_length": 7.33
     }
 }
