@@ -342,6 +342,16 @@
         ]
     },
     {
+        "normalized": "nec grow #",
+        "count": 22,
+        "examples": [
+            "nec grow 2",
+            "nec grow 3",
+            "nec grow 4",
+            "nec grow 5"
+        ]
+    },
+    {
         "normalized": "help",
         "count": 20,
         "examples": [
@@ -360,16 +370,6 @@
         "count": 20,
         "examples": [
             "aag"
-        ]
-    },
-    {
-        "normalized": "nec grow #",
-        "count": 20,
-        "examples": [
-            "nec grow 2",
-            "nec grow 3",
-            "nec grow 4",
-            "nec grow 5"
         ]
     },
     {
