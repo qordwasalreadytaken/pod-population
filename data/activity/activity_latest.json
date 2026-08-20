@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-08-20T15:42:00+00:00",
+    "timestamp": "2026-08-20T15:56:00+00:00",
     "difficulty": {
-        "2": 5
+        "2": 4
     },
     "mode": {
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 5
+        "2|0": 4
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Other",
+            "count": 1
         },
         {
             "name": "Trade",
@@ -33,10 +33,6 @@
             "count": 1
         },
         {
-            "name": "feawfaew",
-            "count": 1
-        },
-        {
             "name": "buy torch necro",
             "count": 1
         }
@@ -47,13 +43,6 @@
             "count": 2,
             "examples": [
                 "afewfaew"
-            ]
-        },
-        {
-            "normalized": "feawfaew",
-            "count": 2,
-            "examples": [
-                "feawfaew"
             ]
         }
     ],
@@ -68,14 +57,14 @@
         "Trade": [
             {
                 "name": "buy torch necro",
-                "matched": "torch",
+                "matched": "buy",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 5,
-        "average_name_length": 8.75
+        "unique_names": 3,
+        "public_games": 4,
+        "average_name_length": 9.0
     }
 }
