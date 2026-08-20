@@ -1517,6 +1517,11 @@
             "count": 10
         },
         {
+            "name": "n torch necro",
+            "matched": "n",
+            "count": 10
+        },
+        {
             "name": "n 3os g face",
             "matched": "n",
             "count": 10
@@ -1528,11 +1533,6 @@
         },
         {
             "name": "n shadowskill",
-            "matched": "n",
-            "count": 9
-        },
-        {
-            "name": "n torch necro",
             "matched": "n",
             "count": 9
         },
@@ -1583,7 +1583,7 @@
         },
         {
             "name": "buy necr torch",
-            "matched": "torch",
+            "matched": "buy",
             "count": 4
         },
         {
@@ -2226,7 +2226,7 @@
         {
             "name": "acte 3",
             "matched": "act",
-            "count": 15
+            "count": 16
         },
         {
             "name": "start",
@@ -2235,7 +2235,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "andar",
+            "matched": "act",
             "count": 12
         },
         {
@@ -2330,7 +2330,7 @@
         },
         {
             "name": "norm act",
-            "matched": "norm",
+            "matched": "act",
             "count": 4
         },
         {
@@ -2385,7 +2385,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "start",
+            "matched": "act",
             "count": 3
         },
         {
@@ -2440,7 +2440,7 @@
         },
         {
             "name": "act start",
-            "matched": "start",
+            "matched": "act",
             "count": 2
         },
         {
@@ -2475,7 +2475,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -2500,7 +2500,7 @@
         },
         {
             "name": "normal act",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -2530,7 +2530,7 @@
         },
         {
             "name": "act 2 start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -2565,7 +2565,7 @@
         },
         {
             "name": "act hel start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -2585,7 +2585,7 @@
         },
         {
             "name": "act 5 normal",
-            "matched": "norm",
+            "matched": "act",
             "count": 1
         },
         {
@@ -2705,7 +2705,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "tomb",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -2802,7 +2802,7 @@
         },
         {
             "name": "maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 3
         },
         {
@@ -2812,7 +2812,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "mapping",
+            "matched": "map",
             "count": 3
         },
         {
@@ -2837,7 +2837,7 @@
         },
         {
             "name": "maps-2",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
@@ -3037,12 +3037,12 @@
         },
         {
             "name": "mapping 2",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
             "name": "maps?2",
-            "matched": "maps",
+            "matched": "map",
             "count": 1
         },
         {
@@ -3052,7 +3052,7 @@
         },
         {
             "name": "mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         }
     ],
@@ -3348,7 +3348,7 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]

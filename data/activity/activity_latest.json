@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-20T12:24:00+00:00",
+    "timestamp": "2026-08-20T12:45:00+00:00",
     "difficulty": {
         "2": 1,
         "1": 1,
@@ -29,7 +29,7 @@
     ],
     "top_games": [
         {
-            "name": "trash talk show",
+            "name": "trash talk",
             "count": 1
         },
         {
@@ -43,10 +43,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "trash talk show",
+            "normalized": "trash talk",
             "count": 2,
             "examples": [
-                "trash talk show"
+                "trash talk"
             ]
         }
     ],
@@ -69,6 +69,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 11.33
+        "average_name_length": 9.67
     }
 }
