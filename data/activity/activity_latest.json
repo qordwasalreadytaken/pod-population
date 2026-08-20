@@ -1,31 +1,21 @@
 {
-    "timestamp": "2026-08-20T00:46:00+00:00",
+    "timestamp": "2026-08-20T01:29:00+00:00",
     "difficulty": {
-        "2": 1,
         "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 1,
         "0|0": 1
     },
     "activities": [
-        {
-            "name": "Trade",
-            "count": 1
-        },
         {
             "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "n toch necro",
-            "count": 1
-        },
         {
             "name": "nec gr0w 1",
             "count": 1
@@ -40,18 +30,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "n toch necro",
-                "matched": "n",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 11.0
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 10.0
     }
 }
