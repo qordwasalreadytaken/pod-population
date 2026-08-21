@@ -181,15 +181,8 @@
         ]
     },
     {
-        "normalized": "hell yeah",
-        "count": 40,
-        "examples": [
-            "hell yeah"
-        ]
-    },
-    {
         "normalized": "nec grow #",
-        "count": 40,
+        "count": 42,
         "examples": [
             "nec grow 2",
             "nec grow 3",
@@ -197,6 +190,13 @@
             "nec grow 5",
             "nec grow 6",
             "nec grow 7"
+        ]
+    },
+    {
+        "normalized": "hell yeah",
+        "count": 40,
+        "examples": [
+            "hell yeah"
         ]
     },
     {
@@ -6478,6 +6478,13 @@
         "count": 2,
         "examples": [
             "sdgfhsdfghs"
+        ]
+    },
+    {
+        "normalized": "nkllkl",
+        "count": 2,
+        "examples": [
+            "nkllkl"
         ]
     }
 ]

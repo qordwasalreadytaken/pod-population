@@ -1,15 +1,68 @@
 {
-    "timestamp": "2026-08-21T00:47:00+00:00",
-    "difficulty": {},
-    "mode": {},
-    "difficulty_mode": {},
-    "activities": [],
-    "top_games": [],
-    "unknown_games": [],
-    "classified_games": {},
+    "timestamp": "2026-08-21T01:29:00+00:00",
+    "difficulty": {
+        "2": 2,
+        "0": 1
+    },
+    "mode": {
+        "0": 3
+    },
+    "difficulty_mode": {
+        "2|0": 2,
+        "0|0": 1
+    },
+    "activities": [
+        {
+            "name": "Other",
+            "count": 2
+        },
+        {
+            "name": "Maps",
+            "count": 1
+        }
+    ],
+    "top_games": [
+        {
+            "name": "nkllkl",
+            "count": 1
+        },
+        {
+            "name": "map runner",
+            "count": 1
+        },
+        {
+            "name": "nec grow 5",
+            "count": 1
+        }
+    ],
+    "unknown_games": [
+        {
+            "normalized": "nkllkl",
+            "count": 2,
+            "examples": [
+                "nkllkl"
+            ]
+        },
+        {
+            "normalized": "nec grow #",
+            "count": 2,
+            "examples": [
+                "nec grow 5"
+            ]
+        }
+    ],
+    "classified_games": {
+        "Maps": [
+            {
+                "name": "map runner",
+                "matched": "map",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 0,
-        "public_games": 0,
-        "average_name_length": 0.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 8.67
     }
 }
