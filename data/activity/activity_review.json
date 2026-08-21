@@ -38,7 +38,7 @@
     },
     {
         "normalized": "cucumber",
-        "count": 248,
+        "count": 250,
         "examples": [
             "cucumber"
         ]
@@ -146,6 +146,18 @@
         ]
     },
     {
+        "normalized": "nec grow #",
+        "count": 46,
+        "examples": [
+            "nec grow 2",
+            "nec grow 3",
+            "nec grow 4",
+            "nec grow 5",
+            "nec grow 6",
+            "nec grow 7"
+        ]
+    },
+    {
         "normalized": "jm",
         "count": 44,
         "examples": [
@@ -164,18 +176,6 @@
         "count": 44,
         "examples": [
             "npalaskiler"
-        ]
-    },
-    {
-        "normalized": "nec grow #",
-        "count": 44,
-        "examples": [
-            "nec grow 2",
-            "nec grow 3",
-            "nec grow 4",
-            "nec grow 5",
-            "nec grow 6",
-            "nec grow 7"
         ]
     },
     {
