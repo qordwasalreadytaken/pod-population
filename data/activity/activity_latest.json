@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-21T15:28:00+00:00",
+    "timestamp": "2026-08-21T15:45:00+00:00",
     "difficulty": {
         "0": 2
     },
@@ -17,27 +17,27 @@
     ],
     "top_games": [
         {
-            "name": "news",
+            "name": "helpp",
             "count": 1
         },
         {
-            "name": "41341",
+            "name": "fdf",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "news",
+            "normalized": "helpp",
             "count": 2,
             "examples": [
-                "news"
+                "helpp"
             ]
         },
         {
-            "normalized": "#",
+            "normalized": "fdf",
             "count": 2,
             "examples": [
-                "41341"
+                "fdf"
             ]
         }
     ],
@@ -45,6 +45,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 4.5
+        "average_name_length": 4.0
     }
 }
