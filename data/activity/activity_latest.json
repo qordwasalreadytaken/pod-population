@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-08-21T21:22:00+00:00",
+    "timestamp": "2026-08-21T21:37:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 3
+        "2": 2,
+        "0": 5
     },
     "mode": {
-        "0": 4
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 3
+        "2|0": 2,
+        "0|0": 5
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 6
         },
         {
             "name": "Trade",
@@ -27,38 +27,71 @@
             "count": 1
         },
         {
-            "name": "f",
+            "name": "lorna",
             "count": 1
         },
         {
-            "name": "r",
+            "name": "vqwe",
             "count": 1
         },
         {
-            "name": "1",
+            "name": "4134",
+            "count": 1
+        },
+        {
+            "name": "as",
+            "count": 1
+        },
+        {
+            "name": "q",
+            "count": 1
+        },
+        {
+            "name": "gt",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "f",
+            "normalized": "lorna",
             "count": 2,
             "examples": [
-                "f"
+                "lorna"
             ]
         },
         {
-            "normalized": "r",
+            "normalized": "vqwe",
             "count": 2,
             "examples": [
-                "r"
+                "vqwe"
             ]
         },
         {
             "normalized": "#",
             "count": 2,
             "examples": [
-                "1"
+                "4134"
+            ]
+        },
+        {
+            "normalized": "as",
+            "count": 2,
+            "examples": [
+                "as"
+            ]
+        },
+        {
+            "normalized": "q",
+            "count": 2,
+            "examples": [
+                "q"
+            ]
+        },
+        {
+            "normalized": "gt",
+            "count": 2,
+            "examples": [
+                "gt"
             ]
         }
     ],
@@ -72,8 +105,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 4.5
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 4.71
     }
 }
