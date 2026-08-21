@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-21T05:15:00+00:00",
+    "timestamp": "2026-08-21T05:41:00+00:00",
     "difficulty": {
         "2": 1,
         "1": 2,
@@ -16,11 +16,7 @@
     "activities": [
         {
             "name": "Other",
-            "count": 3
-        },
-        {
-            "name": "Leveling",
-            "count": 1
+            "count": 4
         }
     ],
     "top_games": [
@@ -37,7 +33,7 @@
             "count": 1
         },
         {
-            "name": "act 1",
+            "name": "a barracks",
             "count": 1
         }
     ],
@@ -62,20 +58,19 @@
             "examples": [
                 "adsdsd"
             ]
+        },
+        {
+            "normalized": "a barracks",
+            "count": 2,
+            "examples": [
+                "a barracks"
+            ]
         }
     ],
-    "classified_games": {
-        "Leveling": [
-            {
-                "name": "act 1",
-                "matched": "act",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 7.25
+        "average_name_length": 8.5
     }
 }
