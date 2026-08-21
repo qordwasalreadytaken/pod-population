@@ -1,17 +1,23 @@
 {
-    "timestamp": "2026-08-21T10:55:00+00:00",
+    "timestamp": "2026-08-21T11:06:00+00:00",
     "difficulty": {
-        "2": 1
+        "2": 1,
+        "1": 1
     },
     "mode": {
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 1
+        "2|0": 1,
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Other",
             "count": 1
         }
     ],
@@ -19,9 +25,21 @@
         {
             "name": "n annihilus",
             "count": 1
+        },
+        {
+            "name": "adsdsd",
+            "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "adsdsd",
+            "count": 2,
+            "examples": [
+                "adsdsd"
+            ]
+        }
+    ],
     "classified_games": {
         "Trade": [
             {
@@ -32,8 +50,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 11.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 8.5
     }
 }
