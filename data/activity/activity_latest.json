@@ -1,13 +1,15 @@
 {
-    "timestamp": "2026-08-21T16:26:00+00:00",
+    "timestamp": "2026-08-21T16:44:00+00:00",
     "difficulty": {
-        "0": 2
+        "1": 1,
+        "0": 1
     },
     "mode": {
         "0": 2
     },
     "difficulty_mode": {
-        "0|0": 2
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
@@ -17,27 +19,27 @@
     ],
     "top_games": [
         {
-            "name": "helpp",
+            "name": "adsdsd",
             "count": 1
         },
         {
-            "name": "fdf",
+            "name": "helpp",
             "count": 1
         }
     ],
     "unknown_games": [
         {
+            "normalized": "adsdsd",
+            "count": 2,
+            "examples": [
+                "adsdsd"
+            ]
+        },
+        {
             "normalized": "helpp",
             "count": 2,
             "examples": [
                 "helpp"
-            ]
-        },
-        {
-            "normalized": "fdf",
-            "count": 2,
-            "examples": [
-                "fdf"
             ]
         }
     ],
@@ -45,6 +47,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 4.0
+        "average_name_length": 5.5
     }
 }
