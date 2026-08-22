@@ -1,15 +1,23 @@
 {
-    "timestamp": "2026-08-22T21:49:00+00:00",
+    "timestamp": "2026-08-22T22:02:00+00:00",
     "difficulty": {
-        "2": 1
+        "2": 3
     },
     "mode": {
-        "0": 1
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1
+        "2|0": 3
     },
     "activities": [
+        {
+            "name": "Other",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
         {
             "name": "Trade",
             "count": 1
@@ -17,12 +25,35 @@
     ],
     "top_games": [
         {
+            "name": "sure thing",
+            "count": 1
+        },
+        {
+            "name": "asd",
+            "count": 1
+        },
+        {
             "name": "n anni",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "sure thing",
+            "count": 2,
+            "examples": [
+                "sure thing"
+            ]
+        }
+    ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n anni",
@@ -32,8 +63,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 6.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 6.33
     }
 }
