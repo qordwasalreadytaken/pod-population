@@ -1,11 +1,7 @@
 [
     {
         "normalized": "#",
-<<<<<<< HEAD
-        "count": 598,
-=======
-        "count": 292,
->>>>>>> fe6c650f (purge old data)
+        "count": 422,
         "examples": [
             "1",
             "11",
@@ -16,29 +12,7 @@
             "1135",
             "115",
             "12",
-<<<<<<< HEAD
-            "122"
-=======
             "1221"
->>>>>>> fe6c650f (purge old data)
-        ]
-    },
-    {
-        "normalized": "lvv",
-<<<<<<< HEAD
-        "count": 308,
-=======
-        "count": 106,
->>>>>>> fe6c650f (purge old data)
-        "examples": [
-            "lvv"
-        ]
-    },
-    {
-        "normalized": "a",
-        "count": 290,
-        "examples": [
-            "a"
         ]
     },
     {
@@ -49,39 +23,20 @@
         ]
     },
     {
-        "normalized": "t",
-<<<<<<< HEAD
+        "normalized": "lvv",
         "count": 278,
-=======
-        "count": 84,
->>>>>>> fe6c650f (purge old data)
+        "examples": [
+            "lvv"
+        ]
+    },
+    {
+        "normalized": "t",
+        "count": 256,
         "examples": [
             "t"
         ]
     },
     {
-        "normalized": "qe",
-        "count": 130,
-        "examples": [
-            "qe"
-        ]
-    },
-    {
-        "normalized": "sad",
-        "count": 94,
-        "examples": [
-            "sad"
-        ]
-    },
-    {
-        "normalized": "gg",
-        "count": 66,
-        "examples": [
-            "gg"
-        ]
-    },
-    {
-<<<<<<< HEAD
         "normalized": "nec grow #",
         "count": 88,
         "examples": [
@@ -108,40 +63,27 @@
         ]
     },
     {
-        "normalized": "lvup gogo",
+        "normalized": "sad",
         "count": 84,
         "examples": [
-            "lvup gogo"
+            "sad"
         ]
     },
     {
-        "normalized": "nm",
-        "count": 82,
+        "normalized": "qe",
+        "count": 76,
         "examples": [
-            "nm"
+            "qe"
         ]
     },
     {
-        "normalized": "a#h",
-        "count": 82,
+        "normalized": "gg",
+        "count": 66,
         "examples": [
-            "a1h",
-            "a2h",
-            "a3h",
-            "a4h",
-            "a5h"
+            "gg"
         ]
     },
     {
-        "normalized": "eq",
-        "count": 68,
-        "examples": [
-            "eq"
-        ]
-    },
-    {
-=======
->>>>>>> fe6c650f (purge old data)
         "normalized": "lel #",
         "count": 64,
         "examples": [
@@ -158,7 +100,6 @@
         ]
     },
     {
-<<<<<<< HEAD
         "normalized": "tt",
         "count": 62,
         "examples": [
@@ -166,55 +107,31 @@
         ]
     },
     {
-        "normalized": "a nm",
+        "normalized": "nm",
+        "count": 58,
+        "examples": [
+            "nm"
+        ]
+    },
+    {
+        "normalized": "a",
         "count": 52,
         "examples": [
-            "a nm"
+            "a"
         ]
     },
     {
-        "normalized": "crip",
-        "count": 48,
-        "examples": [
-            "crip"
-        ]
-    },
-    {
-        "normalized": "jm",
+        "normalized": "lvup gogo",
         "count": 44,
         "examples": [
-            "jm"
+            "lvup gogo"
         ]
     },
     {
-        "normalized": "ok",
-        "count": 44,
-        "examples": [
-            "ok"
-        ]
-    },
-    {
-=======
->>>>>>> fe6c650f (purge old data)
         "normalized": "npalaskiler",
         "count": 44,
         "examples": [
             "npalaskiler"
-        ]
-    },
-    {
-<<<<<<< HEAD
-        "normalized": "hell",
-        "count": 42,
-        "examples": [
-            "hell"
-        ]
-    },
-    {
-        "normalized": "qordsohandsome",
-        "count": 42,
-        "examples": [
-            "qordsohandsome"
         ]
     },
     {
@@ -225,33 +142,17 @@
         ]
     },
     {
+        "normalized": "eq",
+        "count": 40,
+        "examples": [
+            "eq"
+        ]
+    },
+    {
         "normalized": "hell yeah",
         "count": 40,
         "examples": [
             "hell yeah"
-        ]
-    },
-    {
-        "normalized": "hell o",
-        "count": 38,
-        "examples": [
-            "hell o"
-        ]
-    },
-    {
-        "normalized": "barb lvling-#",
-        "count": 38,
-        "examples": [
-            "barb lvling-29",
-            "barb lvling-3",
-            "barb lvling-30",
-            "barb lvling-31",
-            "barb lvling-32",
-            "barb lvling-33",
-            "barb lvling-34",
-            "barb lvling-35",
-            "barb lvling-36",
-            "barb lvling-38"
         ]
     },
     {
@@ -269,28 +170,6 @@
         ]
     },
     {
-        "normalized": "trapper jim #",
-        "count": 36,
-        "examples": [
-            "trapper jim 1",
-            "trapper jim 10",
-            "trapper jim 11",
-            "trapper jim 14",
-            "trapper jim 17",
-            "trapper jim 2",
-            "trapper jim 3",
-            "trapper jim 4",
-            "trapper jim 5",
-            "trapper jim 6"
-=======
-        "normalized": "a",
-        "count": 42,
-        "examples": [
-            "a"
->>>>>>> fe6c650f (purge old data)
-        ]
-    },
-    {
         "normalized": "fd #",
         "count": 36,
         "examples": [
@@ -301,39 +180,17 @@
         ]
     },
     {
-<<<<<<< HEAD
-        "normalized": "a h",
+        "normalized": "crip",
+        "count": 32,
+        "examples": [
+            "crip"
+        ]
+    },
+    {
+        "normalized": "hell",
         "count": 28,
         "examples": [
-            "a h"
-        ]
-    },
-    {
-        "normalized": "v",
-        "count": 26,
-        "examples": [
-            "v"
-        ]
-    },
-    {
-        "normalized": "q",
-        "count": 26,
-        "examples": [
-            "q"
-        ]
-    },
-    {
-        "normalized": "g",
-        "count": 24,
-        "examples": [
-            "g"
-        ]
-    },
-    {
-        "normalized": "tomas",
-        "count": 24,
-        "examples": [
-            "tomas"
+            "hell"
         ]
     },
     {
@@ -355,83 +212,10 @@
         ]
     },
     {
-        "normalized": "h",
-        "count": 22,
-        "examples": [
-            "h"
-        ]
-    },
-    {
-        "normalized": "b soj & arach #",
-        "count": 22,
-        "examples": [
-            "b soj & arach 1",
-            "b soj & arach 2",
-            "b soj & arach 4",
-            "b soj & arach 5"
-        ]
-    },
-    {
-        "normalized": "quests",
-        "count": 22,
-        "examples": [
-            "quests"
-        ]
-    },
-    {
-        "normalized": "lvl",
-        "count": 22,
-        "examples": [
-            "lvl"
-=======
-        "normalized": "lvup gogo",
-        "count": 34,
-        "examples": [
-            "lvup gogo"
-        ]
-    },
-    {
-        "normalized": "qe",
-        "count": 30,
-        "examples": [
-            "qe"
-        ]
-    },
-    {
-        "normalized": "tt",
-        "count": 26,
-        "examples": [
-            "tt"
-        ]
-    },
-    {
-        "normalized": "nm",
-        "count": 24,
-        "examples": [
-            "nm"
->>>>>>> fe6c650f (purge old data)
-        ]
-    },
-    {
         "normalized": "atlas",
         "count": 22,
         "examples": [
             "atlas"
-        ]
-    },
-    {
-<<<<<<< HEAD
-        "normalized": "help",
-        "count": 20,
-        "examples": [
-            "help"
-        ]
-    },
-    {
-        "normalized": "fueguitos",
-        "count": 20,
-        "examples": [
-            "fueguitos"
         ]
     },
     {
@@ -463,17 +247,17 @@
         ]
     },
     {
-        "normalized": "qwe",
+        "normalized": "tomas",
         "count": 18,
         "examples": [
-            "qwe"
+            "tomas"
         ]
     },
     {
-        "normalized": "hellbound",
+        "normalized": "hell o",
         "count": 18,
         "examples": [
-            "hellbound"
+            "hell o"
         ]
     },
     {
@@ -498,34 +282,17 @@
         ]
     },
     {
-        "normalized": "huh #",
-        "count": 16,
-        "examples": [
-            "huh 1",
-            "huh 2",
-            "huh 4",
-            "huh 5",
-            "huh 6"
-=======
-        "normalized": "tomas",
-        "count": 18,
-        "examples": [
-            "tomas"
->>>>>>> fe6c650f (purge old data)
-        ]
-    },
-    {
-        "normalized": "qq",
-        "count": 16,
-        "examples": [
-            "qq"
-        ]
-    },
-    {
         "normalized": "mana",
         "count": 16,
         "examples": [
             "mana"
+        ]
+    },
+    {
+        "normalized": "g",
+        "count": 16,
+        "examples": [
+            "g"
         ]
     },
     {
@@ -536,7 +303,6 @@
         ]
     },
     {
-<<<<<<< HEAD
         "normalized": "czarek",
         "count": 16,
         "examples": [
@@ -565,45 +331,10 @@
         ]
     },
     {
-        "normalized": "abs",
-        "count": 14,
-        "examples": [
-            "abs"
-        ]
-    },
-    {
-        "normalized": "nm a",
-        "count": 14,
-        "examples": [
-            "nm a"
-        ]
-    },
-    {
-        "normalized": "cain",
-        "count": 14,
-        "examples": [
-            "cain"
-        ]
-    },
-    {
-        "normalized": "fdfdfdfd #",
-        "count": 14,
-        "examples": [
-            "fdfdfdfd 1",
-            "fdfdfdfd 2"
-        ]
-    },
-    {
         "normalized": "kokoball",
         "count": 14,
         "examples": [
             "kokoball"
-=======
-        "normalized": "hell",
-        "count": 14,
-        "examples": [
-            "hell"
->>>>>>> fe6c650f (purge old data)
         ]
     },
     {
@@ -642,6 +373,13 @@
         ]
     },
     {
+        "normalized": "h",
+        "count": 12,
+        "examples": [
+            "h"
+        ]
+    },
+    {
         "normalized": "helpme",
         "count": 12,
         "examples": [
@@ -664,11 +402,17 @@
         ]
     },
     {
-<<<<<<< HEAD
         "normalized": "kmkol",
         "count": 12,
         "examples": [
             "kmkol"
+        ]
+    },
+    {
+        "normalized": "hellbound",
+        "count": 12,
+        "examples": [
+            "hellbound"
         ]
     },
     {
@@ -679,74 +423,11 @@
         ]
     },
     {
-        "normalized": "ist,ohm plz",
-=======
-        "normalized": "crip",
->>>>>>> fe6c650f (purge old data)
-        "count": 10,
-        "examples": [
-            "crip"
-        ]
-    },
-    {
         "normalized": "a#h",
         "count": 10,
         "examples": [
-<<<<<<< HEAD
-            "test"
-        ]
-    },
-    {
-        "normalized": "awerawer",
-        "count": 10,
-        "examples": [
-            "awerawer"
-        ]
-    },
-    {
-        "normalized": "mmh",
-        "count": 10,
-        "examples": [
-            "mmh"
-        ]
-    },
-    {
-        "normalized": "count",
-        "count": 10,
-        "examples": [
-            "count"
-        ]
-    },
-    {
-        "normalized": "dee",
-        "count": 10,
-        "examples": [
-            "dee"
-        ]
-    },
-    {
-        "normalized": "dgd",
-        "count": 10,
-        "examples": [
-            "dgd"
-        ]
-    },
-    {
-        "normalized": "all be wellcome",
-        "count": 10,
-        "examples": [
-            "all be wellcome"
-        ]
-    },
-    {
-        "normalized": "a hell help",
-        "count": 10,
-        "examples": [
-            "a hell help"
-=======
             "a2h",
             "a5h"
->>>>>>> fe6c650f (purge old data)
         ]
     },
     {
@@ -755,13 +436,6 @@
         "examples": [
             "where bear 2",
             "where bear 4"
-        ]
-    },
-    {
-        "normalized": "h",
-        "count": 10,
-        "examples": [
-            "h"
         ]
     },
     {
@@ -807,7 +481,6 @@
         ]
     },
     {
-<<<<<<< HEAD
         "normalized": "r",
         "count": 10,
         "examples": [
@@ -858,144 +531,6 @@
         ]
     },
     {
-        "normalized": "a boss",
-        "count": 8,
-        "examples": [
-            "a boss"
-        ]
-    },
-    {
-        "normalized": "tower",
-        "count": 8,
-        "examples": [
-            "tower"
-        ]
-    },
-    {
-        "normalized": "dsa",
-        "count": 8,
-        "examples": [
-            "dsa"
-        ]
-    },
-    {
-        "normalized": "f",
-        "count": 8,
-        "examples": [
-            "f"
-        ]
-    },
-    {
-        "normalized": "dirka",
-        "count": 8,
-        "examples": [
-            "dirka"
-        ]
-    },
-    {
-        "normalized": "pl",
-        "count": 8,
-        "examples": [
-            "pl"
-        ]
-    },
-    {
-        "normalized": "der",
-        "count": 8,
-        "examples": [
-            "der"
-        ]
-    },
-    {
-        "normalized": "gt",
-        "count": 8,
-        "examples": [
-            "gt"
-        ]
-    },
-    {
-        "normalized": "mkk",
-        "count": 8,
-        "examples": [
-            "mkk"
-        ]
-    },
-    {
-        "normalized": "a#nm",
-        "count": 8,
-        "examples": [
-            "a1nm",
-            "a2nm",
-            "a5nm"
-        ]
-    },
-    {
-        "normalized": "sdfsf",
-        "count": 8,
-        "examples": [
-            "sdfsf"
-        ]
-    },
-    {
-        "normalized": "e",
-        "count": 8,
-        "examples": [
-            "e"
-        ]
-    },
-    {
-        "normalized": "glitter",
-        "count": 8,
-        "examples": [
-            "glitter"
-        ]
-    },
-    {
-        "normalized": "window shop",
-        "count": 8,
-        "examples": [
-            "window shop"
-        ]
-    },
-    {
-        "normalized": "sddsd",
-        "count": 8,
-        "examples": [
-            "sddsd"
-        ]
-    },
-    {
-        "normalized": "peteza",
-        "count": 8,
-        "examples": [
-            "peteza"
-        ]
-    },
-    {
-        "normalized": "looking # bow",
-        "count": 8,
-        "examples": [
-            "looking 4 bow"
-        ]
-    },
-    {
-        "normalized": "level",
-        "count": 8,
-        "examples": [
-            "level"
-        ]
-    },
-    {
-        "normalized": "oops #",
-        "count": 8,
-        "examples": [
-            "oops 1",
-            "oops 4"
-        ]
-    },
-    {
-=======
->>>>>>> fe6c650f (purge old data)
         "normalized": "dlkjfhg",
         "count": 8,
         "examples": [
@@ -1007,13 +542,6 @@
         "count": 8,
         "examples": [
             "tttt"
-        ]
-    },
-    {
-        "normalized": "g",
-        "count": 8,
-        "examples": [
-            "g"
         ]
     },
     {
@@ -1066,7 +594,6 @@
         ]
     },
     {
-<<<<<<< HEAD
         "normalized": "ghgh",
         "count": 8,
         "examples": [
@@ -1078,12 +605,6 @@
         "count": 8,
         "examples": [
             "as"
-=======
-        "normalized": "hell o",
-        "count": 8,
-        "examples": [
-            "hell o"
->>>>>>> fe6c650f (purge old data)
         ]
     },
     {
@@ -1185,245 +706,6 @@
         ]
     },
     {
-<<<<<<< HEAD
-        "normalized": "lvling",
-        "count": 6,
-        "examples": [
-            "lvling"
-        ]
-    },
-    {
-        "normalized": "gddfghf",
-        "count": 6,
-        "examples": [
-            "gddfghf"
-        ]
-    },
-    {
-        "normalized": "new",
-        "count": 6,
-        "examples": [
-            "new"
-        ]
-    },
-    {
-        "normalized": "mm",
-        "count": 6,
-        "examples": [
-            "mm"
-        ]
-    },
-    {
-        "normalized": "prek",
-        "count": 6,
-        "examples": [
-            "prek"
-        ]
-    },
-    {
-        "normalized": "qwer",
-        "count": 6,
-        "examples": [
-            "qwer"
-        ]
-    },
-    {
-        "normalized": "nkk",
-        "count": 6,
-        "examples": [
-            "nkk"
-        ]
-    },
-    {
-        "normalized": "kk",
-        "count": 6,
-        "examples": [
-            "kk"
-        ]
-    },
-    {
-        "normalized": "tgrhf",
-        "count": 6,
-        "examples": [
-            "tgrhf"
-        ]
-    },
-    {
-        "normalized": "undead",
-        "count": 6,
-        "examples": [
-            "undead"
-        ]
-    },
-    {
-        "normalized": "fvhfg",
-        "count": 6,
-        "examples": [
-            "fvhfg"
-        ]
-    },
-    {
-        "normalized": "fffv",
-        "count": 6,
-        "examples": [
-            "fffv"
-        ]
-    },
-    {
-        "normalized": "ffddd",
-        "count": 6,
-        "examples": [
-            "ffddd"
-        ]
-    },
-    {
-        "normalized": "gggg",
-        "count": 6,
-        "examples": [
-            "gggg"
-        ]
-    },
-    {
-        "normalized": "summ summ",
-        "count": 6,
-        "examples": [
-            "summ summ"
-        ]
-    },
-    {
-        "normalized": "ftyree",
-        "count": 6,
-        "examples": [
-            "ftyree"
-        ]
-    },
-    {
-        "normalized": "stdg",
-        "count": 6,
-        "examples": [
-            "stdg"
-        ]
-    },
-    {
-        "normalized": "lvup gogogo",
-        "count": 6,
-        "examples": [
-            "lvup gogogo"
-        ]
-    },
-    {
-        "normalized": "all be wellcom",
-        "count": 6,
-        "examples": [
-            "all be wellcom"
-        ]
-    },
-    {
-        "normalized": "yhf",
-        "count": 6,
-        "examples": [
-            "yhf"
-        ]
-    },
-    {
-        "normalized": "lvl #",
-        "count": 6,
-        "examples": [
-            "lvl 1",
-            "lvl 2",
-            "lvl 3"
-        ]
-    },
-    {
-        "normalized": "undeadparty",
-        "count": 6,
-        "examples": [
-            "undeadparty"
-        ]
-    },
-    {
-        "normalized": "dfdfdf #",
-        "count": 6,
-        "examples": [
-            "dfdfdf 1",
-            "dfdfdf 2"
-        ]
-    },
-    {
-        "normalized": "shootemup",
-        "count": 6,
-        "examples": [
-            "shootemup"
-        ]
-    },
-    {
-        "normalized": "bnchgc",
-        "count": 6,
-        "examples": [
-            "bnchgc"
-        ]
-    },
-    {
-        "normalized": "qw",
-        "count": 6,
-        "examples": [
-            "qw"
-        ]
-    },
-    {
-        "normalized": "fadfsd",
-        "count": 6,
-        "examples": [
-            "fadfsd"
-        ]
-    },
-    {
-        "normalized": "yatusabe",
-        "count": 6,
-        "examples": [
-            "yatusabe"
-        ]
-    },
-    {
-        "normalized": "msapss",
-        "count": 6,
-        "examples": [
-            "msapss"
-        ]
-    },
-    {
-        "normalized": "rerere",
-        "count": 6,
-        "examples": [
-            "rerere"
-        ]
-    },
-    {
-        "normalized": "questing #",
-        "count": 6,
-        "examples": [
-            "questing 19",
-            "questing 20",
-            "questing 21"
-        ]
-    },
-    {
-        "normalized": "hhgfhg",
-        "count": 6,
-        "examples": [
-            "hhgfhg"
-        ]
-    },
-    {
-        "normalized": "hgj",
-        "count": 6,
-        "examples": [
-            "hgj"
-        ]
-    },
-    {
-=======
->>>>>>> fe6c650f (purge old data)
         "normalized": "sdsd",
         "count": 6,
         "examples": [
@@ -1557,6 +839,13 @@
         ]
     },
     {
+        "normalized": "q",
+        "count": 6,
+        "examples": [
+            "q"
+        ]
+    },
+    {
         "normalized": "zuig",
         "count": 6,
         "examples": [
@@ -1571,7 +860,6 @@
         ]
     },
     {
-<<<<<<< HEAD
         "normalized": "rthsarth",
         "count": 6,
         "examples": [
@@ -1679,550 +967,6 @@
         ]
     },
     {
-        "normalized": "what u need",
-        "count": 4,
-        "examples": [
-            "what u need"
-        ]
-    },
-    {
-        "normalized": "razz",
-        "count": 4,
-        "examples": [
-            "razz"
-        ]
-    },
-    {
-        "normalized": "saasa",
-        "count": 4,
-        "examples": [
-            "saasa"
-        ]
-    },
-    {
-        "normalized": "ert",
-        "count": 4,
-        "examples": [
-            "ert"
-        ]
-    },
-    {
-        "normalized": "ttvhdgggbjhhg",
-        "count": 4,
-        "examples": [
-            "ttvhdgggbjhhg"
-        ]
-    },
-    {
-        "normalized": "eee",
-        "count": 4,
-        "examples": [
-            "eee"
-        ]
-    },
-    {
-        "normalized": "erherh",
-        "count": 4,
-        "examples": [
-            "erherh"
-        ]
-    },
-    {
-        "normalized": "cicuta",
-        "count": 4,
-        "examples": [
-            "cicuta"
-        ]
-    },
-    {
-        "normalized": "d",
-        "count": 4,
-        "examples": [
-            "d"
-        ]
-    },
-    {
-        "normalized": "sstd",
-        "count": 4,
-        "examples": [
-            "sstd"
-        ]
-    },
-    {
-        "normalized": "mkkl",
-        "count": 4,
-        "examples": [
-            "mkkl"
-        ]
-    },
-    {
-        "normalized": "xou",
-        "count": 4,
-        "examples": [
-            "xou"
-        ]
-    },
-    {
-        "normalized": "adfadfa",
-        "count": 4,
-        "examples": [
-            "adfadfa"
-        ]
-    },
-    {
-        "normalized": "c",
-        "count": 4,
-        "examples": [
-            "c"
-        ]
-    },
-    {
-        "normalized": "polska #",
-        "count": 4,
-        "examples": [
-            "polska 1"
-        ]
-    },
-    {
-        "normalized": "fvdfdg",
-        "count": 4,
-        "examples": [
-            "fvdfdg"
-        ]
-    },
-    {
-        "normalized": "dfgfg",
-        "count": 4,
-        "examples": [
-            "dfgfg"
-        ]
-    },
-    {
-        "normalized": "vvfvhj",
-        "count": 4,
-        "examples": [
-            "vvfvhj"
-        ]
-    },
-    {
-        "normalized": "mmmh",
-        "count": 4,
-        "examples": [
-            "mmmh"
-        ]
-    },
-    {
-        "normalized": "mmg",
-        "count": 4,
-        "examples": [
-            "mmg"
-        ]
-    },
-    {
-        "normalized": "pi",
-        "count": 4,
-        "examples": [
-            "pi"
-        ]
-    },
-    {
-        "normalized": "mlhk",
-        "count": 4,
-        "examples": [
-            "mlhk"
-        ]
-    },
-    {
-        "normalized": "tghgfd",
-        "count": 4,
-        "examples": [
-            "tghgfd"
-        ]
-    },
-    {
-        "normalized": "ads",
-        "count": 4,
-        "examples": [
-            "ads"
-        ]
-    },
-    {
-        "normalized": "dss",
-        "count": 4,
-        "examples": [
-            "dss"
-        ]
-    },
-    {
-        "normalized": "dszgd",
-        "count": 4,
-        "examples": [
-            "dszgd"
-        ]
-    },
-    {
-        "normalized": "reset dead mod",
-        "count": 4,
-        "examples": [
-            "reset dead mod"
-        ]
-    },
-    {
-        "normalized": "efgdfv",
-        "count": 4,
-        "examples": [
-            "efgdfv"
-        ]
-    },
-    {
-        "normalized": "zon # barb torc",
-        "count": 4,
-        "examples": [
-            "zon 4 barb torc"
-        ]
-    },
-    {
-        "normalized": "gs #",
-        "count": 4,
-        "examples": [
-            "gs 11",
-            "gs 5"
-        ]
-    },
-    {
-        "normalized": "be wellcome",
-        "count": 4,
-        "examples": [
-            "be wellcome"
-        ]
-    },
-    {
-        "normalized": "gcbh",
-        "count": 4,
-        "examples": [
-            "gcbh"
-        ]
-    },
-    {
-        "normalized": "ns",
-        "count": 4,
-        "examples": [
-            "ns"
-        ]
-    },
-    {
-        "normalized": "frfrf",
-        "count": 4,
-        "examples": [
-            "frfrf"
-        ]
-    },
-    {
-        "normalized": "duri",
-        "count": 4,
-        "examples": [
-            "duri"
-        ]
-    },
-    {
-        "normalized": "allbewellcome",
-        "count": 4,
-        "examples": [
-            "allbewellcome"
-        ]
-    },
-    {
-        "normalized": "qtqtq",
-        "count": 4,
-        "examples": [
-            "qtqtq"
-        ]
-    },
-    {
-        "normalized": "waypointsplease",
-        "count": 4,
-        "examples": [
-            "waypointsplease"
-        ]
-    },
-    {
-        "normalized": "iuyer",
-        "count": 4,
-        "examples": [
-            "iuyer"
-        ]
-    },
-    {
-        "normalized": "soulfire works",
-        "count": 4,
-        "examples": [
-            "soulfire works"
-        ]
-    },
-    {
-        "normalized": "newbq",
-        "count": 4,
-        "examples": [
-            "newbq"
-        ]
-    },
-    {
-        "normalized": "soulfry",
-        "count": 4,
-        "examples": [
-            "soulfry"
-        ]
-    },
-    {
-        "normalized": "free jwl freedm",
-        "count": 4,
-        "examples": [
-            "free jwl freedm"
-        ]
-    },
-    {
-        "normalized": "rrt",
-        "count": 4,
-        "examples": [
-            "rrt"
-        ]
-    },
-    {
-        "normalized": "desert dessert",
-        "count": 4,
-        "examples": [
-            "desert dessert"
-        ]
-    },
-    {
-        "normalized": "nmo",
-        "count": 4,
-        "examples": [
-            "nmo"
-        ]
-    },
-    {
-        "normalized": "qwerr",
-        "count": 4,
-        "examples": [
-            "qwerr"
-        ]
-    },
-    {
-        "normalized": "o sur #",
-        "count": 4,
-        "examples": [
-            "o sur 1"
-        ]
-    },
-    {
-        "normalized": "a eu",
-        "count": 4,
-        "examples": [
-            "a eu"
-        ]
-    },
-    {
-        "normalized": "nightmare",
-        "count": 4,
-        "examples": [
-            "nightmare"
-        ]
-    },
-    {
-        "normalized": "newbbb",
-        "count": 4,
-        "examples": [
-            "newbbb"
-        ]
-    },
-    {
-        "normalized": "ffff",
-        "count": 4,
-        "examples": [
-            "ffff"
-        ]
-    },
-    {
-        "normalized": "refrf",
-        "count": 4,
-        "examples": [
-            "refrf"
-        ]
-    },
-    {
-        "normalized": "ddfdfd",
-        "count": 4,
-        "examples": [
-            "ddfdfd"
-        ]
-    },
-    {
-        "normalized": "adf",
-        "count": 4,
-        "examples": [
-            "adf"
-        ]
-    },
-    {
-        "normalized": "gagagadg",
-        "count": 4,
-        "examples": [
-            "gagagadg"
-        ]
-    },
-    {
-        "normalized": "yup",
-        "count": 4,
-        "examples": [
-            "yup"
-        ]
-    },
-    {
-        "normalized": "yarusabe",
-        "count": 4,
-        "examples": [
-            "yarusabe"
-        ]
-    },
-    {
-        "normalized": "nayone home?",
-        "count": 4,
-        "examples": [
-            "nayone home?"
-        ]
-    },
-    {
-        "normalized": "fdfsdf",
-        "count": 4,
-        "examples": [
-            "fdfsdf"
-        ]
-    },
-    {
-        "normalized": "cc",
-        "count": 4,
-        "examples": [
-            "cc"
-        ]
-    },
-    {
-        "normalized": "dsdsd",
-        "count": 4,
-        "examples": [
-            "dsdsd"
-        ]
-    },
-    {
-        "normalized": "dsdsdsds #",
-        "count": 4,
-        "examples": [
-            "dsdsdsds 1"
-        ]
-    },
-    {
-        "normalized": "quests nm",
-        "count": 4,
-        "examples": [
-            "quests nm"
-        ]
-    },
-    {
-        "normalized": "jjj",
-        "count": 4,
-        "examples": [
-            "jjj"
-        ]
-    },
-    {
-        "normalized": "test #",
-        "count": 4,
-        "examples": [
-            "test 25",
-            "test 27"
-        ]
-    },
-    {
-        "normalized": "fdsafda",
-        "count": 4,
-        "examples": [
-            "fdsafda"
-        ]
-    },
-    {
-        "normalized": "questsss",
-        "count": 4,
-        "examples": [
-            "questsss"
-        ]
-    },
-    {
-        "normalized": "xxzcz",
-        "count": 4,
-        "examples": [
-            "xxzcz"
-        ]
-    },
-    {
-        "normalized": "fresh reroll yo",
-        "count": 4,
-        "examples": [
-            "fresh reroll yo"
-        ]
-    },
-    {
-        "normalized": "ghfjg",
-        "count": 4,
-        "examples": [
-            "ghfjg"
-        ]
-    },
-    {
-        "normalized": "hfg",
-        "count": 4,
-        "examples": [
-            "hfg"
-        ]
-    },
-    {
-        "normalized": "trapper jim",
-        "count": 4,
-        "examples": [
-            "trapper jim"
-        ]
-    },
-    {
-        "normalized": "skillissues",
-        "count": 4,
-        "examples": [
-            "skillissues"
-        ]
-    },
-    {
-        "normalized": "yonder",
-        "count": 4,
-        "examples": [
-            "yonder"
-        ]
-    },
-    {
-        "normalized": "fdfd #",
-        "count": 4,
-        "examples": [
-            "fdfd 1",
-            "fdfd 3"
-        ]
-    },
-    {
-        "normalized": "a wps plz",
-        "count": 4,
-        "examples": [
-            "a wps plz"
-        ]
-    },
-    {
-=======
->>>>>>> fe6c650f (purge old data)
         "normalized": "nm #",
         "count": 4,
         "examples": [
@@ -2256,13 +1000,6 @@
         "count": 4,
         "examples": [
             "test"
-        ]
-    },
-    {
-        "normalized": "eq",
-        "count": 4,
-        "examples": [
-            "eq"
         ]
     },
     {
@@ -2589,13 +1326,6 @@
         ]
     },
     {
-        "normalized": "q",
-        "count": 4,
-        "examples": [
-            "q"
-        ]
-    },
-    {
         "normalized": "yhtbngvrfec",
         "count": 4,
         "examples": [
@@ -2715,7 +1445,6 @@
         ]
     },
     {
-<<<<<<< HEAD
         "normalized": "#f",
         "count": 4,
         "examples": [
@@ -2863,10 +1592,7 @@
         ]
     },
     {
-        "normalized": "werqwe",
-=======
         "normalized": "a wps plz",
->>>>>>> fe6c650f (purge old data)
         "count": 2,
         "examples": [
             "a wps plz"
@@ -3160,15 +1886,6 @@
         ]
     },
     {
-<<<<<<< HEAD
-=======
-        "normalized": "lol",
-        "count": 2,
-        "examples": [
-            "lol"
-        ]
-    },
-    {
         "normalized": "ffff",
         "count": 2,
         "examples": [
@@ -3176,7 +1893,6 @@
         ]
     },
     {
->>>>>>> fe6c650f (purge old data)
         "normalized": "fsdfsdf",
         "count": 2,
         "examples": [
@@ -4675,6 +3391,13 @@
         ]
     },
     {
+        "normalized": "kk",
+        "count": 2,
+        "examples": [
+            "kk"
+        ]
+    },
+    {
         "normalized": "help pls any gr",
         "count": 2,
         "examples": [
@@ -4745,10 +3468,24 @@
         ]
     },
     {
+        "normalized": "qq",
+        "count": 2,
+        "examples": [
+            "qq"
+        ]
+    },
+    {
         "normalized": "nec rise",
         "count": 2,
         "examples": [
             "nec rise"
+        ]
+    },
+    {
+        "normalized": "dsa",
+        "count": 2,
+        "examples": [
+            "dsa"
         ]
     },
     {
@@ -5102,6 +3839,13 @@
         ]
     },
     {
+        "normalized": "new",
+        "count": 2,
+        "examples": [
+            "new"
+        ]
+    },
+    {
         "normalized": "news",
         "count": 2,
         "examples": [
@@ -5130,10 +3874,31 @@
         ]
     },
     {
+        "normalized": "f",
+        "count": 2,
+        "examples": [
+            "f"
+        ]
+    },
+    {
         "normalized": "vqwe",
         "count": 2,
         "examples": [
             "vqwe"
+        ]
+    },
+    {
+        "normalized": "gt",
+        "count": 2,
+        "examples": [
+            "gt"
+        ]
+    },
+    {
+        "normalized": "v",
+        "count": 2,
+        "examples": [
+            "v"
         ]
     },
     {
