@@ -133,8 +133,9 @@
     },
     {
         "normalized": "nec grow #",
-        "count": 58,
+        "count": 60,
         "examples": [
+            "nec grow 1",
             "nec grow 2",
             "nec grow 3",
             "nec grow 4",
@@ -2734,6 +2735,13 @@
         "count": 4,
         "examples": [
             "why not"
+        ]
+    },
+    {
+        "normalized": "#aqdsa",
+        "count": 4,
+        "examples": [
+            "1313aqdsa"
         ]
     },
     {
@@ -6619,13 +6627,6 @@
         "count": 2,
         "examples": [
             "need token 2"
-        ]
-    },
-    {
-        "normalized": "#aqdsa",
-        "count": 2,
-        "examples": [
-            "1313aqdsa"
         ]
     }
 ]
