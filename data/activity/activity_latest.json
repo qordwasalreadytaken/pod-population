@@ -1,83 +1,52 @@
 {
-    "timestamp": "2026-08-22T08:55:00+00:00",
+    "timestamp": "2026-08-22T09:06:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 1,
-        "1": 1
+        "1": 2
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 1
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 1,
-        "1|0": 1,
-        "0|0": 2
+        "1|1": 1,
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "qe",
+            "name": "eq",
             "count": 1
         },
         {
-            "name": "cucumber",
-            "count": 1
-        },
-        {
-            "name": "nec grow 2",
-            "count": 1
-        },
-        {
-            "name": "2",
-            "count": 1
-        },
-        {
-            "name": "1",
+            "name": "nec grow 3",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "#",
-            "count": 4,
-            "examples": [
-                "1",
-                "2"
-            ]
-        },
-        {
-            "normalized": "qe",
+            "normalized": "eq",
             "count": 2,
             "examples": [
-                "qe"
-            ]
-        },
-        {
-            "normalized": "cucumber",
-            "count": 2,
-            "examples": [
-                "cucumber"
+                "eq"
             ]
         },
         {
             "normalized": "nec grow #",
             "count": 2,
             "examples": [
-                "nec grow 2"
+                "nec grow 3"
             ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 4.4
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 6.0
     }
 }
