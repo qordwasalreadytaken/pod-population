@@ -1,18 +1,20 @@
 {
-    "timestamp": "2026-08-22T22:02:00+00:00",
+    "timestamp": "2026-08-22T22:22:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 3,
+        "0": 1
     },
     "mode": {
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 3
+        "2|0": 3,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -25,15 +27,19 @@
     ],
     "top_games": [
         {
-            "name": "sure thing",
-            "count": 1
-        },
-        {
             "name": "asd",
             "count": 1
         },
         {
+            "name": "sure thing",
+            "count": 1
+        },
+        {
             "name": "n anni",
+            "count": 1
+        },
+        {
+            "name": "why not",
             "count": 1
         }
     ],
@@ -43,6 +49,13 @@
             "count": 2,
             "examples": [
                 "sure thing"
+            ]
+        },
+        {
+            "normalized": "why not",
+            "count": 2,
+            "examples": [
+                "why not"
             ]
         }
     ],
@@ -63,8 +76,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.33
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 6.5
     }
 }
