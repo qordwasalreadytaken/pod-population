@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 436,
+        "count": 438,
         "examples": [
             "1",
             "11",
@@ -38,7 +38,7 @@
     },
     {
         "normalized": "nec grow #",
-        "count": 104,
+        "count": 106,
         "examples": [
             "nec grow 1",
             "nec grow 2",
@@ -47,6 +47,7 @@
             "nec grow 5",
             "nec grow 6",
             "nec grow 7",
+            "nec grow 8",
             "nec grow 9"
         ]
     },
@@ -373,6 +374,13 @@
         ]
     },
     {
+        "normalized": "y",
+        "count": 14,
+        "examples": [
+            "y"
+        ]
+    },
+    {
         "normalized": "h",
         "count": 12,
         "examples": [
@@ -420,13 +428,6 @@
         "count": 12,
         "examples": [
             "tal eth"
-        ]
-    },
-    {
-        "normalized": "y",
-        "count": 12,
-        "examples": [
-            "y"
         ]
     },
     {
