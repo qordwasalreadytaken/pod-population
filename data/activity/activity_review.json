@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 446,
+        "count": 448,
         "examples": [
             "1",
             "11",
@@ -31,16 +31,17 @@
     },
     {
         "normalized": "t",
-        "count": 266,
+        "count": 268,
         "examples": [
             "t"
         ]
     },
     {
         "normalized": "nec grow #",
-        "count": 110,
+        "count": 112,
         "examples": [
             "nec grow 1",
+            "nec grow 10",
             "nec grow 2",
             "nec grow 3",
             "nec grow 4",
@@ -53,7 +54,7 @@
     },
     {
         "normalized": "qe",
-        "count": 86,
+        "count": 88,
         "examples": [
             "qe"
         ]
@@ -381,6 +382,13 @@
         ]
     },
     {
+        "normalized": "#aqdsa",
+        "count": 14,
+        "examples": [
+            "1313aqdsa"
+        ]
+    },
+    {
         "normalized": "h",
         "count": 12,
         "examples": [
@@ -428,13 +436,6 @@
         "count": 12,
         "examples": [
             "tal eth"
-        ]
-    },
-    {
-        "normalized": "#aqdsa",
-        "count": 12,
-        "examples": [
-            "1313aqdsa"
         ]
     },
     {
