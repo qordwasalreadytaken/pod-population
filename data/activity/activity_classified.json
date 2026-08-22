@@ -211,7 +211,7 @@
         },
         {
             "name": "n druid torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 20
         },
         {
@@ -235,6 +235,11 @@
             "count": 11
         },
         {
+            "name": "n griffon 3s",
+            "matched": "n",
+            "count": 10
+        },
+        {
             "name": "need anixtorch",
             "matched": "torch",
             "count": 10
@@ -243,11 +248,6 @@
             "name": "n 3os g face",
             "matched": "n",
             "count": 10
-        },
-        {
-            "name": "n griffon 3s",
-            "matched": "n",
-            "count": 9
         },
         {
             "name": "n 30fcr arach",
@@ -301,7 +301,7 @@
         },
         {
             "name": "n sorc torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -456,62 +456,62 @@
         },
         {
             "name": "n sorc torch 6",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 14",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 13",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 12",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 23",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 22",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 21",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 20",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 38",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 37",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 36",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 35",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -628,7 +628,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "act",
+            "matched": "andar",
             "count": 12
         },
         {
@@ -703,7 +703,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "start",
+            "matched": "act",
             "count": 3
         },
         {
@@ -797,6 +797,11 @@
             "count": 2
         },
         {
+            "name": "tomb",
+            "matched": "tomb",
+            "count": 2
+        },
+        {
             "name": "help normal",
             "matched": "norm",
             "count": 1
@@ -883,7 +888,7 @@
         },
         {
             "name": "act start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -919,11 +924,6 @@
         {
             "name": "act 11",
             "matched": "act",
-            "count": 1
-        },
-        {
-            "name": "tomb",
-            "matched": "tomb",
             "count": 1
         }
     ],

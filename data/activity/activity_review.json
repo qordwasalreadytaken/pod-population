@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 440,
+        "count": 442,
         "examples": [
             "1",
             "11",
@@ -38,7 +38,7 @@
     },
     {
         "normalized": "nec grow #",
-        "count": 108,
+        "count": 110,
         "examples": [
             "nec grow 1",
             "nec grow 2",
@@ -136,17 +136,17 @@
         ]
     },
     {
+        "normalized": "eq",
+        "count": 42,
+        "examples": [
+            "eq"
+        ]
+    },
+    {
         "normalized": "adsdsd",
         "count": 42,
         "examples": [
             "adsdsd"
-        ]
-    },
-    {
-        "normalized": "eq",
-        "count": 40,
-        "examples": [
-            "eq"
         ]
     },
     {
@@ -283,6 +283,13 @@
         ]
     },
     {
+        "normalized": "y",
+        "count": 18,
+        "examples": [
+            "y"
+        ]
+    },
+    {
         "normalized": "mana",
         "count": 16,
         "examples": [
@@ -329,13 +336,6 @@
         "count": 16,
         "examples": [
             "lorna"
-        ]
-    },
-    {
-        "normalized": "y",
-        "count": 16,
-        "examples": [
-            "y"
         ]
     },
     {
