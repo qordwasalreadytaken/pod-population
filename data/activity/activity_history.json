@@ -6290,7 +6290,7 @@
             "Cows": [
                 {
                     "name": "letsseewhomcows",
-                    "matched": "cow",
+                    "matched": "cows",
                     "count": 1
                 }
             ],
@@ -6357,7 +6357,7 @@
             "Cows": [
                 {
                     "name": "letsseewhomcows",
-                    "matched": "cow",
+                    "matched": "cows",
                     "count": 1
                 }
             ],
@@ -6418,7 +6418,7 @@
             "Cows": [
                 {
                     "name": "letsseewhomcows",
-                    "matched": "cow",
+                    "matched": "cows",
                     "count": 1
                 }
             ],
@@ -8950,7 +8950,7 @@
             "Cows": [
                 {
                     "name": "hell cows",
-                    "matched": "cow",
+                    "matched": "cows",
                     "count": 1
                 }
             ]
@@ -8995,7 +8995,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 },
                 {
@@ -12824,7 +12824,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 }
             ]
@@ -17824,7 +17824,7 @@
             "Leveling": [
                 {
                     "name": "normal tombin",
-                    "matched": "norm",
+                    "matched": "tomb",
                     "count": 1
                 },
                 {
@@ -20087,7 +20087,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -20187,7 +20187,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -30789,7 +30789,7 @@
             "Cows": [
                 {
                     "name": "cows 2",
-                    "matched": "cow",
+                    "matched": "cows",
                     "count": 1
                 }
             ]
@@ -30872,7 +30872,7 @@
             "Cows": [
                 {
                     "name": "cows 4",
-                    "matched": "cow",
+                    "matched": "cows",
                     "count": 1
                 }
             ]
@@ -30963,7 +30963,7 @@
             "Cows": [
                 {
                     "name": "cows 5",
-                    "matched": "cow",
+                    "matched": "cows",
                     "count": 1
                 }
             ],
@@ -33947,7 +33947,7 @@
             "Uber": [
                 {
                     "name": "ubers",
-                    "matched": "uber",
+                    "matched": "ubers",
                     "count": 1
                 }
             ],
@@ -44176,7 +44176,7 @@
             "Cows": [
                 {
                     "name": "cows",
-                    "matched": "cow",
+                    "matched": "cows",
                     "count": 1
                 }
             ]
@@ -63618,7 +63618,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "14123awdasdfqwr",
-                    "matched": "asd",
+                    "matched": "123",
                     "count": 1
                 },
                 {
@@ -89302,6 +89302,71 @@
     },
     {
         "timestamp": "2026-08-22T11:21:00+00:00",
+        "difficulty": {
+            "1": 2,
+            "2": 1
+        },
+        "mode": {
+            "1": 1,
+            "0": 2
+        },
+        "difficulty_mode": {
+            "1|1": 1,
+            "2|0": 1,
+            "1|0": 1
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 3
+            }
+        ],
+        "top_games": [
+            {
+                "name": "qe",
+                "count": 1
+            },
+            {
+                "name": "t",
+                "count": 1
+            },
+            {
+                "name": "nec grow 5",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "qe",
+                "count": 2,
+                "examples": [
+                    "qe"
+                ]
+            },
+            {
+                "normalized": "t",
+                "count": 2,
+                "examples": [
+                    "t"
+                ]
+            },
+            {
+                "normalized": "nec grow #",
+                "count": 2,
+                "examples": [
+                    "nec grow 5"
+                ]
+            }
+        ],
+        "classified_games": {},
+        "interesting": {
+            "unique_names": 3,
+            "public_games": 3,
+            "average_name_length": 4.33
+        }
+    },
+    {
+        "timestamp": "2026-08-22T11:36:00+00:00",
         "difficulty": {
             "1": 2,
             "2": 1
