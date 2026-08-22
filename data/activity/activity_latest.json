@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-21T23:50:00+00:00",
+    "timestamp": "2026-08-22T00:07:00+00:00",
     "difficulty": {
         "2": 1
     },
@@ -17,16 +17,16 @@
     ],
     "top_games": [
         {
-            "name": "yep",
+            "name": "sure thing",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "yep",
+            "normalized": "sure thing",
             "count": 2,
             "examples": [
-                "yep"
+                "sure thing"
             ]
         }
     ],
@@ -34,6 +34,6 @@
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 3.0
+        "average_name_length": 10.0
     }
 }
