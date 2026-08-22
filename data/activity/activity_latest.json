@@ -1,24 +1,24 @@
 {
-    "timestamp": "2026-08-22T19:36:00+00:00",
+    "timestamp": "2026-08-22T19:49:00+00:00",
     "difficulty": {
-        "2": 7
+        "2": 5
     },
     "mode": {
-        "1": 1,
-        "0": 6
+        "1": 2,
+        "0": 3
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 6
+        "2|1": 2,
+        "2|0": 3
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 5
+            "name": "Maps",
+            "count": 2
         },
         {
-            "name": "Maps",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -27,11 +27,11 @@
     ],
     "top_games": [
         {
-            "name": "a",
-            "count": 4
+            "name": "t slow mappin",
+            "count": 2
         },
         {
-            "name": "t slow mappin",
+            "name": "a",
             "count": 1
         },
         {
@@ -46,7 +46,7 @@
     "unknown_games": [
         {
             "normalized": "a",
-            "count": 8,
+            "count": 2,
             "examples": [
                 "a"
             ]
@@ -64,7 +64,7 @@
             {
                 "name": "t slow mappin",
                 "matched": "map",
-                "count": 1
+                "count": 2
             }
         ],
         "Misc. Public MF Runs": [
@@ -77,7 +77,7 @@
     },
     "interesting": {
         "unique_names": 4,
-        "public_games": 7,
+        "public_games": 5,
         "average_name_length": 7.0
     }
 }
