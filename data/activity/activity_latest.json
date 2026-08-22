@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-22T20:51:00+00:00",
+    "timestamp": "2026-08-22T21:04:00+00:00",
     "difficulty": {
         "2": 3
     },
@@ -11,18 +11,22 @@
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 2
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "a",
+            "count": 1
+        },
+        {
             "name": "n eld runes",
-            "count": 2
+            "count": 1
         },
         {
             "name": "sure thing",
@@ -30,6 +34,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "a",
+            "count": 2,
+            "examples": [
+                "a"
+            ]
+        },
         {
             "normalized": "sure thing",
             "count": 2,
@@ -43,13 +54,13 @@
             {
                 "name": "n eld runes",
                 "matched": "run",
-                "count": 2
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
+        "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 10.5
+        "average_name_length": 7.33
     }
 }
