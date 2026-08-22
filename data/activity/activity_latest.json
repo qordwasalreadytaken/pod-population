@@ -1,44 +1,36 @@
 {
-    "timestamp": "2026-08-22T02:02:00+00:00",
+    "timestamp": "2026-08-22T02:36:00+00:00",
     "difficulty": {
-        "1": 2,
-        "2": 1
+        "2": 2
     },
     "mode": {
-        "1": 1,
         "0": 2
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "2|0": 1,
-        "1|0": 1
+        "2|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "qe",
+            "name": "sure thing",
             "count": 1
         },
         {
             "name": "cucumber",
             "count": 1
-        },
-        {
-            "name": "nec grow 2",
-            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "qe",
+            "normalized": "sure thing",
             "count": 2,
             "examples": [
-                "qe"
+                "sure thing"
             ]
         },
         {
@@ -47,19 +39,12 @@
             "examples": [
                 "cucumber"
             ]
-        },
-        {
-            "normalized": "nec grow #",
-            "count": 2,
-            "examples": [
-                "nec grow 2"
-            ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.67
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 9.0
     }
 }
