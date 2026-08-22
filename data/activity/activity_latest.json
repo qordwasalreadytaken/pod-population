@@ -1,41 +1,35 @@
 {
-    "timestamp": "2026-08-22T16:03:00+00:00",
+    "timestamp": "2026-08-22T16:22:00+00:00",
     "difficulty": {
-        "1": 3,
         "2": 2,
-        "0": 3
+        "1": 1,
+        "0": 2
     },
     "mode": {
-        "1": 1,
-        "0": 7
+        "0": 5
     },
     "difficulty_mode": {
-        "1|1": 1,
         "2|0": 2,
-        "1|0": 2,
-        "0|0": 3
+        "1|0": 1,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
-        },
-        {
-            "name": "Trade",
-            "count": 1
+            "count": 3
         },
         {
             "name": "Maps",
             "count": 1
         },
         {
-            "name": "Leveling",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "qe",
+            "name": "pub map 2",
             "count": 1
         },
         {
@@ -43,15 +37,7 @@
             "count": 1
         },
         {
-            "name": "pub map 1",
-            "count": 1
-        },
-        {
             "name": "1313aqdsa",
-            "count": 1
-        },
-        {
-            "name": "nec grow 10",
             "count": 1
         },
         {
@@ -61,32 +47,14 @@
         {
             "name": "3232",
             "count": 1
-        },
-        {
-            "name": "tomb",
-            "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "qe",
-            "count": 2,
-            "examples": [
-                "qe"
-            ]
-        },
         {
             "normalized": "#aqdsa",
             "count": 2,
             "examples": [
                 "1313aqdsa"
-            ]
-        },
-        {
-            "normalized": "nec grow #",
-            "count": 2,
-            "examples": [
-                "nec grow 10"
             ]
         },
         {
@@ -105,31 +73,24 @@
         }
     ],
     "classified_games": {
+        "Maps": [
+            {
+                "name": "pub map 2",
+                "matched": "map",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n griffon 3s",
                 "matched": "n",
                 "count": 1
             }
-        ],
-        "Maps": [
-            {
-                "name": "pub map 1",
-                "matched": "map",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "tomb",
-                "matched": "tomb",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 8,
-        "average_name_length": 6.5
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 7.0
     }
 }
