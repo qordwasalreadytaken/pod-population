@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 434,
+        "count": 436,
         "examples": [
             "1",
             "11",
@@ -38,7 +38,7 @@
     },
     {
         "normalized": "nec grow #",
-        "count": 102,
+        "count": 104,
         "examples": [
             "nec grow 1",
             "nec grow 2",
@@ -423,6 +423,13 @@
         ]
     },
     {
+        "normalized": "y",
+        "count": 12,
+        "examples": [
+            "y"
+        ]
+    },
+    {
         "normalized": "a#h",
         "count": 10,
         "examples": [
@@ -535,13 +542,6 @@
         "count": 10,
         "examples": [
             "1313aqdsa"
-        ]
-    },
-    {
-        "normalized": "y",
-        "count": 10,
-        "examples": [
-            "y"
         ]
     },
     {
