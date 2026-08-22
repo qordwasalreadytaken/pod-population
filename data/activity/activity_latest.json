@@ -1,17 +1,15 @@
 {
-    "timestamp": "2026-08-22T15:36:00+00:00",
+    "timestamp": "2026-08-22T15:50:00+00:00",
     "difficulty": {
         "0": 4,
-        "2": 1,
         "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 1,
         "1|0": 1,
         "0|0": 3
     },
@@ -21,25 +19,21 @@
             "count": 4
         },
         {
-            "name": "Trade",
-            "count": 1
-        },
-        {
             "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "eq",
+            "name": "ww",
             "count": 1
         },
         {
-            "name": "n griffon 3s",
+            "name": "1313aqdsa",
             "count": 1
         },
         {
-            "name": "nec grow 9",
+            "name": "41341",
             "count": 1
         },
         {
@@ -47,52 +41,35 @@
             "count": 1
         },
         {
-            "name": "y",
-            "count": 1
-        },
-        {
-            "name": "3232",
+            "name": "4242",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "eq",
-            "count": 2,
-            "examples": [
-                "eq"
-            ]
-        },
-        {
-            "normalized": "nec grow #",
-            "count": 2,
-            "examples": [
-                "nec grow 9"
-            ]
-        },
-        {
-            "normalized": "y",
-            "count": 2,
-            "examples": [
-                "y"
-            ]
-        },
-        {
             "normalized": "#",
+            "count": 4,
+            "examples": [
+                "41341",
+                "4242"
+            ]
+        },
+        {
+            "normalized": "ww",
             "count": 2,
             "examples": [
-                "3232"
+                "ww"
+            ]
+        },
+        {
+            "normalized": "#aqdsa",
+            "count": 2,
+            "examples": [
+                "1313aqdsa"
             ]
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n griffon 3s",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Leveling": [
             {
                 "name": "tomb",
@@ -102,8 +79,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 5.5
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 4.8
     }
 }
