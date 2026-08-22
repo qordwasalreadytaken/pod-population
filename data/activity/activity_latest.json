@@ -1,33 +1,29 @@
 {
-    "timestamp": "2026-08-22T16:38:00+00:00",
+    "timestamp": "2026-08-22T16:51:00+00:00",
     "difficulty": {
         "2": 1,
-        "0": 1
+        "1": 1
     },
     "mode": {
         "0": 2
     },
     "difficulty_mode": {
         "2|0": 1,
-        "0|0": 1
+        "1|0": 1
     },
     "activities": [
         {
-            "name": "Maps",
-            "count": 1
-        },
-        {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "pub map 2",
+            "name": "t",
             "count": 1
         },
         {
-            "name": "t",
+            "name": "1313aqdsa",
             "count": 1
         }
     ],
@@ -38,17 +34,16 @@
             "examples": [
                 "t"
             ]
+        },
+        {
+            "normalized": "#aqdsa",
+            "count": 2,
+            "examples": [
+                "1313aqdsa"
+            ]
         }
     ],
-    "classified_games": {
-        "Maps": [
-            {
-                "name": "pub map 2",
-                "matched": "map",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
