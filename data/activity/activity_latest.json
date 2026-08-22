@@ -1,29 +1,23 @@
 {
-    "timestamp": "2026-08-22T16:22:00+00:00",
+    "timestamp": "2026-08-22T16:38:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1,
-        "0": 2
+        "2": 1,
+        "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 1,
-        "0|0": 2
+        "2|0": 1,
+        "0|0": 1
     },
     "activities": [
-        {
-            "name": "Other",
-            "count": 3
-        },
         {
             "name": "Maps",
             "count": 1
         },
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 1
         }
     ],
@@ -33,42 +27,16 @@
             "count": 1
         },
         {
-            "name": "n griffon 3s",
-            "count": 1
-        },
-        {
-            "name": "1313aqdsa",
-            "count": 1
-        },
-        {
             "name": "t",
-            "count": 1
-        },
-        {
-            "name": "3232",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "#aqdsa",
-            "count": 2,
-            "examples": [
-                "1313aqdsa"
-            ]
-        },
-        {
             "normalized": "t",
             "count": 2,
             "examples": [
                 "t"
-            ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "3232"
             ]
         }
     ],
@@ -79,18 +47,11 @@
                 "matched": "map",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "n griffon 3s",
-                "matched": "n",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 7.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 5.0
     }
 }
