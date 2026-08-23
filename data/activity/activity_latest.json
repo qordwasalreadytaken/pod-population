@@ -1,41 +1,37 @@
 {
-    "timestamp": "2026-08-23T20:51:00+00:00",
+    "timestamp": "2026-08-23T21:04:00+00:00",
     "difficulty": {
         "0": 2,
-        "2": 3,
+        "2": 1,
         "1": 2
     },
     "mode": {
         "1": 1,
-        "0": 6
+        "0": 4
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 3,
+        "2|0": 1,
         "1|0": 2,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 4
         },
         {
             "name": "Trade",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "n pierce griff",
-            "count": 2
-        },
         {
             "name": "doogin'3",
             "count": 1
         },
         {
-            "name": "lvv",
+            "name": "n pierce griff",
             "count": 1
         },
         {
@@ -57,13 +53,6 @@
             "count": 2,
             "examples": [
                 "doogin'3"
-            ]
-        },
-        {
-            "normalized": "lvv",
-            "count": 2,
-            "examples": [
-                "lvv"
             ]
         },
         {
@@ -93,13 +82,13 @@
             {
                 "name": "n pierce griff",
                 "matched": "n",
-                "count": 2
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 8.67
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 9.8
     }
 }
