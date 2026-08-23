@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-08-23T16:03:00+00:00",
+    "timestamp": "2026-08-23T16:22:00+00:00",
     "difficulty": {
         "2": 2,
-        "0": 2
+        "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
         "2|0": 2,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Trade",
@@ -23,19 +23,15 @@
     ],
     "top_games": [
         {
-            "name": "nec grow 12",
-            "count": 1
-        },
-        {
             "name": "buy ohm andsur",
             "count": 1
         },
         {
-            "name": "sure",
+            "name": "nec grow 12",
             "count": 1
         },
         {
-            "name": "sinay 5",
+            "name": "sure",
             "count": 1
         }
     ],
@@ -53,13 +49,6 @@
             "examples": [
                 "sure"
             ]
-        },
-        {
-            "normalized": "sinay #",
-            "count": 2,
-            "examples": [
-                "sinay 5"
-            ]
         }
     ],
     "classified_games": {
@@ -72,8 +61,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 9.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 9.67
     }
 }
