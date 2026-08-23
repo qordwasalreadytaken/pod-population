@@ -1,16 +1,16 @@
 {
-    "timestamp": "2026-08-23T05:25:00+00:00",
+    "timestamp": "2026-08-23T05:40:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1,
+        "2": 1,
+        "1": 2,
         "0": 1
     },
     "mode": {
         "0": 4
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 1,
+        "2|0": 1,
+        "1|0": 2,
         "0|0": 1
     },
     "activities": [
@@ -21,11 +21,11 @@
     ],
     "top_games": [
         {
-            "name": "t",
+            "name": "1313aqdsa",
             "count": 2
         },
         {
-            "name": "1313aqdsa",
+            "name": "t",
             "count": 1
         },
         {
@@ -35,17 +35,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "t",
+            "normalized": "#aqdsa",
             "count": 4,
             "examples": [
-                "t"
+                "1313aqdsa"
             ]
         },
         {
-            "normalized": "#aqdsa",
+            "normalized": "t",
             "count": 2,
             "examples": [
-                "1313aqdsa"
+                "t"
             ]
         },
         {
