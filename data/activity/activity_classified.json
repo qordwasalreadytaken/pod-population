@@ -708,7 +708,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 3
         },
         {
@@ -748,7 +748,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -768,7 +768,7 @@
         },
         {
             "name": "ancients norm",
-            "matched": "norm",
+            "matched": "anci",
             "count": 2
         },
         {
@@ -888,7 +888,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -983,7 +983,7 @@
         {
             "name": "n eld runes",
             "matched": "run",
-            "count": 144
+            "count": 145
         },
         {
             "name": "aa",
@@ -1306,6 +1306,11 @@
             "count": 2
         },
         {
+            "name": "13125asdasd",
+            "matched": "asd",
+            "count": 2
+        },
+        {
             "name": "aaaa",
             "matched": "aaa",
             "count": 1
@@ -1572,7 +1577,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "mf",
+            "matched": "run",
             "count": 1
         },
         {
@@ -1703,11 +1708,6 @@
         {
             "name": "123go",
             "matched": "123",
-            "count": 1
-        },
-        {
-            "name": "13125asdasd",
-            "matched": "asd",
             "count": 1
         }
     ],
@@ -2043,7 +2043,7 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
