@@ -1,31 +1,25 @@
 {
-    "timestamp": "2026-08-23T12:23:00+00:00",
+    "timestamp": "2026-08-23T12:44:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 1,
+        "1": 2,
         "0": 1
     },
     "mode": {
         "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 1,
+        "1|0": 2,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Leveling",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "vega 4",
+            "name": "nm",
             "count": 1
         },
         {
@@ -33,38 +27,31 @@
             "count": 1
         },
         {
-            "name": "ancients pls",
+            "name": "nec grow 3",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "vega #",
-            "count": 2,
+            "normalized": "nec grow #",
+            "count": 4,
             "examples": [
-                "vega 4"
+                "nec grow 1",
+                "nec grow 3"
             ]
         },
         {
-            "normalized": "nec grow #",
+            "normalized": "nm",
             "count": 2,
             "examples": [
-                "nec grow 1"
+                "nm"
             ]
         }
     ],
-    "classified_games": {
-        "Leveling": [
-            {
-                "name": "ancients pls",
-                "matched": "anci",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 9.33
+        "average_name_length": 7.33
     }
 }
