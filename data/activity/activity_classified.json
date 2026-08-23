@@ -275,17 +275,17 @@
             "count": 7
         },
         {
+            "name": "n fireskiller",
+            "matched": "n",
+            "count": 7
+        },
+        {
             "name": "n bloodfist",
             "matched": "n",
             "count": 6
         },
         {
             "name": "n ele skillers",
-            "matched": "n",
-            "count": 6
-        },
-        {
-            "name": "n fireskiller",
             "matched": "n",
             "count": 6
         },
@@ -306,7 +306,7 @@
         },
         {
             "name": "n necro torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -360,6 +360,11 @@
             "count": 3
         },
         {
+            "name": "n piercegriffon",
+            "matched": "n",
+            "count": 3
+        },
+        {
             "name": "n aldurs set",
             "matched": "n",
             "count": 2
@@ -406,11 +411,6 @@
         },
         {
             "name": "n anni o zod 2",
-            "matched": "n",
-            "count": 2
-        },
-        {
-            "name": "n piercegriffon",
             "matched": "n",
             "count": 2
         },
@@ -653,7 +653,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "act",
+            "matched": "andar",
             "count": 12
         },
         {
@@ -733,7 +733,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 3
         },
         {
@@ -773,7 +773,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -883,7 +883,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "norm",
+            "matched": "tomb",
             "count": 1
         },
         {
@@ -913,7 +913,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -1068,7 +1068,7 @@
         {
             "name": "13125asdasd",
             "matched": "asd",
-            "count": 10
+            "count": 11
         },
         {
             "name": "adsdasd",
@@ -1612,7 +1612,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -2088,7 +2088,7 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]

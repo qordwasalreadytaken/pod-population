@@ -1,25 +1,25 @@
 {
-    "timestamp": "2026-08-23T18:03:00+00:00",
+    "timestamp": "2026-08-23T18:23:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 8,
         "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 8
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 3,
+        "2|0": 7,
         "1|0": 1
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 2
+            "name": "Other",
+            "count": 6
         },
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 2
         },
         {
@@ -29,11 +29,23 @@
     ],
     "top_games": [
         {
+            "name": "sure",
+            "count": 2
+        },
+        {
             "name": "n fireskiller",
             "count": 1
         },
         {
-            "name": "4",
+            "name": "solo",
+            "count": 1
+        },
+        {
+            "name": "t",
+            "count": 1
+        },
+        {
+            "name": "lvv",
             "count": 1
         },
         {
@@ -45,17 +57,44 @@
             "count": 1
         },
         {
-            "name": "3",
+            "name": "7",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "#",
+            "normalized": "sure",
             "count": 4,
             "examples": [
-                "3",
-                "4"
+                "sure"
+            ]
+        },
+        {
+            "normalized": "solo",
+            "count": 2,
+            "examples": [
+                "solo"
+            ]
+        },
+        {
+            "normalized": "t",
+            "count": 2,
+            "examples": [
+                "t"
+            ]
+        },
+        {
+            "normalized": "lvv",
+            "count": 2,
+            "examples": [
+                "lvv"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "7"
             ]
         }
     ],
@@ -81,8 +120,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 8.2
+        "unique_names": 8,
+        "public_games": 9,
+        "average_name_length": 6.5
     }
 }
