@@ -1,20 +1,22 @@
 {
-    "timestamp": "2026-08-23T16:22:00+00:00",
+    "timestamp": "2026-08-23T16:39:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "2": 4
     },
     "mode": {
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "0|0": 1
+        "2|0": 4
     },
     "activities": [
         {
             "name": "Other",
             "count": 2
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         },
         {
             "name": "Trade",
@@ -23,35 +25,46 @@
     ],
     "top_games": [
         {
+            "name": "13125asdasd",
+            "count": 1
+        },
+        {
+            "name": "a game",
+            "count": 1
+        },
+        {
             "name": "buy ohm andsur",
             "count": 1
         },
         {
             "name": "nec grow 12",
             "count": 1
-        },
-        {
-            "name": "sure",
-            "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "a game",
+            "count": 2,
+            "examples": [
+                "a game"
+            ]
+        },
         {
             "normalized": "nec grow #",
             "count": 2,
             "examples": [
                 "nec grow 12"
             ]
-        },
-        {
-            "normalized": "sure",
-            "count": 2,
-            "examples": [
-                "sure"
-            ]
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "13125asdasd",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "buy ohm andsur",
@@ -61,8 +74,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 9.67
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 10.5
     }
 }
