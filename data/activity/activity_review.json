@@ -38,18 +38,18 @@
     },
     {
         "normalized": "nec grow #",
-        "count": 148,
+        "count": 150,
         "examples": [
             "nec grow 1",
             "nec grow 10",
+            "nec grow 12",
             "nec grow 2",
             "nec grow 3",
             "nec grow 4",
             "nec grow 5",
             "nec grow 6",
             "nec grow 7",
-            "nec grow 8",
-            "nec grow 9"
+            "nec grow 8"
         ]
     },
     {
@@ -765,6 +765,13 @@
         ]
     },
     {
+        "normalized": "sure",
+        "count": 8,
+        "examples": [
+            "sure"
+        ]
+    },
+    {
         "normalized": "sdsd",
         "count": 6,
         "examples": [
@@ -1016,13 +1023,6 @@
         "count": 6,
         "examples": [
             "gdhjdju"
-        ]
-    },
-    {
-        "normalized": "sure",
-        "count": 6,
-        "examples": [
-            "sure"
         ]
     },
     {
@@ -4001,6 +4001,13 @@
         "count": 2,
         "examples": [
             "gge@rto 3"
+        ]
+    },
+    {
+        "normalized": "sinay #",
+        "count": 2,
+        "examples": [
+            "sinay 5"
         ]
     }
 ]
