@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 450,
+        "count": 452,
         "examples": [
             "1",
             "11",
@@ -417,6 +417,14 @@
         ]
     },
     {
+        "normalized": "gs #",
+        "count": 14,
+        "examples": [
+            "gs 1",
+            "gs 2"
+        ]
+    },
+    {
         "normalized": "h",
         "count": 12,
         "examples": [
@@ -435,6 +443,13 @@
         "count": 12,
         "examples": [
             "qwe"
+        ]
+    },
+    {
+        "normalized": "help",
+        "count": 12,
+        "examples": [
+            "help"
         ]
     },
     {
@@ -464,14 +479,6 @@
         "count": 12,
         "examples": [
             "tal eth"
-        ]
-    },
-    {
-        "normalized": "gs #",
-        "count": 12,
-        "examples": [
-            "gs 1",
-            "gs 2"
         ]
     },
     {
@@ -516,13 +523,6 @@
         "count": 10,
         "examples": [
             "sgdf"
-        ]
-    },
-    {
-        "normalized": "help",
-        "count": 10,
-        "examples": [
-            "help"
         ]
     },
     {

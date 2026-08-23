@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-23T10:22:00+00:00",
+    "timestamp": "2026-08-23T10:38:00+00:00",
     "difficulty": {
         "2": 1,
         "0": 3
@@ -17,17 +17,17 @@
             "count": 3
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n eld runes",
+            "name": "n assa torch",
             "count": 1
         },
         {
-            "name": "doom",
+            "name": "4",
             "count": 1
         },
         {
@@ -41,10 +41,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "doom",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "doom"
+                "4"
             ]
         },
         {
@@ -63,10 +63,10 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "n eld runes",
-                "matched": "run",
+                "name": "n assa torch",
+                "matched": "n",
                 "count": 1
             }
         ]
@@ -74,6 +74,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 5.75
+        "average_name_length": 5.25
     }
 }
