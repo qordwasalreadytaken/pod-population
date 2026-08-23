@@ -1,31 +1,26 @@
 {
-    "timestamp": "2026-08-23T10:51:00+00:00",
+    "timestamp": "2026-08-23T11:04:00+00:00",
     "difficulty": {
-        "1": 2,
+        "1": 1,
         "2": 1,
-        "0": 2
+        "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 2
     },
     "difficulty_mode": {
         "1|1": 1,
         "2|0": 1,
-        "1|0": 1,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Baal",
             "count": 1
         }
     ],
@@ -39,15 +34,7 @@
             "count": 1
         },
         {
-            "name": "baal",
-            "count": 1
-        },
-        {
             "name": "4",
-            "count": 1
-        },
-        {
-            "name": "gs 1",
             "count": 1
         }
     ],
@@ -65,13 +52,6 @@
             "examples": [
                 "4"
             ]
-        },
-        {
-            "normalized": "gs #",
-            "count": 2,
-            "examples": [
-                "gs 1"
-            ]
         }
     ],
     "classified_games": {
@@ -81,18 +61,11 @@
                 "matched": "torch",
                 "count": 1
             }
-        ],
-        "Baal": [
-            {
-                "name": "baal",
-                "matched": "baal",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 4.6
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 5.0
     }
 }
