@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-23T06:24:00+00:00",
+    "timestamp": "2026-08-23T06:44:00+00:00",
     "difficulty": {
         "2": 2
     },
@@ -17,27 +17,27 @@
     ],
     "top_games": [
         {
-            "name": "lvv",
+            "name": "t",
             "count": 1
         },
         {
-            "name": "t",
+            "name": "lvv",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "lvv",
-            "count": 2,
-            "examples": [
-                "lvv"
-            ]
-        },
-        {
             "normalized": "t",
             "count": 2,
             "examples": [
                 "t"
+            ]
+        },
+        {
+            "normalized": "lvv",
+            "count": 2,
+            "examples": [
+                "lvv"
             ]
         }
     ],
