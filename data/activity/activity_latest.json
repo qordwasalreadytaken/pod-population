@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-08-23T15:22:00+00:00",
+    "timestamp": "2026-08-23T15:36:00+00:00",
     "difficulty": {
-        "2": 7,
+        "2": 6,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 7
+        "0": 6
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 6,
+        "2|0": 5,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Trade",
-            "count": 5
+            "count": 4
         },
         {
             "name": "Other",
@@ -26,10 +26,14 @@
     "top_games": [
         {
             "name": "buy ohm andsur",
-            "count": 3
+            "count": 2
         },
         {
             "name": "n fire skiller",
+            "count": 1
+        },
+        {
+            "name": "nec grow 9",
             "count": 1
         },
         {
@@ -41,27 +45,23 @@
             "count": 1
         },
         {
-            "name": "nec grow 9",
-            "count": 1
-        },
-        {
             "name": "sure",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "lvv",
-            "count": 2,
-            "examples": [
-                "lvv"
-            ]
-        },
-        {
             "normalized": "nec grow #",
             "count": 2,
             "examples": [
                 "nec grow 9"
+            ]
+        },
+        {
+            "normalized": "lvv",
+            "count": 2,
+            "examples": [
+                "lvv"
             ]
         },
         {
@@ -77,7 +77,7 @@
             {
                 "name": "buy ohm andsur",
                 "matched": "buy",
-                "count": 3
+                "count": 2
             },
             {
                 "name": "n fire skiller",
@@ -93,7 +93,7 @@
     },
     "interesting": {
         "unique_names": 6,
-        "public_games": 8,
+        "public_games": 7,
         "average_name_length": 9.5
     }
 }
