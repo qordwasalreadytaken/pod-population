@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-23T12:04:00+00:00",
+    "timestamp": "2026-08-23T12:23:00+00:00",
     "difficulty": {
         "2": 1,
         "1": 1,
@@ -16,12 +16,16 @@
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "vega 2",
+            "name": "vega 4",
             "count": 1
         },
         {
@@ -29,7 +33,7 @@
             "count": 1
         },
         {
-            "name": "5",
+            "name": "ancients pls",
             "count": 1
         }
     ],
@@ -38,7 +42,7 @@
             "normalized": "vega #",
             "count": 2,
             "examples": [
-                "vega 2"
+                "vega 4"
             ]
         },
         {
@@ -47,19 +51,20 @@
             "examples": [
                 "nec grow 1"
             ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "5"
-            ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Leveling": [
+            {
+                "name": "ancients pls",
+                "matched": "anci",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 5.67
+        "average_name_length": 9.33
     }
 }

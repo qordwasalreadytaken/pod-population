@@ -38,7 +38,7 @@
     },
     {
         "normalized": "nec grow #",
-        "count": 120,
+        "count": 122,
         "examples": [
             "nec grow 1",
             "nec grow 10",
@@ -1634,6 +1634,14 @@
         "count": 4,
         "examples": [
             "play"
+        ]
+    },
+    {
+        "normalized": "vega #",
+        "count": 4,
+        "examples": [
+            "vega 2",
+            "vega 4"
         ]
     },
     {
@@ -3993,13 +4001,6 @@
         "count": 2,
         "examples": [
             "gge@rto 3"
-        ]
-    },
-    {
-        "normalized": "vega #",
-        "count": 2,
-        "examples": [
-            "vega 2"
         ]
     }
 ]
