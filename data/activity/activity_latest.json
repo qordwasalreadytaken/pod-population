@@ -1,23 +1,23 @@
 {
-    "timestamp": "2026-08-22T23:49:00+00:00",
+    "timestamp": "2026-08-23T00:07:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 1,
         "0": 1
     },
     "mode": {
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 2,
+        "2|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 2
+            "name": "Maps",
+            "count": 1
         },
         {
-            "name": "Maps",
+            "name": "Other",
             "count": 1
         }
     ],
@@ -27,22 +27,11 @@
             "count": 1
         },
         {
-            "name": "xb",
-            "count": 1
-        },
-        {
             "name": "why not",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "xb",
-            "count": 2,
-            "examples": [
-                "xb"
-            ]
-        },
         {
             "normalized": "why not",
             "count": 2,
@@ -61,8 +50,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 4.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 5.0
     }
 }
