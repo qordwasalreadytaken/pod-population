@@ -5572,7 +5572,7 @@
             "Maps": [
                 {
                     "name": "maps",
-                    "matched": "maps",
+                    "matched": "map",
                     "count": 1
                 }
             ],
@@ -14535,7 +14535,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ],
@@ -18708,7 +18708,7 @@
             "Trade": [
                 {
                     "name": "n necro torch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 },
                 {
@@ -18827,7 +18827,7 @@
                 },
                 {
                     "name": "n necro torch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -18906,7 +18906,7 @@
                 },
                 {
                     "name": "n necro torch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -19214,7 +19214,7 @@
             "Trade": [
                 {
                     "name": "n necro torch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -33947,7 +33947,7 @@
             "Uber": [
                 {
                     "name": "ubers",
-                    "matched": "uber",
+                    "matched": "ubers",
                     "count": 1
                 }
             ],
@@ -36454,7 +36454,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "mf runs",
-                    "matched": "mf",
+                    "matched": "run",
                     "count": 1
                 }
             ]
@@ -45195,7 +45195,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -45294,7 +45294,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -45383,7 +45383,7 @@
             "Maps": [
                 {
                     "name": "mapping 2",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ],
@@ -51384,7 +51384,7 @@
             "Maps": [
                 {
                     "name": "maps?2",
-                    "matched": "maps",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -55099,7 +55099,7 @@
             "Trade": [
                 {
                     "name": "n sorc torch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -55541,7 +55541,7 @@
             "Trade": [
                 {
                     "name": "n sorc torch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 3
                 }
             ]
@@ -55609,7 +55609,7 @@
             "Trade": [
                 {
                     "name": "n sorc torch 6",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -55707,17 +55707,17 @@
             "Trade": [
                 {
                     "name": "n sorc torch 14",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 },
                 {
                     "name": "n sorc torch 13",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 },
                 {
                     "name": "n sorc torch 12",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -55830,22 +55830,22 @@
             "Trade": [
                 {
                     "name": "n sorc torch 23",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 },
                 {
                     "name": "n sorc torch 22",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 },
                 {
                     "name": "n sorc torch 21",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 },
                 {
                     "name": "n sorc torch 20",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -55937,22 +55937,22 @@
             "Trade": [
                 {
                     "name": "n sorc torch 38",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 },
                 {
                     "name": "n sorc torch 37",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 },
                 {
                     "name": "n sorc torch 36",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 },
                 {
                     "name": "n sorc torch 35",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ],
@@ -61468,7 +61468,7 @@
                 },
                 {
                     "name": "mapping",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -89630,7 +89630,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -95306,6 +95306,100 @@
             "unique_names": 3,
             "public_games": 3,
             "average_name_length": 6.67
+        }
+    },
+    {
+        "timestamp": "2026-08-23T14:04:00+00:00",
+        "difficulty": {
+            "2": 4,
+            "0": 1
+        },
+        "mode": {
+            "1": 1,
+            "0": 4
+        },
+        "difficulty_mode": {
+            "2|1": 1,
+            "2|0": 3,
+            "0|0": 1
+        },
+        "activities": [
+            {
+                "name": "Misc. Public MF Runs",
+                "count": 2
+            },
+            {
+                "name": "Other",
+                "count": 2
+            },
+            {
+                "name": "Trade",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "n fire skiller",
+                "count": 1
+            },
+            {
+                "name": "sdaafasdf",
+                "count": 1
+            },
+            {
+                "name": "nec grow 9",
+                "count": 1
+            },
+            {
+                "name": "hell",
+                "count": 1
+            },
+            {
+                "name": "123124",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "nec grow #",
+                "count": 2,
+                "examples": [
+                    "nec grow 9"
+                ]
+            },
+            {
+                "normalized": "hell",
+                "count": 2,
+                "examples": [
+                    "hell"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Trade": [
+                {
+                    "name": "n fire skiller",
+                    "matched": "n",
+                    "count": 1
+                }
+            ],
+            "Misc. Public MF Runs": [
+                {
+                    "name": "sdaafasdf",
+                    "matched": "asd",
+                    "count": 1
+                },
+                {
+                    "name": "123124",
+                    "matched": "123",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 5,
+            "public_games": 5,
+            "average_name_length": 8.6
         }
     }
 ]
