@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-23T22:37:00+00:00",
+    "timestamp": "2026-08-23T22:50:00+00:00",
     "difficulty": {
         "0": 1,
         "2": 2,
@@ -30,7 +30,7 @@
     ],
     "top_games": [
         {
-            "name": "doogs",
+            "name": "doog",
             "count": 1
         },
         {
@@ -48,10 +48,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "doogs",
+            "normalized": "doog",
             "count": 2,
             "examples": [
-                "doogs"
+                "doog"
             ]
         },
         {
@@ -81,6 +81,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 6.5
+        "average_name_length": 6.25
     }
 }
