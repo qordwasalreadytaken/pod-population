@@ -1,45 +1,33 @@
 {
-    "timestamp": "2026-08-23T19:36:00+00:00",
+    "timestamp": "2026-08-23T19:49:00+00:00",
     "difficulty": {
-        "2": 4,
-        "0": 2,
-        "1": 1
+        "0": 3,
+        "2": 1,
+        "1": 2
     },
     "mode": {
-        "1": 3,
-        "0": 4
+        "1": 1,
+        "0": 5
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "0|1": 2,
-        "2|0": 3,
-        "1|0": 1
+        "0|1": 1,
+        "2|0": 1,
+        "1|0": 2,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 6
+            "count": 5
         },
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "sure",
-            "count": 2
-        },
-        {
-            "name": "n fireskiller",
-            "count": 1
-        },
-        {
-            "name": "doogin'2",
-            "count": 1
-        },
-        {
-            "name": "doogin'",
+            "name": "doogin'3",
             "count": 1
         },
         {
@@ -47,30 +35,28 @@
             "count": 1
         },
         {
+            "name": "sure",
+            "count": 1
+        },
+        {
             "name": "t",
+            "count": 1
+        },
+        {
+            "name": "gord",
+            "count": 1
+        },
+        {
+            "name": "vega",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "sure",
-            "count": 4,
-            "examples": [
-                "sure"
-            ]
-        },
-        {
             "normalized": "doogin'#",
             "count": 2,
             "examples": [
-                "doogin'2"
-            ]
-        },
-        {
-            "normalized": "doogin'",
-            "count": 2,
-            "examples": [
-                "doogin'"
+                "doogin'3"
             ]
         },
         {
@@ -81,25 +67,39 @@
             ]
         },
         {
+            "normalized": "sure",
+            "count": 2,
+            "examples": [
+                "sure"
+            ]
+        },
+        {
             "normalized": "t",
             "count": 2,
             "examples": [
                 "t"
             ]
+        },
+        {
+            "normalized": "vega",
+            "count": 2,
+            "examples": [
+                "vega"
+            ]
         }
     ],
     "classified_games": {
-        "Trade": [
+        "Misc. Public MF Runs": [
             {
-                "name": "n fireskiller",
-                "matched": "n",
+                "name": "gord",
+                "matched": "gord",
                 "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 6.0
+        "public_games": 6,
+        "average_name_length": 4.0
     }
 }
