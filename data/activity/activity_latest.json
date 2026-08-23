@@ -1,43 +1,41 @@
 {
-    "timestamp": "2026-08-23T23:36:00+00:00",
+    "timestamp": "2026-08-23T23:49:00+00:00",
     "difficulty": {
-        "0": 3,
+        "0": 2,
+        "2": 2,
         "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
         "0|1": 1,
+        "2|0": 2,
         "1|0": 1,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
+            "name": "Misc. Public MF Runs",
+            "count": 3
+        },
+        {
             "name": "Other",
             "count": 2
-        },
-        {
-            "name": "Leveling",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "asd",
+            "count": 2
+        },
         {
             "name": "doog",
             "count": 1
         },
         {
             "name": "sure",
-            "count": 1
-        },
-        {
-            "name": "act",
             "count": 1
         },
         {
@@ -62,14 +60,12 @@
         }
     ],
     "classified_games": {
-        "Leveling": [
-            {
-                "name": "act",
-                "matched": "act",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 2
+            },
             {
                 "name": "123123",
                 "matched": "123",
@@ -79,7 +75,7 @@
     },
     "interesting": {
         "unique_names": 4,
-        "public_games": 4,
+        "public_games": 5,
         "average_name_length": 4.25
     }
 }
