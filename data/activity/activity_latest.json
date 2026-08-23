@@ -1,99 +1,39 @@
 {
-    "timestamp": "2026-08-23T15:36:00+00:00",
+    "timestamp": "2026-08-23T15:50:00+00:00",
     "difficulty": {
-        "2": 6,
-        "0": 1
+        "2": 1
     },
     "mode": {
-        "1": 1,
-        "0": 6
+        "0": 1
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 5,
-        "0|0": 1
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Trade",
-            "count": 4
-        },
-        {
-            "name": "Other",
-            "count": 3
+            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "buy ohm andsur",
-            "count": 2
-        },
-        {
-            "name": "n fire skiller",
-            "count": 1
-        },
-        {
-            "name": "nec grow 9",
-            "count": 1
-        },
-        {
-            "name": "n griffon 3s",
-            "count": 1
-        },
-        {
-            "name": "lvv",
-            "count": 1
-        },
-        {
-            "name": "sure",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "nec grow #",
-            "count": 2,
-            "examples": [
-                "nec grow 9"
-            ]
-        },
-        {
-            "normalized": "lvv",
-            "count": 2,
-            "examples": [
-                "lvv"
-            ]
-        },
-        {
-            "normalized": "sure",
-            "count": 2,
-            "examples": [
-                "sure"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Trade": [
             {
                 "name": "buy ohm andsur",
                 "matched": "buy",
-                "count": 2
-            },
-            {
-                "name": "n fire skiller",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "n griffon 3s",
-                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 9.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 14.0
     }
 }
