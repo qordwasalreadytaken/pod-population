@@ -1,37 +1,23 @@
 {
-    "timestamp": "2026-08-23T18:42:00+00:00",
+    "timestamp": "2026-08-23T18:55:00+00:00",
     "difficulty": {
-        "2": 8
+        "2": 3
     },
     "mode": {
-        "1": 1,
-        "0": 7
+        "0": 3
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 7
+        "2|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 6
-        },
-        {
-            "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
         {
             "name": "sure",
-            "count": 2
-        },
-        {
-            "name": "n fireskiller",
             "count": 1
         },
         {
@@ -39,26 +25,14 @@
             "count": 1
         },
         {
-            "name": "solo",
-            "count": 1
-        },
-        {
-            "name": "t",
-            "count": 1
-        },
-        {
             "name": "lvv",
-            "count": 1
-        },
-        {
-            "name": "13125asdasd",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "sure",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "sure"
             ]
@@ -71,20 +45,6 @@
             ]
         },
         {
-            "normalized": "solo",
-            "count": 2,
-            "examples": [
-                "solo"
-            ]
-        },
-        {
-            "normalized": "t",
-            "count": 2,
-            "examples": [
-                "t"
-            ]
-        },
-        {
             "normalized": "lvv",
             "count": 2,
             "examples": [
@@ -92,25 +52,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "n fireskiller",
-                "matched": "n",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "13125asdasd",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 7,
-        "public_games": 8,
-        "average_name_length": 5.29
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 2.67
     }
 }
