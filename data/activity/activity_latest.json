@@ -1,14 +1,16 @@
 {
-    "timestamp": "2026-08-23T03:06:00+00:00",
+    "timestamp": "2026-08-23T03:37:00+00:00",
     "difficulty": {
         "2": 2,
+        "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
         "2|0": 2,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
@@ -18,7 +20,7 @@
         },
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
@@ -27,11 +29,22 @@
             "count": 2
         },
         {
+            "name": "nec grow 1",
+            "count": 1
+        },
+        {
             "name": "yep",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "nec grow #",
+            "count": 2,
+            "examples": [
+                "nec grow 1"
+            ]
+        },
         {
             "normalized": "yep",
             "count": 2,
@@ -50,8 +63,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 3,
-        "average_name_length": 3.0
+        "unique_names": 3,
+        "public_games": 4,
+        "average_name_length": 5.33
     }
 }
