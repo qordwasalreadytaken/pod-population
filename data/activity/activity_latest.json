@@ -1,7 +1,8 @@
 {
-    "timestamp": "2026-08-23T17:36:00+00:00",
+    "timestamp": "2026-08-23T17:50:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 2,
+        "0": 1
     },
     "mode": {
         "1": 1,
@@ -9,7 +10,8 @@
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 2
+        "2|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
@@ -17,11 +19,11 @@
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
@@ -31,20 +33,20 @@
             "count": 1
         },
         {
-            "name": "t",
+            "name": "13125asdasd",
             "count": 1
         },
         {
-            "name": "13125asdasd",
+            "name": "1",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "t",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "t"
+                "1"
             ]
         }
     ],
