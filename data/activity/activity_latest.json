@@ -1,16 +1,16 @@
 {
-    "timestamp": "2026-08-23T14:22:00+00:00",
+    "timestamp": "2026-08-23T14:37:00+00:00",
     "difficulty": {
         "2": 3,
         "0": 1
     },
     "mode": {
-        "1": 2,
-        "0": 2
+        "1": 1,
+        "0": 3
     },
     "difficulty_mode": {
-        "2|1": 2,
-        "2|0": 1,
+        "2|1": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
@@ -30,7 +30,11 @@
     "top_games": [
         {
             "name": "n fire skiller",
-            "count": 2
+            "count": 1
+        },
+        {
+            "name": "buy ohm andsur",
+            "count": 1
         },
         {
             "name": "nec grow 9",
@@ -55,7 +59,12 @@
             {
                 "name": "n fire skiller",
                 "matched": "n",
-                "count": 2
+                "count": 1
+            },
+            {
+                "name": "buy ohm andsur",
+                "matched": "buy",
+                "count": 1
             }
         ],
         "Misc. Public MF Runs": [
@@ -67,8 +76,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
+        "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 10.0
+        "average_name_length": 11.0
     }
 }
