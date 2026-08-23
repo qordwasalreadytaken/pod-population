@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 452,
+        "count": 454,
         "examples": [
             "1",
             "11",
@@ -54,7 +54,7 @@
     },
     {
         "normalized": "qe",
-        "count": 90,
+        "count": 92,
         "examples": [
             "qe"
         ]
@@ -375,6 +375,14 @@
         ]
     },
     {
+        "normalized": "gs #",
+        "count": 16,
+        "examples": [
+            "gs 1",
+            "gs 2"
+        ]
+    },
+    {
         "normalized": "kokoball",
         "count": 14,
         "examples": [
@@ -414,14 +422,6 @@
         "count": 14,
         "examples": [
             "helpp"
-        ]
-    },
-    {
-        "normalized": "gs #",
-        "count": 14,
-        "examples": [
-            "gs 1",
-            "gs 2"
         ]
     },
     {
