@@ -1,23 +1,23 @@
 {
-    "timestamp": "2026-08-24T03:06:00+00:00",
+    "timestamp": "2026-08-24T03:33:00+00:00",
     "difficulty": {
         "1": 1,
-        "2": 3,
+        "2": 2,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
         "1|1": 1,
-        "2|0": 3,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 3
         },
         {
             "name": "Leveling",
@@ -30,15 +30,11 @@
             "count": 1
         },
         {
-            "name": "nec grow 15",
-            "count": 1
-        },
-        {
             "name": "cucumber",
             "count": 1
         },
         {
-            "name": "why not",
+            "name": "nec grow 15",
             "count": 1
         },
         {
@@ -55,13 +51,6 @@
             ]
         },
         {
-            "normalized": "nec grow #",
-            "count": 2,
-            "examples": [
-                "nec grow 15"
-            ]
-        },
-        {
             "normalized": "cucumber",
             "count": 2,
             "examples": [
@@ -69,10 +58,10 @@
             ]
         },
         {
-            "normalized": "why not",
+            "normalized": "nec grow #",
             "count": 2,
             "examples": [
-                "why not"
+                "nec grow 15"
             ]
         }
     ],
@@ -86,8 +75,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.6
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 6.5
     }
 }
