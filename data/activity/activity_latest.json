@@ -1,82 +1,70 @@
 {
-    "timestamp": "2026-08-24T03:33:00+00:00",
+    "timestamp": "2026-08-24T04:01:00+00:00",
     "difficulty": {
         "1": 1,
-        "2": 2,
-        "0": 1
+        "0": 2,
+        "2": 1
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "1": 2,
+        "0": 2
     },
     "difficulty_mode": {
         "1|1": 1,
-        "2|0": 2,
+        "0|1": 1,
+        "2|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
-            "name": "Leveling",
-            "count": 1
+            "name": "Misc. Public MF Runs",
+            "count": 2
         }
     ],
     "top_games": [
         {
             "name": "doog",
+            "count": 2
+        },
+        {
+            "name": "13125asdasd",
             "count": 1
         },
         {
-            "name": "cucumber",
-            "count": 1
-        },
-        {
-            "name": "nec grow 15",
-            "count": 1
-        },
-        {
-            "name": "act",
+            "name": "asd",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "doog",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "doog"
-            ]
-        },
-        {
-            "normalized": "cucumber",
-            "count": 2,
-            "examples": [
-                "cucumber"
-            ]
-        },
-        {
-            "normalized": "nec grow #",
-            "count": 2,
-            "examples": [
-                "nec grow 15"
             ]
         }
     ],
     "classified_games": {
-        "Leveling": [
+        "Misc. Public MF Runs": [
             {
-                "name": "act",
-                "matched": "act",
+                "name": "13125asdasd",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
+        "unique_names": 3,
         "public_games": 4,
-        "average_name_length": 6.5
+        "average_name_length": 6.0
     }
 }
