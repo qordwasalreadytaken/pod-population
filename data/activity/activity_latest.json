@@ -1,35 +1,35 @@
 {
-    "timestamp": "2026-08-24T06:11:00+00:00",
+    "timestamp": "2026-08-24T06:27:00+00:00",
     "difficulty": {
-        "1": 5,
-        "2": 1
+        "2": 2,
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "2|0": 1,
-        "1|0": 4
+        "2|0": 2,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 4
-        },
-        {
             "name": "Other",
             "count": 2
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
+            "name": "Baal",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 3
-        },
-        {
-            "name": "doog",
+            "name": "gg",
             "count": 1
         },
         {
@@ -37,43 +37,49 @@
             "count": 1
         },
         {
-            "name": "t",
+            "name": "nmbaal",
+            "count": 1
+        },
+        {
+            "name": "hihh",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "doog",
+            "normalized": "gg",
             "count": 2,
             "examples": [
-                "doog"
+                "gg"
             ]
         },
         {
-            "normalized": "t",
+            "normalized": "hihh",
             "count": 2,
             "examples": [
-                "t"
+                "hihh"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
-                "matched": "asd",
-                "count": 3
-            },
-            {
                 "name": "13125asdasd",
                 "matched": "asd",
+                "count": 1
+            }
+        ],
+        "Baal": [
+            {
+                "name": "nmbaal",
+                "matched": "baal",
                 "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 4,
-        "public_games": 6,
-        "average_name_length": 4.75
+        "public_games": 4,
+        "average_name_length": 5.75
     }
 }
