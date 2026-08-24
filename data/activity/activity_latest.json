@@ -1,9 +1,8 @@
 {
-    "timestamp": "2026-08-24T00:25:00+00:00",
+    "timestamp": "2026-08-24T00:46:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 2,
-        "1": 1
+        "2": 3
     },
     "mode": {
         "1": 1,
@@ -11,34 +10,29 @@
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 2,
-        "1|0": 1
+        "2|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
+        {
+            "name": "asd",
+            "count": 2
+        },
         {
             "name": "doog",
             "count": 1
         },
         {
             "name": "yep",
-            "count": 1
-        },
-        {
-            "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "sure",
             "count": 1
         }
     ],
@@ -56,13 +50,6 @@
             "examples": [
                 "yep"
             ]
-        },
-        {
-            "normalized": "sure",
-            "count": 2,
-            "examples": [
-                "sure"
-            ]
         }
     ],
     "classified_games": {
@@ -70,13 +57,13 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
+        "unique_names": 3,
         "public_games": 4,
-        "average_name_length": 3.5
+        "average_name_length": 3.33
     }
 }
