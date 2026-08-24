@@ -242,6 +242,13 @@
         ]
     },
     {
+        "normalized": "help",
+        "count": 22,
+        "examples": [
+            "help"
+        ]
+    },
+    {
         "normalized": "atlas",
         "count": 22,
         "examples": [
@@ -249,10 +256,11 @@
         ]
     },
     {
-        "normalized": "help",
-        "count": 20,
+        "normalized": "gs #",
+        "count": 22,
         "examples": [
-            "help"
+            "gs 1",
+            "gs 2"
         ]
     },
     {
@@ -305,11 +313,10 @@
         ]
     },
     {
-        "normalized": "gs #",
+        "normalized": "#a",
         "count": 20,
         "examples": [
-            "gs 1",
-            "gs 2"
+            "13125a"
         ]
     },
     {
@@ -360,13 +367,6 @@
         "examples": [
             "doogin'2",
             "doogin'3"
-        ]
-    },
-    {
-        "normalized": "#a",
-        "count": 18,
-        "examples": [
-            "13125a"
         ]
     },
     {
@@ -518,6 +518,13 @@
         ]
     },
     {
+        "normalized": "dawgin",
+        "count": 12,
+        "examples": [
+            "dawgin"
+        ]
+    },
+    {
         "normalized": "a#h",
         "count": 10,
         "examples": [
@@ -630,13 +637,6 @@
         "count": 10,
         "examples": [
             "fresh reroll"
-        ]
-    },
-    {
-        "normalized": "dawgin",
-        "count": 10,
-        "examples": [
-            "dawgin"
         ]
     },
     {
