@@ -211,7 +211,7 @@
         },
         {
             "name": "n torch necro",
-            "matched": "torch",
+            "matched": "n",
             "count": 35
         },
         {
@@ -226,7 +226,7 @@
         },
         {
             "name": "n druid torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 20
         },
         {
@@ -336,7 +336,7 @@
         },
         {
             "name": "n necro torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 4
         },
         {
@@ -351,7 +351,7 @@
         },
         {
             "name": "n sorc torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 4
         },
         {
@@ -376,7 +376,7 @@
         },
         {
             "name": "n sorch torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 3
         },
         {
@@ -386,7 +386,7 @@
         },
         {
             "name": "n assa torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 3
         },
         {
@@ -511,62 +511,62 @@
         },
         {
             "name": "n sorc torch 6",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
             "name": "n sorc torch 14",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
             "name": "n sorc torch 13",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
             "name": "n sorc torch 12",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
             "name": "n sorc torch 23",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
             "name": "n sorc torch 22",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
             "name": "n sorc torch 21",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
             "name": "n sorc torch 20",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
             "name": "n sorc torch 38",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
             "name": "n sorc torch 37",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
             "name": "n sorc torch 36",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
             "name": "n sorc torch 35",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
@@ -833,7 +833,7 @@
         },
         {
             "name": "normal act",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -913,7 +913,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "norm",
+            "matched": "tomb",
             "count": 1
         },
         {
@@ -1009,6 +1009,11 @@
             "count": 2
         },
         {
+            "name": "nm rush",
+            "matched": "rush",
+            "count": 2
+        },
+        {
             "name": "rush nm",
             "matched": "rush",
             "count": 2
@@ -1020,11 +1025,6 @@
         },
         {
             "name": "hell rush",
-            "matched": "rush",
-            "count": 1
-        },
-        {
-            "name": "nm rush",
             "matched": "rush",
             "count": 1
         },
@@ -1048,7 +1048,7 @@
         {
             "name": "gord",
             "matched": "gord",
-            "count": 162
+            "count": 163
         },
         {
             "name": "n eld runes",
@@ -1652,7 +1652,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -2036,7 +2036,7 @@
         },
         {
             "name": "maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 1
         },
         {
@@ -2101,7 +2101,7 @@
         },
         {
             "name": "maps?2",
-            "matched": "map",
+            "matched": "maps",
             "count": 1
         },
         {
