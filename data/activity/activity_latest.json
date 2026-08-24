@@ -1,35 +1,29 @@
 {
-    "timestamp": "2026-08-24T12:24:00+00:00",
+    "timestamp": "2026-08-24T12:45:00+00:00",
     "difficulty": {
-        "1": 2,
-        "2": 2
+        "2": 3
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "2|0": 2,
-        "1|0": 1
+        "2|1": 1,
+        "2|0": 2
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 2
         },
         {
-            "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "dawgin",
+            "name": "n fireskiller",
             "count": 1
         },
         {
@@ -39,20 +33,9 @@
         {
             "name": "13125a",
             "count": 1
-        },
-        {
-            "name": "asd",
-            "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "dawgin",
-            "count": 2,
-            "examples": [
-                "dawgin"
-            ]
-        },
         {
             "normalized": "#a",
             "count": 2,
@@ -64,22 +47,20 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "n piercegriff",
+                "name": "n fireskiller",
                 "matched": "n",
                 "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
+            },
             {
-                "name": "asd",
-                "matched": "asd",
+                "name": "n piercegriff",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 7.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 10.67
     }
 }
