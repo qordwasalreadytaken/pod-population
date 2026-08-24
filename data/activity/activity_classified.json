@@ -316,7 +316,7 @@
         },
         {
             "name": "n necro torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -421,6 +421,11 @@
         },
         {
             "name": "n anni o zod 2",
+            "matched": "n",
+            "count": 2
+        },
+        {
+            "name": "n fireskillers",
             "matched": "n",
             "count": 2
         },
@@ -643,11 +648,6 @@
             "name": "n ele skiller 8",
             "matched": "n",
             "count": 1
-        },
-        {
-            "name": "n fireskillers",
-            "matched": "n",
-            "count": 1
         }
     ],
     "Leveling": [
@@ -818,7 +818,7 @@
         },
         {
             "name": "normal act",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -898,7 +898,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "norm",
+            "matched": "tomb",
             "count": 1
         },
         {
@@ -1028,7 +1028,7 @@
         {
             "name": "asd",
             "matched": "asd",
-            "count": 199
+            "count": 200
         },
         {
             "name": "gord",
@@ -1931,7 +1931,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "map",
+            "matched": "mapping",
             "count": 4
         },
         {
@@ -2081,7 +2081,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -2096,7 +2096,7 @@
         },
         {
             "name": "mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -2113,7 +2113,7 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
