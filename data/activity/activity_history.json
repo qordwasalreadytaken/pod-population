@@ -701,7 +701,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -772,7 +772,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -14535,7 +14535,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ],
@@ -36454,7 +36454,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "mf runs",
-                    "matched": "run",
+                    "matched": "mf",
                     "count": 1
                 }
             ]
@@ -45195,7 +45195,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -45294,7 +45294,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -45383,7 +45383,7 @@
             "Maps": [
                 {
                     "name": "mapping 2",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ],
@@ -61468,7 +61468,7 @@
                 },
                 {
                     "name": "mapping",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -63618,7 +63618,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "14123awdasdfqwr",
-                    "matched": "asd",
+                    "matched": "123",
                     "count": 1
                 },
                 {
@@ -89630,7 +89630,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -99762,6 +99762,85 @@
             "unique_names": 3,
             "public_games": 3,
             "average_name_length": 6.0
+        }
+    },
+    {
+        "timestamp": "2026-08-24T05:48:00+00:00",
+        "difficulty": {
+            "1": 4,
+            "2": 1
+        },
+        "mode": {
+            "1": 1,
+            "0": 4
+        },
+        "difficulty_mode": {
+            "1|1": 1,
+            "2|0": 1,
+            "1|0": 3
+        },
+        "activities": [
+            {
+                "name": "Misc. Public MF Runs",
+                "count": 3
+            },
+            {
+                "name": "Other",
+                "count": 2
+            }
+        ],
+        "top_games": [
+            {
+                "name": "asd",
+                "count": 2
+            },
+            {
+                "name": "doog",
+                "count": 1
+            },
+            {
+                "name": "13125asdasd",
+                "count": 1
+            },
+            {
+                "name": "t",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "doog",
+                "count": 2,
+                "examples": [
+                    "doog"
+                ]
+            },
+            {
+                "normalized": "t",
+                "count": 2,
+                "examples": [
+                    "t"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Misc. Public MF Runs": [
+                {
+                    "name": "asd",
+                    "matched": "asd",
+                    "count": 2
+                },
+                {
+                    "name": "13125asdasd",
+                    "matched": "asd",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 4,
+            "public_games": 5,
+            "average_name_length": 4.75
         }
     }
 ]
