@@ -688,7 +688,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "andar",
+            "matched": "act",
             "count": 12
         },
         {
@@ -699,7 +699,7 @@
         {
             "name": "trist",
             "matched": "trist",
-            "count": 9
+            "count": 10
         },
         {
             "name": "act 4",
@@ -712,6 +712,11 @@
             "count": 9
         },
         {
+            "name": "fresh start",
+            "matched": "start",
+            "count": 8
+        },
+        {
             "name": "1 act",
             "matched": "act",
             "count": 8
@@ -720,11 +725,6 @@
             "name": "1 act hammer",
             "matched": "act",
             "count": 8
-        },
-        {
-            "name": "fresh start",
-            "matched": "start",
-            "count": 7
         },
         {
             "name": "act 3",
@@ -768,7 +768,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "start",
+            "matched": "act",
             "count": 3
         },
         {
@@ -838,7 +838,7 @@
         },
         {
             "name": "normal act",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -948,7 +948,7 @@
         },
         {
             "name": "act start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -2133,7 +2133,7 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
