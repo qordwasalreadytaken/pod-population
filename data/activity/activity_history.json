@@ -8995,7 +8995,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 },
                 {
@@ -12824,7 +12824,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 }
             ]
@@ -33947,7 +33947,7 @@
             "Uber": [
                 {
                     "name": "ubers",
-                    "matched": "ubers",
+                    "matched": "uber",
                     "count": 1
                 }
             ],
@@ -36454,7 +36454,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "mf runs",
-                    "matched": "mf",
+                    "matched": "run",
                     "count": 1
                 }
             ]
@@ -99693,6 +99693,74 @@
         "interesting": {
             "unique_names": 3,
             "public_games": 4,
+            "average_name_length": 6.0
+        }
+    },
+    {
+        "timestamp": "2026-08-24T05:30:00+00:00",
+        "difficulty": {
+            "1": 2,
+            "2": 1
+        },
+        "mode": {
+            "1": 1,
+            "0": 2
+        },
+        "difficulty_mode": {
+            "1|1": 1,
+            "2|0": 1,
+            "1|0": 1
+        },
+        "activities": [
+            {
+                "name": "Misc. Public MF Runs",
+                "count": 2
+            },
+            {
+                "name": "Other",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "doog",
+                "count": 1
+            },
+            {
+                "name": "13125asdasd",
+                "count": 1
+            },
+            {
+                "name": "asd",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "doog",
+                "count": 2,
+                "examples": [
+                    "doog"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Misc. Public MF Runs": [
+                {
+                    "name": "13125asdasd",
+                    "matched": "asd",
+                    "count": 1
+                },
+                {
+                    "name": "asd",
+                    "matched": "asd",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 3,
+            "public_games": 3,
             "average_name_length": 6.0
         }
     }
