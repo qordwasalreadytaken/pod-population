@@ -1,50 +1,76 @@
 {
-    "timestamp": "2026-08-24T15:13:00+00:00",
+    "timestamp": "2026-08-24T15:29:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 4,
+        "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 5
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 3
+        "2|0": 3,
+        "0|0": 2
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Other",
+            "count": 3
         },
         {
             "name": "Trade",
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
+            "name": "Baal",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 2
-        },
-        {
             "name": "n fireskillers",
             "count": 1
         },
         {
-            "name": "m4ps",
+            "name": "25",
+            "count": 1
+        },
+        {
+            "name": "lvv",
+            "count": 1
+        },
+        {
+            "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "26",
+            "count": 1
+        },
+        {
+            "name": "baalrun 1",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "m#ps",
+            "normalized": "#",
+            "count": 4,
+            "examples": [
+                "25",
+                "26"
+            ]
+        },
+        {
+            "normalized": "lvv",
             "count": 2,
             "examples": [
-                "m4ps"
+                "lvv"
             ]
         }
     ],
@@ -60,13 +86,20 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 2
+                "count": 1
+            }
+        ],
+        "Baal": [
+            {
+                "name": "baalrun 1",
+                "matched": "baal",
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 4,
-        "average_name_length": 7.0
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 5.5
     }
 }
