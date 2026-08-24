@@ -701,7 +701,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "leveli",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -772,7 +772,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "leveli",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -5572,7 +5572,7 @@
             "Maps": [
                 {
                     "name": "maps",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -8995,7 +8995,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "anci",
+                    "matched": "norm",
                     "count": 1
                 },
                 {
@@ -12824,7 +12824,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "anci",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -14535,7 +14535,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ],
@@ -18708,7 +18708,7 @@
             "Trade": [
                 {
                     "name": "n necro torch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 },
                 {
@@ -18827,7 +18827,7 @@
                 },
                 {
                     "name": "n necro torch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -18906,7 +18906,7 @@
                 },
                 {
                     "name": "n necro torch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -19214,7 +19214,7 @@
             "Trade": [
                 {
                     "name": "n necro torch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -36454,7 +36454,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "mf runs",
-                    "matched": "mf",
+                    "matched": "run",
                     "count": 1
                 }
             ]
@@ -45195,7 +45195,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -45294,7 +45294,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -45383,7 +45383,7 @@
             "Maps": [
                 {
                     "name": "mapping 2",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ],
@@ -51384,7 +51384,7 @@
             "Maps": [
                 {
                     "name": "maps?2",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ]
@@ -61468,7 +61468,7 @@
                 },
                 {
                     "name": "mapping",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -63618,7 +63618,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "14123awdasdfqwr",
-                    "matched": "asd",
+                    "matched": "123",
                     "count": 1
                 },
                 {
@@ -89630,7 +89630,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -100931,6 +100931,75 @@
             "unique_names": 4,
             "public_games": 4,
             "average_name_length": 7.25
+        }
+    },
+    {
+        "timestamp": "2026-08-24T11:23:00+00:00",
+        "difficulty": {
+            "1": 1,
+            "2": 2
+        },
+        "mode": {
+            "1": 1,
+            "0": 2
+        },
+        "difficulty_mode": {
+            "1|1": 1,
+            "2|0": 2
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 2
+            },
+            {
+                "name": "Trade",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "dawgin",
+                "count": 1
+            },
+            {
+                "name": "n piercegriff",
+                "count": 1
+            },
+            {
+                "name": "13125a",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "dawgin",
+                "count": 2,
+                "examples": [
+                    "dawgin"
+                ]
+            },
+            {
+                "normalized": "#a",
+                "count": 2,
+                "examples": [
+                    "13125a"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Trade": [
+                {
+                    "name": "n piercegriff",
+                    "matched": "n",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 3,
+            "public_games": 3,
+            "average_name_length": 8.33
         }
     }
 ]
