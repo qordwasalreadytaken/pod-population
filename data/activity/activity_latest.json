@@ -1,54 +1,59 @@
 {
-    "timestamp": "2026-08-25T17:40:00+00:00",
+    "timestamp": "2026-08-25T17:54:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 1
+        "2": 4,
+        "0": 2
     },
     "mode": {
-        "0": 4
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "0|0": 1
+        "2|0": 4,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
+            "count": 3
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
             "name": "Trade",
             "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "gord",
+            "count": 2
+        },
+        {
+            "name": "nec grow 4",
+            "count": 1
+        },
+        {
+            "name": "nec grow 3",
+            "count": 1
+        },
         {
             "name": "n pierce griff",
             "count": 1
         },
         {
-            "name": "nec grow 1",
-            "count": 1
-        },
-        {
             "name": "sfsdf",
-            "count": 1
-        },
-        {
-            "name": "gord",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "nec grow #",
-            "count": 2,
+            "count": 4,
             "examples": [
-                "nec grow 1"
+                "nec grow 3",
+                "nec grow 4"
             ]
         },
         {
@@ -71,13 +76,13 @@
             {
                 "name": "gord",
                 "matched": "gord",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 8.25
+        "unique_names": 5,
+        "public_games": 6,
+        "average_name_length": 8.6
     }
 }
