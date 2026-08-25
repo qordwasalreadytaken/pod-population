@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 494,
+        "count": 498,
         "examples": [
             "1",
             "10",
@@ -17,7 +17,7 @@
     },
     {
         "normalized": "lvv",
-        "count": 384,
+        "count": 386,
         "examples": [
             "lvv"
         ]
@@ -1018,6 +1018,14 @@
         ]
     },
     {
+        "normalized": "#f",
+        "count": 6,
+        "examples": [
+            "34f",
+            "3f"
+        ]
+    },
+    {
         "normalized": "help newbie gr",
         "count": 6,
         "examples": [
@@ -1593,13 +1601,6 @@
         "count": 4,
         "examples": [
             "dfha"
-        ]
-    },
-    {
-        "normalized": "#f",
-        "count": 4,
-        "examples": [
-            "34f"
         ]
     },
     {

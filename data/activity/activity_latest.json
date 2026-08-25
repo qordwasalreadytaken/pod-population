@@ -1,31 +1,31 @@
 {
-    "timestamp": "2026-08-25T08:49:00+00:00",
+    "timestamp": "2026-08-25T09:12:00+00:00",
     "difficulty": {
         "2": 1,
-        "1": 1,
-        "0": 3
+        "1": 2,
+        "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
         "2|0": 1,
-        "1|0": 1,
-        "0|0": 3
+        "1|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 4
         }
     ],
     "top_games": [
         {
-            "name": "dudu",
-            "count": 2
+            "name": "lvv",
+            "count": 1
         },
         {
-            "name": "lvv",
+            "name": "3f",
             "count": 1
         },
         {
@@ -33,16 +33,17 @@
             "count": 1
         },
         {
-            "name": "r3f",
+            "name": "433",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "dudu",
+            "normalized": "#",
             "count": 4,
             "examples": [
-                "dudu"
+                "12",
+                "433"
             ]
         },
         {
@@ -53,24 +54,17 @@
             ]
         },
         {
-            "normalized": "#",
+            "normalized": "#f",
             "count": 2,
             "examples": [
-                "12"
-            ]
-        },
-        {
-            "normalized": "r#f",
-            "count": 2,
-            "examples": [
-                "r3f"
+                "3f"
             ]
         }
     ],
     "classified_games": {},
     "interesting": {
         "unique_names": 4,
-        "public_games": 5,
-        "average_name_length": 3.0
+        "public_games": 4,
+        "average_name_length": 2.5
     }
 }
