@@ -24,7 +24,7 @@
     },
     {
         "normalized": "t",
-        "count": 360,
+        "count": 362,
         "examples": [
             "t"
         ]
@@ -38,18 +38,18 @@
     },
     {
         "normalized": "nec grow #",
-        "count": 170,
+        "count": 172,
         "examples": [
             "nec grow 1",
             "nec grow 10",
             "nec grow 12",
             "nec grow 15",
             "nec grow 16",
+            "nec grow 18",
             "nec grow 2",
             "nec grow 3",
             "nec grow 4",
-            "nec grow 5",
-            "nec grow 6"
+            "nec grow 5"
         ]
     },
     {
@@ -384,6 +384,13 @@
         ]
     },
     {
+        "normalized": "sfsdf",
+        "count": 18,
+        "examples": [
+            "sfsdf"
+        ]
+    },
+    {
         "normalized": "mana",
         "count": 16,
         "examples": [
@@ -437,13 +444,6 @@
         "count": 16,
         "examples": [
             "lorna"
-        ]
-    },
-    {
-        "normalized": "sfsdf",
-        "count": 16,
-        "examples": [
-            "sfsdf"
         ]
     },
     {
