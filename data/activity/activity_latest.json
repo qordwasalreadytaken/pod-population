@@ -1,85 +1,56 @@
 {
-    "timestamp": "2026-08-25T16:03:00+00:00",
+    "timestamp": "2026-08-25T16:24:00+00:00",
     "difficulty": {
-        "2": 4,
-        "0": 2
+        "2": 5,
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 5
+        "1": 2,
+        "0": 4
     },
     "difficulty_mode": {
-        "2|1": 1,
+        "2|1": 2,
         "2|0": 3,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 4
+            "name": "Misc. Public MF Runs",
+            "count": 3
         },
         {
             "name": "Trade",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "n fireskillers",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "sfsdf",
-            "count": 1
+            "name": "asd",
+            "count": 2
         },
         {
             "name": "gord",
             "count": 1
         },
         {
-            "name": "gs",
-            "count": 1
-        },
-        {
-            "name": "ed2ed",
-            "count": 1
-        },
-        {
-            "name": "33",
+            "name": "2w",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "sfsdf",
+            "normalized": "#w",
             "count": 2,
             "examples": [
-                "sfsdf"
-            ]
-        },
-        {
-            "normalized": "gs",
-            "count": 2,
-            "examples": [
-                "gs"
-            ]
-        },
-        {
-            "normalized": "ed#ed",
-            "count": 2,
-            "examples": [
-                "ed2ed"
-            ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "33"
+                "2w"
             ]
         }
     ],
@@ -88,10 +59,15 @@
             {
                 "name": "n fireskillers",
                 "matched": "n",
-                "count": 1
+                "count": 2
             }
         ],
         "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 2
+            },
             {
                 "name": "gord",
                 "matched": "gord",
@@ -100,8 +76,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
+        "unique_names": 4,
         "public_games": 6,
-        "average_name_length": 5.33
+        "average_name_length": 5.75
     }
 }
