@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 498,
+        "count": 500,
         "examples": [
             "1",
             "10",
@@ -17,7 +17,7 @@
     },
     {
         "normalized": "lvv",
-        "count": 386,
+        "count": 388,
         "examples": [
             "lvv"
         ]
@@ -752,6 +752,14 @@
         ]
     },
     {
+        "normalized": "#f",
+        "count": 8,
+        "examples": [
+            "34f",
+            "3f"
+        ]
+    },
+    {
         "normalized": "didy>?",
         "count": 8,
         "examples": [
@@ -1015,14 +1023,6 @@
         "count": 6,
         "examples": [
             "atlas'"
-        ]
-    },
-    {
-        "normalized": "#f",
-        "count": 6,
-        "examples": [
-            "34f",
-            "3f"
         ]
     },
     {
