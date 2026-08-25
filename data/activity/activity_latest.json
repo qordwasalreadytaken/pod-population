@@ -1,24 +1,24 @@
 {
-    "timestamp": "2026-08-25T19:24:00+00:00",
+    "timestamp": "2026-08-25T19:40:00+00:00",
     "difficulty": {
-        "1": 2
+        "1": 1
     },
     "mode": {
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
-        "1|0": 2
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "gord",
-            "count": 2
+            "count": 1
         }
     ],
     "unknown_games": [],
@@ -27,13 +27,13 @@
             {
                 "name": "gord",
                 "matched": "gord",
-                "count": 2
+                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 1,
-        "public_games": 2,
+        "public_games": 1,
         "average_name_length": 4.0
     }
 }
