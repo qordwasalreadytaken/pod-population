@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 486,
+        "count": 488,
         "examples": [
             "1",
             "10",
@@ -270,6 +270,13 @@
         ]
     },
     {
+        "normalized": "yep",
+        "count": 22,
+        "examples": [
+            "yep"
+        ]
+    },
+    {
         "normalized": "gs #",
         "count": 22,
         "examples": [
@@ -303,13 +310,6 @@
         "count": 20,
         "examples": [
             "hi im noob"
-        ]
-    },
-    {
-        "normalized": "yep",
-        "count": 20,
-        "examples": [
-            "yep"
         ]
     },
     {
@@ -1769,6 +1769,13 @@
         "count": 4,
         "examples": [
             "dobretoo"
+        ]
+    },
+    {
+        "normalized": "dogari",
+        "count": 4,
+        "examples": [
+            "dogari"
         ]
     },
     {
@@ -4156,13 +4163,6 @@
         "count": 2,
         "examples": [
             "dorge"
-        ]
-    },
-    {
-        "normalized": "dogari",
-        "count": 2,
-        "examples": [
-            "dogari"
         ]
     }
 ]
