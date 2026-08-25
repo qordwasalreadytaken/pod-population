@@ -1,41 +1,41 @@
 {
-    "timestamp": "2026-08-25T21:39:00+00:00",
+    "timestamp": "2026-08-25T21:52:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 4,
         "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 4,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 2
-        },
-        {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 3
         },
         {
             "name": "Maps",
+            "count": 1
+        },
+        {
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "helpp",
-            "count": 1
-        },
-        {
             "name": "gord",
+            "count": 2
+        },
+        {
+            "name": "asd",
             "count": 1
         },
         {
-            "name": "t maps",
+            "name": "t maps 2",
             "count": 1
         },
         {
@@ -44,13 +44,6 @@
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "helpp",
-            "count": 2,
-            "examples": [
-                "helpp"
-            ]
-        },
         {
             "normalized": "gs #",
             "count": 2,
@@ -64,12 +57,17 @@
             {
                 "name": "gord",
                 "matched": "gord",
+                "count": 2
+            },
+            {
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             }
         ],
         "Maps": [
             {
-                "name": "t maps",
+                "name": "t maps 2",
                 "matched": "maps",
                 "count": 1
             }
@@ -77,7 +75,7 @@
     },
     "interesting": {
         "unique_names": 4,
-        "public_games": 4,
+        "public_games": 5,
         "average_name_length": 4.75
     }
 }
