@@ -232,12 +232,17 @@
         {
             "name": "n pierce griff",
             "matched": "n",
-            "count": 21
+            "count": 22
         },
         {
             "name": "n druid torch",
             "matched": "torch",
             "count": 20
+        },
+        {
+            "name": "n fireskillers",
+            "matched": "n",
+            "count": 15
         },
         {
             "name": "n griffon 3s",
@@ -246,11 +251,6 @@
         },
         {
             "name": "n annihilus",
-            "matched": "n",
-            "count": 14
-        },
-        {
-            "name": "n fireskillers",
             "matched": "n",
             "count": 14
         },
@@ -266,7 +266,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "buy",
+            "matched": "torch",
             "count": 12
         },
         {
@@ -693,7 +693,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "andar",
+            "matched": "act",
             "count": 12
         },
         {
@@ -773,7 +773,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 3
         },
         {
@@ -818,7 +818,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -928,7 +928,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "tomb",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -958,7 +958,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -1068,7 +1068,7 @@
         {
             "name": "asd",
             "matched": "asd",
-            "count": 220
+            "count": 221
         },
         {
             "name": "gord",
@@ -1677,7 +1677,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -1752,7 +1752,7 @@
         },
         {
             "name": "14123awdasdfqwr",
-            "matched": "asd",
+            "matched": "123",
             "count": 1
         },
         {
@@ -1971,7 +1971,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "mapping",
+            "matched": "map",
             "count": 4
         },
         {
@@ -2121,7 +2121,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -2136,7 +2136,7 @@
         },
         {
             "name": "mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -2153,7 +2153,7 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
