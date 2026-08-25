@@ -1,17 +1,17 @@
 {
-    "timestamp": "2026-08-25T11:22:00+00:00",
+    "timestamp": "2026-08-25T11:39:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1
+        "2": 3,
+        "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 4
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 1,
-        "1|0": 1
+        "2|0": 2,
+        "0|0": 2
     },
     "activities": [
         {
@@ -19,25 +19,41 @@
             "count": 2
         },
         {
-            "name": "Leveling",
+            "name": "Other",
+            "count": 2
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "dudu",
+            "count": 2
+        },
+        {
             "name": "n fireskillers",
+            "count": 1
+        },
+        {
+            "name": "asd",
             "count": 1
         },
         {
             "name": "n pierce griff",
             "count": 1
-        },
-        {
-            "name": "act 2 night",
-            "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "dudu",
+            "count": 4,
+            "examples": [
+                "dudu"
+            ]
+        }
+    ],
     "classified_games": {
         "Trade": [
             {
@@ -51,17 +67,17 @@
                 "count": 1
             }
         ],
-        "Leveling": [
+        "Misc. Public MF Runs": [
             {
-                "name": "act 2 night",
-                "matched": "act",
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 13.0
+        "unique_names": 4,
+        "public_games": 5,
+        "average_name_length": 8.75
     }
 }
