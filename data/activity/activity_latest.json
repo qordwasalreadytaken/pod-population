@@ -1,73 +1,76 @@
 {
-    "timestamp": "2026-08-25T08:29:00+00:00",
+    "timestamp": "2026-08-25T08:49:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 2
+        "2": 1,
+        "1": 1,
+        "0": 3
     },
     "mode": {
         "0": 5
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "0|0": 2
+        "2|0": 1,
+        "1|0": 1,
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Rush",
-            "count": 1
+            "count": 5
         }
     ],
     "top_games": [
         {
-            "name": "lvv",
+            "name": "dudu",
             "count": 2
         },
         {
-            "name": "rush",
+            "name": "lvv",
             "count": 1
         },
         {
-            "name": "42342",
+            "name": "12",
             "count": 1
         },
         {
-            "name": "1341",
+            "name": "r3f",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "lvv",
+            "normalized": "dudu",
             "count": 4,
+            "examples": [
+                "dudu"
+            ]
+        },
+        {
+            "normalized": "lvv",
+            "count": 2,
             "examples": [
                 "lvv"
             ]
         },
         {
             "normalized": "#",
-            "count": 4,
+            "count": 2,
             "examples": [
-                "1341",
-                "42342"
+                "12"
+            ]
+        },
+        {
+            "normalized": "r#f",
+            "count": 2,
+            "examples": [
+                "r3f"
             ]
         }
     ],
-    "classified_games": {
-        "Rush": [
-            {
-                "name": "rush",
-                "matched": "rush",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
         "unique_names": 4,
         "public_games": 5,
-        "average_name_length": 4.0
+        "average_name_length": 3.0
     }
 }
