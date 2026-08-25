@@ -1,20 +1,18 @@
 {
-    "timestamp": "2026-08-25T20:53:00+00:00",
+    "timestamp": "2026-08-25T21:06:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 1
+        "2": 2
     },
     "mode": {
-        "0": 4
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "1|0": 1
+        "2|0": 2
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 1
         },
         {
             "name": "Rush",
@@ -24,10 +22,6 @@
     "top_games": [
         {
             "name": "gord",
-            "count": 2
-        },
-        {
-            "name": "asd",
             "count": 1
         },
         {
@@ -41,11 +35,6 @@
             {
                 "name": "gord",
                 "matched": "gord",
-                "count": 2
-            },
-            {
-                "name": "asd",
-                "matched": "asd",
                 "count": 1
             }
         ],
@@ -58,8 +47,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 4,
-        "average_name_length": 4.67
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 5.5
     }
 }
