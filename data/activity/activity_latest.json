@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-25T23:37:00+00:00",
+    "timestamp": "2026-08-25T23:50:00+00:00",
     "difficulty": {
         "2": 1
     },
@@ -11,29 +11,29 @@
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
+            "name": "sure",
             "count": 1
         }
     ],
-    "unknown_games": [],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "unknown_games": [
+        {
+            "normalized": "sure",
+            "count": 2,
+            "examples": [
+                "sure"
+            ]
+        }
+    ],
+    "classified_games": {},
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 3.0
+        "average_name_length": 4.0
     }
 }
