@@ -1,24 +1,18 @@
 {
-    "timestamp": "2026-08-25T13:08:00+00:00",
+    "timestamp": "2026-08-25T13:32:00+00:00",
     "difficulty": {
-        "2": 5
+        "2": 2
     },
     "mode": {
-        "1": 1,
-        "0": 4
+        "0": 2
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 4
+        "2|0": 2
     },
     "activities": [
         {
             "name": "Trade",
-            "count": 2
-        },
-        {
-            "name": "Other",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
@@ -27,49 +21,17 @@
     ],
     "top_games": [
         {
-            "name": "n fireskillers",
+            "name": "n pierce griff",
             "count": 1
         },
         {
             "name": "asd",
             "count": 1
-        },
-        {
-            "name": "nec grow 18",
-            "count": 1
-        },
-        {
-            "name": "sfsdf",
-            "count": 1
-        },
-        {
-            "name": "n pierce griff",
-            "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "nec grow #",
-            "count": 2,
-            "examples": [
-                "nec grow 18"
-            ]
-        },
-        {
-            "normalized": "sfsdf",
-            "count": 2,
-            "examples": [
-                "sfsdf"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Trade": [
-            {
-                "name": "n fireskillers",
-                "matched": "n",
-                "count": 1
-            },
             {
                 "name": "n pierce griff",
                 "matched": "n",
@@ -85,8 +47,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 9.4
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 8.5
     }
 }
