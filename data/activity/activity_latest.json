@@ -1,39 +1,62 @@
 {
-    "timestamp": "2026-08-26T09:26:00+00:00",
+    "timestamp": "2026-08-26T09:45:00+00:00",
     "difficulty": {
-        "2": 1
+        "2": 2,
+        "1": 1
     },
     "mode": {
-        "0": 1
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1
+        "2|0": 2,
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
+            "count": 2
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "jah ber plz 1",
+            "name": "jah ber plz 4",
+            "count": 1
+        },
+        {
+            "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "jah ber plz 3",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "jah ber plz #",
-            "count": 2,
+            "count": 4,
             "examples": [
-                "jah ber plz 1"
+                "jah ber plz 3",
+                "jah ber plz 4"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 13.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 9.67
     }
 }
