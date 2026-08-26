@@ -1,21 +1,31 @@
 {
-    "timestamp": "2026-08-26T10:58:00+00:00",
+    "timestamp": "2026-08-26T11:12:00+00:00",
     "difficulty": {
-        "2": 1
+        "2": 2
     },
     "mode": {
+        "1": 1,
         "0": 1
     },
     "difficulty_mode": {
+        "2|1": 1,
         "2|0": 1
     },
     "activities": [
+        {
+            "name": "Trade",
+            "count": 1
+        },
         {
             "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "n fireskillers",
+            "count": 1
+        },
         {
             "name": "zxc",
             "count": 1
@@ -30,10 +40,18 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Trade": [
+            {
+                "name": "n fireskillers",
+                "matched": "n",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 3.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 8.5
     }
 }
