@@ -1,37 +1,23 @@
 {
-    "timestamp": "2026-08-26T12:45:00+00:00",
+    "timestamp": "2026-08-26T13:20:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 1
     },
     "mode": {
-        "1": 1,
-        "0": 2
+        "1": 1
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 2
+        "2|1": 1
     },
     "activities": [
         {
             "name": "Trade",
-            "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "n fireskillers",
-            "count": 1
-        },
-        {
-            "name": "n 5/5 light",
-            "count": 1
-        },
-        {
-            "name": "asd",
             "count": 1
         }
     ],
@@ -42,24 +28,12 @@
                 "name": "n fireskillers",
                 "matched": "n",
                 "count": 1
-            },
-            {
-                "name": "n 5/5 light",
-                "matched": "n",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 9.33
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 14.0
     }
 }
