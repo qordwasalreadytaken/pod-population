@@ -1,31 +1,25 @@
 {
-    "timestamp": "2026-08-26T14:14:00+00:00",
+    "timestamp": "2026-08-26T14:31:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 1,
+        "2": 2,
         "0": 1
     },
     "mode": {
-        "1": 2,
-        "0": 3
+        "1": 1,
+        "0": 2
     },
     "difficulty_mode": {
         "2|1": 1,
-        "1|1": 1,
-        "2|0": 2,
+        "2|0": 1,
         "0|0": 1
     },
     "activities": [
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 2
-        },
         {
             "name": "Trade",
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
@@ -35,15 +29,11 @@
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 2
-        },
-        {
             "name": "n fireskillers",
             "count": 1
         },
         {
-            "name": "stuck",
+            "name": "asd",
             "count": 1
         },
         {
@@ -51,15 +41,7 @@
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "stuck",
-            "count": 2,
-            "examples": [
-                "stuck"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Trade": [
             {
@@ -72,7 +54,7 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             }
         ],
         "Leveling": [
@@ -84,8 +66,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 5,
-        "average_name_length": 8.25
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 9.33
     }
 }
