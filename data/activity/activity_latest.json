@@ -1,36 +1,31 @@
 {
-    "timestamp": "2026-08-26T17:55:00+00:00",
+    "timestamp": "2026-08-26T18:35:00+00:00",
     "difficulty": {
-        "1": 1,
-        "2": 1,
+        "2": 3,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "2|0": 1,
+        "2|1": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Maps",
-            "count": 1
+            "count": 4
         }
     ],
     "top_games": [
         {
-            "name": "doogs",
-            "count": 1
+            "name": "g",
+            "count": 2
         },
         {
-            "name": "maps 3",
+            "name": "doogs",
             "count": 1
         },
         {
@@ -39,6 +34,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "g",
+            "count": 4,
+            "examples": [
+                "g"
+            ]
+        },
         {
             "normalized": "doogs",
             "count": 2,
@@ -54,18 +56,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Maps": [
-            {
-                "name": "maps 3",
-                "matched": "maps",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
         "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 5.0
+        "public_games": 4,
+        "average_name_length": 3.33
     }
 }
