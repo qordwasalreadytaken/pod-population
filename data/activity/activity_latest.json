@@ -1,39 +1,50 @@
 {
-    "timestamp": "2026-08-25T23:50:00+00:00",
+    "timestamp": "2026-08-26T00:08:00+00:00",
     "difficulty": {
-        "2": 1
+        "2": 2
     },
     "mode": {
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 1
+        "2|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "sure",
+            "name": "ewfweaf",
+            "count": 1
+        },
+        {
+            "name": "dvawefwae",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "sure",
+            "normalized": "ewfweaf",
             "count": 2,
             "examples": [
-                "sure"
+                "ewfweaf"
+            ]
+        },
+        {
+            "normalized": "dvawefwae",
+            "count": 2,
+            "examples": [
+                "dvawefwae"
             ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 4.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 8.0
     }
 }
