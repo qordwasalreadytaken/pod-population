@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-08-26T11:54:00+00:00",
+    "timestamp": "2026-08-26T12:07:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 4
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 2
+        "2|0": 3
     },
     "activities": [
         {
@@ -18,6 +18,10 @@
         },
         {
             "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Other",
             "count": 1
         }
     ],
@@ -29,9 +33,21 @@
         {
             "name": "n fireskillers",
             "count": 1
+        },
+        {
+            "name": "seth",
+            "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "seth",
+            "count": 2,
+            "examples": [
+                "seth"
+            ]
+        }
+    ],
     "classified_games": {
         "Trade": [
             {
@@ -49,8 +65,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 3,
-        "average_name_length": 8.5
+        "unique_names": 3,
+        "public_games": 4,
+        "average_name_length": 7.0
     }
 }
