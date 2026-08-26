@@ -1,43 +1,36 @@
 {
-    "timestamp": "2026-08-26T16:47:00+00:00",
+    "timestamp": "2026-08-26T17:55:00+00:00",
     "difficulty": {
-        "2": 4,
+        "1": 1,
+        "2": 1,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 2
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 3,
+        "1|1": 1,
+        "2|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 3
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
             "name": "Other",
+            "count": 2
+        },
+        {
+            "name": "Maps",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "ojah n ber ohm",
-            "count": 2
-        },
-        {
-            "name": "n fireskillers",
+            "name": "doogs",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "maps 3",
             "count": 1
         },
         {
@@ -47,6 +40,13 @@
     ],
     "unknown_games": [
         {
+            "normalized": "doogs",
+            "count": 2,
+            "examples": [
+                "doogs"
+            ]
+        },
+        {
             "normalized": "open",
             "count": 2,
             "examples": [
@@ -55,29 +55,17 @@
         }
     ],
     "classified_games": {
-        "Trade": [
+        "Maps": [
             {
-                "name": "ojah n ber ohm",
-                "matched": "n",
-                "count": 2
-            },
-            {
-                "name": "n fireskillers",
-                "matched": "n",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
+                "name": "maps 3",
+                "matched": "maps",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 5,
-        "average_name_length": 8.75
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 5.0
     }
 }
