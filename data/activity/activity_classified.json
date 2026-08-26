@@ -222,7 +222,7 @@
         {
             "name": "n fireskillers",
             "matched": "n",
-            "count": 32
+            "count": 33
         },
         {
             "name": "n pierce griff",
@@ -335,13 +335,18 @@
             "count": 5
         },
         {
+            "name": "n 5/5 light",
+            "matched": "n",
+            "count": 5
+        },
+        {
             "name": "n pala skiller",
             "matched": "n",
             "count": 4
         },
         {
             "name": "n necro torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -361,11 +366,6 @@
         },
         {
             "name": "n toch necro",
-            "matched": "n",
-            "count": 4
-        },
-        {
-            "name": "n 5/5 light",
             "matched": "n",
             "count": 4
         },
@@ -778,7 +778,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 3
         },
         {
@@ -853,7 +853,7 @@
         },
         {
             "name": "normal act",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -963,7 +963,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -1078,7 +1078,7 @@
         {
             "name": "asd",
             "matched": "asd",
-            "count": 260
+            "count": 261
         },
         {
             "name": "gord",
@@ -1986,7 +1986,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "map",
+            "matched": "mapping",
             "count": 4
         },
         {
@@ -2146,7 +2146,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -2161,7 +2161,7 @@
         },
         {
             "name": "mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -2178,7 +2178,7 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
