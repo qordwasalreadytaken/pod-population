@@ -1,13 +1,16 @@
 {
-    "timestamp": "2026-08-27T16:54:00+00:00",
+    "timestamp": "2026-08-27T20:24:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 1,
+        "1": 1
     },
     "mode": {
-        "0": 2
+        "1": 1,
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|1": 1,
+        "1|0": 1
     },
     "activities": [
         {
@@ -17,23 +20,34 @@
     ],
     "top_games": [
         {
-            "name": "t",
-            "count": 2
+            "name": "atlas",
+            "count": 1
+        },
+        {
+            "name": "cani modf green",
+            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "t",
-            "count": 4,
+            "normalized": "atlas",
+            "count": 2,
             "examples": [
-                "t"
+                "atlas"
+            ]
+        },
+        {
+            "normalized": "cani modf green",
+            "count": 2,
+            "examples": [
+                "cani modf green"
             ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 1,
+        "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 1.0
+        "average_name_length": 10.0
     }
 }
