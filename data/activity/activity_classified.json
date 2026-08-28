@@ -266,7 +266,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "buy",
+            "matched": "torch",
             "count": 12
         },
         {
@@ -863,7 +863,7 @@
         },
         {
             "name": "ancients norm",
-            "matched": "norm",
+            "matched": "anci",
             "count": 2
         },
         {
@@ -873,7 +873,7 @@
         },
         {
             "name": "normal act",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -983,7 +983,7 @@
         },
         {
             "name": "act start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -1034,6 +1034,11 @@
         {
             "name": "anciens n help",
             "matched": "anci",
+            "count": 1
+        },
+        {
+            "name": "start me",
+            "matched": "start",
             "count": 1
         }
     ],
@@ -1098,7 +1103,7 @@
         {
             "name": "asd",
             "matched": "asd",
-            "count": 276
+            "count": 277
         },
         {
             "name": "gord",
@@ -1707,7 +1712,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -1782,7 +1787,7 @@
         },
         {
             "name": "14123awdasdfqwr",
-            "matched": "123",
+            "matched": "asd",
             "count": 1
         },
         {
@@ -2233,7 +2238,7 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]

@@ -8995,7 +8995,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 },
                 {
@@ -12824,7 +12824,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 }
             ]
@@ -20087,7 +20087,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -20187,7 +20187,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -33947,7 +33947,7 @@
             "Uber": [
                 {
                     "name": "ubers",
-                    "matched": "ubers",
+                    "matched": "uber",
                     "count": 1
                 }
             ],
@@ -35849,7 +35849,7 @@
             "Leveling": [
                 {
                     "name": "act start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -36454,7 +36454,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "mf runs",
-                    "matched": "run",
+                    "matched": "mf",
                     "count": 1
                 }
             ]
@@ -63618,7 +63618,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "14123awdasdfqwr",
-                    "matched": "123",
+                    "matched": "asd",
                     "count": 1
                 },
                 {
@@ -81314,7 +81314,7 @@
             "Trade": [
                 {
                     "name": "buy torch necro",
-                    "matched": "buy",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -81379,7 +81379,7 @@
             "Trade": [
                 {
                     "name": "buy torch necro",
-                    "matched": "buy",
+                    "matched": "torch",
                     "count": 1
                 }
             ],
@@ -81425,7 +81425,7 @@
             "Trade": [
                 {
                     "name": "buy torch necro",
-                    "matched": "buy",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -81478,7 +81478,7 @@
             "Trade": [
                 {
                     "name": "buy torch necro",
-                    "matched": "buy",
+                    "matched": "torch",
                     "count": 1
                 }
             ],
@@ -81559,7 +81559,7 @@
             "Trade": [
                 {
                     "name": "buy torch necro",
-                    "matched": "buy",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -81628,7 +81628,7 @@
             "Trade": [
                 {
                     "name": "buy torch necro",
-                    "matched": "buy",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -81682,7 +81682,7 @@
             "Trade": [
                 {
                     "name": "buy torch necro",
-                    "matched": "buy",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -81763,7 +81763,7 @@
             "Trade": [
                 {
                     "name": "buy torch necro",
-                    "matched": "buy",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -81833,7 +81833,7 @@
             "Trade": [
                 {
                     "name": "buy torch necro",
-                    "matched": "buy",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -81903,7 +81903,7 @@
             "Trade": [
                 {
                     "name": "buy torch necro",
-                    "matched": "buy",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -81973,7 +81973,7 @@
             "Trade": [
                 {
                     "name": "buy torch necro",
-                    "matched": "buy",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -82125,7 +82125,7 @@
             "Trade": [
                 {
                     "name": "buy torch necro",
-                    "matched": "buy",
+                    "matched": "torch",
                     "count": 1
                 }
             ],
@@ -111445,6 +111445,91 @@
             "unique_names": 3,
             "public_games": 3,
             "average_name_length": 2.67
+        }
+    },
+    {
+        "timestamp": "2026-08-28T22:46:00+00:00",
+        "difficulty": {
+            "2": 2,
+            "1": 1,
+            "0": 1
+        },
+        "mode": {
+            "0": 4
+        },
+        "difficulty_mode": {
+            "2|0": 2,
+            "1|0": 1,
+            "0|0": 1
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 2
+            },
+            {
+                "name": "Misc. Public MF Runs",
+                "count": 1
+            },
+            {
+                "name": "Leveling",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "sure",
+                "count": 1
+            },
+            {
+                "name": "asd",
+                "count": 1
+            },
+            {
+                "name": "gs 567",
+                "count": 1
+            },
+            {
+                "name": "start me",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "sure",
+                "count": 2,
+                "examples": [
+                    "sure"
+                ]
+            },
+            {
+                "normalized": "gs #",
+                "count": 2,
+                "examples": [
+                    "gs 567"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Misc. Public MF Runs": [
+                {
+                    "name": "asd",
+                    "matched": "asd",
+                    "count": 1
+                }
+            ],
+            "Leveling": [
+                {
+                    "name": "start me",
+                    "matched": "start",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 4,
+            "public_games": 4,
+            "average_name_length": 5.25
         }
     }
 ]

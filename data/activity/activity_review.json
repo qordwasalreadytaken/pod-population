@@ -60,6 +60,13 @@
         ]
     },
     {
+        "normalized": "sure",
+        "count": 88,
+        "examples": [
+            "sure"
+        ]
+    },
+    {
         "normalized": "atlas'#",
         "count": 86,
         "examples": [
@@ -69,13 +76,6 @@
             "atlas'4",
             "atlas'6",
             "atlas'8"
-        ]
-    },
-    {
-        "normalized": "sure",
-        "count": 86,
-        "examples": [
-            "sure"
         ]
     },
     {
@@ -233,19 +233,20 @@
         ]
     },
     {
+        "normalized": "gs #",
+        "count": 30,
+        "examples": [
+            "gs 1",
+            "gs 2",
+            "gs 3",
+            "gs 567"
+        ]
+    },
+    {
         "normalized": "yep",
         "count": 28,
         "examples": [
             "yep"
-        ]
-    },
-    {
-        "normalized": "gs #",
-        "count": 28,
-        "examples": [
-            "gs 1",
-            "gs 2",
-            "gs 3"
         ]
     },
     {
