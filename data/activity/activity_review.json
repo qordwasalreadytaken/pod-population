@@ -61,7 +61,7 @@
     },
     {
         "normalized": "sure",
-        "count": 90,
+        "count": 92,
         "examples": [
             "sure"
         ]
@@ -226,20 +226,20 @@
         ]
     },
     {
-        "normalized": "crip",
-        "count": 32,
-        "examples": [
-            "crip"
-        ]
-    },
-    {
         "normalized": "gs #",
-        "count": 32,
+        "count": 34,
         "examples": [
             "gs 1",
             "gs 2",
             "gs 3",
             "gs 567"
+        ]
+    },
+    {
+        "normalized": "crip",
+        "count": 32,
+        "examples": [
+            "crip"
         ]
     },
     {
@@ -866,6 +866,13 @@
         "count": 8,
         "examples": [
             "fdf"
+        ]
+    },
+    {
+        "normalized": "v",
+        "count": 8,
+        "examples": [
+            "v"
         ]
     },
     {
@@ -1775,13 +1782,6 @@
         "count": 4,
         "examples": [
             "dfhg"
-        ]
-    },
-    {
-        "normalized": "v",
-        "count": 4,
-        "examples": [
-            "v"
         ]
     },
     {
