@@ -1,23 +1,21 @@
 {
-    "timestamp": "2026-08-28T20:22:00+00:00",
+    "timestamp": "2026-08-28T22:01:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 2
+        "2": 2
     },
     "mode": {
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 2
+        "2|0": 2
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 2
+            "name": "Misc. Public MF Runs",
+            "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
@@ -27,21 +25,16 @@
             "count": 1
         },
         {
-            "name": "meow 7",
-            "count": 1
-        },
-        {
-            "name": "meow 6",
+            "name": "z",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "meow #",
-            "count": 4,
+            "normalized": "z",
+            "count": 2,
             "examples": [
-                "meow 6",
-                "meow 7"
+                "z"
             ]
         }
     ],
@@ -55,8 +48,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 5.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 2.0
     }
 }
