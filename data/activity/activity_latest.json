@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-08-28T22:46:00+00:00",
+    "timestamp": "2026-08-28T23:03:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 1,
         "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2,
+        "2|0": 1,
         "1|0": 1,
         "0|0": 1
     },
@@ -19,10 +19,6 @@
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
             "name": "Leveling",
             "count": 1
         }
@@ -30,10 +26,6 @@
     "top_games": [
         {
             "name": "sure",
-            "count": 1
-        },
-        {
-            "name": "asd",
             "count": 1
         },
         {
@@ -62,13 +54,6 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
         "Leveling": [
             {
                 "name": "start me",
@@ -78,8 +63,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 5.25
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 6.0
     }
 }
