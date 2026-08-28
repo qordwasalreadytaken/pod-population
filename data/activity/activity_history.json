@@ -6290,7 +6290,7 @@
             "Cows": [
                 {
                     "name": "letsseewhomcows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ],
@@ -6357,7 +6357,7 @@
             "Cows": [
                 {
                     "name": "letsseewhomcows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ],
@@ -6418,7 +6418,7 @@
             "Cows": [
                 {
                     "name": "letsseewhomcows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ],
@@ -8950,7 +8950,7 @@
             "Cows": [
                 {
                     "name": "hell cows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ]
@@ -20087,7 +20087,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -20187,7 +20187,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -30789,7 +30789,7 @@
             "Cows": [
                 {
                     "name": "cows 2",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ]
@@ -30872,7 +30872,7 @@
             "Cows": [
                 {
                     "name": "cows 4",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ]
@@ -30963,7 +30963,7 @@
             "Cows": [
                 {
                     "name": "cows 5",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ],
@@ -35849,7 +35849,7 @@
             "Leveling": [
                 {
                     "name": "act start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -36454,7 +36454,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "mf runs",
-                    "matched": "mf",
+                    "matched": "run",
                     "count": 1
                 }
             ]
@@ -38979,7 +38979,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -39036,7 +39036,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -39110,7 +39110,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -44176,7 +44176,7 @@
             "Cows": [
                 {
                     "name": "cows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ]
@@ -53957,7 +53957,7 @@
             "Trade": [
                 {
                     "name": "n sorch torch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 3
                 }
             ]
@@ -63618,7 +63618,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "14123awdasdfqwr",
-                    "matched": "asd",
+                    "matched": "123",
                     "count": 1
                 },
                 {
@@ -94455,7 +94455,7 @@
             "Trade": [
                 {
                     "name": "n assa torch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -94546,7 +94546,7 @@
             "Trade": [
                 {
                     "name": "n assa torch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ],
@@ -94624,7 +94624,7 @@
             "Trade": [
                 {
                     "name": "n assa torch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -111681,6 +111681,82 @@
             "unique_names": 4,
             "public_games": 5,
             "average_name_length": 3.5
+        }
+    },
+    {
+        "timestamp": "2026-08-28T23:32:00+00:00",
+        "difficulty": {
+            "2": 3,
+            "1": 1,
+            "0": 2
+        },
+        "mode": {
+            "0": 6
+        },
+        "difficulty_mode": {
+            "2|0": 3,
+            "1|0": 1,
+            "0|0": 2
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 6
+            }
+        ],
+        "top_games": [
+            {
+                "name": "sure",
+                "count": 2
+            },
+            {
+                "name": "v",
+                "count": 2
+            },
+            {
+                "name": "gs 567",
+                "count": 1
+            },
+            {
+                "name": "asav",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "sure",
+                "count": 4,
+                "examples": [
+                    "sure"
+                ]
+            },
+            {
+                "normalized": "v",
+                "count": 4,
+                "examples": [
+                    "v"
+                ]
+            },
+            {
+                "normalized": "gs #",
+                "count": 2,
+                "examples": [
+                    "gs 567"
+                ]
+            },
+            {
+                "normalized": "asav",
+                "count": 2,
+                "examples": [
+                    "asav"
+                ]
+            }
+        ],
+        "classified_games": {},
+        "interesting": {
+            "unique_names": 4,
+            "public_games": 6,
+            "average_name_length": 3.75
         }
     }
 ]
