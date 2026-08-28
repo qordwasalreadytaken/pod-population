@@ -1,57 +1,62 @@
 {
-    "timestamp": "2026-08-28T16:18:00+00:00",
+    "timestamp": "2026-08-28T20:22:00+00:00",
     "difficulty": {
-        "0": 1,
-        "2": 1
+        "2": 1,
+        "0": 2
     },
     "mode": {
-        "1": 1,
-        "0": 1
+        "0": 3
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 1
+        "2|0": 1,
+        "0|0": 2
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "aa",
+            "name": "asd",
             "count": 1
         },
         {
-            "name": "n 3/20 javaglov",
+            "name": "meow 7",
+            "count": 1
+        },
+        {
+            "name": "meow 6",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "meow #",
+            "count": 4,
+            "examples": [
+                "meow 6",
+                "meow 7"
+            ]
+        }
+    ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "aa",
-                "matched": "aa",
-                "count": 1
-            }
-        ],
-        "Trade": [
-            {
-                "name": "n 3/20 javaglov",
-                "matched": "n",
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 8.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 5.0
     }
 }
