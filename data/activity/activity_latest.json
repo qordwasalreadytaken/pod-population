@@ -1,21 +1,15 @@
 {
-    "timestamp": "2026-08-27T23:42:00+00:00",
+    "timestamp": "2026-08-28T02:19:00+00:00",
     "difficulty": {
-        "1": 1,
-        "0": 1
+        "1": 1
     },
     "mode": {
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
-        "1|0": 1,
-        "0|0": 1
+        "1|0": 1
     },
     "activities": [
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
         {
             "name": "Other",
             "count": 1
@@ -23,35 +17,23 @@
     ],
     "top_games": [
         {
-            "name": "greenhasgrunre",
-            "count": 1
-        },
-        {
-            "name": "play 01",
+            "name": "surely",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "play #",
+            "normalized": "surely",
             "count": 2,
             "examples": [
-                "play 01"
+                "surely"
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "greenhasgrunre",
-                "matched": "run",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 10.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 6.0
     }
 }
