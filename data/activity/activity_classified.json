@@ -266,7 +266,12 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "buy",
+            "matched": "torch",
+            "count": 12
+        },
+        {
+            "name": "n 5/5 fire",
+            "matched": "n",
             "count": 12
         },
         {
@@ -276,11 +281,6 @@
         },
         {
             "name": "n fireskiller",
-            "matched": "n",
-            "count": 11
-        },
-        {
-            "name": "n 5/5 fire",
             "matched": "n",
             "count": 11
         },
@@ -345,6 +345,11 @@
             "count": 5
         },
         {
+            "name": "buy 3 ber",
+            "matched": "buy",
+            "count": 5
+        },
+        {
             "name": "n pala skiller",
             "matched": "n",
             "count": 4
@@ -372,11 +377,6 @@
         {
             "name": "n toch necro",
             "matched": "n",
-            "count": 4
-        },
-        {
-            "name": "buy 3 ber",
-            "matched": "buy",
             "count": 4
         },
         {
@@ -721,6 +721,11 @@
         },
         {
             "name": "n trang sockets",
+            "matched": "n",
+            "count": 1
+        },
+        {
+            "name": "n trang helm",
             "matched": "n",
             "count": 1
         }
@@ -1817,7 +1822,7 @@
         },
         {
             "name": "14123awdasdfqwr",
-            "matched": "123",
+            "matched": "asd",
             "count": 1
         },
         {
@@ -2273,7 +2278,7 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]

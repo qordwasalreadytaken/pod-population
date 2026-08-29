@@ -1,39 +1,33 @@
 {
-    "timestamp": "2026-08-29T21:03:00+00:00",
+    "timestamp": "2026-08-29T21:19:00+00:00",
     "difficulty": {
         "2": 4,
-        "1": 1,
-        "0": 1
+        "1": 1
     },
     "mode": {
-        "0": 6
+        "0": 5
     },
     "difficulty_mode": {
         "2|0": 4,
-        "1|0": 1,
-        "0|0": 1
+        "1|0": 1
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 3
         },
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 2
-        },
-        {
-            "name": "Leveling",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "buy 3 ber",
+            "name": "n trang helm",
             "count": 1
         },
         {
-            "name": "surely",
+            "name": "buy 3 ber",
             "count": 1
         },
         {
@@ -45,22 +39,11 @@
             "count": 1
         },
         {
-            "name": "doretooo",
-            "count": 1
-        },
-        {
-            "name": "startingup",
+            "name": "goretooo",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "surely",
-            "count": 2,
-            "examples": [
-                "surely"
-            ]
-        },
         {
             "normalized": "lvv",
             "count": 2,
@@ -69,15 +52,20 @@
             ]
         },
         {
-            "normalized": "doretooo",
+            "normalized": "goretooo",
             "count": 2,
             "examples": [
-                "doretooo"
+                "goretooo"
             ]
         }
     ],
     "classified_games": {
         "Trade": [
+            {
+                "name": "n trang helm",
+                "matched": "n",
+                "count": 1
+            },
             {
                 "name": "buy 3 ber",
                 "matched": "buy",
@@ -88,18 +76,11 @@
                 "matched": "n",
                 "count": 1
             }
-        ],
-        "Leveling": [
-            {
-                "name": "startingup",
-                "matched": "start",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 7.67
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 8.4
     }
 }
