@@ -1,14 +1,12 @@
 {
-    "timestamp": "2026-08-29T19:46:00+00:00",
+    "timestamp": "2026-08-29T20:04:00+00:00",
     "difficulty": {
-        "2": 5
+        "2": 4
     },
     "mode": {
-        "1": 1,
         "0": 4
     },
     "difficulty_mode": {
-        "2|1": 1,
         "2|0": 4
     },
     "activities": [
@@ -18,7 +16,7 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Other",
@@ -27,19 +25,19 @@
     ],
     "top_games": [
         {
-            "name": "gord",
-            "count": 2
+            "name": "n 5/5 fire",
+            "count": 1
         },
         {
-            "name": "n fireskillers",
+            "name": "buy 3 ber",
+            "count": 1
+        },
+        {
+            "name": "gord",
             "count": 1
         },
         {
             "name": "lvv",
-            "count": 1
-        },
-        {
-            "name": "n 5/5 fire",
             "count": 1
         }
     ],
@@ -55,13 +53,13 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "n fireskillers",
+                "name": "n 5/5 fire",
                 "matched": "n",
                 "count": 1
             },
             {
-                "name": "n 5/5 fire",
-                "matched": "n",
+                "name": "buy 3 ber",
+                "matched": "buy",
                 "count": 1
             }
         ],
@@ -69,13 +67,13 @@
             {
                 "name": "gord",
                 "matched": "gord",
-                "count": 2
+                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 4,
-        "public_games": 5,
-        "average_name_length": 7.75
+        "public_games": 4,
+        "average_name_length": 6.5
     }
 }
