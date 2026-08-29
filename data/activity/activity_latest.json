@@ -1,29 +1,37 @@
 {
-    "timestamp": "2026-08-29T20:04:00+00:00",
+    "timestamp": "2026-08-29T20:20:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 6
     },
     "mode": {
-        "0": 4
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 4
+        "2|0": 6
     },
     "activities": [
         {
             "name": "Trade",
+            "count": 3
+        },
+        {
+            "name": "Other",
             "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
-        },
-        {
-            "name": "Other",
-            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "buy 3 berr",
+            "count": 1
+        },
+        {
+            "name": "surely",
+            "count": 1
+        },
         {
             "name": "n 5/5 fire",
             "count": 1
@@ -43,6 +51,13 @@
     ],
     "unknown_games": [
         {
+            "normalized": "surely",
+            "count": 2,
+            "examples": [
+                "surely"
+            ]
+        },
+        {
             "normalized": "lvv",
             "count": 2,
             "examples": [
@@ -52,6 +67,11 @@
     ],
     "classified_games": {
         "Trade": [
+            {
+                "name": "buy 3 berr",
+                "matched": "buy",
+                "count": 1
+            },
             {
                 "name": "n 5/5 fire",
                 "matched": "n",
@@ -72,8 +92,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.5
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 7.0
     }
 }
