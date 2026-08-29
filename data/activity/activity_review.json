@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 510,
+        "count": 512,
         "examples": [
             "1",
             "10",
@@ -54,7 +54,7 @@
     },
     {
         "normalized": "sure",
-        "count": 126,
+        "count": 128,
         "examples": [
             "sure"
         ]
@@ -1251,6 +1251,13 @@
         ]
     },
     {
+        "normalized": "surenot",
+        "count": 6,
+        "examples": [
+            "surenot"
+        ]
+    },
+    {
         "normalized": "nm #",
         "count": 4,
         "examples": [
@@ -1916,13 +1923,6 @@
         "count": 4,
         "examples": [
             "pupkata"
-        ]
-    },
-    {
-        "normalized": "surenot",
-        "count": 4,
-        "examples": [
-            "surenot"
         ]
     },
     {
