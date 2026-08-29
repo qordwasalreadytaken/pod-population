@@ -1,27 +1,31 @@
 {
-    "timestamp": "2026-08-29T16:04:00+00:00",
+    "timestamp": "2026-08-29T16:21:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 2
+        "2": 3,
+        "0": 1
     },
     "mode": {
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 2
+        "2|0": 3,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Leveling",
-            "count": 1
+            "count": 4
         }
     ],
     "top_games": [
+        {
+            "name": "ddassd",
+            "count": 1
+        },
+        {
+            "name": "jah ber plz 1",
+            "count": 1
+        },
         {
             "name": "yepp",
             "count": 1
@@ -29,13 +33,23 @@
         {
             "name": "asgf",
             "count": 1
-        },
-        {
-            "name": "start",
-            "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "ddassd",
+            "count": 2,
+            "examples": [
+                "ddassd"
+            ]
+        },
+        {
+            "normalized": "jah ber plz #",
+            "count": 2,
+            "examples": [
+                "jah ber plz 1"
+            ]
+        },
         {
             "normalized": "yepp",
             "count": 2,
@@ -51,18 +65,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Leveling": [
-            {
-                "name": "start",
-                "matched": "start",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 4.33
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 6.75
     }
 }
