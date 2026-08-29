@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-08-29T17:03:00+00:00",
+    "timestamp": "2026-08-29T17:19:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 1
+        "2": 1,
+        "1": 2
     },
     "mode": {
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "1|0": 1
+        "2|0": 1,
+        "1|0": 2
     },
     "activities": [
         {
@@ -18,7 +18,7 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
@@ -27,11 +27,7 @@
             "count": 1
         },
         {
-            "name": "n ist runes",
-            "count": 1
-        },
-        {
-            "name": "ddassd",
+            "name": "surenot",
             "count": 1
         },
         {
@@ -48,20 +44,15 @@
             ]
         },
         {
-            "normalized": "ddassd",
+            "normalized": "surenot",
             "count": 2,
             "examples": [
-                "ddassd"
+                "surenot"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
-            {
-                "name": "n ist runes",
-                "matched": "run",
-                "count": 1
-            },
             {
                 "name": "gord",
                 "matched": "gord",
@@ -70,8 +61,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.25
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 5.0
     }
 }
