@@ -1,28 +1,28 @@
 {
-    "timestamp": "2026-08-29T20:32:00+00:00",
+    "timestamp": "2026-08-29T20:46:00+00:00",
     "difficulty": {
-        "2": 6,
+        "2": 8,
         "0": 1
     },
     "mode": {
-        "0": 7
+        "0": 9
     },
     "difficulty_mode": {
-        "2|0": 6,
+        "2|0": 8,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 3
+            "name": "Misc. Public MF Runs",
+            "count": 4
         },
         {
             "name": "Trade",
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
             "name": "Leveling",
@@ -31,11 +31,15 @@
     ],
     "top_games": [
         {
-            "name": "surely",
-            "count": 2
+            "name": "n meph essence",
+            "count": 3
         },
         {
-            "name": "buy 3 berr",
+            "name": "buy 3 ber",
+            "count": 1
+        },
+        {
+            "name": "surely",
             "count": 1
         },
         {
@@ -58,7 +62,7 @@
     "unknown_games": [
         {
             "normalized": "surely",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "surely"
             ]
@@ -72,22 +76,27 @@
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "n meph essence",
+                "matched": "meph",
+                "count": 3
+            },
+            {
+                "name": "gord",
+                "matched": "gord",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
-                "name": "buy 3 berr",
+                "name": "buy 3 ber",
                 "matched": "buy",
                 "count": 1
             },
             {
                 "name": "n 5/5 fire",
                 "matched": "n",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "gord",
-                "matched": "gord",
                 "count": 1
             }
         ],
@@ -100,8 +109,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 7.17
+        "unique_names": 7,
+        "public_games": 9,
+        "average_name_length": 8.0
     }
 }
