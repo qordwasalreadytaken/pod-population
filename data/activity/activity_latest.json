@@ -1,30 +1,30 @@
 {
-    "timestamp": "2026-08-29T11:32:00+00:00",
+    "timestamp": "2026-08-29T11:46:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 1
     },
     "mode": {
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "ddassd",
-            "count": 2
+            "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "ddassd",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "ddassd"
             ]
@@ -33,7 +33,7 @@
     "classified_games": {},
     "interesting": {
         "unique_names": 1,
-        "public_games": 2,
+        "public_games": 1,
         "average_name_length": 6.0
     }
 }
