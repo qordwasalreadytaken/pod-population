@@ -1,27 +1,25 @@
 {
-    "timestamp": "2026-08-29T20:46:00+00:00",
+    "timestamp": "2026-08-29T21:03:00+00:00",
     "difficulty": {
-        "2": 8,
+        "2": 4,
+        "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 9
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 8,
+        "2|0": 4,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 4
+            "name": "Other",
+            "count": 3
         },
         {
             "name": "Trade",
-            "count": 2
-        },
-        {
-            "name": "Other",
             "count": 2
         },
         {
@@ -30,10 +28,6 @@
         }
     ],
     "top_games": [
-        {
-            "name": "n meph essence",
-            "count": 3
-        },
         {
             "name": "buy 3 ber",
             "count": 1
@@ -47,11 +41,11 @@
             "count": 1
         },
         {
-            "name": "gord",
+            "name": "lvv",
             "count": 1
         },
         {
-            "name": "lvv",
+            "name": "doretooo",
             "count": 1
         },
         {
@@ -73,21 +67,16 @@
             "examples": [
                 "lvv"
             ]
+        },
+        {
+            "normalized": "doretooo",
+            "count": 2,
+            "examples": [
+                "doretooo"
+            ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "n meph essence",
-                "matched": "meph",
-                "count": 3
-            },
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "buy 3 ber",
@@ -109,8 +98,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 9,
-        "average_name_length": 8.0
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 7.67
     }
 }

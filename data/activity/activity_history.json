@@ -5572,7 +5572,7 @@
             "Maps": [
                 {
                     "name": "maps",
-                    "matched": "maps",
+                    "matched": "map",
                     "count": 1
                 }
             ],
@@ -14535,7 +14535,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ],
@@ -17824,7 +17824,7 @@
             "Leveling": [
                 {
                     "name": "normal tombin",
-                    "matched": "norm",
+                    "matched": "tomb",
                     "count": 1
                 },
                 {
@@ -35849,7 +35849,7 @@
             "Leveling": [
                 {
                     "name": "act start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -38979,7 +38979,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -39036,7 +39036,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -39110,7 +39110,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -45195,7 +45195,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -45294,7 +45294,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -45383,7 +45383,7 @@
             "Maps": [
                 {
                     "name": "mapping 2",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ],
@@ -51384,7 +51384,7 @@
             "Maps": [
                 {
                     "name": "maps?2",
-                    "matched": "maps",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -61468,7 +61468,7 @@
                 },
                 {
                     "name": "mapping",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -89630,7 +89630,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -107255,7 +107255,7 @@
             "Maps": [
                 {
                     "name": "t maps",
-                    "matched": "maps",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -107338,7 +107338,7 @@
             "Maps": [
                 {
                     "name": "t maps",
-                    "matched": "maps",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -107419,7 +107419,7 @@
             "Maps": [
                 {
                     "name": "t maps 2",
-                    "matched": "maps",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -107515,7 +107515,7 @@
             "Maps": [
                 {
                     "name": "t maps 2",
-                    "matched": "maps",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -110274,7 +110274,7 @@
             "Maps": [
                 {
                     "name": "maps 3",
-                    "matched": "maps",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -115972,6 +115972,111 @@
             "unique_names": 7,
             "public_games": 9,
             "average_name_length": 8.0
+        }
+    },
+    {
+        "timestamp": "2026-08-29T21:03:00+00:00",
+        "difficulty": {
+            "2": 4,
+            "1": 1,
+            "0": 1
+        },
+        "mode": {
+            "0": 6
+        },
+        "difficulty_mode": {
+            "2|0": 4,
+            "1|0": 1,
+            "0|0": 1
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 3
+            },
+            {
+                "name": "Trade",
+                "count": 2
+            },
+            {
+                "name": "Leveling",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "buy 3 ber",
+                "count": 1
+            },
+            {
+                "name": "surely",
+                "count": 1
+            },
+            {
+                "name": "n 5/5 fire",
+                "count": 1
+            },
+            {
+                "name": "lvv",
+                "count": 1
+            },
+            {
+                "name": "doretooo",
+                "count": 1
+            },
+            {
+                "name": "startingup",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "surely",
+                "count": 2,
+                "examples": [
+                    "surely"
+                ]
+            },
+            {
+                "normalized": "lvv",
+                "count": 2,
+                "examples": [
+                    "lvv"
+                ]
+            },
+            {
+                "normalized": "doretooo",
+                "count": 2,
+                "examples": [
+                    "doretooo"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Trade": [
+                {
+                    "name": "buy 3 ber",
+                    "matched": "buy",
+                    "count": 1
+                },
+                {
+                    "name": "n 5/5 fire",
+                    "matched": "n",
+                    "count": 1
+                }
+            ],
+            "Leveling": [
+                {
+                    "name": "startingup",
+                    "matched": "start",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 6,
+            "public_games": 6,
+            "average_name_length": 7.67
         }
     }
 ]
