@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-29T04:46:00+00:00",
+    "timestamp": "2026-08-29T05:04:00+00:00",
     "difficulty": {
         "1": 1
     },
@@ -17,16 +17,16 @@
     ],
     "top_games": [
         {
-            "name": "doretoo",
+            "name": "go6oto",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "doretoo",
+            "normalized": "go#oto",
             "count": 2,
             "examples": [
-                "doretoo"
+                "go6oto"
             ]
         }
     ],
@@ -34,6 +34,6 @@
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 7.0
+        "average_name_length": 6.0
     }
 }
