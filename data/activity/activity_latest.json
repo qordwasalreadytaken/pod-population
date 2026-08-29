@@ -1,18 +1,18 @@
 {
-    "timestamp": "2026-08-29T21:46:00+00:00",
+    "timestamp": "2026-08-29T22:04:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 3
     },
     "mode": {
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 4
+        "2|0": 3
     },
     "activities": [
         {
             "name": "Trade",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Other",
@@ -21,15 +21,15 @@
     ],
     "top_games": [
         {
-            "name": "n 5/5 fire",
-            "count": 2
-        },
-        {
-            "name": "lvv",
+            "name": "buy 3 berr",
             "count": 1
         },
         {
-            "name": "buy 3 berr",
+            "name": "n 5/5 fire",
+            "count": 1
+        },
+        {
+            "name": "lvv",
             "count": 1
         }
     ],
@@ -45,20 +45,20 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "n 5/5 fire",
-                "matched": "n",
-                "count": 2
-            },
-            {
                 "name": "buy 3 berr",
                 "matched": "buy",
+                "count": 1
+            },
+            {
+                "name": "n 5/5 fire",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 4,
+        "public_games": 3,
         "average_name_length": 7.67
     }
 }
