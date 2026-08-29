@@ -1,15 +1,17 @@
 {
-    "timestamp": "2026-08-29T23:18:00+00:00",
+    "timestamp": "2026-08-29T23:32:00+00:00",
     "difficulty": {
         "2": 3,
+        "1": 1,
         "0": 1
     },
     "mode": {
-        "1": 1,
+        "1": 2,
         "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
+        "1|1": 1,
         "2|0": 2,
         "0|0": 1
     },
@@ -20,12 +22,16 @@
         },
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
             "name": "n fireskillers",
+            "count": 1
+        },
+        {
+            "name": "qe",
             "count": 1
         },
         {
@@ -42,6 +48,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "qe",
+            "count": 2,
+            "examples": [
+                "qe"
+            ]
+        },
         {
             "normalized": "fbnhsfghs",
             "count": 2,
@@ -70,8 +83,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 10.75
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 9.0
     }
 }
