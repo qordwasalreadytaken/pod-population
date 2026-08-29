@@ -1,43 +1,45 @@
 {
-    "timestamp": "2026-08-29T20:20:00+00:00",
+    "timestamp": "2026-08-29T20:32:00+00:00",
     "difficulty": {
-        "2": 6
+        "2": 6,
+        "0": 1
     },
     "mode": {
-        "0": 6
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 6
+        "2|0": 6,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 3
         },
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "surely",
+            "count": 2
+        },
         {
             "name": "buy 3 berr",
             "count": 1
         },
         {
-            "name": "surely",
-            "count": 1
-        },
-        {
             "name": "n 5/5 fire",
-            "count": 1
-        },
-        {
-            "name": "buy 3 ber",
             "count": 1
         },
         {
@@ -47,12 +49,16 @@
         {
             "name": "lvv",
             "count": 1
+        },
+        {
+            "name": "startingup",
+            "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "surely",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "surely"
             ]
@@ -76,11 +82,6 @@
                 "name": "n 5/5 fire",
                 "matched": "n",
                 "count": 1
-            },
-            {
-                "name": "buy 3 ber",
-                "matched": "buy",
-                "count": 1
             }
         ],
         "Misc. Public MF Runs": [
@@ -89,11 +90,18 @@
                 "matched": "gord",
                 "count": 1
             }
+        ],
+        "Leveling": [
+            {
+                "name": "startingup",
+                "matched": "start",
+                "count": 1
+            }
         ]
     },
     "interesting": {
         "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 7.0
+        "public_games": 7,
+        "average_name_length": 7.17
     }
 }
