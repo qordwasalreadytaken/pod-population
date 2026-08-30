@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-30T13:46:00+00:00",
+    "timestamp": "2026-08-30T14:04:00+00:00",
     "difficulty": {
         "2": 2
     },
@@ -11,7 +11,7 @@
     },
     "activities": [
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
@@ -21,28 +21,28 @@
     ],
     "top_games": [
         {
-            "name": "n 5/5 fire",
+            "name": "asd",
             "count": 1
         },
         {
-            "name": "lvv",
+            "name": "yeppers",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "lvv",
+            "normalized": "yeppers",
             "count": 2,
             "examples": [
-                "lvv"
+                "yeppers"
             ]
         }
     ],
     "classified_games": {
-        "Trade": [
+        "Misc. Public MF Runs": [
             {
-                "name": "n 5/5 fire",
-                "matched": "n",
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             }
         ]
@@ -50,6 +50,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 6.5
+        "average_name_length": 5.0
     }
 }
