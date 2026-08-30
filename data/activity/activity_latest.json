@@ -1,23 +1,17 @@
 {
-    "timestamp": "2026-08-30T22:20:00+00:00",
+    "timestamp": "2026-08-30T22:32:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
+        "2": 1
     },
     "mode": {
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 1
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Other",
             "count": 1
         }
     ],
@@ -25,21 +19,9 @@
         {
             "name": "n eld runes",
             "count": 1
-        },
-        {
-            "name": "bozenkowo",
-            "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "bozenkowo",
-            "count": 2,
-            "examples": [
-                "bozenkowo"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
@@ -50,8 +32,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 10.0
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 11.0
     }
 }
