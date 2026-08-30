@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-08-30T14:32:00+00:00",
+    "timestamp": "2026-08-30T14:46:00+00:00",
     "difficulty": {
         "2": 4
     },
@@ -11,16 +11,12 @@
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Maps",
             "count": 2
         },
         {
-            "name": "Maps",
-            "count": 1
-        },
-        {
-            "name": "Other",
-            "count": 1
+            "name": "Misc. Public MF Runs",
+            "count": 2
         }
     ],
     "top_games": [
@@ -29,42 +25,39 @@
             "count": 2
         },
         {
-            "name": "pub map 1",
+            "name": "pub map 2",
             "count": 1
         },
         {
-            "name": "yeppers",
+            "name": "pub map 1",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "yeppers",
-            "count": 2,
-            "examples": [
-                "yeppers"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
+        "Maps": [
+            {
+                "name": "pub map 2",
+                "matched": "map",
+                "count": 1
+            },
+            {
+                "name": "pub map 1",
+                "matched": "map",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
                 "matched": "asd",
                 "count": 2
             }
-        ],
-        "Maps": [
-            {
-                "name": "pub map 1",
-                "matched": "map",
-                "count": 1
-            }
         ]
     },
     "interesting": {
         "unique_names": 3,
         "public_games": 4,
-        "average_name_length": 6.33
+        "average_name_length": 7.0
     }
 }
