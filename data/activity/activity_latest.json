@@ -1,8 +1,8 @@
 {
-    "timestamp": "2026-08-30T20:32:00+00:00",
+    "timestamp": "2026-08-30T20:46:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 2
+        "2": 3,
+        "0": 1
     },
     "mode": {
         "1": 1,
@@ -10,12 +10,12 @@
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 1,
-        "0|0": 2
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
@@ -23,7 +23,7 @@
             "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
@@ -33,31 +33,24 @@
             "count": 1
         },
         {
+            "name": "asd",
+            "count": 1
+        },
+        {
             "name": "n eld runes",
             "count": 1
         },
         {
-            "name": "ijiji",
-            "count": 1
-        },
-        {
-            "name": "eafwaefw",
+            "name": "awef",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "ijiji",
+            "normalized": "awef",
             "count": 2,
             "examples": [
-                "ijiji"
-            ]
-        },
-        {
-            "normalized": "eafwaefw",
-            "count": 2,
-            "examples": [
-                "eafwaefw"
+                "awef"
             ]
         }
     ],
@@ -71,6 +64,11 @@
         ],
         "Misc. Public MF Runs": [
             {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            },
+            {
                 "name": "n eld runes",
                 "matched": "run",
                 "count": 1
@@ -80,6 +78,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 8.75
+        "average_name_length": 7.25
     }
 }
