@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-08-30T20:21:00+00:00",
+    "timestamp": "2026-08-30T20:32:00+00:00",
     "difficulty": {
         "2": 2,
-        "0": 4
+        "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 5
+        "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
         "2|0": 1,
-        "0|0": 4
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 2
         },
         {
             "name": "Maps",
@@ -37,49 +37,27 @@
             "count": 1
         },
         {
+            "name": "ijiji",
+            "count": 1
+        },
+        {
             "name": "eafwaefw",
-            "count": 1
-        },
-        {
-            "name": "awefewe",
-            "count": 1
-        },
-        {
-            "name": "aefwefaw",
-            "count": 1
-        },
-        {
-            "name": "aefweafw",
             "count": 1
         }
     ],
     "unknown_games": [
         {
+            "normalized": "ijiji",
+            "count": 2,
+            "examples": [
+                "ijiji"
+            ]
+        },
+        {
             "normalized": "eafwaefw",
             "count": 2,
             "examples": [
                 "eafwaefw"
-            ]
-        },
-        {
-            "normalized": "awefewe",
-            "count": 2,
-            "examples": [
-                "awefewe"
-            ]
-        },
-        {
-            "normalized": "aefwefaw",
-            "count": 2,
-            "examples": [
-                "aefwefaw"
-            ]
-        },
-        {
-            "normalized": "aefweafw",
-            "count": 2,
-            "examples": [
-                "aefweafw"
             ]
         }
     ],
@@ -100,8 +78,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 8.83
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 8.75
     }
 }
