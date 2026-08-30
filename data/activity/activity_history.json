@@ -5572,7 +5572,7 @@
             "Maps": [
                 {
                     "name": "maps",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ],
@@ -14535,7 +14535,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ],
@@ -17824,7 +17824,7 @@
             "Leveling": [
                 {
                     "name": "normal tombin",
-                    "matched": "tomb",
+                    "matched": "norm",
                     "count": 1
                 },
                 {
@@ -23155,7 +23155,7 @@
             "Trade": [
                 {
                     "name": "n nec torch :)",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -33947,7 +33947,7 @@
             "Uber": [
                 {
                     "name": "ubers",
-                    "matched": "uber",
+                    "matched": "ubers",
                     "count": 1
                 }
             ],
@@ -45195,7 +45195,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -45294,7 +45294,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -45383,7 +45383,7 @@
             "Maps": [
                 {
                     "name": "mapping 2",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ],
@@ -51384,7 +51384,7 @@
             "Maps": [
                 {
                     "name": "maps?2",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ]
@@ -61468,7 +61468,7 @@
                 },
                 {
                     "name": "mapping",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -63618,7 +63618,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "14123awdasdfqwr",
-                    "matched": "asd",
+                    "matched": "123",
                     "count": 1
                 },
                 {
@@ -89630,7 +89630,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -107255,7 +107255,7 @@
             "Maps": [
                 {
                     "name": "t maps",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ]
@@ -107338,7 +107338,7 @@
             "Maps": [
                 {
                     "name": "t maps",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ]
@@ -107419,7 +107419,7 @@
             "Maps": [
                 {
                     "name": "t maps 2",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ]
@@ -107515,7 +107515,7 @@
             "Maps": [
                 {
                     "name": "t maps 2",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ]
@@ -110274,7 +110274,7 @@
             "Maps": [
                 {
                     "name": "maps 3",
-                    "matched": "map",
+                    "matched": "maps",
                     "count": 1
                 }
             ]
@@ -117769,6 +117769,45 @@
             "unique_names": 2,
             "public_games": 2,
             "average_name_length": 8.0
+        }
+    },
+    {
+        "timestamp": "2026-08-30T08:05:00+00:00",
+        "difficulty": {
+            "2": 1
+        },
+        "mode": {
+            "0": 1
+        },
+        "difficulty_mode": {
+            "2|0": 1
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "boring game 3",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "boring game #",
+                "count": 2,
+                "examples": [
+                    "boring game 3"
+                ]
+            }
+        ],
+        "classified_games": {},
+        "interesting": {
+            "unique_names": 1,
+            "public_games": 1,
+            "average_name_length": 13.0
         }
     }
 ]
