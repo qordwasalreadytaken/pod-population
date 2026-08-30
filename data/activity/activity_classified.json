@@ -271,7 +271,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "torch",
+            "matched": "buy",
             "count": 12
         },
         {
@@ -366,7 +366,7 @@
         },
         {
             "name": "n necro torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -838,7 +838,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 3
         },
         {
@@ -883,7 +883,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -998,7 +998,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "tomb",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -1028,7 +1028,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -1143,7 +1143,7 @@
         {
             "name": "asd",
             "matched": "asd",
-            "count": 298
+            "count": 299
         },
         {
             "name": "gord",
@@ -1757,7 +1757,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -2075,17 +2075,17 @@
             "count": 6
         },
         {
-            "name": "mapping 1",
+            "name": "pub map 2",
             "matched": "map",
+            "count": 5
+        },
+        {
+            "name": "mapping 1",
+            "matched": "mapping",
             "count": 4
         },
         {
             "name": "map-2",
-            "matched": "map",
-            "count": 4
-        },
-        {
-            "name": "pub map 2",
             "matched": "map",
             "count": 4
         },
@@ -2176,17 +2176,17 @@
         },
         {
             "name": "t maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 2
         },
         {
             "name": "t maps 2",
-            "matched": "map",
+            "matched": "maps",
             "count": 2
         },
         {
             "name": "maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 1
         },
         {
@@ -2246,12 +2246,12 @@
         },
         {
             "name": "mapping 2",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
             "name": "maps?2",
-            "matched": "map",
+            "matched": "maps",
             "count": 1
         },
         {
@@ -2261,7 +2261,7 @@
         },
         {
             "name": "mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -2271,7 +2271,7 @@
         },
         {
             "name": "maps 3",
-            "matched": "map",
+            "matched": "maps",
             "count": 1
         },
         {
@@ -2283,12 +2283,17 @@
             "name": "map 3",
             "matched": "map",
             "count": 1
+        },
+        {
+            "name": "pub map 3",
+            "matched": "map",
+            "count": 1
         }
     ],
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
