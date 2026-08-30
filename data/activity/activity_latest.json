@@ -1,14 +1,16 @@
 {
-    "timestamp": "2026-08-30T17:32:00+00:00",
+    "timestamp": "2026-08-30T17:46:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 3,
+        "1": 1,
         "0": 2
     },
     "mode": {
-        "0": 4
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 2,
+        "2|0": 3,
+        "1|0": 1,
         "0|0": 2
     },
     "activities": [
@@ -18,6 +20,10 @@
         },
         {
             "name": "Misc. Public MF Runs",
+            "count": 2
+        },
+        {
+            "name": "Trade",
             "count": 1
         }
     ],
@@ -27,7 +33,15 @@
             "count": 1
         },
         {
+            "name": "n 5/5 fire",
+            "count": 1
+        },
+        {
             "name": "lvv",
+            "count": 1
+        },
+        {
+            "name": "greenaaa",
             "count": 1
         },
         {
@@ -68,12 +82,24 @@
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
+            },
+            {
+                "name": "greenaaa",
+                "matched": "aaa",
+                "count": 1
+            }
+        ],
+        "Trade": [
+            {
+                "name": "n 5/5 fire",
+                "matched": "n",
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 3.75
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 5.5
     }
 }
