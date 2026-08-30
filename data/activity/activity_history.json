@@ -701,7 +701,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "leveli",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -772,7 +772,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "leveli",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -17824,7 +17824,7 @@
             "Leveling": [
                 {
                     "name": "normal tombin",
-                    "matched": "tomb",
+                    "matched": "norm",
                     "count": 1
                 },
                 {
@@ -20087,7 +20087,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -20187,7 +20187,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -62339,7 +62339,7 @@
             "Leveling": [
                 {
                     "name": "act 1 andariel",
-                    "matched": "andar",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -62426,7 +62426,7 @@
             "Leveling": [
                 {
                     "name": "act 1 andariel",
-                    "matched": "andar",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -62524,7 +62524,7 @@
             "Leveling": [
                 {
                     "name": "act 1 andariel",
-                    "matched": "andar",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -62611,7 +62611,7 @@
             "Leveling": [
                 {
                     "name": "act 1 andariel",
-                    "matched": "andar",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -62696,7 +62696,7 @@
             "Leveling": [
                 {
                     "name": "act 1 andariel",
-                    "matched": "andar",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -62781,7 +62781,7 @@
             "Leveling": [
                 {
                     "name": "act 1 andariel",
-                    "matched": "andar",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -62866,7 +62866,7 @@
             "Leveling": [
                 {
                     "name": "act 1 andariel",
-                    "matched": "andar",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -62936,7 +62936,7 @@
             "Leveling": [
                 {
                     "name": "act 1 andariel",
-                    "matched": "andar",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -63023,7 +63023,7 @@
             "Leveling": [
                 {
                     "name": "act 1 andariel",
-                    "matched": "andar",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -63119,7 +63119,7 @@
             "Leveling": [
                 {
                     "name": "act 1 andariel",
-                    "matched": "andar",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -63217,7 +63217,7 @@
             "Leveling": [
                 {
                     "name": "act 1 andariel",
-                    "matched": "andar",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -63343,7 +63343,7 @@
             "Leveling": [
                 {
                     "name": "act 1 andariel",
-                    "matched": "andar",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -121260,6 +121260,54 @@
             "unique_names": 3,
             "public_games": 3,
             "average_name_length": 6.0
+        }
+    },
+    {
+        "timestamp": "2026-08-30T21:32:00+00:00",
+        "difficulty": {
+            "2": 3
+        },
+        "mode": {
+            "0": 3
+        },
+        "difficulty_mode": {
+            "2|0": 3
+        },
+        "activities": [
+            {
+                "name": "Misc. Public MF Runs",
+                "count": 3
+            }
+        ],
+        "top_games": [
+            {
+                "name": "n eld runes",
+                "count": 2
+            },
+            {
+                "name": "asd",
+                "count": 1
+            }
+        ],
+        "unknown_games": [],
+        "classified_games": {
+            "Misc. Public MF Runs": [
+                {
+                    "name": "n eld runes",
+                    "matched": "run",
+                    "count": 2
+                },
+                {
+                    "name": "asd",
+                    "matched": "asd",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 2,
+            "public_games": 3,
+            "average_name_length": 7.0
         }
     }
 ]
