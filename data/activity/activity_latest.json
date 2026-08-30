@@ -1,15 +1,17 @@
 {
-    "timestamp": "2026-08-30T19:17:00+00:00",
+    "timestamp": "2026-08-30T19:32:00+00:00",
     "difficulty": {
         "2": 2,
-        "1": 1
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
         "2|0": 2,
-        "1|0": 1
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
@@ -18,6 +20,10 @@
         },
         {
             "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Other",
             "count": 1
         }
     ],
@@ -33,9 +39,21 @@
         {
             "name": "greenaaa",
             "count": 1
+        },
+        {
+            "name": "fghstrhsrdth",
+            "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "fghstrhsrdth",
+            "count": 2,
+            "examples": [
+                "fghstrhsrdth"
+            ]
+        }
+    ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
@@ -58,8 +76,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 7.33
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 8.5
     }
 }
