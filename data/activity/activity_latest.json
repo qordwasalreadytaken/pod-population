@@ -1,37 +1,66 @@
 {
-    "timestamp": "2026-08-30T21:32:00+00:00",
+    "timestamp": "2026-08-30T21:46:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 2,
+        "0": 2
     },
     "mode": {
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 3
+        "2|0": 2,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 2
+        },
+        {
+            "name": "Other",
+            "count": 2
         }
     ],
     "top_games": [
         {
             "name": "n eld runes",
-            "count": 2
+            "count": 1
         },
         {
             "name": "asd",
             "count": 1
+        },
+        {
+            "name": "bozenkowo",
+            "count": 1
+        },
+        {
+            "name": "fajna gra",
+            "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "bozenkowo",
+            "count": 2,
+            "examples": [
+                "bozenkowo"
+            ]
+        },
+        {
+            "normalized": "fajna gra",
+            "count": 2,
+            "examples": [
+                "fajna gra"
+            ]
+        }
+    ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
                 "name": "n eld runes",
                 "matched": "run",
-                "count": 2
+                "count": 1
             },
             {
                 "name": "asd",
@@ -41,8 +70,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 3,
-        "average_name_length": 7.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 8.0
     }
 }
