@@ -1,27 +1,29 @@
 {
-    "timestamp": "2026-08-30T20:04:00+00:00",
+    "timestamp": "2026-08-30T20:21:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 2,
+        "0": 4
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 5
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 2
+        "2|0": 1,
+        "0|0": 4
     },
     "activities": [
+        {
+            "name": "Other",
+            "count": 4
+        },
         {
             "name": "Maps",
             "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Other",
             "count": 1
         }
     ],
@@ -35,16 +37,49 @@
             "count": 1
         },
         {
-            "name": "seth",
+            "name": "eafwaefw",
+            "count": 1
+        },
+        {
+            "name": "awefewe",
+            "count": 1
+        },
+        {
+            "name": "aefwefaw",
+            "count": 1
+        },
+        {
+            "name": "aefweafw",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "seth",
+            "normalized": "eafwaefw",
             "count": 2,
             "examples": [
-                "seth"
+                "eafwaefw"
+            ]
+        },
+        {
+            "normalized": "awefewe",
+            "count": 2,
+            "examples": [
+                "awefewe"
+            ]
+        },
+        {
+            "normalized": "aefwefaw",
+            "count": 2,
+            "examples": [
+                "aefwefaw"
+            ]
+        },
+        {
+            "normalized": "aefweafw",
+            "count": 2,
+            "examples": [
+                "aefweafw"
             ]
         }
     ],
@@ -65,8 +100,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 8.67
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 8.83
     }
 }
