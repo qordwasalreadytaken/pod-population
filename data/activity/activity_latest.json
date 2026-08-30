@@ -1,46 +1,45 @@
 {
-    "timestamp": "2026-08-30T10:32:00+00:00",
+    "timestamp": "2026-08-30T10:47:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 1
+        "2": 2
     },
     "mode": {
-        "0": 2
+        "1": 1,
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 1
+        "2|1": 1,
+        "2|0": 1
     },
     "activities": [
         {
-            "name": "Trade",
+            "name": "Maps",
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n 55 fire",
+            "name": "t chill map",
             "count": 1
         },
         {
-            "name": "greeen",
+            "name": "n 55 fire",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "greeen",
-            "count": 2,
-            "examples": [
-                "greeen"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
+        "Maps": [
+            {
+                "name": "t chill map",
+                "matched": "map",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n 55 fire",
@@ -52,6 +51,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 7.5
+        "average_name_length": 10.0
     }
 }
