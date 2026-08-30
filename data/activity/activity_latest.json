@@ -1,15 +1,19 @@
 {
-    "timestamp": "2026-08-30T12:06:00+00:00",
+    "timestamp": "2026-08-30T12:30:00+00:00",
     "difficulty": {
-        "2": 1
+        "2": 3
     },
     "mode": {
-        "0": 1
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1
+        "2|0": 3
     },
     "activities": [
+        {
+            "name": "Other",
+            "count": 2
+        },
         {
             "name": "Trade",
             "count": 1
@@ -17,11 +21,34 @@
     ],
     "top_games": [
         {
+            "name": "seth",
+            "count": 1
+        },
+        {
+            "name": "lvv",
+            "count": 1
+        },
+        {
             "name": "n 5/5 fire",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "seth",
+            "count": 2,
+            "examples": [
+                "seth"
+            ]
+        },
+        {
+            "normalized": "lvv",
+            "count": 2,
+            "examples": [
+                "lvv"
+            ]
+        }
+    ],
     "classified_games": {
         "Trade": [
             {
@@ -32,8 +59,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 10.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 5.67
     }
 }
