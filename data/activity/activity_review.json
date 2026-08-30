@@ -1282,6 +1282,13 @@
         ]
     },
     {
+        "normalized": "rain",
+        "count": 6,
+        "examples": [
+            "rain"
+        ]
+    },
+    {
         "normalized": "nm #",
         "count": 4,
         "examples": [
@@ -1989,13 +1996,6 @@
         "count": 4,
         "examples": [
             "greeen"
-        ]
-    },
-    {
-        "normalized": "rain",
-        "count": 4,
-        "examples": [
-            "rain"
         ]
     },
     {
@@ -4516,6 +4516,27 @@
         "count": 2,
         "examples": [
             "caught"
+        ]
+    },
+    {
+        "normalized": "adwc",
+        "count": 2,
+        "examples": [
+            "adwc"
+        ]
+    },
+    {
+        "normalized": "adw",
+        "count": 2,
+        "examples": [
+            "adw"
+        ]
+    },
+    {
+        "normalized": "wada",
+        "count": 2,
+        "examples": [
+            "wada"
         ]
     }
 ]
