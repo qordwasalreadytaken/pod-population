@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 548,
+        "count": 552,
         "examples": [
             "1",
             "10",
@@ -872,6 +872,13 @@
         ]
     },
     {
+        "normalized": "hello",
+        "count": 8,
+        "examples": [
+            "hello"
+        ]
+    },
+    {
         "normalized": "didy>?",
         "count": 8,
         "examples": [
@@ -1170,13 +1177,6 @@
         "count": 6,
         "examples": [
             "atlas'"
-        ]
-    },
-    {
-        "normalized": "hello",
-        "count": 6,
-        "examples": [
-            "hello"
         ]
     },
     {
