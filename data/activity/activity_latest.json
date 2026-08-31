@@ -1,47 +1,49 @@
 {
-    "timestamp": "2026-08-31T08:08:00+00:00",
+    "timestamp": "2026-08-31T08:34:00+00:00",
     "difficulty": {
-        "1": 1,
-        "0": 1
+        "2": 1,
+        "1": 2
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "1|0": 1,
-        "0|0": 1
+        "2|0": 1,
+        "1|0": 2
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Other",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "asdsd",
+            "name": "n eld runes",
             "count": 1
         },
         {
-            "name": "horkmins",
+            "name": "asdsd36aaaa",
+            "count": 1
+        },
+        {
+            "name": "asdsd",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "horkmins",
-            "count": 2,
-            "examples": [
-                "horkmins"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Misc. Public MF Runs": [
+            {
+                "name": "n eld runes",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "asdsd36aaaa",
+                "matched": "asd",
+                "count": 1
+            },
             {
                 "name": "asdsd",
                 "matched": "asd",
@@ -50,8 +52,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 6.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 9.0
     }
 }
