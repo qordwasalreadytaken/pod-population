@@ -371,7 +371,7 @@
         },
         {
             "name": "n necro torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -411,7 +411,7 @@
         },
         {
             "name": "n sorch torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 3
         },
         {
@@ -431,6 +431,11 @@
         },
         {
             "name": "n free nec",
+            "matched": "n",
+            "count": 3
+        },
+        {
+            "name": "n 5/5 fire/phys",
             "matched": "n",
             "count": 3
         },
@@ -491,11 +496,6 @@
         },
         {
             "name": "n 4os stormshld",
-            "matched": "n",
-            "count": 2
-        },
-        {
-            "name": "n 5/5 fire/phys",
             "matched": "n",
             "count": 2
         },
@@ -848,7 +848,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "start",
+            "matched": "act",
             "count": 3
         },
         {
@@ -893,7 +893,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "leveli",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -923,7 +923,7 @@
         },
         {
             "name": "normal act",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -1008,7 +1008,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "norm",
+            "matched": "tomb",
             "count": 1
         },
         {
@@ -1038,7 +1038,7 @@
         },
         {
             "name": "act start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -1153,12 +1153,12 @@
         {
             "name": "asd",
             "matched": "asd",
-            "count": 337
+            "count": 338
         },
         {
             "name": "gord",
             "matched": "gord",
-            "count": 236
+            "count": 238
         },
         {
             "name": "n eld runes",
@@ -2146,7 +2146,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "mapping",
+            "matched": "map",
             "count": 4
         },
         {
@@ -2316,7 +2316,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -2331,7 +2331,7 @@
         },
         {
             "name": "mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -2358,7 +2358,7 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
