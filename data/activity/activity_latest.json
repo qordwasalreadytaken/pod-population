@@ -1,15 +1,57 @@
 {
-    "timestamp": "2026-08-31T07:49:00+00:00",
-    "difficulty": {},
-    "mode": {},
-    "difficulty_mode": {},
-    "activities": [],
-    "top_games": [],
-    "unknown_games": [],
-    "classified_games": {},
+    "timestamp": "2026-08-31T08:08:00+00:00",
+    "difficulty": {
+        "1": 1,
+        "0": 1
+    },
+    "mode": {
+        "0": 2
+    },
+    "difficulty_mode": {
+        "1|0": 1,
+        "0|0": 1
+    },
+    "activities": [
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
+            "name": "Other",
+            "count": 1
+        }
+    ],
+    "top_games": [
+        {
+            "name": "asdsd",
+            "count": 1
+        },
+        {
+            "name": "horkmins",
+            "count": 1
+        }
+    ],
+    "unknown_games": [
+        {
+            "normalized": "horkmins",
+            "count": 2,
+            "examples": [
+                "horkmins"
+            ]
+        }
+    ],
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asdsd",
+                "matched": "asd",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 0,
-        "public_games": 0,
-        "average_name_length": 0.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 6.5
     }
 }
