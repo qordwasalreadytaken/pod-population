@@ -1,95 +1,75 @@
 {
-    "timestamp": "2026-08-31T16:46:00+00:00",
+    "timestamp": "2026-08-31T17:04:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 1,
-        "0": 2
+        "2": 4,
+        "0": 1
     },
     "mode": {
-        "0": 6
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "1|0": 1,
-        "0|0": 2
+        "2|0": 4,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 4
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Other",
+            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "gord",
+            "count": 2
+        },
+        {
+            "name": "dsaadsd",
+            "count": 1
+        },
         {
             "name": "asd",
             "count": 1
         },
         {
-            "name": "lvv",
-            "count": 1
-        },
-        {
-            "name": "hello",
-            "count": 1
-        },
-        {
-            "name": "1213",
-            "count": 1
-        },
-        {
-            "name": "3434",
-            "count": 1
-        },
-        {
-            "name": "1234132",
+            "name": "31231",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "#",
-            "count": 4,
-            "examples": [
-                "1213",
-                "3434"
-            ]
-        },
-        {
-            "normalized": "lvv",
+            "normalized": "dsaadsd",
             "count": 2,
             "examples": [
-                "lvv"
-            ]
-        },
-        {
-            "normalized": "hello",
-            "count": 2,
-            "examples": [
-                "hello"
+                "dsaadsd"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
+                "name": "gord",
+                "matched": "gord",
+                "count": 2
+            },
+            {
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
             },
             {
-                "name": "1234132",
+                "name": "31231",
                 "matched": "123",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 4.33
+        "unique_names": 4,
+        "public_games": 5,
+        "average_name_length": 4.75
     }
 }
