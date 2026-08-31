@@ -616,6 +616,13 @@
         ]
     },
     {
+        "normalized": "hello",
+        "count": 12,
+        "examples": [
+            "hello"
+        ]
+    },
+    {
         "normalized": "doogs",
         "count": 12,
         "examples": [
@@ -706,13 +713,6 @@
         "count": 10,
         "examples": [
             "r"
-        ]
-    },
-    {
-        "normalized": "hello",
-        "count": 10,
-        "examples": [
-            "hello"
         ]
     },
     {
