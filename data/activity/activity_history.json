@@ -216,7 +216,7 @@
             "Trade": [
                 {
                     "name": "n pala torch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 },
                 {
@@ -701,7 +701,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -772,7 +772,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -6290,7 +6290,7 @@
             "Cows": [
                 {
                     "name": "letsseewhomcows",
-                    "matched": "cow",
+                    "matched": "cows",
                     "count": 1
                 }
             ],
@@ -6357,7 +6357,7 @@
             "Cows": [
                 {
                     "name": "letsseewhomcows",
-                    "matched": "cow",
+                    "matched": "cows",
                     "count": 1
                 }
             ],
@@ -6418,7 +6418,7 @@
             "Cows": [
                 {
                     "name": "letsseewhomcows",
-                    "matched": "cow",
+                    "matched": "cows",
                     "count": 1
                 }
             ],
@@ -8950,7 +8950,7 @@
             "Cows": [
                 {
                     "name": "hell cows",
-                    "matched": "cow",
+                    "matched": "cows",
                     "count": 1
                 }
             ]
@@ -14535,7 +14535,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ],
@@ -30789,7 +30789,7 @@
             "Cows": [
                 {
                     "name": "cows 2",
-                    "matched": "cow",
+                    "matched": "cows",
                     "count": 1
                 }
             ]
@@ -30872,7 +30872,7 @@
             "Cows": [
                 {
                     "name": "cows 4",
-                    "matched": "cow",
+                    "matched": "cows",
                     "count": 1
                 }
             ]
@@ -30963,7 +30963,7 @@
             "Cows": [
                 {
                     "name": "cows 5",
-                    "matched": "cow",
+                    "matched": "cows",
                     "count": 1
                 }
             ],
@@ -33947,7 +33947,7 @@
             "Uber": [
                 {
                     "name": "ubers",
-                    "matched": "uber",
+                    "matched": "ubers",
                     "count": 1
                 }
             ],
@@ -36454,7 +36454,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "mf runs",
-                    "matched": "run",
+                    "matched": "mf",
                     "count": 1
                 }
             ]
@@ -44176,7 +44176,7 @@
             "Cows": [
                 {
                     "name": "cows",
-                    "matched": "cow",
+                    "matched": "cows",
                     "count": 1
                 }
             ]
@@ -45195,7 +45195,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -45294,7 +45294,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -45383,7 +45383,7 @@
             "Maps": [
                 {
                     "name": "mapping 2",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ],
@@ -61468,7 +61468,7 @@
                 },
                 {
                     "name": "mapping",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -89630,7 +89630,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -122935,6 +122935,74 @@
     },
     {
         "timestamp": "2026-08-31T12:52:00+00:00",
+        "difficulty": {
+            "2": 3
+        },
+        "mode": {
+            "1": 1,
+            "0": 2
+        },
+        "difficulty_mode": {
+            "2|1": 1,
+            "2|0": 2
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 2
+            },
+            {
+                "name": "Trade",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "atlas",
+                "count": 1
+            },
+            {
+                "name": "1212",
+                "count": 1
+            },
+            {
+                "name": "n 15@/fhr gc`s",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "atlas",
+                "count": 2,
+                "examples": [
+                    "atlas"
+                ]
+            },
+            {
+                "normalized": "#",
+                "count": 2,
+                "examples": [
+                    "1212"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Trade": [
+                {
+                    "name": "n 15@/fhr gc`s",
+                    "matched": "n",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 3,
+            "public_games": 3,
+            "average_name_length": 7.67
+        }
+    },
+    {
+        "timestamp": "2026-08-31T13:05:00+00:00",
         "difficulty": {
             "2": 3
         },
