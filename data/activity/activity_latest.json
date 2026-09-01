@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-01T10:39:00+00:00",
+    "timestamp": "2026-09-01T10:46:00+00:00",
     "difficulty": {
         "2": 2
     },
@@ -21,7 +21,7 @@
     ],
     "top_games": [
         {
-            "name": "o fs",
+            "name": "o fireskillers",
             "count": 1
         },
         {
@@ -31,10 +31,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "o fs",
+            "normalized": "o fireskillers",
             "count": 2,
             "examples": [
-                "o fs"
+                "o fireskillers"
             ]
         }
     ],
@@ -50,6 +50,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 9.0
+        "average_name_length": 14.0
     }
 }
