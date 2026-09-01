@@ -1,19 +1,17 @@
 {
-    "timestamp": "2026-09-01T16:07:00+00:00",
+    "timestamp": "2026-09-01T16:43:00+00:00",
     "difficulty": {
         "2": 2,
         "1": 1,
-        "0": 3
+        "0": 2
     },
     "mode": {
-        "1": 1,
         "0": 5
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 1,
+        "2|0": 2,
         "1|0": 1,
-        "0|0": 3
+        "0|0": 2
     },
     "activities": [
         {
@@ -22,12 +20,12 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "112",
+            "name": "caught",
             "count": 1
         },
         {
@@ -39,24 +37,20 @@
             "count": 1
         },
         {
+            "name": "dqd",
+            "count": 1
+        },
+        {
             "name": "wikid klownz",
-            "count": 1
-        },
-        {
-            "name": "ss 1",
-            "count": 1
-        },
-        {
-            "name": "1341234",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "#",
+            "normalized": "caught",
             "count": 2,
             "examples": [
-                "112"
+                "caught"
             ]
         },
         {
@@ -67,17 +61,17 @@
             ]
         },
         {
+            "normalized": "dqd",
+            "count": 2,
+            "examples": [
+                "dqd"
+            ]
+        },
+        {
             "normalized": "wikid klownz",
             "count": 2,
             "examples": [
                 "wikid klownz"
-            ]
-        },
-        {
-            "normalized": "ss #",
-            "count": 2,
-            "examples": [
-                "ss 1"
             ]
         }
     ],
@@ -87,17 +81,12 @@
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
-            },
-            {
-                "name": "1341234",
-                "matched": "123",
-                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 6.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 6.2
     }
 }
