@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-09-01T13:46:00+00:00",
+    "timestamp": "2026-09-01T14:05:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 2
+        "2": 3,
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 4
+        "1": 2,
+        "0": 2
     },
     "difficulty_mode": {
+        "2|1": 1,
         "0|1": 1,
-        "2|0": 2,
-        "0|0": 2
+        "2|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -29,38 +29,27 @@
             "count": 2
         },
         {
+            "name": "111",
+            "count": 1
+        },
+        {
             "name": "new",
-            "count": 1
-        },
-        {
-            "name": "lvup gogo",
-            "count": 1
-        },
-        {
-            "name": "wikid klownz",
             "count": 1
         }
     ],
     "unknown_games": [
         {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "111"
+            ]
+        },
+        {
             "normalized": "new",
             "count": 2,
             "examples": [
                 "new"
-            ]
-        },
-        {
-            "normalized": "lvup gogo",
-            "count": 2,
-            "examples": [
-                "lvup gogo"
-            ]
-        },
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
             ]
         }
     ],
@@ -74,8 +63,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 5,
-        "average_name_length": 6.75
+        "unique_names": 3,
+        "public_games": 4,
+        "average_name_length": 3.0
     }
 }
