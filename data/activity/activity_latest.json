@@ -1,31 +1,31 @@
 {
-    "timestamp": "2026-09-01T19:04:00+00:00",
+    "timestamp": "2026-09-01T19:20:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 3
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 3
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 1
+            "name": "Misc. Public MF Runs",
+            "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "lvv",
-            "count": 1
+            "name": "gord",
+            "count": 2
         },
         {
-            "name": "gord",
+            "name": "lvv",
             "count": 1
         }
     ],
@@ -43,13 +43,13 @@
             {
                 "name": "gord",
                 "matched": "gord",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
         "unique_names": 2,
-        "public_games": 2,
+        "public_games": 3,
         "average_name_length": 3.5
     }
 }
