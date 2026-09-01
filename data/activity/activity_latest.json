@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-01T17:32:00+00:00",
+    "timestamp": "2026-09-01T17:46:00+00:00",
     "difficulty": {
         "1": 1,
         "0": 3
@@ -14,7 +14,11 @@
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 3
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         }
     ],
     "top_games": [
@@ -23,11 +27,11 @@
             "count": 1
         },
         {
-            "name": "4134",
+            "name": "412341",
             "count": 1
         },
         {
-            "name": "rqewrq",
+            "name": "4134",
             "count": 1
         },
         {
@@ -51,13 +55,6 @@
             ]
         },
         {
-            "normalized": "rqewrq",
-            "count": 2,
-            "examples": [
-                "rqewrq"
-            ]
-        },
-        {
             "normalized": "wikid klownz ii",
             "count": 2,
             "examples": [
@@ -65,7 +62,15 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "412341",
+                "matched": "123",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
