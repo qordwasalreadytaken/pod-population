@@ -1,29 +1,33 @@
 {
-    "timestamp": "2026-09-01T09:41:00+00:00",
+    "timestamp": "2026-09-01T09:48:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 3
     },
     "mode": {
         "1": 1,
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 1
+        "2|0": 2
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "n fireskillers",
+            "count": 1
+        },
+        {
+            "name": "jah ber plz 2",
             "count": 1
         },
         {
@@ -34,9 +38,10 @@
     "unknown_games": [
         {
             "normalized": "jah ber plz #",
-            "count": 2,
+            "count": 4,
             "examples": [
-                "jah ber plz 1"
+                "jah ber plz 1",
+                "jah ber plz 2"
             ]
         }
     ],
@@ -50,8 +55,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 13.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 13.33
     }
 }
