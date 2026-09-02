@@ -1,38 +1,23 @@
 {
-    "timestamp": "2026-09-02T17:21:00+00:00",
+    "timestamp": "2026-09-02T17:32:00+00:00",
     "difficulty": {
-        "1": 1,
-        "2": 2
+        "1": 1
     },
     "mode": {
-        "1": 1,
-        "0": 2
+        "1": 1
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "2|0": 2
+        "1|1": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "nfireskillers",
-            "count": 1
-        },
-        {
-            "name": "yytyugy",
-            "count": 1
-        },
-        {
-            "name": "asd",
             "count": 1
         }
     ],
@@ -43,27 +28,12 @@
             "examples": [
                 "nfireskillers"
             ]
-        },
-        {
-            "normalized": "yytyugy",
-            "count": 2,
-            "examples": [
-                "yytyugy"
-            ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 7.67
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 13.0
     }
 }
