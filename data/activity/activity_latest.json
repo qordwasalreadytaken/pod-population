@@ -1,15 +1,22 @@
 {
-    "timestamp": "2026-09-02T11:22:00+00:00",
+    "timestamp": "2026-09-02T11:32:00+00:00",
     "difficulty": {
-        "1": 1
+        "1": 1,
+        "2": 2
     },
     "mode": {
-        "1": 1
+        "1": 1,
+        "0": 2
     },
     "difficulty_mode": {
-        "1|1": 1
+        "1|1": 1,
+        "2|0": 2
     },
     "activities": [
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 2
+        },
         {
             "name": "Trade",
             "count": 1
@@ -18,6 +25,14 @@
     "top_games": [
         {
             "name": "n fireskillers",
+            "count": 1
+        },
+        {
+            "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "n eld runes",
             "count": 1
         }
     ],
@@ -29,11 +44,23 @@
                 "matched": "n",
                 "count": 1
             }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "n eld runes",
+                "matched": "run",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 14.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 9.33
     }
 }
