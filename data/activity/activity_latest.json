@@ -1,46 +1,46 @@
 {
-    "timestamp": "2026-09-02T09:47:00+00:00",
+    "timestamp": "2026-09-02T10:05:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
+        "0": 1,
+        "2": 1
     },
     "mode": {
-        "0": 2
+        "1": 1,
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 1
+        "0|1": 1,
+        "2|0": 1
     },
     "activities": [
         {
-            "name": "Maps",
+            "name": "Trade",
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Maps",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "desert maps",
+            "name": "n fireskillers",
             "count": 1
         },
         {
-            "name": "wikid klownz",
+            "name": "desert maps",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n fireskillers",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Maps": [
             {
                 "name": "desert maps",
@@ -52,6 +52,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 11.5
+        "average_name_length": 12.5
     }
 }
