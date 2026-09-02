@@ -1,39 +1,27 @@
 {
-    "timestamp": "2026-09-02T08:07:00+00:00",
+    "timestamp": "2026-09-02T08:32:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 1,
         "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 4,
+        "2|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 4
+            "name": "Misc. Public MF Runs",
+            "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "jah ber plz 3",
-            "count": 1
-        },
-        {
-            "name": "t",
-            "count": 1
-        },
-        {
-            "name": "jah ber plz 2",
-            "count": 1
-        },
         {
             "name": "n eld runes",
             "count": 1
@@ -44,21 +32,6 @@
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "jah ber plz #",
-            "count": 4,
-            "examples": [
-                "jah ber plz 2",
-                "jah ber plz 3"
-            ]
-        },
-        {
-            "normalized": "t",
-            "count": 2,
-            "examples": [
-                "t"
-            ]
-        },
         {
             "normalized": "wikid klownz",
             "count": 2,
@@ -77,8 +50,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 10.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 11.5
     }
 }
