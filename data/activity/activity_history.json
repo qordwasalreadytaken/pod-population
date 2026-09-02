@@ -701,7 +701,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -772,7 +772,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -6290,7 +6290,7 @@
             "Cows": [
                 {
                     "name": "letsseewhomcows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ],
@@ -6357,7 +6357,7 @@
             "Cows": [
                 {
                     "name": "letsseewhomcows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ],
@@ -6418,7 +6418,7 @@
             "Cows": [
                 {
                     "name": "letsseewhomcows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ],
@@ -8950,7 +8950,7 @@
             "Cows": [
                 {
                     "name": "hell cows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ]
@@ -14535,7 +14535,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ],
@@ -20087,7 +20087,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -20187,7 +20187,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -30789,7 +30789,7 @@
             "Cows": [
                 {
                     "name": "cows 2",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ]
@@ -30872,7 +30872,7 @@
             "Cows": [
                 {
                     "name": "cows 4",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ]
@@ -30963,7 +30963,7 @@
             "Cows": [
                 {
                     "name": "cows 5",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ],
@@ -35849,7 +35849,7 @@
             "Leveling": [
                 {
                     "name": "act start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -38979,7 +38979,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -39036,7 +39036,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -39110,7 +39110,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -44176,7 +44176,7 @@
             "Cows": [
                 {
                     "name": "cows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ]
@@ -45195,7 +45195,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -45294,7 +45294,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -45383,7 +45383,7 @@
             "Maps": [
                 {
                     "name": "mapping 2",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ],
@@ -61468,7 +61468,7 @@
                 },
                 {
                     "name": "mapping",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -89630,7 +89630,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -133486,6 +133486,45 @@
         "interesting": {
             "unique_names": 1,
             "public_games": 2,
+            "average_name_length": 13.0
+        }
+    },
+    {
+        "timestamp": "2026-09-02T18:06:00+00:00",
+        "difficulty": {
+            "2": 1
+        },
+        "mode": {
+            "1": 1
+        },
+        "difficulty_mode": {
+            "2|1": 1
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "nfireskillers",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "nfireskillers",
+                "count": 2,
+                "examples": [
+                    "nfireskillers"
+                ]
+            }
+        ],
+        "classified_games": {},
+        "interesting": {
+            "unique_names": 1,
+            "public_games": 1,
             "average_name_length": 13.0
         }
     }
