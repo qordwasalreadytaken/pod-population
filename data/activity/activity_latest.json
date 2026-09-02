@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-02T11:46:00+00:00",
+    "timestamp": "2026-09-02T12:07:00+00:00",
     "difficulty": {
         "1": 1,
         "2": 2,
@@ -30,39 +30,35 @@
     ],
     "top_games": [
         {
+            "name": "asd",
+            "count": 2
+        },
+        {
             "name": "n fireskillers",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "popopo",
             "count": 1
         },
         {
-            "name": "n eld runes",
-            "count": 1
-        },
-        {
-            "name": "po",
-            "count": 1
-        },
-        {
-            "name": "p",
+            "name": "popop",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "po",
+            "normalized": "popopo",
             "count": 2,
             "examples": [
-                "po"
+                "popopo"
             ]
         },
         {
-            "normalized": "p",
+            "normalized": "popop",
             "count": 2,
             "examples": [
-                "p"
+                "popop"
             ]
         }
     ],
@@ -78,18 +74,13 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "n eld runes",
-                "matched": "run",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
+        "unique_names": 4,
         "public_games": 5,
-        "average_name_length": 6.2
+        "average_name_length": 7.0
     }
 }
