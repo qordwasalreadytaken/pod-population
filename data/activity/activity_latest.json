@@ -1,17 +1,19 @@
 {
-    "timestamp": "2026-09-02T19:20:00+00:00",
+    "timestamp": "2026-09-02T19:32:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 1
+        "2": 2,
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "1": 2,
-        "0": 2
+        "1": 1,
+        "0": 3
     },
     "difficulty_mode": {
-        "2|1": 2,
+        "2|1": 1,
         "2|0": 1,
-        "1|0": 1
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
@@ -26,7 +28,7 @@
     "top_games": [
         {
             "name": "nfireskillers",
-            "count": 2
+            "count": 1
         },
         {
             "name": "lvv",
@@ -35,12 +37,16 @@
         {
             "name": "gord",
             "count": 1
+        },
+        {
+            "name": "boshenkowo",
+            "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "nfireskillers",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "nfireskillers"
             ]
@@ -50,6 +56,13 @@
             "count": 2,
             "examples": [
                 "lvv"
+            ]
+        },
+        {
+            "normalized": "boshenkowo",
+            "count": 2,
+            "examples": [
+                "boshenkowo"
             ]
         }
     ],
@@ -63,8 +76,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
+        "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 6.67
+        "average_name_length": 7.5
     }
 }
