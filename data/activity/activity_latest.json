@@ -1,7 +1,8 @@
 {
-    "timestamp": "2026-09-02T19:04:00+00:00",
+    "timestamp": "2026-09-02T19:20:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 3,
+        "1": 1
     },
     "mode": {
         "1": 2,
@@ -9,7 +10,8 @@
     },
     "difficulty_mode": {
         "2|1": 2,
-        "2|0": 2
+        "2|0": 1,
+        "1|0": 1
     },
     "activities": [
         {
@@ -27,11 +29,11 @@
             "count": 2
         },
         {
-            "name": "gord",
+            "name": "lvv",
             "count": 1
         },
         {
-            "name": "lvv",
+            "name": "gord",
             "count": 1
         }
     ],
