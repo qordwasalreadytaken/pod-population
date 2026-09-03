@@ -1,17 +1,17 @@
 {
-    "timestamp": "2026-09-03T15:46:00+00:00",
+    "timestamp": "2026-09-03T16:06:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 2
+        "2": 4,
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 4
+        "1": 2,
+        "0": 3
     },
     "difficulty_mode": {
-        "2|1": 1,
+        "2|1": 2,
         "2|0": 2,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
@@ -20,6 +20,10 @@
         }
     ],
     "top_games": [
+        {
+            "name": "115",
+            "count": 1
+        },
         {
             "name": "114",
             "count": 1
@@ -35,10 +39,6 @@
         {
             "name": "her we go again",
             "count": 1
-        },
-        {
-            "name": "1221",
-            "count": 1
         }
     ],
     "unknown_games": [
@@ -47,7 +47,7 @@
             "count": 4,
             "examples": [
                 "114",
-                "1221"
+                "115"
             ]
         },
         {
@@ -76,6 +76,6 @@
     "interesting": {
         "unique_names": 5,
         "public_games": 5,
-        "average_name_length": 7.4
+        "average_name_length": 7.2
     }
 }
