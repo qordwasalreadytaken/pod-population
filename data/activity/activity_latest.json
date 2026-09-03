@@ -1,31 +1,26 @@
 {
-    "timestamp": "2026-09-03T23:04:00+00:00",
+    "timestamp": "2026-09-03T23:19:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 1,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         }
     ],
     "top_games": [
         {
             "name": "nfireskillers",
-            "count": 1
-        },
-        {
-            "name": "h;l",
             "count": 1
         },
         {
@@ -42,13 +37,6 @@
             ]
         },
         {
-            "normalized": "h;l",
-            "count": 2,
-            "examples": [
-                "h;l"
-            ]
-        },
-        {
             "normalized": "t",
             "count": 2,
             "examples": [
@@ -58,8 +46,8 @@
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 5.67
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 7.0
     }
 }
