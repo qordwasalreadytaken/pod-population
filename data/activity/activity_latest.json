@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-09-03T13:25:00+00:00",
+    "timestamp": "2026-09-03T13:34:00+00:00",
     "difficulty": {
         "2": 2,
-        "0": 2
+        "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
         "2|1": 1,
         "2|0": 1,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -33,10 +33,6 @@
             "count": 1
         },
         {
-            "name": "1229",
-            "count": 1
-        },
-        {
             "name": "3413",
             "count": 1
         }
@@ -44,10 +40,9 @@
     "unknown_games": [
         {
             "normalized": "#",
-            "count": 6,
+            "count": 4,
             "examples": [
                 "111",
-                "1229",
                 "3413"
             ]
         }
@@ -62,8 +57,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 5.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 6.0
     }
 }
