@@ -1,27 +1,38 @@
 {
-    "timestamp": "2026-09-03T05:30:00+00:00",
+    "timestamp": "2026-09-03T05:57:00+00:00",
     "difficulty": {
-        "2": 1
+        "2": 2
     },
     "mode": {
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 1
+        "2|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
+        {
+            "name": "adsdas",
+            "count": 1
+        },
         {
             "name": "lvv",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "adsdas",
+            "count": 2,
+            "examples": [
+                "adsdas"
+            ]
+        },
         {
             "normalized": "lvv",
             "count": 2,
@@ -32,8 +43,8 @@
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 3.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 4.5
     }
 }
