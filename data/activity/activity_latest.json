@@ -1,13 +1,13 @@
 {
-    "timestamp": "2026-09-03T04:41:00+00:00",
+    "timestamp": "2026-09-03T05:30:00+00:00",
     "difficulty": {
-        "1": 1
+        "2": 1
     },
     "mode": {
-        "1": 1
+        "0": 1
     },
     "difficulty_mode": {
-        "1|1": 1
+        "2|0": 1
     },
     "activities": [
         {
@@ -17,16 +17,16 @@
     ],
     "top_games": [
         {
-            "name": "eq",
+            "name": "lvv",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "eq",
+            "normalized": "lvv",
             "count": 2,
             "examples": [
-                "eq"
+                "lvv"
             ]
         }
     ],
@@ -34,6 +34,6 @@
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 2.0
+        "average_name_length": 3.0
     }
 }
