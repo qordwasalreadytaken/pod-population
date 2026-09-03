@@ -1,23 +1,33 @@
 {
-    "timestamp": "2026-09-03T11:04:00+00:00",
+    "timestamp": "2026-09-03T11:21:00+00:00",
     "difficulty": {
-        "2": 1
+        "2": 2
     },
     "mode": {
-        "1": 1
+        "1": 1,
+        "0": 1
     },
     "difficulty_mode": {
-        "2|1": 1
+        "2|1": 1,
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Other",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "nfireskillers",
+            "count": 1
+        },
+        {
+            "name": "n eld runes",
             "count": 1
         }
     ],
@@ -30,10 +40,18 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "n eld runes",
+                "matched": "run",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 13.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 12.0
     }
 }
