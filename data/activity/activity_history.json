@@ -701,7 +701,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -772,7 +772,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -8995,7 +8995,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 },
                 {
@@ -12824,7 +12824,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 }
             ]
@@ -17824,7 +17824,7 @@
             "Leveling": [
                 {
                     "name": "normal tombin",
-                    "matched": "tomb",
+                    "matched": "norm",
                     "count": 1
                 },
                 {
@@ -20087,7 +20087,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -20187,7 +20187,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -33947,7 +33947,7 @@
             "Uber": [
                 {
                     "name": "ubers",
-                    "matched": "ubers",
+                    "matched": "uber",
                     "count": 1
                 }
             ],
@@ -35849,7 +35849,7 @@
             "Leveling": [
                 {
                     "name": "act start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -36454,7 +36454,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "mf runs",
-                    "matched": "run",
+                    "matched": "mf",
                     "count": 1
                 }
             ]
@@ -38979,7 +38979,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -39036,7 +39036,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -39110,7 +39110,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -63618,7 +63618,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "14123awdasdfqwr",
-                    "matched": "asd",
+                    "matched": "123",
                     "count": 1
                 },
                 {
@@ -122352,7 +122352,7 @@
                 },
                 {
                     "name": "asdsd36aaaa",
-                    "matched": "asd",
+                    "matched": "aaa",
                     "count": 1
                 },
                 {
@@ -122407,7 +122407,7 @@
                 },
                 {
                     "name": "asdsd36aaaa",
-                    "matched": "asd",
+                    "matched": "aaa",
                     "count": 1
                 }
             ]
@@ -137655,6 +137655,111 @@
             "unique_names": 5,
             "public_games": 5,
             "average_name_length": 6.2
+        }
+    },
+    {
+        "timestamp": "2026-09-03T18:51:00+00:00",
+        "difficulty": {
+            "2": 2,
+            "0": 4
+        },
+        "mode": {
+            "0": 6
+        },
+        "difficulty_mode": {
+            "2|0": 2,
+            "0|0": 4
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 4
+            },
+            {
+                "name": "Leveling",
+                "count": 1
+            },
+            {
+                "name": "Trade",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "eafw",
+                "count": 1
+            },
+            {
+                "name": "1qdsd",
+                "count": 1
+            },
+            {
+                "name": "acfd",
+                "count": 1
+            },
+            {
+                "name": "act 1",
+                "count": 1
+            },
+            {
+                "name": "1221",
+                "count": 1
+            },
+            {
+                "name": "n free 4 pala",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "eafw",
+                "count": 2,
+                "examples": [
+                    "eafw"
+                ]
+            },
+            {
+                "normalized": "#qdsd",
+                "count": 2,
+                "examples": [
+                    "1qdsd"
+                ]
+            },
+            {
+                "normalized": "acfd",
+                "count": 2,
+                "examples": [
+                    "acfd"
+                ]
+            },
+            {
+                "normalized": "#",
+                "count": 2,
+                "examples": [
+                    "1221"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Leveling": [
+                {
+                    "name": "act 1",
+                    "matched": "act",
+                    "count": 1
+                }
+            ],
+            "Trade": [
+                {
+                    "name": "n free 4 pala",
+                    "matched": "n",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 6,
+            "public_games": 6,
+            "average_name_length": 5.83
         }
     }
 ]

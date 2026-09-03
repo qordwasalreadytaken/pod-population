@@ -370,6 +370,11 @@
             "count": 5
         },
         {
+            "name": "n free 4 pala",
+            "matched": "n",
+            "count": 5
+        },
+        {
             "name": "n pala skiller",
             "matched": "n",
             "count": 4
@@ -396,11 +401,6 @@
         },
         {
             "name": "n toch necro",
-            "matched": "n",
-            "count": 4
-        },
-        {
-            "name": "n free 4 pala",
             "matched": "n",
             "count": 4
         },
@@ -759,7 +759,7 @@
         {
             "name": "act 1",
             "matched": "act",
-            "count": 23
+            "count": 24
         },
         {
             "name": "start",
@@ -858,7 +858,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "start",
+            "matched": "act",
             "count": 3
         },
         {
@@ -908,7 +908,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -928,7 +928,7 @@
         },
         {
             "name": "ancients norm",
-            "matched": "norm",
+            "matched": "anci",
             "count": 2
         },
         {
@@ -938,7 +938,7 @@
         },
         {
             "name": "normal act",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -1023,7 +1023,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "tomb",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -1053,7 +1053,7 @@
         },
         {
             "name": "act start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -1547,7 +1547,7 @@
         },
         {
             "name": "asdsd36aaaa",
-            "matched": "asd",
+            "matched": "aaa",
             "count": 2
         },
         {
@@ -1812,7 +1812,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -1882,7 +1882,7 @@
         },
         {
             "name": "14123awdasdfqwr",
-            "matched": "asd",
+            "matched": "123",
             "count": 1
         },
         {
@@ -2403,7 +2403,7 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
