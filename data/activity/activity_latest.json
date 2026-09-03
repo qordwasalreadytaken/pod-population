@@ -1,29 +1,26 @@
 {
-    "timestamp": "2026-09-03T22:22:00+00:00",
+    "timestamp": "2026-09-03T22:31:00+00:00",
     "difficulty": {
         "2": 1,
         "0": 2
     },
     "mode": {
-        "0": 3
+        "1": 1,
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 1,
+        "2|1": 1,
         "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "n eld runes",
+            "name": "nfireskillers",
             "count": 1
         },
         {
@@ -36,6 +33,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "nfireskillers",
+            "count": 2,
+            "examples": [
+                "nfireskillers"
+            ]
+        },
         {
             "normalized": "wikid klownz",
             "count": 2,
@@ -51,18 +55,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "n eld runes",
-                "matched": "run",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 8.0
+        "average_name_length": 8.67
     }
 }
