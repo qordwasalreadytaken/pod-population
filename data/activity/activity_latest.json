@@ -1,31 +1,39 @@
 {
-    "timestamp": "2026-09-03T15:26:00+00:00",
+    "timestamp": "2026-09-03T15:36:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "2": 3,
+        "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 4
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 1,
-        "0|0": 1
+        "2|0": 2,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 5
         }
     ],
     "top_games": [
         {
-            "name": "113",
+            "name": "114",
+            "count": 1
+        },
+        {
+            "name": "caughtnekkid",
             "count": 1
         },
         {
             "name": "lvv",
+            "count": 1
+        },
+        {
+            "name": "her we go again",
             "count": 1
         },
         {
@@ -38,8 +46,15 @@
             "normalized": "#",
             "count": 4,
             "examples": [
-                "113",
+                "114",
                 "1221"
+            ]
+        },
+        {
+            "normalized": "caughtnekkid",
+            "count": 2,
+            "examples": [
+                "caughtnekkid"
             ]
         },
         {
@@ -48,12 +63,19 @@
             "examples": [
                 "lvv"
             ]
+        },
+        {
+            "normalized": "her we go again",
+            "count": 2,
+            "examples": [
+                "her we go again"
+            ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 3.33
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 7.4
     }
 }
