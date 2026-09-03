@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-09-03T17:46:00+00:00",
+    "timestamp": "2026-09-03T18:06:00+00:00",
     "difficulty": {
-        "2": 4,
-        "0": 1
+        "2": 3,
+        "0": 2
     },
     "mode": {
         "0": 5
     },
     "difficulty_mode": {
-        "2|0": 4,
-        "0|0": 1
+        "2|0": 3,
+        "0|0": 2
     },
     "activities": [
         {
@@ -23,19 +23,19 @@
     ],
     "top_games": [
         {
-            "name": "awef",
+            "name": "aefwaewfaewf",
             "count": 1
         },
         {
-            "name": "ijiji",
+            "name": "aweffaew",
             "count": 1
         },
         {
-            "name": "lvv",
+            "name": "1qdsd",
             "count": 1
         },
         {
-            "name": "adsdas",
+            "name": "1221",
             "count": 1
         },
         {
@@ -45,31 +45,31 @@
     ],
     "unknown_games": [
         {
-            "normalized": "awef",
+            "normalized": "aefwaewfaewf",
             "count": 2,
             "examples": [
-                "awef"
+                "aefwaewfaewf"
             ]
         },
         {
-            "normalized": "ijiji",
+            "normalized": "aweffaew",
             "count": 2,
             "examples": [
-                "ijiji"
+                "aweffaew"
             ]
         },
         {
-            "normalized": "lvv",
+            "normalized": "#qdsd",
             "count": 2,
             "examples": [
-                "lvv"
+                "1qdsd"
             ]
         },
         {
-            "normalized": "adsdas",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "adsdas"
+                "1221"
             ]
         }
     ],
@@ -85,6 +85,6 @@
     "interesting": {
         "unique_names": 5,
         "public_games": 5,
-        "average_name_length": 6.2
+        "average_name_length": 8.4
     }
 }
