@@ -773,7 +773,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "act",
+            "matched": "andar",
             "count": 12
         },
         {
@@ -853,7 +853,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 3
         },
         {
@@ -903,7 +903,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "leveli",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -933,7 +933,7 @@
         },
         {
             "name": "normal act",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -1018,7 +1018,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "tomb",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -1048,7 +1048,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -1094,6 +1094,11 @@
         {
             "name": "anciens n help",
             "matched": "anci",
+            "count": 1
+        },
+        {
+            "name": "acte 5 n help",
+            "matched": "act",
             "count": 1
         }
     ],
@@ -1168,7 +1173,7 @@
         {
             "name": "n eld runes",
             "matched": "run",
-            "count": 215
+            "count": 216
         },
         {
             "name": "aa",
@@ -2393,7 +2398,7 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
