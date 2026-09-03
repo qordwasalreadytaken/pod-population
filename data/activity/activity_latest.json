@@ -1,50 +1,15 @@
 {
-    "timestamp": "2026-09-03T08:07:00+00:00",
-    "difficulty": {
-        "2": 2
-    },
-    "mode": {
-        "0": 2
-    },
-    "difficulty_mode": {
-        "2|0": 2
-    },
-    "activities": [
-        {
-            "name": "Other",
-            "count": 2
-        }
-    ],
-    "top_games": [
-        {
-            "name": "desert public",
-            "count": 1
-        },
-        {
-            "name": "adsdas",
-            "count": 1
-        }
-    ],
-    "unknown_games": [
-        {
-            "normalized": "desert public",
-            "count": 2,
-            "examples": [
-                "desert public"
-            ]
-        },
-        {
-            "normalized": "adsdas",
-            "count": 2,
-            "examples": [
-                "adsdas"
-            ]
-        }
-    ],
+    "timestamp": "2026-09-03T08:32:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "difficulty_mode": {},
+    "activities": [],
+    "top_games": [],
+    "unknown_games": [],
     "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 9.5
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
