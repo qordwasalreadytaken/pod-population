@@ -778,7 +778,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "act",
+            "matched": "andar",
             "count": 12
         },
         {
@@ -858,7 +858,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 3
         },
         {
@@ -938,7 +938,7 @@
         },
         {
             "name": "normal act",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -964,6 +964,11 @@
         {
             "name": "start me",
             "matched": "start",
+            "count": 2
+        },
+        {
+            "name": "acte 5 exp",
+            "matched": "exp",
             "count": 2
         },
         {
@@ -1053,7 +1058,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -1104,11 +1109,6 @@
         {
             "name": "acte 5 n help",
             "matched": "act",
-            "count": 1
-        },
-        {
-            "name": "acte 5 exp",
-            "matched": "exp",
             "count": 1
         }
     ],
@@ -2408,12 +2408,12 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
