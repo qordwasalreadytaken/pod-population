@@ -1,38 +1,38 @@
 {
-    "timestamp": "2026-09-04T13:46:00+00:00",
+    "timestamp": "2026-09-04T14:05:00+00:00",
     "difficulty": {
-        "2": 8,
+        "2": 3,
         "1": 1,
-        "0": 1
+        "0": 2
     },
     "mode": {
-        "1": 3,
-        "0": 7
+        "1": 1,
+        "0": 5
     },
     "difficulty_mode": {
-        "2|1": 3,
-        "2|0": 5,
+        "2|1": 1,
+        "2|0": 2,
         "1|0": 1,
-        "0|0": 1
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 9
+            "count": 4
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "idkwhatname",
-            "count": 4
+            "name": "nfireskillers",
+            "count": 1
         },
         {
-            "name": "nfireskillers",
-            "count": 3
+            "name": "jah ber plz 1",
+            "count": 1
         },
         {
             "name": "hell",
@@ -43,23 +43,27 @@
             "count": 1
         },
         {
+            "name": "234123",
+            "count": 1
+        },
+        {
             "name": "412341",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "idkwhatname",
-            "count": 8,
+            "normalized": "nfireskillers",
+            "count": 2,
             "examples": [
-                "idkwhatname"
+                "nfireskillers"
             ]
         },
         {
-            "normalized": "nfireskillers",
-            "count": 6,
+            "normalized": "jah ber plz #",
+            "count": 2,
             "examples": [
-                "nfireskillers"
+                "jah ber plz 1"
             ]
         },
         {
@@ -80,6 +84,11 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
+                "name": "234123",
+                "matched": "123",
+                "count": 1
+            },
+            {
                 "name": "412341",
                 "matched": "123",
                 "count": 1
@@ -87,8 +96,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 10,
-        "average_name_length": 7.6
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 7.67
     }
 }
