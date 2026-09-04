@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 652,
+        "count": 654,
         "examples": [
             "1",
             "10",
@@ -345,6 +345,13 @@
         ]
     },
     {
+        "normalized": "#qdsd",
+        "count": 22,
+        "examples": [
+            "1qdsd"
+        ]
+    },
+    {
         "normalized": "g",
         "count": 20,
         "examples": [
@@ -391,13 +398,6 @@
         "count": 20,
         "examples": [
             "ttt"
-        ]
-    },
-    {
-        "normalized": "#qdsd",
-        "count": 20,
-        "examples": [
-            "1qdsd"
         ]
     },
     {
@@ -4930,6 +4930,13 @@
         "count": 2,
         "examples": [
             "h;l"
+        ]
+    },
+    {
+        "normalized": "were dying",
+        "count": 2,
+        "examples": [
+            "were dying"
         ]
     }
 ]
