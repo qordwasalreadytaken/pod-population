@@ -1,15 +1,17 @@
 {
-    "timestamp": "2026-09-04T18:36:00+00:00",
+    "timestamp": "2026-09-04T18:46:00+00:00",
     "difficulty": {
-        "1": 3,
-        "0": 1
+        "1": 2,
+        "0": 2
     },
     "mode": {
-        "0": 4
+        "1": 1,
+        "0": 3
     },
     "difficulty_mode": {
-        "1|0": 3,
-        "0|0": 1
+        "1|1": 1,
+        "1|0": 1,
+        "0|0": 2
     },
     "activities": [
         {
@@ -17,30 +19,35 @@
             "count": 3
         },
         {
-            "name": "Rush",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "can i help you",
-            "count": 2
+            "name": "n warpspear",
+            "count": 1
         },
         {
             "name": "here",
             "count": 1
         },
         {
-            "name": "i rush you 1",
+            "name": "3333334",
+            "count": 1
+        },
+        {
+            "name": "3333333",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "can i help you",
+            "normalized": "#",
             "count": 4,
             "examples": [
-                "can i help you"
+                "3333333",
+                "3333334"
             ]
         },
         {
@@ -52,17 +59,17 @@
         }
     ],
     "classified_games": {
-        "Rush": [
+        "Trade": [
             {
-                "name": "i rush you 1",
-                "matched": "rush",
+                "name": "n warpspear",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
+        "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 10.0
+        "average_name_length": 7.25
     }
 }

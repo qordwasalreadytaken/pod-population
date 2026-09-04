@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 656,
+        "count": 660,
         "examples": [
             "1",
             "10",
@@ -2284,6 +2284,13 @@
         "count": 4,
         "examples": [
             "can i help you"
+        ]
+    },
+    {
+        "normalized": "here",
+        "count": 4,
+        "examples": [
+            "here"
         ]
     },
     {
@@ -4986,13 +4993,6 @@
         "count": 2,
         "examples": [
             "i want help 1"
-        ]
-    },
-    {
-        "normalized": "here",
-        "count": 2,
-        "examples": [
-            "here"
         ]
     }
 ]
