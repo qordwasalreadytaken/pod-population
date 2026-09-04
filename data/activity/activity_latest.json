@@ -1,55 +1,27 @@
 {
-    "timestamp": "2026-09-04T18:46:00+00:00",
+    "timestamp": "2026-09-04T19:03:00+00:00",
     "difficulty": {
-        "1": 2,
-        "0": 2
+        "1": 1
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "0": 1
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "1|0": 1,
-        "0|0": 2
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
-        },
-        {
-            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n warpspear",
-            "count": 1
-        },
-        {
             "name": "here",
-            "count": 1
-        },
-        {
-            "name": "3333334",
-            "count": 1
-        },
-        {
-            "name": "3333333",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "#",
-            "count": 4,
-            "examples": [
-                "3333333",
-                "3333334"
-            ]
-        },
         {
             "normalized": "here",
             "count": 2,
@@ -58,18 +30,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "n warpspear",
-                "matched": "n",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 7.25
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 4.0
     }
 }
