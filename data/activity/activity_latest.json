@@ -1,18 +1,20 @@
 {
-    "timestamp": "2026-09-04T12:34:00+00:00",
+    "timestamp": "2026-09-04T12:52:00+00:00",
     "difficulty": {
-        "1": 2
+        "1": 2,
+        "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "1|0": 2
+        "1|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         }
     ],
     "top_games": [
@@ -22,6 +24,10 @@
         },
         {
             "name": "farm",
+            "count": 1
+        },
+        {
+            "name": "dfgsdf",
             "count": 1
         }
     ],
@@ -39,12 +45,19 @@
             "examples": [
                 "farm"
             ]
+        },
+        {
+            "normalized": "dfgsdf",
+            "count": 2,
+            "examples": [
+                "dfgsdf"
+            ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 3.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 4.0
     }
 }
