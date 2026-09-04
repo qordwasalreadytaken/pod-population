@@ -778,7 +778,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "act",
+            "matched": "andar",
             "count": 12
         },
         {
@@ -908,7 +908,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -938,7 +938,7 @@
         },
         {
             "name": "normal act",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -1023,7 +1023,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "norm",
+            "matched": "tomb",
             "count": 1
         },
         {
@@ -1536,6 +1536,11 @@
             "count": 2
         },
         {
+            "name": "asdf",
+            "matched": "asd",
+            "count": 2
+        },
+        {
             "name": "13123",
             "matched": "123",
             "count": 2
@@ -1882,7 +1887,7 @@
         },
         {
             "name": "14123awdasdfqwr",
-            "matched": "asd",
+            "matched": "123",
             "count": 1
         },
         {
@@ -1928,11 +1933,6 @@
         {
             "name": "tombruns 1",
             "matched": "run",
-            "count": 1
-        },
-        {
-            "name": "asdf",
-            "matched": "asd",
             "count": 1
         },
         {
@@ -2186,7 +2186,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "map",
+            "matched": "mapping",
             "count": 4
         },
         {
@@ -2361,7 +2361,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -2376,7 +2376,7 @@
         },
         {
             "name": "mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -2403,7 +2403,7 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
