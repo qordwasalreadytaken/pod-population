@@ -1,24 +1,24 @@
 {
-    "timestamp": "2026-09-04T13:33:00+00:00",
+    "timestamp": "2026-09-04T13:46:00+00:00",
     "difficulty": {
-        "2": 5,
+        "2": 8,
         "1": 1,
         "0": 1
     },
     "mode": {
         "1": 3,
-        "0": 4
+        "0": 7
     },
     "difficulty_mode": {
         "2|1": 3,
-        "2|0": 2,
+        "2|0": 5,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 6
+            "count": 9
         },
         {
             "name": "Misc. Public MF Runs",
@@ -27,12 +27,12 @@
     ],
     "top_games": [
         {
-            "name": "nfireskillers",
-            "count": 3
+            "name": "idkwhatname",
+            "count": 4
         },
         {
-            "name": "idkwhatname",
-            "count": 1
+            "name": "nfireskillers",
+            "count": 3
         },
         {
             "name": "hell",
@@ -49,17 +49,17 @@
     ],
     "unknown_games": [
         {
+            "normalized": "idkwhatname",
+            "count": 8,
+            "examples": [
+                "idkwhatname"
+            ]
+        },
+        {
             "normalized": "nfireskillers",
             "count": 6,
             "examples": [
                 "nfireskillers"
-            ]
-        },
-        {
-            "normalized": "idkwhatname",
-            "count": 2,
-            "examples": [
-                "idkwhatname"
             ]
         },
         {
@@ -88,7 +88,7 @@
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 7,
+        "public_games": 10,
         "average_name_length": 7.6
     }
 }
