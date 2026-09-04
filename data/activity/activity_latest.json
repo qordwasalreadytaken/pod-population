@@ -1,37 +1,27 @@
 {
-    "timestamp": "2026-09-04T14:05:00+00:00",
+    "timestamp": "2026-09-04T14:23:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 1,
-        "0": 2
+        "2": 2,
+        "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 5
+        "0": 2
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 2,
-        "1|0": 1,
-        "0|0": 2
+        "2|0": 1,
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 3
         }
     ],
     "top_games": [
         {
             "name": "nfireskillers",
-            "count": 1
-        },
-        {
-            "name": "jah ber plz 1",
             "count": 1
         },
         {
@@ -41,14 +31,6 @@
         {
             "name": "farm",
             "count": 1
-        },
-        {
-            "name": "234123",
-            "count": 1
-        },
-        {
-            "name": "412341",
-            "count": 1
         }
     ],
     "unknown_games": [
@@ -57,13 +39,6 @@
             "count": 2,
             "examples": [
                 "nfireskillers"
-            ]
-        },
-        {
-            "normalized": "jah ber plz #",
-            "count": 2,
-            "examples": [
-                "jah ber plz 1"
             ]
         },
         {
@@ -81,23 +56,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "234123",
-                "matched": "123",
-                "count": 1
-            },
-            {
-                "name": "412341",
-                "matched": "123",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 7.67
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 7.0
     }
 }
