@@ -1,33 +1,33 @@
 {
-    "timestamp": "2026-09-04T17:32:00+00:00",
+    "timestamp": "2026-09-04T17:46:00+00:00",
     "difficulty": {
-        "1": 1,
-        "0": 1
+        "2": 1,
+        "1": 1
     },
     "mode": {
         "0": 2
     },
     "difficulty_mode": {
-        "1|0": 1,
-        "0|0": 1
+        "2|0": 1,
+        "1|0": 1
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Maps",
             "count": 1
         },
         {
-            "name": "Leveling",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "farm",
+            "name": "chilmap",
             "count": 1
         },
         {
-            "name": "acte 5 exp",
+            "name": "farm",
             "count": 1
         }
     ],
@@ -41,10 +41,10 @@
         }
     ],
     "classified_games": {
-        "Leveling": [
+        "Maps": [
             {
-                "name": "acte 5 exp",
-                "matched": "exp",
+                "name": "chilmap",
+                "matched": "map",
                 "count": 1
             }
         ]
@@ -52,6 +52,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 7.0
+        "average_name_length": 5.5
     }
 }
