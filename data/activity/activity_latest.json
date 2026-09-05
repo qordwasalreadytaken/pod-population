@@ -1,23 +1,33 @@
 {
-    "timestamp": "2026-09-05T14:46:00+00:00",
+    "timestamp": "2026-09-05T15:04:00+00:00",
     "difficulty": {
-        "1": 1
+        "1": 1,
+        "0": 2
     },
     "mode": {
-        "0": 1
+        "0": 3
     },
     "difficulty_mode": {
-        "1|0": 1
+        "1|0": 1,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
         {
             "name": "pali join",
+            "count": 1
+        },
+        {
+            "name": "pala",
+            "count": 1
+        },
+        {
+            "name": "wikid klownz",
             "count": 1
         }
     ],
@@ -28,12 +38,26 @@
             "examples": [
                 "pali join"
             ]
+        },
+        {
+            "normalized": "pala",
+            "count": 2,
+            "examples": [
+                "pala"
+            ]
+        },
+        {
+            "normalized": "wikid klownz",
+            "count": 2,
+            "examples": [
+                "wikid klownz"
+            ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 9.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 8.33
     }
 }
