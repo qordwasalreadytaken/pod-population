@@ -1,37 +1,31 @@
 {
-    "timestamp": "2026-09-05T01:51:00+00:00",
+    "timestamp": "2026-09-05T02:07:00+00:00",
     "difficulty": {
-        "1": 2,
-        "0": 1
+        "1": 2
     },
     "mode": {
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
-        "1|0": 2,
-        "0|0": 1
+        "1|0": 2
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 2
+            "name": "Trade",
+            "count": 1
         },
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n free 4 paly",
+            "name": "n free 4 pala",
             "count": 1
         },
         {
             "name": "farm",
-            "count": 1
-        },
-        {
-            "name": "gg",
             "count": 1
         }
     ],
@@ -42,27 +36,20 @@
             "examples": [
                 "farm"
             ]
-        },
-        {
-            "normalized": "gg",
-            "count": 2,
-            "examples": [
-                "gg"
-            ]
         }
     ],
     "classified_games": {
         "Trade": [
             {
-                "name": "n free 4 paly",
+                "name": "n free 4 pala",
                 "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.33
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 8.5
     }
 }
