@@ -450,6 +450,11 @@
             "count": 3
         },
         {
+            "name": "n pala amu",
+            "matched": "n",
+            "count": 3
+        },
+        {
             "name": "n aldurs set",
             "matched": "n",
             "count": 2
@@ -516,11 +521,6 @@
         },
         {
             "name": "n free pala amy",
-            "matched": "n",
-            "count": 2
-        },
-        {
-            "name": "n pala amu",
             "matched": "n",
             "count": 2
         },
@@ -888,7 +888,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "start",
+            "matched": "act",
             "count": 3
         },
         {
@@ -998,7 +998,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "act",
+            "matched": "exp",
             "count": 2
         },
         {
@@ -1088,7 +1088,7 @@
         },
         {
             "name": "act start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -1597,7 +1597,7 @@
         },
         {
             "name": "asdsd36aaaa",
-            "matched": "asd",
+            "matched": "aaa",
             "count": 2
         },
         {
@@ -2226,7 +2226,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "mapping",
+            "matched": "map",
             "count": 4
         },
         {
@@ -2406,7 +2406,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -2421,7 +2421,7 @@
         },
         {
             "name": "mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -2448,12 +2448,12 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
