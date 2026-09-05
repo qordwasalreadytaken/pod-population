@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 698,
+        "count": 702,
         "examples": [
             "1",
             "10",
@@ -24,7 +24,7 @@
     },
     {
         "normalized": "t",
-        "count": 444,
+        "count": 446,
         "examples": [
             "t"
         ]
@@ -1146,6 +1146,13 @@
         ]
     },
     {
+        "normalized": "#qd",
+        "count": 8,
+        "examples": [
+            "1qd"
+        ]
+    },
+    {
         "normalized": "sdsd",
         "count": 6,
         "examples": [
@@ -1518,13 +1525,6 @@
         "count": 6,
         "examples": [
             "awfe"
-        ]
-    },
-    {
-        "normalized": "#qd",
-        "count": 6,
-        "examples": [
-            "1qd"
         ]
     },
     {
@@ -2305,6 +2305,13 @@
         "count": 4,
         "examples": [
             "can i help you"
+        ]
+    },
+    {
+        "normalized": "wikid klownz iv",
+        "count": 4,
+        "examples": [
+            "wikid klownz iv"
         ]
     },
     {
@@ -5000,13 +5007,6 @@
         "count": 2,
         "examples": [
             "i want help 1"
-        ]
-    },
-    {
-        "normalized": "wikid klownz iv",
-        "count": 2,
-        "examples": [
-            "wikid klownz iv"
         ]
     }
 ]
