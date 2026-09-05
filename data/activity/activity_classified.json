@@ -281,7 +281,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "torch",
+            "matched": "buy",
             "count": 12
         },
         {
@@ -465,6 +465,11 @@
             "count": 3
         },
         {
+            "name": "n heavens light",
+            "matched": "n",
+            "count": 3
+        },
+        {
             "name": "n aldurs set",
             "matched": "n",
             "count": 2
@@ -536,11 +541,6 @@
         },
         {
             "name": "n pala off sk",
-            "matched": "n",
-            "count": 2
-        },
-        {
-            "name": "n heavens light",
             "matched": "n",
             "count": 2
         },
@@ -913,7 +913,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 3
         },
         {
@@ -1113,7 +1113,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -1243,7 +1243,7 @@
         {
             "name": "n eld runes",
             "matched": "run",
-            "count": 256
+            "count": 257
         },
         {
             "name": "aa",
@@ -2246,7 +2246,7 @@
         },
         {
             "name": "desert maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 5
         },
         {
@@ -2271,7 +2271,7 @@
         },
         {
             "name": "public maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 4
         },
         {
@@ -2356,12 +2356,12 @@
         },
         {
             "name": "t maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 2
         },
         {
             "name": "t maps 2",
-            "matched": "map",
+            "matched": "maps",
             "count": 2
         },
         {
@@ -2371,7 +2371,7 @@
         },
         {
             "name": "maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 1
         },
         {
@@ -2436,7 +2436,7 @@
         },
         {
             "name": "maps?2",
-            "matched": "map",
+            "matched": "maps",
             "count": 1
         },
         {
@@ -2456,7 +2456,7 @@
         },
         {
             "name": "maps 3",
-            "matched": "map",
+            "matched": "maps",
             "count": 1
         },
         {
@@ -2473,12 +2473,12 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
