@@ -540,6 +540,11 @@
             "count": 2
         },
         {
+            "name": "n heavens light",
+            "matched": "n",
+            "count": 2
+        },
+        {
             "name": "n paladin gear",
             "matched": "n",
             "count": 1
@@ -798,11 +803,6 @@
             "name": "n oocs wuw",
             "matched": "wuw",
             "count": 1
-        },
-        {
-            "name": "n heavens light",
-            "matched": "n",
-            "count": 1
         }
     ],
     "Leveling": [
@@ -833,7 +833,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "act",
+            "matched": "andar",
             "count": 12
         },
         {
@@ -963,7 +963,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -1023,7 +1023,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "exp",
+            "matched": "act",
             "count": 2
         },
         {
@@ -1243,7 +1243,7 @@
         {
             "name": "n eld runes",
             "matched": "run",
-            "count": 255
+            "count": 256
         },
         {
             "name": "aa",
@@ -1882,7 +1882,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -2246,7 +2246,7 @@
         },
         {
             "name": "desert maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 5
         },
         {
@@ -2271,7 +2271,7 @@
         },
         {
             "name": "public maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 4
         },
         {
@@ -2356,12 +2356,12 @@
         },
         {
             "name": "t maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
             "name": "t maps 2",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
@@ -2371,7 +2371,7 @@
         },
         {
             "name": "maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 1
         },
         {
@@ -2436,7 +2436,7 @@
         },
         {
             "name": "maps?2",
-            "matched": "maps",
+            "matched": "map",
             "count": 1
         },
         {
@@ -2456,7 +2456,7 @@
         },
         {
             "name": "maps 3",
-            "matched": "maps",
+            "matched": "map",
             "count": 1
         },
         {
@@ -2473,12 +2473,12 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]

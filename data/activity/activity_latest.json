@@ -1,39 +1,54 @@
 {
-    "timestamp": "2026-09-05T16:04:00+00:00",
+    "timestamp": "2026-09-05T16:22:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 4
     },
     "mode": {
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 3
+        "2|0": 4
     },
     "activities": [
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 2
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "lvv",
+            "count": 1
+        },
+        {
             "name": "1qd",
+            "count": 1
+        },
+        {
+            "name": "n eld runes",
             "count": 1
         },
         {
             "name": "n heavens light",
             "count": 1
-        },
-        {
-            "name": "n/5 fire/phys",
-            "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "lvv",
+            "count": 2,
+            "examples": [
+                "lvv"
+            ]
+        },
         {
             "normalized": "#qd",
             "count": 2,
@@ -43,22 +58,24 @@
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "n eld runes",
+                "matched": "run",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n heavens light",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "n/5 fire/phys",
                 "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 10.33
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 8.0
     }
 }
