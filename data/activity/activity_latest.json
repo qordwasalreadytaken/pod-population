@@ -1,15 +1,19 @@
 {
-    "timestamp": "2026-09-05T19:17:00+00:00",
+    "timestamp": "2026-09-05T19:32:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 3
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 3
     },
     "activities": [
+        {
+            "name": "Trade",
+            "count": 1
+        },
         {
             "name": "Other",
             "count": 1
@@ -20,6 +24,10 @@
         }
     ],
     "top_games": [
+        {
+            "name": "n pala off sks",
+            "count": 1
+        },
         {
             "name": "lvv",
             "count": 1
@@ -39,6 +47,13 @@
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n pala off sks",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "n eld runes",
@@ -48,8 +63,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 7.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 9.33
     }
 }
