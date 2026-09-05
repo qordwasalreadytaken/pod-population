@@ -281,7 +281,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "torch",
+            "matched": "buy",
             "count": 12
         },
         {
@@ -545,6 +545,11 @@
             "count": 2
         },
         {
+            "name": "n pala off sks",
+            "matched": "n",
+            "count": 2
+        },
+        {
             "name": "n paladin gear",
             "matched": "n",
             "count": 1
@@ -556,7 +561,7 @@
         },
         {
             "name": "n pala torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -801,11 +806,6 @@
         },
         {
             "name": "n oocs wuw",
-            "matched": "wuw",
-            "count": 1
-        },
-        {
-            "name": "n pala off sks",
             "matched": "n",
             "count": 1
         }
@@ -918,7 +918,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 3
         },
         {
@@ -988,7 +988,7 @@
         },
         {
             "name": "ancients norm",
-            "matched": "norm",
+            "matched": "anci",
             "count": 2
         },
         {
@@ -998,7 +998,7 @@
         },
         {
             "name": "normal act",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -1028,7 +1028,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "act",
+            "matched": "exp",
             "count": 2
         },
         {
@@ -1118,7 +1118,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -1243,7 +1243,7 @@
         {
             "name": "n eld runes",
             "matched": "run",
-            "count": 262
+            "count": 263
         },
         {
             "name": "gord",
@@ -1887,7 +1887,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -2256,7 +2256,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "map",
+            "matched": "mapping",
             "count": 4
         },
         {
@@ -2436,7 +2436,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -2451,7 +2451,7 @@
         },
         {
             "name": "mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -2478,12 +2478,12 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
