@@ -1,27 +1,35 @@
 {
-    "timestamp": "2026-09-05T08:06:00+00:00",
+    "timestamp": "2026-09-05T08:26:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 2
+        "2": 4,
+        "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 1,
-        "0|0": 2
+        "2|0": 3,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 5
         }
     ],
     "top_games": [
         {
-            "name": "118",
+            "name": "119",
+            "count": 1
+        },
+        {
+            "name": "t",
+            "count": 1
+        },
+        {
+            "name": "lvv",
             "count": 1
         },
         {
@@ -29,11 +37,7 @@
             "count": 1
         },
         {
-            "name": "wikid klownz ii",
-            "count": 1
-        },
-        {
-            "name": "wikid klownz",
+            "name": "wikid klownz iv",
             "count": 1
         }
     ],
@@ -42,7 +46,21 @@
             "normalized": "#",
             "count": 2,
             "examples": [
-                "118"
+                "119"
+            ]
+        },
+        {
+            "normalized": "t",
+            "count": 2,
+            "examples": [
+                "t"
+            ]
+        },
+        {
+            "normalized": "lvv",
+            "count": 2,
+            "examples": [
+                "lvv"
             ]
         },
         {
@@ -53,24 +71,17 @@
             ]
         },
         {
-            "normalized": "wikid klownz ii",
+            "normalized": "wikid klownz iv",
             "count": 2,
             "examples": [
-                "wikid klownz ii"
-            ]
-        },
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
+                "wikid klownz iv"
             ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 8.25
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 5.0
     }
 }
