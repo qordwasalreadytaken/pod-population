@@ -8995,7 +8995,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "anci",
+                    "matched": "norm",
                     "count": 1
                 },
                 {
@@ -12824,7 +12824,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "anci",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -20087,7 +20087,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -20187,7 +20187,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -36454,7 +36454,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "mf runs",
-                    "matched": "mf",
+                    "matched": "run",
                     "count": 1
                 }
             ]
@@ -141641,7 +141641,7 @@
             "Leveling": [
                 {
                     "name": "acte 5 exp",
-                    "matched": "exp",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -141698,7 +141698,7 @@
             "Leveling": [
                 {
                     "name": "acte 5 exp",
-                    "matched": "exp",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -146385,6 +146385,72 @@
             "unique_names": 3,
             "public_games": 3,
             "average_name_length": 9.67
+        }
+    },
+    {
+        "timestamp": "2026-09-05T15:32:00+00:00",
+        "difficulty": {
+            "2": 2,
+            "0": 1
+        },
+        "mode": {
+            "0": 3
+        },
+        "difficulty_mode": {
+            "2|0": 2,
+            "0|0": 1
+        },
+        "activities": [
+            {
+                "name": "Trade",
+                "count": 2
+            },
+            {
+                "name": "Other",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "n pala off sk",
+                "count": 1
+            },
+            {
+                "name": "n/5 fire/phys",
+                "count": 1
+            },
+            {
+                "name": "wikid klownz",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "wikid klownz",
+                "count": 2,
+                "examples": [
+                    "wikid klownz"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Trade": [
+                {
+                    "name": "n pala off sk",
+                    "matched": "n",
+                    "count": 1
+                },
+                {
+                    "name": "n/5 fire/phys",
+                    "matched": "n",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 3,
+            "public_games": 3,
+            "average_name_length": 12.67
         }
     }
 ]
