@@ -1,57 +1,53 @@
 {
-    "timestamp": "2026-09-06T05:46:00+00:00",
+    "timestamp": "2026-09-06T06:07:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 2,
+        "1": 1
     },
     "mode": {
-        "1": 1,
+        "1": 2,
         "0": 1
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 1
+        "2|1": 2,
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
         {
             "name": "cc",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "asdasd",
+            "name": "cedar bow",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "cc",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "cc"
             ]
+        },
+        {
+            "normalized": "cedar bow",
+            "count": 2,
+            "examples": [
+                "cedar bow"
+            ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asdasd",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
         "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 4.0
+        "public_games": 3,
+        "average_name_length": 5.5
     }
 }
