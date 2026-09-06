@@ -286,7 +286,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "buy",
+            "matched": "torch",
             "count": 12
         },
         {
@@ -571,7 +571,7 @@
         },
         {
             "name": "n pala torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -816,7 +816,7 @@
         },
         {
             "name": "n oocs wuw",
-            "matched": "n",
+            "matched": "wuw",
             "count": 1
         },
         {
@@ -933,7 +933,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 3
         },
         {
@@ -983,7 +983,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -1013,7 +1013,7 @@
         },
         {
             "name": "normal act",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -1043,7 +1043,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "exp",
+            "matched": "act",
             "count": 2
         },
         {
@@ -1133,7 +1133,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -1326,6 +1326,11 @@
             "count": 11
         },
         {
+            "name": "asdasd",
+            "matched": "asd",
+            "count": 9
+        },
+        {
             "name": "123123",
             "matched": "123",
             "count": 9
@@ -1344,11 +1349,6 @@
             "name": "greenaaa",
             "matched": "aaa",
             "count": 9
-        },
-        {
-            "name": "asdasd",
-            "matched": "asd",
-            "count": 8
         },
         {
             "name": "runningkeys",
@@ -1647,7 +1647,7 @@
         },
         {
             "name": "asdsd36aaaa",
-            "matched": "aaa",
+            "matched": "asd",
             "count": 2
         },
         {
@@ -2281,7 +2281,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "map",
+            "matched": "mapping",
             "count": 4
         },
         {
@@ -2461,7 +2461,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -2476,7 +2476,7 @@
         },
         {
             "name": "mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -2503,12 +2503,12 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
