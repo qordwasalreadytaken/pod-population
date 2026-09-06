@@ -231,7 +231,7 @@
         },
         {
             "name": "n torch necro",
-            "matched": "n",
+            "matched": "torch",
             "count": 35
         },
         {
@@ -266,7 +266,7 @@
         },
         {
             "name": "n druid torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 20
         },
         {
@@ -411,7 +411,7 @@
         },
         {
             "name": "n necro torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -426,7 +426,7 @@
         },
         {
             "name": "n sorc torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -461,7 +461,7 @@
         },
         {
             "name": "n sorch torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 3
         },
         {
@@ -471,7 +471,7 @@
         },
         {
             "name": "n assa torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 3
         },
         {
@@ -591,7 +591,7 @@
         },
         {
             "name": "n pala torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -616,7 +616,7 @@
         },
         {
             "name": "n nec torch :)",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -646,62 +646,62 @@
         },
         {
             "name": "n sorc torch 6",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 14",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 13",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 12",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 23",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 22",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 21",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 20",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 38",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 37",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 36",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 35",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -863,6 +863,11 @@
             "name": "n pala off sk 5",
             "matched": "n",
             "count": 1
+        },
+        {
+            "name": "n pala off sk 6",
+            "matched": "n",
+            "count": 1
         }
     ],
     "Leveling": [
@@ -973,7 +978,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 3
         },
         {
@@ -1053,7 +1058,7 @@
         },
         {
             "name": "normal act",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -1083,7 +1088,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "exp",
+            "matched": "act",
             "count": 2
         },
         {
@@ -1143,7 +1148,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "norm",
+            "matched": "tomb",
             "count": 1
         },
         {
@@ -1173,7 +1178,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -1231,7 +1236,7 @@
         {
             "name": "nm rush",
             "matched": "rush",
-            "count": 6
+            "count": 7
         },
         {
             "name": "n norm rush",
@@ -1287,6 +1292,11 @@
             "name": "i rush you 1",
             "matched": "rush",
             "count": 1
+        },
+        {
+            "name": "rush pls",
+            "matched": "rush",
+            "count": 1
         }
     ],
     "Misc. Public MF Runs": [
@@ -1298,12 +1308,12 @@
         {
             "name": "n eld runes",
             "matched": "run",
-            "count": 308
+            "count": 309
         },
         {
             "name": "gord",
             "matched": "gord",
-            "count": 265
+            "count": 266
         },
         {
             "name": "aa",
@@ -1351,12 +1361,12 @@
             "count": 13
         },
         {
-            "name": "asdxc",
+            "name": "asda",
             "matched": "asd",
-            "count": 12
+            "count": 13
         },
         {
-            "name": "asda",
+            "name": "asdxc",
             "matched": "asd",
             "count": 12
         },
