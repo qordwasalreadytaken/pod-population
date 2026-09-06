@@ -143,6 +143,11 @@
             "count": 2
         },
         {
+            "name": "baal q for rush",
+            "matched": "baal",
+            "count": 2
+        },
+        {
             "name": "baal 8",
             "matched": "baal",
             "count": 1
@@ -206,11 +211,6 @@
             "name": "baalrun 01",
             "matched": "baal",
             "count": 1
-        },
-        {
-            "name": "baal q for rush",
-            "matched": "baal",
-            "count": 1
         }
     ],
     "Trade": [
@@ -266,7 +266,7 @@
         },
         {
             "name": "n druid torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 20
         },
         {
@@ -471,7 +471,7 @@
         },
         {
             "name": "n assa torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 3
         },
         {
@@ -571,6 +571,11 @@
         },
         {
             "name": "n help",
+            "matched": "n",
+            "count": 2
+        },
+        {
+            "name": "n pala off sk 1",
             "matched": "n",
             "count": 2
         },
@@ -838,11 +843,6 @@
             "name": "n magic rbf",
             "matched": "n",
             "count": 1
-        },
-        {
-            "name": "n pala off sk 1",
-            "matched": "n",
-            "count": 1
         }
     ],
     "Leveling": [
@@ -953,7 +953,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 3
         },
         {
@@ -1033,7 +1033,7 @@
         },
         {
             "name": "normal act",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -1123,7 +1123,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "norm",
+            "matched": "tomb",
             "count": 1
         },
         {
@@ -1278,12 +1278,12 @@
         {
             "name": "n eld runes",
             "matched": "run",
-            "count": 303
+            "count": 304
         },
         {
             "name": "gord",
             "matched": "gord",
-            "count": 260
+            "count": 261
         },
         {
             "name": "aa",
@@ -1381,6 +1381,11 @@
             "count": 8
         },
         {
+            "name": "asda",
+            "matched": "asd",
+            "count": 8
+        },
+        {
             "name": "run 1",
             "matched": "run",
             "count": 7
@@ -1398,11 +1403,6 @@
         {
             "name": "runes 4 runners",
             "matched": "run",
-            "count": 7
-        },
-        {
-            "name": "asda",
-            "matched": "asd",
             "count": 7
         },
         {
@@ -1677,7 +1677,7 @@
         },
         {
             "name": "asdsd36aaaa",
-            "matched": "asd",
+            "matched": "aaa",
             "count": 2
         },
         {
@@ -2007,7 +2007,7 @@
         },
         {
             "name": "14123awdasdfqwr",
-            "matched": "asd",
+            "matched": "123",
             "count": 1
         },
         {
@@ -2296,7 +2296,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 7
         },
         {
@@ -2316,7 +2316,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "mapping",
+            "matched": "map",
             "count": 4
         },
         {
@@ -2496,7 +2496,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -2511,7 +2511,7 @@
         },
         {
             "name": "mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -2538,12 +2538,12 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]

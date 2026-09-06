@@ -1,26 +1,26 @@
 {
-    "timestamp": "2026-09-06T18:24:00+00:00",
+    "timestamp": "2026-09-06T18:33:00+00:00",
     "difficulty": {
-        "2": 6,
+        "2": 5,
         "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 7
+        "0": 6
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 5,
+        "2|0": 4,
         "0|0": 2
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 3
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 3
+            "name": "Other",
+            "count": 2
         },
         {
             "name": "Trade",
@@ -41,10 +41,6 @@
             "count": 1
         },
         {
-            "name": "gord",
-            "count": 1
-        },
-        {
             "name": "lvv",
             "count": 1
         },
@@ -57,11 +53,11 @@
             "count": 1
         },
         {
-            "name": "baal q for rush",
+            "name": "gord",
             "count": 1
         },
         {
-            "name": "wikid klownz",
+            "name": "baal q for rush",
             "count": 1
         }
     ],
@@ -79,13 +75,6 @@
             "examples": [
                 "lvv"
             ]
-        },
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
-            ]
         }
     ],
     "classified_games": {
@@ -98,11 +87,6 @@
         ],
         "Misc. Public MF Runs": [
             {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            },
-            {
                 "name": "n eld runes",
                 "matched": "run",
                 "count": 1
@@ -110,6 +94,11 @@
             {
                 "name": "asda",
                 "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "gord",
+                "matched": "gord",
                 "count": 1
             }
         ],
@@ -122,8 +111,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 8,
-        "average_name_length": 9.62
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 9.29
     }
 }
