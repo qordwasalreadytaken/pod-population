@@ -1,19 +1,17 @@
 {
-    "timestamp": "2026-09-06T08:39:00+00:00",
+    "timestamp": "2026-09-06T08:46:00+00:00",
     "difficulty": {
         "2": 3,
-        "1": 1,
-        "0": 1
+        "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
         "2|0": 2,
-        "1|0": 1,
-        "0|0": 1
+        "1|0": 1
     },
     "activities": [
         {
@@ -22,7 +20,7 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Maps",
@@ -44,10 +42,6 @@
         },
         {
             "name": "ghhgjfffh",
-            "count": 1
-        },
-        {
-            "name": "asdasd",
             "count": 1
         }
     ],
@@ -73,24 +67,19 @@
                 "name": "asda",
                 "matched": "asd",
                 "count": 1
-            },
-            {
-                "name": "asdasd",
-                "matched": "asd",
-                "count": 1
             }
         ],
         "Maps": [
             {
                 "name": "sunday mapping",
-                "matched": "mapping",
+                "matched": "map",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 7.2
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 7.5
     }
 }
