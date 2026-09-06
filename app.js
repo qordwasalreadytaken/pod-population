@@ -28,7 +28,7 @@ const CHART_TITLES = {
     introvert: "Introvert Index"
 };
 
-let currentRange = "all";
+let currentRange = "7";
 
 async function loadJSONL(url) {
   const res = await fetch(url);

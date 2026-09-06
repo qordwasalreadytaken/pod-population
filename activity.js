@@ -3,7 +3,7 @@ let currentSnapshots = [];
 let difficultyModeTimelineChart = null;
 let difficultyModeTimelineExpandedChart = null;
 let difficultyModeInteractionsWired = false;
-let currentRange = "all";
+let currentRange = "7";
 
 if (typeof Chart !== "undefined") {
     Chart.defaults.font.size = 14;
