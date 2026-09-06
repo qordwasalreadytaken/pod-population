@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-06T17:32:00+00:00",
+    "timestamp": "2026-09-06T17:46:00+00:00",
     "difficulty": {
         "2": 5,
         "1": 1,
@@ -15,25 +15,21 @@
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 3
-        },
-        {
             "name": "Other",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Trade",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "Leveling",
-            "count": 1
+            "name": "Misc. Public MF Runs",
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "asda",
+            "name": "n heaven light",
             "count": 2
         },
         {
@@ -41,7 +37,7 @@
             "count": 2
         },
         {
-            "name": "n heaven light",
+            "name": "asda",
             "count": 1
         },
         {
@@ -49,11 +45,11 @@
             "count": 1
         },
         {
-            "name": "wikid klownz",
+            "name": "1",
             "count": 1
         },
         {
-            "name": "start",
+            "name": "wikid klownz",
             "count": 1
         }
     ],
@@ -66,6 +62,13 @@
             ]
         },
         {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1"
+            ]
+        },
+        {
             "normalized": "wikid klownz",
             "count": 2,
             "examples": [
@@ -74,29 +77,22 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asda",
-                "matched": "asd",
-                "count": 2
-            },
-            {
-                "name": "n eld runes",
-                "matched": "run",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "n heaven light",
                 "matched": "n",
-                "count": 1
+                "count": 2
             }
         ],
-        "Leveling": [
+        "Misc. Public MF Runs": [
             {
-                "name": "start",
-                "matched": "start",
+                "name": "asda",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "n eld runes",
+                "matched": "run",
                 "count": 1
             }
         ]
@@ -104,6 +100,6 @@
     "interesting": {
         "unique_names": 6,
         "public_games": 8,
-        "average_name_length": 8.0
+        "average_name_length": 7.33
     }
 }
