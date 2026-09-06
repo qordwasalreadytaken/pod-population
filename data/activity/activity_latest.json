@@ -1,39 +1,39 @@
 {
-    "timestamp": "2026-09-06T20:04:00+00:00",
+    "timestamp": "2026-09-06T20:21:00+00:00",
     "difficulty": {
         "2": 4,
         "1": 1,
-        "0": 3
+        "0": 1
     },
     "mode": {
-        "0": 8
+        "0": 6
     },
     "difficulty_mode": {
         "2|0": 4,
         "1|0": 1,
-        "0|0": 3
+        "0|0": 1
     },
     "activities": [
         {
+            "name": "Trade",
+            "count": 2
+        },
+        {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Other",
-            "count": 3
-        },
-        {
-            "name": "Trade",
             "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "n eld runes",
+            "name": "n pala off sk 7",
             "count": 1
         },
         {
-            "name": "n pala off sk 6",
+            "name": "n eld runes",
             "count": 1
         },
         {
@@ -49,15 +49,7 @@
             "count": 1
         },
         {
-            "name": "farm",
-            "count": 1
-        },
-        {
-            "name": "yellow star",
-            "count": 1
-        },
-        {
-            "name": "gord",
+            "name": "sorc",
             "count": 1
         }
     ],
@@ -70,21 +62,26 @@
             ]
         },
         {
-            "normalized": "farm",
+            "normalized": "sorc",
             "count": 2,
             "examples": [
-                "farm"
-            ]
-        },
-        {
-            "normalized": "yellow star",
-            "count": 2,
-            "examples": [
-                "yellow star"
+                "sorc"
             ]
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n pala off sk 7",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n nm bumper pls",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "n eld runes",
@@ -95,29 +92,12 @@
                 "name": "asda",
                 "matched": "asd",
                 "count": 1
-            },
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            }
-        ],
-        "Trade": [
-            {
-                "name": "n pala off sk 6",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "n nm bumper pls",
-                "matched": "n",
-                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 8,
-        "average_name_length": 8.38
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 8.67
     }
 }
