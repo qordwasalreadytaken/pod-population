@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-06T01:34:00+00:00",
+    "timestamp": "2026-09-06T01:55:00+00:00",
     "difficulty": {
         "2": 3
     },
@@ -12,28 +12,40 @@
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 2
+        },
+        {
+            "name": "Other",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "runes 4 runers",
-            "count": 1
-        },
-        {
-            "name": "asd",
+            "name": "dobretoo",
             "count": 1
         },
         {
             "name": "runes 4 runners",
             "count": 1
+        },
+        {
+            "name": "asd",
+            "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "dobretoo",
+            "count": 2,
+            "examples": [
+                "dobretoo"
+            ]
+        }
+    ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "runes 4 runers",
+                "name": "runes 4 runners",
                 "matched": "run",
                 "count": 1
             },
@@ -41,17 +53,12 @@
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
-            },
-            {
-                "name": "runes 4 runners",
-                "matched": "run",
-                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 10.67
+        "average_name_length": 8.67
     }
 }
