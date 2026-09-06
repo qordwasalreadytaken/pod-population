@@ -1,29 +1,29 @@
 {
-    "timestamp": "2026-09-06T17:18:00+00:00",
+    "timestamp": "2026-09-06T17:32:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 5,
         "1": 1,
-        "0": 3
+        "0": 2
     },
     "mode": {
-        "0": 7
+        "0": 8
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 5,
         "1|0": 1,
-        "0|0": 3
+        "0|0": 2
     },
     "activities": [
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 3
+        },
         {
             "name": "Other",
             "count": 3
         },
         {
             "name": "Trade",
-            "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
@@ -33,7 +33,7 @@
     ],
     "top_games": [
         {
-            "name": "n heaven light",
+            "name": "asda",
             "count": 2
         },
         {
@@ -41,15 +41,19 @@
             "count": 2
         },
         {
+            "name": "n heaven light",
+            "count": 1
+        },
+        {
             "name": "n eld runes",
             "count": 1
         },
         {
-            "name": "start",
+            "name": "wikid klownz",
             "count": 1
         },
         {
-            "name": "wikid klownz",
+            "name": "start",
             "count": 1
         }
     ],
@@ -70,17 +74,22 @@
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asda",
+                "matched": "asd",
+                "count": 2
+            },
+            {
+                "name": "n eld runes",
+                "matched": "run",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n heaven light",
                 "matched": "n",
-                "count": 2
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "n eld runes",
-                "matched": "run",
                 "count": 1
             }
         ],
@@ -93,8 +102,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 7,
-        "average_name_length": 8.8
+        "unique_names": 6,
+        "public_games": 8,
+        "average_name_length": 8.0
     }
 }
