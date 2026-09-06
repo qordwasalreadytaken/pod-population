@@ -1,17 +1,17 @@
 {
-    "timestamp": "2026-09-06T17:03:00+00:00",
+    "timestamp": "2026-09-06T17:18:00+00:00",
     "difficulty": {
         "2": 3,
         "1": 1,
-        "0": 1
+        "0": 3
     },
     "mode": {
-        "0": 5
+        "0": 7
     },
     "difficulty_mode": {
         "2|0": 3,
         "1|0": 1,
-        "0|0": 1
+        "0|0": 3
     },
     "activities": [
         {
@@ -20,28 +20,32 @@
         },
         {
             "name": "Trade",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "n heaven light",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "ts",
-            "count": 1
+            "name": "tt",
+            "count": 2
         },
         {
             "name": "n eld runes",
             "count": 1
         },
         {
-            "name": "tt",
+            "name": "start",
             "count": 1
         },
         {
@@ -51,15 +55,8 @@
     ],
     "unknown_games": [
         {
-            "normalized": "ts",
-            "count": 2,
-            "examples": [
-                "ts"
-            ]
-        },
-        {
             "normalized": "tt",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "tt"
             ]
@@ -77,7 +74,7 @@
             {
                 "name": "n heaven light",
                 "matched": "n",
-                "count": 1
+                "count": 2
             }
         ],
         "Misc. Public MF Runs": [
@@ -86,11 +83,18 @@
                 "matched": "run",
                 "count": 1
             }
+        ],
+        "Leveling": [
+            {
+                "name": "start",
+                "matched": "start",
+                "count": 1
+            }
         ]
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 8.2
+        "public_games": 7,
+        "average_name_length": 8.8
     }
 }
