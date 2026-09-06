@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-09-06T20:21:00+00:00",
+    "timestamp": "2026-09-06T20:31:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 3,
         "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 6
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 4,
+        "2|0": 3,
         "1|0": 1,
         "0|0": 1
     },
@@ -24,20 +24,16 @@
         },
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n pala off sk 7",
+            "name": "n pala off sk 8",
             "count": 1
         },
         {
             "name": "n eld runes",
-            "count": 1
-        },
-        {
-            "name": "lvv",
             "count": 1
         },
         {
@@ -55,13 +51,6 @@
     ],
     "unknown_games": [
         {
-            "normalized": "lvv",
-            "count": 2,
-            "examples": [
-                "lvv"
-            ]
-        },
-        {
             "normalized": "sorc",
             "count": 2,
             "examples": [
@@ -72,7 +61,7 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "n pala off sk 7",
+                "name": "n pala off sk 8",
                 "matched": "n",
                 "count": 1
             },
@@ -96,8 +85,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 8.67
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 9.8
     }
 }
