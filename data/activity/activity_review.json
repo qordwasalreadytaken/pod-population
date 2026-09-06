@@ -643,6 +643,13 @@
         ]
     },
     {
+        "normalized": "cc",
+        "count": 12,
+        "examples": [
+            "cc"
+        ]
+    },
+    {
         "normalized": "helpme",
         "count": 12,
         "examples": [
@@ -769,13 +776,6 @@
         "examples": [
             "where bear 2",
             "where bear 4"
-        ]
-    },
-    {
-        "normalized": "cc",
-        "count": 10,
-        "examples": [
-            "cc"
         ]
     },
     {
@@ -2340,6 +2340,13 @@
         "count": 4,
         "examples": [
             "ijfewij"
+        ]
+    },
+    {
+        "normalized": "ghgjgjhggh",
+        "count": 4,
+        "examples": [
+            "ghgjgjhggh"
         ]
     },
     {
@@ -5035,13 +5042,6 @@
         "count": 2,
         "examples": [
             "ll"
-        ]
-    },
-    {
-        "normalized": "ghgjgjhggh",
-        "count": 2,
-        "examples": [
-            "ghgjgjhggh"
         ]
     }
 ]
