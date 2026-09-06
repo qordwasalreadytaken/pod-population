@@ -1,74 +1,72 @@
 {
-    "timestamp": "2026-09-06T00:15:00+00:00",
+    "timestamp": "2026-09-06T01:09:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 1,
-        "0": 1
+        "2": 5
     },
     "mode": {
-        "0": 3
+        "1": 1,
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 1,
-        "0|0": 1
+        "2|1": 1,
+        "2|0": 4
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 1
-        },
-        {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 3
         },
         {
             "name": "Other",
+            "count": 1
+        },
+        {
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n magic rbf",
-            "count": 1
-        },
-        {
             "name": "asd",
+            "count": 3
+        },
+        {
+            "name": "112",
             "count": 1
         },
         {
-            "name": "wikid klownz",
+            "name": "n heavens light",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "wikid klownz",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "wikid klownz"
+                "112"
             ]
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n magic rbf",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
                 "matched": "asd",
+                "count": 3
+            }
+        ],
+        "Trade": [
+            {
+                "name": "n heavens light",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 8.67
+        "public_games": 5,
+        "average_name_length": 7.0
     }
 }
