@@ -1,16 +1,16 @@
 {
-    "timestamp": "2026-09-06T07:46:00+00:00",
+    "timestamp": "2026-09-06T08:06:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 4,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 2,
+        "2|0": 3,
         "0|0": 1
     },
     "activities": [
@@ -20,7 +20,7 @@
         },
         {
             "name": "Maps",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -29,11 +29,11 @@
     ],
     "top_games": [
         {
-            "name": "111",
-            "count": 1
+            "name": "sunday mapping",
+            "count": 2
         },
         {
-            "name": "sunday mapping",
+            "name": "111",
             "count": 1
         },
         {
@@ -65,8 +65,8 @@
         "Maps": [
             {
                 "name": "sunday mapping",
-                "matched": "mapping",
-                "count": 1
+                "matched": "map",
+                "count": 2
             }
         ],
         "Misc. Public MF Runs": [
@@ -79,7 +79,7 @@
     },
     "interesting": {
         "unique_names": 4,
-        "public_games": 4,
+        "public_games": 5,
         "average_name_length": 8.75
     }
 }
