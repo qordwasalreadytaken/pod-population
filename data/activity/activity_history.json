@@ -14535,7 +14535,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ],
@@ -33947,7 +33947,7 @@
             "Uber": [
                 {
                     "name": "ubers",
-                    "matched": "ubers",
+                    "matched": "uber",
                     "count": 1
                 }
             ],
@@ -35849,7 +35849,7 @@
             "Leveling": [
                 {
                     "name": "act start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -36454,7 +36454,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "mf runs",
-                    "matched": "mf",
+                    "matched": "run",
                     "count": 1
                 }
             ]
@@ -38979,7 +38979,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -39036,7 +39036,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -39110,7 +39110,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -45195,7 +45195,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -45294,7 +45294,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -45383,7 +45383,7 @@
             "Maps": [
                 {
                     "name": "mapping 2",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ],
@@ -61468,7 +61468,7 @@
                 },
                 {
                     "name": "mapping",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -63618,7 +63618,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "14123awdasdfqwr",
-                    "matched": "123",
+                    "matched": "asd",
                     "count": 1
                 },
                 {
@@ -89630,7 +89630,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -141193,7 +141193,7 @@
             "Uber": [
                 {
                     "name": "help ubers",
-                    "matched": "ubers",
+                    "matched": "uber",
                     "count": 1
                 }
             ]
@@ -150087,7 +150087,7 @@
             "Maps": [
                 {
                     "name": "sunday mapping",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ],
@@ -150172,7 +150172,7 @@
             "Maps": [
                 {
                     "name": "sunday mapping",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 2
                 }
             ],
@@ -150257,7 +150257,7 @@
             "Maps": [
                 {
                     "name": "sunday mapping",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 2
                 }
             ],
@@ -150360,7 +150360,7 @@
             "Maps": [
                 {
                     "name": "sunday mapping",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -150445,7 +150445,7 @@
             "Maps": [
                 {
                     "name": "sunday mapping",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -156628,6 +156628,78 @@
     },
     {
         "timestamp": "2026-09-07T07:13:00+00:00",
+        "difficulty": {
+            "2": 2,
+            "1": 1
+        },
+        "mode": {
+            "0": 3
+        },
+        "difficulty_mode": {
+            "2|0": 2,
+            "1|0": 1
+        },
+        "activities": [
+            {
+                "name": "Misc. Public MF Runs",
+                "count": 1
+            },
+            {
+                "name": "Other",
+                "count": 1
+            },
+            {
+                "name": "Trade",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "n eld runes",
+                "count": 1
+            },
+            {
+                "name": "lvv",
+                "count": 1
+            },
+            {
+                "name": "n bumper plz",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "lvv",
+                "count": 2,
+                "examples": [
+                    "lvv"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Misc. Public MF Runs": [
+                {
+                    "name": "n eld runes",
+                    "matched": "run",
+                    "count": 1
+                }
+            ],
+            "Trade": [
+                {
+                    "name": "n bumper plz",
+                    "matched": "n",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 3,
+            "public_games": 3,
+            "average_name_length": 8.67
+        }
+    },
+    {
+        "timestamp": "2026-09-07T07:37:00+00:00",
         "difficulty": {
             "2": 2,
             "1": 1
