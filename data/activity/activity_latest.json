@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-07T21:32:00+00:00",
+    "timestamp": "2026-09-07T21:46:00+00:00",
     "difficulty": {
         "2": 5
     },
@@ -11,12 +11,12 @@
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 2
+            "name": "Misc. Public MF Runs",
+            "count": 3
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Trade",
+            "count": 1
         },
         {
             "name": "Other",
@@ -25,8 +25,12 @@
     ],
     "top_games": [
         {
-            "name": "n pala off sk",
+            "name": "n eld runes",
             "count": 2
+        },
+        {
+            "name": "n pala off sk",
+            "count": 1
         },
         {
             "name": "asd",
@@ -34,10 +38,6 @@
         },
         {
             "name": "ber plus 4 jah",
-            "count": 1
-        },
-        {
-            "name": "n eld runes",
             "count": 1
         }
     ],
@@ -51,22 +51,22 @@
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n pala off sk",
-                "matched": "n",
-                "count": 2
-            }
-        ],
         "Misc. Public MF Runs": [
+            {
+                "name": "n eld runes",
+                "matched": "run",
+                "count": 2
+            },
             {
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
-            },
+            }
+        ],
+        "Trade": [
             {
-                "name": "n eld runes",
-                "matched": "run",
+                "name": "n pala off sk",
+                "matched": "n",
                 "count": 1
             }
         ]
