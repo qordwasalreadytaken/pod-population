@@ -1,27 +1,17 @@
 {
-    "timestamp": "2026-09-07T07:51:00+00:00",
+    "timestamp": "2026-09-07T08:08:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1
+        "2": 1
     },
     "mode": {
-        "0": 3
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 1
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Trade",
             "count": 1
         }
     ],
@@ -29,25 +19,9 @@
         {
             "name": "n eld runes",
             "count": 1
-        },
-        {
-            "name": "lvv",
-            "count": 1
-        },
-        {
-            "name": "n bumper plz",
-            "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "lvv",
-            "count": 2,
-            "examples": [
-                "lvv"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
@@ -55,18 +29,11 @@
                 "matched": "run",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "n bumper plz",
-                "matched": "n",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 8.67
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 11.0
     }
 }
