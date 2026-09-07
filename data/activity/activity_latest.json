@@ -1,66 +1,96 @@
 {
-    "timestamp": "2026-09-07T20:05:00+00:00",
+    "timestamp": "2026-09-07T20:23:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 2
-    },
-    "mode": {
+        "2": 3,
         "0": 3
     },
+    "mode": {
+        "0": 6
+    },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 2
+        "2|0": 3,
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Other",
+            "count": 1
+        },
+        {
+            "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Rush",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "gord",
+            "count": 2
+        },
+        {
+            "name": "d",
+            "count": 1
+        },
+        {
+            "name": "n pala off sks",
+            "count": 1
+        },
+        {
             "name": "asd",
             "count": 1
         },
         {
-            "name": "elo",
-            "count": 1
-        },
-        {
-            "name": "gord",
+            "name": "rush pls",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "elo",
+            "normalized": "d",
             "count": 2,
             "examples": [
-                "elo"
+                "d"
             ]
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n pala off sks",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
+            {
+                "name": "gord",
+                "matched": "gord",
+                "count": 2
+            },
             {
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
-            },
+            }
+        ],
+        "Rush": [
             {
-                "name": "gord",
-                "matched": "gord",
+                "name": "rush pls",
+                "matched": "rush",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 3.33
+        "unique_names": 5,
+        "public_games": 6,
+        "average_name_length": 6.0
     }
 }
