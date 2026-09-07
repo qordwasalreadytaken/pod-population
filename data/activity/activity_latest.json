@@ -1,17 +1,15 @@
 {
-    "timestamp": "2026-09-07T04:44:00+00:00",
+    "timestamp": "2026-09-07T04:52:00+00:00",
     "difficulty": {
         "2": 1,
-        "1": 1,
-        "0": 1
+        "1": 1
     },
     "mode": {
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
         "2|0": 1,
-        "1|0": 1,
-        "0|0": 1
+        "1|0": 1
     },
     "activities": [
         {
@@ -20,10 +18,6 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Chaos",
             "count": 1
         }
     ],
@@ -34,10 +28,6 @@
         },
         {
             "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "arcane scant5ua",
             "count": 1
         }
     ],
@@ -57,18 +47,11 @@
                 "matched": "asd",
                 "count": 1
             }
-        ],
-        "Chaos": [
-            {
-                "name": "arcane scant5ua",
-                "matched": "arcane",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 7.33
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 3.5
     }
 }
