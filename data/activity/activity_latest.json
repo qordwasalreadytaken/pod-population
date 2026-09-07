@@ -1,31 +1,29 @@
 {
-    "timestamp": "2026-09-07T17:32:00+00:00",
+    "timestamp": "2026-09-07T17:46:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 3,
+        "0": 1
     },
     "mode": {
-        "1": 2,
-        "0": 2
+        "1": 1,
+        "0": 3
     },
     "difficulty_mode": {
-        "2|1": 2,
-        "2|0": 2
+        "2|1": 1,
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 2
+        },
         {
             "name": "Other",
             "count": 1
         },
         {
-            "name": "Chaos",
-            "count": 1
-        },
-        {
             "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -35,15 +33,15 @@
             "count": 1
         },
         {
-            "name": "chaos",
-            "count": 1
-        },
-        {
             "name": "n heaven light",
             "count": 1
         },
         {
             "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "gord",
             "count": 1
         }
     ],
@@ -57,13 +55,6 @@
         }
     ],
     "classified_games": {
-        "Chaos": [
-            {
-                "name": "chaos",
-                "matched": "chaos",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "n heaven light",
@@ -76,12 +67,17 @@
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
+            },
+            {
+                "name": "gord",
+                "matched": "gord",
+                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 6.75
+        "average_name_length": 6.5
     }
 }
