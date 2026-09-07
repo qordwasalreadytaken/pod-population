@@ -1,33 +1,23 @@
 {
-    "timestamp": "2026-09-07T10:05:00+00:00",
+    "timestamp": "2026-09-07T10:25:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
+        "2": 1
     },
     "mode": {
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 1
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "t",
-            "count": 1
-        },
-        {
-            "name": "forever alone",
             "count": 1
         }
     ],
@@ -40,18 +30,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "forever alone",
-                "matched": "for",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 7.0
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 1.0
     }
 }
