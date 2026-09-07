@@ -1,31 +1,26 @@
 {
-    "timestamp": "2026-09-07T15:23:00+00:00",
+    "timestamp": "2026-09-07T15:33:00+00:00",
     "difficulty": {
-        "2": 7,
-        "0": 2
+        "2": 4,
+        "0": 1
     },
     "mode": {
-        "1": 4,
-        "0": 5
+        "1": 2,
+        "0": 3
     },
     "difficulty_mode": {
-        "2|1": 3,
+        "2|1": 1,
         "0|1": 1,
-        "2|0": 4,
-        "0|0": 1
+        "2|0": 3
     },
     "activities": [
         {
-            "name": "Cows",
-            "count": 3
+            "name": "Other",
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
-        },
-        {
-            "name": "Other",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Leveling",
@@ -38,23 +33,19 @@
     ],
     "top_games": [
         {
-            "name": "hhcow",
-            "count": 3
-        },
-        {
-            "name": "asd",
-            "count": 2
+            "name": "meph",
+            "count": 1
         },
         {
             "name": "normal",
             "count": 1
         },
         {
-            "name": "f",
+            "name": "n heaven light",
             "count": 1
         },
         {
-            "name": "n heaven light",
+            "name": "f",
             "count": 1
         },
         {
@@ -79,11 +70,11 @@
         }
     ],
     "classified_games": {
-        "Cows": [
+        "Misc. Public MF Runs": [
             {
-                "name": "hhcow",
-                "matched": "cow",
-                "count": 3
+                "name": "meph",
+                "matched": "meph",
+                "count": 1
             }
         ],
         "Leveling": [
@@ -91,13 +82,6 @@
                 "name": "normal",
                 "matched": "norm",
                 "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 2
             }
         ],
         "Trade": [
@@ -109,8 +93,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 9,
-        "average_name_length": 6.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 6.4
     }
 }
