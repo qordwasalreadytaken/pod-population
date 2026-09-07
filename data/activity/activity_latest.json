@@ -1,28 +1,24 @@
 {
-    "timestamp": "2026-09-07T02:24:00+00:00",
+    "timestamp": "2026-09-07T02:41:00+00:00",
     "difficulty": {
-        "0": 2
+        "0": 3
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "0|0": 2
+        "0|0": 3
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
             "name": "Other",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 1
+            "name": "ads",
+            "count": 2
         },
         {
             "name": "sorc",
@@ -31,6 +27,13 @@
     ],
     "unknown_games": [
         {
+            "normalized": "ads",
+            "count": 4,
+            "examples": [
+                "ads"
+            ]
+        },
+        {
             "normalized": "sorc",
             "count": 2,
             "examples": [
@@ -38,18 +41,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
         "unique_names": 2,
-        "public_games": 2,
+        "public_games": 3,
         "average_name_length": 3.5
     }
 }
