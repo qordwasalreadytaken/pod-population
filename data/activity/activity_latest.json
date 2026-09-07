@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-07T14:35:00+00:00",
+    "timestamp": "2026-09-07T14:46:00+00:00",
     "difficulty": {
         "2": 4,
         "0": 3
@@ -21,21 +21,13 @@
         },
         {
             "name": "Cows",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
             "name": "hhcow",
-            "count": 1
-        },
-        {
-            "name": "a",
-            "count": 1
+            "count": 2
         },
         {
             "name": "new",
@@ -50,22 +42,15 @@
             "count": 1
         },
         {
-            "name": "423412",
+            "name": "wikid klownz",
             "count": 1
         },
         {
-            "name": "4134123",
+            "name": "423412",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "a",
-            "count": 2,
-            "examples": [
-                "a"
-            ]
-        },
         {
             "normalized": "new",
             "count": 2,
@@ -88,6 +73,13 @@
             ]
         },
         {
+            "normalized": "wikid klownz",
+            "count": 2,
+            "examples": [
+                "wikid klownz"
+            ]
+        },
+        {
             "normalized": "#",
             "count": 2,
             "examples": [
@@ -100,20 +92,13 @@
             {
                 "name": "hhcow",
                 "matched": "cow",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "4134123",
-                "matched": "123",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 7,
+        "unique_names": 6,
         "public_games": 7,
-        "average_name_length": 5.14
+        "average_name_length": 6.67
     }
 }
