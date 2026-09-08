@@ -1,23 +1,19 @@
 {
-    "timestamp": "2026-09-08T13:46:00+00:00",
+    "timestamp": "2026-09-08T14:06:00+00:00",
     "difficulty": {
-        "2": 7,
-        "0": 2
+        "2": 4,
+        "0": 1
     },
     "mode": {
-        "1": 4,
-        "0": 5
+        "1": 2,
+        "0": 3
     },
     "difficulty_mode": {
-        "2|1": 4,
-        "2|0": 3,
-        "0|0": 2
+        "2|1": 2,
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
-        {
-            "name": "Trade",
-            "count": 4
-        },
         {
             "name": "Other",
             "count": 4
@@ -29,27 +25,15 @@
     ],
     "top_games": [
         {
-            "name": "n tkeys 30",
+            "name": "tkey 35",
             "count": 1
         },
         {
-            "name": "n tkeys 29",
-            "count": 1
-        },
-        {
-            "name": "n tkeys 28",
-            "count": 1
-        },
-        {
-            "name": "forge",
+            "name": "tkey 34",
             "count": 1
         },
         {
             "name": "tt",
-            "count": 1
-        },
-        {
-            "name": "koball 1",
             "count": 1
         },
         {
@@ -59,13 +43,17 @@
         {
             "name": "donnie",
             "count": 1
-        },
-        {
-            "name": "wikid klownz",
-            "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "tkey #",
+            "count": 4,
+            "examples": [
+                "tkey 34",
+                "tkey 35"
+            ]
+        },
         {
             "normalized": "tt",
             "count": 2,
@@ -74,50 +62,14 @@
             ]
         },
         {
-            "normalized": "koball #",
-            "count": 2,
-            "examples": [
-                "koball 1"
-            ]
-        },
-        {
             "normalized": "donnie",
             "count": 2,
             "examples": [
                 "donnie"
             ]
-        },
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
-            ]
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n tkeys 30",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "n tkeys 29",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "n tkeys 28",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "forge",
-                "matched": "for",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "n eld runes",
@@ -127,8 +79,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 9,
-        "public_games": 9,
-        "average_name_length": 8.22
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 6.6
     }
 }
