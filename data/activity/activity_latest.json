@@ -1,23 +1,23 @@
 {
-    "timestamp": "2026-09-08T06:37:00+00:00",
+    "timestamp": "2026-09-08T06:56:00+00:00",
     "difficulty": {
         "1": 1,
-        "0": 2
+        "0": 1
     },
     "mode": {
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
         "1|0": 1,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 2
+            "name": "Trade",
+            "count": 1
         },
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 1
         }
     ],
@@ -29,10 +29,6 @@
         {
             "name": "lvv",
             "count": 1
-        },
-        {
-            "name": "hows",
-            "count": 1
         }
     ],
     "unknown_games": [
@@ -41,13 +37,6 @@
             "count": 2,
             "examples": [
                 "lvv"
-            ]
-        },
-        {
-            "normalized": "hows",
-            "count": 2,
-            "examples": [
-                "hows"
             ]
         }
     ],
@@ -61,8 +50,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 7.0
     }
 }
