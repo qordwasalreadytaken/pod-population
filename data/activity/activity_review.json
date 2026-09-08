@@ -237,6 +237,17 @@
         ]
     },
     {
+        "normalized": "gs #",
+        "count": 42,
+        "examples": [
+            "gs 1",
+            "gs 12",
+            "gs 2",
+            "gs 3",
+            "gs 567"
+        ]
+    },
+    {
         "normalized": "sfsdf",
         "count": 42,
         "examples": [
@@ -248,17 +259,6 @@
         "count": 40,
         "examples": [
             "hell yeah"
-        ]
-    },
-    {
-        "normalized": "gs #",
-        "count": 40,
-        "examples": [
-            "gs 1",
-            "gs 12",
-            "gs 2",
-            "gs 3",
-            "gs 567"
         ]
     },
     {
@@ -5295,6 +5295,13 @@
         "count": 2,
         "examples": [
             "d"
+        ]
+    },
+    {
+        "normalized": "dirtetao",
+        "count": 2,
+        "examples": [
+            "dirtetao"
         ]
     }
 ]
