@@ -1,57 +1,46 @@
 {
-    "timestamp": "2026-09-08T14:06:00+00:00",
+    "timestamp": "2026-09-08T14:26:00+00:00",
     "difficulty": {
-        "2": 4,
-        "0": 1
+        "2": 3
     },
     "mode": {
-        "1": 2,
-        "0": 3
+        "1": 1,
+        "0": 2
     },
     "difficulty_mode": {
-        "2|1": 2,
-        "2|0": 2,
-        "0|0": 1
+        "2|1": 1,
+        "2|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "tkey 35",
+            "name": "qq",
             "count": 1
         },
         {
-            "name": "tkey 34",
+            "name": "n pala off sks",
             "count": 1
         },
         {
             "name": "tt",
             "count": 1
-        },
-        {
-            "name": "n eld runes",
-            "count": 1
-        },
-        {
-            "name": "donnie",
-            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "tkey #",
-            "count": 4,
+            "normalized": "qq",
+            "count": 2,
             "examples": [
-                "tkey 34",
-                "tkey 35"
+                "qq"
             ]
         },
         {
@@ -60,27 +49,20 @@
             "examples": [
                 "tt"
             ]
-        },
-        {
-            "normalized": "donnie",
-            "count": 2,
-            "examples": [
-                "donnie"
-            ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "n eld runes",
-                "matched": "run",
+                "name": "n pala off sks",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.6
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 6.0
     }
 }
