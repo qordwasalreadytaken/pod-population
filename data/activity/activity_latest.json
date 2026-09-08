@@ -1,23 +1,29 @@
 {
-    "timestamp": "2026-09-08T14:26:00+00:00",
+    "timestamp": "2026-09-08T14:37:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 3,
+        "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 4
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 2
+        "2|0": 2,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -32,6 +38,14 @@
         },
         {
             "name": "tt",
+            "count": 1
+        },
+        {
+            "name": "asda",
+            "count": 1
+        },
+        {
+            "name": "wikid klownz",
             "count": 1
         }
     ],
@@ -49,6 +63,13 @@
             "examples": [
                 "tt"
             ]
+        },
+        {
+            "normalized": "wikid klownz",
+            "count": 2,
+            "examples": [
+                "wikid klownz"
+            ]
         }
     ],
     "classified_games": {
@@ -58,11 +79,18 @@
                 "matched": "n",
                 "count": 1
             }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "asda",
+                "matched": "asd",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 6.8
     }
 }
