@@ -1,37 +1,39 @@
 {
-    "timestamp": "2026-09-08T15:05:00+00:00",
+    "timestamp": "2026-09-08T15:25:00+00:00",
     "difficulty": {
         "2": 3,
-        "1": 1,
         "0": 3
     },
     "mode": {
         "1": 1,
-        "0": 6
+        "0": 5
     },
     "difficulty_mode": {
         "2|1": 1,
         "2|0": 2,
-        "1|0": 1,
         "0|0": 3
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 5
+            "name": "Misc. Public MF Runs",
+            "count": 3
         },
         {
             "name": "Trade",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "qq",
+            "name": "atlas",
+            "count": 1
+        },
+        {
+            "name": "n pala off sks",
             "count": 1
         },
         {
@@ -39,65 +41,34 @@
             "count": 1
         },
         {
-            "name": "tt",
-            "count": 1
-        },
-        {
-            "name": "kenitoo",
-            "count": 1
-        },
-        {
-            "name": "darjitoo",
-            "count": 1
-        },
-        {
-            "name": "wikid klownz",
+            "name": "gord",
             "count": 1
         },
         {
             "name": "asda",
             "count": 1
+        },
+        {
+            "name": "asd",
+            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "qq",
+            "normalized": "atlas",
             "count": 2,
             "examples": [
-                "qq"
-            ]
-        },
-        {
-            "normalized": "tt",
-            "count": 2,
-            "examples": [
-                "tt"
-            ]
-        },
-        {
-            "normalized": "kenitoo",
-            "count": 2,
-            "examples": [
-                "kenitoo"
-            ]
-        },
-        {
-            "normalized": "darjitoo",
-            "count": 2,
-            "examples": [
-                "darjitoo"
-            ]
-        },
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
+                "atlas"
             ]
         }
     ],
     "classified_games": {
         "Trade": [
+            {
+                "name": "n pala off sks",
+                "matched": "n",
+                "count": 1
+            },
             {
                 "name": "n zigurat4alcaz",
                 "matched": "n",
@@ -106,15 +77,25 @@
         ],
         "Misc. Public MF Runs": [
             {
+                "name": "gord",
+                "matched": "gord",
+                "count": 1
+            },
+            {
                 "name": "asda",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "asd",
                 "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 7.14
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 7.5
     }
 }
