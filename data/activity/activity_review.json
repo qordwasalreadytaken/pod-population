@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 812,
+        "count": 814,
         "examples": [
             "1",
             "10",
@@ -111,6 +111,13 @@
         ]
     },
     {
+        "normalized": "atlas",
+        "count": 86,
+        "examples": [
+            "atlas"
+        ]
+    },
+    {
         "normalized": "atlas'#",
         "count": 86,
         "examples": [
@@ -127,13 +134,6 @@
         "count": 84,
         "examples": [
             "hell"
-        ]
-    },
-    {
-        "normalized": "atlas",
-        "count": 84,
-        "examples": [
-            "atlas"
         ]
     },
     {
@@ -5373,6 +5373,13 @@
         "count": 2,
         "examples": [
             "hger"
+        ]
+    },
+    {
+        "normalized": "travical get he",
+        "count": 2,
+        "examples": [
+            "travical get he"
         ]
     }
 ]
