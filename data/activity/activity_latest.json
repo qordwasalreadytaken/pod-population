@@ -1,20 +1,26 @@
 {
-    "timestamp": "2026-09-08T22:04:00+00:00",
+    "timestamp": "2026-09-08T22:21:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 2
+        "2": 3,
+        "0": 1
     },
     "mode": {
-        "0": 4
+        "1": 1,
+        "0": 3
     },
     "difficulty_mode": {
+        "2|1": 1,
         "2|0": 2,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
+        },
+        {
+            "name": "Trade",
+            "count": 1
         },
         {
             "name": "Leveling",
@@ -23,7 +29,11 @@
     ],
     "top_games": [
         {
-            "name": "hjghj",
+            "name": "n jah o bersur",
+            "count": 1
+        },
+        {
+            "name": "fg",
             "count": 1
         },
         {
@@ -33,18 +43,14 @@
         {
             "name": "start",
             "count": 1
-        },
-        {
-            "name": "ah",
-            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "hjghj",
+            "normalized": "fg",
             "count": 2,
             "examples": [
-                "hjghj"
+                "fg"
             ]
         },
         {
@@ -53,16 +59,16 @@
             "examples": [
                 "jah ber plz 3"
             ]
-        },
-        {
-            "normalized": "ah",
-            "count": 2,
-            "examples": [
-                "ah"
-            ]
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n jah o bersur",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Leveling": [
             {
                 "name": "start",
@@ -74,6 +80,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 6.25
+        "average_name_length": 8.5
     }
 }
