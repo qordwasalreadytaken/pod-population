@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-08T07:11:00+00:00",
+    "timestamp": "2026-09-08T07:27:00+00:00",
     "difficulty": {
         "1": 1,
         "0": 1
@@ -13,17 +13,13 @@
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 1
-        },
-        {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "n 40 bumper",
+            "name": "1221",
             "count": 1
         },
         {
@@ -33,6 +29,13 @@
     ],
     "unknown_games": [
         {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1221"
+            ]
+        },
+        {
             "normalized": "lvv",
             "count": 2,
             "examples": [
@@ -40,18 +43,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "n 40 bumper",
-                "matched": "n",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 7.0
+        "average_name_length": 3.5
     }
 }
