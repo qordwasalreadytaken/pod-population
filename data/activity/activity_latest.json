@@ -1,15 +1,21 @@
 {
-    "timestamp": "2026-09-08T03:27:00+00:00",
+    "timestamp": "2026-09-08T03:41:00+00:00",
     "difficulty": {
-        "2": 1
+        "2": 2
     },
     "mode": {
+        "1": 1,
         "0": 1
     },
     "difficulty_mode": {
+        "2|1": 1,
         "2|0": 1
     },
     "activities": [
+        {
+            "name": "Other",
+            "count": 1
+        },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
@@ -17,23 +23,35 @@
     ],
     "top_games": [
         {
-            "name": "pitrun hell 2",
+            "name": "keys",
+            "count": 1
+        },
+        {
+            "name": "pitrun hell 3",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "keys",
+            "count": 2,
+            "examples": [
+                "keys"
+            ]
+        }
+    ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "pitrun hell 2",
+                "name": "pitrun hell 3",
                 "matched": "run",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 13.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 8.5
     }
 }
