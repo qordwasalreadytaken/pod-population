@@ -1,22 +1,20 @@
 {
-    "timestamp": "2026-09-08T04:47:00+00:00",
+    "timestamp": "2026-09-08T05:05:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "2": 4
     },
     "mode": {
-        "1": 1,
-        "0": 2
+        "1": 3,
+        "0": 1
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 1,
-        "0|0": 1
+        "2|1": 3,
+        "2|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 2
+            "name": "Trade",
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
@@ -25,35 +23,41 @@
     ],
     "top_games": [
         {
-            "name": "keys",
+            "name": "n tkeys 24",
+            "count": 1
+        },
+        {
+            "name": "n tkeys 23",
+            "count": 1
+        },
+        {
+            "name": "n tkeys 22",
             "count": 1
         },
         {
             "name": "pitrun hell 8",
             "count": 1
-        },
-        {
-            "name": "tal rasha",
-            "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "keys",
-            "count": 2,
-            "examples": [
-                "keys"
-            ]
-        },
-        {
-            "normalized": "tal rasha",
-            "count": 2,
-            "examples": [
-                "tal rasha"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n tkeys 24",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n tkeys 23",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n tkeys 22",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "pitrun hell 8",
@@ -63,8 +67,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 8.67
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 10.75
     }
 }
