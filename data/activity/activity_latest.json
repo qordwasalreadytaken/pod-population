@@ -1,16 +1,19 @@
 {
-    "timestamp": "2026-09-08T20:04:00+00:00",
+    "timestamp": "2026-09-08T20:23:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 2
+        "2": 2,
+        "1": 2,
+        "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 4
     },
     "difficulty_mode": {
         "2|1": 1,
-        "0|0": 2
+        "2|0": 1,
+        "1|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
@@ -19,6 +22,10 @@
         },
         {
             "name": "Misc. Public MF Runs",
+            "count": 2
+        },
+        {
+            "name": "Trade",
             "count": 1
         }
     ],
@@ -28,11 +35,19 @@
             "count": 1
         },
         {
-            "name": "dsdsds",
+            "name": "n magic facet 1",
+            "count": 1
+        },
+        {
+            "name": "asd",
             "count": 1
         },
         {
             "name": "gord",
+            "count": 1
+        },
+        {
+            "name": "buter",
             "count": 1
         }
     ],
@@ -45,15 +60,27 @@
             ]
         },
         {
-            "normalized": "dsdsds",
+            "normalized": "buter",
             "count": 2,
             "examples": [
-                "dsdsds"
+                "buter"
             ]
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n magic facet 1",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            },
             {
                 "name": "gord",
                 "matched": "gord",
@@ -62,8 +89,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 5.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 6.4
     }
 }
