@@ -1,17 +1,15 @@
 {
-    "timestamp": "2026-09-08T21:03:00+00:00",
+    "timestamp": "2026-09-08T21:19:00+00:00",
     "difficulty": {
-        "2": 4,
-        "1": 1
+        "2": 4
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 3,
-        "1|0": 1
+        "2|0": 3
     },
     "activities": [
         {
@@ -19,15 +17,11 @@
             "count": 2
         },
         {
-            "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Maps",
-            "count": 1
-        },
-        {
             "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
+            "name": "Trade",
             "count": 1
         }
     ],
@@ -37,19 +31,15 @@
             "count": 1
         },
         {
-            "name": "n magic facet 4",
+            "name": "aa",
             "count": 1
         },
         {
-            "name": "jah ber plz 1",
+            "name": "jah ber plz 3",
             "count": 1
         },
         {
-            "name": "slow maps",
-            "count": 1
-        },
-        {
-            "name": "asd",
+            "name": "n pala off sks",
             "count": 1
         }
     ],
@@ -65,36 +55,29 @@
             "normalized": "jah ber plz #",
             "count": 2,
             "examples": [
-                "jah ber plz 1"
+                "jah ber plz 3"
             ]
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n magic facet 4",
-                "matched": "n",
-                "count": 1
-            }
-        ],
-        "Maps": [
-            {
-                "name": "slow maps",
-                "matched": "map",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
-                "matched": "asd",
+                "name": "aa",
+                "matched": "aa",
+                "count": 1
+            }
+        ],
+        "Trade": [
+            {
+                "name": "n pala off sks",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 9.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 8.5
     }
 }
