@@ -1,37 +1,39 @@
 {
-    "timestamp": "2026-09-09T17:21:00+00:00",
+    "timestamp": "2026-09-09T17:32:00+00:00",
     "difficulty": {
-        "2": 4,
-        "1": 1
+        "2": 6
     },
     "mode": {
-        "0": 5
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 4,
-        "1|0": 1
+        "2|0": 6
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
-        },
-        {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Trade",
+            "count": 2
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "gord",
+            "name": "n heaven light",
             "count": 2
         },
         {
-            "name": "n heaven light",
+            "name": "afewefaw",
+            "count": 1
+        },
+        {
+            "name": "gord",
             "count": 1
         },
         {
@@ -44,6 +46,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "afewefaw",
+            "count": 2,
+            "examples": [
+                "afewefaw"
+            ]
+        },
         {
             "normalized": "jah ber plz #",
             "count": 2,
@@ -60,24 +69,24 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 2
-            }
-        ],
         "Trade": [
             {
                 "name": "n heaven light",
                 "matched": "n",
+                "count": 2
+            }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "gord",
+                "matched": "gord",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 5,
-        "average_name_length": 8.75
+        "unique_names": 5,
+        "public_games": 6,
+        "average_name_length": 8.6
     }
 }
