@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-09T17:04:00+00:00",
+    "timestamp": "2026-09-09T17:21:00+00:00",
     "difficulty": {
         "2": 4,
         "1": 1
@@ -27,11 +27,11 @@
     ],
     "top_games": [
         {
-            "name": "n heaven light",
-            "count": 1
+            "name": "gord",
+            "count": 2
         },
         {
-            "name": "asd",
+            "name": "n heaven light",
             "count": 1
         },
         {
@@ -40,10 +40,6 @@
         },
         {
             "name": "fafe",
-            "count": 1
-        },
-        {
-            "name": "gord",
             "count": 1
         }
     ],
@@ -64,29 +60,24 @@
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "gord",
+                "matched": "gord",
+                "count": 2
+            }
+        ],
         "Trade": [
             {
                 "name": "n heaven light",
                 "matched": "n",
                 "count": 1
             }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 5,
+        "unique_names": 4,
         "public_games": 5,
-        "average_name_length": 7.6
+        "average_name_length": 8.75
     }
 }
