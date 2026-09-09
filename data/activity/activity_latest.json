@@ -1,76 +1,65 @@
 {
-    "timestamp": "2026-09-09T15:04:00+00:00",
+    "timestamp": "2026-09-09T15:23:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 2
+        "2": 2,
+        "0": 1
     },
     "mode": {
-        "1": 2,
-        "0": 3
+        "1": 1,
+        "0": 2
     },
     "difficulty_mode": {
-        "2|1": 2,
+        "2|1": 1,
         "2|0": 1,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "atlas",
-            "count": 2
-        },
-        {
-            "name": "aklhk",
+            "name": "eq",
             "count": 1
         },
         {
-            "name": "dads",
+            "name": "awefafew",
             "count": 1
         },
         {
-            "name": "lvv",
+            "name": "sethy",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "atlas",
-            "count": 4,
+            "normalized": "eq",
+            "count": 2,
             "examples": [
-                "atlas"
+                "eq"
             ]
         },
         {
-            "normalized": "aklhk",
+            "normalized": "awefafew",
             "count": 2,
             "examples": [
-                "aklhk"
+                "awefafew"
             ]
         },
         {
-            "normalized": "dads",
+            "normalized": "sethy",
             "count": 2,
             "examples": [
-                "dads"
-            ]
-        },
-        {
-            "normalized": "lvv",
-            "count": 2,
-            "examples": [
-                "lvv"
+                "sethy"
             ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 4,
-        "public_games": 5,
-        "average_name_length": 4.25
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 5.0
     }
 }
