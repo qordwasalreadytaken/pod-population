@@ -1,20 +1,22 @@
 {
-    "timestamp": "2026-09-09T18:42:00+00:00",
+    "timestamp": "2026-09-09T18:49:00+00:00",
     "difficulty": {
-        "2": 4,
-        "0": 1
+        "0": 2,
+        "2": 4
     },
     "mode": {
+        "1": 1,
         "0": 5
     },
     "difficulty_mode": {
+        "0|1": 1,
         "2|0": 4,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Other",
@@ -29,6 +31,10 @@
         {
             "name": "gord",
             "count": 2
+        },
+        {
+            "name": "asder",
+            "count": 1
         },
         {
             "name": "faew",
@@ -65,6 +71,11 @@
                 "name": "gord",
                 "matched": "gord",
                 "count": 2
+            },
+            {
+                "name": "asder",
+                "matched": "asd",
+                "count": 1
             }
         ],
         "Trade": [
@@ -76,8 +87,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 5,
-        "average_name_length": 5.75
+        "unique_names": 5,
+        "public_games": 6,
+        "average_name_length": 5.6
     }
 }
