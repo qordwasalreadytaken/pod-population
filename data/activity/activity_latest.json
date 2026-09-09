@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-09T03:42:00+00:00",
+    "timestamp": "2026-09-09T03:50:00+00:00",
     "difficulty": {
         "2": 2
     },
@@ -23,7 +23,7 @@
     ],
     "top_games": [
         {
-            "name": "tkeys 40",
+            "name": "ff 41",
             "count": 1
         },
         {
@@ -33,10 +33,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "tkeys #",
+            "normalized": "ff #",
             "count": 2,
             "examples": [
-                "tkeys 40"
+                "ff 41"
             ]
         }
     ],
@@ -52,6 +52,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 5.5
+        "average_name_length": 4.0
     }
 }
