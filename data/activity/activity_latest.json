@@ -1,25 +1,25 @@
 {
-    "timestamp": "2026-09-09T13:46:00+00:00",
+    "timestamp": "2026-09-09T14:05:00+00:00",
     "difficulty": {
-        "2": 6,
+        "2": 7,
         "0": 1
     },
     "mode": {
         "1": 2,
-        "0": 5
+        "0": 6
     },
     "difficulty_mode": {
         "2|1": 2,
-        "2|0": 4,
+        "2|0": 5,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 3
+            "name": "Misc. Public MF Runs",
+            "count": 4
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 3
         },
         {
@@ -33,6 +33,10 @@
             "count": 2
         },
         {
+            "name": "asd",
+            "count": 2
+        },
+        {
             "name": "aweffaew",
             "count": 1
         },
@@ -42,10 +46,6 @@
         },
         {
             "name": "n eld runes",
-            "count": 1
-        },
-        {
-            "name": "asd",
             "count": 1
         },
         {
@@ -72,6 +72,11 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
+                "name": "asd",
+                "matched": "asd",
+                "count": 2
+            },
+            {
                 "name": "choas run 5",
                 "matched": "run",
                 "count": 1
@@ -79,11 +84,6 @@
             {
                 "name": "n eld runes",
                 "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "asd",
-                "matched": "asd",
                 "count": 1
             }
         ],
@@ -97,7 +97,7 @@
     },
     "interesting": {
         "unique_names": 6,
-        "public_games": 7,
+        "public_games": 8,
         "average_name_length": 7.33
     }
 }
