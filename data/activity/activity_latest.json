@@ -1,32 +1,36 @@
 {
-    "timestamp": "2026-09-09T17:32:00+00:00",
+    "timestamp": "2026-09-09T17:46:00+00:00",
     "difficulty": {
-        "2": 6
+        "2": 5
     },
     "mode": {
-        "0": 6
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 6
+        "2|0": 5
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 3
-        },
-        {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
+            "count": 2
+        },
+        {
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "n eld runes",
+            "count": 1
+        },
+        {
             "name": "n heaven light",
-            "count": 2
+            "count": 1
         },
         {
             "name": "afewefaw",
@@ -38,10 +42,6 @@
         },
         {
             "name": "jah ber plz 1",
-            "count": 1
-        },
-        {
-            "name": "fafe",
             "count": 1
         }
     ],
@@ -59,34 +59,32 @@
             "examples": [
                 "jah ber plz 1"
             ]
-        },
-        {
-            "normalized": "fafe",
-            "count": 2,
-            "examples": [
-                "fafe"
-            ]
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "n eld runes",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "gord",
+                "matched": "gord",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n heaven light",
                 "matched": "n",
-                "count": 2
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "gord",
-                "matched": "gord",
                 "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 6,
-        "average_name_length": 8.6
+        "public_games": 5,
+        "average_name_length": 10.0
     }
 }
