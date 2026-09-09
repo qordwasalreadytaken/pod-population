@@ -1,39 +1,55 @@
 {
-    "timestamp": "2026-09-09T09:05:00+00:00",
+    "timestamp": "2026-09-09T09:27:00+00:00",
     "difficulty": {
-        "0": 1
+        "0": 2
     },
     "mode": {
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
-        "0|0": 1
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
             "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "begin",
+            "name": "derevo",
+            "count": 1
+        },
+        {
+            "name": "asda",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "begin",
+            "normalized": "derevo",
             "count": 2,
             "examples": [
-                "begin"
+                "derevo"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asda",
+                "matched": "asd",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
+        "unique_names": 2,
+        "public_games": 2,
         "average_name_length": 5.0
     }
 }
