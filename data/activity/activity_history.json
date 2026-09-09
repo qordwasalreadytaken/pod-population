@@ -701,7 +701,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -772,7 +772,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -6290,7 +6290,7 @@
             "Cows": [
                 {
                     "name": "letsseewhomcows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ],
@@ -6357,7 +6357,7 @@
             "Cows": [
                 {
                     "name": "letsseewhomcows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ],
@@ -6418,7 +6418,7 @@
             "Cows": [
                 {
                     "name": "letsseewhomcows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ],
@@ -8950,7 +8950,7 @@
             "Cows": [
                 {
                     "name": "hell cows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ]
@@ -8995,7 +8995,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 },
                 {
@@ -12824,7 +12824,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 }
             ]
@@ -17824,7 +17824,7 @@
             "Leveling": [
                 {
                     "name": "normal tombin",
-                    "matched": "norm",
+                    "matched": "tomb",
                     "count": 1
                 },
                 {
@@ -20087,7 +20087,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -20187,7 +20187,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -30789,7 +30789,7 @@
             "Cows": [
                 {
                     "name": "cows 2",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ]
@@ -30872,7 +30872,7 @@
             "Cows": [
                 {
                     "name": "cows 4",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ]
@@ -30963,7 +30963,7 @@
             "Cows": [
                 {
                     "name": "cows 5",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ],
@@ -36454,7 +36454,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "mf runs",
-                    "matched": "run",
+                    "matched": "mf",
                     "count": 1
                 }
             ]
@@ -44176,7 +44176,7 @@
             "Cows": [
                 {
                     "name": "cows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ]
@@ -63618,7 +63618,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "14123awdasdfqwr",
-                    "matched": "123",
+                    "matched": "asd",
                     "count": 1
                 },
                 {
@@ -170322,6 +170322,92 @@
             "unique_names": 6,
             "public_games": 6,
             "average_name_length": 5.17
+        }
+    },
+    {
+        "timestamp": "2026-09-09T12:07:00+00:00",
+        "difficulty": {
+            "2": 4,
+            "0": 1
+        },
+        "mode": {
+            "1": 1,
+            "0": 4
+        },
+        "difficulty_mode": {
+            "2|1": 1,
+            "2|0": 3,
+            "0|0": 1
+        },
+        "activities": [
+            {
+                "name": "Misc. Public MF Runs",
+                "count": 4
+            },
+            {
+                "name": "Other",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "qqq",
+                "count": 1
+            },
+            {
+                "name": "n eld runes",
+                "count": 1
+            },
+            {
+                "name": "asd",
+                "count": 1
+            },
+            {
+                "name": "choas run 1",
+                "count": 1
+            },
+            {
+                "name": "asda",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "qqq",
+                "count": 2,
+                "examples": [
+                    "qqq"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Misc. Public MF Runs": [
+                {
+                    "name": "n eld runes",
+                    "matched": "run",
+                    "count": 1
+                },
+                {
+                    "name": "asd",
+                    "matched": "asd",
+                    "count": 1
+                },
+                {
+                    "name": "choas run 1",
+                    "matched": "run",
+                    "count": 1
+                },
+                {
+                    "name": "asda",
+                    "matched": "asd",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 5,
+            "public_games": 5,
+            "average_name_length": 6.4
         }
     }
 ]
