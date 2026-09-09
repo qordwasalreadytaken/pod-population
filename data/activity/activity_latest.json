@@ -1,22 +1,26 @@
 {
-    "timestamp": "2026-09-09T15:46:00+00:00",
+    "timestamp": "2026-09-09T16:05:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 2,
+        "1": 2,
         "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "0": 5
     },
     "difficulty_mode": {
-        "2|1": 1,
         "2|0": 2,
+        "1|0": 2,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 2
         },
         {
             "name": "Trade",
@@ -25,8 +29,8 @@
     ],
     "top_games": [
         {
-            "name": "eq",
-            "count": 1
+            "name": "gord",
+            "count": 2
         },
         {
             "name": "n annihilus 1",
@@ -37,18 +41,11 @@
             "count": 1
         },
         {
-            "name": "lvv",
+            "name": "13",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "eq",
-            "count": 2,
-            "examples": [
-                "eq"
-            ]
-        },
         {
             "normalized": "fafe",
             "count": 2,
@@ -57,10 +54,10 @@
             ]
         },
         {
-            "normalized": "lvv",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "lvv"
+                "13"
             ]
         }
     ],
@@ -71,11 +68,18 @@
                 "matched": "n",
                 "count": 1
             }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "gord",
+                "matched": "gord",
+                "count": 2
+            }
         ]
     },
     "interesting": {
         "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 5.5
+        "public_games": 5,
+        "average_name_length": 5.75
     }
 }
