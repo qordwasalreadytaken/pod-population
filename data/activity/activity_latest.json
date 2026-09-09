@@ -1,39 +1,39 @@
 {
-    "timestamp": "2026-09-09T20:04:00+00:00",
+    "timestamp": "2026-09-09T20:24:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 3
+        "0": 3,
+        "2": 1
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 3,
-        "0|0": 1
+        "2|0": 1,
+        "0|0": 2
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 3
         },
         {
-            "name": "Other",
-            "count": 2
+            "name": "Misc. Public MF Runs",
+            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "gord",
-            "count": 2
-        },
         {
             "name": "asder",
             "count": 1
         },
         {
-            "name": "fwaeawfe",
+            "name": "aefef",
+            "count": 1
+        },
+        {
+            "name": "wikid klownz",
             "count": 1
         },
         {
@@ -43,10 +43,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "fwaeawfe",
+            "normalized": "aefef",
             "count": 2,
             "examples": [
-                "fwaeawfe"
+                "aefef"
+            ]
+        },
+        {
+            "normalized": "wikid klownz",
+            "count": 2,
+            "examples": [
+                "wikid klownz"
             ]
         },
         {
@@ -60,11 +67,6 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "gord",
-                "matched": "gord",
-                "count": 2
-            },
-            {
                 "name": "asder",
                 "matched": "asd",
                 "count": 1
@@ -73,7 +75,7 @@
     },
     "interesting": {
         "unique_names": 4,
-        "public_games": 5,
-        "average_name_length": 5.0
+        "public_games": 4,
+        "average_name_length": 6.25
     }
 }
