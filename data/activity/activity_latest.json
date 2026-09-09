@@ -1,13 +1,13 @@
 {
-    "timestamp": "2026-09-09T08:07:00+00:00",
+    "timestamp": "2026-09-09T08:30:00+00:00",
     "difficulty": {
-        "2": 1
+        "0": 1
     },
     "mode": {
-        "1": 1
+        "0": 1
     },
     "difficulty_mode": {
-        "2|1": 1
+        "0|0": 1
     },
     "activities": [
         {
@@ -17,16 +17,16 @@
     ],
     "top_games": [
         {
-            "name": "ff 44",
+            "name": "begin",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "ff #",
+            "normalized": "begin",
             "count": 2,
             "examples": [
-                "ff 44"
+                "begin"
             ]
         }
     ],
