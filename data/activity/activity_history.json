@@ -6290,7 +6290,7 @@
             "Cows": [
                 {
                     "name": "letsseewhomcows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ],
@@ -6357,7 +6357,7 @@
             "Cows": [
                 {
                     "name": "letsseewhomcows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ],
@@ -6418,7 +6418,7 @@
             "Cows": [
                 {
                     "name": "letsseewhomcows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ],
@@ -8950,7 +8950,7 @@
             "Cows": [
                 {
                     "name": "hell cows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ]
@@ -17824,7 +17824,7 @@
             "Leveling": [
                 {
                     "name": "normal tombin",
-                    "matched": "norm",
+                    "matched": "tomb",
                     "count": 1
                 },
                 {
@@ -20087,7 +20087,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -20187,7 +20187,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -30789,7 +30789,7 @@
             "Cows": [
                 {
                     "name": "cows 2",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ]
@@ -30872,7 +30872,7 @@
             "Cows": [
                 {
                     "name": "cows 4",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ]
@@ -30963,7 +30963,7 @@
             "Cows": [
                 {
                     "name": "cows 5",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ],
@@ -33947,7 +33947,7 @@
             "Uber": [
                 {
                     "name": "ubers",
-                    "matched": "ubers",
+                    "matched": "uber",
                     "count": 1
                 }
             ],
@@ -38979,7 +38979,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -39036,7 +39036,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -39110,7 +39110,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -44176,7 +44176,7 @@
             "Cows": [
                 {
                     "name": "cows",
-                    "matched": "cows",
+                    "matched": "cow",
                     "count": 1
                 }
             ]
@@ -122352,7 +122352,7 @@
                 },
                 {
                     "name": "asdsd36aaaa",
-                    "matched": "asd",
+                    "matched": "aaa",
                     "count": 1
                 },
                 {
@@ -122407,7 +122407,7 @@
                 },
                 {
                     "name": "asdsd36aaaa",
-                    "matched": "asd",
+                    "matched": "aaa",
                     "count": 1
                 }
             ]
@@ -141193,7 +141193,7 @@
             "Uber": [
                 {
                     "name": "help ubers",
-                    "matched": "ubers",
+                    "matched": "uber",
                     "count": 1
                 }
             ]
@@ -141641,7 +141641,7 @@
             "Leveling": [
                 {
                     "name": "acte 5 exp",
-                    "matched": "act",
+                    "matched": "exp",
                     "count": 1
                 }
             ]
@@ -141698,7 +141698,7 @@
             "Leveling": [
                 {
                     "name": "acte 5 exp",
-                    "matched": "act",
+                    "matched": "exp",
                     "count": 1
                 }
             ]
@@ -168952,6 +168952,59 @@
         "interesting": {
             "unique_names": 1,
             "public_games": 1,
+            "average_name_length": 5.0
+        }
+    },
+    {
+        "timestamp": "2026-09-09T04:41:00+00:00",
+        "difficulty": {
+            "2": 1,
+            "0": 1
+        },
+        "mode": {
+            "1": 1,
+            "0": 1
+        },
+        "difficulty_mode": {
+            "2|1": 1,
+            "0|0": 1
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 2
+            }
+        ],
+        "top_games": [
+            {
+                "name": "ff 42",
+                "count": 1
+            },
+            {
+                "name": "hotyu",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "ff #",
+                "count": 2,
+                "examples": [
+                    "ff 42"
+                ]
+            },
+            {
+                "normalized": "hotyu",
+                "count": 2,
+                "examples": [
+                    "hotyu"
+                ]
+            }
+        ],
+        "classified_games": {},
+        "interesting": {
+            "unique_names": 2,
+            "public_games": 2,
             "average_name_length": 5.0
         }
     }
