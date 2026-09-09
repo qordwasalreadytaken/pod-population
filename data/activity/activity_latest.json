@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-09T20:33:00+00:00",
+    "timestamp": "2026-09-09T20:46:00+00:00",
     "difficulty": {
         "0": 3,
         "2": 1
@@ -16,10 +16,14 @@
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
+            "name": "Trade",
             "count": 1
         }
     ],
@@ -29,7 +33,7 @@
             "count": 1
         },
         {
-            "name": "aefef",
+            "name": "n pala off sk 1",
             "count": 1
         },
         {
@@ -42,13 +46,6 @@
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "aefef",
-            "count": 2,
-            "examples": [
-                "aefef"
-            ]
-        },
         {
             "normalized": "wikid klownz",
             "count": 2,
@@ -71,11 +68,18 @@
                 "matched": "asd",
                 "count": 1
             }
+        ],
+        "Trade": [
+            {
+                "name": "n pala off sk 1",
+                "matched": "n",
+                "count": 1
+            }
         ]
     },
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 6.25
+        "average_name_length": 8.75
     }
 }
