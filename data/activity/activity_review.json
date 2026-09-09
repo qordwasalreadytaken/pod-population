@@ -188,17 +188,17 @@
         ]
     },
     {
+        "normalized": "eq",
+        "count": 52,
+        "examples": [
+            "eq"
+        ]
+    },
+    {
         "normalized": "lvup gogo",
         "count": 52,
         "examples": [
             "lvup gogo"
-        ]
-    },
-    {
-        "normalized": "eq",
-        "count": 50,
-        "examples": [
-            "eq"
         ]
     },
     {
@@ -5494,6 +5494,13 @@
         "count": 2,
         "examples": [
             "sethy"
+        ]
+    },
+    {
+        "normalized": "fafe",
+        "count": 2,
+        "examples": [
+            "fafe"
         ]
     }
 ]

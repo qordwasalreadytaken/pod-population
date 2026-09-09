@@ -1,8 +1,7 @@
 {
-    "timestamp": "2026-09-09T15:23:00+00:00",
+    "timestamp": "2026-09-09T15:34:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "2": 3
     },
     "mode": {
         "1": 1,
@@ -10,13 +9,16 @@
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 1,
-        "0|0": 1
+        "2|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
@@ -25,11 +27,11 @@
             "count": 1
         },
         {
-            "name": "awefafew",
+            "name": "n annihilus 1",
             "count": 1
         },
         {
-            "name": "sethy",
+            "name": "fafe",
             "count": 1
         }
     ],
@@ -42,24 +44,25 @@
             ]
         },
         {
-            "normalized": "awefafew",
+            "normalized": "fafe",
             "count": 2,
             "examples": [
-                "awefafew"
-            ]
-        },
-        {
-            "normalized": "sethy",
-            "count": 2,
-            "examples": [
-                "sethy"
+                "fafe"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Trade": [
+            {
+                "name": "n annihilus 1",
+                "matched": "n",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 5.0
+        "average_name_length": 6.33
     }
 }
