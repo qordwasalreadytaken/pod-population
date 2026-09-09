@@ -1,29 +1,33 @@
 {
-    "timestamp": "2026-09-09T11:04:00+00:00",
+    "timestamp": "2026-09-09T11:22:00+00:00",
     "difficulty": {
         "2": 3,
         "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "1": 2,
+        "0": 2
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 2,
+        "2|1": 2,
+        "2|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 3
+            "name": "Other",
+            "count": 2
         },
         {
-            "name": "Other",
-            "count": 1
+            "name": "Misc. Public MF Runs",
+            "count": 2
         }
     ],
     "top_games": [
+        {
+            "name": "qq",
+            "count": 1
+        },
         {
             "name": "111",
             "count": 1
@@ -33,15 +37,18 @@
             "count": 1
         },
         {
-            "name": "pit run 6",
-            "count": 1
-        },
-        {
             "name": "asda",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "qq",
+            "count": 2,
+            "examples": [
+                "qq"
+            ]
+        },
         {
             "normalized": "#",
             "count": 2,
@@ -58,11 +65,6 @@
                 "count": 1
             },
             {
-                "name": "pit run 6",
-                "matched": "run",
-                "count": 1
-            },
-            {
                 "name": "asda",
                 "matched": "asd",
                 "count": 1
@@ -72,6 +74,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 6.75
+        "average_name_length": 5.0
     }
 }
