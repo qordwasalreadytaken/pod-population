@@ -1,29 +1,21 @@
 {
-    "timestamp": "2026-09-09T19:19:00+00:00",
+    "timestamp": "2026-09-09T19:31:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 3
+        "2": 1
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 1
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 3
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
             "count": 2
-        },
-        {
-            "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Trade",
-            "count": 1
         }
     ],
     "top_games": [
@@ -34,25 +26,9 @@
         {
             "name": "gord",
             "count": 1
-        },
-        {
-            "name": "aefwfew",
-            "count": 1
-        },
-        {
-            "name": "n magic facet 1",
-            "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "aefwfew",
-            "count": 2,
-            "examples": [
-                "aefwfew"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
@@ -65,18 +41,11 @@
                 "matched": "gord",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "n magic facet 1",
-                "matched": "n",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 7.75
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 4.5
     }
 }
