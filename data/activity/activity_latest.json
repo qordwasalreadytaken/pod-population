@@ -1,21 +1,25 @@
 {
-    "timestamp": "2026-09-09T17:46:00+00:00",
+    "timestamp": "2026-09-09T18:06:00+00:00",
     "difficulty": {
-        "2": 5
+        "2": 6,
+        "0": 1
     },
     "mode": {
-        "0": 5
+        "1": 1,
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 5
+        "2|1": 1,
+        "2|0": 5,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Other",
+            "count": 4
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
@@ -25,7 +29,11 @@
     ],
     "top_games": [
         {
-            "name": "n eld runes",
+            "name": "nskillers",
+            "count": 1
+        },
+        {
+            "name": "afewfaew",
             "count": 1
         },
         {
@@ -33,7 +41,7 @@
             "count": 1
         },
         {
-            "name": "afewefaw",
+            "name": "n eld runes",
             "count": 1
         },
         {
@@ -43,14 +51,25 @@
         {
             "name": "jah ber plz 1",
             "count": 1
+        },
+        {
+            "name": "lvv",
+            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "afewefaw",
+            "normalized": "nskillers",
             "count": 2,
             "examples": [
-                "afewefaw"
+                "nskillers"
+            ]
+        },
+        {
+            "normalized": "afewfaew",
+            "count": 2,
+            "examples": [
+                "afewfaew"
             ]
         },
         {
@@ -59,9 +78,23 @@
             "examples": [
                 "jah ber plz 1"
             ]
+        },
+        {
+            "normalized": "lvv",
+            "count": 2,
+            "examples": [
+                "lvv"
+            ]
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n heaven light",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "n eld runes",
@@ -73,18 +106,11 @@
                 "matched": "gord",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "n heaven light",
-                "matched": "n",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 10.0
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 8.86
     }
 }
