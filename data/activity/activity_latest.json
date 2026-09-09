@@ -1,20 +1,22 @@
 {
-    "timestamp": "2026-09-09T15:34:00+00:00",
+    "timestamp": "2026-09-09T15:46:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 3,
+        "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 2
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Trade",
@@ -33,6 +35,10 @@
         {
             "name": "fafe",
             "count": 1
+        },
+        {
+            "name": "lvv",
+            "count": 1
         }
     ],
     "unknown_games": [
@@ -49,6 +55,13 @@
             "examples": [
                 "fafe"
             ]
+        },
+        {
+            "normalized": "lvv",
+            "count": 2,
+            "examples": [
+                "lvv"
+            ]
         }
     ],
     "classified_games": {
@@ -61,8 +74,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.33
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 5.5
     }
 }
