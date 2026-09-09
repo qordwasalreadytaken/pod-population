@@ -1,55 +1,15 @@
 {
-    "timestamp": "2026-09-09T06:08:00+00:00",
-    "difficulty": {
-        "0": 2
-    },
-    "mode": {
-        "0": 2
-    },
-    "difficulty_mode": {
-        "0|0": 2
-    },
-    "activities": [
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Other",
-            "count": 1
-        }
-    ],
-    "top_games": [
-        {
-            "name": "asda",
-            "count": 1
-        },
-        {
-            "name": "hotyu",
-            "count": 1
-        }
-    ],
-    "unknown_games": [
-        {
-            "normalized": "hotyu",
-            "count": 2,
-            "examples": [
-                "hotyu"
-            ]
-        }
-    ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asda",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "timestamp": "2026-09-09T06:38:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "difficulty_mode": {},
+    "activities": [],
+    "top_games": [],
+    "unknown_games": [],
+    "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 4.5
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
