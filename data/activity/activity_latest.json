@@ -1,16 +1,17 @@
 {
-    "timestamp": "2026-09-10T21:32:00+00:00",
+    "timestamp": "2026-09-10T21:46:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 3
+        "1": 1,
+        "2": 2,
+        "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 3,
+        "1|1": 1,
+        "2|0": 2,
         "0|0": 2
     },
     "activities": [
@@ -19,21 +20,17 @@
             "count": 4
         },
         {
-            "name": "Leveling",
-            "count": 1
-        },
-        {
             "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "lvv",
-            "count": 2
+            "name": "nm",
+            "count": 1
         },
         {
-            "name": "norm",
+            "name": "lvv",
             "count": 1
         },
         {
@@ -41,20 +38,34 @@
             "count": 1
         },
         {
-            "name": "kirkversary",
+            "name": "13241",
             "count": 1
         },
         {
-            "name": "1431",
+            "name": "kirkversary",
             "count": 1
         }
     ],
     "unknown_games": [
         {
+            "normalized": "nm",
+            "count": 2,
+            "examples": [
+                "nm"
+            ]
+        },
+        {
             "normalized": "lvv",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "lvv"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "13241"
             ]
         },
         {
@@ -63,23 +74,9 @@
             "examples": [
                 "kirkversary"
             ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "1431"
-            ]
         }
     ],
     "classified_games": {
-        "Leveling": [
-            {
-                "name": "norm",
-                "matched": "norm",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
@@ -90,7 +87,7 @@
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 6,
-        "average_name_length": 5.0
+        "public_games": 5,
+        "average_name_length": 4.8
     }
 }
