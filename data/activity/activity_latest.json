@@ -1,38 +1,42 @@
 {
-    "timestamp": "2026-09-10T19:32:00+00:00",
+    "timestamp": "2026-09-10T19:47:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 4
+        "0": 1,
+        "2": 5
     },
     "mode": {
-        "1": 2,
-        "0": 4
+        "1": 1,
+        "0": 5
     },
     "difficulty_mode": {
-        "0|1": 2,
-        "2|0": 4
+        "0|1": 1,
+        "2|0": 5
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 4
+            "count": 3
         },
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         }
     ],
     "top_games": [
         {
             "name": "aaa",
-            "count": 2
+            "count": 1
         },
         {
-            "name": "asd",
+            "name": "b",
             "count": 1
         },
         {
             "name": "b heaven light",
+            "count": 1
+        },
+        {
+            "name": "asd",
             "count": 1
         },
         {
@@ -45,6 +49,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "b",
+            "count": 2,
+            "examples": [
+                "b"
+            ]
+        },
         {
             "normalized": "b heaven light",
             "count": 2,
@@ -65,7 +76,7 @@
             {
                 "name": "aaa",
                 "matched": "aaa",
-                "count": 2
+                "count": 1
             },
             {
                 "name": "asd",
@@ -80,8 +91,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
+        "unique_names": 6,
         "public_games": 6,
-        "average_name_length": 5.4
+        "average_name_length": 4.67
     }
 }
