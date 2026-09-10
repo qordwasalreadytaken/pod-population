@@ -252,7 +252,7 @@
         {
             "name": "n heaven light",
             "matched": "n",
-            "count": 34
+            "count": 35
         },
         {
             "name": "n pierce griff",
@@ -281,7 +281,7 @@
         },
         {
             "name": "n druid torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 20
         },
         {
@@ -1213,7 +1213,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "start",
+            "matched": "act",
             "count": 3
         },
         {
@@ -1263,7 +1263,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "leveli",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -1283,7 +1283,7 @@
         },
         {
             "name": "ancients norm",
-            "matched": "anci",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -1293,7 +1293,7 @@
         },
         {
             "name": "normal act",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -1323,7 +1323,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "exp",
+            "matched": "act",
             "count": 2
         },
         {
@@ -1383,7 +1383,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "norm",
+            "matched": "tomb",
             "count": 1
         },
         {
@@ -1413,7 +1413,7 @@
         },
         {
             "name": "act start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -1553,7 +1553,7 @@
         {
             "name": "n eld runes",
             "matched": "run",
-            "count": 390
+            "count": 391
         },
         {
             "name": "gord",
@@ -1982,7 +1982,12 @@
         },
         {
             "name": "asdsd36aaaa",
-            "matched": "aaa",
+            "matched": "asd",
+            "count": 2
+        },
+        {
+            "name": "31231",
+            "matched": "123",
             "count": 2
         },
         {
@@ -2267,7 +2272,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -2437,11 +2442,6 @@
         },
         {
             "name": "1234132",
-            "matched": "123",
-            "count": 1
-        },
-        {
-            "name": "31231",
             "matched": "123",
             "count": 1
         },
@@ -3028,17 +3028,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
