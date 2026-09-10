@@ -1,31 +1,29 @@
 {
-    "timestamp": "2026-09-10T20:46:00+00:00",
+    "timestamp": "2026-09-10T21:04:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 2,
-        "1": 1
+        "0": 5,
+        "2": 2
     },
     "mode": {
-        "1": 1,
-        "0": 4
+        "1": 2,
+        "0": 5
     },
     "difficulty_mode": {
-        "0|1": 1,
+        "0|1": 2,
         "2|0": 2,
-        "1|0": 1,
-        "0|0": 1
+        "0|0": 3
     },
     "activities": [
+        {
+            "name": "Other",
+            "count": 3
+        },
         {
             "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
-            "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Rush",
+            "name": "Leveling",
             "count": 1
         },
         {
@@ -34,6 +32,10 @@
         }
     ],
     "top_games": [
+        {
+            "name": "norm",
+            "count": 1
+        },
         {
             "name": "aaa",
             "count": 1
@@ -47,7 +49,11 @@
             "count": 1
         },
         {
-            "name": "rush pls",
+            "name": "12",
+            "count": 1
+        },
+        {
+            "name": "idk",
             "count": 1
         },
         {
@@ -62,9 +68,30 @@
             "examples": [
                 "lvv"
             ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "12"
+            ]
+        },
+        {
+            "normalized": "idk",
+            "count": 2,
+            "examples": [
+                "idk"
+            ]
         }
     ],
     "classified_games": {
+        "Leveling": [
+            {
+                "name": "norm",
+                "matched": "norm",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "aaa",
@@ -77,13 +104,6 @@
                 "count": 1
             }
         ],
-        "Rush": [
-            {
-                "name": "rush pls",
-                "matched": "rush",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "n heavens light",
@@ -93,8 +113,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.4
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 4.71
     }
 }
