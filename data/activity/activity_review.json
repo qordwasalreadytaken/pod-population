@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 820,
+        "count": 822,
         "examples": [
             "1",
             "10",
@@ -17,7 +17,7 @@
     },
     {
         "normalized": "lvv",
-        "count": 754,
+        "count": 756,
         "examples": [
             "lvv"
         ]
@@ -2659,6 +2659,13 @@
         "count": 4,
         "examples": [
             "all skills"
+        ]
+    },
+    {
+        "normalized": "g#ghghg",
+        "count": 4,
+        "examples": [
+            "g3ghghg"
         ]
     },
     {
@@ -5592,13 +5599,6 @@
         "count": 2,
         "examples": [
             "wungo"
-        ]
-    },
-    {
-        "normalized": "g#ghghg",
-        "count": 2,
-        "examples": [
-            "g3ghghg"
         ]
     }
 ]

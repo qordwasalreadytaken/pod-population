@@ -701,7 +701,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -772,7 +772,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -8995,7 +8995,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 },
                 {
@@ -12824,7 +12824,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 }
             ]
@@ -17824,7 +17824,7 @@
             "Leveling": [
                 {
                     "name": "normal tombin",
-                    "matched": "norm",
+                    "matched": "tomb",
                     "count": 1
                 },
                 {
@@ -33947,7 +33947,7 @@
             "Uber": [
                 {
                     "name": "ubers",
-                    "matched": "ubers",
+                    "matched": "uber",
                     "count": 1
                 }
             ],
@@ -38979,7 +38979,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -39036,7 +39036,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -39110,7 +39110,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -63618,7 +63618,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "14123awdasdfqwr",
-                    "matched": "asd",
+                    "matched": "123",
                     "count": 1
                 },
                 {
@@ -122352,7 +122352,7 @@
                 },
                 {
                     "name": "asdsd36aaaa",
-                    "matched": "aaa",
+                    "matched": "asd",
                     "count": 1
                 },
                 {
@@ -122407,7 +122407,7 @@
                 },
                 {
                     "name": "asdsd36aaaa",
-                    "matched": "aaa",
+                    "matched": "asd",
                     "count": 1
                 }
             ]
@@ -141193,7 +141193,7 @@
             "Uber": [
                 {
                     "name": "help ubers",
-                    "matched": "ubers",
+                    "matched": "uber",
                     "count": 1
                 }
             ]
@@ -175173,6 +175173,69 @@
             "unique_names": 2,
             "public_games": 2,
             "average_name_length": 5.0
+        }
+    },
+    {
+        "timestamp": "2026-09-10T07:41:00+00:00",
+        "difficulty": {
+            "1": 2,
+            "0": 1
+        },
+        "mode": {
+            "0": 3
+        },
+        "difficulty_mode": {
+            "1|0": 2,
+            "0|0": 1
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 3
+            }
+        ],
+        "top_games": [
+            {
+                "name": "1221",
+                "count": 1
+            },
+            {
+                "name": "lvv",
+                "count": 1
+            },
+            {
+                "name": "g3ghghg",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "#",
+                "count": 2,
+                "examples": [
+                    "1221"
+                ]
+            },
+            {
+                "normalized": "lvv",
+                "count": 2,
+                "examples": [
+                    "lvv"
+                ]
+            },
+            {
+                "normalized": "g#ghghg",
+                "count": 2,
+                "examples": [
+                    "g3ghghg"
+                ]
+            }
+        ],
+        "classified_games": {},
+        "interesting": {
+            "unique_names": 3,
+            "public_games": 3,
+            "average_name_length": 4.67
         }
     }
 ]
