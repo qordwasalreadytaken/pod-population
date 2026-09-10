@@ -1,26 +1,24 @@
 {
-    "timestamp": "2026-09-10T14:23:00+00:00",
+    "timestamp": "2026-09-10T14:34:00+00:00",
     "difficulty": {
-        "2": 9,
-        "1": 2,
-        "0": 2
+        "2": 8,
+        "0": 4
     },
     "mode": {
-        "0": 13
+        "0": 12
     },
     "difficulty_mode": {
-        "2|0": 9,
-        "1|0": 2,
-        "0|0": 2
+        "2|0": 8,
+        "0|0": 4
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 7
         },
         {
-            "name": "Other",
-            "count": 5
+            "name": "Misc. Public MF Runs",
+            "count": 4
         },
         {
             "name": "Trade",
@@ -28,6 +26,26 @@
         }
     ],
     "top_games": [
+        {
+            "name": "t",
+            "count": 2
+        },
+        {
+            "name": "key des run 21",
+            "count": 1
+        },
+        {
+            "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "lvv",
+            "count": 1
+        },
+        {
+            "name": "n pala off sks",
+            "count": 1
+        },
         {
             "name": "n eld runes",
             "count": 1
@@ -37,39 +55,11 @@
             "count": 1
         },
         {
-            "name": "key des run 19",
+            "name": "wikid klownz",
             "count": 1
         },
         {
-            "name": "key des run 18",
-            "count": 1
-        },
-        {
-            "name": "key des run 17",
-            "count": 1
-        },
-        {
-            "name": "t",
-            "count": 1
-        },
-        {
-            "name": "key des run 16",
-            "count": 1
-        },
-        {
-            "name": "n pala off sks",
-            "count": 1
-        },
-        {
-            "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "qweq",
-            "count": 1
-        },
-        {
-            "name": "lvv",
+            "name": "qwe",
             "count": 1
         },
         {
@@ -84,16 +74,9 @@
     "unknown_games": [
         {
             "normalized": "t",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "t"
-            ]
-        },
-        {
-            "normalized": "qweq",
-            "count": 2,
-            "examples": [
-                "qweq"
             ]
         },
         {
@@ -101,6 +84,20 @@
             "count": 2,
             "examples": [
                 "lvv"
+            ]
+        },
+        {
+            "normalized": "wikid klownz",
+            "count": 2,
+            "examples": [
+                "wikid klownz"
+            ]
+        },
+        {
+            "normalized": "qwe",
+            "count": 2,
+            "examples": [
+                "qwe"
             ]
         },
         {
@@ -121,6 +118,16 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
+                "name": "key des run 21",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            },
+            {
                 "name": "n eld runes",
                 "matched": "run",
                 "count": 1
@@ -128,31 +135,6 @@
             {
                 "name": "key des run 20",
                 "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "key des run 19",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "key des run 18",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "key des run 17",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "key des run 16",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "asd",
-                "matched": "asd",
                 "count": 1
             }
         ],
@@ -165,8 +147,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 13,
-        "public_games": 13,
-        "average_name_length": 9.0
+        "unique_names": 11,
+        "public_games": 12,
+        "average_name_length": 7.82
     }
 }
