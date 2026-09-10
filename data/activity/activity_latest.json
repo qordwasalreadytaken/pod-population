@@ -1,39 +1,35 @@
 {
-    "timestamp": "2026-09-10T13:32:00+00:00",
+    "timestamp": "2026-09-10T13:46:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 3,
         "1": 2,
-        "0": 2
+        "0": 3
     },
     "mode": {
         "0": 8
     },
     "difficulty_mode": {
-        "2|0": 4,
+        "2|0": 3,
         "1|0": 2,
-        "0|0": 2
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 6
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "keysets run 3",
+            "name": "keysets run 4",
             "count": 1
         },
         {
             "name": "t",
-            "count": 1
-        },
-        {
-            "name": "keysets run 2",
             "count": 1
         },
         {
@@ -46,6 +42,10 @@
         },
         {
             "name": "lvv",
+            "count": 1
+        },
+        {
+            "name": "`1",
             "count": 1
         },
         {
@@ -80,6 +80,13 @@
             ]
         },
         {
+            "normalized": "`#",
+            "count": 2,
+            "examples": [
+                "`1"
+            ]
+        },
+        {
             "normalized": "wikid klownz",
             "count": 2,
             "examples": [
@@ -97,12 +104,7 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "keysets run 3",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "keysets run 2",
+                "name": "keysets run 4",
                 "matched": "run",
                 "count": 1
             },
@@ -116,6 +118,6 @@
     "interesting": {
         "unique_names": 8,
         "public_games": 8,
-        "average_name_length": 7.12
+        "average_name_length": 5.75
     }
 }
