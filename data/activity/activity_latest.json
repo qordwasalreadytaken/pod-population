@@ -1,17 +1,17 @@
 {
-    "timestamp": "2026-09-10T15:34:00+00:00",
+    "timestamp": "2026-09-10T15:46:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 5,
         "1": 1,
         "0": 1
     },
     "mode": {
         "1": 2,
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
         "2|1": 2,
-        "2|0": 2,
+        "2|0": 3,
         "1|0": 1,
         "0|0": 1
     },
@@ -22,7 +22,7 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Trade",
@@ -39,11 +39,15 @@
             "count": 1
         },
         {
-            "name": "n eld runes",
+            "name": "asd",
             "count": 1
         },
         {
-            "name": "n pala off sks",
+            "name": "n apal off sk 7",
+            "count": 1
+        },
+        {
+            "name": "n eld runes",
             "count": 1
         },
         {
@@ -88,6 +92,11 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            },
+            {
                 "name": "n eld runes",
                 "matched": "run",
                 "count": 1
@@ -95,15 +104,15 @@
         ],
         "Trade": [
             {
-                "name": "n pala off sks",
+                "name": "n apal off sk 7",
                 "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 9.83
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 9.0
     }
 }
