@@ -1,15 +1,17 @@
 {
-    "timestamp": "2026-09-10T14:46:00+00:00",
+    "timestamp": "2026-09-10T15:05:00+00:00",
     "difficulty": {
-        "2": 7,
-        "0": 3
+        "2": 8,
+        "0": 4
     },
     "mode": {
+        "1": 2,
         "0": 10
     },
     "difficulty_mode": {
-        "2|0": 7,
-        "0|0": 3
+        "2|1": 2,
+        "2|0": 6,
+        "0|0": 4
     },
     "activities": [
         {
@@ -18,28 +20,36 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 4
+            "count": 5
         },
         {
             "name": "Trade",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "t",
-            "count": 2
+            "name": "farms",
+            "count": 1
         },
         {
-            "name": "key des run 23",
+            "name": "n keys 53",
+            "count": 1
+        },
+        {
+            "name": "key des run 30",
+            "count": 1
+        },
+        {
+            "name": "key des run 29",
+            "count": 1
+        },
+        {
+            "name": "key des run 27",
             "count": 1
         },
         {
             "name": "n pala off sks",
-            "count": 1
-        },
-        {
-            "name": "key des run 22",
             "count": 1
         },
         {
@@ -48,6 +58,10 @@
         },
         {
             "name": "n eld runes",
+            "count": 1
+        },
+        {
+            "name": "lvup gogo",
             "count": 1
         },
         {
@@ -65,10 +79,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "t",
-            "count": 4,
+            "normalized": "farms",
+            "count": 2,
             "examples": [
-                "t"
+                "farms"
+            ]
+        },
+        {
+            "normalized": "lvup gogo",
+            "count": 2,
+            "examples": [
+                "lvup gogo"
             ]
         },
         {
@@ -94,14 +115,31 @@
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n keys 53",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n pala off sks",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
-                "name": "key des run 23",
+                "name": "key des run 30",
                 "matched": "run",
                 "count": 1
             },
             {
-                "name": "key des run 22",
+                "name": "key des run 29",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "key des run 27",
                 "matched": "run",
                 "count": 1
             },
@@ -115,18 +153,11 @@
                 "matched": "run",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "n pala off sks",
-                "matched": "n",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 9,
-        "public_games": 10,
-        "average_name_length": 9.11
+        "unique_names": 12,
+        "public_games": 12,
+        "average_name_length": 9.83
     }
 }
