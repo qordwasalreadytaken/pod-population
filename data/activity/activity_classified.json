@@ -311,7 +311,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "buy",
+            "matched": "torch",
             "count": 12
         },
         {
@@ -436,7 +436,7 @@
         },
         {
             "name": "n necro torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 4
         },
         {
@@ -961,7 +961,7 @@
         },
         {
             "name": "n oocs wuw",
-            "matched": "wuw",
+            "matched": "n",
             "count": 1
         },
         {
@@ -1088,6 +1088,16 @@
             "name": "n apal off sk 0",
             "matched": "n",
             "count": 1
+        },
+        {
+            "name": "n keys 54",
+            "matched": "n",
+            "count": 1
+        },
+        {
+            "name": "n apal off sk 1",
+            "matched": "n",
+            "count": 1
         }
     ],
     "Leveling": [
@@ -1118,7 +1128,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "andar",
+            "matched": "act",
             "count": 12
         },
         {
@@ -1203,7 +1213,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 3
         },
         {
@@ -1253,7 +1263,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -1273,7 +1283,7 @@
         },
         {
             "name": "ancients norm",
-            "matched": "norm",
+            "matched": "anci",
             "count": 2
         },
         {
@@ -1283,7 +1293,7 @@
         },
         {
             "name": "normal act",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -1313,7 +1323,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "act",
+            "matched": "exp",
             "count": 2
         },
         {
@@ -1373,7 +1383,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "tomb",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -1403,7 +1413,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -1538,12 +1548,12 @@
         {
             "name": "asd",
             "matched": "asd",
-            "count": 579
+            "count": 580
         },
         {
             "name": "n eld runes",
             "matched": "run",
-            "count": 389
+            "count": 390
         },
         {
             "name": "gord",
@@ -1741,6 +1751,11 @@
             "count": 4
         },
         {
+            "name": "341234",
+            "matched": "123",
+            "count": 4
+        },
+        {
             "name": "1235125",
             "matched": "123",
             "count": 4
@@ -1798,11 +1813,6 @@
         {
             "name": "drun",
             "matched": "run",
-            "count": 3
-        },
-        {
-            "name": "341234",
-            "matched": "123",
             "count": 3
         },
         {
@@ -1972,7 +1982,7 @@
         },
         {
             "name": "asdsd36aaaa",
-            "matched": "asd",
+            "matched": "aaa",
             "count": 2
         },
         {
@@ -2257,7 +2267,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "mf",
+            "matched": "run",
             "count": 1
         },
         {
@@ -2327,7 +2337,7 @@
         },
         {
             "name": "14123awdasdfqwr",
-            "matched": "asd",
+            "matched": "123",
             "count": 1
         },
         {
@@ -3018,17 +3028,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
