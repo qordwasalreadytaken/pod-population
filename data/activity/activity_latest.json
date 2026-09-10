@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-09-10T14:34:00+00:00",
+    "timestamp": "2026-09-10T14:46:00+00:00",
     "difficulty": {
-        "2": 8,
-        "0": 4
+        "2": 7,
+        "0": 3
     },
     "mode": {
-        "0": 12
+        "0": 10
     },
     "difficulty_mode": {
-        "2|0": 8,
-        "0|0": 4
+        "2|0": 7,
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 7
+            "count": 5
         },
         {
             "name": "Misc. Public MF Runs",
@@ -31,15 +31,7 @@
             "count": 2
         },
         {
-            "name": "key des run 21",
-            "count": 1
-        },
-        {
-            "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "lvv",
+            "name": "key des run 23",
             "count": 1
         },
         {
@@ -47,23 +39,23 @@
             "count": 1
         },
         {
+            "name": "key des run 22",
+            "count": 1
+        },
+        {
+            "name": "asd",
+            "count": 1
+        },
+        {
             "name": "n eld runes",
             "count": 1
         },
         {
-            "name": "key des run 20",
+            "name": "qwer",
             "count": 1
         },
         {
             "name": "wikid klownz",
-            "count": 1
-        },
-        {
-            "name": "qwe",
-            "count": 1
-        },
-        {
-            "name": "`1",
             "count": 1
         },
         {
@@ -80,10 +72,10 @@
             ]
         },
         {
-            "normalized": "lvv",
+            "normalized": "qwer",
             "count": 2,
             "examples": [
-                "lvv"
+                "qwer"
             ]
         },
         {
@@ -91,20 +83,6 @@
             "count": 2,
             "examples": [
                 "wikid klownz"
-            ]
-        },
-        {
-            "normalized": "qwe",
-            "count": 2,
-            "examples": [
-                "qwe"
-            ]
-        },
-        {
-            "normalized": "`#",
-            "count": 2,
-            "examples": [
-                "`1"
             ]
         },
         {
@@ -118,7 +96,12 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "key des run 21",
+                "name": "key des run 23",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "key des run 22",
                 "matched": "run",
                 "count": 1
             },
@@ -129,11 +112,6 @@
             },
             {
                 "name": "n eld runes",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "key des run 20",
                 "matched": "run",
                 "count": 1
             }
@@ -147,8 +125,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 11,
-        "public_games": 12,
-        "average_name_length": 7.82
+        "unique_names": 9,
+        "public_games": 10,
+        "average_name_length": 9.11
     }
 }
