@@ -1,23 +1,41 @@
 {
-    "timestamp": "2026-09-10T12:34:00+00:00",
+    "timestamp": "2026-09-10T12:52:00+00:00",
     "difficulty": {
-        "2": 1
+        "2": 2,
+        "0": 2
     },
     "mode": {
-        "0": 1
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 1
+        "2|0": 2,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 2
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 2
         }
     ],
     "top_games": [
         {
             "name": "jah ber plz",
+            "count": 1
+        },
+        {
+            "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "dssdasded",
+            "count": 1
+        },
+        {
+            "name": "qweq",
             "count": 1
         }
     ],
@@ -28,12 +46,32 @@
             "examples": [
                 "jah ber plz"
             ]
+        },
+        {
+            "normalized": "qweq",
+            "count": 2,
+            "examples": [
+                "qweq"
+            ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "dssdasded",
+                "matched": "asd",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 11.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 6.75
     }
 }
