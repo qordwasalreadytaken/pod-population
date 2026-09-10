@@ -1,22 +1,15 @@
 {
-    "timestamp": "2026-09-10T09:46:00+00:00",
+    "timestamp": "2026-09-10T10:05:00+00:00",
     "difficulty": {
-        "2": 1,
         "0": 1
     },
     "mode": {
-        "1": 1,
         "0": 1
     },
     "difficulty_mode": {
-        "2|1": 1,
         "0|0": 1
     },
     "activities": [
-        {
-            "name": "Trade",
-            "count": 1
-        },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
@@ -24,23 +17,12 @@
     ],
     "top_games": [
         {
-            "name": "n keys 62",
-            "count": 1
-        },
-        {
             "name": "asda",
             "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n keys 62",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asda",
@@ -50,8 +32,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 6.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 4.0
     }
 }
