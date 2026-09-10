@@ -1,24 +1,22 @@
 {
-    "timestamp": "2026-09-10T21:19:00+00:00",
+    "timestamp": "2026-09-10T21:32:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 2,
-        "1": 1
+        "0": 3,
+        "2": 3
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 2,
-        "1|0": 1,
-        "0|0": 1
+        "2|0": 3,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 4
         },
         {
             "name": "Leveling",
@@ -27,13 +25,13 @@
         {
             "name": "Misc. Public MF Runs",
             "count": 1
-        },
-        {
-            "name": "Trade",
-            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "lvv",
+            "count": 2
+        },
         {
             "name": "norm",
             "count": 1
@@ -43,31 +41,34 @@
             "count": 1
         },
         {
-            "name": "lvv",
+            "name": "kirkversary",
             "count": 1
         },
         {
-            "name": "n heavens li",
-            "count": 1
-        },
-        {
-            "name": "idk",
+            "name": "1431",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "lvv",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "lvv"
             ]
         },
         {
-            "normalized": "idk",
+            "normalized": "kirkversary",
             "count": 2,
             "examples": [
-                "idk"
+                "kirkversary"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1431"
             ]
         }
     ],
@@ -85,18 +86,11 @@
                 "matched": "asd",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "n heavens li",
-                "matched": "n",
-                "count": 1
-            }
         ]
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 5,
+        "public_games": 6,
         "average_name_length": 5.0
     }
 }
