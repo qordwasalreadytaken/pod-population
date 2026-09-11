@@ -1,41 +1,29 @@
 {
-    "timestamp": "2026-09-11T12:52:00+00:00",
+    "timestamp": "2026-09-11T13:04:00+00:00",
     "difficulty": {
-        "2": 5,
-        "1": 1,
+        "2": 2,
+        "1": 2,
         "0": 1
     },
     "mode": {
-        "0": 7
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 5,
-        "1|0": 1,
+        "2|0": 2,
+        "1|0": 2,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 4
-        },
-        {
             "name": "Other",
             "count": 3
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 2
         }
     ],
     "top_games": [
-        {
-            "name": "key run 23",
-            "count": 1
-        },
-        {
-            "name": "key run 22",
-            "count": 1
-        },
-        {
-            "name": "key run 21",
-            "count": 1
-        },
         {
             "name": "n eld runes",
             "count": 1
@@ -45,11 +33,15 @@
             "count": 1
         },
         {
+            "name": "13",
+            "count": 1
+        },
+        {
             "name": "ewq",
             "count": 1
         },
         {
-            "name": "12",
+            "name": "asd",
             "count": 1
         }
     ],
@@ -62,47 +54,37 @@
             ]
         },
         {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "13"
+            ]
+        },
+        {
             "normalized": "ewq",
             "count": 2,
             "examples": [
                 "ewq"
-            ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "12"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "key run 23",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "key run 22",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "key run 21",
-                "matched": "run",
-                "count": 1
-            },
-            {
                 "name": "n eld runes",
                 "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 7.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 4.4
     }
 }
