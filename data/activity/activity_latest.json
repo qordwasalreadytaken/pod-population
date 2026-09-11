@@ -1,19 +1,25 @@
 {
-    "timestamp": "2026-09-11T11:46:00+00:00",
+    "timestamp": "2026-09-11T12:07:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 3,
+        "1": 1,
         "0": 3
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 6
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 1,
+        "2|0": 2,
+        "1|0": 1,
         "0|0": 3
     },
     "activities": [
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 3
+        },
         {
             "name": "Other",
             "count": 3
@@ -21,19 +27,23 @@
         {
             "name": "Trade",
             "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n keys 55",
+            "name": "n keys 57",
+            "count": 1
+        },
+        {
+            "name": "n eld runes",
             "count": 1
         },
         {
             "name": "lvv",
+            "count": 1
+        },
+        {
+            "name": "adsasds",
             "count": 1
         },
         {
@@ -75,12 +85,22 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "n keys 55",
+                "name": "n keys 57",
                 "matched": "n",
                 "count": 1
             }
         ],
         "Misc. Public MF Runs": [
+            {
+                "name": "n eld runes",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "adsasds",
+                "matched": "asd",
+                "count": 1
+            },
             {
                 "name": "asd",
                 "matched": "asd",
@@ -89,8 +109,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 3.8
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 5.29
     }
 }
