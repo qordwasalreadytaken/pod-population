@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-11T17:46:00+00:00",
+    "timestamp": "2026-09-11T18:05:00+00:00",
     "difficulty": {
         "2": 2,
         "1": 2,
@@ -21,7 +21,7 @@
             "count": 2
         },
         {
-            "name": "Other",
+            "name": "Baal",
             "count": 1
         },
         {
@@ -29,21 +29,21 @@
             "count": 1
         },
         {
-            "name": "Cows",
+            "name": "Trade",
             "count": 1
         },
         {
-            "name": "Trade",
+            "name": "Cows",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "hell",
+            "name": "hellbaal",
             "count": 1
         },
         {
-            "name": "cripmap",
+            "name": "cripmap-2",
             "count": 1
         },
         {
@@ -55,27 +55,26 @@
             "count": 1
         },
         {
-            "name": "cow",
+            "name": "n heavens light",
             "count": 1
         },
         {
-            "name": "n heavens light",
+            "name": "cow",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "hell",
-            "count": 2,
-            "examples": [
-                "hell"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
+        "Baal": [
+            {
+                "name": "hellbaal",
+                "matched": "baal",
+                "count": 1
+            }
+        ],
         "Maps": [
             {
-                "name": "cripmap",
+                "name": "cripmap-2",
                 "matched": "map",
                 "count": 1
             }
@@ -92,17 +91,17 @@
                 "count": 1
             }
         ],
-        "Cows": [
-            {
-                "name": "cow",
-                "matched": "cow",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "n heavens light",
                 "matched": "n",
+                "count": 1
+            }
+        ],
+        "Cows": [
+            {
+                "name": "cow",
+                "matched": "cow",
                 "count": 1
             }
         ]
@@ -110,6 +109,6 @@
     "interesting": {
         "unique_names": 6,
         "public_games": 6,
-        "average_name_length": 6.5
+        "average_name_length": 7.5
     }
 }
