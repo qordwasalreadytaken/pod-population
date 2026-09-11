@@ -1,33 +1,23 @@
 {
-    "timestamp": "2026-09-11T02:09:00+00:00",
+    "timestamp": "2026-09-11T02:32:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "2": 1
     },
     "mode": {
-        "0": 3
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "0|0": 1
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
-        },
-        {
-            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "asd",
-            "count": 2
-        },
-        {
-            "name": "just leveling n",
             "count": 1
         }
     ],
@@ -37,20 +27,13 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 2
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "just leveling n",
-                "matched": "leveli",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 3,
-        "average_name_length": 9.0
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 3.0
     }
 }
