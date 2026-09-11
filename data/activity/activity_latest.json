@@ -1,32 +1,36 @@
 {
-    "timestamp": "2026-09-11T14:35:00+00:00",
+    "timestamp": "2026-09-11T14:46:00+00:00",
     "difficulty": {
-        "1": 4,
-        "2": 2,
-        "0": 5
+        "1": 6,
+        "2": 1,
+        "0": 4
     },
     "mode": {
-        "1": 1,
-        "0": 10
+        "1": 2,
+        "0": 9
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "2|0": 2,
-        "1|0": 3,
-        "0|0": 5
+        "1|1": 2,
+        "2|0": 1,
+        "1|0": 4,
+        "0|0": 4
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 5
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 4
+            "count": 3
+        },
+        {
+            "name": "Baal",
+            "count": 1
         },
         {
             "name": "Cows",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Trade",
@@ -35,15 +39,23 @@
     ],
     "top_games": [
         {
-            "name": "hellcow",
-            "count": 2
-        },
-        {
             "name": "asd",
             "count": 2
         },
         {
+            "name": "nmbaal",
+            "count": 1
+        },
+        {
             "name": "nm",
+            "count": 1
+        },
+        {
+            "name": "hellcow",
+            "count": 1
+        },
+        {
+            "name": "vxvx",
             "count": 1
         },
         {
@@ -65,10 +77,6 @@
         {
             "name": "n heaven light",
             "count": 1
-        },
-        {
-            "name": "31231",
-            "count": 1
         }
     ],
     "unknown_games": [
@@ -77,6 +85,13 @@
             "count": 2,
             "examples": [
                 "nm"
+            ]
+        },
+        {
+            "normalized": "vxvx",
+            "count": 2,
+            "examples": [
+                "vxvx"
             ]
         },
         {
@@ -102,11 +117,18 @@
         }
     ],
     "classified_games": {
+        "Baal": [
+            {
+                "name": "nmbaal",
+                "matched": "baal",
+                "count": 1
+            }
+        ],
         "Cows": [
             {
                 "name": "hellcow",
                 "matched": "cow",
-                "count": 2
+                "count": 1
             }
         ],
         "Misc. Public MF Runs": [
@@ -119,11 +141,6 @@
                 "name": "adsasds",
                 "matched": "asd",
                 "count": 1
-            },
-            {
-                "name": "31231",
-                "matched": "123",
-                "count": 1
             }
         ],
         "Trade": [
@@ -135,8 +152,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 9,
+        "unique_names": 10,
         "public_games": 11,
-        "average_name_length": 5.33
+        "average_name_length": 5.3
     }
 }
