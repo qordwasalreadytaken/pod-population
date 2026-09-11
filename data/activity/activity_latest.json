@@ -1,8 +1,8 @@
 {
-    "timestamp": "2026-09-11T09:05:00+00:00",
+    "timestamp": "2026-09-11T09:25:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 1
+        "1": 1
     },
     "mode": {
         "1": 1,
@@ -10,7 +10,7 @@
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 1
+        "1|0": 1
     },
     "activities": [
         {
@@ -28,16 +28,16 @@
             "count": 1
         },
         {
-            "name": "lvv",
+            "name": "1221",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "lvv",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "lvv"
+                "1221"
             ]
         }
     ],
@@ -53,6 +53,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 4.0
+        "average_name_length": 4.5
     }
 }
