@@ -1,31 +1,43 @@
 {
-    "timestamp": "2026-09-11T13:33:00+00:00",
+    "timestamp": "2026-09-11T13:46:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 5,
         "1": 3,
         "0": 2
     },
     "mode": {
-        "0": 7
+        "0": 10
     },
     "difficulty_mode": {
-        "2|0": 2,
+        "2|0": 5,
         "1|0": 3,
         "0|0": 2
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 5
+            "name": "Misc. Public MF Runs",
+            "count": 6
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Other",
+            "count": 4
         }
     ],
     "top_games": [
         {
-            "name": "lvv",
+            "name": "key run 24",
+            "count": 1
+        },
+        {
+            "name": "key run 23",
+            "count": 1
+        },
+        {
+            "name": "key run 22",
+            "count": 1
+        },
+        {
+            "name": "key run 21",
             "count": 1
         },
         {
@@ -54,13 +66,6 @@
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "lvv",
-            "count": 2,
-            "examples": [
-                "lvv"
-            ]
-        },
         {
             "normalized": "re",
             "count": 2,
@@ -93,6 +98,26 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
+                "name": "key run 24",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "key run 23",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "key run 22",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "key run 21",
+                "matched": "run",
+                "count": 1
+            },
+            {
                 "name": "n eld runes",
                 "matched": "run",
                 "count": 1
@@ -105,8 +130,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 4.14
+        "unique_names": 10,
+        "public_games": 10,
+        "average_name_length": 6.6
     }
 }
