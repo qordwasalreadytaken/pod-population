@@ -1,23 +1,31 @@
 {
-    "timestamp": "2026-09-11T06:37:00+00:00",
+    "timestamp": "2026-09-11T06:56:00+00:00",
     "difficulty": {
-        "2": 1
+        "2": 3
     },
     "mode": {
-        "0": 1
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1
+        "2|0": 3
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "key run 4",
+            "name": "key run 9",
+            "count": 1
+        },
+        {
+            "name": "key run 8",
+            "count": 1
+        },
+        {
+            "name": "key run 7",
             "count": 1
         }
     ],
@@ -25,15 +33,25 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "key run 4",
+                "name": "key run 9",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "key run 8",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "key run 7",
                 "matched": "run",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
+        "unique_names": 3,
+        "public_games": 3,
         "average_name_length": 9.0
     }
 }
