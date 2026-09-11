@@ -1,6 +1,11 @@
 {
     "Cows": [
         {
+            "name": "hellcow",
+            "matched": "cow",
+            "count": 8
+        },
+        {
             "name": "cow",
             "matched": "cow",
             "count": 7
@@ -11,13 +16,8 @@
             "count": 7
         },
         {
-            "name": "hellcow",
-            "matched": "cow",
-            "count": 6
-        },
-        {
             "name": "letsseewhomcows",
-            "matched": "cow",
+            "matched": "cows",
             "count": 3
         },
         {
@@ -47,7 +47,7 @@
         },
         {
             "name": "hell cows",
-            "matched": "cow",
+            "matched": "cows",
             "count": 1
         },
         {
@@ -57,22 +57,22 @@
         },
         {
             "name": "cows 2",
-            "matched": "cow",
+            "matched": "cows",
             "count": 1
         },
         {
             "name": "cows 4",
-            "matched": "cow",
+            "matched": "cows",
             "count": 1
         },
         {
             "name": "cows 5",
-            "matched": "cow",
+            "matched": "cows",
             "count": 1
         },
         {
             "name": "cows",
-            "matched": "cow",
+            "matched": "cows",
             "count": 1
         }
     ],
@@ -237,7 +237,7 @@
         {
             "name": "n heaven light",
             "matched": "n",
-            "count": 43
+            "count": 44
         },
         {
             "name": "n 5/5 fire",
@@ -441,7 +441,7 @@
         },
         {
             "name": "n necro torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -751,7 +751,7 @@
         },
         {
             "name": "n nec torch :)",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -971,7 +971,7 @@
         },
         {
             "name": "n oocs wuw",
-            "matched": "wuw",
+            "matched": "n",
             "count": 1
         },
         {
@@ -1133,7 +1133,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "act",
+            "matched": "andar",
             "count": 12
         },
         {
@@ -1223,7 +1223,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 3
         },
         {
@@ -1303,7 +1303,7 @@
         },
         {
             "name": "normal act",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -1393,7 +1393,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "norm",
+            "matched": "tomb",
             "count": 1
         },
         {
@@ -1423,7 +1423,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -1558,7 +1558,7 @@
         {
             "name": "asd",
             "matched": "asd",
-            "count": 629
+            "count": 631
         },
         {
             "name": "n eld runes",
@@ -1801,6 +1801,11 @@
             "count": 4
         },
         {
+            "name": "adsasds",
+            "matched": "asd",
+            "count": 4
+        },
+        {
             "name": "asdasdas",
             "matched": "asd",
             "count": 3
@@ -1866,6 +1871,11 @@
             "count": 3
         },
         {
+            "name": "31231",
+            "matched": "123",
+            "count": 3
+        },
+        {
             "name": "adds1113aaa",
             "matched": "aaa",
             "count": 3
@@ -1888,11 +1898,6 @@
         {
             "name": "key run 21",
             "matched": "run",
-            "count": 3
-        },
-        {
-            "name": "adsasds",
-            "matched": "asd",
             "count": 3
         },
         {
@@ -2012,12 +2017,7 @@
         },
         {
             "name": "asdsd36aaaa",
-            "matched": "asd",
-            "count": 2
-        },
-        {
-            "name": "31231",
-            "matched": "123",
+            "matched": "aaa",
             "count": 2
         },
         {
@@ -2322,7 +2322,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -2886,7 +2886,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 7
         },
         {
@@ -2906,7 +2906,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "map",
+            "matched": "mapping",
             "count": 4
         },
         {
@@ -3091,7 +3091,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -3106,7 +3106,7 @@
         },
         {
             "name": "mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
