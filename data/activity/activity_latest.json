@@ -1,23 +1,29 @@
 {
-    "timestamp": "2026-09-11T04:06:00+00:00",
+    "timestamp": "2026-09-11T04:28:00+00:00",
     "difficulty": {
+        "1": 2,
         "0": 1
     },
     "mode": {
-        "0": 1
+        "0": 3
     },
     "difficulty_mode": {
+        "1|0": 2,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
         {
             "name": "asd",
+            "count": 2
+        },
+        {
+            "name": "asda",
             "count": 1
         }
     ],
@@ -27,13 +33,18 @@
             {
                 "name": "asd",
                 "matched": "asd",
+                "count": 2
+            },
+            {
+                "name": "asda",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 3.0
+        "unique_names": 2,
+        "public_games": 3,
+        "average_name_length": 3.5
     }
 }
