@@ -1,42 +1,40 @@
 {
-    "timestamp": "2026-09-12T07:22:00+00:00",
+    "timestamp": "2026-09-12T07:32:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
+        "2": 2
     },
     "mode": {
         "0": 2
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 1
+        "2|0": 2
     },
     "activities": [
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n frw wisp bk",
+            "name": "fhgg",
             "count": 1
         },
         {
-            "name": "doretooajj",
+            "name": "n frw wisp bk",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "doretooajj",
+            "normalized": "fhgg",
             "count": 2,
             "examples": [
-                "doretooajj"
+                "fhgg"
             ]
         }
     ],
@@ -52,6 +50,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 11.5
+        "average_name_length": 8.5
     }
 }
