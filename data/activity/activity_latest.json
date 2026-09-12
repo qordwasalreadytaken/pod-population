@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-09-12T08:05:00+00:00",
+    "timestamp": "2026-09-12T08:27:00+00:00",
     "difficulty": {
         "2": 2,
-        "0": 1
+        "1": 1
     },
     "mode": {
         "0": 3
     },
     "difficulty_mode": {
         "2|0": 2,
-        "0|0": 1
+        "1|0": 1
     },
     "activities": [
         {
@@ -31,7 +31,7 @@
             "count": 1
         },
         {
-            "name": "doretooajjyu",
+            "name": "1221",
             "count": 1
         }
     ],
@@ -44,10 +44,10 @@
             ]
         },
         {
-            "normalized": "doretooajjyu",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "doretooajjyu"
+                "1221"
             ]
         }
     ],
@@ -63,6 +63,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 9.0
+        "average_name_length": 6.33
     }
 }
