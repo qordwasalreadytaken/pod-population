@@ -1,41 +1,31 @@
 {
-    "timestamp": "2026-09-12T19:17:00+00:00",
+    "timestamp": "2026-09-12T19:32:00+00:00",
     "difficulty": {
-        "1": 1,
         "0": 2
     },
     "mode": {
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
-        "1|0": 1,
         "0|0": 2
     },
     "activities": [
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
-        },
-        {
-            "name": "Other",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n heavens light",
+            "name": "2122",
             "count": 1
         },
         {
             "name": "sor grow run 5",
-            "count": 1
-        },
-        {
-            "name": "2122",
             "count": 1
         }
     ],
@@ -49,13 +39,6 @@
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n heavens light",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "sor grow run 5",
@@ -65,8 +48,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 11.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 9.0
     }
 }
