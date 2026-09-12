@@ -1,28 +1,26 @@
 {
-    "timestamp": "2026-09-12T18:05:00+00:00",
+    "timestamp": "2026-09-12T18:24:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 4,
-        "1": 2
+        "2": 2,
+        "1": 1,
+        "0": 2
     },
     "mode": {
-        "1": 1,
-        "0": 8
+        "0": 5
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 4,
-        "1|0": 2,
+        "2|0": 2,
+        "1|0": 1,
         "0|0": 2
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 4
+            "name": "Misc. Public MF Runs",
+            "count": 3
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 4
+            "name": "Leveling",
+            "count": 1
         },
         {
             "name": "Trade",
@@ -31,27 +29,11 @@
     ],
     "top_games": [
         {
-            "name": "trapse",
-            "count": 1
-        },
-        {
-            "name": "45",
-            "count": 1
-        },
-        {
-            "name": "level",
-            "count": 1
-        },
-        {
-            "name": "n eld runes",
+            "name": "ancientsball",
             "count": 1
         },
         {
             "name": "adsasds",
-            "count": 1
-        },
-        {
-            "name": "4",
             "count": 1
         },
         {
@@ -67,37 +49,16 @@
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "#",
-            "count": 4,
-            "examples": [
-                "4",
-                "45"
-            ]
-        },
-        {
-            "normalized": "trapse",
-            "count": 2,
-            "examples": [
-                "trapse"
-            ]
-        },
-        {
-            "normalized": "level",
-            "count": 2,
-            "examples": [
-                "level"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Leveling": [
             {
-                "name": "n eld runes",
-                "matched": "run",
+                "name": "ancientsball",
+                "matched": "anci",
                 "count": 1
-            },
+            }
+        ],
+        "Misc. Public MF Runs": [
             {
                 "name": "adsasds",
                 "matched": "asd",
@@ -123,8 +84,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 9,
-        "public_games": 9,
-        "average_name_length": 7.11
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 10.2
     }
 }
