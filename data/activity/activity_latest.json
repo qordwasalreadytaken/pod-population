@@ -1,19 +1,19 @@
 {
-    "timestamp": "2026-09-12T06:34:00+00:00",
+    "timestamp": "2026-09-12T06:52:00+00:00",
     "difficulty": {
-        "1": 1,
+        "2": 1,
         "0": 1
     },
     "mode": {
         "0": 2
     },
     "difficulty_mode": {
-        "1|0": 1,
+        "2|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 1
         },
         {
@@ -23,28 +23,28 @@
     ],
     "top_games": [
         {
-            "name": "adsasds",
+            "name": "n frw bk",
             "count": 1
         },
         {
-            "name": "doretooa",
+            "name": "merc",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "doretooa",
+            "normalized": "merc",
             "count": 2,
             "examples": [
-                "doretooa"
+                "merc"
             ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "adsasds",
-                "matched": "asd",
+                "name": "n frw bk",
+                "matched": "n",
                 "count": 1
             }
         ]
@@ -52,6 +52,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 7.5
+        "average_name_length": 6.0
     }
 }
