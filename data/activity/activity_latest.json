@@ -1,28 +1,26 @@
 {
-    "timestamp": "2026-09-12T04:26:00+00:00",
+    "timestamp": "2026-09-12T04:37:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 1,
-        "0": 1
+        "2": 2,
+        "1": 2
     },
     "mode": {
-        "1": 2,
+        "1": 1,
         "0": 3
     },
     "difficulty_mode": {
-        "2|1": 2,
+        "2|1": 1,
         "2|0": 1,
-        "1|0": 1,
-        "0|0": 1
+        "1|0": 2
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Other",
+            "count": 1
         },
         {
             "name": "Cows",
@@ -32,25 +30,25 @@
     "top_games": [
         {
             "name": "gg",
-            "count": 2
+            "count": 1
         },
         {
             "name": "asd",
             "count": 1
         },
         {
-            "name": "adsasds",
+            "name": "cow",
             "count": 1
         },
         {
-            "name": "cow",
+            "name": "adsasds",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "gg",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "gg"
             ]
@@ -79,7 +77,7 @@
     },
     "interesting": {
         "unique_names": 4,
-        "public_games": 5,
+        "public_games": 4,
         "average_name_length": 3.75
     }
 }
