@@ -1,9 +1,9 @@
 {
-    "timestamp": "2026-09-12T13:32:00+00:00",
+    "timestamp": "2026-09-12T14:04:00+00:00",
     "difficulty": {
-        "2": 5,
+        "2": 4,
         "1": 1,
-        "0": 2
+        "0": 3
     },
     "mode": {
         "1": 1,
@@ -11,9 +11,9 @@
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 4,
+        "2|0": 3,
         "1|0": 1,
-        "0|0": 2
+        "0|0": 3
     },
     "activities": [
         {
@@ -31,19 +31,15 @@
     ],
     "top_games": [
         {
-            "name": "atlass",
+            "name": "atlas",
             "count": 1
         },
         {
-            "name": "n magic facet 1",
+            "name": "n magic facet 2",
             "count": 1
         },
         {
             "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "thick lake",
             "count": 1
         },
         {
@@ -55,7 +51,11 @@
             "count": 1
         },
         {
-            "name": "doretoo",
+            "name": "13",
+            "count": 1
+        },
+        {
+            "name": "ghiuiity",
             "count": 1
         },
         {
@@ -65,31 +65,31 @@
     ],
     "unknown_games": [
         {
-            "normalized": "atlass",
+            "normalized": "atlas",
             "count": 2,
             "examples": [
-                "atlass"
+                "atlas"
             ]
         },
         {
-            "normalized": "thick lake",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "thick lake"
+                "13"
             ]
         },
         {
-            "normalized": "doretoo",
+            "normalized": "ghiuiity",
             "count": 2,
             "examples": [
-                "doretoo"
+                "ghiuiity"
             ]
         }
     ],
     "classified_games": {
         "Trade": [
             {
-                "name": "n magic facet 1",
+                "name": "n magic facet 2",
                 "matched": "n",
                 "count": 1
             }
@@ -120,6 +120,6 @@
     "interesting": {
         "unique_names": 8,
         "public_games": 8,
-        "average_name_length": 9.25
+        "average_name_length": 8.25
     }
 }

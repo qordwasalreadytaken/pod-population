@@ -565,6 +565,11 @@
             "count": 3
         },
         {
+            "name": "n magic facet 2",
+            "matched": "n",
+            "count": 3
+        },
+        {
             "name": "n 4sock zaka",
             "matched": "n",
             "count": 3
@@ -701,11 +706,6 @@
         },
         {
             "name": "n zigurat4alcaz",
-            "matched": "n",
-            "count": 2
-        },
-        {
-            "name": "n magic facet 2",
             "matched": "n",
             "count": 2
         },
@@ -991,7 +991,7 @@
         },
         {
             "name": "n oocs wuw",
-            "matched": "wuw",
+            "matched": "n",
             "count": 1
         },
         {
@@ -1323,7 +1323,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "leveli",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -1338,7 +1338,7 @@
         },
         {
             "name": "ancients norm",
-            "matched": "anci",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -1348,7 +1348,7 @@
         },
         {
             "name": "normal act",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -1378,7 +1378,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "exp",
+            "matched": "act",
             "count": 2
         },
         {
@@ -1438,7 +1438,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "norm",
+            "matched": "tomb",
             "count": 1
         },
         {
@@ -1603,12 +1603,12 @@
         {
             "name": "asd",
             "matched": "asd",
-            "count": 698
+            "count": 699
         },
         {
             "name": "n eld runes",
             "matched": "run",
-            "count": 411
+            "count": 412
         },
         {
             "name": "gord",
@@ -1628,7 +1628,7 @@
         {
             "name": "adsasds",
             "matched": "asd",
-            "count": 31
+            "count": 32
         },
         {
             "name": "ted",
@@ -1856,6 +1856,11 @@
             "count": 4
         },
         {
+            "name": "sorc grow run 1",
+            "matched": "run",
+            "count": 4
+        },
+        {
             "name": "asdasdas",
             "matched": "asd",
             "count": 3
@@ -1947,11 +1952,6 @@
         },
         {
             "name": "key run 21",
-            "matched": "run",
-            "count": 3
-        },
-        {
-            "name": "sorc grow run 1",
             "matched": "run",
             "count": 3
         },
@@ -2447,7 +2447,7 @@
         },
         {
             "name": "14123awdasdfqwr",
-            "matched": "asd",
+            "matched": "123",
             "count": 1
         },
         {
@@ -3193,17 +3193,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
