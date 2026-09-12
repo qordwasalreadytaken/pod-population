@@ -1,39 +1,37 @@
 {
-    "timestamp": "2026-09-12T18:34:00+00:00",
+    "timestamp": "2026-09-12T18:46:00+00:00",
     "difficulty": {
-        "2": 1,
         "1": 1,
         "0": 3
     },
     "mode": {
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 1,
         "1|0": 1,
         "0|0": 3
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 4
+            "count": 2
         },
         {
             "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "adsasds",
-            "count": 1
-        },
-        {
             "name": "n heavens light",
             "count": 1
         },
         {
-            "name": "sor grow run 4",
+            "name": "sor grow run 5",
             "count": 1
         },
         {
@@ -41,20 +39,30 @@
             "count": 1
         },
         {
-            "name": "sor grow run 3",
+            "name": "2122",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "2122"
+            ]
+        }
+    ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n heavens light",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
-                "name": "adsasds",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "sor grow run 4",
+                "name": "sor grow run 5",
                 "matched": "run",
                 "count": 1
             },
@@ -62,24 +70,12 @@
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
-            },
-            {
-                "name": "sor grow run 3",
-                "matched": "run",
-                "count": 1
-            }
-        ],
-        "Trade": [
-            {
-                "name": "n heavens light",
-                "matched": "n",
-                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 10.6
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 9.0
     }
 }
