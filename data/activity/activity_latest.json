@@ -1,112 +1,57 @@
 {
-    "timestamp": "2026-09-12T15:32:00+00:00",
+    "timestamp": "2026-09-12T15:46:00+00:00",
     "difficulty": {
-        "2": 6,
-        "1": 1,
-        "0": 1
+        "2": 1,
+        "1": 1
     },
     "mode": {
-        "0": 8
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 6,
-        "1|0": 1,
-        "0|0": 1
+        "2|0": 1,
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 4
-        },
-        {
-            "name": "Trade",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "aa",
-            "count": 2
-        },
-        {
-            "name": "n magic facet 4",
             "count": 1
         },
         {
-            "name": "lvl",
-            "count": 1
-        },
-        {
-            "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "n magic facet 3",
-            "count": 1
-        },
-        {
-            "name": "adsasds",
-            "count": 1
-        },
-        {
-            "name": "422",
+            "name": "1221",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "lvl",
-            "count": 2,
-            "examples": [
-                "lvl"
-            ]
-        },
-        {
             "normalized": "#",
             "count": 2,
             "examples": [
-                "422"
+                "1221"
             ]
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n magic facet 4",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "n magic facet 3",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "aa",
                 "matched": "aa",
-                "count": 2
-            },
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "adsasds",
-                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 8,
-        "average_name_length": 6.86
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 3.0
     }
 }
