@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-12T22:47:00+00:00",
+    "timestamp": "2026-09-12T23:03:00+00:00",
     "difficulty": {
         "2": 1,
         "0": 3
@@ -13,21 +13,25 @@
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Other",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "14",
+            "name": "n heavens light",
             "count": 1
         },
         {
-            "name": "wikid klownz",
+            "name": "afgf",
             "count": 1
         },
         {
@@ -41,21 +45,21 @@
     ],
     "unknown_games": [
         {
-            "normalized": "#",
+            "normalized": "afgf",
             "count": 2,
             "examples": [
-                "14"
-            ]
-        },
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
+                "afgf"
             ]
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n heavens light",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "gord",
@@ -72,6 +76,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 5.25
+        "average_name_length": 6.5
     }
 }
