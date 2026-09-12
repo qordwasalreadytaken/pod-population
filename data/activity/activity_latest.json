@@ -1,24 +1,24 @@
 {
-    "timestamp": "2026-09-12T14:04:00+00:00",
+    "timestamp": "2026-09-12T14:21:00+00:00",
     "difficulty": {
-        "2": 4,
-        "1": 1,
-        "0": 3
+        "2": 5,
+        "1": 2,
+        "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 7
+        "0": 8
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 3,
-        "1|0": 1,
-        "0|0": 3
+        "2|0": 4,
+        "1|0": 2,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 4
+            "count": 5
         },
         {
             "name": "Other",
@@ -31,6 +31,10 @@
     ],
     "top_games": [
         {
+            "name": "asd",
+            "count": 2
+        },
+        {
             "name": "atlas",
             "count": 1
         },
@@ -39,11 +43,11 @@
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "n eld runes",
             "count": 1
         },
         {
-            "name": "n eld runes",
+            "name": "1221",
             "count": 1
         },
         {
@@ -51,54 +55,37 @@
             "count": 1
         },
         {
+            "name": "sorc grow run 2",
+            "count": 1
+        },
+        {
             "name": "13",
-            "count": 1
-        },
-        {
-            "name": "ghiuiity",
-            "count": 1
-        },
-        {
-            "name": "sorc grow run 1",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "#",
+            "count": 4,
+            "examples": [
+                "1221",
+                "13"
+            ]
+        },
         {
             "normalized": "atlas",
             "count": 2,
             "examples": [
                 "atlas"
             ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "13"
-            ]
-        },
-        {
-            "normalized": "ghiuiity",
-            "count": 2,
-            "examples": [
-                "ghiuiity"
-            ]
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n magic facet 2",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             },
             {
                 "name": "n eld runes",
@@ -111,15 +98,22 @@
                 "count": 1
             },
             {
-                "name": "sorc grow run 1",
+                "name": "sorc grow run 2",
                 "matched": "run",
+                "count": 1
+            }
+        ],
+        "Trade": [
+            {
+                "name": "n magic facet 2",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 8,
-        "public_games": 8,
-        "average_name_length": 8.25
+        "public_games": 9,
+        "average_name_length": 7.75
     }
 }
