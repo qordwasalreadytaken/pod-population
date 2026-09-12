@@ -1,22 +1,24 @@
 {
-    "timestamp": "2026-09-12T17:03:00+00:00",
+    "timestamp": "2026-09-12T17:18:00+00:00",
     "difficulty": {
-        "2": 4,
-        "1": 2,
-        "0": 4
+        "0": 4,
+        "2": 5,
+        "1": 2
     },
     "mode": {
+        "1": 1,
         "0": 10
     },
     "difficulty_mode": {
-        "2|0": 4,
+        "0|1": 1,
+        "2|0": 5,
         "1|0": 2,
-        "0|0": 4
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 5
         },
         {
             "name": "Misc. Public MF Runs",
@@ -32,6 +34,14 @@
         }
     ],
     "top_games": [
+        {
+            "name": "trapse",
+            "count": 1
+        },
+        {
+            "name": "hhh",
+            "count": 1
+        },
         {
             "name": "n frw bk wisp",
             "count": 1
@@ -49,19 +59,15 @@
             "count": 1
         },
         {
-            "name": "1222",
+            "name": "1225",
             "count": 1
         },
         {
-            "name": "1221",
+            "name": "1224",
             "count": 1
         },
         {
-            "name": "4 314",
-            "count": 1
-        },
-        {
-            "name": "n heavens light",
+            "name": "n heaven light",
             "count": 1
         },
         {
@@ -78,16 +84,23 @@
             "normalized": "#",
             "count": 6,
             "examples": [
-                "1221",
-                "1222",
+                "1224",
+                "1225",
                 "2"
             ]
         },
         {
-            "normalized": "# #",
+            "normalized": "trapse",
             "count": 2,
             "examples": [
-                "4 314"
+                "trapse"
+            ]
+        },
+        {
+            "normalized": "hhh",
+            "count": 2,
+            "examples": [
+                "hhh"
             ]
         }
     ],
@@ -99,7 +112,7 @@
                 "count": 1
             },
             {
-                "name": "n heavens light",
+                "name": "n heaven light",
                 "matched": "n",
                 "count": 1
             }
@@ -130,8 +143,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 10,
-        "public_games": 10,
-        "average_name_length": 7.1
+        "unique_names": 11,
+        "public_games": 11,
+        "average_name_length": 6.73
     }
 }
