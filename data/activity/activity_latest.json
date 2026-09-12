@@ -1,24 +1,24 @@
 {
-    "timestamp": "2026-09-12T14:21:00+00:00",
+    "timestamp": "2026-09-12T14:32:00+00:00",
     "difficulty": {
         "2": 5,
         "1": 2,
-        "0": 2
+        "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 8
+        "0": 7
     },
     "difficulty_mode": {
         "2|1": 1,
         "2|0": 4,
         "1|0": 2,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 5
+            "count": 4
         },
         {
             "name": "Other",
@@ -52,10 +52,6 @@
         },
         {
             "name": "adsasds",
-            "count": 1
-        },
-        {
-            "name": "sorc grow run 2",
             "count": 1
         },
         {
@@ -96,11 +92,6 @@
                 "name": "adsasds",
                 "matched": "asd",
                 "count": 1
-            },
-            {
-                "name": "sorc grow run 2",
-                "matched": "run",
-                "count": 1
             }
         ],
         "Trade": [
@@ -112,8 +103,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 9,
-        "average_name_length": 7.75
+        "unique_names": 7,
+        "public_games": 8,
+        "average_name_length": 6.71
     }
 }
