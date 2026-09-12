@@ -1,28 +1,28 @@
 {
-    "timestamp": "2026-09-12T11:46:00+00:00",
+    "timestamp": "2026-09-12T12:06:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 2
+        "2": 3
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 2
+        "2|0": 3
     },
     "activities": [
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 2
+        },
         {
             "name": "Leveling",
             "count": 1
         },
         {
             "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -32,7 +32,11 @@
             "count": 1
         },
         {
-            "name": "n heaven ligh",
+            "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "n annihilus 1",
             "count": 1
         },
         {
@@ -49,24 +53,29 @@
                 "count": 1
             }
         ],
-        "Trade": [
-            {
-                "name": "n heaven ligh",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            },
             {
                 "name": "n eld runes",
                 "matched": "run",
                 "count": 1
             }
+        ],
+        "Trade": [
+            {
+                "name": "n annihilus 1",
+                "matched": "n",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 9.67
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 8.0
     }
 }
