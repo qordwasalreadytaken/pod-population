@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-09-12T16:04:00+00:00",
+    "timestamp": "2026-09-12T16:22:00+00:00",
     "difficulty": {
         "2": 6,
-        "1": 1
+        "0": 2
     },
     "mode": {
-        "0": 7
+        "0": 8
     },
     "difficulty_mode": {
         "2|0": 6,
-        "1|0": 1
+        "0|0": 2
     },
     "activities": [
         {
@@ -22,7 +22,7 @@
         },
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
@@ -31,11 +31,11 @@
             "count": 2
         },
         {
-            "name": "adsasds",
-            "count": 2
+            "name": "seth trade",
+            "count": 1
         },
         {
-            "name": "seth trade",
+            "name": "adsasds",
             "count": 1
         },
         {
@@ -45,6 +45,14 @@
         {
             "name": "asd",
             "count": 1
+        },
+        {
+            "name": "13241",
+            "count": 1
+        },
+        {
+            "name": "34123",
+            "count": 1
         }
     ],
     "unknown_games": [
@@ -53,6 +61,13 @@
             "count": 2,
             "examples": [
                 "lvl"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "13241"
             ]
         }
     ],
@@ -73,18 +88,23 @@
             {
                 "name": "adsasds",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             },
             {
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
+            },
+            {
+                "name": "34123",
+                "matched": "123",
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 7,
-        "average_name_length": 7.4
+        "unique_names": 7,
+        "public_games": 8,
+        "average_name_length": 6.71
     }
 }
