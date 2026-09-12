@@ -1,48 +1,33 @@
 {
-    "timestamp": "2026-09-12T22:32:00+00:00",
+    "timestamp": "2026-09-12T22:47:00+00:00",
     "difficulty": {
-        "1": 1,
-        "2": 2,
-        "0": 2
+        "2": 1,
+        "0": 3
     },
     "mode": {
-        "1": 1,
         "0": 4
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "2|0": 2,
-        "0|0": 2
+        "2|0": 1,
+        "0|0": 3
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 2
         },
         {
-            "name": "Leveling",
-            "count": 1
-        },
-        {
-            "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Other",
-            "count": 1
+            "name": "Misc. Public MF Runs",
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "nm act 5",
+            "name": "14",
             "count": 1
         },
         {
-            "name": "n heavens light",
-            "count": 1
-        },
-        {
-            "name": "13",
+            "name": "wikid klownz",
             "count": 1
         },
         {
@@ -59,25 +44,18 @@
             "normalized": "#",
             "count": 2,
             "examples": [
-                "13"
+                "14"
+            ]
+        },
+        {
+            "normalized": "wikid klownz",
+            "count": 2,
+            "examples": [
+                "wikid klownz"
             ]
         }
     ],
     "classified_games": {
-        "Leveling": [
-            {
-                "name": "nm act 5",
-                "matched": "act",
-                "count": 1
-            }
-        ],
-        "Trade": [
-            {
-                "name": "n heavens light",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "gord",
@@ -92,8 +70,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.4
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 5.25
     }
 }
