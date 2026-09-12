@@ -1,24 +1,24 @@
 {
-    "timestamp": "2026-09-12T22:04:00+00:00",
+    "timestamp": "2026-09-12T22:20:00+00:00",
     "difficulty": {
         "2": 2,
-        "0": 2
+        "0": 3
     },
     "mode": {
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
         "2|0": 2,
-        "0|0": 2
+        "0|0": 3
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 2
         },
         {
-            "name": "Other",
-            "count": 1
+            "name": "Misc. Public MF Runs",
+            "count": 2
         },
         {
             "name": "Trade",
@@ -27,11 +27,15 @@
     ],
     "top_games": [
         {
+            "name": "n heavens light",
+            "count": 1
+        },
+        {
             "name": "13",
             "count": 1
         },
         {
-            "name": "n heavens light",
+            "name": "hogreti",
             "count": 1
         },
         {
@@ -49,6 +53,13 @@
             "count": 2,
             "examples": [
                 "13"
+            ]
+        },
+        {
+            "normalized": "hogreti",
+            "count": 2,
+            "examples": [
+                "hogreti"
             ]
         }
     ],
@@ -74,8 +85,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 6.2
     }
 }
