@@ -1,25 +1,18 @@
 {
-    "timestamp": "2026-09-12T12:06:00+00:00",
+    "timestamp": "2026-09-12T12:29:00+00:00",
     "difficulty": {
-        "0": 1,
-        "2": 3
+        "2": 4
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 3
+        "2|0": 4
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
-        },
-        {
-            "name": "Leveling",
-            "count": 1
+            "count": 3
         },
         {
             "name": "Trade",
@@ -28,12 +21,8 @@
     ],
     "top_games": [
         {
-            "name": "act 1",
-            "count": 1
-        },
-        {
             "name": "asd",
-            "count": 1
+            "count": 2
         },
         {
             "name": "n annihilus 1",
@@ -46,18 +35,11 @@
     ],
     "unknown_games": [],
     "classified_games": {
-        "Leveling": [
-            {
-                "name": "act 1",
-                "matched": "act",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             },
             {
                 "name": "n eld runes",
@@ -74,8 +56,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
+        "unique_names": 3,
         "public_games": 4,
-        "average_name_length": 8.0
+        "average_name_length": 9.0
     }
 }
