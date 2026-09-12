@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-12T07:04:00+00:00",
+    "timestamp": "2026-09-12T07:22:00+00:00",
     "difficulty": {
         "2": 1,
         "0": 1
@@ -27,16 +27,16 @@
             "count": 1
         },
         {
-            "name": "merc",
+            "name": "doretooajj",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "merc",
+            "normalized": "doretooajj",
             "count": 2,
             "examples": [
-                "merc"
+                "doretooajj"
             ]
         }
     ],
@@ -52,6 +52,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 8.5
+        "average_name_length": 11.5
     }
 }
