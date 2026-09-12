@@ -1,41 +1,48 @@
 {
-    "timestamp": "2026-09-12T22:20:00+00:00",
+    "timestamp": "2026-09-12T22:32:00+00:00",
     "difficulty": {
+        "1": 1,
         "2": 2,
-        "0": 3
+        "0": 2
     },
     "mode": {
-        "0": 5
+        "1": 1,
+        "0": 4
     },
     "difficulty_mode": {
+        "1|1": 1,
         "2|0": 2,
-        "0|0": 3
+        "0|0": 2
     },
     "activities": [
-        {
-            "name": "Other",
-            "count": 2
-        },
         {
             "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
+            "name": "Leveling",
+            "count": 1
+        },
+        {
             "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "nm act 5",
+            "count": 1
+        },
         {
             "name": "n heavens light",
             "count": 1
         },
         {
             "name": "13",
-            "count": 1
-        },
-        {
-            "name": "hogreti",
             "count": 1
         },
         {
@@ -54,16 +61,16 @@
             "examples": [
                 "13"
             ]
-        },
-        {
-            "normalized": "hogreti",
-            "count": 2,
-            "examples": [
-                "hogreti"
-            ]
         }
     ],
     "classified_games": {
+        "Leveling": [
+            {
+                "name": "nm act 5",
+                "matched": "act",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n heavens light",
@@ -87,6 +94,6 @@
     "interesting": {
         "unique_names": 5,
         "public_games": 5,
-        "average_name_length": 6.2
+        "average_name_length": 6.4
     }
 }
