@@ -1,35 +1,31 @@
 {
-    "timestamp": "2026-09-12T17:46:00+00:00",
+    "timestamp": "2026-09-12T18:05:00+00:00",
     "difficulty": {
         "0": 3,
         "2": 4,
-        "1": 1
+        "1": 2
     },
     "mode": {
         "1": 1,
-        "0": 7
+        "0": 8
     },
     "difficulty_mode": {
         "0|1": 1,
         "2|0": 4,
-        "1|0": 1,
+        "1|0": 2,
         "0|0": 2
     },
     "activities": [
+        {
+            "name": "Other",
+            "count": 4
+        },
         {
             "name": "Misc. Public MF Runs",
             "count": 4
         },
         {
-            "name": "Other",
-            "count": 2
-        },
-        {
             "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Leveling",
             "count": 1
         }
     ],
@@ -39,7 +35,11 @@
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "45",
+            "count": 1
+        },
+        {
+            "name": "level",
             "count": 1
         },
         {
@@ -47,11 +47,11 @@
             "count": 1
         },
         {
-            "name": "3",
+            "name": "adsasds",
             "count": 1
         },
         {
-            "name": "adsasds",
+            "name": "4",
             "count": 1
         },
         {
@@ -59,15 +59,23 @@
             "count": 1
         },
         {
-            "name": "sor grow run 3",
+            "name": "asd",
             "count": 1
         },
         {
-            "name": "act 2",
+            "name": "sor grow run 3",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "#",
+            "count": 4,
+            "examples": [
+                "4",
+                "45"
+            ]
+        },
         {
             "normalized": "trapse",
             "count": 2,
@@ -76,20 +84,15 @@
             ]
         },
         {
-            "normalized": "#",
+            "normalized": "level",
             "count": 2,
             "examples": [
-                "3"
+                "level"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            },
             {
                 "name": "n eld runes",
                 "matched": "run",
@@ -97,6 +100,11 @@
             },
             {
                 "name": "adsasds",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "asd",
                 "matched": "asd",
                 "count": 1
             },
@@ -112,18 +120,11 @@
                 "matched": "n",
                 "count": 1
             }
-        ],
-        "Leveling": [
-            {
-                "name": "act 2",
-                "matched": "act",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 8,
-        "average_name_length": 7.75
+        "unique_names": 9,
+        "public_games": 9,
+        "average_name_length": 7.11
     }
 }

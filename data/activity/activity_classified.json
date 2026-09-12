@@ -260,12 +260,12 @@
             "count": 35
         },
         {
-            "name": "n pierce griff",
+            "name": "n heavens light",
             "matched": "n",
-            "count": 31
+            "count": 32
         },
         {
-            "name": "n heavens light",
+            "name": "n pierce griff",
             "matched": "n",
             "count": 31
         },
@@ -321,7 +321,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "buy",
+            "matched": "torch",
             "count": 12
         },
         {
@@ -1278,7 +1278,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "start",
+            "matched": "act",
             "count": 3
         },
         {
@@ -1333,7 +1333,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -1348,7 +1348,7 @@
         },
         {
             "name": "ancients norm",
-            "matched": "norm",
+            "matched": "anci",
             "count": 2
         },
         {
@@ -1388,7 +1388,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "act",
+            "matched": "exp",
             "count": 2
         },
         {
@@ -1613,12 +1613,12 @@
         {
             "name": "asd",
             "matched": "asd",
-            "count": 717
+            "count": 718
         },
         {
             "name": "n eld runes",
             "matched": "run",
-            "count": 415
+            "count": 416
         },
         {
             "name": "gord",
@@ -1638,7 +1638,7 @@
         {
             "name": "adsasds",
             "matched": "asd",
-            "count": 47
+            "count": 48
         },
         {
             "name": "ted",
@@ -1786,6 +1786,11 @@
             "count": 6
         },
         {
+            "name": "sor grow run 3",
+            "matched": "run",
+            "count": 6
+        },
+        {
             "name": "1234",
             "matched": "123",
             "count": 5
@@ -1812,11 +1817,6 @@
         },
         {
             "name": "choas run 1",
-            "matched": "run",
-            "count": 5
-        },
-        {
-            "name": "sor grow run 3",
             "matched": "run",
             "count": 5
         },
@@ -2966,7 +2966,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 7
         },
         {
@@ -2986,7 +2986,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "map",
+            "matched": "mapping",
             "count": 4
         },
         {
@@ -3166,7 +3166,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -3181,7 +3181,7 @@
         },
         {
             "name": "mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -3213,17 +3213,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
