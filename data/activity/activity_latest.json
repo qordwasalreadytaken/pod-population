@@ -1,34 +1,32 @@
 {
-    "timestamp": "2026-09-13T17:19:00+00:00",
+    "timestamp": "2026-09-13T17:32:00+00:00",
     "difficulty": {
-        "2": 13,
-        "0": 1
+        "2": 6,
+        "0": 1,
+        "1": 2
     },
     "mode": {
         "1": 2,
-        "0": 12
+        "0": 7
     },
     "difficulty_mode": {
         "2|1": 1,
         "0|1": 1,
-        "2|0": 12
+        "2|0": 5,
+        "1|0": 2
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 6
-        },
-        {
             "name": "Leveling",
-            "count": 4
-        },
-        {
-            "name": "Trade",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Baal",
-            "count": 1
+            "count": 3
+        },
+        {
+            "name": "Other",
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -36,6 +34,10 @@
         }
     ],
     "top_games": [
+        {
+            "name": "baalrun nm",
+            "count": 2
+        },
         {
             "name": "hacts",
             "count": 1
@@ -45,39 +47,7 @@
             "count": 1
         },
         {
-            "name": "241",
-            "count": 1
-        },
-        {
-            "name": "242",
-            "count": 1
-        },
-        {
-            "name": "240",
-            "count": 1
-        },
-        {
-            "name": "n 3os andy",
-            "count": 1
-        },
-        {
-            "name": "235",
-            "count": 1
-        },
-        {
-            "name": "232",
-            "count": 1
-        },
-        {
-            "name": "1221",
-            "count": 1
-        },
-        {
-            "name": "n heavens light",
-            "count": 1
-        },
-        {
-            "name": "baal",
+            "name": "248",
             "count": 1
         },
         {
@@ -85,25 +55,25 @@
             "count": 1
         },
         {
-            "name": "n 3os andy 10ll",
+            "name": "baal",
             "count": 1
         },
         {
-            "name": "n pooping",
+            "name": "n 3os andy",
+            "count": 1
+        },
+        {
+            "name": "1221",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "#",
-            "count": 12,
+            "count": 4,
             "examples": [
                 "1221",
-                "232",
-                "235",
-                "240",
-                "241",
-                "242"
+                "248"
             ]
         }
     ],
@@ -123,30 +93,6 @@
                 "name": "n 3os andy",
                 "matched": "andy",
                 "count": 1
-            },
-            {
-                "name": "n 3os andy 10ll",
-                "matched": "andy",
-                "count": 1
-            }
-        ],
-        "Trade": [
-            {
-                "name": "n heavens light",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "n pooping",
-                "matched": "n",
-                "count": 1
-            }
-        ],
-        "Baal": [
-            {
-                "name": "baal",
-                "matched": "baal",
-                "count": 1
             }
         ],
         "Misc. Public MF Runs": [
@@ -155,11 +101,23 @@
                 "matched": "asd",
                 "count": 1
             }
+        ],
+        "Baal": [
+            {
+                "name": "baalrun nm",
+                "matched": "baal",
+                "count": 2
+            },
+            {
+                "name": "baal",
+                "matched": "baal",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 14,
-        "public_games": 14,
-        "average_name_length": 6.07
+        "unique_names": 8,
+        "public_games": 9,
+        "average_name_length": 5.5
     }
 }
