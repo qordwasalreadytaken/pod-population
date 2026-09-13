@@ -1,41 +1,32 @@
 {
-    "timestamp": "2026-09-13T13:46:00+00:00",
+    "timestamp": "2026-09-13T14:04:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 3,
-        "1": 1
+        "1": 1,
+        "2": 2,
+        "0": 1
     },
     "mode": {
-        "1": 2,
-        "0": 5
+        "1": 1,
+        "0": 3
     },
     "difficulty_mode": {
-        "0|1": 2,
-        "2|0": 3,
-        "1|0": 1,
+        "1|1": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 4
+            "name": "Other",
+            "count": 2
         },
         {
-            "name": "Other",
-            "count": 3
+            "name": "Misc. Public MF Runs",
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 2
-        },
-        {
-            "name": "mk",
-            "count": 1
-        },
-        {
-            "name": "a",
+            "name": "nm",
             "count": 1
         },
         {
@@ -43,59 +34,47 @@
             "count": 1
         },
         {
-            "name": "1221",
+            "name": "asd",
             "count": 1
         },
         {
-            "name": "gord",
+            "name": "t",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "mk",
+            "normalized": "nm",
             "count": 2,
             "examples": [
-                "mk"
+                "nm"
             ]
         },
         {
-            "normalized": "a",
+            "normalized": "t",
             "count": 2,
             "examples": [
-                "a"
-            ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "1221"
+                "t"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
-                "matched": "asd",
-                "count": 2
-            },
-            {
                 "name": "n eld runes",
                 "matched": "run",
                 "count": 1
             },
             {
-                "name": "gord",
-                "matched": "gord",
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 4.17
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 4.25
     }
 }
