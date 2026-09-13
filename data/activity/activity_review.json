@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 1204,
+        "count": 1206,
         "examples": [
             "1",
             "10",
@@ -17,7 +17,7 @@
     },
     {
         "normalized": "lvv",
-        "count": 862,
+        "count": 864,
         "examples": [
             "lvv"
         ]
@@ -132,17 +132,17 @@
         ]
     },
     {
+        "normalized": "a",
+        "count": 88,
+        "examples": [
+            "a"
+        ]
+    },
+    {
         "normalized": "sad",
         "count": 88,
         "examples": [
             "sad"
-        ]
-    },
-    {
-        "normalized": "a",
-        "count": 86,
-        "examples": [
-            "a"
         ]
     },
     {
@@ -2971,6 +2971,13 @@
         "count": 4,
         "examples": [
             "doredos"
+        ]
+    },
+    {
+        "normalized": "world",
+        "count": 4,
+        "examples": [
+            "world"
         ]
     },
     {
@@ -6054,10 +6061,10 @@
         ]
     },
     {
-        "normalized": "world",
+        "normalized": "azz",
         "count": 2,
         "examples": [
-            "world"
+            "azz"
         ]
     }
 ]
