@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 1110,
+        "count": 1112,
         "examples": [
             "1",
             "10",
@@ -139,6 +139,13 @@
         ]
     },
     {
+        "normalized": "a",
+        "count": 86,
+        "examples": [
+            "a"
+        ]
+    },
+    {
         "normalized": "atlas'#",
         "count": 86,
         "examples": [
@@ -148,13 +155,6 @@
             "atlas'4",
             "atlas'6",
             "atlas'8"
-        ]
-    },
-    {
-        "normalized": "a",
-        "count": 84,
-        "examples": [
-            "a"
         ]
     },
     {
@@ -6030,6 +6030,13 @@
         "count": 2,
         "examples": [
             "mist"
+        ]
+    },
+    {
+        "normalized": "mk",
+        "count": 2,
+        "examples": [
+            "mk"
         ]
     }
 ]
