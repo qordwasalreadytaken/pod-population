@@ -44,6 +44,13 @@
         ]
     },
     {
+        "normalized": "atlas",
+        "count": 180,
+        "examples": [
+            "atlas"
+        ]
+    },
+    {
         "normalized": "nec grow #",
         "count": 180,
         "examples": [
@@ -57,13 +64,6 @@
             "nec grow 3",
             "nec grow 4",
             "nec grow 5"
-        ]
-    },
-    {
-        "normalized": "atlas",
-        "count": 178,
-        "examples": [
-            "atlas"
         ]
     },
     {
@@ -2534,6 +2534,13 @@
         "count": 4,
         "examples": [
             "dfhg"
+        ]
+    },
+    {
+        "normalized": "ww",
+        "count": 4,
+        "examples": [
+            "ww"
         ]
     },
     {
@@ -5140,13 +5147,6 @@
         "count": 2,
         "examples": [
             "tty"
-        ]
-    },
-    {
-        "normalized": "ww",
-        "count": 2,
-        "examples": [
-            "ww"
         ]
     },
     {
