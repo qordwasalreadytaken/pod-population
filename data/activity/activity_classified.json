@@ -325,6 +325,11 @@
             "count": 12
         },
         {
+            "name": "n",
+            "matched": "n",
+            "count": 12
+        },
+        {
             "name": "swap",
             "matched": "swap",
             "count": 11
@@ -332,11 +337,6 @@
         {
             "name": "buy 3 berr",
             "matched": "buy",
-            "count": 11
-        },
-        {
-            "name": "n",
-            "matched": "n",
             "count": 11
         },
         {
@@ -1653,7 +1653,7 @@
         {
             "name": "adsasds",
             "matched": "asd",
-            "count": 52
+            "count": 53
         },
         {
             "name": "aa",
@@ -2422,7 +2422,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "mf",
+            "matched": "run",
             "count": 1
         },
         {
@@ -3016,7 +3016,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 7
         },
         {
@@ -3036,7 +3036,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "mapping",
+            "matched": "map",
             "count": 4
         },
         {
@@ -3115,6 +3115,11 @@
             "count": 2
         },
         {
+            "name": "ruinsmap",
+            "matched": "map",
+            "count": 2
+        },
+        {
             "name": "mappi gas",
             "matched": "map",
             "count": 2
@@ -3185,11 +3190,6 @@
             "count": 1
         },
         {
-            "name": "ruinsmap",
-            "matched": "map",
-            "count": 1
-        },
-        {
             "name": "map 2",
             "matched": "map",
             "count": 1
@@ -3216,7 +3216,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -3231,7 +3231,7 @@
         },
         {
             "name": "mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -3263,17 +3263,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
