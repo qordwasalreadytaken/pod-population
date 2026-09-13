@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-13T01:36:00+00:00",
+    "timestamp": "2026-09-13T01:56:00+00:00",
     "difficulty": {
         "2": 1,
         "1": 1
@@ -24,7 +24,7 @@
     ],
     "top_games": [
         {
-            "name": "qq",
+            "name": "atlas",
             "count": 1
         },
         {
@@ -34,10 +34,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "qq",
+            "normalized": "atlas",
             "count": 2,
             "examples": [
-                "qq"
+                "atlas"
             ]
         }
     ],
@@ -53,6 +53,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 2.5
+        "average_name_length": 4.0
     }
 }
