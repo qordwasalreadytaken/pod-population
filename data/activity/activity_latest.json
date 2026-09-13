@@ -1,25 +1,21 @@
 {
-    "timestamp": "2026-09-13T20:46:00+00:00",
+    "timestamp": "2026-09-13T21:04:00+00:00",
     "difficulty": {
-        "2": 6
+        "2": 3
     },
     "mode": {
-        "0": 6
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 6
+        "2|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 2
         },
         {
             "name": "Baal",
-            "count": 1
-        },
-        {
-            "name": "Trade",
             "count": 1
         }
     ],
@@ -33,31 +29,11 @@
             "count": 1
         },
         {
-            "name": "5",
-            "count": 1
-        },
-        {
-            "name": "n heaven light",
-            "count": 1
-        },
-        {
-            "name": "dada",
-            "count": 1
-        },
-        {
             "name": "302",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "#",
-            "count": 4,
-            "examples": [
-                "302",
-                "5"
-            ]
-        },
         {
             "normalized": "lvv",
             "count": 2,
@@ -66,10 +42,10 @@
             ]
         },
         {
-            "normalized": "dada",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "dada"
+                "302"
             ]
         }
     ],
@@ -80,18 +56,11 @@
                 "matched": "baal",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "n heaven light",
-                "matched": "n",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 4.83
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 3.33
     }
 }
