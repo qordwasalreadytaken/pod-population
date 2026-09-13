@@ -1954,6 +1954,13 @@
         ]
     },
     {
+        "normalized": "sor grow #",
+        "count": 6,
+        "examples": [
+            "sor grow 7"
+        ]
+    },
+    {
         "normalized": "nm #",
         "count": 4,
         "examples": [
@@ -2942,13 +2949,6 @@
         "count": 4,
         "examples": [
             "4 314"
-        ]
-    },
-    {
-        "normalized": "sor grow #",
-        "count": 4,
-        "examples": [
-            "sor grow 7"
         ]
     },
     {
@@ -6022,6 +6022,13 @@
         "count": 2,
         "examples": [
             "mist"
+        ]
+    },
+    {
+        "normalized": "doredos",
+        "count": 2,
+        "examples": [
+            "doredos"
         ]
     }
 ]
