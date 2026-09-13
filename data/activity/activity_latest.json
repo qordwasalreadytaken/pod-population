@@ -1,17 +1,17 @@
 {
-    "timestamp": "2026-09-13T18:25:00+00:00",
+    "timestamp": "2026-09-13T18:36:00+00:00",
     "difficulty": {
         "2": 4,
-        "1": 2
+        "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
         "2|1": 1,
         "2|0": 3,
-        "1|0": 2
+        "1|0": 1
     },
     "activities": [
         {
@@ -19,21 +19,21 @@
             "count": 3
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Baal",
+            "count": 1
         },
         {
-            "name": "Baal",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "gord",
-            "count": 2
+            "name": "lvl to 76",
+            "count": 1
         },
         {
-            "name": "lvl to 76",
+            "name": "baal",
             "count": 1
         },
         {
@@ -45,7 +45,7 @@
             "count": 1
         },
         {
-            "name": "baal",
+            "name": "gord",
             "count": 1
         }
     ],
@@ -84,13 +84,13 @@
             {
                 "name": "gord",
                 "matched": "gord",
-                "count": 2
+                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 6,
+        "public_games": 5,
         "average_name_length": 4.8
     }
 }
