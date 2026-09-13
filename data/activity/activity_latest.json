@@ -1,34 +1,37 @@
 {
-    "timestamp": "2026-09-13T13:04:00+00:00",
+    "timestamp": "2026-09-13T13:20:00+00:00",
     "difficulty": {
         "0": 2,
-        "2": 3
+        "2": 2,
+        "1": 1
     },
     "mode": {
-        "1": 2,
-        "0": 3
+        "1": 1,
+        "0": 4
     },
     "difficulty_mode": {
-        "0|1": 2,
-        "2|0": 3
+        "0|1": 1,
+        "2|0": 2,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 3
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "trapse",
+            "name": "a",
             "count": 1
         },
         {
-            "name": "a",
+            "name": "asd",
             "count": 1
         },
         {
@@ -36,22 +39,15 @@
             "count": 1
         },
         {
-            "name": "lvv",
+            "name": "1221",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "gord",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "trapse",
-            "count": 2,
-            "examples": [
-                "trapse"
-            ]
-        },
         {
             "normalized": "a",
             "count": 2,
@@ -60,23 +56,28 @@
             ]
         },
         {
-            "normalized": "lvv",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "lvv"
+                "1221"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            },
+            {
                 "name": "n eld runes",
                 "matched": "run",
                 "count": 1
             },
             {
-                "name": "asd",
-                "matched": "asd",
+                "name": "gord",
+                "matched": "gord",
                 "count": 1
             }
         ]
@@ -84,6 +85,6 @@
     "interesting": {
         "unique_names": 5,
         "public_games": 5,
-        "average_name_length": 4.8
+        "average_name_length": 4.6
     }
 }
