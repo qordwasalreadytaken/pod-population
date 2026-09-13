@@ -1,8 +1,7 @@
 {
-    "timestamp": "2026-09-13T17:46:00+00:00",
+    "timestamp": "2026-09-13T18:05:00+00:00",
     "difficulty": {
-        "2": 5,
-        "1": 1,
+        "2": 6,
         "0": 1
     },
     "mode": {
@@ -11,14 +10,13 @@
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 4,
-        "1|0": 1,
+        "2|0": 5,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Leveling",
-            "count": 2
+            "name": "Other",
+            "count": 4
         },
         {
             "name": "Misc. Public MF Runs",
@@ -26,16 +24,20 @@
         },
         {
             "name": "Baal",
-            "count": 2
-        },
-        {
-            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "hacts",
+            "name": "lvl to 76",
+            "count": 1
+        },
+        {
+            "name": "285",
+            "count": 1
+        },
+        {
+            "name": "280",
             "count": 1
         },
         {
@@ -51,19 +53,26 @@
             "count": 1
         },
         {
-            "name": "n 3os andy",
-            "count": 1
-        },
-        {
-            "name": "baalrun nm",
-            "count": 1
-        },
-        {
             "name": "gord",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "#",
+            "count": 4,
+            "examples": [
+                "280",
+                "285"
+            ]
+        },
+        {
+            "normalized": "lvl to #",
+            "count": 2,
+            "examples": [
+                "lvl to 76"
+            ]
+        },
         {
             "normalized": "hell",
             "count": 2,
@@ -73,18 +82,6 @@
         }
     ],
     "classified_games": {
-        "Leveling": [
-            {
-                "name": "hacts",
-                "matched": "act",
-                "count": 1
-            },
-            {
-                "name": "n 3os andy",
-                "matched": "andy",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
@@ -102,17 +99,12 @@
                 "name": "baal",
                 "matched": "baal",
                 "count": 1
-            },
-            {
-                "name": "baalrun nm",
-                "matched": "baal",
-                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 7,
         "public_games": 7,
-        "average_name_length": 5.71
+        "average_name_length": 4.29
     }
 }
