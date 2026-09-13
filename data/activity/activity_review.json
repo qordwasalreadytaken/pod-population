@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 1104,
+        "count": 1106,
         "examples": [
             "1",
             "10",
@@ -1474,6 +1474,14 @@
         ]
     },
     {
+        "normalized": "sor grow #",
+        "count": 8,
+        "examples": [
+            "sor grow 1",
+            "sor grow 7"
+        ]
+    },
+    {
         "normalized": "sdsd",
         "count": 6,
         "examples": [
@@ -1951,13 +1959,6 @@
         "count": 6,
         "examples": [
             "hogretitrtr"
-        ]
-    },
-    {
-        "normalized": "sor grow #",
-        "count": 6,
-        "examples": [
-            "sor grow 7"
         ]
     },
     {
