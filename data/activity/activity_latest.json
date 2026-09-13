@@ -1,53 +1,45 @@
 {
-    "timestamp": "2026-09-13T17:32:00+00:00",
+    "timestamp": "2026-09-13T17:46:00+00:00",
     "difficulty": {
-        "2": 6,
-        "0": 1,
-        "1": 2
+        "2": 5,
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "1": 2,
-        "0": 7
+        "1": 1,
+        "0": 6
     },
     "difficulty_mode": {
         "2|1": 1,
-        "0|1": 1,
-        "2|0": 5,
-        "1|0": 2
+        "2|0": 4,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Leveling",
-            "count": 3
-        },
-        {
-            "name": "Baal",
-            "count": 3
-        },
-        {
-            "name": "Other",
             "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
+            "count": 2
+        },
+        {
+            "name": "Baal",
+            "count": 2
+        },
+        {
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "baalrun nm",
-            "count": 2
-        },
-        {
             "name": "hacts",
             "count": 1
         },
         {
-            "name": "start",
-            "count": 1
-        },
-        {
-            "name": "248",
+            "name": "hell",
             "count": 1
         },
         {
@@ -63,17 +55,20 @@
             "count": 1
         },
         {
-            "name": "1221",
+            "name": "baalrun nm",
+            "count": 1
+        },
+        {
+            "name": "gord",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "#",
-            "count": 4,
+            "normalized": "hell",
+            "count": 2,
             "examples": [
-                "1221",
-                "248"
+                "hell"
             ]
         }
     ],
@@ -82,11 +77,6 @@
             {
                 "name": "hacts",
                 "matched": "act",
-                "count": 1
-            },
-            {
-                "name": "start",
-                "matched": "start",
                 "count": 1
             },
             {
@@ -100,24 +90,29 @@
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
+            },
+            {
+                "name": "gord",
+                "matched": "gord",
+                "count": 1
             }
         ],
         "Baal": [
             {
-                "name": "baalrun nm",
+                "name": "baal",
                 "matched": "baal",
-                "count": 2
+                "count": 1
             },
             {
-                "name": "baal",
+                "name": "baalrun nm",
                 "matched": "baal",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 9,
-        "average_name_length": 5.5
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 5.71
     }
 }
