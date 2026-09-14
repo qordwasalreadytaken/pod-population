@@ -1,20 +1,27 @@
 {
-    "timestamp": "2026-09-14T11:46:00+00:00",
+    "timestamp": "2026-09-14T12:08:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 3
+        "0": 1,
+        "2": 2,
+        "1": 1
     },
     "mode": {
-        "0": 4
+        "1": 1,
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 3
+        "0|1": 1,
+        "2|0": 2,
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
+        },
+        {
+            "name": "Rush",
+            "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
@@ -23,34 +30,46 @@
     ],
     "top_games": [
         {
+            "name": "rush need",
+            "count": 1
+        },
+        {
+            "name": "lvv",
+            "count": 1
+        },
+        {
             "name": "asd",
             "count": 1
         },
         {
-            "name": "402",
-            "count": 1
-        },
-        {
-            "name": "401",
-            "count": 1
-        },
-        {
-            "name": "400",
+            "name": "407",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "#",
-            "count": 6,
+            "normalized": "lvv",
+            "count": 2,
             "examples": [
-                "400",
-                "401",
-                "402"
+                "lvv"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "407"
             ]
         }
     ],
     "classified_games": {
+        "Rush": [
+            {
+                "name": "rush need",
+                "matched": "rush",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
@@ -62,6 +81,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 3.0
+        "average_name_length": 4.5
     }
 }
