@@ -1,26 +1,26 @@
 {
-    "timestamp": "2026-09-14T14:26:00+00:00",
+    "timestamp": "2026-09-14T14:39:00+00:00",
     "difficulty": {
         "0": 3,
         "2": 4
     },
     "mode": {
-        "1": 1,
-        "0": 6
+        "1": 2,
+        "0": 5
     },
     "difficulty_mode": {
-        "0|1": 1,
+        "0|1": 2,
         "2|0": 4,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 3
         },
         {
             "name": "Rush",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Trade",
@@ -34,14 +34,14 @@
     "top_games": [
         {
             "name": "need rush",
+            "count": 2
+        },
+        {
+            "name": "n heaven light",
             "count": 1
         },
         {
             "name": "qww",
-            "count": 1
-        },
-        {
-            "name": "n heavens light",
             "count": 1
         },
         {
@@ -54,10 +54,6 @@
         },
         {
             "name": "122",
-            "count": 1
-        },
-        {
-            "name": "lvup gogo",
             "count": 1
         }
     ],
@@ -82,13 +78,6 @@
             "examples": [
                 "122"
             ]
-        },
-        {
-            "normalized": "lvup gogo",
-            "count": 2,
-            "examples": [
-                "lvup gogo"
-            ]
         }
     ],
     "classified_games": {
@@ -96,12 +85,12 @@
             {
                 "name": "need rush",
                 "matched": "rush",
-                "count": 1
+                "count": 2
             }
         ],
         "Trade": [
             {
-                "name": "n heavens light",
+                "name": "n heaven light",
                 "matched": "n",
                 "count": 1
             }
@@ -115,8 +104,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 7,
+        "unique_names": 6,
         "public_games": 7,
-        "average_name_length": 8.57
+        "average_name_length": 8.33
     }
 }
