@@ -1,15 +1,73 @@
 {
-    "timestamp": "2026-09-14T16:05:00+00:00",
-    "difficulty": {},
-    "mode": {},
-    "difficulty_mode": {},
-    "activities": [],
-    "top_games": [],
-    "unknown_games": [],
-    "classified_games": {},
+    "timestamp": "2026-09-14T16:24:00+00:00",
+    "difficulty": {
+        "0": 4,
+        "2": 2
+    },
+    "mode": {
+        "1": 4,
+        "0": 2
+    },
+    "difficulty_mode": {
+        "0|1": 4,
+        "2|0": 2
+    },
+    "activities": [
+        {
+            "name": "Rush",
+            "count": 4
+        },
+        {
+            "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Other",
+            "count": 1
+        }
+    ],
+    "top_games": [
+        {
+            "name": "need rush",
+            "count": 4
+        },
+        {
+            "name": "n ias fireres j",
+            "count": 1
+        },
+        {
+            "name": "casala",
+            "count": 1
+        }
+    ],
+    "unknown_games": [
+        {
+            "normalized": "casala",
+            "count": 2,
+            "examples": [
+                "casala"
+            ]
+        }
+    ],
+    "classified_games": {
+        "Rush": [
+            {
+                "name": "need rush",
+                "matched": "rush",
+                "count": 4
+            }
+        ],
+        "Trade": [
+            {
+                "name": "n ias fireres j",
+                "matched": "n",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 0,
-        "public_games": 0,
-        "average_name_length": 0.0
+        "unique_names": 3,
+        "public_games": 6,
+        "average_name_length": 10.0
     }
 }
