@@ -1,14 +1,14 @@
 {
-    "timestamp": "2026-09-14T18:42:00+00:00",
+    "timestamp": "2026-09-14T18:50:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 2,
         "1": 4
     },
     "mode": {
-        "0": 5
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 1,
+        "2|0": 2,
         "1|0": 4
     },
     "activities": [
@@ -18,7 +18,7 @@
         },
         {
             "name": "Maps",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Other",
@@ -27,15 +27,19 @@
     ],
     "top_games": [
         {
+            "name": "pubmap-6",
+            "count": 1
+        },
+        {
             "name": "pubmap-5",
             "count": 1
         },
         {
-            "name": "anda run 11",
+            "name": "anda run 12",
             "count": 1
         },
         {
-            "name": "anda run 10",
+            "name": "anda run 11",
             "count": 1
         },
         {
@@ -59,6 +63,11 @@
     "classified_games": {
         "Maps": [
             {
+                "name": "pubmap-6",
+                "matched": "map",
+                "count": 1
+            },
+            {
                 "name": "pubmap-5",
                 "matched": "map",
                 "count": 1
@@ -66,12 +75,12 @@
         ],
         "Misc. Public MF Runs": [
             {
-                "name": "anda run 11",
+                "name": "anda run 12",
                 "matched": "run",
                 "count": 1
             },
             {
-                "name": "anda run 10",
+                "name": "anda run 11",
                 "matched": "run",
                 "count": 1
             },
@@ -83,8 +92,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 7.2
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 7.33
     }
 }
