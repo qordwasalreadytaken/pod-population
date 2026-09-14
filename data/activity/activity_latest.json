@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-09-14T20:46:00+00:00",
+    "timestamp": "2026-09-14T21:04:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 3,
         "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 2,
+        "2|0": 3,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Leveling",
@@ -25,11 +25,15 @@
     ],
     "top_games": [
         {
-            "name": "dasad",
+            "name": "das",
             "count": 1
         },
         {
-            "name": "ewq",
+            "name": "eafw",
+            "count": 1
+        },
+        {
+            "name": "dasad",
             "count": 1
         },
         {
@@ -43,17 +47,24 @@
     ],
     "unknown_games": [
         {
+            "normalized": "das",
+            "count": 2,
+            "examples": [
+                "das"
+            ]
+        },
+        {
+            "normalized": "eafw",
+            "count": 2,
+            "examples": [
+                "eafw"
+            ]
+        },
+        {
             "normalized": "dasad",
             "count": 2,
             "examples": [
                 "dasad"
-            ]
-        },
-        {
-            "normalized": "ewq",
-            "count": 2,
-            "examples": [
-                "ewq"
             ]
         },
         {
@@ -74,8 +85,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
+        "unique_names": 5,
+        "public_games": 5,
         "average_name_length": 4.0
     }
 }
