@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 1318,
+        "count": 1320,
         "examples": [
             "1",
             "10",
@@ -17,7 +17,7 @@
     },
     {
         "normalized": "lvv",
-        "count": 900,
+        "count": 902,
         "examples": [
             "lvv"
         ]
@@ -2992,6 +2992,13 @@
         "count": 4,
         "examples": [
             "world"
+        ]
+    },
+    {
+        "normalized": "#ct",
+        "count": 4,
+        "examples": [
+            "1ct"
         ]
     },
     {
@@ -6086,13 +6093,6 @@
         "count": 2,
         "examples": [
             "gadsf"
-        ]
-    },
-    {
-        "normalized": "#ct",
-        "count": 2,
-        "examples": [
-            "1ct"
         ]
     }
 ]
