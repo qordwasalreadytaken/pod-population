@@ -1,58 +1,39 @@
 {
-    "timestamp": "2026-09-14T23:19:00+00:00",
+    "timestamp": "2026-09-14T23:32:00+00:00",
     "difficulty": {
-        "0": 1,
         "2": 1
     },
     "mode": {
-        "1": 1,
         "0": 1
     },
     "difficulty_mode": {
-        "0|1": 1,
         "2|0": 1
     },
     "activities": [
         {
             "name": "Other",
             "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "dz",
-            "count": 1
-        },
-        {
-            "name": "asder",
+            "name": "45",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "dz",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "dz"
+                "45"
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asder",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 3.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 2.0
     }
 }

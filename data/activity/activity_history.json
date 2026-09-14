@@ -701,7 +701,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -772,7 +772,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -8995,7 +8995,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 },
                 {
@@ -12824,7 +12824,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 }
             ]
@@ -14535,7 +14535,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ],
@@ -17824,7 +17824,7 @@
             "Leveling": [
                 {
                     "name": "normal tombin",
-                    "matched": "tomb",
+                    "matched": "norm",
                     "count": 1
                 },
                 {
@@ -20087,7 +20087,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -20187,7 +20187,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -45195,7 +45195,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -45294,7 +45294,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -45383,7 +45383,7 @@
             "Maps": [
                 {
                     "name": "mapping 2",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ],
@@ -61468,7 +61468,7 @@
                 },
                 {
                     "name": "mapping",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -63618,7 +63618,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "14123awdasdfqwr",
-                    "matched": "123",
+                    "matched": "asd",
                     "count": 1
                 },
                 {
@@ -89630,7 +89630,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -141641,7 +141641,7 @@
             "Leveling": [
                 {
                     "name": "acte 5 exp",
-                    "matched": "act",
+                    "matched": "exp",
                     "count": 1
                 }
             ]
@@ -141698,7 +141698,7 @@
             "Leveling": [
                 {
                     "name": "acte 5 exp",
-                    "matched": "act",
+                    "matched": "exp",
                     "count": 1
                 }
             ]
@@ -150087,7 +150087,7 @@
             "Maps": [
                 {
                     "name": "sunday mapping",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ],
@@ -150172,7 +150172,7 @@
             "Maps": [
                 {
                     "name": "sunday mapping",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 2
                 }
             ],
@@ -150257,7 +150257,7 @@
             "Maps": [
                 {
                     "name": "sunday mapping",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 2
                 }
             ],
@@ -150360,7 +150360,7 @@
             "Maps": [
                 {
                     "name": "sunday mapping",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -150445,7 +150445,7 @@
             "Maps": [
                 {
                     "name": "sunday mapping",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -206385,6 +206385,45 @@
             "unique_names": 2,
             "public_games": 2,
             "average_name_length": 3.5
+        }
+    },
+    {
+        "timestamp": "2026-09-14T23:32:00+00:00",
+        "difficulty": {
+            "2": 1
+        },
+        "mode": {
+            "0": 1
+        },
+        "difficulty_mode": {
+            "2|0": 1
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "45",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "#",
+                "count": 2,
+                "examples": [
+                    "45"
+                ]
+            }
+        ],
+        "classified_games": {},
+        "interesting": {
+            "unique_names": 1,
+            "public_games": 1,
+            "average_name_length": 2.0
         }
     }
 ]
