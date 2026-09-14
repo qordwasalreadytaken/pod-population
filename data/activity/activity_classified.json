@@ -271,7 +271,7 @@
         },
         {
             "name": "n torch necro",
-            "matched": "torch",
+            "matched": "n",
             "count": 35
         },
         {
@@ -306,7 +306,7 @@
         },
         {
             "name": "n druid torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 20
         },
         {
@@ -506,7 +506,7 @@
         },
         {
             "name": "n necro torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 4
         },
         {
@@ -521,7 +521,7 @@
         },
         {
             "name": "n sorc torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 4
         },
         {
@@ -571,7 +571,7 @@
         },
         {
             "name": "n sorch torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 3
         },
         {
@@ -581,7 +581,7 @@
         },
         {
             "name": "n assa torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 3
         },
         {
@@ -795,6 +795,11 @@
             "count": 2
         },
         {
+            "name": "n ias fireres 1",
+            "matched": "n",
+            "count": 2
+        },
+        {
             "name": "n paladin gear",
             "matched": "n",
             "count": 1
@@ -806,7 +811,7 @@
         },
         {
             "name": "n pala torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
@@ -831,7 +836,7 @@
         },
         {
             "name": "n nec torch :)",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
@@ -861,62 +866,62 @@
         },
         {
             "name": "n sorc torch 6",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
             "name": "n sorc torch 14",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
             "name": "n sorc torch 13",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
             "name": "n sorc torch 12",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
             "name": "n sorc torch 23",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
             "name": "n sorc torch 22",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
             "name": "n sorc torch 21",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
             "name": "n sorc torch 20",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
             "name": "n sorc torch 38",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
             "name": "n sorc torch 37",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
             "name": "n sorc torch 36",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
             "name": "n sorc torch 35",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
@@ -1198,11 +1203,6 @@
             "name": "n annihilus 11",
             "matched": "n",
             "count": 1
-        },
-        {
-            "name": "n ias fireres 1",
-            "matched": "n",
-            "count": 1
         }
     ],
     "Leveling": [
@@ -1343,7 +1343,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "start",
+            "matched": "act",
             "count": 3
         },
         {
@@ -1458,7 +1458,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "act",
+            "matched": "exp",
             "count": 2
         },
         {
@@ -1553,7 +1553,7 @@
         },
         {
             "name": "act start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -1713,7 +1713,7 @@
         {
             "name": "gord",
             "matched": "gord",
-            "count": 360
+            "count": 361
         },
         {
             "name": "asda",
@@ -2497,7 +2497,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "mf",
+            "matched": "run",
             "count": 1
         },
         {
@@ -2949,6 +2949,16 @@
             "name": "anda run 1",
             "matched": "run",
             "count": 1
+        },
+        {
+            "name": "anda run 5",
+            "matched": "run",
+            "count": 1
+        },
+        {
+            "name": "anda run 4",
+            "matched": "run",
+            "count": 1
         }
     ],
     "Chaos": [
@@ -3141,7 +3151,7 @@
         },
         {
             "name": "desert maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 5
         },
         {
@@ -3181,7 +3191,7 @@
         },
         {
             "name": "public maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 4
         },
         {
@@ -3216,7 +3226,7 @@
         },
         {
             "name": "slow maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 3
         },
         {
@@ -3256,12 +3266,12 @@
         },
         {
             "name": "t maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
             "name": "t maps 2",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
@@ -3271,7 +3281,7 @@
         },
         {
             "name": "maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 1
         },
         {
@@ -3331,7 +3341,7 @@
         },
         {
             "name": "maps?2",
-            "matched": "maps",
+            "matched": "map",
             "count": 1
         },
         {
@@ -3351,7 +3361,7 @@
         },
         {
             "name": "maps 3",
-            "matched": "maps",
+            "matched": "map",
             "count": 1
         },
         {
@@ -3368,22 +3378,27 @@
             "name": "cripmap-4",
             "matched": "map",
             "count": 1
+        },
+        {
+            "name": "pubmap-4",
+            "matched": "map",
+            "count": 1
         }
     ],
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]

@@ -1,27 +1,27 @@
 {
-    "timestamp": "2026-09-14T17:46:00+00:00",
+    "timestamp": "2026-09-14T18:05:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 3
+        "2": 2,
+        "1": 4
     },
     "mode": {
         "0": 6
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "1|0": 3
+        "2|0": 2,
+        "1|0": 4
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 2
-        },
-        {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Maps",
+            "count": 1
+        },
+        {
+            "name": "Trade",
             "count": 1
         },
         {
@@ -31,7 +31,7 @@
     ],
     "top_games": [
         {
-            "name": "n heavens light",
+            "name": "pubmap-4",
             "count": 1
         },
         {
@@ -39,15 +39,15 @@
             "count": 1
         },
         {
-            "name": "pubmap-3",
+            "name": "anda run 5",
             "count": 1
         },
         {
-            "name": "anda run 2",
+            "name": "anda run 4",
             "count": 1
         },
         {
-            "name": "anda run 1",
+            "name": "gord",
             "count": 1
         },
         {
@@ -65,34 +65,34 @@
         }
     ],
     "classified_games": {
-        "Trade": [
+        "Maps": [
             {
-                "name": "n heavens light",
-                "matched": "n",
+                "name": "pubmap-4",
+                "matched": "map",
                 "count": 1
-            },
+            }
+        ],
+        "Trade": [
             {
                 "name": "n ias fireres 1",
                 "matched": "n",
                 "count": 1
             }
         ],
-        "Maps": [
-            {
-                "name": "pubmap-3",
-                "matched": "map",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
-                "name": "anda run 2",
+                "name": "anda run 5",
                 "matched": "run",
                 "count": 1
             },
             {
-                "name": "anda run 1",
+                "name": "anda run 4",
                 "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "gord",
+                "matched": "gord",
                 "count": 1
             }
         ]
@@ -100,6 +100,6 @@
     "interesting": {
         "unique_names": 6,
         "public_games": 6,
-        "average_name_length": 10.0
+        "average_name_length": 8.17
     }
 }
