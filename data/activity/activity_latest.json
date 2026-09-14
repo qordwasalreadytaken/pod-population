@@ -1,27 +1,20 @@
 {
-    "timestamp": "2026-09-14T12:35:00+00:00",
+    "timestamp": "2026-09-14T12:54:00+00:00",
     "difficulty": {
-        "0": 1,
-        "2": 2,
-        "1": 1
+        "2": 3,
+        "1": 3
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "0": 6
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 2,
-        "1|0": 1
+        "2|0": 3,
+        "1|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Rush",
-            "count": 1
+            "count": 5
         },
         {
             "name": "Leveling",
@@ -30,7 +23,7 @@
     ],
     "top_games": [
         {
-            "name": "rush need",
+            "name": "n15ias fireres",
             "count": 1
         },
         {
@@ -42,34 +35,44 @@
             "count": 1
         },
         {
-            "name": "407",
+            "name": "414",
+            "count": 1
+        },
+        {
+            "name": "413",
+            "count": 1
+        },
+        {
+            "name": "412",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "#",
+            "count": 6,
+            "examples": [
+                "412",
+                "413",
+                "414"
+            ]
+        },
+        {
+            "normalized": "n#ias fireres",
+            "count": 2,
+            "examples": [
+                "n15ias fireres"
+            ]
+        },
         {
             "normalized": "lvv",
             "count": 2,
             "examples": [
                 "lvv"
             ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "407"
-            ]
         }
     ],
     "classified_games": {
-        "Rush": [
-            {
-                "name": "rush need",
-                "matched": "rush",
-                "count": 1
-            }
-        ],
         "Leveling": [
             {
                 "name": "n 3 os andy",
@@ -79,8 +82,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.5
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 6.17
     }
 }
