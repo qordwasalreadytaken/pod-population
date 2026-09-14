@@ -1,17 +1,16 @@
 {
-    "timestamp": "2026-09-14T14:39:00+00:00",
+    "timestamp": "2026-09-14T14:48:00+00:00",
     "difficulty": {
-        "0": 3,
+        "0": 1,
         "2": 4
     },
     "mode": {
-        "1": 2,
-        "0": 5
+        "1": 1,
+        "0": 4
     },
     "difficulty_mode": {
-        "0|1": 2,
-        "2|0": 4,
-        "0|0": 1
+        "0|1": 1,
+        "2|0": 4
     },
     "activities": [
         {
@@ -20,21 +19,21 @@
         },
         {
             "name": "Rush",
-            "count": 2
-        },
-        {
-            "name": "Trade",
             "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "need rush",
-            "count": 2
+            "count": 1
+        },
+        {
+            "name": "casala",
+            "count": 1
         },
         {
             "name": "n heaven light",
@@ -45,19 +44,18 @@
             "count": 1
         },
         {
-            "name": "adsasds",
-            "count": 1
-        },
-        {
             "name": "n15ias fireres",
-            "count": 1
-        },
-        {
-            "name": "122",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "casala",
+            "count": 2,
+            "examples": [
+                "casala"
+            ]
+        },
         {
             "normalized": "qww",
             "count": 2,
@@ -71,13 +69,6 @@
             "examples": [
                 "n15ias fireres"
             ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "122"
-            ]
         }
     ],
     "classified_games": {
@@ -85,7 +76,7 @@
             {
                 "name": "need rush",
                 "matched": "rush",
-                "count": 2
+                "count": 1
             }
         ],
         "Trade": [
@@ -94,18 +85,11 @@
                 "matched": "n",
                 "count": 1
             }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "adsasds",
-                "matched": "asd",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 8.33
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 9.2
     }
 }
