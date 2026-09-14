@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-09-14T16:47:00+00:00",
+    "timestamp": "2026-09-14T17:04:00+00:00",
     "difficulty": {
         "2": 2,
-        "1": 1
+        "1": 3
     },
     "mode": {
-        "0": 3
+        "0": 5
     },
     "difficulty_mode": {
         "2|0": 2,
-        "1|0": 1
+        "1|0": 3
     },
     "activities": [
         {
@@ -17,13 +17,21 @@
             "count": 2
         },
         {
+            "name": "Maps",
+            "count": 1
+        },
+        {
             "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
+            "name": "pubmap",
             "count": 1
         },
         {
@@ -31,21 +39,24 @@
             "count": 1
         },
         {
-            "name": "sor run 1",
+            "name": "sor run 4",
+            "count": 1
+        },
+        {
+            "name": "acte 5 n help",
+            "count": 1
+        },
+        {
+            "name": "sor run 3",
             "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Maps": [
             {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "sor run 1",
-                "matched": "run",
+                "name": "pubmap",
+                "matched": "map",
                 "count": 1
             }
         ],
@@ -55,11 +66,30 @@
                 "matched": "n",
                 "count": 1
             }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "sor run 4",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "sor run 3",
+                "matched": "run",
+                "count": 1
+            }
+        ],
+        "Leveling": [
+            {
+                "name": "acte 5 n help",
+                "matched": "act",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 9.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 10.4
     }
 }
