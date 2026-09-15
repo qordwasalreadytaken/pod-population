@@ -1,13 +1,15 @@
 {
-    "timestamp": "2026-09-15T03:44:00+00:00",
+    "timestamp": "2026-09-15T03:52:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 2,
+        "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
@@ -16,6 +18,10 @@
         },
         {
             "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Other",
             "count": 1
         }
     ],
@@ -27,9 +33,21 @@
         {
             "name": "n frw bk n wisp",
             "count": 1
+        },
+        {
+            "name": "1andr",
+            "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "#andr",
+            "count": 2,
+            "examples": [
+                "1andr"
+            ]
+        }
+    ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
@@ -47,8 +65,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 9.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 7.67
     }
 }
