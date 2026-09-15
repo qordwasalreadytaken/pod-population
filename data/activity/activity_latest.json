@@ -1,23 +1,31 @@
 {
-    "timestamp": "2026-09-15T15:33:00+00:00",
+    "timestamp": "2026-09-15T15:47:00+00:00",
     "difficulty": {
         "1": 1,
-        "2": 3,
-        "0": 2
+        "2": 4,
+        "0": 3
     },
     "mode": {
         "1": 1,
-        "0": 5
+        "0": 7
     },
     "difficulty_mode": {
         "1|1": 1,
-        "2|0": 3,
-        "0|0": 2
+        "2|0": 4,
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
             "count": 4
+        },
+        {
+            "name": "Cows",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         },
         {
             "name": "Maps",
@@ -30,7 +38,11 @@
     ],
     "top_games": [
         {
-            "name": "nm",
+            "name": "cow",
+            "count": 1
+        },
+        {
+            "name": "dasdas",
             "count": 1
         },
         {
@@ -46,6 +58,10 @@
             "count": 1
         },
         {
+            "name": "427",
+            "count": 1
+        },
+        {
             "name": "goran",
             "count": 1
         },
@@ -56,17 +72,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "nm",
-            "count": 2,
-            "examples": [
-                "nm"
-            ]
-        },
-        {
             "normalized": "lvl",
             "count": 2,
             "examples": [
                 "lvl"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "427"
             ]
         },
         {
@@ -85,6 +101,20 @@
         }
     ],
     "classified_games": {
+        "Cows": [
+            {
+                "name": "cow",
+                "matched": "cow",
+                "count": 1
+            }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "dasdas",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
         "Maps": [
             {
                 "name": "mapz",
@@ -101,8 +131,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 6.83
+        "unique_names": 8,
+        "public_games": 8,
+        "average_name_length": 6.38
     }
 }
