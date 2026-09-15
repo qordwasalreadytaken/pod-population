@@ -1,47 +1,61 @@
 {
-    "timestamp": "2026-09-15T20:33:00+00:00",
+    "timestamp": "2026-09-15T20:46:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
-    },
-    "mode": {
+        "2": 2,
         "0": 2
     },
+    "mode": {
+        "0": 4
+    },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 1
+        "2|0": 2,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
+        {
+            "name": "n eld runes",
+            "count": 1
+        },
         {
             "name": "asder",
             "count": 1
         },
         {
-            "name": "jorty",
+            "name": "431",
+            "count": 1
+        },
+        {
+            "name": "111",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "jorty",
-            "count": 2,
+            "normalized": "#",
+            "count": 4,
             "examples": [
-                "jorty"
+                "111",
+                "431"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
+            {
+                "name": "n eld runes",
+                "matched": "run",
+                "count": 1
+            },
             {
                 "name": "asder",
                 "matched": "asd",
@@ -50,8 +64,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 5.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 5.5
     }
 }
