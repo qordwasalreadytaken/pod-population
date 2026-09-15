@@ -1,70 +1,35 @@
 {
-    "timestamp": "2026-09-15T20:05:00+00:00",
+    "timestamp": "2026-09-15T20:23:00+00:00",
     "difficulty": {
-        "2": 4,
-        "1": 1,
-        "0": 2
+        "2": 2
     },
     "mode": {
-        "0": 7
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 4,
-        "1|0": 1,
-        "0|0": 2
+        "2|0": 2
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 1
         },
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Leveling",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "124",
-            "count": 1
-        },
         {
             "name": "asder",
             "count": 1
         },
         {
-            "name": "123",
-            "count": 1
-        },
-        {
             "name": "e",
-            "count": 1
-        },
-        {
-            "name": "gord",
-            "count": 1
-        },
-        {
-            "name": "tomb agains",
-            "count": 1
-        },
-        {
-            "name": "tomb again",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "124"
-            ]
-        },
         {
             "normalized": "e",
             "count": 2,
@@ -79,34 +44,12 @@
                 "name": "asder",
                 "matched": "asd",
                 "count": 1
-            },
-            {
-                "name": "123",
-                "matched": "123",
-                "count": 1
-            },
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "tomb agains",
-                "matched": "tomb",
-                "count": 1
-            },
-            {
-                "name": "tomb again",
-                "matched": "tomb",
-                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 5.29
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 3.0
     }
 }
