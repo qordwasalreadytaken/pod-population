@@ -257,7 +257,7 @@
         {
             "name": "n heavens light",
             "matched": "n",
-            "count": 58
+            "count": 59
         },
         {
             "name": "n 5/5 fire",
@@ -330,13 +330,13 @@
             "count": 14
         },
         {
-            "name": "buy ohm andsur",
-            "matched": "buy",
-            "count": 13
-        },
-        {
             "name": "n ias fireres j",
             "matched": "n",
+            "count": 14
+        },
+        {
+            "name": "buy ohm andsur",
+            "matched": "buy",
             "count": 13
         },
         {
@@ -531,7 +531,7 @@
         },
         {
             "name": "n sorc torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -881,62 +881,62 @@
         },
         {
             "name": "n sorc torch 6",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 14",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 13",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 12",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 23",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 22",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 21",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 20",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 38",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 37",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 36",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 35",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -1358,7 +1358,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "start",
+            "matched": "act",
             "count": 3
         },
         {
@@ -1438,7 +1438,7 @@
         },
         {
             "name": "normal act",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -1473,7 +1473,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "act",
+            "matched": "exp",
             "count": 2
         },
         {
@@ -1568,7 +1568,7 @@
         },
         {
             "name": "act start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -1996,6 +1996,11 @@
             "count": 4
         },
         {
+            "name": "1230",
+            "matched": "123",
+            "count": 4
+        },
+        {
             "name": "asdasdas",
             "matched": "asd",
             "count": 3
@@ -2093,11 +2098,6 @@
         {
             "name": "sor grow run",
             "matched": "run",
-            "count": 3
-        },
-        {
-            "name": "1230",
-            "matched": "123",
             "count": 3
         },
         {
@@ -2217,7 +2217,7 @@
         },
         {
             "name": "asdsd36aaaa",
-            "matched": "asd",
+            "matched": "aaa",
             "count": 2
         },
         {
@@ -2537,7 +2537,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -2607,7 +2607,7 @@
         },
         {
             "name": "14123awdasdfqwr",
-            "matched": "asd",
+            "matched": "123",
             "count": 1
         },
         {
@@ -3216,7 +3216,7 @@
         },
         {
             "name": "desert maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 5
         },
         {
@@ -3261,11 +3261,16 @@
         },
         {
             "name": "public maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 4
         },
         {
             "name": "chilmap",
+            "matched": "map",
+            "count": 4
+        },
+        {
+            "name": "mapz",
             "matched": "map",
             "count": 4
         },
@@ -3296,16 +3301,11 @@
         },
         {
             "name": "slow maps",
-            "matched": "maps",
-            "count": 3
-        },
-        {
-            "name": "pubmap-7",
             "matched": "map",
             "count": 3
         },
         {
-            "name": "mapz",
+            "name": "pubmap-7",
             "matched": "map",
             "count": 3
         },
@@ -3346,12 +3346,12 @@
         },
         {
             "name": "t maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
             "name": "t maps 2",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
@@ -3361,7 +3361,7 @@
         },
         {
             "name": "maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 1
         },
         {
@@ -3416,7 +3416,7 @@
         },
         {
             "name": "maps?2",
-            "matched": "maps",
+            "matched": "map",
             "count": 1
         },
         {
@@ -3436,7 +3436,7 @@
         },
         {
             "name": "maps 3",
-            "matched": "maps",
+            "matched": "map",
             "count": 1
         },
         {
