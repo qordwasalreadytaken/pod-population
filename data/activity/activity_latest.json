@@ -1,21 +1,22 @@
 {
-    "timestamp": "2026-09-15T09:28:00+00:00",
+    "timestamp": "2026-09-15T09:44:00+00:00",
     "difficulty": {
-        "0": 1,
+        "0": 2,
         "2": 1
     },
     "mode": {
         "1": 1,
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 1
+        "2|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Rush",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
             "name": "Trade",
@@ -24,23 +25,35 @@
     ],
     "top_games": [
         {
-            "name": "rush pl",
+            "name": "co",
             "count": 1
         },
         {
             "name": "n frw bk n wisp",
             "count": 1
+        },
+        {
+            "name": "goretooo",
+            "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "co",
+            "count": 2,
+            "examples": [
+                "co"
+            ]
+        },
+        {
+            "normalized": "goretooo",
+            "count": 2,
+            "examples": [
+                "goretooo"
+            ]
+        }
+    ],
     "classified_games": {
-        "Rush": [
-            {
-                "name": "rush pl",
-                "matched": "rush",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "n frw bk n wisp",
@@ -50,8 +63,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 11.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 8.33
     }
 }
