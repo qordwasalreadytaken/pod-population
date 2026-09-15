@@ -1,97 +1,123 @@
 {
-    "timestamp": "2026-09-15T13:47:00+00:00",
+    "timestamp": "2026-09-15T14:05:00+00:00",
     "difficulty": {
-        "1": 2,
-        "2": 3,
+        "1": 1,
+        "2": 6,
         "0": 1
     },
     "mode": {
-        "1": 2,
-        "0": 4
+        "1": 1,
+        "0": 7
     },
     "difficulty_mode": {
-        "1|1": 2,
-        "2|0": 3,
+        "1|1": 1,
+        "2|0": 6,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 5
         },
         {
             "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Maps",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "nm",
+            "name": "lvv",
             "count": 2
+        },
+        {
+            "name": "nm",
+            "count": 1
+        },
+        {
+            "name": "n ias fireres j",
+            "count": 1
+        },
+        {
+            "name": "mapz",
+            "count": 1
+        },
+        {
+            "name": "lvl",
+            "count": 1
         },
         {
             "name": "1230",
             "count": 1
         },
         {
-            "name": "lvv",
-            "count": 1
-        },
-        {
-            "name": "n eth3os mancat",
-            "count": 1
-        },
-        {
-            "name": "wikid klownz",
+            "name": "ghhgghhghg",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "nm",
-            "count": 4,
-            "examples": [
-                "nm"
-            ]
-        },
-        {
             "normalized": "lvv",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "lvv"
             ]
         },
         {
-            "normalized": "wikid klownz",
+            "normalized": "nm",
             "count": 2,
             "examples": [
-                "wikid klownz"
+                "nm"
+            ]
+        },
+        {
+            "normalized": "lvl",
+            "count": 2,
+            "examples": [
+                "lvl"
+            ]
+        },
+        {
+            "normalized": "ghhgghhghg",
+            "count": 2,
+            "examples": [
+                "ghhgghhghg"
             ]
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n ias fireres j",
+                "matched": "n",
+                "count": 1
+            }
+        ],
+        "Maps": [
+            {
+                "name": "mapz",
+                "matched": "map",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "1230",
                 "matched": "123",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "n eth3os mancat",
-                "matched": "n",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 6,
-        "average_name_length": 7.2
+        "unique_names": 7,
+        "public_games": 8,
+        "average_name_length": 5.86
     }
 }
