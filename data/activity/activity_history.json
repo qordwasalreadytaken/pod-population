@@ -701,7 +701,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "leveli",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -772,7 +772,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "leveli",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -8995,7 +8995,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "anci",
+                    "matched": "norm",
                     "count": 1
                 },
                 {
@@ -12824,7 +12824,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "anci",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -18708,7 +18708,7 @@
             "Trade": [
                 {
                     "name": "n necro torch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 },
                 {
@@ -18827,7 +18827,7 @@
                 },
                 {
                     "name": "n necro torch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -18906,7 +18906,7 @@
                 },
                 {
                     "name": "n necro torch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -19214,7 +19214,7 @@
             "Trade": [
                 {
                     "name": "n necro torch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -33947,7 +33947,7 @@
             "Uber": [
                 {
                     "name": "ubers",
-                    "matched": "uber",
+                    "matched": "ubers",
                     "count": 1
                 }
             ],
@@ -122352,7 +122352,7 @@
                 },
                 {
                     "name": "asdsd36aaaa",
-                    "matched": "aaa",
+                    "matched": "asd",
                     "count": 1
                 },
                 {
@@ -122407,7 +122407,7 @@
                 },
                 {
                     "name": "asdsd36aaaa",
-                    "matched": "aaa",
+                    "matched": "asd",
                     "count": 1
                 }
             ]
@@ -141193,7 +141193,7 @@
             "Uber": [
                 {
                     "name": "help ubers",
-                    "matched": "uber",
+                    "matched": "ubers",
                     "count": 1
                 }
             ]
@@ -177847,7 +177847,7 @@
             "Uber": [
                 {
                     "name": "o uberservice 1",
-                    "matched": "uber",
+                    "matched": "ubers",
                     "count": 1
                 }
             ],
@@ -211369,6 +211369,72 @@
             "unique_names": 2,
             "public_games": 2,
             "average_name_length": 2.5
+        }
+    },
+    {
+        "timestamp": "2026-09-15T19:46:00+00:00",
+        "difficulty": {
+            "2": 2,
+            "1": 1
+        },
+        "mode": {
+            "0": 3
+        },
+        "difficulty_mode": {
+            "2|0": 2,
+            "1|0": 1
+        },
+        "activities": [
+            {
+                "name": "Misc. Public MF Runs",
+                "count": 2
+            },
+            {
+                "name": "Other",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "123",
+                "count": 1
+            },
+            {
+                "name": "e",
+                "count": 1
+            },
+            {
+                "name": "gord",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "e",
+                "count": 2,
+                "examples": [
+                    "e"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Misc. Public MF Runs": [
+                {
+                    "name": "123",
+                    "matched": "123",
+                    "count": 1
+                },
+                {
+                    "name": "gord",
+                    "matched": "gord",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 3,
+            "public_games": 3,
+            "average_name_length": 2.67
         }
     }
 ]
