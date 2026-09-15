@@ -1,24 +1,26 @@
 {
-    "timestamp": "2026-09-15T17:47:00+00:00",
+    "timestamp": "2026-09-15T18:05:00+00:00",
     "difficulty": {
         "2": 3,
         "0": 1
     },
     "mode": {
-        "0": 4
+        "1": 1,
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|1": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 2
+            "name": "Misc. Public MF Runs",
+            "count": 3
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Other",
+            "count": 1
         }
     ],
     "top_games": [
@@ -27,7 +29,7 @@
             "count": 2
         },
         {
-            "name": "1221",
+            "name": "aa",
             "count": 1
         },
         {
@@ -36,13 +38,6 @@
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "1221"
-            ]
-        },
         {
             "normalized": "dobretoo",
             "count": 2,
@@ -57,12 +52,17 @@
                 "name": "anda mepi run",
                 "matched": "run",
                 "count": 2
+            },
+            {
+                "name": "aa",
+                "matched": "aa",
+                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 3,
         "public_games": 4,
-        "average_name_length": 8.33
+        "average_name_length": 7.67
     }
 }
