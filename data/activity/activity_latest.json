@@ -1,23 +1,23 @@
 {
-    "timestamp": "2026-09-15T13:25:00+00:00",
+    "timestamp": "2026-09-15T13:36:00+00:00",
     "difficulty": {
-        "1": 1,
-        "2": 2,
+        "1": 2,
+        "2": 5,
         "0": 2
     },
     "mode": {
-        "1": 1,
-        "0": 4
+        "1": 2,
+        "0": 7
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "2|0": 2,
+        "1|1": 2,
+        "2|0": 5,
         "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 8
         },
         {
             "name": "Trade",
@@ -27,10 +27,18 @@
     "top_games": [
         {
             "name": "nm",
+            "count": 2
+        },
+        {
+            "name": "lvv",
+            "count": 2
+        },
+        {
+            "name": "1229",
             "count": 1
         },
         {
-            "name": "1226",
+            "name": "1227",
             "count": 1
         },
         {
@@ -38,28 +46,36 @@
             "count": 1
         },
         {
-            "name": "wikid klownz",
+            "name": "1228",
             "count": 1
         },
         {
-            "name": "1225",
+            "name": "wikid klownz",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "#",
-            "count": 4,
+            "count": 6,
             "examples": [
-                "1225",
-                "1226"
+                "1227",
+                "1228",
+                "1229"
             ]
         },
         {
             "normalized": "nm",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "nm"
+            ]
+        },
+        {
+            "normalized": "lvv",
+            "count": 4,
+            "examples": [
+                "lvv"
             ]
         },
         {
@@ -80,8 +96,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 7.4
+        "unique_names": 7,
+        "public_games": 9,
+        "average_name_length": 6.29
     }
 }
