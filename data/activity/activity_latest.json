@@ -1,17 +1,15 @@
 {
-    "timestamp": "2026-09-15T18:05:00+00:00",
+    "timestamp": "2026-09-15T18:26:00+00:00",
     "difficulty": {
         "2": 3,
-        "0": 1
+        "1": 1
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 2,
-        "0|0": 1
+        "2|0": 3,
+        "1|0": 1
     },
     "activities": [
         {
@@ -29,20 +27,20 @@
             "count": 2
         },
         {
-            "name": "aa",
+            "name": "428",
             "count": 1
         },
         {
-            "name": "dobretoo",
+            "name": "gord",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "dobretoo",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "dobretoo"
+                "428"
             ]
         }
     ],
@@ -54,8 +52,8 @@
                 "count": 2
             },
             {
-                "name": "aa",
-                "matched": "aa",
+                "name": "gord",
+                "matched": "gord",
                 "count": 1
             }
         ]
@@ -63,6 +61,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 4,
-        "average_name_length": 7.67
+        "average_name_length": 6.67
     }
 }
