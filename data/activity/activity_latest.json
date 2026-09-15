@@ -1,23 +1,24 @@
 {
-    "timestamp": "2026-09-15T12:53:00+00:00",
+    "timestamp": "2026-09-15T13:05:00+00:00",
     "difficulty": {
-        "1": 1,
-        "2": 3,
-        "0": 1
+        "1": 2,
+        "2": 6,
+        "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 9
     },
     "difficulty_mode": {
         "1|1": 1,
-        "2|0": 3,
-        "0|0": 1
+        "2|0": 6,
+        "1|0": 1,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 8
         },
         {
             "name": "Misc. Public MF Runs",
@@ -34,11 +35,23 @@
             "count": 1
         },
         {
-            "name": "426",
+            "name": "1",
             "count": 1
         },
         {
-            "name": "hell anda run 1",
+            "name": "25",
+            "count": 1
+        },
+        {
+            "name": "1221",
+            "count": 1
+        },
+        {
+            "name": "hell anda run 2",
+            "count": 1
+        },
+        {
+            "name": "426",
             "count": 1
         },
         {
@@ -46,11 +59,31 @@
             "count": 1
         },
         {
-            "name": "goterti",
+            "name": "24",
+            "count": 1
+        },
+        {
+            "name": "1222",
+            "count": 1
+        },
+        {
+            "name": "guttg",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "#",
+            "count": 12,
+            "examples": [
+                "1",
+                "1221",
+                "1222",
+                "24",
+                "25",
+                "426"
+            ]
+        },
         {
             "normalized": "nm",
             "count": 2,
@@ -59,24 +92,17 @@
             ]
         },
         {
-            "normalized": "#",
+            "normalized": "guttg",
             "count": 2,
             "examples": [
-                "426"
-            ]
-        },
-        {
-            "normalized": "goterti",
-            "count": 2,
-            "examples": [
-                "goterti"
+                "guttg"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "hell anda run 1",
+                "name": "hell anda run 2",
                 "matched": "run",
                 "count": 1
             }
@@ -90,8 +116,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 8.4
+        "unique_names": 10,
+        "public_games": 10,
+        "average_name_length": 5.3
     }
 }
