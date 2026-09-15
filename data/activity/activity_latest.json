@@ -1,21 +1,23 @@
 {
-    "timestamp": "2026-09-15T11:46:00+00:00",
+    "timestamp": "2026-09-15T12:07:00+00:00",
     "difficulty": {
         "1": 1,
-        "2": 6
+        "2": 4,
+        "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 6
+        "0": 5
     },
     "difficulty_mode": {
         "1|1": 1,
-        "2|0": 6
+        "2|0": 4,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
@@ -32,6 +34,10 @@
             "count": 1
         },
         {
+            "name": "asd",
+            "count": 1
+        },
+        {
             "name": "426",
             "count": 1
         },
@@ -40,50 +46,47 @@
             "count": 1
         },
         {
-            "name": "22",
-            "count": 1
-        },
-        {
             "name": "n eth3os mancat",
             "count": 1
         },
         {
-            "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "425",
+            "name": "goterti",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "#",
-            "count": 6,
-            "examples": [
-                "22",
-                "425",
-                "426"
-            ]
-        },
         {
             "normalized": "nm",
             "count": 2,
             "examples": [
                 "nm"
             ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "426"
+            ]
+        },
+        {
+            "normalized": "goterti",
+            "count": 2,
+            "examples": [
+                "goterti"
+            ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "hell anda run 1",
-                "matched": "run",
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             },
             {
-                "name": "asd",
-                "matched": "asd",
+                "name": "hell anda run 1",
+                "matched": "run",
                 "count": 1
             }
         ],
@@ -96,8 +99,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 6.14
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 7.5
     }
 }
