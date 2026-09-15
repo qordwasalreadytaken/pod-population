@@ -1,17 +1,17 @@
 {
-    "timestamp": "2026-09-15T14:05:00+00:00",
+    "timestamp": "2026-09-15T14:25:00+00:00",
     "difficulty": {
         "1": 1,
-        "2": 6,
+        "2": 8,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 7
+        "0": 9
     },
     "difficulty_mode": {
         "1|1": 1,
-        "2|0": 6,
+        "2|0": 8,
         "0|0": 1
     },
     "activities": [
@@ -20,12 +20,12 @@
             "count": 5
         },
         {
-            "name": "Trade",
-            "count": 1
+            "name": "Maps",
+            "count": 2
         },
         {
-            "name": "Maps",
-            "count": 1
+            "name": "Trade",
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -34,7 +34,11 @@
     ],
     "top_games": [
         {
-            "name": "lvv",
+            "name": "lvl",
+            "count": 2
+        },
+        {
+            "name": "mapz",
             "count": 2
         },
         {
@@ -42,15 +46,15 @@
             "count": 1
         },
         {
+            "name": "lvv",
+            "count": 1
+        },
+        {
+            "name": "n heavens light",
+            "count": 1
+        },
+        {
             "name": "n ias fireres j",
-            "count": 1
-        },
-        {
-            "name": "mapz",
-            "count": 1
-        },
-        {
-            "name": "lvl",
             "count": 1
         },
         {
@@ -64,10 +68,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "lvv",
+            "normalized": "lvl",
             "count": 4,
             "examples": [
-                "lvv"
+                "lvl"
             ]
         },
         {
@@ -78,10 +82,10 @@
             ]
         },
         {
-            "normalized": "lvl",
+            "normalized": "lvv",
             "count": 2,
             "examples": [
-                "lvl"
+                "lvv"
             ]
         },
         {
@@ -93,17 +97,22 @@
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n ias fireres j",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Maps": [
             {
                 "name": "mapz",
                 "matched": "map",
+                "count": 2
+            }
+        ],
+        "Trade": [
+            {
+                "name": "n heavens light",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n ias fireres j",
+                "matched": "n",
                 "count": 1
             }
         ],
@@ -116,8 +125,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 8,
-        "average_name_length": 5.86
+        "unique_names": 8,
+        "public_games": 10,
+        "average_name_length": 7.0
     }
 }
