@@ -1,30 +1,50 @@
 {
-    "timestamp": "2026-09-15T11:33:00+00:00",
+    "timestamp": "2026-09-15T11:46:00+00:00",
     "difficulty": {
         "1": 1,
-        "2": 4
+        "2": 6
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 6
     },
     "difficulty_mode": {
         "1|1": 1,
-        "2|0": 4
+        "2|0": 6
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Misc. Public MF Runs",
             "count": 2
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "nm",
+            "count": 1
+        },
+        {
+            "name": "426",
+            "count": 1
+        },
+        {
+            "name": "hell anda run 1",
+            "count": 1
+        },
+        {
+            "name": "22",
+            "count": 1
+        },
+        {
+            "name": "n eth3os mancat",
             "count": 1
         },
         {
@@ -34,23 +54,16 @@
         {
             "name": "425",
             "count": 1
-        },
-        {
-            "name": "21",
-            "count": 1
-        },
-        {
-            "name": "sor grow run",
-            "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "#",
-            "count": 4,
+            "count": 6,
             "examples": [
-                "21",
-                "425"
+                "22",
+                "425",
+                "426"
             ]
         },
         {
@@ -64,20 +77,27 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
-                "matched": "asd",
+                "name": "hell anda run 1",
+                "matched": "run",
                 "count": 1
             },
             {
-                "name": "sor grow run",
-                "matched": "run",
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
+        "Trade": [
+            {
+                "name": "n eth3os mancat",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 4.4
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 6.14
     }
 }
