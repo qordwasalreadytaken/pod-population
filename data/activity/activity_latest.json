@@ -1,13 +1,15 @@
 {
-    "timestamp": "2026-09-15T08:07:00+00:00",
+    "timestamp": "2026-09-15T08:32:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 2
+        "0": 3,
+        "2": 2
     },
     "mode": {
+        "1": 1,
         "0": 4
     },
     "difficulty_mode": {
+        "0|1": 1,
         "2|0": 2,
         "0|0": 2
     },
@@ -17,11 +19,19 @@
             "count": 3
         },
         {
+            "name": "Rush",
+            "count": 1
+        },
+        {
             "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "rush pl",
+            "count": 1
+        },
         {
             "name": "1221",
             "count": 1
@@ -63,6 +73,13 @@
         }
     ],
     "classified_games": {
+        "Rush": [
+            {
+                "name": "rush pl",
+                "matched": "rush",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n frw bk n wisp",
@@ -72,8 +89,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 8.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 7.8
     }
 }
