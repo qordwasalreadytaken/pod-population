@@ -1,20 +1,22 @@
 {
-    "timestamp": "2026-09-16T19:46:00+00:00",
+    "timestamp": "2026-09-16T20:05:00+00:00",
     "difficulty": {
-        "2": 5,
+        "2": 7,
+        "1": 1,
         "0": 2
     },
     "mode": {
-        "0": 7
+        "0": 10
     },
     "difficulty_mode": {
-        "2|0": 5,
+        "2|0": 7,
+        "1|0": 1,
         "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 7
         },
         {
             "name": "Misc. Public MF Runs",
@@ -23,19 +25,19 @@
         {
             "name": "Trade",
             "count": 1
-        },
-        {
-            "name": "Rush",
-            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "b um 4 oocs",
+            "count": 4
+        },
         {
             "name": "n sorc t o hrs",
             "count": 1
         },
         {
-            "name": "dasa",
+            "name": "n eld runes",
             "count": 1
         },
         {
@@ -43,7 +45,7 @@
             "count": 1
         },
         {
-            "name": "dasd",
+            "name": "dasa",
             "count": 1
         },
         {
@@ -53,13 +55,16 @@
         {
             "name": "wikid klownz",
             "count": 1
-        },
-        {
-            "name": "rush",
-            "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "b um # oocs",
+            "count": 8,
+            "examples": [
+                "b um 4 oocs"
+            ]
+        },
         {
             "normalized": "dasa",
             "count": 2,
@@ -92,27 +97,20 @@
         ],
         "Misc. Public MF Runs": [
             {
-                "name": "asder",
-                "matched": "asd",
+                "name": "n eld runes",
+                "matched": "run",
                 "count": 1
             },
             {
-                "name": "dasd",
+                "name": "asder",
                 "matched": "asd",
-                "count": 1
-            }
-        ],
-        "Rush": [
-            {
-                "name": "rush",
-                "matched": "rush",
                 "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 6.57
+        "public_games": 10,
+        "average_name_length": 8.57
     }
 }
