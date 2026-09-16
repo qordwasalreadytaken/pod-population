@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-16T18:06:00+00:00",
+    "timestamp": "2026-09-16T18:28:00+00:00",
     "difficulty": {
         "2": 2,
         "1": 1,
@@ -15,12 +15,12 @@
     },
     "activities": [
         {
-            "name": "Maps",
-            "count": 2
+            "name": "Other",
+            "count": 3
         },
         {
-            "name": "Other",
-            "count": 2
+            "name": "Maps",
+            "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
@@ -29,11 +29,11 @@
     ],
     "top_games": [
         {
-            "name": "pubmap-5",
+            "name": "pubmap-6",
             "count": 1
         },
         {
-            "name": "pubmap-4",
+            "name": "werwerwer",
             "count": 1
         },
         {
@@ -50,6 +50,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "werwerwer",
+            "count": 2,
+            "examples": [
+                "werwerwer"
+            ]
+        },
         {
             "normalized": "na#alo",
             "count": 2,
@@ -68,12 +75,7 @@
     "classified_games": {
         "Maps": [
             {
-                "name": "pubmap-5",
-                "matched": "map",
-                "count": 1
-            },
-            {
-                "name": "pubmap-4",
+                "name": "pubmap-6",
                 "matched": "map",
                 "count": 1
             }
@@ -89,6 +91,6 @@
     "interesting": {
         "unique_names": 5,
         "public_games": 5,
-        "average_name_length": 5.4
+        "average_name_length": 5.6
     }
 }

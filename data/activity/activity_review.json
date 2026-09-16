@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 1596,
+        "count": 1598,
         "examples": [
             "1",
             "10",
@@ -1025,6 +1025,13 @@
         ]
     },
     {
+        "normalized": "na#alo",
+        "count": 12,
+        "examples": [
+            "na4alo"
+        ]
+    },
+    {
         "normalized": "a#h",
         "count": 10,
         "examples": [
@@ -1252,13 +1259,6 @@
         "count": 10,
         "examples": [
             "gfgfgffgf"
-        ]
-    },
-    {
-        "normalized": "na#alo",
-        "count": 10,
-        "examples": [
-            "na4alo"
         ]
     },
     {
@@ -6387,6 +6387,13 @@
         "count": 2,
         "examples": [
             "fgd"
+        ]
+    },
+    {
+        "normalized": "werwerwer",
+        "count": 2,
+        "examples": [
+            "werwerwer"
         ]
     }
 ]
