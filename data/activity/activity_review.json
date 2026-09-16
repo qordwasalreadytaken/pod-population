@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 1546,
+        "count": 1548,
         "examples": [
             "1",
             "10",
@@ -17,7 +17,7 @@
     },
     {
         "normalized": "lvv",
-        "count": 978,
+        "count": 980,
         "examples": [
             "lvv"
         ]
@@ -276,6 +276,13 @@
         ]
     },
     {
+        "normalized": "# ooc # # eld",
+        "count": 38,
+        "examples": [
+            "1 ooc 4 1 eld"
+        ]
+    },
+    {
         "normalized": "crip",
         "count": 36,
         "examples": [
@@ -304,13 +311,6 @@
         "count": 36,
         "examples": [
             "1qd"
-        ]
-    },
-    {
-        "normalized": "# ooc # # eld",
-        "count": 36,
-        "examples": [
-            "1 ooc 4 1 eld"
         ]
     },
     {
