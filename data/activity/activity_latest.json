@@ -1,37 +1,39 @@
 {
-    "timestamp": "2026-09-16T11:33:00+00:00",
+    "timestamp": "2026-09-16T11:46:00+00:00",
     "difficulty": {
-        "2": 5,
+        "2": 6,
+        "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 6
+        "0": 8
     },
     "difficulty_mode": {
-        "2|0": 5,
+        "2|0": 6,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 5
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "asdfg",
+            "name": "lvv",
+            "count": 2
+        },
+        {
+            "name": "asd",
             "count": 1
         },
         {
-            "name": "adfsg",
-            "count": 1
-        },
-        {
-            "name": "adsf",
+            "name": "choas run 2",
             "count": 1
         },
         {
@@ -43,23 +45,28 @@
             "count": 1
         },
         {
+            "name": "214",
+            "count": 1
+        },
+        {
             "name": "432",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "adfsg",
-            "count": 2,
+            "normalized": "lvv",
+            "count": 4,
             "examples": [
-                "adfsg"
+                "lvv"
             ]
         },
         {
-            "normalized": "adsf",
-            "count": 2,
+            "normalized": "#",
+            "count": 4,
             "examples": [
-                "adsf"
+                "214",
+                "432"
             ]
         },
         {
@@ -68,20 +75,18 @@
             "examples": [
                 "1 ooc 4 1 eld"
             ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "432"
-            ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asdfg",
+                "name": "asd",
                 "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "choas run 2",
+                "matched": "run",
                 "count": 1
             },
             {
@@ -92,8 +97,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 5.67
+        "unique_names": 7,
+        "public_games": 8,
+        "average_name_length": 5.71
     }
 }
