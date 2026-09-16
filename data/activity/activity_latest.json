@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-09-16T20:05:00+00:00",
+    "timestamp": "2026-09-16T20:24:00+00:00",
     "difficulty": {
         "2": 7,
         "1": 1,
-        "0": 2
+        "0": 1
     },
     "mode": {
-        "0": 10
+        "0": 9
     },
     "difficulty_mode": {
         "2|0": 7,
         "1|0": 1,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 7
+            "count": 6
         },
         {
             "name": "Misc. Public MF Runs",
@@ -30,18 +30,14 @@
     "top_games": [
         {
             "name": "b um 4 oocs",
-            "count": 4
-        },
-        {
-            "name": "n sorc t o hrs",
-            "count": 1
+            "count": 2
         },
         {
             "name": "n eld runes",
             "count": 1
         },
         {
-            "name": "asder",
+            "name": "n sorc t o hrs",
             "count": 1
         },
         {
@@ -49,7 +45,15 @@
             "count": 1
         },
         {
+            "name": "asder",
+            "count": 1
+        },
+        {
             "name": "lvv",
+            "count": 1
+        },
+        {
+            "name": "nm",
             "count": 1
         },
         {
@@ -60,7 +64,7 @@
     "unknown_games": [
         {
             "normalized": "b um # oocs",
-            "count": 8,
+            "count": 4,
             "examples": [
                 "b um 4 oocs"
             ]
@@ -80,6 +84,13 @@
             ]
         },
         {
+            "normalized": "nm",
+            "count": 2,
+            "examples": [
+                "nm"
+            ]
+        },
+        {
             "normalized": "wikid klownz",
             "count": 2,
             "examples": [
@@ -88,13 +99,6 @@
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n sorc t o hrs",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "n eld runes",
@@ -106,11 +110,18 @@
                 "matched": "asd",
                 "count": 1
             }
+        ],
+        "Trade": [
+            {
+                "name": "n sorc t o hrs",
+                "matched": "n",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 10,
-        "average_name_length": 8.57
+        "unique_names": 8,
+        "public_games": 9,
+        "average_name_length": 7.75
     }
 }
