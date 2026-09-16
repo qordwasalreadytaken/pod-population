@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 1602,
+        "count": 1608,
         "examples": [
             "1",
             "10",
@@ -776,6 +776,13 @@
         ]
     },
     {
+        "normalized": "na#alo",
+        "count": 16,
+        "examples": [
+            "na4alo"
+        ]
+    },
+    {
         "normalized": "h",
         "count": 14,
         "examples": [
@@ -888,13 +895,6 @@
         "count": 14,
         "examples": [
             "ew"
-        ]
-    },
-    {
-        "normalized": "na#alo",
-        "count": 14,
-        "examples": [
-            "na4alo"
         ]
     },
     {
@@ -1657,6 +1657,13 @@
         ]
     },
     {
+        "normalized": "b ist # oocs",
+        "count": 8,
+        "examples": [
+            "b ist 4 oocs"
+        ]
+    },
+    {
         "normalized": "sdsd",
         "count": 6,
         "examples": [
@@ -2155,13 +2162,6 @@
         "count": 6,
         "examples": [
             "goran"
-        ]
-    },
-    {
-        "normalized": "b ist # oocs",
-        "count": 6,
-        "examples": [
-            "b ist 4 oocs"
         ]
     },
     {

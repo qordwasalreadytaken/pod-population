@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-16T18:43:00+00:00",
+    "timestamp": "2026-09-16T18:50:00+00:00",
     "difficulty": {
         "2": 4,
         "1": 2,
@@ -16,21 +16,25 @@
     "activities": [
         {
             "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Maps",
-            "count": 2
+            "count": 5
         },
         {
             "name": "Misc. Public MF Runs",
             "count": 2
+        },
+        {
+            "name": "Maps",
+            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "gord",
             "count": 2
+        },
+        {
+            "name": "4365734657",
+            "count": 1
         },
         {
             "name": "pubmap-7",
@@ -45,10 +49,6 @@
             "count": 1
         },
         {
-            "name": "pubmap-6",
-            "count": 1
-        },
-        {
             "name": "na4alo",
             "count": 1
         },
@@ -60,8 +60,9 @@
     "unknown_games": [
         {
             "normalized": "#",
-            "count": 4,
+            "count": 6,
             "examples": [
+                "4365734657",
                 "456745767",
                 "5"
             ]
@@ -87,11 +88,6 @@
                 "name": "pubmap-7",
                 "matched": "map",
                 "count": 1
-            },
-            {
-                "name": "pubmap-6",
-                "matched": "map",
-                "count": 1
             }
         ],
         "Misc. Public MF Runs": [
@@ -105,6 +101,6 @@
     "interesting": {
         "unique_names": 7,
         "public_games": 8,
-        "average_name_length": 6.86
+        "average_name_length": 7.14
     }
 }
