@@ -1,42 +1,26 @@
 {
-    "timestamp": "2026-09-16T13:05:00+00:00",
+    "timestamp": "2026-09-16T13:24:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 2,
         "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 4,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
             "count": 3
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "choas run 13",
-            "count": 1
-        },
-        {
-            "name": "choas run 12",
-            "count": 1
-        },
-        {
             "name": "lvv",
-            "count": 1
-        },
-        {
-            "name": "1 ooc 4 1 eld",
-            "count": 1
+            "count": 2
         },
         {
             "name": "432",
@@ -46,16 +30,9 @@
     "unknown_games": [
         {
             "normalized": "lvv",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "lvv"
-            ]
-        },
-        {
-            "normalized": "# ooc # # eld",
-            "count": 2,
-            "examples": [
-                "1 ooc 4 1 eld"
             ]
         },
         {
@@ -66,23 +43,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "choas run 13",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "choas run 12",
-                "matched": "run",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 8.6
+        "unique_names": 2,
+        "public_games": 3,
+        "average_name_length": 3.0
     }
 }
