@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 1572,
+        "count": 1574,
         "examples": [
             "1",
             "10",
@@ -82,7 +82,7 @@
     },
     {
         "normalized": "nm",
-        "count": 156,
+        "count": 160,
         "examples": [
             "nm"
         ]
@@ -655,6 +655,13 @@
         ]
     },
     {
+        "normalized": "b homunculus",
+        "count": 18,
+        "examples": [
+            "b homunculus"
+        ]
+    },
+    {
         "normalized": "mana",
         "count": 16,
         "examples": [
@@ -766,13 +773,6 @@
         "count": 16,
         "examples": [
             "re"
-        ]
-    },
-    {
-        "normalized": "b homunculus",
-        "count": 16,
-        "examples": [
-            "b homunculus"
         ]
     },
     {
@@ -1629,6 +1629,13 @@
         ]
     },
     {
+        "normalized": "b sorc t jah lo",
+        "count": 8,
+        "examples": [
+            "b sorc t jah lo"
+        ]
+    },
+    {
         "normalized": "sdsd",
         "count": 6,
         "examples": [
@@ -2137,10 +2144,10 @@
         ]
     },
     {
-        "normalized": "b sorc t jah lo",
+        "normalized": "b gul # oocs",
         "count": 6,
         "examples": [
-            "b sorc t jah lo"
+            "b gul 4 oocs"
         ]
     },
     {
@@ -3167,13 +3174,6 @@
         "count": 4,
         "examples": [
             "b sorct jah lo"
-        ]
-    },
-    {
-        "normalized": "b gul # oocs",
-        "count": 4,
-        "examples": [
-            "b gul 4 oocs"
         ]
     },
     {
@@ -6338,6 +6338,20 @@
         "count": 2,
         "examples": [
             "b sor t jah lo"
+        ]
+    },
+    {
+        "normalized": "afsd",
+        "count": 2,
+        "examples": [
+            "afsd"
+        ]
+    },
+    {
+        "normalized": "b sorct jahlo",
+        "count": 2,
+        "examples": [
+            "b sorct jahlo"
         ]
     }
 ]
