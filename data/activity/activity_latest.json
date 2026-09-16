@@ -1,34 +1,46 @@
 {
-    "timestamp": "2026-09-16T19:32:00+00:00",
+    "timestamp": "2026-09-16T19:46:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 5,
         "0": 2
     },
     "mode": {
-        "0": 4
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 2,
+        "2|0": 5,
         "0|0": 2
     },
     "activities": [
         {
-            "name": "Rush",
-            "count": 2
+            "name": "Other",
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
+            "count": 2
+        },
+        {
+            "name": "Trade",
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Rush",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "rush",
-            "count": 2
+            "name": "n sorc t o hrs",
+            "count": 1
+        },
+        {
+            "name": "dasa",
+            "count": 1
+        },
+        {
+            "name": "asder",
+            "count": 1
         },
         {
             "name": "dasd",
@@ -37,19 +49,53 @@
         {
             "name": "lvv",
             "count": 1
+        },
+        {
+            "name": "wikid klownz",
+            "count": 1
+        },
+        {
+            "name": "rush",
+            "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "dasa",
+            "count": 2,
+            "examples": [
+                "dasa"
+            ]
+        },
         {
             "normalized": "lvv",
             "count": 2,
             "examples": [
                 "lvv"
             ]
+        },
+        {
+            "normalized": "wikid klownz",
+            "count": 2,
+            "examples": [
+                "wikid klownz"
+            ]
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n sorc t o hrs",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
+            {
+                "name": "asder",
+                "matched": "asd",
+                "count": 1
+            },
             {
                 "name": "dasd",
                 "matched": "asd",
@@ -60,13 +106,13 @@
             {
                 "name": "rush",
                 "matched": "rush",
-                "count": 2
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 4,
-        "average_name_length": 3.67
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 6.57
     }
 }
