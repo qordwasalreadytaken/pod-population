@@ -8995,7 +8995,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 },
                 {
@@ -12824,7 +12824,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 }
             ]
@@ -38979,7 +38979,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -39036,7 +39036,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -39110,7 +39110,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "act",
+                    "matched": "start",
                     "count": 1
                 }
             ]
@@ -62339,7 +62339,7 @@
             "Leveling": [
                 {
                     "name": "act 1 andariel",
-                    "matched": "act",
+                    "matched": "andar",
                     "count": 1
                 }
             ]
@@ -62426,7 +62426,7 @@
             "Leveling": [
                 {
                     "name": "act 1 andariel",
-                    "matched": "act",
+                    "matched": "andar",
                     "count": 1
                 }
             ]
@@ -62524,7 +62524,7 @@
             "Leveling": [
                 {
                     "name": "act 1 andariel",
-                    "matched": "act",
+                    "matched": "andar",
                     "count": 1
                 }
             ]
@@ -62611,7 +62611,7 @@
             "Leveling": [
                 {
                     "name": "act 1 andariel",
-                    "matched": "act",
+                    "matched": "andar",
                     "count": 1
                 }
             ]
@@ -62696,7 +62696,7 @@
             "Leveling": [
                 {
                     "name": "act 1 andariel",
-                    "matched": "act",
+                    "matched": "andar",
                     "count": 1
                 }
             ]
@@ -62781,7 +62781,7 @@
             "Leveling": [
                 {
                     "name": "act 1 andariel",
-                    "matched": "act",
+                    "matched": "andar",
                     "count": 1
                 }
             ]
@@ -62866,7 +62866,7 @@
             "Leveling": [
                 {
                     "name": "act 1 andariel",
-                    "matched": "act",
+                    "matched": "andar",
                     "count": 1
                 }
             ]
@@ -62936,7 +62936,7 @@
             "Leveling": [
                 {
                     "name": "act 1 andariel",
-                    "matched": "act",
+                    "matched": "andar",
                     "count": 1
                 }
             ]
@@ -63023,7 +63023,7 @@
             "Leveling": [
                 {
                     "name": "act 1 andariel",
-                    "matched": "act",
+                    "matched": "andar",
                     "count": 1
                 }
             ]
@@ -63119,7 +63119,7 @@
             "Leveling": [
                 {
                     "name": "act 1 andariel",
-                    "matched": "act",
+                    "matched": "andar",
                     "count": 1
                 }
             ]
@@ -63217,7 +63217,7 @@
             "Leveling": [
                 {
                     "name": "act 1 andariel",
-                    "matched": "act",
+                    "matched": "andar",
                     "count": 1
                 }
             ]
@@ -63343,7 +63343,7 @@
             "Leveling": [
                 {
                     "name": "act 1 andariel",
-                    "matched": "act",
+                    "matched": "andar",
                     "count": 1
                 }
             ]
@@ -63618,7 +63618,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "14123awdasdfqwr",
-                    "matched": "123",
+                    "matched": "asd",
                     "count": 1
                 },
                 {
@@ -213801,6 +213801,63 @@
     },
     {
         "timestamp": "2026-09-16T08:50:00+00:00",
+        "difficulty": {
+            "2": 1,
+            "0": 1
+        },
+        "mode": {
+            "0": 2
+        },
+        "difficulty_mode": {
+            "2|0": 1,
+            "0|0": 1
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 1
+            },
+            {
+                "name": "Leveling",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "1 ooc 4 1 eld",
+                "count": 1
+            },
+            {
+                "name": "2act",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "# ooc # # eld",
+                "count": 2,
+                "examples": [
+                    "1 ooc 4 1 eld"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Leveling": [
+                {
+                    "name": "2act",
+                    "matched": "act",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 2,
+            "public_games": 2,
+            "average_name_length": 8.5
+        }
+    },
+    {
+        "timestamp": "2026-09-16T09:06:00+00:00",
         "difficulty": {
             "2": 1,
             "0": 1
