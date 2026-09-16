@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 1598,
+        "count": 1602,
         "examples": [
             "1",
             "10",
@@ -891,6 +891,13 @@
         ]
     },
     {
+        "normalized": "na#alo",
+        "count": 14,
+        "examples": [
+            "na4alo"
+        ]
+    },
+    {
         "normalized": "helpme",
         "count": 12,
         "examples": [
@@ -1022,13 +1029,6 @@
         "count": 12,
         "examples": [
             "morbius inc"
-        ]
-    },
-    {
-        "normalized": "na#alo",
-        "count": 12,
-        "examples": [
-            "na4alo"
         ]
     },
     {
@@ -2158,6 +2158,13 @@
         ]
     },
     {
+        "normalized": "b ist # oocs",
+        "count": 6,
+        "examples": [
+            "b ist 4 oocs"
+        ]
+    },
+    {
         "normalized": "nm #",
         "count": 4,
         "examples": [
@@ -3195,13 +3202,6 @@
         "count": 4,
         "examples": [
             "b gul ist 4oocs"
-        ]
-    },
-    {
-        "normalized": "b ist # oocs",
-        "count": 4,
-        "examples": [
-            "b ist 4 oocs"
         ]
     },
     {
