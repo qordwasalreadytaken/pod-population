@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-16T14:06:00+00:00",
+    "timestamp": "2026-09-16T14:25:00+00:00",
     "difficulty": {
         "2": 5,
         "1": 1,
@@ -15,11 +15,11 @@
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 3
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
@@ -29,19 +29,19 @@
     ],
     "top_games": [
         {
-            "name": "choas run 18",
-            "count": 1
-        },
-        {
             "name": "asd",
             "count": 1
         },
         {
-            "name": "1221",
+            "name": "b homunculus",
             "count": 1
         },
         {
-            "name": "choas run 17",
+            "name": "choas run 19",
+            "count": 1
+        },
+        {
+            "name": "1221",
             "count": 1
         },
         {
@@ -65,22 +65,24 @@
                 "1",
                 "1221"
             ]
+        },
+        {
+            "normalized": "b homunculus",
+            "count": 2,
+            "examples": [
+                "b homunculus"
+            ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
-            {
-                "name": "choas run 18",
-                "matched": "run",
-                "count": 1
-            },
             {
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
             },
             {
-                "name": "choas run 17",
+                "name": "choas run 19",
                 "matched": "run",
                 "count": 1
             }
