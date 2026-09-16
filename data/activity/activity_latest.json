@@ -1,79 +1,72 @@
 {
-    "timestamp": "2026-09-16T19:20:00+00:00",
+    "timestamp": "2026-09-16T19:32:00+00:00",
     "difficulty": {
-        "2": 5,
-        "0": 1
+        "2": 2,
+        "0": 2
     },
     "mode": {
-        "0": 6
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 5,
-        "0|0": 1
+        "2|0": 2,
+        "0|0": 2
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 5
+            "name": "Rush",
+            "count": 2
         },
         {
-            "name": "Maps",
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "rush",
+            "count": 2
+        },
+        {
+            "name": "dasd",
+            "count": 1
+        },
+        {
             "name": "lvv",
-            "count": 3
-        },
-        {
-            "name": "dasad",
-            "count": 1
-        },
-        {
-            "name": "pubmap-7",
-            "count": 1
-        },
-        {
-            "name": "na4alo",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "lvv",
-            "count": 6,
+            "count": 2,
             "examples": [
                 "lvv"
-            ]
-        },
-        {
-            "normalized": "dasad",
-            "count": 2,
-            "examples": [
-                "dasad"
-            ]
-        },
-        {
-            "normalized": "na#alo",
-            "count": 2,
-            "examples": [
-                "na4alo"
             ]
         }
     ],
     "classified_games": {
-        "Maps": [
+        "Misc. Public MF Runs": [
             {
-                "name": "pubmap-7",
-                "matched": "map",
+                "name": "dasd",
+                "matched": "asd",
                 "count": 1
+            }
+        ],
+        "Rush": [
+            {
+                "name": "rush",
+                "matched": "rush",
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 6,
-        "average_name_length": 5.5
+        "unique_names": 3,
+        "public_games": 4,
+        "average_name_length": 3.67
     }
 }
