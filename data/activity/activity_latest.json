@@ -1,28 +1,28 @@
 {
-    "timestamp": "2026-09-16T15:05:00+00:00",
+    "timestamp": "2026-09-16T15:23:00+00:00",
     "difficulty": {
+        "1": 2,
         "2": 7,
-        "1": 1,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 8
+        "0": 9
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 6,
+        "1|1": 1,
+        "2|0": 7,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 7
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 4
+            "count": 2
         },
         {
             "name": "Trade",
@@ -31,27 +31,31 @@
     ],
     "top_games": [
         {
-            "name": "asd",
+            "name": "b homunculus",
             "count": 2
         },
         {
-            "name": "h",
+            "name": "nm",
             "count": 1
         },
         {
-            "name": "choas run 22",
+            "name": "b gul 4 oocs",
+            "count": 1
+        },
+        {
+            "name": "b sorc t jah lo",
+            "count": 1
+        },
+        {
+            "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "choas run 24",
             "count": 1
         },
         {
             "name": "b sorct jah lo",
-            "count": 1
-        },
-        {
-            "name": "choas run 21",
-            "count": 1
-        },
-        {
-            "name": "b homunculus",
             "count": 1
         },
         {
@@ -65,10 +69,31 @@
     ],
     "unknown_games": [
         {
-            "normalized": "h",
+            "normalized": "b homunculus",
+            "count": 4,
+            "examples": [
+                "b homunculus"
+            ]
+        },
+        {
+            "normalized": "nm",
             "count": 2,
             "examples": [
-                "h"
+                "nm"
+            ]
+        },
+        {
+            "normalized": "b gul # oocs",
+            "count": 2,
+            "examples": [
+                "b gul 4 oocs"
+            ]
+        },
+        {
+            "normalized": "b sorc t jah lo",
+            "count": 2,
+            "examples": [
+                "b sorc t jah lo"
             ]
         },
         {
@@ -76,13 +101,6 @@
             "count": 2,
             "examples": [
                 "b sorct jah lo"
-            ]
-        },
-        {
-            "normalized": "b homunculus",
-            "count": 2,
-            "examples": [
-                "b homunculus"
             ]
         },
         {
@@ -98,15 +116,10 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 2
-            },
-            {
-                "name": "choas run 22",
-                "matched": "run",
                 "count": 1
             },
             {
-                "name": "choas run 21",
+                "name": "choas run 24",
                 "matched": "run",
                 "count": 1
             }
@@ -120,8 +133,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 9,
-        "average_name_length": 8.62
+        "unique_names": 9,
+        "public_games": 10,
+        "average_name_length": 9.44
     }
 }
