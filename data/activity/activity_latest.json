@@ -1,26 +1,20 @@
 {
-    "timestamp": "2026-09-16T21:32:00+00:00",
+    "timestamp": "2026-09-16T21:46:00+00:00",
     "difficulty": {
-        "2": 9,
-        "1": 1,
-        "0": 2
+        "2": 5,
+        "0": 1
     },
     "mode": {
-        "0": 12
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 9,
-        "1|0": 1,
-        "0|0": 2
+        "2|0": 5,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 7
-        },
-        {
-            "name": "Trade",
-            "count": 4
+            "count": 5
         },
         {
             "name": "Misc. Public MF Runs",
@@ -29,19 +23,11 @@
     ],
     "top_games": [
         {
-            "name": "n sorc t o hrs",
-            "count": 4
-        },
-        {
-            "name": "solo",
-            "count": 2
-        },
-        {
-            "name": "27",
+            "name": "30",
             "count": 1
         },
         {
-            "name": "26",
+            "name": "29",
             "count": 1
         },
         {
@@ -57,7 +43,7 @@
             "count": 1
         },
         {
-            "name": "tt",
+            "name": "solo",
             "count": 1
         }
     ],
@@ -66,15 +52,8 @@
             "normalized": "#",
             "count": 4,
             "examples": [
-                "26",
-                "27"
-            ]
-        },
-        {
-            "normalized": "solo",
-            "count": 4,
-            "examples": [
-                "solo"
+                "29",
+                "30"
             ]
         },
         {
@@ -92,21 +71,14 @@
             ]
         },
         {
-            "normalized": "tt",
+            "normalized": "solo",
             "count": 2,
             "examples": [
-                "tt"
+                "solo"
             ]
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n sorc t o hrs",
-                "matched": "n",
-                "count": 4
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "n eld runes",
@@ -116,8 +88,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 12,
-        "average_name_length": 5.25
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 4.33
     }
 }
