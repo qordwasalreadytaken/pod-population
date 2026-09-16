@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-16T12:35:00+00:00",
+    "timestamp": "2026-09-16T12:54:00+00:00",
     "difficulty": {
         "2": 4,
         "0": 1
@@ -23,15 +23,15 @@
     ],
     "top_games": [
         {
-            "name": "choas run 8",
+            "name": "choas run 11",
+            "count": 1
+        },
+        {
+            "name": "choas run 10",
             "count": 1
         },
         {
             "name": "lvv",
-            "count": 1
-        },
-        {
-            "name": "dasd",
             "count": 1
         },
         {
@@ -69,13 +69,13 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "choas run 8",
+                "name": "choas run 11",
                 "matched": "run",
                 "count": 1
             },
             {
-                "name": "dasd",
-                "matched": "asd",
+                "name": "choas run 10",
+                "matched": "run",
                 "count": 1
             }
         ]
@@ -83,6 +83,6 @@
     "interesting": {
         "unique_names": 5,
         "public_games": 5,
-        "average_name_length": 6.8
+        "average_name_length": 8.6
     }
 }
