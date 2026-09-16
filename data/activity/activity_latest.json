@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-09-16T09:38:00+00:00",
+    "timestamp": "2026-09-16T09:47:00+00:00",
     "difficulty": {
         "2": 3,
-        "0": 2
+        "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
         "2|0": 3,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
@@ -19,19 +19,15 @@
         {
             "name": "Misc. Public MF Runs",
             "count": 1
-        },
-        {
-            "name": "Leveling",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "lvv",
+            "name": "anda mepi run 3",
             "count": 1
         },
         {
-            "name": "asdf",
+            "name": "lvv",
             "count": 1
         },
         {
@@ -40,10 +36,6 @@
         },
         {
             "name": "fa",
-            "count": 1
-        },
-        {
-            "name": "2act",
             "count": 1
         }
     ],
@@ -73,22 +65,15 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asdf",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "2act",
-                "matched": "act",
+                "name": "anda mepi run 3",
+                "matched": "run",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 5.2
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 8.25
     }
 }
