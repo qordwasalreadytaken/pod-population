@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-16T15:23:00+00:00",
+    "timestamp": "2026-09-16T15:33:00+00:00",
     "difficulty": {
         "1": 2,
         "2": 7,
@@ -22,11 +22,7 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
-        },
-        {
-            "name": "Trade",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
@@ -39,27 +35,27 @@
             "count": 1
         },
         {
-            "name": "b gul 4 oocs",
-            "count": 1
-        },
-        {
             "name": "b sorc t jah lo",
             "count": 1
         },
         {
+            "name": "choas run 26",
+            "count": 1
+        },
+        {
+            "name": "b sor t jah lo",
+            "count": 1
+        },
+        {
+            "name": "b gul 4 oocs",
+            "count": 1
+        },
+        {
+            "name": "choas run 25",
+            "count": 1
+        },
+        {
             "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "choas run 24",
-            "count": 1
-        },
-        {
-            "name": "b sorct jah lo",
-            "count": 1
-        },
-        {
-            "name": "buy gul 4 oocs",
             "count": 1
         },
         {
@@ -83,13 +79,6 @@
             ]
         },
         {
-            "normalized": "b gul # oocs",
-            "count": 2,
-            "examples": [
-                "b gul 4 oocs"
-            ]
-        },
-        {
             "normalized": "b sorc t jah lo",
             "count": 2,
             "examples": [
@@ -97,10 +86,17 @@
             ]
         },
         {
-            "normalized": "b sorct jah lo",
+            "normalized": "b sor t jah lo",
             "count": 2,
             "examples": [
-                "b sorct jah lo"
+                "b sor t jah lo"
+            ]
+        },
+        {
+            "normalized": "b gul # oocs",
+            "count": 2,
+            "examples": [
+                "b gul 4 oocs"
             ]
         },
         {
@@ -114,20 +110,18 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
-                "matched": "asd",
+                "name": "choas run 26",
+                "matched": "run",
                 "count": 1
             },
             {
-                "name": "choas run 24",
+                "name": "choas run 25",
                 "matched": "run",
                 "count": 1
-            }
-        ],
-        "Trade": [
+            },
             {
-                "name": "buy gul 4 oocs",
-                "matched": "buy",
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             }
         ]
@@ -135,6 +129,6 @@
     "interesting": {
         "unique_names": 9,
         "public_games": 10,
-        "average_name_length": 9.44
+        "average_name_length": 9.22
     }
 }
