@@ -1,17 +1,15 @@
 {
-    "timestamp": "2026-09-16T19:04:00+00:00",
+    "timestamp": "2026-09-16T19:20:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 3
+        "2": 5,
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 5
+        "0": 6
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 3,
-        "0|0": 2
+        "2|0": 5,
+        "0|0": 1
     },
     "activities": [
         {
@@ -25,15 +23,11 @@
     ],
     "top_games": [
         {
-            "name": "34r43r",
-            "count": 1
+            "name": "lvv",
+            "count": 3
         },
         {
-            "name": "23423432",
-            "count": 1
-        },
-        {
-            "name": "b ist 4 oocs",
+            "name": "dasad",
             "count": 1
         },
         {
@@ -43,33 +37,21 @@
         {
             "name": "na4alo",
             "count": 1
-        },
-        {
-            "name": "5",
-            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "#",
-            "count": 4,
+            "normalized": "lvv",
+            "count": 6,
             "examples": [
-                "23423432",
-                "5"
+                "lvv"
             ]
         },
         {
-            "normalized": "#r#r",
+            "normalized": "dasad",
             "count": 2,
             "examples": [
-                "34r43r"
-            ]
-        },
-        {
-            "normalized": "b ist # oocs",
-            "count": 2,
-            "examples": [
-                "b ist 4 oocs"
+                "dasad"
             ]
         },
         {
@@ -90,8 +72,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
+        "unique_names": 4,
         "public_games": 6,
-        "average_name_length": 6.83
+        "average_name_length": 5.5
     }
 }
