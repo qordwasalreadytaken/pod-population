@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 1590,
+        "count": 1592,
         "examples": [
             "1",
             "10",
@@ -2151,6 +2151,13 @@
         ]
     },
     {
+        "normalized": "na#alo",
+        "count": 6,
+        "examples": [
+            "na4alo"
+        ]
+    },
+    {
         "normalized": "nm #",
         "count": 4,
         "examples": [
@@ -3191,10 +3198,10 @@
         ]
     },
     {
-        "normalized": "na#alo",
+        "normalized": "b ist # oocs",
         "count": 4,
         "examples": [
-            "na4alo"
+            "b ist 4 oocs"
         ]
     },
     {
@@ -6373,13 +6380,6 @@
         "count": 2,
         "examples": [
             "b sorct jahlo"
-        ]
-    },
-    {
-        "normalized": "b ist # oocs",
-        "count": 2,
-        "examples": [
-            "b ist 4 oocs"
         ]
     },
     {
