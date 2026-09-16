@@ -1,26 +1,24 @@
 {
-    "timestamp": "2026-09-16T20:34:00+00:00",
+    "timestamp": "2026-09-16T20:46:00+00:00",
     "difficulty": {
-        "2": 7,
-        "1": 1,
-        "0": 1
+        "2": 9,
+        "1": 2
     },
     "mode": {
-        "0": 9
+        "0": 11
     },
     "difficulty_mode": {
-        "2|0": 7,
-        "1|0": 1,
-        "0|0": 1
+        "2|0": 9,
+        "1|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 6
         },
         {
             "name": "Trade",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
@@ -30,10 +28,10 @@
     "top_games": [
         {
             "name": "n sorc t o hrs",
-            "count": 2
+            "count": 3
         },
         {
-            "name": "nm",
+            "name": "lvv",
             "count": 2
         },
         {
@@ -53,16 +51,20 @@
             "count": 1
         },
         {
-            "name": "lvv",
+            "name": "tt",
+            "count": 1
+        },
+        {
+            "name": "nm",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "nm",
+            "normalized": "lvv",
             "count": 4,
             "examples": [
-                "nm"
+                "lvv"
             ]
         },
         {
@@ -80,10 +82,17 @@
             ]
         },
         {
-            "normalized": "lvv",
+            "normalized": "tt",
             "count": 2,
             "examples": [
-                "lvv"
+                "tt"
+            ]
+        },
+        {
+            "normalized": "nm",
+            "count": 2,
+            "examples": [
+                "nm"
             ]
         }
     ],
@@ -92,7 +101,7 @@
             {
                 "name": "n sorc t o hrs",
                 "matched": "n",
-                "count": 2
+                "count": 3
             }
         ],
         "Misc. Public MF Runs": [
@@ -109,8 +118,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 9,
-        "average_name_length": 7.14
+        "unique_names": 8,
+        "public_games": 11,
+        "average_name_length": 6.5
     }
 }
