@@ -1,43 +1,33 @@
 {
-    "timestamp": "2026-09-16T12:07:00+00:00",
+    "timestamp": "2026-09-16T12:35:00+00:00",
     "difficulty": {
-        "2": 8,
-        "1": 1,
+        "2": 4,
         "0": 1
     },
     "mode": {
-        "0": 10
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 8,
-        "1|0": 1,
+        "2|0": 4,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 5
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "lvv",
-            "count": 2
-        },
-        {
-            "name": "asd",
-            "count": 2
-        },
-        {
-            "name": "choas run 4",
+            "name": "choas run 8",
             "count": 1
         },
         {
-            "name": "choas run 3",
+            "name": "lvv",
             "count": 1
         },
         {
@@ -49,10 +39,6 @@
             "count": 1
         },
         {
-            "name": "214",
-            "count": 1
-        },
-        {
             "name": "432",
             "count": 1
         }
@@ -60,17 +46,9 @@
     "unknown_games": [
         {
             "normalized": "lvv",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "lvv"
-            ]
-        },
-        {
-            "normalized": "#",
-            "count": 4,
-            "examples": [
-                "214",
-                "432"
             ]
         },
         {
@@ -79,22 +57,19 @@
             "examples": [
                 "1 ooc 4 1 eld"
             ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "432"
+            ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
-                "matched": "asd",
-                "count": 2
-            },
-            {
-                "name": "choas run 4",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "choas run 3",
+                "name": "choas run 8",
                 "matched": "run",
                 "count": 1
             },
@@ -106,8 +81,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 10,
-        "average_name_length": 6.38
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 6.8
     }
 }
