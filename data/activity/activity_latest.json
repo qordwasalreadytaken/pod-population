@@ -1,39 +1,57 @@
 {
-    "timestamp": "2026-09-16T22:22:00+00:00",
+    "timestamp": "2026-09-16T22:32:00+00:00",
     "difficulty": {
-        "0": 1
+        "2": 1,
+        "0": 3
     },
     "mode": {
-        "0": 1
+        "0": 4
     },
     "difficulty_mode": {
-        "0|0": 1
+        "2|0": 1,
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
+            "count": 3
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "solo",
+            "count": 3
+        },
+        {
+            "name": "dasd",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "solo",
-            "count": 2,
+            "count": 6,
             "examples": [
                 "solo"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "dasd",
+                "matched": "asd",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
+        "unique_names": 2,
+        "public_games": 4,
         "average_name_length": 4.0
     }
 }
