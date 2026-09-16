@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 1582,
+        "count": 1588,
         "examples": [
             "1",
             "10",
@@ -3184,6 +3184,13 @@
         ]
     },
     {
+        "normalized": "b gul ist #oocs",
+        "count": 4,
+        "examples": [
+            "b gul ist 4oocs"
+        ]
+    },
+    {
         "normalized": "a wps plz",
         "count": 2,
         "examples": [
@@ -6362,10 +6369,10 @@
         ]
     },
     {
-        "normalized": "b gul ist #oocs",
+        "normalized": "na#alo",
         "count": 2,
         "examples": [
-            "b gul ist 4oocs"
+            "na4alo"
         ]
     }
 ]
