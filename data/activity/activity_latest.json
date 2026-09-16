@@ -1,37 +1,39 @@
 {
-    "timestamp": "2026-09-16T17:32:00+00:00",
+    "timestamp": "2026-09-16T17:46:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 1,
+        "1": 1,
         "0": 2
     },
     "mode": {
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 1,
+        "1|0": 1,
         "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Maps",
-            "count": 2
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "pubmap-3",
+            "name": "pubmap-4",
             "count": 1
         },
         {
-            "name": "pubmap-2",
-            "count": 1
-        },
-        {
-            "name": "b ist 4 oocs",
+            "name": "gord",
             "count": 1
         },
         {
@@ -44,13 +46,6 @@
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "b ist # oocs",
-            "count": 2,
-            "examples": [
-                "b ist 4 oocs"
-            ]
-        },
         {
             "normalized": "na#alo",
             "count": 2,
@@ -69,20 +64,22 @@
     "classified_games": {
         "Maps": [
             {
-                "name": "pubmap-3",
+                "name": "pubmap-4",
                 "matched": "map",
                 "count": 1
-            },
+            }
+        ],
+        "Misc. Public MF Runs": [
             {
-                "name": "pubmap-2",
-                "matched": "map",
+                "name": "gord",
+                "matched": "gord",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 7.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 4.75
     }
 }
