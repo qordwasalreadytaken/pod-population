@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-16T04:06:00+00:00",
+    "timestamp": "2026-09-16T04:28:00+00:00",
     "difficulty": {
         "0": 1
     },
@@ -17,16 +17,16 @@
     ],
     "top_games": [
         {
-            "name": "morbius inc",
+            "name": "fa",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "morbius inc",
+            "normalized": "fa",
             "count": 2,
             "examples": [
-                "morbius inc"
+                "fa"
             ]
         }
     ],
@@ -34,6 +34,6 @@
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 11.0
+        "average_name_length": 2.0
     }
 }
