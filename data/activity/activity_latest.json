@@ -1,17 +1,21 @@
 {
-    "timestamp": "2026-09-16T09:06:00+00:00",
+    "timestamp": "2026-09-16T09:26:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 2,
         "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
         {
             "name": "Other",
             "count": 1
@@ -22,6 +26,10 @@
         }
     ],
     "top_games": [
+        {
+            "name": "asdf",
+            "count": 1
+        },
         {
             "name": "1 ooc 4 1 eld",
             "count": 1
@@ -41,6 +49,13 @@
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asdf",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
         "Leveling": [
             {
                 "name": "2act",
@@ -50,8 +65,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 8.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 7.0
     }
 }
