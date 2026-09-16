@@ -1,26 +1,26 @@
 {
-    "timestamp": "2026-09-16T21:22:00+00:00",
+    "timestamp": "2026-09-16T21:32:00+00:00",
     "difficulty": {
-        "2": 8,
+        "2": 9,
         "1": 1,
-        "0": 1
+        "0": 2
     },
     "mode": {
-        "0": 10
+        "0": 12
     },
     "difficulty_mode": {
-        "2|0": 8,
+        "2|0": 9,
         "1|0": 1,
-        "0|0": 1
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 6
+            "count": 7
         },
         {
             "name": "Trade",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Misc. Public MF Runs",
@@ -30,14 +30,18 @@
     "top_games": [
         {
             "name": "n sorc t o hrs",
-            "count": 3
+            "count": 4
         },
         {
-            "name": "hell",
+            "name": "solo",
+            "count": 2
+        },
+        {
+            "name": "27",
             "count": 1
         },
         {
-            "name": "24",
+            "name": "26",
             "count": 1
         },
         {
@@ -55,10 +59,6 @@
         {
             "name": "tt",
             "count": 1
-        },
-        {
-            "name": "25",
-            "count": 1
         }
     ],
     "unknown_games": [
@@ -66,15 +66,15 @@
             "normalized": "#",
             "count": 4,
             "examples": [
-                "24",
-                "25"
+                "26",
+                "27"
             ]
         },
         {
-            "normalized": "hell",
-            "count": 2,
+            "normalized": "solo",
+            "count": 4,
             "examples": [
-                "hell"
+                "solo"
             ]
         },
         {
@@ -104,7 +104,7 @@
             {
                 "name": "n sorc t o hrs",
                 "matched": "n",
-                "count": 3
+                "count": 4
             }
         ],
         "Misc. Public MF Runs": [
@@ -117,7 +117,7 @@
     },
     "interesting": {
         "unique_names": 8,
-        "public_games": 10,
+        "public_games": 12,
         "average_name_length": 5.25
     }
 }
