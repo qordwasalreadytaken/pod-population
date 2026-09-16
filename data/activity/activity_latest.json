@@ -1,27 +1,23 @@
 {
-    "timestamp": "2026-09-16T03:28:00+00:00",
+    "timestamp": "2026-09-16T03:44:00+00:00",
     "difficulty": {
-        "0": 2
+        "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "wikid klownz",
-            "count": 1
-        },
-        {
-            "name": "morbius inc",
             "count": 1
         }
     ],
@@ -32,19 +28,12 @@
             "examples": [
                 "wikid klownz"
             ]
-        },
-        {
-            "normalized": "morbius inc",
-            "count": 2,
-            "examples": [
-                "morbius inc"
-            ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 11.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 12.0
     }
 }
