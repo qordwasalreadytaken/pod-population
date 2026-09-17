@@ -1,63 +1,53 @@
 {
-    "timestamp": "2026-09-17T13:24:00+00:00",
+    "timestamp": "2026-09-17T13:36:00+00:00",
     "difficulty": {
-        "2": 6,
-        "1": 3
+        "2": 3,
+        "1": 4
     },
     "mode": {
-        "1": 1,
-        "0": 8
+        "0": 7
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 5,
-        "1|0": 3
+        "2|0": 3,
+        "1|0": 4
     },
     "activities": [
         {
             "name": "Other",
-            "count": 6
+            "count": 5
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "111",
+            "name": "anda run 15",
             "count": 1
         },
         {
-            "name": "anda run 10",
+            "name": "anda run 14",
             "count": 1
         },
         {
-            "name": "anda run 9",
+            "name": "1229",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "5",
             "count": 1
         },
         {
-            "name": "1228",
+            "name": "4",
             "count": 1
         },
         {
-            "name": "115",
+            "name": "3",
             "count": 1
         },
         {
-            "name": "34",
-            "count": 1
-        },
-        {
-            "name": "33",
-            "count": 1
-        },
-        {
-            "name": "doretooder 5",
+            "name": "2",
             "count": 1
         }
     ],
@@ -66,43 +56,31 @@
             "normalized": "#",
             "count": 10,
             "examples": [
-                "111",
-                "115",
-                "1228",
-                "33",
-                "34"
-            ]
-        },
-        {
-            "normalized": "doretooder #",
-            "count": 2,
-            "examples": [
-                "doretooder 5"
+                "1229",
+                "2",
+                "3",
+                "4",
+                "5"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "anda run 10",
+                "name": "anda run 15",
                 "matched": "run",
                 "count": 1
             },
             {
-                "name": "anda run 9",
+                "name": "anda run 14",
                 "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "asd",
-                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 9,
-        "public_games": 9,
-        "average_name_length": 5.56
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 4.29
     }
 }
