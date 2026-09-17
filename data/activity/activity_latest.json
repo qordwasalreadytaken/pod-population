@@ -1,8 +1,8 @@
 {
-    "timestamp": "2026-09-17T16:47:00+00:00",
+    "timestamp": "2026-09-17T17:04:00+00:00",
     "difficulty": {
-        "0": 1,
-        "2": 6
+        "0": 2,
+        "2": 5
     },
     "mode": {
         "1": 1,
@@ -10,33 +10,42 @@
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 6
+        "2|0": 5,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Trade",
             "count": 2
         },
         {
-            "name": "Maps",
-            "count": 2
+            "name": "Misc. Public MF Runs",
+            "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Maps",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n sorc t okeys",
-            "count": 2
+            "name": "trapse",
+            "count": 1
         },
         {
-            "name": "trapse",
+            "name": "n sorc torch 1",
+            "count": 1
+        },
+        {
+            "name": "n sorc t okeys",
+            "count": 1
+        },
+        {
+            "name": "asd",
             "count": 1
         },
         {
@@ -44,51 +53,41 @@
             "count": 1
         },
         {
-            "name": "pub map 3",
-            "count": 1
-        },
-        {
             "name": "118",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "1213",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "#",
+            "count": 4,
+            "examples": [
+                "118",
+                "1213"
+            ]
+        },
         {
             "normalized": "trapse",
             "count": 2,
             "examples": [
                 "trapse"
             ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "118"
-            ]
         }
     ],
     "classified_games": {
         "Trade": [
             {
-                "name": "n sorc t okeys",
-                "matched": "n",
-                "count": 2
-            }
-        ],
-        "Maps": [
-            {
-                "name": "pub map 4",
-                "matched": "map",
+                "name": "n sorc torch 1",
+                "matched": "torch",
                 "count": 1
             },
             {
-                "name": "pub map 3",
-                "matched": "map",
+                "name": "n sorc t okeys",
+                "matched": "n",
                 "count": 1
             }
         ],
@@ -98,11 +97,18 @@
                 "matched": "asd",
                 "count": 1
             }
+        ],
+        "Maps": [
+            {
+                "name": "pub map 4",
+                "matched": "map",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 6,
+        "unique_names": 7,
         "public_games": 7,
-        "average_name_length": 7.33
+        "average_name_length": 7.57
     }
 }
