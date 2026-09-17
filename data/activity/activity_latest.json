@@ -1,61 +1,47 @@
 {
-    "timestamp": "2026-09-17T18:29:00+00:00",
+    "timestamp": "2026-09-17T18:44:00+00:00",
     "difficulty": {
-        "0": 5,
-        "2": 4,
-        "1": 1
+        "0": 4,
+        "2": 2
     },
     "mode": {
         "1": 1,
-        "0": 9
+        "0": 5
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 4,
-        "1|0": 1,
-        "0|0": 4
+        "2|0": 2,
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
-        },
-        {
-            "name": "Trade",
             "count": 4
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "name": "Trade",
+            "count": 2
         }
     ],
     "top_games": [
-        {
-            "name": "nm",
-            "count": 2
-        },
-        {
-            "name": "n",
-            "count": 2
-        },
         {
             "name": "trapse",
             "count": 1
         },
         {
-            "name": "n sorc torch 26",
-            "count": 1
-        },
-        {
-            "name": "n sorc torch 25",
-            "count": 1
-        },
-        {
-            "name": "asder",
+            "name": "n sorc torch 28",
             "count": 1
         },
         {
             "name": "118",
+            "count": 1
+        },
+        {
+            "name": "111555",
+            "count": 1
+        },
+        {
+            "name": "n",
             "count": 1
         },
         {
@@ -66,17 +52,11 @@
     "unknown_games": [
         {
             "normalized": "#",
-            "count": 4,
+            "count": 6,
             "examples": [
                 "111",
+                "111555",
                 "118"
-            ]
-        },
-        {
-            "normalized": "nm",
-            "count": 4,
-            "examples": [
-                "nm"
             ]
         },
         {
@@ -90,32 +70,20 @@
     "classified_games": {
         "Trade": [
             {
+                "name": "n sorc torch 28",
+                "matched": "n",
+                "count": 1
+            },
+            {
                 "name": "n",
                 "matched": "n",
-                "count": 2
-            },
-            {
-                "name": "n sorc torch 26",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "n sorc torch 25",
-                "matched": "n",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asder",
-                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 10,
-        "average_name_length": 6.25
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 5.67
     }
 }
