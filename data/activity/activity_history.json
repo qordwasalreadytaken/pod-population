@@ -701,7 +701,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "leveli",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -772,7 +772,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "leveli",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -8995,7 +8995,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "anci",
+                    "matched": "norm",
                     "count": 1
                 },
                 {
@@ -12824,7 +12824,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "anci",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -14535,7 +14535,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ],
@@ -45195,7 +45195,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -45294,7 +45294,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -45383,7 +45383,7 @@
             "Maps": [
                 {
                     "name": "mapping 2",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ],
@@ -61468,7 +61468,7 @@
                 },
                 {
                     "name": "mapping",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -63618,7 +63618,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "14123awdasdfqwr",
-                    "matched": "asd",
+                    "matched": "123",
                     "count": 1
                 },
                 {
@@ -89630,7 +89630,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -141641,7 +141641,7 @@
             "Leveling": [
                 {
                     "name": "acte 5 exp",
-                    "matched": "act",
+                    "matched": "exp",
                     "count": 1
                 }
             ]
@@ -141698,7 +141698,7 @@
             "Leveling": [
                 {
                     "name": "acte 5 exp",
-                    "matched": "act",
+                    "matched": "exp",
                     "count": 1
                 }
             ]
@@ -144178,7 +144178,7 @@
             "Trade": [
                 {
                     "name": "n oocs wuw",
-                    "matched": "wuw",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -150087,7 +150087,7 @@
             "Maps": [
                 {
                     "name": "sunday mapping",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ],
@@ -150172,7 +150172,7 @@
             "Maps": [
                 {
                     "name": "sunday mapping",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 2
                 }
             ],
@@ -150257,7 +150257,7 @@
             "Maps": [
                 {
                     "name": "sunday mapping",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 2
                 }
             ],
@@ -150360,7 +150360,7 @@
             "Maps": [
                 {
                     "name": "sunday mapping",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -150445,7 +150445,7 @@
             "Maps": [
                 {
                     "name": "sunday mapping",
-                    "matched": "map",
+                    "matched": "mapping",
                     "count": 1
                 }
             ]
@@ -222187,6 +222187,101 @@
             "unique_names": 5,
             "public_games": 5,
             "average_name_length": 5.6
+        }
+    },
+    {
+        "timestamp": "2026-09-17T14:27:00+00:00",
+        "difficulty": {
+            "0": 1,
+            "2": 1,
+            "1": 5
+        },
+        "mode": {
+            "1": 1,
+            "0": 6
+        },
+        "difficulty_mode": {
+            "0|1": 1,
+            "2|0": 1,
+            "1|0": 5
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 5
+            },
+            {
+                "name": "Misc. Public MF Runs",
+                "count": 2
+            }
+        ],
+        "top_games": [
+            {
+                "name": "trapse",
+                "count": 1
+            },
+            {
+                "name": "anda run 24",
+                "count": 1
+            },
+            {
+                "name": "30",
+                "count": 1
+            },
+            {
+                "name": "29",
+                "count": 1
+            },
+            {
+                "name": "28",
+                "count": 1
+            },
+            {
+                "name": "27",
+                "count": 1
+            },
+            {
+                "name": "anda run 23",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "#",
+                "count": 8,
+                "examples": [
+                    "27",
+                    "28",
+                    "29",
+                    "30"
+                ]
+            },
+            {
+                "normalized": "trapse",
+                "count": 2,
+                "examples": [
+                    "trapse"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Misc. Public MF Runs": [
+                {
+                    "name": "anda run 24",
+                    "matched": "run",
+                    "count": 1
+                },
+                {
+                    "name": "anda run 23",
+                    "matched": "run",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 7,
+            "public_games": 7,
+            "average_name_length": 5.14
         }
     }
 ]
