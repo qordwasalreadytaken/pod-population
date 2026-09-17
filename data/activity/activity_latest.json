@@ -1,29 +1,45 @@
 {
-    "timestamp": "2026-09-17T08:32:00+00:00",
+    "timestamp": "2026-09-17T08:49:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 5,
         "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 5,
         "0|0": 1
     },
     "activities": [
         {
+            "name": "Misc. Public MF Runs",
+            "count": 2
+        },
+        {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "sorc grow",
+            "name": "choas run",
+            "count": 1
+        },
+        {
+            "name": "dsa",
+            "count": 1
+        },
+        {
+            "name": "asdf",
             "count": 1
         },
         {
@@ -35,16 +51,16 @@
             "count": 1
         },
         {
-            "name": "hgjgjhghj",
+            "name": "2act",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "sorc grow",
+            "normalized": "dsa",
             "count": 2,
             "examples": [
-                "sorc grow"
+                "dsa"
             ]
         },
         {
@@ -53,27 +69,39 @@
             "examples": [
                 "114"
             ]
-        },
-        {
-            "normalized": "hgjgjhghj",
-            "count": 2,
-            "examples": [
-                "hgjgjhghj"
-            ]
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "choas run",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "asdf",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "1 ooc for 1 eld",
                 "matched": "for",
                 "count": 1
             }
+        ],
+        "Leveling": [
+            {
+                "name": "2act",
+                "matched": "act",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 9.0
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 6.33
     }
 }
