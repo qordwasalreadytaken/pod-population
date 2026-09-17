@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 1884,
+        "count": 1886,
         "examples": [
             "1",
             "10",
@@ -75,7 +75,7 @@
     },
     {
         "normalized": "nm",
-        "count": 172,
+        "count": 174,
         "examples": [
             "nm"
         ]
@@ -165,6 +165,13 @@
         ]
     },
     {
+        "normalized": "trapse",
+        "count": 66,
+        "examples": [
+            "trapse"
+        ]
+    },
+    {
         "normalized": "lel #",
         "count": 64,
         "examples": [
@@ -185,13 +192,6 @@
         "count": 64,
         "examples": [
             "lvup gogo"
-        ]
-    },
-    {
-        "normalized": "trapse",
-        "count": 64,
-        "examples": [
-            "trapse"
         ]
     },
     {
@@ -3239,6 +3239,20 @@
         "count": 4,
         "examples": [
             "fghfhhj"
+        ]
+    },
+    {
+        "normalized": "trap",
+        "count": 4,
+        "examples": [
+            "trap"
+        ]
+    },
+    {
+        "normalized": "eqwq",
+        "count": 4,
+        "examples": [
+            "eqwq"
         ]
     },
     {
@@ -6480,20 +6494,6 @@
         "count": 2,
         "examples": [
             "dsdsd"
-        ]
-    },
-    {
-        "normalized": "trap",
-        "count": 2,
-        "examples": [
-            "trap"
-        ]
-    },
-    {
-        "normalized": "eqwq",
-        "count": 2,
-        "examples": [
-            "eqwq"
         ]
     }
 ]
