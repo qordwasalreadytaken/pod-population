@@ -1,37 +1,31 @@
 {
-    "timestamp": "2026-09-17T20:04:00+00:00",
+    "timestamp": "2026-09-17T20:25:00+00:00",
     "difficulty": {
-        "0": 4,
-        "2": 1,
-        "1": 1
+        "0": 3,
+        "2": 1
     },
     "mode": {
         "1": 2,
-        "0": 4
+        "0": 2
     },
     "difficulty_mode": {
         "0|1": 2,
         "2|0": 1,
-        "1|0": 1,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
-        },
-        {
-            "name": "Trade",
-            "count": 1
+            "count": 4
         }
     ],
     "top_games": [
         {
-            "name": "trap",
+            "name": "trapp",
             "count": 1
         },
         {
-            "name": "trapse",
+            "name": "trap",
             "count": 1
         },
         {
@@ -39,31 +33,23 @@
             "count": 1
         },
         {
-            "name": "nm",
-            "count": 1
-        },
-        {
             "name": "114",
-            "count": 1
-        },
-        {
-            "name": "n",
             "count": 1
         }
     ],
     "unknown_games": [
         {
+            "normalized": "trapp",
+            "count": 2,
+            "examples": [
+                "trapp"
+            ]
+        },
+        {
             "normalized": "trap",
             "count": 2,
             "examples": [
                 "trap"
-            ]
-        },
-        {
-            "normalized": "trapse",
-            "count": 2,
-            "examples": [
-                "trapse"
             ]
         },
         {
@@ -74,13 +60,6 @@
             ]
         },
         {
-            "normalized": "nm",
-            "count": 2,
-            "examples": [
-                "nm"
-            ]
-        },
-        {
             "normalized": "#",
             "count": 2,
             "examples": [
@@ -88,18 +67,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "n",
-                "matched": "n",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 3.33
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 4.0
     }
 }
