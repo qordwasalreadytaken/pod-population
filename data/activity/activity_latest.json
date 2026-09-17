@@ -1,13 +1,13 @@
 {
-    "timestamp": "2026-09-17T11:33:00+00:00",
+    "timestamp": "2026-09-17T11:46:00+00:00",
     "difficulty": {
-        "2": 6
+        "2": 5
     },
     "mode": {
-        "0": 6
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 6
+        "2|0": 5
     },
     "activities": [
         {
@@ -16,7 +16,7 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Trade",
@@ -43,10 +43,6 @@
         {
             "name": "115",
             "count": 1
-        },
-        {
-            "name": "asda",
-            "count": 1
         }
     ],
     "unknown_games": [
@@ -72,11 +68,6 @@
                 "name": "farming run 8",
                 "matched": "run",
                 "count": 1
-            },
-            {
-                "name": "asda",
-                "matched": "asd",
-                "count": 1
             }
         ],
         "Trade": [
@@ -88,8 +79,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 7.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 7.6
     }
 }
