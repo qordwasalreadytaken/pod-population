@@ -1,68 +1,72 @@
 {
-    "timestamp": "2026-09-17T15:46:00+00:00",
+    "timestamp": "2026-09-17T16:06:00+00:00",
     "difficulty": {
+        "0": 1,
         "2": 5,
-        "1": 2,
-        "0": 1
+        "1": 1
     },
     "mode": {
-        "0": 8
+        "1": 1,
+        "0": 6
     },
     "difficulty_mode": {
+        "0|1": 1,
         "2|0": 5,
-        "1|0": 2,
-        "0|0": 1
+        "1|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 3
+            "name": "Other",
+            "count": 2
         },
         {
-            "name": "Other",
-            "count": 3
+            "name": "Misc. Public MF Runs",
+            "count": 2
         },
         {
             "name": "Trade",
             "count": 2
+        },
+        {
+            "name": "Maps",
+            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "asd",
-            "count": 3
+            "count": 2
         },
         {
             "name": "n sorc t o hrs",
             "count": 2
         },
         {
-            "name": "61",
+            "name": "trapse",
             "count": 1
         },
         {
-            "name": "60",
+            "name": "pub map 1",
             "count": 1
         },
         {
-            "name": "wikid klownz",
+            "name": "67",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "#",
-            "count": 4,
+            "normalized": "trapse",
+            "count": 2,
             "examples": [
-                "60",
-                "61"
+                "trapse"
             ]
         },
         {
-            "normalized": "wikid klownz",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "wikid klownz"
+                "67"
             ]
         }
     ],
@@ -71,7 +75,7 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 3
+                "count": 2
             }
         ],
         "Trade": [
@@ -80,11 +84,18 @@
                 "matched": "n",
                 "count": 2
             }
+        ],
+        "Maps": [
+            {
+                "name": "pub map 1",
+                "matched": "map",
+                "count": 1
+            }
         ]
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 8,
-        "average_name_length": 6.6
+        "public_games": 7,
+        "average_name_length": 6.8
     }
 }
