@@ -1,26 +1,22 @@
 {
-    "timestamp": "2026-09-17T18:44:00+00:00",
+    "timestamp": "2026-09-17T18:53:00+00:00",
     "difficulty": {
         "0": 4,
-        "2": 2
+        "2": 1
     },
     "mode": {
         "1": 1,
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 2,
+        "2|0": 1,
         "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Trade",
-            "count": 2
+            "count": 5
         }
     ],
     "top_games": [
@@ -29,19 +25,15 @@
             "count": 1
         },
         {
-            "name": "n sorc torch 28",
-            "count": 1
-        },
-        {
             "name": "118",
             "count": 1
         },
         {
-            "name": "111555",
+            "name": "112",
             "count": 1
         },
         {
-            "name": "n",
+            "name": "111555",
             "count": 1
         },
         {
@@ -52,10 +44,11 @@
     "unknown_games": [
         {
             "normalized": "#",
-            "count": 6,
+            "count": 8,
             "examples": [
                 "111",
                 "111555",
+                "112",
                 "118"
             ]
         },
@@ -67,23 +60,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "n sorc torch 28",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "n",
-                "matched": "n",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 5.67
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 4.2
     }
 }
