@@ -1,52 +1,51 @@
 {
-    "timestamp": "2026-09-17T22:05:00+00:00",
+    "timestamp": "2026-09-17T22:21:00+00:00",
     "difficulty": {
         "2": 3,
-        "1": 1
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
         "2|0": 3,
-        "1|0": 1
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Other",
-            "count": 2
+            "count": 1
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "asd",
-            "count": 1
+            "count": 2
         },
         {
             "name": "n eld runes",
             "count": 1
         },
         {
-            "name": "eqwq",
+            "name": "1223",
             "count": 1
         },
         {
-            "name": "1223",
+            "name": "tombz 1",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "eqwq",
-            "count": 2,
-            "examples": [
-                "eqwq"
-            ]
-        },
         {
             "normalized": "#",
             "count": 2,
@@ -60,18 +59,25 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             },
             {
                 "name": "n eld runes",
                 "matched": "run",
                 "count": 1
             }
+        ],
+        "Leveling": [
+            {
+                "name": "tombz 1",
+                "matched": "tomb",
+                "count": 1
+            }
         ]
     },
     "interesting": {
         "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 5.5
+        "public_games": 5,
+        "average_name_length": 6.25
     }
 }
