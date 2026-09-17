@@ -1,65 +1,76 @@
 {
-    "timestamp": "2026-09-17T12:07:00+00:00",
+    "timestamp": "2026-09-17T12:34:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 3,
+        "1": 5
     },
     "mode": {
-        "0": 4
+        "0": 8
     },
     "difficulty_mode": {
-        "2|0": 4
+        "2|0": 3,
+        "1|0": 5
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 8
         }
     ],
     "top_games": [
         {
-            "name": "1224",
+            "name": "1227",
             "count": 1
         },
         {
-            "name": "1223",
-            "count": 1
-        },
-        {
-            "name": "farming run 8",
+            "name": "1226",
             "count": 1
         },
         {
             "name": "115",
+            "count": 1
+        },
+        {
+            "name": "15",
+            "count": 1
+        },
+        {
+            "name": "16",
+            "count": 1
+        },
+        {
+            "name": "14",
+            "count": 1
+        },
+        {
+            "name": "13",
+            "count": 1
+        },
+        {
+            "name": "12",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "#",
-            "count": 6,
+            "count": 16,
             "examples": [
                 "115",
-                "1223",
-                "1224"
+                "12",
+                "1226",
+                "1227",
+                "13",
+                "14",
+                "15",
+                "16"
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "farming run 8",
-                "matched": "run",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.0
+        "unique_names": 8,
+        "public_games": 8,
+        "average_name_length": 2.62
     }
 }
