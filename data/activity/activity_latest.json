@@ -1,27 +1,26 @@
 {
-    "timestamp": "2026-09-17T15:05:00+00:00",
+    "timestamp": "2026-09-17T15:24:00+00:00",
     "difficulty": {
-        "0": 1,
-        "2": 2,
-        "1": 4
+        "2": 3,
+        "1": 3,
+        "0": 3
     },
     "mode": {
-        "1": 1,
-        "0": 6
+        "0": 9
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 2,
-        "1|0": 4
+        "2|0": 3,
+        "1|0": 3,
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 6
         },
         {
             "name": "Trade",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -30,50 +29,67 @@
     ],
     "top_games": [
         {
-            "name": "trapse",
-            "count": 1
-        },
-        {
             "name": "n sorc t o hrs",
+            "count": 2
+        },
+        {
+            "name": "asd",
             "count": 1
         },
         {
-            "name": "anda run 28",
+            "name": "54",
             "count": 1
         },
         {
-            "name": "46",
+            "name": "53",
             "count": 1
         },
         {
-            "name": "45",
+            "name": "52",
             "count": 1
         },
         {
-            "name": "44",
+            "name": "ezzzzzzzzz",
             "count": 1
         },
         {
-            "name": "43",
+            "name": "wikid klownz",
+            "count": 1
+        },
+        {
+            "name": "fghfhhj",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "#",
-            "count": 8,
+            "count": 6,
             "examples": [
-                "43",
-                "44",
-                "45",
-                "46"
+                "52",
+                "53",
+                "54"
             ]
         },
         {
-            "normalized": "trapse",
+            "normalized": "ezzzzzzzzz",
             "count": 2,
             "examples": [
-                "trapse"
+                "ezzzzzzzzz"
+            ]
+        },
+        {
+            "normalized": "wikid klownz",
+            "count": 2,
+            "examples": [
+                "wikid klownz"
+            ]
+        },
+        {
+            "normalized": "fghfhhj",
+            "count": 2,
+            "examples": [
+                "fghfhhj"
             ]
         }
     ],
@@ -82,20 +98,20 @@
             {
                 "name": "n sorc t o hrs",
                 "matched": "n",
-                "count": 1
+                "count": 2
             }
         ],
         "Misc. Public MF Runs": [
             {
-                "name": "anda run 28",
-                "matched": "run",
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 5.57
+        "unique_names": 8,
+        "public_games": 9,
+        "average_name_length": 6.5
     }
 }
