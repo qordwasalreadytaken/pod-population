@@ -1,29 +1,41 @@
 {
-    "timestamp": "2026-09-17T12:34:00+00:00",
+    "timestamp": "2026-09-17T12:53:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 5
+        "2": 5,
+        "1": 2
     },
     "mode": {
-        "0": 8
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "1|0": 5
+        "2|0": 5,
+        "1|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 8
+            "count": 4
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "1227",
+            "name": "anda run 4",
             "count": 1
         },
         {
-            "name": "1226",
+            "name": "anda run 3",
+            "count": 1
+        },
+        {
+            "name": "anda run 2",
+            "count": 1
+        },
+        {
+            "name": "1227",
             "count": 1
         },
         {
@@ -31,46 +43,48 @@
             "count": 1
         },
         {
-            "name": "15",
+            "name": "24",
             "count": 1
         },
         {
-            "name": "16",
-            "count": 1
-        },
-        {
-            "name": "14",
-            "count": 1
-        },
-        {
-            "name": "13",
-            "count": 1
-        },
-        {
-            "name": "12",
+            "name": "23",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "#",
-            "count": 16,
+            "count": 8,
             "examples": [
                 "115",
-                "12",
-                "1226",
                 "1227",
-                "13",
-                "14",
-                "15",
-                "16"
+                "23",
+                "24"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "anda run 4",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "anda run 3",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "anda run 2",
+                "matched": "run",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 8,
-        "average_name_length": 2.62
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 5.86
     }
 }
