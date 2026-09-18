@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-09-18T14:35:00+00:00",
+    "timestamp": "2026-09-18T14:47:00+00:00",
     "difficulty": {
         "2": 4,
         "1": 1,
-        "0": 1
+        "0": 2
     },
     "mode": {
-        "0": 6
+        "0": 7
     },
     "difficulty_mode": {
         "2|0": 4,
         "1|0": 1,
-        "0|0": 1
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 5
         },
         {
             "name": "Misc. Public MF Runs",
@@ -29,15 +29,15 @@
     ],
     "top_games": [
         {
+            "name": "asd",
+            "count": 1
+        },
+        {
             "name": "12115",
             "count": 1
         },
         {
             "name": "lvv",
-            "count": 1
-        },
-        {
-            "name": "saasda",
             "count": 1
         },
         {
@@ -49,6 +49,10 @@
             "count": 1
         },
         {
+            "name": "12",
+            "count": 1
+        },
+        {
             "name": "trav wp pls",
             "count": 1
         }
@@ -56,8 +60,9 @@
     "unknown_games": [
         {
             "normalized": "#",
-            "count": 2,
+            "count": 4,
             "examples": [
+                "12",
                 "12115"
             ]
         },
@@ -86,7 +91,7 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "saasda",
+                "name": "asd",
                 "matched": "asd",
                 "count": 1
             }
@@ -100,8 +105,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 6.83
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 5.71
     }
 }
