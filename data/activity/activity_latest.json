@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-09-18T17:19:00+00:00",
+    "timestamp": "2026-09-18T17:32:00+00:00",
     "difficulty": {
         "2": 5,
-        "0": 2
+        "0": 3
     },
     "mode": {
-        "0": 7
+        "0": 8
     },
     "difficulty_mode": {
         "2|0": 5,
-        "0|0": 2
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Misc. Public MF Runs",
@@ -31,15 +31,19 @@
             "count": 2
         },
         {
-            "name": "b sorc torch 36",
+            "name": "b sorc torch 39",
             "count": 1
         },
         {
-            "name": "b sorc torch 35",
+            "name": "b sorc torch 38",
             "count": 1
         },
         {
             "name": "ads",
+            "count": 1
+        },
+        {
+            "name": "1214",
             "count": 1
         },
         {
@@ -54,9 +58,10 @@
     "unknown_games": [
         {
             "normalized": "#",
-            "count": 4,
+            "count": 6,
             "examples": [
                 "1213",
+                "1214",
                 "1223"
             ]
         },
@@ -78,20 +83,20 @@
         ],
         "Trade": [
             {
-                "name": "b sorc torch 36",
+                "name": "b sorc torch 39",
                 "matched": "torch",
                 "count": 1
             },
             {
-                "name": "b sorc torch 35",
+                "name": "b sorc torch 38",
                 "matched": "torch",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 7.33
+        "unique_names": 7,
+        "public_games": 8,
+        "average_name_length": 6.86
     }
 }
