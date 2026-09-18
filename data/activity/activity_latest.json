@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-09-18T09:46:00+00:00",
+    "timestamp": "2026-09-18T10:05:00+00:00",
     "difficulty": {
-        "2": 5,
+        "2": 4,
         "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 7
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 5,
+        "2|0": 4,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 6
+            "count": 5
         },
         {
             "name": "Trade",
@@ -24,6 +24,10 @@
         }
     ],
     "top_games": [
+        {
+            "name": "ooc`s for elds",
+            "count": 1
+        },
         {
             "name": "12111",
             "count": 1
@@ -33,15 +37,7 @@
             "count": 1
         },
         {
-            "name": "ooc`s for elds",
-            "count": 1
-        },
-        {
             "name": "lvv",
-            "count": 1
-        },
-        {
-            "name": "120",
             "count": 1
         },
         {
@@ -56,9 +52,8 @@
     "unknown_games": [
         {
             "normalized": "#",
-            "count": 4,
+            "count": 2,
             "examples": [
-                "120",
                 "12111"
             ]
         },
@@ -101,8 +96,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 5.86
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 6.33
     }
 }
