@@ -1,24 +1,24 @@
 {
-    "timestamp": "2026-09-18T12:33:00+00:00",
+    "timestamp": "2026-09-18T12:52:00+00:00",
     "difficulty": {
         "0": 2,
         "2": 3,
-        "1": 2
+        "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 6
+        "0": 5
     },
     "difficulty_mode": {
         "0|1": 1,
         "2|0": 3,
-        "1|0": 2,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 4
         },
         {
             "name": "Trade",
@@ -31,19 +31,15 @@
             "count": 1
         },
         {
+            "name": "saas",
+            "count": 1
+        },
+        {
             "name": "n griffon 3s",
             "count": 1
         },
         {
-            "name": "12113",
-            "count": 1
-        },
-        {
             "name": "ooc`s for elds",
-            "count": 1
-        },
-        {
-            "name": "dobertoto",
             "count": 1
         },
         {
@@ -57,14 +53,6 @@
     ],
     "unknown_games": [
         {
-            "normalized": "#",
-            "count": 4,
-            "examples": [
-                "1",
-                "12113"
-            ]
-        },
-        {
             "normalized": "trapse",
             "count": 2,
             "examples": [
@@ -72,10 +60,10 @@
             ]
         },
         {
-            "normalized": "dobertoto",
+            "normalized": "saas",
             "count": 2,
             "examples": [
-                "dobertoto"
+                "saas"
             ]
         },
         {
@@ -83,6 +71,13 @@
             "count": 2,
             "examples": [
                 "nm"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1"
             ]
         }
     ],
@@ -101,8 +96,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 7.0
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 6.5
     }
 }
