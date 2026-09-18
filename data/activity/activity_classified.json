@@ -546,7 +546,7 @@
         },
         {
             "name": "n necro torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -1393,6 +1393,11 @@
             "name": "b sorc torch 25",
             "matched": "torch",
             "count": 1
+        },
+        {
+            "name": "b sorc torch 28",
+            "matched": "torch",
+            "count": 1
         }
     ],
     "Leveling": [
@@ -1538,7 +1543,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "start",
+            "matched": "act",
             "count": 3
         },
         {
@@ -1618,7 +1623,7 @@
         },
         {
             "name": "normal act",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -1653,7 +1658,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "exp",
+            "matched": "act",
             "count": 2
         },
         {
@@ -1718,7 +1723,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "norm",
+            "matched": "tomb",
             "count": 1
         },
         {
@@ -2802,7 +2807,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -3888,17 +3893,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]

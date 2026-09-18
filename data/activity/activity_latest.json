@@ -1,110 +1,73 @@
 {
-    "timestamp": "2026-09-18T16:34:00+00:00",
+    "timestamp": "2026-09-18T16:46:00+00:00",
     "difficulty": {
-        "2": 7,
-        "0": 1
+        "2": 2,
+        "0": 2
     },
     "mode": {
-        "0": 8
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 7,
-        "0|0": 1
+        "2|0": 2,
+        "0|0": 2
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 4
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 2
-        },
-        {
             "name": "Other",
-            "count": 2
+            "count": 3
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 2
-        },
-        {
-            "name": "b sorc torch 27",
+            "name": "b sorc torch 28",
             "count": 1
         },
         {
-            "name": "b sorc torch 26",
+            "name": "ads",
             "count": 1
         },
         {
-            "name": "b sorc torch 25",
+            "name": "1223",
             "count": 1
         },
         {
-            "name": "ooc`s for elds",
-            "count": 1
-        },
-        {
-            "name": "dads",
-            "count": 1
-        },
-        {
-            "name": "1212",
+            "name": "1213",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "dads",
-            "count": 2,
+            "normalized": "#",
+            "count": 4,
             "examples": [
-                "dads"
+                "1213",
+                "1223"
             ]
         },
         {
-            "normalized": "#",
+            "normalized": "ads",
             "count": 2,
             "examples": [
-                "1212"
+                "ads"
             ]
         }
     ],
     "classified_games": {
         "Trade": [
             {
-                "name": "b sorc torch 27",
+                "name": "b sorc torch 28",
                 "matched": "torch",
                 "count": 1
-            },
-            {
-                "name": "b sorc torch 26",
-                "matched": "torch",
-                "count": 1
-            },
-            {
-                "name": "b sorc torch 25",
-                "matched": "torch",
-                "count": 1
-            },
-            {
-                "name": "ooc`s for elds",
-                "matched": "for",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 8,
-        "average_name_length": 10.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 6.5
     }
 }
