@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-09-18T20:46:00+00:00",
+    "timestamp": "2026-09-18T21:04:00+00:00",
     "difficulty": {
-        "2": 7,
+        "2": 6,
         "0": 1
     },
     "mode": {
-        "0": 8
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 7,
+        "2|0": 6,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 6
+            "count": 5
         },
         {
             "name": "Other",
@@ -23,31 +23,23 @@
     ],
     "top_games": [
         {
-            "name": "mepi run 6",
-            "count": 1
-        },
-        {
-            "name": "mepi run 5",
-            "count": 1
-        },
-        {
-            "name": "mepi run 4",
-            "count": 1
-        },
-        {
-            "name": "mepi run 3",
-            "count": 1
-        },
-        {
             "name": "asd",
+            "count": 2
+        },
+        {
+            "name": "mepi run 13",
+            "count": 1
+        },
+        {
+            "name": "mepi run 12",
+            "count": 1
+        },
+        {
+            "name": "dasad",
             "count": 1
         },
         {
             "name": "n eld runes",
-            "count": 1
-        },
-        {
-            "name": "adssd",
             "count": 1
         },
         {
@@ -57,10 +49,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "adssd",
+            "normalized": "dasad",
             "count": 2,
             "examples": [
-                "adssd"
+                "dasad"
             ]
         },
         {
@@ -74,28 +66,18 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "mepi run 6",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "mepi run 5",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "mepi run 4",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "mepi run 3",
-                "matched": "run",
-                "count": 1
-            },
-            {
                 "name": "asd",
                 "matched": "asd",
+                "count": 2
+            },
+            {
+                "name": "mepi run 13",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "mepi run 12",
+                "matched": "run",
                 "count": 1
             },
             {
@@ -106,8 +88,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 8,
-        "average_name_length": 8.88
+        "unique_names": 6,
+        "public_games": 7,
+        "average_name_length": 8.83
     }
 }
