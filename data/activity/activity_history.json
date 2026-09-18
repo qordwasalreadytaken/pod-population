@@ -216,7 +216,7 @@
             "Trade": [
                 {
                     "name": "n pala torch",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 },
                 {
@@ -701,7 +701,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -772,7 +772,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -8995,7 +8995,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 },
                 {
@@ -12824,7 +12824,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 }
             ]
@@ -14535,7 +14535,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ],
@@ -17824,7 +17824,7 @@
             "Leveling": [
                 {
                     "name": "normal tombin",
-                    "matched": "tomb",
+                    "matched": "norm",
                     "count": 1
                 },
                 {
@@ -20087,7 +20087,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -20187,7 +20187,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "act",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -35849,7 +35849,7 @@
             "Leveling": [
                 {
                     "name": "act start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -38979,7 +38979,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -39036,7 +39036,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -39110,7 +39110,7 @@
             "Leveling": [
                 {
                     "name": "act 1 start",
-                    "matched": "start",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -45195,7 +45195,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -45294,7 +45294,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -45383,7 +45383,7 @@
             "Maps": [
                 {
                     "name": "mapping 2",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ],
@@ -61468,7 +61468,7 @@
                 },
                 {
                     "name": "mapping",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -89630,7 +89630,7 @@
             "Maps": [
                 {
                     "name": "mapping 1",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -144178,7 +144178,7 @@
             "Trade": [
                 {
                     "name": "n oocs wuw",
-                    "matched": "n",
+                    "matched": "wuw",
                     "count": 1
                 }
             ]
@@ -150087,7 +150087,7 @@
             "Maps": [
                 {
                     "name": "sunday mapping",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ],
@@ -150172,7 +150172,7 @@
             "Maps": [
                 {
                     "name": "sunday mapping",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 2
                 }
             ],
@@ -150257,7 +150257,7 @@
             "Maps": [
                 {
                     "name": "sunday mapping",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 2
                 }
             ],
@@ -150360,7 +150360,7 @@
             "Maps": [
                 {
                     "name": "sunday mapping",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -150445,7 +150445,7 @@
             "Maps": [
                 {
                     "name": "sunday mapping",
-                    "matched": "mapping",
+                    "matched": "map",
                     "count": 1
                 }
             ]
@@ -231618,6 +231618,109 @@
             "unique_names": 10,
             "public_games": 10,
             "average_name_length": 8.3
+        }
+    },
+    {
+        "timestamp": "2026-09-18T21:46:00+00:00",
+        "difficulty": {
+            "2": 4,
+            "1": 1,
+            "0": 1
+        },
+        "mode": {
+            "0": 6
+        },
+        "difficulty_mode": {
+            "2|0": 4,
+            "1|0": 1,
+            "0|0": 1
+        },
+        "activities": [
+            {
+                "name": "Misc. Public MF Runs",
+                "count": 3
+            },
+            {
+                "name": "Other",
+                "count": 2
+            },
+            {
+                "name": "Rush",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "mepi run 25",
+                "count": 1
+            },
+            {
+                "name": "n eld runes",
+                "count": 1
+            },
+            {
+                "name": "asd",
+                "count": 1
+            },
+            {
+                "name": "dasad",
+                "count": 1
+            },
+            {
+                "name": "nm rush pls",
+                "count": 1
+            },
+            {
+                "name": "wikid klownz",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "dasad",
+                "count": 2,
+                "examples": [
+                    "dasad"
+                ]
+            },
+            {
+                "normalized": "wikid klownz",
+                "count": 2,
+                "examples": [
+                    "wikid klownz"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Misc. Public MF Runs": [
+                {
+                    "name": "mepi run 25",
+                    "matched": "run",
+                    "count": 1
+                },
+                {
+                    "name": "n eld runes",
+                    "matched": "run",
+                    "count": 1
+                },
+                {
+                    "name": "asd",
+                    "matched": "asd",
+                    "count": 1
+                }
+            ],
+            "Rush": [
+                {
+                    "name": "nm rush pls",
+                    "matched": "rush",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 6,
+            "public_games": 6,
+            "average_name_length": 8.83
         }
     }
 ]

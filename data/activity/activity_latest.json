@@ -1,43 +1,35 @@
 {
-    "timestamp": "2026-09-18T21:32:00+00:00",
+    "timestamp": "2026-09-18T21:46:00+00:00",
     "difficulty": {
-        "2": 7,
-        "1": 2,
+        "2": 4,
+        "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 10
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 7,
-        "1|0": 2,
+        "2|0": 4,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 6
+            "count": 3
         },
         {
             "name": "Other",
-            "count": 4
+            "count": 2
+        },
+        {
+            "name": "Rush",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "mepi run 23",
-            "count": 1
-        },
-        {
-            "name": "mepi run 22",
-            "count": 1
-        },
-        {
-            "name": "mepi run 21",
-            "count": 1
-        },
-        {
-            "name": "mepi run 20",
+            "name": "mepi run 25",
             "count": 1
         },
         {
@@ -53,11 +45,7 @@
             "count": 1
         },
         {
-            "name": "1213",
-            "count": 1
-        },
-        {
-            "name": "1212",
+            "name": "nm rush pls",
             "count": 1
         },
         {
@@ -66,14 +54,6 @@
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "#",
-            "count": 4,
-            "examples": [
-                "1212",
-                "1213"
-            ]
-        },
         {
             "normalized": "dasad",
             "count": 2,
@@ -92,22 +72,7 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "mepi run 23",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "mepi run 22",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "mepi run 21",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "mepi run 20",
+                "name": "mepi run 25",
                 "matched": "run",
                 "count": 1
             },
@@ -121,11 +86,18 @@
                 "matched": "asd",
                 "count": 1
             }
+        ],
+        "Rush": [
+            {
+                "name": "nm rush pls",
+                "matched": "rush",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 10,
-        "public_games": 10,
-        "average_name_length": 8.3
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 8.83
     }
 }
