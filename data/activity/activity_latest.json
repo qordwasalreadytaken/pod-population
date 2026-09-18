@@ -1,24 +1,24 @@
 {
-    "timestamp": "2026-09-18T18:06:00+00:00",
+    "timestamp": "2026-09-18T18:27:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 5,
         "1": 1
     },
     "mode": {
-        "0": 4
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 5,
         "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Trade",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -27,15 +27,23 @@
     ],
     "top_games": [
         {
+            "name": "b sorc torch 46",
+            "count": 1
+        },
+        {
+            "name": "t",
+            "count": 1
+        },
+        {
+            "name": "gord",
+            "count": 1
+        },
+        {
             "name": "12116",
             "count": 1
         },
         {
             "name": "b sorc torch 45",
-            "count": 1
-        },
-        {
-            "name": "gord",
             "count": 1
         },
         {
@@ -51,10 +59,22 @@
                 "12116",
                 "1215"
             ]
+        },
+        {
+            "normalized": "t",
+            "count": 2,
+            "examples": [
+                "t"
+            ]
         }
     ],
     "classified_games": {
         "Trade": [
+            {
+                "name": "b sorc torch 46",
+                "matched": "torch",
+                "count": 1
+            },
             {
                 "name": "b sorc torch 45",
                 "matched": "torch",
@@ -70,8 +90,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 7.0
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 7.33
     }
 }
