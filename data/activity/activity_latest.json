@@ -1,32 +1,26 @@
 {
-    "timestamp": "2026-09-18T14:05:00+00:00",
+    "timestamp": "2026-09-18T14:24:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 2,
-        "1": 1
+        "2": 4,
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 4
+        "0": 6
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 2,
+        "2|0": 4,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Chaos",
-            "count": 1
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Trade",
@@ -35,11 +29,15 @@
     ],
     "top_games": [
         {
-            "name": "n diablo help",
+            "name": "asd",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "lvv",
+            "count": 1
+        },
+        {
+            "name": "saasda",
             "count": 1
         },
         {
@@ -51,11 +49,18 @@
             "count": 1
         },
         {
-            "name": "travincal pls",
+            "name": "trav wp pls",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "lvv",
+            "count": 2,
+            "examples": [
+                "lvv"
+            ]
+        },
         {
             "normalized": "nm",
             "count": 2,
@@ -64,24 +69,22 @@
             ]
         },
         {
-            "normalized": "travincal pls",
+            "normalized": "trav wp pls",
             "count": 2,
             "examples": [
-                "travincal pls"
+                "trav wp pls"
             ]
         }
     ],
     "classified_games": {
-        "Chaos": [
-            {
-                "name": "n diablo help",
-                "matched": "dia",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "saasda",
                 "matched": "asd",
                 "count": 1
             }
@@ -95,8 +98,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 9.0
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 6.5
     }
 }
