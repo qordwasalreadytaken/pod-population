@@ -1,24 +1,27 @@
 {
-    "timestamp": "2026-09-18T12:52:00+00:00",
+    "timestamp": "2026-09-18T13:04:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 3,
+        "0": 1,
+        "2": 5,
         "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 5
+        "0": 6
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 3,
-        "1|0": 1,
-        "0|0": 1
+        "2|0": 5,
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 3
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 2
         },
         {
             "name": "Trade",
@@ -26,6 +29,10 @@
         }
     ],
     "top_games": [
+        {
+            "name": "asd",
+            "count": 2
+        },
         {
             "name": "trapse",
             "count": 1
@@ -44,10 +51,6 @@
         },
         {
             "name": "nm",
-            "count": 1
-        },
-        {
-            "name": "1",
             "count": 1
         }
     ],
@@ -72,16 +75,16 @@
             "examples": [
                 "nm"
             ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "1"
-            ]
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 2
+            }
+        ],
         "Trade": [
             {
                 "name": "n griffon 3s",
@@ -97,7 +100,7 @@
     },
     "interesting": {
         "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 6.5
+        "public_games": 7,
+        "average_name_length": 6.83
     }
 }
