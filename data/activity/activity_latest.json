@@ -1,15 +1,21 @@
 {
-    "timestamp": "2026-09-18T03:05:00+00:00",
+    "timestamp": "2026-09-18T03:27:00+00:00",
     "difficulty": {
+        "2": 1,
         "0": 1
     },
     "mode": {
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
+        "2|0": 1,
         "0|0": 1
     },
     "activities": [
+        {
+            "name": "Trade",
+            "count": 1
+        },
         {
             "name": "Other",
             "count": 1
@@ -17,23 +23,35 @@
     ],
     "top_games": [
         {
-            "name": "b shako 4 oocs",
+            "name": "n frw rings",
+            "count": 1
+        },
+        {
+            "name": "wikid klownz",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "b shako # oocs",
+            "normalized": "wikid klownz",
             "count": 2,
             "examples": [
-                "b shako 4 oocs"
+                "wikid klownz"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Trade": [
+            {
+                "name": "n frw rings",
+                "matched": "n",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 14.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 11.5
     }
 }
