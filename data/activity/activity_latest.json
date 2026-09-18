@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-18T20:23:00+00:00",
+    "timestamp": "2026-09-18T20:33:00+00:00",
     "difficulty": {
         "2": 5,
         "0": 1
@@ -14,32 +14,24 @@
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Other",
             "count": 2
-        },
-        {
-            "name": "Baal",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n eld runes",
-            "count": 1
-        },
-        {
-            "name": "baal run 3",
-            "count": 1
-        },
-        {
             "name": "asd",
+            "count": 2
+        },
+        {
+            "name": "mepi run 2",
             "count": 1
         },
         {
-            "name": "gord",
+            "name": "n eld runes",
             "count": 1
         },
         {
@@ -70,32 +62,25 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "n eld runes",
+                "name": "asd",
+                "matched": "asd",
+                "count": 2
+            },
+            {
+                "name": "mepi run 2",
                 "matched": "run",
                 "count": 1
             },
             {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            }
-        ],
-        "Baal": [
-            {
-                "name": "baal run 3",
-                "matched": "baal",
+                "name": "n eld runes",
+                "matched": "run",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
+        "unique_names": 5,
         "public_games": 6,
-        "average_name_length": 7.5
+        "average_name_length": 8.2
     }
 }
