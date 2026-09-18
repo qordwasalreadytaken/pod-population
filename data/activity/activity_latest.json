@@ -1,128 +1,66 @@
 {
-    "timestamp": "2026-09-18T18:47:00+00:00",
+    "timestamp": "2026-09-18T19:04:00+00:00",
     "difficulty": {
-        "2": 8,
+        "2": 4,
         "1": 1
     },
     "mode": {
-        "0": 9
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 8,
+        "2|0": 4,
         "1|0": 1
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 5
-        },
-        {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 4
         },
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "b sorc torch 57",
-            "count": 1
-        },
-        {
-            "name": "b sorc torch 56",
-            "count": 1
-        },
-        {
-            "name": "b sorc torch 55",
-            "count": 1
-        },
-        {
-            "name": "b sorc torch 54",
-            "count": 1
+            "name": "gord",
+            "count": 2
         },
         {
             "name": "asd",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "b sorc torch 53",
-            "count": 1
-        },
-        {
-            "name": "t",
-            "count": 1
-        },
-        {
-            "name": "gord",
-            "count": 1
-        },
-        {
-            "name": "1215",
+            "name": "trav wp pls",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "t",
+            "normalized": "trav wp pls",
             "count": 2,
             "examples": [
-                "t"
-            ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "1215"
+                "trav wp pls"
             ]
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "b sorc torch 57",
-                "matched": "torch",
-                "count": 1
-            },
-            {
-                "name": "b sorc torch 56",
-                "matched": "torch",
-                "count": 1
-            },
-            {
-                "name": "b sorc torch 55",
-                "matched": "torch",
-                "count": 1
-            },
-            {
-                "name": "b sorc torch 54",
-                "matched": "torch",
-                "count": 1
-            },
-            {
-                "name": "b sorc torch 53",
-                "matched": "torch",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            },
             {
                 "name": "gord",
                 "matched": "gord",
-                "count": 1
+                "count": 2
+            },
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 9,
-        "public_games": 9,
-        "average_name_length": 9.67
+        "unique_names": 3,
+        "public_games": 5,
+        "average_name_length": 6.0
     }
 }
