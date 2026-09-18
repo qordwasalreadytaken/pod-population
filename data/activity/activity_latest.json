@@ -1,29 +1,21 @@
 {
-    "timestamp": "2026-09-18T13:46:00+00:00",
+    "timestamp": "2026-09-18T14:05:00+00:00",
     "difficulty": {
         "0": 2,
-        "2": 4,
+        "2": 2,
         "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 6
+        "0": 4
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 4,
+        "2|0": 2,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 2
-        },
-        {
-            "name": "Trade",
-            "count": 2
-        },
         {
             "name": "Other",
             "count": 2
@@ -31,15 +23,23 @@
         {
             "name": "Chaos",
             "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 2
+            "name": "n diablo help",
+            "count": 1
         },
         {
-            "name": "n diablo help",
+            "name": "asd",
             "count": 1
         },
         {
@@ -47,15 +47,11 @@
             "count": 1
         },
         {
-            "name": "n homunculus",
-            "count": 1
-        },
-        {
             "name": "nm",
             "count": 1
         },
         {
-            "name": "b shako 4 oocs",
+            "name": "travincal pls",
             "count": 1
         }
     ],
@@ -68,10 +64,10 @@
             ]
         },
         {
-            "normalized": "b shako # oocs",
+            "normalized": "travincal pls",
             "count": 2,
             "examples": [
-                "b shako 4 oocs"
+                "travincal pls"
             ]
         }
     ],
@@ -87,7 +83,7 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             }
         ],
         "Trade": [
@@ -95,17 +91,12 @@
                 "name": "ooc`s for elds",
                 "matched": "for",
                 "count": 1
-            },
-            {
-                "name": "n homunculus",
-                "matched": "n",
-                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 9.67
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 9.0
     }
 }
