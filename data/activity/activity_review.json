@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 1914,
+        "count": 1916,
         "examples": [
             "1",
             "10",
@@ -690,6 +690,13 @@
         ]
     },
     {
+        "normalized": "b um # oocs",
+        "count": 18,
+        "examples": [
+            "b um 4 oocs"
+        ]
+    },
+    {
         "normalized": "mana",
         "count": 16,
         "examples": [
@@ -801,13 +808,6 @@
         "count": 16,
         "examples": [
             "re"
-        ]
-    },
-    {
-        "normalized": "b um # oocs",
-        "count": 16,
-        "examples": [
-            "b um 4 oocs"
         ]
     },
     {
