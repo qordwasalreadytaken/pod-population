@@ -1,23 +1,27 @@
 {
-    "timestamp": "2026-09-18T11:21:00+00:00",
+    "timestamp": "2026-09-18T11:32:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 2,
+        "2": 3,
         "1": 2
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 2,
+        "2|0": 3,
         "1|0": 2
     },
     "activities": [
         {
             "name": "Other",
             "count": 4
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         },
         {
             "name": "Trade",
@@ -27,6 +31,10 @@
     "top_games": [
         {
             "name": "trapse",
+            "count": 1
+        },
+        {
+            "name": "asd",
             "count": 1
         },
         {
@@ -77,6 +85,13 @@
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "ooc`s for elds",
@@ -86,8 +101,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.6
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 6.0
     }
 }
