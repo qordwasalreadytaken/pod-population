@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-09-18T21:04:00+00:00",
+    "timestamp": "2026-09-18T21:20:00+00:00",
     "difficulty": {
-        "2": 6,
+        "2": 5,
         "0": 1
     },
     "mode": {
-        "0": 7
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 6,
+        "2|0": 5,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 5
+            "count": 4
         },
         {
             "name": "Other",
@@ -23,15 +23,15 @@
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 2
-        },
-        {
-            "name": "mepi run 13",
+            "name": "mepi run 17",
             "count": 1
         },
         {
-            "name": "mepi run 12",
+            "name": "mepi run 16",
+            "count": 1
+        },
+        {
+            "name": "asd",
             "count": 1
         },
         {
@@ -43,7 +43,7 @@
             "count": 1
         },
         {
-            "name": "wikid klownz",
+            "name": "morbius inc",
             "count": 1
         }
     ],
@@ -56,28 +56,28 @@
             ]
         },
         {
-            "normalized": "wikid klownz",
+            "normalized": "morbius inc",
             "count": 2,
             "examples": [
-                "wikid klownz"
+                "morbius inc"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
-                "matched": "asd",
-                "count": 2
-            },
-            {
-                "name": "mepi run 13",
+                "name": "mepi run 17",
                 "matched": "run",
                 "count": 1
             },
             {
-                "name": "mepi run 12",
+                "name": "mepi run 16",
                 "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             },
             {
@@ -89,7 +89,7 @@
     },
     "interesting": {
         "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 8.83
+        "public_games": 6,
+        "average_name_length": 8.67
     }
 }
