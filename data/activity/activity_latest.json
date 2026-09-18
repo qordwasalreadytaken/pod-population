@@ -1,23 +1,23 @@
 {
-    "timestamp": "2026-09-18T11:32:00+00:00",
+    "timestamp": "2026-09-18T11:46:00+00:00",
     "difficulty": {
-        "0": 1,
+        "0": 2,
         "2": 3,
         "1": 2
     },
     "mode": {
-        "1": 1,
+        "1": 2,
         "0": 5
     },
     "difficulty_mode": {
-        "0|1": 1,
+        "0|1": 2,
         "2|0": 3,
         "1|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 5
         },
         {
             "name": "Misc. Public MF Runs",
@@ -31,7 +31,7 @@
     "top_games": [
         {
             "name": "trapse",
-            "count": 1
+            "count": 2
         },
         {
             "name": "asd",
@@ -57,7 +57,7 @@
     "unknown_games": [
         {
             "normalized": "trapse",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "trapse"
             ]
@@ -102,7 +102,7 @@
     },
     "interesting": {
         "unique_names": 6,
-        "public_games": 6,
+        "public_games": 7,
         "average_name_length": 6.0
     }
 }
