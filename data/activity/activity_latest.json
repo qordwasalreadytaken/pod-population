@@ -1,13 +1,15 @@
 {
-    "timestamp": "2026-09-18T22:32:00+00:00",
+    "timestamp": "2026-09-18T22:47:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 3,
+        "0": 1
     },
     "mode": {
         "0": 4
     },
     "difficulty_mode": {
-        "2|0": 4
+        "2|0": 3,
+        "0|0": 1
     },
     "activities": [
         {
@@ -15,17 +17,17 @@
             "count": 2
         },
         {
-            "name": "Trade",
-            "count": 1
-        },
-        {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "n sorc torch",
+            "name": "n eld runes",
+            "count": 1
+        },
+        {
+            "name": "adas",
             "count": 1
         },
         {
@@ -33,40 +35,36 @@
             "count": 1
         },
         {
-            "name": "n eld runes",
-            "count": 1
-        },
-        {
-            "name": "dasad",
+            "name": "ggggggga",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "dasad",
+            "normalized": "adas",
             "count": 2,
             "examples": [
-                "dasad"
+                "adas"
+            ]
+        },
+        {
+            "normalized": "ggggggga",
+            "count": 2,
+            "examples": [
+                "ggggggga"
             ]
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n sorc torch",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            },
             {
                 "name": "n eld runes",
                 "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             }
         ]
@@ -74,6 +72,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 7.75
+        "average_name_length": 6.5
     }
 }
