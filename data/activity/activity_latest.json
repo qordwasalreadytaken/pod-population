@@ -1,28 +1,21 @@
 {
-    "timestamp": "2026-09-18T10:24:00+00:00",
+    "timestamp": "2026-09-18T10:34:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 4,
-        "1": 1
+        "0": 1,
+        "2": 2
     },
     "mode": {
         "1": 1,
-        "0": 6
+        "0": 2
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 4,
-        "1|0": 1,
-        "0|0": 1
+        "2|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 6
-        },
-        {
-            "name": "Trade",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
@@ -31,27 +24,11 @@
             "count": 1
         },
         {
-            "name": "ooc`s for elds",
-            "count": 1
-        },
-        {
             "name": "12111",
             "count": 1
         },
         {
             "name": "sdsa",
-            "count": 1
-        },
-        {
-            "name": "lvv",
-            "count": 1
-        },
-        {
-            "name": "gotero",
-            "count": 1
-        },
-        {
-            "name": "larzuk",
             "count": 1
         }
     ],
@@ -76,41 +53,12 @@
             "examples": [
                 "sdsa"
             ]
-        },
-        {
-            "normalized": "lvv",
-            "count": 2,
-            "examples": [
-                "lvv"
-            ]
-        },
-        {
-            "normalized": "gotero",
-            "count": 2,
-            "examples": [
-                "gotero"
-            ]
-        },
-        {
-            "normalized": "larzuk",
-            "count": 2,
-            "examples": [
-                "larzuk"
-            ]
         }
     ],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "ooc`s for elds",
-                "matched": "for",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 6.29
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 5.0
     }
 }
