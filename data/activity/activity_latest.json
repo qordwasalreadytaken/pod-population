@@ -1,48 +1,61 @@
 {
-    "timestamp": "2026-09-18T13:04:00+00:00",
+    "timestamp": "2026-09-18T13:22:00+00:00",
     "difficulty": {
-        "0": 1,
+        "0": 4,
         "2": 5,
         "1": 1
     },
     "mode": {
-        "1": 1,
-        "0": 6
+        "1": 2,
+        "0": 8
     },
     "difficulty_mode": {
-        "0|1": 1,
+        "0|1": 2,
         "2|0": 5,
-        "1|0": 1
+        "1|0": 1,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 7
+        },
+        {
+            "name": "Chaos",
+            "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Trade",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 2
+            "name": "n diablo help",
+            "count": 1
         },
         {
             "name": "trapse",
             "count": 1
         },
         {
-            "name": "saas",
+            "name": "12114",
             "count": 1
         },
         {
-            "name": "n griffon 3s",
+            "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "dsasa",
+            "count": 1
+        },
+        {
+            "name": "saas",
             "count": 1
         },
         {
@@ -52,14 +65,38 @@
         {
             "name": "nm",
             "count": 1
+        },
+        {
+            "name": "2",
+            "count": 1
+        },
+        {
+            "name": "1221",
+            "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "#",
+            "count": 6,
+            "examples": [
+                "12114",
+                "1221",
+                "2"
+            ]
+        },
         {
             "normalized": "trapse",
             "count": 2,
             "examples": [
                 "trapse"
+            ]
+        },
+        {
+            "normalized": "dsasa",
+            "count": 2,
+            "examples": [
+                "dsasa"
             ]
         },
         {
@@ -78,19 +115,21 @@
         }
     ],
     "classified_games": {
+        "Chaos": [
+            {
+                "name": "n diablo help",
+                "matched": "dia",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             }
         ],
         "Trade": [
-            {
-                "name": "n griffon 3s",
-                "matched": "n",
-                "count": 1
-            },
             {
                 "name": "ooc`s for elds",
                 "matched": "for",
@@ -99,8 +138,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 6.83
+        "unique_names": 10,
+        "public_games": 10,
+        "average_name_length": 5.7
     }
 }
