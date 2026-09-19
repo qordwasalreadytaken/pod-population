@@ -1,14 +1,14 @@
 {
-    "timestamp": "2026-09-19T18:24:00+00:00",
+    "timestamp": "2026-09-19T18:34:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 2,
         "0": 2
     },
     "mode": {
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 2,
         "0|0": 2
     },
     "activities": [
@@ -19,10 +19,6 @@
         {
             "name": "Misc. Public MF Runs",
             "count": 1
-        },
-        {
-            "name": "Trade",
-            "count": 1
         }
     ],
     "top_games": [
@@ -32,10 +28,6 @@
         },
         {
             "name": "lvv",
-            "count": 1
-        },
-        {
-            "name": "n silkweave",
             "count": 1
         },
         {
@@ -77,18 +69,11 @@
                 "matched": "gord",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "n silkweave",
-                "matched": "n",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 5.4
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 4.0
     }
 }
