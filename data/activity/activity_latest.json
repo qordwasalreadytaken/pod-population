@@ -1,33 +1,45 @@
 {
-    "timestamp": "2026-09-19T09:04:00+00:00",
+    "timestamp": "2026-09-19T09:23:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "2": 3,
+        "0": 2
     },
     "mode": {
-        "0": 3
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "0|0": 1
+        "2|0": 3,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n 15dex silkw",
+            "name": "n silkweave 2",
+            "count": 1
+        },
+        {
+            "name": "dasda",
             "count": 1
         },
         {
             "name": "lvv",
+            "count": 1
+        },
+        {
+            "name": "larzuk",
             "count": 1
         },
         {
@@ -44,6 +56,13 @@
             ]
         },
         {
+            "normalized": "larzuk",
+            "count": 2,
+            "examples": [
+                "larzuk"
+            ]
+        },
+        {
             "normalized": "wikid klownz",
             "count": 2,
             "examples": [
@@ -54,15 +73,22 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "n 15dex silkw",
+                "name": "n silkweave 2",
                 "matched": "n",
+                "count": 1
+            }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "dasda",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 9.33
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 7.8
     }
 }
