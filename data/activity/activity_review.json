@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2108,
+        "count": 2110,
         "examples": [
             "1",
             "10",
@@ -328,17 +328,17 @@
         ]
     },
     {
+        "normalized": "dasa",
+        "count": 34,
+        "examples": [
+            "dasa"
+        ]
+    },
+    {
         "normalized": "keys",
         "count": 32,
         "examples": [
             "keys"
-        ]
-    },
-    {
-        "normalized": "dasa",
-        "count": 32,
-        "examples": [
-            "dasa"
         ]
     },
     {
@@ -3421,6 +3421,13 @@
         "count": 4,
         "examples": [
             "go"
+        ]
+    },
+    {
+        "normalized": "bah",
+        "count": 4,
+        "examples": [
+            "bah"
         ]
     },
     {
@@ -6732,13 +6739,6 @@
         "count": 2,
         "examples": [
             "ned palskl"
-        ]
-    },
-    {
-        "normalized": "bah",
-        "count": 2,
-        "examples": [
-            "bah"
         ]
     }
 ]
