@@ -1,30 +1,42 @@
 {
-    "timestamp": "2026-09-19T18:46:00+00:00",
+    "timestamp": "2026-09-19T19:03:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "1": 1,
+        "0": 2,
+        "2": 1
     },
     "mode": {
-        "0": 3
+        "1": 2,
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 2,
+        "1|1": 1,
+        "0|1": 1,
+        "2|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Other",
+            "count": 3
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "nn",
+            "count": 1
+        },
+        {
+            "name": "mm",
+            "count": 1
+        },
+        {
             "name": "gord",
-            "count": 2
+            "count": 1
         },
         {
             "name": "t",
@@ -32,6 +44,20 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "nn",
+            "count": 2,
+            "examples": [
+                "nn"
+            ]
+        },
+        {
+            "normalized": "mm",
+            "count": 2,
+            "examples": [
+                "mm"
+            ]
+        },
         {
             "normalized": "t",
             "count": 2,
@@ -45,13 +71,13 @@
             {
                 "name": "gord",
                 "matched": "gord",
-                "count": 2
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 3,
-        "average_name_length": 2.5
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 2.25
     }
 }
