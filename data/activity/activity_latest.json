@@ -1,23 +1,23 @@
 {
-    "timestamp": "2026-09-19T17:19:00+00:00",
+    "timestamp": "2026-09-19T17:32:00+00:00",
     "difficulty": {
         "1": 1,
-        "2": 7,
-        "0": 1
+        "2": 4,
+        "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 8
+        "0": 6
     },
     "difficulty_mode": {
         "1|1": 1,
-        "2|0": 7,
-        "0|0": 1
+        "2|0": 4,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 5
+            "count": 3
         },
         {
             "name": "Other",
@@ -30,19 +30,11 @@
     ],
     "top_games": [
         {
-            "name": "lvv",
-            "count": 2
-        },
-        {
             "name": "n free lem rune",
             "count": 1
         },
         {
-            "name": "mepi run 4",
-            "count": 1
-        },
-        {
-            "name": "mepi run 3",
+            "name": "lvv",
             "count": 1
         },
         {
@@ -58,6 +50,10 @@
             "count": 1
         },
         {
+            "name": "larzuk",
+            "count": 1
+        },
+        {
             "name": "t",
             "count": 1
         }
@@ -65,9 +61,16 @@
     "unknown_games": [
         {
             "normalized": "lvv",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "lvv"
+            ]
+        },
+        {
+            "normalized": "larzuk",
+            "count": 2,
+            "examples": [
+                "larzuk"
             ]
         },
         {
@@ -82,16 +85,6 @@
         "Misc. Public MF Runs": [
             {
                 "name": "n free lem rune",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "mepi run 4",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "mepi run 3",
                 "matched": "run",
                 "count": 1
             },
@@ -115,8 +108,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 9,
-        "average_name_length": 7.12
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 6.14
     }
 }
