@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-19T12:48:00+00:00",
+    "timestamp": "2026-09-19T13:04:00+00:00",
     "difficulty": {
         "1": 1,
         "2": 2
@@ -15,11 +15,7 @@
     "activities": [
         {
             "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Cows",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -32,7 +28,7 @@
             "count": 1
         },
         {
-            "name": "cow",
+            "name": "1221",
             "count": 1
         },
         {
@@ -47,16 +43,16 @@
             "examples": [
                 "trapse"
             ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1221"
+            ]
         }
     ],
     "classified_games": {
-        "Cows": [
-            {
-                "name": "cow",
-                "matched": "cow",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
@@ -68,6 +64,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 4.0
+        "average_name_length": 4.33
     }
 }
