@@ -1,27 +1,46 @@
 {
-    "timestamp": "2026-09-19T16:47:00+00:00",
+    "timestamp": "2026-09-19T17:03:00+00:00",
     "difficulty": {
-        "2": 2
+        "1": 1,
+        "2": 5
     },
     "mode": {
-        "0": 2
+        "1": 1,
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 2
+        "1|1": 1,
+        "2|0": 5
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 5
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "gord",
+            "count": 2
+        },
+        {
+            "name": "n free lem rune",
+            "count": 1
+        },
+        {
+            "name": "mepi run 1",
             "count": 1
         },
         {
             "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "n silkweave",
             "count": 1
         }
     ],
@@ -31,6 +50,16 @@
             {
                 "name": "gord",
                 "matched": "gord",
+                "count": 2
+            },
+            {
+                "name": "n free lem rune",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "mepi run 1",
+                "matched": "run",
                 "count": 1
             },
             {
@@ -38,11 +67,18 @@
                 "matched": "asd",
                 "count": 1
             }
+        ],
+        "Trade": [
+            {
+                "name": "n silkweave",
+                "matched": "n",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 3.5
+        "unique_names": 5,
+        "public_games": 6,
+        "average_name_length": 8.6
     }
 }
