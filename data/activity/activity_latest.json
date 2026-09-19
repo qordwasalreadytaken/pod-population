@@ -1,21 +1,27 @@
 {
-    "timestamp": "2026-09-19T17:03:00+00:00",
+    "timestamp": "2026-09-19T17:19:00+00:00",
     "difficulty": {
         "1": 1,
-        "2": 5
+        "2": 7,
+        "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 5
+        "0": 8
     },
     "difficulty_mode": {
         "1|1": 1,
-        "2|0": 5
+        "2|0": 7,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
             "count": 5
+        },
+        {
+            "name": "Other",
+            "count": 3
         },
         {
             "name": "Trade",
@@ -24,7 +30,7 @@
     ],
     "top_games": [
         {
-            "name": "gord",
+            "name": "lvv",
             "count": 2
         },
         {
@@ -32,7 +38,15 @@
             "count": 1
         },
         {
-            "name": "mepi run 1",
+            "name": "mepi run 4",
+            "count": 1
+        },
+        {
+            "name": "mepi run 3",
+            "count": 1
+        },
+        {
+            "name": "gord",
             "count": 1
         },
         {
@@ -42,24 +56,48 @@
         {
             "name": "n silkweave",
             "count": 1
+        },
+        {
+            "name": "t",
+            "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "lvv",
+            "count": 4,
+            "examples": [
+                "lvv"
+            ]
+        },
+        {
+            "normalized": "t",
+            "count": 2,
+            "examples": [
+                "t"
+            ]
+        }
+    ],
     "classified_games": {
         "Misc. Public MF Runs": [
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 2
-            },
             {
                 "name": "n free lem rune",
                 "matched": "run",
                 "count": 1
             },
             {
-                "name": "mepi run 1",
+                "name": "mepi run 4",
                 "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "mepi run 3",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "gord",
+                "matched": "gord",
                 "count": 1
             },
             {
@@ -77,8 +115,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 6,
-        "average_name_length": 8.6
+        "unique_names": 8,
+        "public_games": 9,
+        "average_name_length": 7.12
     }
 }
