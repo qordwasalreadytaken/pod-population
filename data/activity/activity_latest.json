@@ -1,85 +1,112 @@
 {
-    "timestamp": "2026-09-19T19:17:00+00:00",
+    "timestamp": "2026-09-19T19:32:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 1
+        "0": 5,
+        "2": 3
     },
     "mode": {
-        "1": 2,
-        "0": 2
+        "1": 1,
+        "0": 7
     },
     "difficulty_mode": {
-        "0|1": 2,
-        "2|0": 1,
-        "0|0": 1
+        "0|1": 1,
+        "2|0": 3,
+        "0|0": 4
     },
     "activities": [
         {
             "name": "Other",
+            "count": 5
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
             "name": "Trade",
             "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "nnnn",
-            "count": 1
-        },
-        {
-            "name": "n",
-            "count": 1
-        },
-        {
             "name": "gord",
+            "count": 2
+        },
+        {
+            "name": "nnn",
             "count": 1
         },
         {
-            "name": "t",
+            "name": "buy infinity",
+            "count": 1
+        },
+        {
+            "name": "12",
+            "count": 1
+        },
+        {
+            "name": "21",
+            "count": 1
+        },
+        {
+            "name": "yep",
+            "count": 1
+        },
+        {
+            "name": "what a longtime",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "nnnn",
-            "count": 2,
+            "normalized": "#",
+            "count": 4,
             "examples": [
-                "nnnn"
+                "12",
+                "21"
             ]
         },
         {
-            "normalized": "t",
+            "normalized": "nnn",
             "count": 2,
             "examples": [
-                "t"
+                "nnn"
+            ]
+        },
+        {
+            "normalized": "yep",
+            "count": 2,
+            "examples": [
+                "yep"
+            ]
+        },
+        {
+            "normalized": "what a longtime",
+            "count": 2,
+            "examples": [
+                "what a longtime"
             ]
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "gord",
                 "matched": "gord",
+                "count": 2
+            }
+        ],
+        "Trade": [
+            {
+                "name": "buy infinity",
+                "matched": "buy",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 2.5
+        "unique_names": 7,
+        "public_games": 8,
+        "average_name_length": 5.86
     }
 }
