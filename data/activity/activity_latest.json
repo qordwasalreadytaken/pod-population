@@ -1,25 +1,45 @@
 {
-    "timestamp": "2026-09-19T07:05:00+00:00",
+    "timestamp": "2026-09-19T07:23:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
+        "2": 4,
+        "0": 3
     },
     "mode": {
-        "0": 2
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 1
+        "2|0": 4,
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 6
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "lvv",
+            "count": 2
+        },
+        {
+            "name": "h",
+            "count": 1
+        },
+        {
             "name": "12118",
+            "count": 1
+        },
+        {
+            "name": "starting",
+            "count": 1
+        },
+        {
+            "name": "morbius inc",
             "count": 1
         },
         {
@@ -29,10 +49,31 @@
     ],
     "unknown_games": [
         {
+            "normalized": "lvv",
+            "count": 4,
+            "examples": [
+                "lvv"
+            ]
+        },
+        {
+            "normalized": "h",
+            "count": 2,
+            "examples": [
+                "h"
+            ]
+        },
+        {
             "normalized": "#",
             "count": 2,
             "examples": [
                 "12118"
+            ]
+        },
+        {
+            "normalized": "morbius inc",
+            "count": 2,
+            "examples": [
+                "morbius inc"
             ]
         },
         {
@@ -43,10 +84,18 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Leveling": [
+            {
+                "name": "starting",
+                "matched": "start",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 8.5
+        "unique_names": 6,
+        "public_games": 7,
+        "average_name_length": 6.67
     }
 }
