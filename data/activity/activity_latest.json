@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-19T21:04:00+00:00",
+    "timestamp": "2026-09-19T21:19:00+00:00",
     "difficulty": {
         "2": 3
     },
@@ -21,11 +21,11 @@
     ],
     "top_games": [
         {
-            "name": "fester",
+            "name": "1222",
             "count": 1
         },
         {
-            "name": "1221",
+            "name": "fester",
             "count": 1
         },
         {
@@ -35,17 +35,17 @@
     ],
     "unknown_games": [
         {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1222"
+            ]
+        },
+        {
             "normalized": "fester",
             "count": 2,
             "examples": [
                 "fester"
-            ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "1221"
             ]
         }
     ],
