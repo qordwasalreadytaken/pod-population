@@ -1,101 +1,52 @@
 {
-    "timestamp": "2026-09-19T07:33:00+00:00",
+    "timestamp": "2026-09-19T07:46:00+00:00",
     "difficulty": {
-        "2": 5,
-        "0": 3
+        "2": 1,
+        "0": 1
     },
     "mode": {
-        "0": 8
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 5,
-        "0|0": 3
+        "2|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 7
-        },
-        {
-            "name": "Leveling",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
             "name": "lvv",
-            "count": 2
-        },
-        {
-            "name": "h",
-            "count": 2
-        },
-        {
-            "name": "12118",
             "count": 1
         },
         {
-            "name": "starting",
-            "count": 1
-        },
-        {
-            "name": "morbius inc",
-            "count": 1
-        },
-        {
-            "name": "wikid klownz",
+            "name": "im new",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "lvv",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "lvv"
             ]
         },
         {
-            "normalized": "h",
-            "count": 4,
-            "examples": [
-                "h"
-            ]
-        },
-        {
-            "normalized": "#",
+            "normalized": "im new",
             "count": 2,
             "examples": [
-                "12118"
-            ]
-        },
-        {
-            "normalized": "morbius inc",
-            "count": 2,
-            "examples": [
-                "morbius inc"
-            ]
-        },
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
+                "im new"
             ]
         }
     ],
-    "classified_games": {
-        "Leveling": [
-            {
-                "name": "starting",
-                "matched": "start",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 6,
-        "public_games": 8,
-        "average_name_length": 6.67
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 4.5
     }
 }
