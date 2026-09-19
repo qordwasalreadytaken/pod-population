@@ -1,12 +1,14 @@
 {
-    "timestamp": "2026-09-19T21:46:00+00:00",
+    "timestamp": "2026-09-19T22:04:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 4
     },
     "mode": {
+        "1": 1,
         "0": 3
     },
     "difficulty_mode": {
+        "2|1": 1,
         "2|0": 3
     },
     "activities": [
@@ -15,52 +17,61 @@
             "count": 2
         },
         {
-            "name": "Trade",
-            "count": 1
+            "name": "Misc. Public MF Runs",
+            "count": 2
         }
     ],
     "top_games": [
         {
+            "name": "ned palskl",
+            "count": 1
+        },
+        {
+            "name": "asda",
+            "count": 1
+        },
+        {
+            "name": "asd",
+            "count": 1
+        },
+        {
             "name": "1222",
-            "count": 1
-        },
-        {
-            "name": "fester",
-            "count": 1
-        },
-        {
-            "name": "buyinfinity4jah",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "ned palskl",
+            "count": 2,
+            "examples": [
+                "ned palskl"
+            ]
+        },
         {
             "normalized": "#",
             "count": 2,
             "examples": [
                 "1222"
             ]
-        },
-        {
-            "normalized": "fester",
-            "count": 2,
-            "examples": [
-                "fester"
-            ]
         }
     ],
     "classified_games": {
-        "Trade": [
+        "Misc. Public MF Runs": [
             {
-                "name": "buyinfinity4jah",
-                "matched": "buy",
+                "name": "asda",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 8.33
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 5.25
     }
 }
