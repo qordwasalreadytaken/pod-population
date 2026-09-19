@@ -1,23 +1,27 @@
 {
-    "timestamp": "2026-09-19T12:06:00+00:00",
+    "timestamp": "2026-09-19T12:30:00+00:00",
     "difficulty": {
         "1": 1,
-        "2": 2,
-        "0": 3
+        "0": 1,
+        "2": 3
     },
     "mode": {
-        "1": 1,
-        "0": 5
+        "1": 2,
+        "0": 3
     },
     "difficulty_mode": {
         "1|1": 1,
-        "2|0": 2,
-        "0|0": 3
+        "0|1": 1,
+        "2|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 3
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         },
         {
             "name": "Trade",
@@ -27,6 +31,10 @@
     "top_games": [
         {
             "name": "trapse",
+            "count": 2
+        },
+        {
+            "name": "asd",
             "count": 1
         },
         {
@@ -36,24 +44,12 @@
         {
             "name": "n silkweave 4",
             "count": 1
-        },
-        {
-            "name": "a",
-            "count": 1
-        },
-        {
-            "name": "drovani",
-            "count": 1
-        },
-        {
-            "name": "2",
-            "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "trapse",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "trapse"
             ]
@@ -64,30 +60,16 @@
             "examples": [
                 "h"
             ]
-        },
-        {
-            "normalized": "a",
-            "count": 2,
-            "examples": [
-                "a"
-            ]
-        },
-        {
-            "normalized": "drovani",
-            "count": 2,
-            "examples": [
-                "drovani"
-            ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "2"
-            ]
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n silkweave 4",
@@ -97,8 +79,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 4.83
+        "unique_names": 4,
+        "public_games": 5,
+        "average_name_length": 5.75
     }
 }
