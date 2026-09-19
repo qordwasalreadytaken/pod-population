@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-19T20:04:00+00:00",
+    "timestamp": "2026-09-19T20:22:00+00:00",
     "difficulty": {
         "2": 2,
         "0": 2
@@ -17,17 +17,17 @@
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 1
         },
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "gord",
+            "name": "lvv",
             "count": 1
         },
         {
@@ -35,7 +35,7 @@
             "count": 1
         },
         {
-            "name": "wikid klownz",
+            "name": "gord",
             "count": 1
         },
         {
@@ -45,10 +45,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "wikid klownz",
+            "normalized": "lvv",
             "count": 2,
             "examples": [
-                "wikid klownz"
+                "lvv"
             ]
         },
         {
@@ -60,17 +60,17 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "buyinfinity4jah",
                 "matched": "buy",
+                "count": 1
+            }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "gord",
+                "matched": "gord",
                 "count": 1
             }
         ]
@@ -78,6 +78,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 8.25
+        "average_name_length": 6.0
     }
 }
