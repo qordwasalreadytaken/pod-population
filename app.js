@@ -482,7 +482,10 @@ function renderSummary(latest, data, rolling) {
 
         <p>
             Showing <strong>${data.length}</strong> snapshots over
-            <strong>${spanHours.toFixed(1)}h</strong>.
+            <strong>${spanHours.toFixed(1)}h</strong>. (${(spanHours / 24).toFixed(0)} Days)<br>
+            Total public games: ${data.reduce((sum, d) => sum + (d.totals.public_games ?? 0), 0)} <br>
+            Total private games: ${data.reduce((sum, d) => sum + (d.totals.private_games_est ?? 0), 0)}
+
 
         </p>
 
