@@ -1,27 +1,31 @@
 {
-    "timestamp": "2026-09-20T20:46:00+00:00",
+    "timestamp": "2026-09-20T21:04:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 2,
         "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 1
+            "name": "Misc. Public MF Runs",
+            "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "asdas",
+            "count": 1
+        },
         {
             "name": "n sorc torch 44",
             "count": 1
@@ -33,24 +37,29 @@
     ],
     "unknown_games": [],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n sorc torch 44",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
+            {
+                "name": "asdas",
+                "matched": "asd",
+                "count": 1
+            },
             {
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
             }
+        ],
+        "Trade": [
+            {
+                "name": "n sorc torch 44",
+                "matched": "torch",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 9.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 7.67
     }
 }
