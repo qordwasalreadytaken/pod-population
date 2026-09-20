@@ -1,17 +1,17 @@
 {
-    "timestamp": "2026-09-20T13:31:00+00:00",
+    "timestamp": "2026-09-20T13:47:00+00:00",
     "difficulty": {
-        "2": 4,
-        "1": 1
+        "2": 5,
+        "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 3,
-        "1|0": 1
+        "2|0": 4,
+        "0|0": 1
     },
     "activities": [
         {
@@ -25,11 +25,19 @@
         {
             "name": "Misc. Public MF Runs",
             "count": 1
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "n lem o fal",
+            "count": 1
+        },
+        {
+            "name": "abs",
             "count": 1
         },
         {
@@ -45,23 +53,23 @@
             "count": 1
         },
         {
-            "name": "jojo",
+            "name": "anustart",
             "count": 1
         }
     ],
     "unknown_games": [
         {
+            "normalized": "abs",
+            "count": 2,
+            "examples": [
+                "abs"
+            ]
+        },
+        {
             "normalized": "adsdsd",
             "count": 2,
             "examples": [
                 "adsdsd"
-            ]
-        },
-        {
-            "normalized": "jojo",
-            "count": 2,
-            "examples": [
-                "jojo"
             ]
         }
     ],
@@ -84,11 +92,18 @@
                 "matched": "asd",
                 "count": 1
             }
+        ],
+        "Leveling": [
+            {
+                "name": "anustart",
+                "matched": "start",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
+        "unique_names": 6,
+        "public_games": 6,
         "average_name_length": 7.0
     }
 }
