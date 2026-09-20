@@ -1,7 +1,8 @@
 {
-    "timestamp": "2026-09-20T16:46:00+00:00",
+    "timestamp": "2026-09-20T17:03:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 3,
+        "0": 1
     },
     "mode": {
         "1": 1,
@@ -9,25 +10,26 @@
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 3
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Trade",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n lem o fal",
+            "name": "o fal n lem",
+            "count": 1
+        },
+        {
+            "name": "n silkweave",
             "count": 1
         },
         {
@@ -35,33 +37,26 @@
             "count": 1
         },
         {
-            "name": "n sorc torch 8",
-            "count": 1
-        },
-        {
-            "name": "adsdsd",
+            "name": "foreverlast",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "adsdsd",
-            "count": 2,
-            "examples": [
-                "adsdsd"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Trade": [
             {
-                "name": "n lem o fal",
+                "name": "o fal n lem",
                 "matched": "n",
                 "count": 1
             },
             {
-                "name": "n sorc torch 8",
+                "name": "n silkweave",
                 "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "foreverlast",
+                "matched": "for",
                 "count": 1
             }
         ],
@@ -76,6 +71,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 8.5
+        "average_name_length": 9.0
     }
 }
