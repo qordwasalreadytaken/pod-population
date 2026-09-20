@@ -1,15 +1,23 @@
 {
-    "timestamp": "2026-09-20T20:04:00+00:00",
+    "timestamp": "2026-09-20T20:22:00+00:00",
     "difficulty": {
-        "0": 3
+        "0": 5
     },
     "mode": {
-        "0": 3
+        "0": 5
     },
     "difficulty_mode": {
-        "0|0": 3
+        "0|0": 5
     },
     "activities": [
+        {
+            "name": "Leveling",
+            "count": 1
+        },
+        {
+            "name": "Cows",
+            "count": 1
+        },
         {
             "name": "Other",
             "count": 1
@@ -24,6 +32,14 @@
         }
     ],
     "top_games": [
+        {
+            "name": "new start",
+            "count": 1
+        },
+        {
+            "name": "cows 2",
+            "count": 1
+        },
         {
             "name": "a",
             "count": 1
@@ -47,6 +63,20 @@
         }
     ],
     "classified_games": {
+        "Leveling": [
+            {
+                "name": "new start",
+                "matched": "start",
+                "count": 1
+            }
+        ],
+        "Cows": [
+            {
+                "name": "cows 2",
+                "matched": "cow",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
@@ -63,8 +93,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 4.33
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 5.6
     }
 }
