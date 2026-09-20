@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-09-20T13:04:00+00:00",
+    "timestamp": "2026-09-20T13:21:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 6
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 5
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 3
+        "2|0": 5
     },
     "activities": [
         {
@@ -18,20 +18,24 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
+        {
+            "name": "asd",
+            "count": 2
+        },
         {
             "name": "n lem o fal",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "no gear no fun",
             "count": 1
         },
         {
@@ -44,6 +48,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "no gear no fun",
+            "count": 2,
+            "examples": [
+                "no gear no fun"
+            ]
+        },
         {
             "normalized": "adsdsd",
             "count": 2,
@@ -69,13 +80,13 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 7.75
+        "unique_names": 5,
+        "public_games": 6,
+        "average_name_length": 9.0
     }
 }
