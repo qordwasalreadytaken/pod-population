@@ -1,25 +1,29 @@
 {
-    "timestamp": "2026-09-20T15:20:00+00:00",
+    "timestamp": "2026-09-20T15:31:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 3
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 3
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "adsdsd",
+            "count": 1
+        },
         {
             "name": "n sorc torch 1",
             "count": 1
@@ -30,6 +34,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "adsdsd",
+            "count": 2,
+            "examples": [
+                "adsdsd"
+            ]
+        },
         {
             "normalized": "lvv",
             "count": 2,
@@ -48,8 +59,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 8.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 7.67
     }
 }
