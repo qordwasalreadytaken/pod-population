@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-09-20T18:46:00+00:00",
+    "timestamp": "2026-09-20T19:03:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 5,
         "0": 3
     },
     "mode": {
-        "0": 5
+        "0": 8
     },
     "difficulty_mode": {
-        "2|0": 2,
+        "2|0": 5,
         "0|0": 3
     },
     "activities": [
         {
             "name": "Trade",
-            "count": 2
+            "count": 5
         },
         {
             "name": "Misc. Public MF Runs",
@@ -27,6 +27,18 @@
     ],
     "top_games": [
         {
+            "name": "n sorc torch 20",
+            "count": 1
+        },
+        {
+            "name": "n sorc torch 19",
+            "count": 1
+        },
+        {
+            "name": "n sorc torch 18",
+            "count": 1
+        },
+        {
             "name": "n sorc torch 17",
             "count": 1
         },
@@ -35,11 +47,11 @@
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "gord",
             "count": 1
         },
         {
-            "name": "gord",
+            "name": "asd",
             "count": 1
         },
         {
@@ -50,6 +62,21 @@
     "unknown_games": [],
     "classified_games": {
         "Trade": [
+            {
+                "name": "n sorc torch 20",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n sorc torch 19",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n sorc torch 18",
+                "matched": "n",
+                "count": 1
+            },
             {
                 "name": "n sorc torch 17",
                 "matched": "n",
@@ -63,13 +90,13 @@
         ],
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
-                "matched": "asd",
+                "name": "gord",
+                "matched": "gord",
                 "count": 1
             },
             {
-                "name": "gord",
-                "matched": "gord",
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             }
         ],
@@ -82,8 +109,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 7.8
+        "unique_names": 8,
+        "public_games": 8,
+        "average_name_length": 10.5
     }
 }
