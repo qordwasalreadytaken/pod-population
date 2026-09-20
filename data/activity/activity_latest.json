@@ -1,27 +1,19 @@
 {
-    "timestamp": "2026-09-20T20:32:00+00:00",
+    "timestamp": "2026-09-20T20:46:00+00:00",
     "difficulty": {
-        "1": 1,
-        "0": 3
+        "2": 1,
+        "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 2
     },
     "difficulty_mode": {
-        "1|0": 1,
-        "0|0": 3
+        "2|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Leveling",
-            "count": 1
-        },
-        {
-            "name": "Cows",
-            "count": 1
-        },
-        {
-            "name": "Other",
+            "name": "Trade",
             "count": 1
         },
         {
@@ -31,15 +23,7 @@
     ],
     "top_games": [
         {
-            "name": "act-5 nm",
-            "count": 1
-        },
-        {
-            "name": "cows 3",
-            "count": 1
-        },
-        {
-            "name": "a",
+            "name": "n sorc torch 44",
             "count": 1
         },
         {
@@ -47,27 +31,12 @@
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "a",
-            "count": 2,
-            "examples": [
-                "a"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
-        "Leveling": [
+        "Trade": [
             {
-                "name": "act-5 nm",
-                "matched": "act",
-                "count": 1
-            }
-        ],
-        "Cows": [
-            {
-                "name": "cows 3",
-                "matched": "cow",
+                "name": "n sorc torch 44",
+                "matched": "n",
                 "count": 1
             }
         ],
@@ -80,8 +49,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 4.5
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 9.0
     }
 }
