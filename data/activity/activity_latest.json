@@ -1,13 +1,15 @@
 {
-    "timestamp": "2026-09-20T20:22:00+00:00",
+    "timestamp": "2026-09-20T20:32:00+00:00",
     "difficulty": {
-        "0": 5
+        "1": 1,
+        "0": 3
     },
     "mode": {
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
-        "0|0": 5
+        "1|0": 1,
+        "0|0": 3
     },
     "activities": [
         {
@@ -25,19 +27,15 @@
         {
             "name": "Misc. Public MF Runs",
             "count": 1
-        },
-        {
-            "name": "Baal",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "new start",
+            "name": "act-5 nm",
             "count": 1
         },
         {
-            "name": "cows 2",
+            "name": "cows 3",
             "count": 1
         },
         {
@@ -46,10 +44,6 @@
         },
         {
             "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "baal runs",
             "count": 1
         }
     ],
@@ -65,14 +59,14 @@
     "classified_games": {
         "Leveling": [
             {
-                "name": "new start",
-                "matched": "start",
+                "name": "act-5 nm",
+                "matched": "act",
                 "count": 1
             }
         ],
         "Cows": [
             {
-                "name": "cows 2",
+                "name": "cows 3",
                 "matched": "cow",
                 "count": 1
             }
@@ -83,18 +77,11 @@
                 "matched": "asd",
                 "count": 1
             }
-        ],
-        "Baal": [
-            {
-                "name": "baal runs",
-                "matched": "baal",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 5.6
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 4.5
     }
 }
