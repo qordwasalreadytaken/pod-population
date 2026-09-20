@@ -1,37 +1,37 @@
 {
-    "timestamp": "2026-09-20T07:24:00+00:00",
+    "timestamp": "2026-09-20T07:34:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 2
+        "2": 2,
+        "1": 1
     },
     "mode": {
         "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 2
+        "2|0": 2,
+        "1|0": 1
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Maps",
             "count": 2
         },
         {
-            "name": "Maps",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "map-2",
+            "count": 1
+        },
         {
             "name": "agonymap",
             "count": 1
         },
         {
             "name": "dobeto",
-            "count": 1
-        },
-        {
-            "name": "larzuk",
             "count": 1
         }
     ],
@@ -42,17 +42,15 @@
             "examples": [
                 "dobeto"
             ]
-        },
-        {
-            "normalized": "larzuk",
-            "count": 2,
-            "examples": [
-                "larzuk"
-            ]
         }
     ],
     "classified_games": {
         "Maps": [
+            {
+                "name": "map-2",
+                "matched": "map",
+                "count": 1
+            },
             {
                 "name": "agonymap",
                 "matched": "map",
@@ -63,6 +61,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 6.67
+        "average_name_length": 6.33
     }
 }
