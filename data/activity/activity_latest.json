@@ -1,17 +1,17 @@
 {
-    "timestamp": "2026-09-20T17:19:00+00:00",
+    "timestamp": "2026-09-20T17:32:00+00:00",
     "difficulty": {
-        "2": 4,
-        "0": 2
+        "2": 5,
+        "0": 3
     },
     "mode": {
         "1": 1,
-        "0": 5
+        "0": 7
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 3,
-        "0|0": 2
+        "2|0": 4,
+        "0|0": 3
     },
     "activities": [
         {
@@ -19,17 +19,25 @@
             "count": 4
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Leveling",
+            "count": 2
+        },
+        {
+            "name": "Chaos",
             "count": 1
         },
         {
-            "name": "Leveling",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "o fal n lem",
+            "count": 1
+        },
+        {
+            "name": "hdia-1",
             "count": 1
         },
         {
@@ -45,7 +53,11 @@
             "count": 1
         },
         {
-            "name": "act 2 go",
+            "name": "act 2 go 3",
+            "count": 1
+        },
+        {
+            "name": "act 2 go 2",
             "count": 1
         },
         {
@@ -63,7 +75,7 @@
             },
             {
                 "name": "n sorc torch 10",
-                "matched": "n",
+                "matched": "torch",
                 "count": 1
             },
             {
@@ -77,6 +89,13 @@
                 "count": 1
             }
         ],
+        "Chaos": [
+            {
+                "name": "hdia-1",
+                "matched": "dia",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
@@ -86,15 +105,20 @@
         ],
         "Leveling": [
             {
-                "name": "act 2 go",
+                "name": "act 2 go 3",
+                "matched": "act",
+                "count": 1
+            },
+            {
+                "name": "act 2 go 2",
                 "matched": "act",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 9.83
+        "unique_names": 8,
+        "public_games": 8,
+        "average_name_length": 9.62
     }
 }
