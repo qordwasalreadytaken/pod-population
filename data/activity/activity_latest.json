@@ -1,45 +1,59 @@
 {
-    "timestamp": "2026-09-20T19:03:00+00:00",
+    "timestamp": "2026-09-20T19:18:00+00:00",
     "difficulty": {
-        "2": 5,
-        "0": 3
+        "2": 7,
+        "1": 1,
+        "0": 4
     },
     "mode": {
-        "0": 8
+        "0": 12
     },
     "difficulty_mode": {
-        "2|0": 5,
-        "0|0": 3
+        "2|0": 7,
+        "1|0": 1,
+        "0|0": 4
     },
     "activities": [
         {
             "name": "Trade",
-            "count": 5
+            "count": 7
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Leveling",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "n sorc torch 20",
+            "name": "asd",
+            "count": 2
+        },
+        {
+            "name": "n sorc torch 32",
             "count": 1
         },
         {
-            "name": "n sorc torch 19",
+            "name": "n sorc torch 31",
             "count": 1
         },
         {
-            "name": "n sorc torch 18",
+            "name": "n sorc torch 30",
             "count": 1
         },
         {
-            "name": "n sorc torch 17",
+            "name": "n sorc torch 28",
+            "count": 1
+        },
+        {
+            "name": "n sorc torch 27",
+            "count": 1
+        },
+        {
+            "name": "n sorc torch 26",
             "count": 1
         },
         {
@@ -47,11 +61,11 @@
             "count": 1
         },
         {
-            "name": "gord",
+            "name": "nm act",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "gord",
             "count": 1
         },
         {
@@ -63,23 +77,33 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "n sorc torch 20",
-                "matched": "n",
+                "name": "n sorc torch 32",
+                "matched": "torch",
                 "count": 1
             },
             {
-                "name": "n sorc torch 19",
-                "matched": "n",
+                "name": "n sorc torch 31",
+                "matched": "torch",
                 "count": 1
             },
             {
-                "name": "n sorc torch 18",
-                "matched": "n",
+                "name": "n sorc torch 30",
+                "matched": "torch",
                 "count": 1
             },
             {
-                "name": "n sorc torch 17",
-                "matched": "n",
+                "name": "n sorc torch 28",
+                "matched": "torch",
+                "count": 1
+            },
+            {
+                "name": "n sorc torch 27",
+                "matched": "torch",
+                "count": 1
+            },
+            {
+                "name": "n sorc torch 26",
+                "matched": "torch",
                 "count": 1
             },
             {
@@ -88,29 +112,34 @@
                 "count": 1
             }
         ],
-        "Misc. Public MF Runs": [
+        "Leveling": [
             {
-                "name": "gord",
-                "matched": "gord",
+                "name": "nm act",
+                "matched": "act",
                 "count": 1
             },
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
-        "Leveling": [
             {
                 "name": "act 3",
                 "matched": "act",
                 "count": 1
             }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 2
+            },
+            {
+                "name": "gord",
+                "matched": "gord",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 8,
-        "average_name_length": 10.5
+        "unique_names": 11,
+        "public_games": 12,
+        "average_name_length": 10.91
     }
 }
