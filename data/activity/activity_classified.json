@@ -381,7 +381,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "buy",
+            "matched": "torch",
             "count": 12
         },
         {
@@ -1623,7 +1623,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "andar",
+            "matched": "act",
             "count": 12
         },
         {
@@ -1733,7 +1733,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 3
         },
         {
@@ -1803,7 +1803,7 @@
         },
         {
             "name": "ancients norm",
-            "matched": "anci",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -1818,7 +1818,7 @@
         },
         {
             "name": "normal act",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -1853,7 +1853,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "exp",
+            "matched": "act",
             "count": 2
         },
         {
@@ -1873,6 +1873,11 @@
         },
         {
             "name": "act 2 go 3",
+            "matched": "act",
+            "count": 2
+        },
+        {
+            "name": "act 3 nm",
             "matched": "act",
             "count": 2
         },
@@ -1928,7 +1933,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "norm",
+            "matched": "tomb",
             "count": 1
         },
         {
@@ -1958,7 +1963,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -2043,11 +2048,6 @@
         },
         {
             "name": "act-5 nm",
-            "matched": "act",
-            "count": 1
-        },
-        {
-            "name": "act 3 nm",
             "matched": "act",
             "count": 1
         }
@@ -2153,7 +2153,7 @@
         {
             "name": "asd",
             "matched": "asd",
-            "count": 1012
+            "count": 1013
         },
         {
             "name": "n eld runes",
@@ -2376,6 +2376,11 @@
             "count": 5
         },
         {
+            "name": "asdas",
+            "matched": "asd",
+            "count": 5
+        },
+        {
             "name": "run 2",
             "matched": "run",
             "count": 4
@@ -2453,11 +2458,6 @@
         {
             "name": "n free lem rune",
             "matched": "run",
-            "count": 4
-        },
-        {
-            "name": "asdas",
-            "matched": "asd",
             "count": 4
         },
         {
@@ -3981,7 +3981,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 7
         },
         {
@@ -4031,7 +4031,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "mapping",
+            "matched": "map",
             "count": 4
         },
         {
@@ -4201,7 +4201,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -4216,7 +4216,7 @@
         },
         {
             "name": "mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -4253,17 +4253,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
