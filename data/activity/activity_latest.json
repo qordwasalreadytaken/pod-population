@@ -1,61 +1,51 @@
 {
-    "timestamp": "2026-09-20T10:46:00+00:00",
+    "timestamp": "2026-09-20T11:03:00+00:00",
     "difficulty": {
-        "2": 5,
-        "0": 1,
+        "2": 4,
         "1": 1
     },
     "mode": {
-        "1": 2,
-        "0": 5
+        "1": 1,
+        "0": 4
     },
     "difficulty_mode": {
         "2|1": 1,
-        "0|1": 1,
-        "2|0": 4,
+        "2|0": 3,
         "1|0": 1
     },
     "activities": [
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 2
+        },
+        {
+            "name": "Trade",
+            "count": 1
         },
         {
             "name": "Maps",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "o fal n lem",
-            "count": 1
-        },
-        {
             "name": "n lem o fal",
             "count": 1
         },
         {
-            "name": "pub map 3",
+            "name": "anda mepi run 9",
             "count": 1
         },
         {
-            "name": "h",
+            "name": "pub map 4",
             "count": 1
         },
         {
-            "name": "anda mepi run 6",
-            "count": 1
-        },
-        {
-            "name": "pub map 2",
+            "name": "anda mepi run 8",
             "count": 1
         },
         {
@@ -64,13 +54,6 @@
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "h",
-            "count": 2,
-            "examples": [
-                "h"
-            ]
-        },
         {
             "normalized": "#",
             "count": 2,
@@ -82,39 +65,34 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "o fal n lem",
-                "matched": "n",
-                "count": 1
-            },
-            {
                 "name": "n lem o fal",
                 "matched": "n",
                 "count": 1
             }
         ],
-        "Maps": [
+        "Misc. Public MF Runs": [
             {
-                "name": "pub map 3",
-                "matched": "map",
+                "name": "anda mepi run 9",
+                "matched": "run",
                 "count": 1
             },
             {
-                "name": "pub map 2",
-                "matched": "map",
+                "name": "anda mepi run 8",
+                "matched": "run",
                 "count": 1
             }
         ],
-        "Misc. Public MF Runs": [
+        "Maps": [
             {
-                "name": "anda mepi run 6",
-                "matched": "run",
+                "name": "pub map 4",
+                "matched": "map",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 8.29
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 10.4
     }
 }
