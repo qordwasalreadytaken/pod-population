@@ -1,41 +1,41 @@
 {
-    "timestamp": "2026-09-20T19:32:00+00:00",
+    "timestamp": "2026-09-20T19:46:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 1,
         "0": 4
     },
     "mode": {
-        "0": 6
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 2,
+        "2|0": 1,
         "0|0": 4
     },
     "activities": [
         {
-            "name": "Trade",
+            "name": "Baal",
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Trade",
+            "count": 1
         },
         {
             "name": "Other",
             "count": 1
         },
         {
-            "name": "Leveling",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n sorc torch 43",
-            "count": 1
+            "name": "baal runs",
+            "count": 2
         },
         {
-            "name": "n sorc torch 41",
+            "name": "n sorc torch 43",
             "count": 1
         },
         {
@@ -44,14 +44,6 @@
         },
         {
             "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "gord",
-            "count": 1
-        },
-        {
-            "name": "act 3",
             "count": 1
         }
     ],
@@ -68,13 +60,15 @@
         "Trade": [
             {
                 "name": "n sorc torch 43",
-                "matched": "n",
+                "matched": "torch",
                 "count": 1
-            },
+            }
+        ],
+        "Baal": [
             {
-                "name": "n sorc torch 41",
-                "matched": "n",
-                "count": 1
+                "name": "baal runs",
+                "matched": "baal",
+                "count": 2
             }
         ],
         "Misc. Public MF Runs": [
@@ -82,24 +76,12 @@
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
-            },
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "act 3",
-                "matched": "act",
-                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 7.17
+        "unique_names": 4,
+        "public_games": 5,
+        "average_name_length": 7.0
     }
 }
