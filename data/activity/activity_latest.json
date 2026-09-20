@@ -1,64 +1,42 @@
 {
-    "timestamp": "2026-09-20T06:07:00+00:00",
+    "timestamp": "2026-09-20T06:35:00+00:00",
     "difficulty": {
         "2": 2,
-        "0": 3
+        "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 3
     },
     "difficulty_mode": {
         "2|0": 2,
-        "0|0": 3
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 4
+            "name": "Misc. Public MF Runs",
+            "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "larzuk",
+            "name": "asd",
             "count": 2
         },
         {
-            "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "n15dex silkweav",
-            "count": 1
-        },
-        {
-            "name": "hghgghgghgh",
+            "name": "larzuk",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "larzuk",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "larzuk"
-            ]
-        },
-        {
-            "normalized": "n#dex silkweav",
-            "count": 2,
-            "examples": [
-                "n15dex silkweav"
-            ]
-        },
-        {
-            "normalized": "hghgghgghgh",
-            "count": 2,
-            "examples": [
-                "hghgghgghgh"
             ]
         }
     ],
@@ -67,13 +45,13 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 5,
-        "average_name_length": 8.75
+        "unique_names": 2,
+        "public_games": 3,
+        "average_name_length": 4.5
     }
 }
