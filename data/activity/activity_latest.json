@@ -1,42 +1,37 @@
 {
-    "timestamp": "2026-09-20T22:31:00+00:00",
+    "timestamp": "2026-09-20T22:46:00+00:00",
     "difficulty": {
         "2": 2,
         "1": 1,
         "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "1": 2,
+        "0": 2
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 1,
+        "2|1": 2,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 2
         },
         {
-            "name": "Trade",
+            "name": "Leveling",
             "count": 1
         },
         {
-            "name": "Leveling",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "o fal n lem",
-            "count": 1
-        },
-        {
-            "name": "asdas",
-            "count": 1
+            "count": 2
         },
         {
             "name": "act 3 nm",
@@ -53,19 +48,7 @@
             {
                 "name": "o fal n lem",
                 "matched": "n",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asdas",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
+                "count": 2
             }
         ],
         "Leveling": [
@@ -74,11 +57,18 @@
                 "matched": "act",
                 "count": 1
             }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
+        "unique_names": 3,
         "public_games": 4,
-        "average_name_length": 6.75
+        "average_name_length": 7.33
     }
 }
