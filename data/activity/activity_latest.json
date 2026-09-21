@@ -1,21 +1,25 @@
 {
-    "timestamp": "2026-09-21T16:05:00+00:00",
+    "timestamp": "2026-09-21T16:26:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 6
+        "2": 5
     },
     "mode": {
         "1": 1,
-        "0": 6
+        "0": 5
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 6
+        "2|0": 5
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 3
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         },
         {
             "name": "Trade",
@@ -28,11 +32,11 @@
     ],
     "top_games": [
         {
-            "name": "no loot no fun",
-            "count": 2
+            "name": "new",
+            "count": 1
         },
         {
-            "name": "new",
+            "name": "ancies plz",
             "count": 1
         },
         {
@@ -53,13 +57,6 @@
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "no loot no fun",
-            "count": 4,
-            "examples": [
-                "no loot no fun"
-            ]
-        },
         {
             "normalized": "new",
             "count": 2,
@@ -83,6 +80,13 @@
         }
     ],
     "classified_games": {
+        "Leveling": [
+            {
+                "name": "ancies plz",
+                "matched": "anci",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n griffon 3s",
@@ -100,7 +104,7 @@
     },
     "interesting": {
         "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 9.17
+        "public_games": 6,
+        "average_name_length": 8.5
     }
 }
