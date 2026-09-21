@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-21T11:34:00+00:00",
+    "timestamp": "2026-09-21T11:46:00+00:00",
     "difficulty": {
         "2": 3
     },
@@ -11,46 +11,46 @@
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Leveling",
             "count": 2
         },
         {
-            "name": "Leveling",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "act 2 hell",
+            "count": 1
+        },
+        {
+            "name": "act 1 hell",
+            "count": 1
+        },
+        {
             "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "act 1 helll",
-            "count": 1
-        },
-        {
-            "name": "asder",
             "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
+        "Leveling": [
+            {
+                "name": "act 2 hell",
+                "matched": "act",
+                "count": 1
+            },
+            {
+                "name": "act 1 hell",
+                "matched": "act",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "asder",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "act 1 helll",
-                "matched": "act",
                 "count": 1
             }
         ]
@@ -58,6 +58,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 6.33
+        "average_name_length": 7.67
     }
 }
