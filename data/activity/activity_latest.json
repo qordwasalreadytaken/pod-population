@@ -1,35 +1,33 @@
 {
-    "timestamp": "2026-09-21T19:32:00+00:00",
+    "timestamp": "2026-09-21T19:46:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 5,
+        "1": 1
     },
     "mode": {
-        "0": 4
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 4
+        "2|0": 5,
+        "1|0": 1
     },
     "activities": [
+        {
+            "name": "Other",
+            "count": 2
+        },
         {
             "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
             "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "n tal amu o5ooc",
-            "count": 1
-        },
-        {
-            "name": "sur vs nec tch",
+            "name": "lvv",
             "count": 1
         },
         {
@@ -37,11 +35,30 @@
             "count": 1
         },
         {
+            "name": "n tal amy 1",
+            "count": 1
+        },
+        {
+            "name": "sur vs nec tch",
+            "count": 1
+        },
+        {
             "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "n tal amy 2",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "lvv",
+            "count": 2,
+            "examples": [
+                "lvv"
+            ]
+        },
         {
             "normalized": "sur vs nec tch",
             "count": 2,
@@ -51,13 +68,6 @@
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n tal amu o5ooc",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "gord",
@@ -69,11 +79,23 @@
                 "matched": "asd",
                 "count": 1
             }
+        ],
+        "Trade": [
+            {
+                "name": "n tal amy 1",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n tal amy 2",
+                "matched": "n",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 9.0
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 7.67
     }
 }
