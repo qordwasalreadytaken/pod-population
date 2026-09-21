@@ -1,24 +1,17 @@
 {
-    "timestamp": "2026-09-21T18:06:00+00:00",
+    "timestamp": "2026-09-21T18:28:00+00:00",
     "difficulty": {
-        "0": 1,
-        "2": 4,
+        "2": 3,
         "1": 1
     },
     "mode": {
-        "1": 1,
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 4,
+        "2|0": 3,
         "1|0": 1
     },
     "activities": [
-        {
-            "name": "Other",
-            "count": 3
-        },
         {
             "name": "Trade",
             "count": 2
@@ -26,23 +19,19 @@
         {
             "name": "Misc. Public MF Runs",
             "count": 1
+        },
+        {
+            "name": "Other",
+            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "mm",
-            "count": 1
-        },
-        {
-            "name": "n maras o hrs 3",
-            "count": 1
-        },
         {
             "name": "asd",
             "count": 1
         },
         {
-            "name": "n20lr silkweave",
+            "name": "n maras o hrs 3",
             "count": 1
         },
         {
@@ -56,20 +45,6 @@
     ],
     "unknown_games": [
         {
-            "normalized": "mm",
-            "count": 2,
-            "examples": [
-                "mm"
-            ]
-        },
-        {
-            "normalized": "n#lr silkweave",
-            "count": 2,
-            "examples": [
-                "n20lr silkweave"
-            ]
-        },
-        {
             "normalized": "n#fhr#light sc",
             "count": 2,
             "examples": [
@@ -78,6 +53,13 @@
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n maras o hrs 3",
@@ -89,18 +71,11 @@
                 "matched": "for",
                 "count": 1
             }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 10.67
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 11.75
     }
 }
