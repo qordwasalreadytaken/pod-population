@@ -1,22 +1,28 @@
 {
-    "timestamp": "2026-09-21T15:23:00+00:00",
+    "timestamp": "2026-09-21T15:33:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 1,
+        "2": 5,
         "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "1|0": 1,
+        "2|0": 5,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 3
+        },
+        {
+            "name": "Leveling",
+            "count": 1
+        },
+        {
+            "name": "Baal",
+            "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
@@ -24,6 +30,14 @@
         }
     ],
     "top_games": [
+        {
+            "name": "h anci plz",
+            "count": 1
+        },
+        {
+            "name": "kill baal hell",
+            "count": 1
+        },
         {
             "name": "asd",
             "count": 1
@@ -34,10 +48,6 @@
         },
         {
             "name": "n5fhr11light sc",
-            "count": 1
-        },
-        {
-            "name": "nightbare",
             "count": 1
         },
         {
@@ -61,13 +71,6 @@
             ]
         },
         {
-            "normalized": "nightbare",
-            "count": 2,
-            "examples": [
-                "nightbare"
-            ]
-        },
-        {
             "normalized": "#",
             "count": 2,
             "examples": [
@@ -76,6 +79,20 @@
         }
     ],
     "classified_games": {
+        "Leveling": [
+            {
+                "name": "h anci plz",
+                "matched": "anci",
+                "count": 1
+            }
+        ],
+        "Baal": [
+            {
+                "name": "kill baal hell",
+                "matched": "baal",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
@@ -85,8 +102,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 7.8
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 9.0
     }
 }
