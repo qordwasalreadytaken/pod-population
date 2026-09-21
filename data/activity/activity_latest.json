@@ -1,23 +1,31 @@
 {
-    "timestamp": "2026-09-21T14:05:00+00:00",
+    "timestamp": "2026-09-21T14:27:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 4
     },
     "mode": {
-        "0": 2
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 4
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 4
         }
     ],
     "top_games": [
         {
+            "name": "no loot no fun",
+            "count": 1
+        },
+        {
             "name": "sdaadssd",
+            "count": 1
+        },
+        {
+            "name": "n5fhr11light sc",
             "count": 1
         },
         {
@@ -27,10 +35,24 @@
     ],
     "unknown_games": [
         {
+            "normalized": "no loot no fun",
+            "count": 2,
+            "examples": [
+                "no loot no fun"
+            ]
+        },
+        {
             "normalized": "sdaadssd",
             "count": 2,
             "examples": [
                 "sdaadssd"
+            ]
+        },
+        {
+            "normalized": "n#fhr#light sc",
+            "count": 2,
+            "examples": [
+                "n5fhr11light sc"
             ]
         },
         {
@@ -43,8 +65,8 @@
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 11.5
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 13.0
     }
 }
