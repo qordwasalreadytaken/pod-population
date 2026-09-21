@@ -1,16 +1,16 @@
 {
-    "timestamp": "2026-09-21T16:39:00+00:00",
+    "timestamp": "2026-09-21T16:48:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 8
+        "2": 6
     },
     "mode": {
         "1": 1,
-        "0": 8
+        "0": 6
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 8
+        "2|0": 6
     },
     "activities": [
         {
@@ -18,12 +18,12 @@
             "count": 4
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Leveling",
+            "count": 1
         },
         {
-            "name": "Leveling",
-            "count": 2
+            "name": "Misc. Public MF Runs",
+            "count": 1
         },
         {
             "name": "Trade",
@@ -32,15 +32,15 @@
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 2
+            "name": "new",
+            "count": 1
         },
         {
             "name": "ancies plz",
-            "count": 2
+            "count": 1
         },
         {
-            "name": "new",
+            "name": "asd",
             "count": 1
         },
         {
@@ -91,18 +91,18 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 2
-            }
-        ],
         "Leveling": [
             {
                 "name": "ancies plz",
                 "matched": "anci",
-                "count": 2
+                "count": 1
+            }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
             }
         ],
         "Trade": [
@@ -115,7 +115,7 @@
     },
     "interesting": {
         "unique_names": 7,
-        "public_games": 9,
+        "public_games": 7,
         "average_name_length": 7.86
     }
 }
