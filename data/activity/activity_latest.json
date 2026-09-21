@@ -1,31 +1,33 @@
 {
-    "timestamp": "2026-09-21T14:49:00+00:00",
+    "timestamp": "2026-09-21T15:05:00+00:00",
     "difficulty": {
         "2": 3,
-        "1": 1,
-        "0": 2
+        "1": 1
     },
     "mode": {
-        "0": 6
+        "0": 4
     },
     "difficulty_mode": {
         "2|0": 3,
-        "1|0": 1,
-        "0|0": 2
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 6
+            "count": 3
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "sdaadssd",
+            "name": "h anci plz",
             "count": 1
         },
         {
-            "name": "no loot no fun",
+            "name": "sdaadssd",
             "count": 1
         },
         {
@@ -35,14 +37,6 @@
         {
             "name": "nightbare",
             "count": 1
-        },
-        {
-            "name": "wikid klownz",
-            "count": 1
-        },
-        {
-            "name": "brand new",
-            "count": 1
         }
     ],
     "unknown_games": [
@@ -51,13 +45,6 @@
             "count": 2,
             "examples": [
                 "sdaadssd"
-            ]
-        },
-        {
-            "normalized": "no loot no fun",
-            "count": 2,
-            "examples": [
-                "no loot no fun"
             ]
         },
         {
@@ -73,26 +60,20 @@
             "examples": [
                 "nightbare"
             ]
-        },
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
-            ]
-        },
-        {
-            "normalized": "brand new",
-            "count": 2,
-            "examples": [
-                "brand new"
-            ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Leveling": [
+            {
+                "name": "h anci plz",
+                "matched": "anci",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 11.17
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 10.5
     }
 }
