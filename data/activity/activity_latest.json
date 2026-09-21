@@ -1,49 +1,47 @@
 {
-    "timestamp": "2026-09-21T01:06:00+00:00",
+    "timestamp": "2026-09-21T01:39:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
+        "2": 2
     },
     "mode": {
         "0": 2
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 1
+        "2|0": 2
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 1
         },
         {
-            "name": "Leveling",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
+            "name": "wtb btorch",
             "count": 1
         },
         {
-            "name": "new starting",
+            "name": "asd",
             "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "wtb btorch",
+                "matched": "torch",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "new starting",
-                "matched": "start",
                 "count": 1
             }
         ]
@@ -51,6 +49,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 7.5
+        "average_name_length": 6.5
     }
 }
