@@ -701,7 +701,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -772,7 +772,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -144178,7 +144178,7 @@
             "Trade": [
                 {
                     "name": "n oocs wuw",
-                    "matched": "n",
+                    "matched": "wuw",
                     "count": 1
                 }
             ]
@@ -245588,6 +245588,45 @@
             "unique_names": 0,
             "public_games": 0,
             "average_name_length": 0.0
+        }
+    },
+    {
+        "timestamp": "2026-09-21T02:54:00+00:00",
+        "difficulty": {
+            "0": 1
+        },
+        "mode": {
+            "0": 1
+        },
+        "difficulty_mode": {
+            "0|0": 1
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "a",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "a",
+                "count": 2,
+                "examples": [
+                    "a"
+                ]
+            }
+        ],
+        "classified_games": {},
+        "interesting": {
+            "unique_names": 1,
+            "public_games": 1,
+            "average_name_length": 1.0
         }
     }
 ]
