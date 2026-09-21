@@ -1,19 +1,15 @@
 {
-    "timestamp": "2026-09-21T19:04:00+00:00",
+    "timestamp": "2026-09-21T19:21:00+00:00",
     "difficulty": {
-        "2": 6
+        "2": 5
     },
     "mode": {
-        "0": 6
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 6
+        "2|0": 5
     },
     "activities": [
-        {
-            "name": "Other",
-            "count": 2
-        },
         {
             "name": "Trade",
             "count": 2
@@ -21,19 +17,23 @@
         {
             "name": "Misc. Public MF Runs",
             "count": 2
+        },
+        {
+            "name": "Other",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "sur vs nec torc",
+            "name": "n tal amu o5ooc",
+            "count": 1
+        },
+        {
+            "name": "sur vs nec tch",
             "count": 1
         },
         {
             "name": "n tal amuo 5ooc",
-            "count": 1
-        },
-        {
-            "name": "n nec torch",
             "count": 1
         },
         {
@@ -43,37 +43,26 @@
         {
             "name": "asd",
             "count": 1
-        },
-        {
-            "name": "n5fhr11light sc",
-            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "sur vs nec torc",
+            "normalized": "sur vs nec tch",
             "count": 2,
             "examples": [
-                "sur vs nec torc"
-            ]
-        },
-        {
-            "normalized": "n#fhr#light sc",
-            "count": 2,
-            "examples": [
-                "n5fhr11light sc"
+                "sur vs nec tch"
             ]
         }
     ],
     "classified_games": {
         "Trade": [
             {
-                "name": "n tal amuo 5ooc",
+                "name": "n tal amu o5ooc",
                 "matched": "n",
                 "count": 1
             },
             {
-                "name": "n nec torch",
+                "name": "n tal amuo 5ooc",
                 "matched": "n",
                 "count": 1
             }
@@ -92,8 +81,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 10.5
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 10.2
     }
 }
