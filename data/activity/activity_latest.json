@@ -1,24 +1,28 @@
 {
-    "timestamp": "2026-09-21T14:27:00+00:00",
+    "timestamp": "2026-09-21T14:40:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 4,
+        "1": 1,
+        "0": 2
     },
     "mode": {
-        "0": 4
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 4
+        "2|0": 4,
+        "1|0": 1,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 7
         }
     ],
     "top_games": [
         {
             "name": "no loot no fun",
-            "count": 1
+            "count": 2
         },
         {
             "name": "sdaadssd",
@@ -29,14 +33,22 @@
             "count": 1
         },
         {
-            "name": "where are u bro",
+            "name": "nightbare",
+            "count": 1
+        },
+        {
+            "name": "wikid klownz",
+            "count": 1
+        },
+        {
+            "name": "brand new",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "no loot no fun",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "no loot no fun"
             ]
@@ -56,17 +68,31 @@
             ]
         },
         {
-            "normalized": "where are u bro",
+            "normalized": "nightbare",
             "count": 2,
             "examples": [
-                "where are u bro"
+                "nightbare"
+            ]
+        },
+        {
+            "normalized": "wikid klownz",
+            "count": 2,
+            "examples": [
+                "wikid klownz"
+            ]
+        },
+        {
+            "normalized": "brand new",
+            "count": 2,
+            "examples": [
+                "brand new"
             ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 13.0
+        "unique_names": 6,
+        "public_games": 7,
+        "average_name_length": 11.17
     }
 }
