@@ -1,19 +1,23 @@
 {
-    "timestamp": "2026-09-22T11:46:00+00:00",
+    "timestamp": "2026-09-22T12:07:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 6,
         "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 6
+        "0": 8
     },
     "difficulty_mode": {
-        "2|0": 4,
+        "2|0": 6,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
+        {
+            "name": "Trade",
+            "count": 3
+        },
         {
             "name": "Misc. Public MF Runs",
             "count": 3
@@ -25,15 +29,19 @@
         {
             "name": "Other",
             "count": 1
-        },
-        {
-            "name": "Trade",
-            "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "o sur n nec tor",
+            "count": 1
+        },
+        {
             "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "o sur n nec t",
             "count": 1
         },
         {
@@ -67,6 +75,23 @@
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "o sur n nec tor",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "o sur n nec t",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n silkweave",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
@@ -90,18 +115,11 @@
                 "matched": "map",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "n silkweave",
-                "matched": "n",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 8.0
+        "unique_names": 8,
+        "public_games": 8,
+        "average_name_length": 9.5
     }
 }
