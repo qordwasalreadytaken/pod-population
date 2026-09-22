@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-09-22T20:34:00+00:00",
+    "timestamp": "2026-09-22T20:47:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 2,
         "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Trade",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -22,6 +22,10 @@
         }
     ],
     "top_games": [
+        {
+            "name": "n maras amu 3",
+            "count": 1
+        },
         {
             "name": "o sur n anni",
             "count": 1
@@ -34,6 +38,11 @@
     "unknown_games": [],
     "classified_games": {
         "Trade": [
+            {
+                "name": "n maras amu 3",
+                "matched": "n",
+                "count": 1
+            },
             {
                 "name": "o sur n anni",
                 "matched": "n",
@@ -49,8 +58,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 8.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 9.67
     }
 }
