@@ -1,75 +1,65 @@
 {
-    "timestamp": "2026-09-22T14:49:00+00:00",
+    "timestamp": "2026-09-22T15:05:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 2,
         "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 3
+            "name": "Trade",
+            "count": 2
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "just run",
-            "count": 1
-        },
-        {
-            "name": "asd",
-            "count": 1
-        },
-        {
             "name": "gord",
             "count": 1
         },
         {
-            "name": "wikid klownz",
+            "name": "o sur n nec t",
+            "count": 1
+        },
+        {
+            "name": "torchman grow 1",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Misc. Public MF Runs": [
-            {
-                "name": "just run",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            },
             {
                 "name": "gord",
                 "matched": "gord",
                 "count": 1
             }
+        ],
+        "Trade": [
+            {
+                "name": "o sur n nec t",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "torchman grow 1",
+                "matched": "torch",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.75
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 10.67
     }
 }
