@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-09-22T22:32:00+00:00",
+    "timestamp": "2026-09-22T22:46:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 3
+        "2": 3,
+        "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "0|0": 3
+        "2|0": 3,
+        "0|0": 1
     },
     "activities": [
         {
@@ -21,10 +21,6 @@
             "count": 1
         },
         {
-            "name": "Leveling",
-            "count": 1
-        },
-        {
             "name": "Other",
             "count": 1
         }
@@ -32,22 +28,14 @@
     "top_games": [
         {
             "name": "asd",
-            "count": 1
+            "count": 2
         },
         {
             "name": "n maras amu 6",
             "count": 1
         },
         {
-            "name": "act 1",
-            "count": 1
-        },
-        {
             "name": "1224",
-            "count": 1
-        },
-        {
-            "name": "gord",
             "count": 1
         }
     ],
@@ -65,12 +53,7 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
+                "count": 2
             }
         ],
         "Trade": [
@@ -79,18 +62,11 @@
                 "matched": "n",
                 "count": 1
             }
-        ],
-        "Leveling": [
-            {
-                "name": "act 1",
-                "matched": "act",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 5.8
+        "unique_names": 3,
+        "public_games": 4,
+        "average_name_length": 6.67
     }
 }
