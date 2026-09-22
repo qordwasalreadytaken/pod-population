@@ -1,20 +1,18 @@
 {
-    "timestamp": "2026-09-22T13:47:00+00:00",
+    "timestamp": "2026-09-22T14:05:00+00:00",
     "difficulty": {
-        "2": 5,
-        "1": 1
+        "2": 7
     },
     "mode": {
-        "0": 6
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 5,
-        "1|0": 1
+        "2|0": 7
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
@@ -26,6 +24,18 @@
         }
     ],
     "top_games": [
+        {
+            "name": "jah ber plz 10",
+            "count": 1
+        },
+        {
+            "name": "gord",
+            "count": 1
+        },
+        {
+            "name": "o sur n nec t",
+            "count": 1
+        },
         {
             "name": "qqq",
             "count": 1
@@ -39,50 +49,43 @@
             "count": 1
         },
         {
-            "name": "o sur n anni",
-            "count": 1
-        },
-        {
             "name": "n silkweave",
-            "count": 1
-        },
-        {
-            "name": "gord",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "jah ber plz #",
+            "count": 4,
+            "examples": [
+                "jah ber plz 10",
+                "jah ber plz 9"
+            ]
+        },
         {
             "normalized": "qqq",
             "count": 2,
             "examples": [
                 "qqq"
             ]
-        },
-        {
-            "normalized": "jah ber plz #",
-            "count": 2,
-            "examples": [
-                "jah ber plz 9"
-            ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
-                "matched": "asd",
+                "name": "gord",
+                "matched": "gord",
                 "count": 1
             },
             {
-                "name": "gord",
-                "matched": "gord",
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             }
         ],
         "Trade": [
             {
-                "name": "o sur n anni",
+                "name": "o sur n nec t",
                 "matched": "n",
                 "count": 1
             },
@@ -94,8 +97,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 7.67
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 8.71
     }
 }
