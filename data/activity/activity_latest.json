@@ -1,14 +1,16 @@
 {
-    "timestamp": "2026-09-22T13:05:00+00:00",
+    "timestamp": "2026-09-22T13:25:00+00:00",
     "difficulty": {
-        "2": 7,
+        "2": 5,
+        "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 8
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 7,
+        "2|0": 5,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
@@ -23,15 +25,19 @@
         {
             "name": "Misc. Public MF Runs",
             "count": 1
-        },
-        {
-            "name": "Maps",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "jah ber plz 6",
+            "name": "t",
+            "count": 1
+        },
+        {
+            "name": "jah ber plz 8",
+            "count": 1
+        },
+        {
+            "name": "o sur n anni",
             "count": 1
         },
         {
@@ -39,23 +45,11 @@
             "count": 1
         },
         {
-            "name": "jah ber plz 5",
-            "count": 1
-        },
-        {
-            "name": "n curse gc 4",
-            "count": 1
-        },
-        {
-            "name": "asd",
-            "count": 1
-        },
-        {
             "name": "n silkweave",
             "count": 1
         },
         {
-            "name": "cow-map-green",
+            "name": "gord",
             "count": 1
         },
         {
@@ -65,11 +59,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "jah ber plz #",
-            "count": 4,
+            "normalized": "t",
+            "count": 2,
             "examples": [
-                "jah ber plz 5",
-                "jah ber plz 6"
+                "t"
+            ]
+        },
+        {
+            "normalized": "jah ber plz #",
+            "count": 2,
+            "examples": [
+                "jah ber plz 8"
             ]
         },
         {
@@ -90,7 +90,7 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "n curse gc 4",
+                "name": "o sur n anni",
                 "matched": "n",
                 "count": 1
             },
@@ -102,22 +102,15 @@
         ],
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
-        "Maps": [
-            {
-                "name": "cow-map-green",
-                "matched": "map",
+                "name": "gord",
+                "matched": "gord",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 8,
-        "average_name_length": 10.38
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 8.43
     }
 }
