@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-09-22T12:53:00+00:00",
+    "timestamp": "2026-09-22T13:05:00+00:00",
     "difficulty": {
-        "2": 6,
+        "2": 7,
         "0": 1
     },
     "mode": {
-        "0": 7
+        "0": 8
     },
     "difficulty_mode": {
-        "2|0": 6,
+        "2|0": 7,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Trade",
@@ -30,6 +30,10 @@
         }
     ],
     "top_games": [
+        {
+            "name": "jah ber plz 6",
+            "count": 1
+        },
         {
             "name": "no gear no fun",
             "count": 1
@@ -61,17 +65,18 @@
     ],
     "unknown_games": [
         {
+            "normalized": "jah ber plz #",
+            "count": 4,
+            "examples": [
+                "jah ber plz 5",
+                "jah ber plz 6"
+            ]
+        },
+        {
             "normalized": "no gear no fun",
             "count": 2,
             "examples": [
                 "no gear no fun"
-            ]
-        },
-        {
-            "normalized": "jah ber plz #",
-            "count": 2,
-            "examples": [
-                "jah ber plz 5"
             ]
         },
         {
@@ -111,8 +116,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 10.0
+        "unique_names": 8,
+        "public_games": 8,
+        "average_name_length": 10.38
     }
 }
