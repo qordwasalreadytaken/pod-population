@@ -1,27 +1,17 @@
 {
-    "timestamp": "2026-09-22T18:30:00+00:00",
+    "timestamp": "2026-09-22T18:48:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 1
+        "2": 1
     },
     "mode": {
-        "0": 4
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "0|0": 1
+        "2|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
-        },
-        {
             "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Other",
             "count": 1
         }
     ],
@@ -29,29 +19,9 @@
         {
             "name": "n mara amu 10",
             "count": 1
-        },
-        {
-            "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "asder",
-            "count": 1
-        },
-        {
-            "name": "das",
-            "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "das",
-            "count": 2,
-            "examples": [
-                "das"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Trade": [
             {
@@ -59,23 +29,11 @@
                 "matched": "n",
                 "count": 1
             }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "asder",
-                "matched": "asd",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.0
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 13.0
     }
 }
