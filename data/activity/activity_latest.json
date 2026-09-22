@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-22T10:26:00+00:00",
+    "timestamp": "2026-09-22T10:37:00+00:00",
     "difficulty": {
         "2": 6
     },
@@ -21,8 +21,12 @@
     ],
     "top_games": [
         {
+            "name": "jah ber plz 1",
+            "count": 1
+        },
+        {
             "name": "r",
-            "count": 2
+            "count": 1
         },
         {
             "name": "gord",
@@ -43,8 +47,15 @@
     ],
     "unknown_games": [
         {
+            "normalized": "jah ber plz #",
+            "count": 2,
+            "examples": [
+                "jah ber plz 1"
+            ]
+        },
+        {
             "normalized": "r",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "r"
             ]
@@ -79,8 +90,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
+        "unique_names": 6,
         "public_games": 6,
-        "average_name_length": 4.0
+        "average_name_length": 5.5
     }
 }
