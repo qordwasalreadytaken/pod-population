@@ -1,33 +1,49 @@
 {
-    "timestamp": "2026-09-22T15:46:00+00:00",
+    "timestamp": "2026-09-22T16:05:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 5,
         "0": 2
     },
     "mode": {
-        "0": 3
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 1,
+        "2|0": 5,
         "0|0": 2
     },
     "activities": [
+        {
+            "name": "Other",
+            "count": 3
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 2
+        },
         {
             "name": "Trade",
             "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Other",
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "o sur n nec tor",
+            "name": "no gear no fun",
+            "count": 2
+        },
+        {
+            "name": "o sur n arach",
+            "count": 1
+        },
+        {
+            "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "acte hell",
             "count": 1
         },
         {
@@ -41,6 +57,13 @@
     ],
     "unknown_games": [
         {
+            "normalized": "no gear no fun",
+            "count": 4,
+            "examples": [
+                "no gear no fun"
+            ]
+        },
+        {
             "normalized": "wikid klownz",
             "count": 2,
             "examples": [
@@ -51,22 +74,34 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "o sur n nec tor",
+                "name": "o sur n arach",
                 "matched": "n",
                 "count": 1
             }
         ],
         "Misc. Public MF Runs": [
             {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            },
+            {
                 "name": "gord",
                 "matched": "gord",
+                "count": 1
+            }
+        ],
+        "Leveling": [
+            {
+                "name": "acte hell",
+                "matched": "act",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 10.33
+        "unique_names": 6,
+        "public_games": 7,
+        "average_name_length": 9.17
     }
 }
