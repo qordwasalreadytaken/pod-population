@@ -1,87 +1,77 @@
 {
-    "timestamp": "2026-09-22T11:05:00+00:00",
+    "timestamp": "2026-09-22T11:22:00+00:00",
     "difficulty": {
-        "2": 6
+        "2": 3,
+        "0": 1
     },
     "mode": {
-        "0": 6
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 6
+        "2|0": 3,
+        "0|0": 1
     },
     "activities": [
         {
+            "name": "Maps",
+            "count": 1
+        },
+        {
             "name": "Other",
-            "count": 4
+            "count": 1
+        },
+        {
+            "name": "Trade",
+            "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n20lrsilkweave",
+            "name": "cow-map-green",
             "count": 1
         },
         {
-            "name": "r",
+            "name": "jah ber plz 3",
             "count": 1
         },
         {
-            "name": "gord",
-            "count": 1
-        },
-        {
-            "name": "lvv",
+            "name": "n silkweave",
             "count": 1
         },
         {
             "name": "dasd",
             "count": 1
-        },
-        {
-            "name": "sdaadssd",
-            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "n#lrsilkweave",
+            "normalized": "jah ber plz #",
             "count": 2,
             "examples": [
-                "n20lrsilkweave"
-            ]
-        },
-        {
-            "normalized": "r",
-            "count": 2,
-            "examples": [
-                "r"
-            ]
-        },
-        {
-            "normalized": "lvv",
-            "count": 2,
-            "examples": [
-                "lvv"
-            ]
-        },
-        {
-            "normalized": "sdaadssd",
-            "count": 2,
-            "examples": [
-                "sdaadssd"
+                "jah ber plz 3"
             ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Maps": [
             {
-                "name": "gord",
-                "matched": "gord",
+                "name": "cow-map-green",
+                "matched": "map",
                 "count": 1
-            },
+            }
+        ],
+        "Trade": [
+            {
+                "name": "n silkweave",
+                "matched": "n",
+                "count": 1
+            }
+        ],
+        "Misc. Public MF Runs": [
             {
                 "name": "dasd",
                 "matched": "asd",
@@ -90,8 +80,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 5.67
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 10.25
     }
 }
