@@ -1,15 +1,21 @@
 {
-    "timestamp": "2026-09-22T00:13:00+00:00",
+    "timestamp": "2026-09-22T01:00:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 4,
+        "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 4
+        "2|0": 4,
+        "0|0": 1
     },
     "activities": [
+        {
+            "name": "Trade",
+            "count": 2
+        },
         {
             "name": "Other",
             "count": 2
@@ -17,15 +23,11 @@
         {
             "name": "Misc. Public MF Runs",
             "count": 1
-        },
-        {
-            "name": "Trade",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "1215",
+            "name": "o sur n nec tor",
             "count": 1
         },
         {
@@ -33,43 +35,58 @@
             "count": 1
         },
         {
-            "name": "o sur n nec tor",
+            "name": "what u need?",
             "count": 1
         },
         {
-            "name": "1214",
+            "name": "o sur n nec t",
+            "count": 1
+        },
+        {
+            "name": "1218",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "#",
-            "count": 4,
+            "normalized": "what u need?",
+            "count": 2,
             "examples": [
-                "1214",
-                "1215"
+                "what u need?"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1218"
             ]
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "o sur n nec tor",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "o sur n nec t",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "o sur n nec tor",
-                "matched": "n",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.5
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 9.4
     }
 }
