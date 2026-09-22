@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-22T13:25:00+00:00",
+    "timestamp": "2026-09-22T13:36:00+00:00",
     "difficulty": {
         "2": 5,
         "1": 1,
@@ -29,19 +29,19 @@
     ],
     "top_games": [
         {
+            "name": "no gear no fun",
+            "count": 1
+        },
+        {
+            "name": "jah ber plz 9",
+            "count": 1
+        },
+        {
             "name": "t",
             "count": 1
         },
         {
-            "name": "jah ber plz 8",
-            "count": 1
-        },
-        {
             "name": "o sur n anni",
-            "count": 1
-        },
-        {
-            "name": "no gear no fun",
             "count": 1
         },
         {
@@ -59,24 +59,24 @@
     ],
     "unknown_games": [
         {
-            "normalized": "t",
+            "normalized": "no gear no fun",
             "count": 2,
             "examples": [
-                "t"
+                "no gear no fun"
             ]
         },
         {
             "normalized": "jah ber plz #",
             "count": 2,
             "examples": [
-                "jah ber plz 8"
+                "jah ber plz 9"
             ]
         },
         {
-            "normalized": "no gear no fun",
+            "normalized": "t",
             "count": 2,
             "examples": [
-                "no gear no fun"
+                "t"
             ]
         },
         {
