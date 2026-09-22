@@ -1,43 +1,41 @@
 {
-    "timestamp": "2026-09-22T13:36:00+00:00",
+    "timestamp": "2026-09-22T13:47:00+00:00",
     "difficulty": {
         "2": 5,
-        "1": 1,
-        "0": 1
+        "1": 1
     },
     "mode": {
-        "0": 7
+        "0": 6
     },
     "difficulty_mode": {
         "2|0": 5,
-        "1|0": 1,
-        "0|0": 1
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Trade",
             "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
+        },
+        {
+            "name": "Trade",
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "no gear no fun",
+            "name": "qqq",
+            "count": 1
+        },
+        {
+            "name": "asd",
             "count": 1
         },
         {
             "name": "jah ber plz 9",
-            "count": 1
-        },
-        {
-            "name": "t",
             "count": 1
         },
         {
@@ -51,18 +49,14 @@
         {
             "name": "gord",
             "count": 1
-        },
-        {
-            "name": "dada",
-            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "no gear no fun",
+            "normalized": "qqq",
             "count": 2,
             "examples": [
-                "no gear no fun"
+                "qqq"
             ]
         },
         {
@@ -71,23 +65,21 @@
             "examples": [
                 "jah ber plz 9"
             ]
-        },
-        {
-            "normalized": "t",
-            "count": 2,
-            "examples": [
-                "t"
-            ]
-        },
-        {
-            "normalized": "dada",
-            "count": 2,
-            "examples": [
-                "dada"
-            ]
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "gord",
+                "matched": "gord",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "o sur n anni",
@@ -99,18 +91,11 @@
                 "matched": "n",
                 "count": 1
             }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 8.43
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 7.67
     }
 }
