@@ -1,48 +1,81 @@
 {
-    "timestamp": "2026-09-22T19:04:00+00:00",
+    "timestamp": "2026-09-22T19:20:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 3,
+        "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 3,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Trade",
             "count": 2
+        },
+        {
+            "name": "Other",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "lvv",
+            "count": 1
+        },
+        {
+            "name": "o sur n anni",
+            "count": 1
+        },
         {
             "name": "n mara amu 11",
             "count": 1
         },
         {
-            "name": "n mara amu 10",
+            "name": "asd 1",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "lvv",
+            "count": 2,
+            "examples": [
+                "lvv"
+            ]
+        }
+    ],
     "classified_games": {
         "Trade": [
             {
-                "name": "n mara amu 11",
+                "name": "o sur n anni",
                 "matched": "n",
                 "count": 1
             },
             {
-                "name": "n mara amu 10",
+                "name": "n mara amu 11",
                 "matched": "n",
+                "count": 1
+            }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd 1",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 13.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 8.25
     }
 }
