@@ -1,15 +1,19 @@
 {
-    "timestamp": "2026-09-23T13:35:00+00:00",
+    "timestamp": "2026-09-23T13:46:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 3
     },
     "mode": {
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 4
+        "2|0": 3
     },
     "activities": [
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
         {
             "name": "Leveling",
             "count": 1
@@ -17,31 +21,19 @@
         {
             "name": "Other",
             "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Trade",
-            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "asd",
+            "count": 1
+        },
         {
             "name": "acte andy",
             "count": 1
         },
         {
             "name": "lvv",
-            "count": 1
-        },
-        {
-            "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "n silkweave",
             "count": 1
         }
     ],
@@ -55,13 +47,6 @@
         }
     ],
     "classified_games": {
-        "Leveling": [
-            {
-                "name": "acte andy",
-                "matched": "act",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
@@ -69,17 +54,17 @@
                 "count": 1
             }
         ],
-        "Trade": [
+        "Leveling": [
             {
-                "name": "n silkweave",
-                "matched": "n",
+                "name": "acte andy",
+                "matched": "andy",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 5.0
     }
 }
