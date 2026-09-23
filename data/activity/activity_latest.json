@@ -1,34 +1,42 @@
 {
-    "timestamp": "2026-09-23T04:44:00+00:00",
+    "timestamp": "2026-09-23T04:52:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 3
+        "2": 2
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 3
+        "2|0": 2
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 3
+            "name": "Leveling",
+            "count": 1
         },
         {
-            "name": "Leveling",
+            "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 3
+            "name": "normy norm",
+            "count": 1
         },
         {
-            "name": "normy norm",
+            "name": "n silkweave",
+            "count": 1
+        },
+        {
+            "name": "asd",
             "count": 1
         }
     ],
@@ -41,17 +49,24 @@
                 "count": 1
             }
         ],
+        "Trade": [
+            {
+                "name": "n silkweave",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 3
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 4,
-        "average_name_length": 6.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 8.0
     }
 }
