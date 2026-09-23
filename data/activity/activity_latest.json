@@ -1,34 +1,34 @@
 {
-    "timestamp": "2026-09-23T04:28:00+00:00",
+    "timestamp": "2026-09-23T04:44:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 1
+        "2": 3
     },
     "mode": {
         "1": 1,
-        "0": 1
+        "0": 3
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 1
+        "2|0": 3
     },
     "activities": [
         {
-            "name": "Leveling",
-            "count": 1
+            "name": "Misc. Public MF Runs",
+            "count": 3
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "normy norm",
-            "count": 1
+            "name": "asd",
+            "count": 3
         },
         {
-            "name": "asd",
+            "name": "normy norm",
             "count": 1
         }
     ],
@@ -45,13 +45,13 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
+                "count": 3
             }
         ]
     },
     "interesting": {
         "unique_names": 2,
-        "public_games": 2,
+        "public_games": 4,
         "average_name_length": 6.5
     }
 }
