@@ -1,29 +1,37 @@
 {
-    "timestamp": "2026-09-23T20:05:00+00:00",
+    "timestamp": "2026-09-23T20:25:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 2,
         "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
             "count": 2
+        },
+        {
+            "name": "Maps",
+            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "map 4",
+            "count": 1
+        },
         {
             "name": "lvv",
             "count": 1
         },
         {
-            "name": "sfs",
+            "name": "dadsa",
             "count": 1
         }
     ],
@@ -36,17 +44,25 @@
             ]
         },
         {
-            "normalized": "sfs",
+            "normalized": "dadsa",
             "count": 2,
             "examples": [
-                "sfs"
+                "dadsa"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Maps": [
+            {
+                "name": "map 4",
+                "matched": "map",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 3.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 4.33
     }
 }
