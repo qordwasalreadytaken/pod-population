@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2188,
+        "count": 2190,
         "examples": [
             "1",
             "10",
@@ -1187,6 +1187,13 @@
         ]
     },
     {
+        "normalized": "new player",
+        "count": 12,
+        "examples": [
+            "new player"
+        ]
+    },
+    {
         "normalized": "a#h",
         "count": 10,
         "examples": [
@@ -1456,13 +1463,6 @@
         "count": 10,
         "examples": [
             "pit"
-        ]
-    },
-    {
-        "normalized": "new player",
-        "count": 10,
-        "examples": [
-            "new player"
         ]
     },
     {
