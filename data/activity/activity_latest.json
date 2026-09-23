@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-23T23:32:00+00:00",
+    "timestamp": "2026-09-23T23:46:00+00:00",
     "difficulty": {
         "2": 1,
         "1": 3,
@@ -37,15 +37,15 @@
             "count": 1
         },
         {
+            "name": "nm baal 11",
+            "count": 1
+        },
+        {
+            "name": "nm baal 10",
+            "count": 1
+        },
+        {
             "name": "nm baal 8",
-            "count": 1
-        },
-        {
-            "name": "nm baal 7",
-            "count": 1
-        },
-        {
-            "name": "nm baal 6",
             "count": 1
         },
         {
@@ -76,17 +76,17 @@
         ],
         "Baal": [
             {
+                "name": "nm baal 11",
+                "matched": "baal",
+                "count": 1
+            },
+            {
+                "name": "nm baal 10",
+                "matched": "baal",
+                "count": 1
+            },
+            {
                 "name": "nm baal 8",
-                "matched": "baal",
-                "count": 1
-            },
-            {
-                "name": "nm baal 7",
-                "matched": "baal",
-                "count": 1
-            },
-            {
-                "name": "nm baal 6",
                 "matched": "baal",
                 "count": 1
             }
@@ -102,6 +102,6 @@
     "interesting": {
         "unique_names": 6,
         "public_games": 6,
-        "average_name_length": 7.5
+        "average_name_length": 7.83
     }
 }
