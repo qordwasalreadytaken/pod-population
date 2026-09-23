@@ -1,29 +1,29 @@
 {
-    "timestamp": "2026-09-23T20:34:00+00:00",
+    "timestamp": "2026-09-23T20:46:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 2,
         "1": 1,
-        "0": 1
+        "0": 2
     },
     "mode": {
         "0": 5
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 2,
         "1|0": 1,
-        "0|0": 1
+        "0|0": 2
     },
     "activities": [
-        {
-            "name": "Maps",
-            "count": 2
-        },
         {
             "name": "Other",
             "count": 2
         },
         {
             "name": "Leveling",
+            "count": 2
+        },
+        {
+            "name": "Maps",
             "count": 1
         }
     ],
@@ -33,15 +33,15 @@
             "count": 1
         },
         {
-            "name": "map 4",
-            "count": 1
-        },
-        {
             "name": "lvv",
             "count": 1
         },
         {
             "name": "act 1 nm",
+            "count": 1
+        },
+        {
+            "name": "help ancients",
             "count": 1
         },
         {
@@ -71,11 +71,6 @@
                 "name": "map 5",
                 "matched": "map",
                 "count": 1
-            },
-            {
-                "name": "map 4",
-                "matched": "map",
-                "count": 1
             }
         ],
         "Leveling": [
@@ -83,12 +78,17 @@
                 "name": "act 1 nm",
                 "matched": "act",
                 "count": 1
+            },
+            {
+                "name": "help ancients",
+                "matched": "anci",
+                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 5,
         "public_games": 5,
-        "average_name_length": 5.2
+        "average_name_length": 6.8
     }
 }
