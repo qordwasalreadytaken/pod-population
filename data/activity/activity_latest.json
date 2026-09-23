@@ -1,26 +1,26 @@
 {
-    "timestamp": "2026-09-23T21:32:00+00:00",
+    "timestamp": "2026-09-23T21:46:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 2,
         "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 2,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Maps",
+            "name": "Other",
             "count": 2
         },
         {
-            "name": "Other",
-            "count": 2
+            "name": "Maps",
+            "count": 1
         },
         {
             "name": "Leveling",
@@ -30,10 +30,6 @@
     "top_games": [
         {
             "name": "map 9",
-            "count": 1
-        },
-        {
-            "name": "map 8",
             "count": 1
         },
         {
@@ -71,11 +67,6 @@
                 "name": "map 9",
                 "matched": "map",
                 "count": 1
-            },
-            {
-                "name": "map 8",
-                "matched": "map",
-                "count": 1
             }
         ],
         "Leveling": [
@@ -87,8 +78,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 5.4
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 5.5
     }
 }
