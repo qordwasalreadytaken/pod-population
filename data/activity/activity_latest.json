@@ -1,22 +1,32 @@
 {
-    "timestamp": "2026-09-23T16:27:00+00:00",
+    "timestamp": "2026-09-23T16:42:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 3
+        "0": 3,
+        "2": 5,
+        "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 8
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 3,
-        "0|0": 1
+        "2|0": 5,
+        "1|0": 1,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 7
+        },
+        {
+            "name": "Leveling",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         }
     ],
     "top_games": [
@@ -26,6 +36,22 @@
         },
         {
             "name": "neuling",
+            "count": 1
+        },
+        {
+            "name": "uiouo",
+            "count": 1
+        },
+        {
+            "name": "acte andy",
+            "count": 1
+        },
+        {
+            "name": "121",
+            "count": 1
+        },
+        {
+            "name": "gord",
             "count": 1
         },
         {
@@ -49,6 +75,20 @@
             ]
         },
         {
+            "normalized": "uiouo",
+            "count": 2,
+            "examples": [
+                "uiouo"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "121"
+            ]
+        },
+        {
             "normalized": "wikid klownz",
             "count": 2,
             "examples": [
@@ -56,10 +96,25 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Leveling": [
+            {
+                "name": "acte andy",
+                "matched": "act",
+                "count": 1
+            }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "gord",
+                "matched": "gord",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 5,
-        "average_name_length": 7.33
+        "unique_names": 7,
+        "public_games": 9,
+        "average_name_length": 6.14
     }
 }
