@@ -1,42 +1,42 @@
 {
-    "timestamp": "2026-09-24T11:34:00+00:00",
+    "timestamp": "2026-09-24T11:46:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 1
+        "1": 1,
+        "0": 1
     },
     "mode": {
         "0": 2
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 1
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Leveling",
             "count": 1
         },
         {
-            "name": "Leveling",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "lvv",
+            "name": "nm andy",
             "count": 1
         },
         {
-            "name": "nm andy",
+            "name": "lbl",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "lvv",
+            "normalized": "lbl",
             "count": 2,
             "examples": [
-                "lvv"
+                "lbl"
             ]
         }
     ],
