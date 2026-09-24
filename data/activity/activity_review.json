@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2242,
+        "count": 2246,
         "examples": [
             "1",
             "10",
@@ -209,17 +209,17 @@
         ]
     },
     {
+        "normalized": "eq",
+        "count": 64,
+        "examples": [
+            "eq"
+        ]
+    },
+    {
         "normalized": "lvup gogo",
         "count": 64,
         "examples": [
             "lvup gogo"
-        ]
-    },
-    {
-        "normalized": "eq",
-        "count": 62,
-        "examples": [
-            "eq"
         ]
     },
     {
@@ -535,6 +535,13 @@
         ]
     },
     {
+        "normalized": "dasad",
+        "count": 22,
+        "examples": [
+            "dasad"
+        ]
+    },
+    {
         "normalized": "fa",
         "count": 22,
         "examples": [
@@ -602,13 +609,6 @@
         "count": 20,
         "examples": [
             "dada"
-        ]
-    },
-    {
-        "normalized": "dasad",
-        "count": 20,
-        "examples": [
-            "dasad"
         ]
     },
     {
