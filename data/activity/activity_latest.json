@@ -1,35 +1,43 @@
 {
-    "timestamp": "2026-09-24T19:32:00+00:00",
+    "timestamp": "2026-09-24T19:46:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 5,
         "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 6
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 2,
+        "2|0": 4,
         "0|0": 2
     },
     "activities": [
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 3
+        },
         {
             "name": "Other",
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
-        },
-        {
             "name": "Trade",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
             "name": "kill bill",
+            "count": 1
+        },
+        {
+            "name": "asder",
+            "count": 1
+        },
+        {
+            "name": "n tal amu 6",
             "count": 1
         },
         {
@@ -66,14 +74,12 @@
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n trav wp",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
+            {
+                "name": "asder",
+                "matched": "asd",
+                "count": 1
+            },
             {
                 "name": "gord",
                 "matched": "gord",
@@ -84,11 +90,23 @@
                 "matched": "asd",
                 "count": 1
             }
+        ],
+        "Trade": [
+            {
+                "name": "n tal amu 6",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n trav wp",
+                "matched": "n",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 5.6
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 6.29
     }
 }
