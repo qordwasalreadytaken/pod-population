@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-24T20:47:00+00:00",
+    "timestamp": "2026-09-24T21:05:00+00:00",
     "difficulty": {
         "2": 3,
         "0": 1
@@ -17,11 +17,11 @@
             "count": 2
         },
         {
-            "name": "Other",
+            "name": "Maps",
             "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Leveling",
             "count": 1
         }
     ],
@@ -31,23 +31,15 @@
             "count": 2
         },
         {
-            "name": "dadw",
+            "name": "lasto map",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "help act 5 pliz",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "dadw",
-            "count": 2,
-            "examples": [
-                "dadw"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Chaos": [
             {
@@ -56,10 +48,17 @@
                 "count": 2
             }
         ],
-        "Misc. Public MF Runs": [
+        "Maps": [
             {
-                "name": "asd",
-                "matched": "asd",
+                "name": "lasto map",
+                "matched": "map",
+                "count": 1
+            }
+        ],
+        "Leveling": [
+            {
+                "name": "help act 5 pliz",
+                "matched": "act",
                 "count": 1
             }
         ]
@@ -67,6 +66,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 4,
-        "average_name_length": 5.67
+        "average_name_length": 11.33
     }
 }
