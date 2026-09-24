@@ -1,33 +1,47 @@
 {
-    "timestamp": "2026-09-24T17:33:00+00:00",
+    "timestamp": "2026-09-24T17:46:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 7,
         "0": 1
     },
     "mode": {
-        "0": 5
+        "1": 1,
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 4,
+        "2|1": 1,
+        "2|0": 6,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
-        },
-        {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Trade",
-            "count": 1
+            "count": 3
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 2
         }
     ],
     "top_games": [
         {
+            "name": "kill bill",
+            "count": 1
+        },
+        {
+            "name": "n tal amu 3",
+            "count": 1
+        },
+        {
             "name": "asder",
+            "count": 1
+        },
+        {
+            "name": "n silkweave",
             "count": 1
         },
         {
@@ -49,6 +63,13 @@
     ],
     "unknown_games": [
         {
+            "normalized": "kill bill",
+            "count": 2,
+            "examples": [
+                "kill bill"
+            ]
+        },
+        {
             "normalized": "#",
             "count": 2,
             "examples": [
@@ -64,6 +85,23 @@
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n tal amu 3",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n silkweave",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n tal amu 2",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asder",
@@ -75,18 +113,11 @@
                 "matched": "asd",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "n tal amu 2",
-                "matched": "n",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 5.8
+        "unique_names": 8,
+        "public_games": 8,
+        "average_name_length": 7.5
     }
 }

@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2260,
+        "count": 2262,
         "examples": [
             "1",
             "10",
@@ -1522,6 +1522,13 @@
         ]
     },
     {
+        "normalized": "kill bill",
+        "count": 10,
+        "examples": [
+            "kill bill"
+        ]
+    },
+    {
         "normalized": "free items",
         "count": 10,
         "examples": [
@@ -1970,13 +1977,6 @@
         "count": 8,
         "examples": [
             "3r"
-        ]
-    },
-    {
-        "normalized": "kill bill",
-        "count": 8,
-        "examples": [
-            "kill bill"
         ]
     },
     {
@@ -3772,6 +3772,13 @@
         "count": 4,
         "examples": [
             "lbl"
+        ]
+    },
+    {
+        "normalized": "heywtf",
+        "count": 4,
+        "examples": [
+            "heywtf"
         ]
     },
     {
@@ -7265,13 +7272,6 @@
         "count": 2,
         "examples": [
             "et t"
-        ]
-    },
-    {
-        "normalized": "heywtf",
-        "count": 2,
-        "examples": [
-            "heywtf"
         ]
     }
 ]
