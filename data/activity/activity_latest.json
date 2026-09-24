@@ -1,29 +1,33 @@
 {
-    "timestamp": "2026-09-24T03:52:00+00:00",
+    "timestamp": "2026-09-24T04:05:00+00:00",
     "difficulty": {
         "2": 1,
-        "0": 1
+        "0": 3
     },
     "mode": {
-        "0": 2
+        "0": 4
     },
     "difficulty_mode": {
         "2|0": 1,
-        "0|0": 1
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Trade",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
             "name": "asd",
+            "count": 2
+        },
+        {
+            "name": "n necro torch",
             "count": 1
         },
         {
@@ -37,10 +41,15 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             }
         ],
         "Trade": [
+            {
+                "name": "n necro torch",
+                "matched": "torch",
+                "count": 1
+            },
             {
                 "name": "n ntorch o bto",
                 "matched": "torch",
@@ -49,8 +58,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 8.5
+        "unique_names": 3,
+        "public_games": 4,
+        "average_name_length": 10.0
     }
 }
