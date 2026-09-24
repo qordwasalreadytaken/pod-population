@@ -1,21 +1,43 @@
 {
-    "timestamp": "2026-09-24T23:32:00+00:00",
+    "timestamp": "2026-09-24T23:46:00+00:00",
     "difficulty": {
-        "1": 1
+        "2": 4,
+        "1": 2
     },
     "mode": {
-        "0": 1
+        "0": 6
     },
     "difficulty_mode": {
-        "1|0": 1
+        "2|0": 4,
+        "1|0": 2
     },
     "activities": [
+        {
+            "name": "Trade",
+            "count": 4
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
         {
             "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "n necro torch",
+            "count": 3
+        },
+        {
+            "name": "o lo n vex gul",
+            "count": 1
+        },
+        {
+            "name": "asd",
+            "count": 1
+        },
         {
             "name": "pooping",
             "count": 1
@@ -30,10 +52,30 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Trade": [
+            {
+                "name": "n necro torch",
+                "matched": "n",
+                "count": 3
+            },
+            {
+                "name": "o lo n vex gul",
+                "matched": "n",
+                "count": 1
+            }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 7.0
+        "unique_names": 4,
+        "public_games": 6,
+        "average_name_length": 9.25
     }
 }
