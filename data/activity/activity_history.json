@@ -701,7 +701,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "leveli",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -772,7 +772,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "leveli",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -8995,7 +8995,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "anci",
+                    "matched": "norm",
                     "count": 1
                 },
                 {
@@ -12824,7 +12824,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "anci",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -17824,7 +17824,7 @@
             "Leveling": [
                 {
                     "name": "normal tombin",
-                    "matched": "tomb",
+                    "matched": "norm",
                     "count": 1
                 },
                 {
@@ -63618,7 +63618,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "14123awdasdfqwr",
-                    "matched": "123",
+                    "matched": "asd",
                     "count": 1
                 },
                 {
@@ -263226,7 +263226,7 @@
             "Trade": [
                 {
                     "name": "n ntorch o bto",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -263283,7 +263283,7 @@
             "Trade": [
                 {
                     "name": "n ntorch o bto",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -263339,7 +263339,7 @@
             "Trade": [
                 {
                     "name": "n ntorch o bto",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -263395,7 +263395,7 @@
             "Trade": [
                 {
                     "name": "n ntorch o bto",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -263451,7 +263451,7 @@
             "Trade": [
                 {
                     "name": "n ntorch o bto",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -263516,7 +263516,7 @@
                 },
                 {
                     "name": "n ntorch o bto",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -266737,6 +266737,93 @@
             "unique_names": 4,
             "public_games": 4,
             "average_name_length": 3.75
+        }
+    },
+    {
+        "timestamp": "2026-09-24T15:47:00+00:00",
+        "difficulty": {
+            "1": 1,
+            "2": 2,
+            "0": 2
+        },
+        "mode": {
+            "1": 1,
+            "0": 4
+        },
+        "difficulty_mode": {
+            "1|1": 1,
+            "2|0": 2,
+            "0|0": 2
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 4
+            },
+            {
+                "name": "Misc. Public MF Runs",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "115",
+                "count": 1
+            },
+            {
+                "name": "1226",
+                "count": 1
+            },
+            {
+                "name": "dasad",
+                "count": 1
+            },
+            {
+                "name": "damnson",
+                "count": 1
+            },
+            {
+                "name": "asd",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "#",
+                "count": 4,
+                "examples": [
+                    "115",
+                    "1226"
+                ]
+            },
+            {
+                "normalized": "dasad",
+                "count": 2,
+                "examples": [
+                    "dasad"
+                ]
+            },
+            {
+                "normalized": "damnson",
+                "count": 2,
+                "examples": [
+                    "damnson"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Misc. Public MF Runs": [
+                {
+                    "name": "asd",
+                    "matched": "asd",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 5,
+            "public_games": 5,
+            "average_name_length": 4.4
         }
     }
 ]
