@@ -1,23 +1,23 @@
 {
-    "timestamp": "2026-09-24T23:04:00+00:00",
+    "timestamp": "2026-09-24T23:21:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 3,
-        "1": 1
+        "2": 1,
+        "1": 2
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 3,
-        "1|0": 1
+        "2|0": 1,
+        "1|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Trade",
@@ -34,15 +34,11 @@
             "count": 1
         },
         {
-            "name": "1225",
-            "count": 1
-        },
-        {
-            "name": "1224",
-            "count": 1
-        },
-        {
             "name": "n necro torch",
+            "count": 1
+        },
+        {
+            "name": "1226",
             "count": 1
         },
         {
@@ -52,18 +48,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "#",
-            "count": 4,
-            "examples": [
-                "1224",
-                "1225"
-            ]
-        },
-        {
             "normalized": "qe",
             "count": 2,
             "examples": [
                 "qe"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1226"
             ]
         }
     ],
@@ -71,7 +66,7 @@
         "Trade": [
             {
                 "name": "n necro torch",
-                "matched": "torch",
+                "matched": "n",
                 "count": 1
             }
         ],
@@ -84,8 +79,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 5.2
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 5.5
     }
 }
