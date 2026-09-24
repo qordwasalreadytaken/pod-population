@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-24T19:46:00+00:00",
+    "timestamp": "2026-09-24T20:05:00+00:00",
     "difficulty": {
         "2": 5,
         "0": 2
@@ -15,21 +15,25 @@
     },
     "activities": [
         {
+            "name": "Other",
+            "count": 3
+        },
+        {
             "name": "Misc. Public MF Runs",
             "count": 3
         },
         {
-            "name": "Other",
-            "count": 2
-        },
-        {
             "name": "Trade",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "kill bill",
+            "count": 1
+        },
+        {
+            "name": "sdfsd",
             "count": 1
         },
         {
@@ -42,10 +46,6 @@
         },
         {
             "name": "lvv",
-            "count": 1
-        },
-        {
-            "name": "n trav wp",
             "count": 1
         },
         {
@@ -63,6 +63,13 @@
             "count": 2,
             "examples": [
                 "kill bill"
+            ]
+        },
+        {
+            "normalized": "sdfsd",
+            "count": 2,
+            "examples": [
+                "sdfsd"
             ]
         },
         {
@@ -96,17 +103,12 @@
                 "name": "n tal amu 6",
                 "matched": "n",
                 "count": 1
-            },
-            {
-                "name": "n trav wp",
-                "matched": "n",
-                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 7,
         "public_games": 7,
-        "average_name_length": 6.29
+        "average_name_length": 5.71
     }
 }
