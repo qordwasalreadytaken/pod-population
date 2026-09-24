@@ -1,9 +1,9 @@
 {
-    "timestamp": "2026-09-24T13:48:00+00:00",
+    "timestamp": "2026-09-24T14:05:00+00:00",
     "difficulty": {
         "0": 2,
-        "2": 2,
-        "1": 2
+        "2": 3,
+        "1": 1
     },
     "mode": {
         "1": 2,
@@ -11,8 +11,8 @@
     },
     "difficulty_mode": {
         "0|1": 2,
-        "2|0": 2,
-        "1|0": 2
+        "2|0": 3,
+        "1|0": 1
     },
     "activities": [
         {
@@ -20,7 +20,7 @@
             "count": 2
         },
         {
-            "name": "Trade",
+            "name": "Leveling",
             "count": 2
         },
         {
@@ -28,17 +28,21 @@
             "count": 1
         },
         {
-            "name": "Leveling",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "112",
+            "name": "113",
             "count": 1
         },
         {
             "name": "qe",
+            "count": 1
+        },
+        {
+            "name": "andy hell",
             "count": 1
         },
         {
@@ -52,10 +56,6 @@
         {
             "name": "nm act 1",
             "count": 1
-        },
-        {
-            "name": "n necro torch",
-            "count": 1
         }
     ],
     "unknown_games": [
@@ -63,7 +63,7 @@
             "normalized": "#",
             "count": 2,
             "examples": [
-                "112"
+                "113"
             ]
         },
         {
@@ -75,6 +75,18 @@
         }
     ],
     "classified_games": {
+        "Leveling": [
+            {
+                "name": "andy hell",
+                "matched": "andy",
+                "count": 1
+            },
+            {
+                "name": "nm act 1",
+                "matched": "act",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
@@ -87,24 +99,12 @@
                 "name": "n silkweave",
                 "matched": "n",
                 "count": 1
-            },
-            {
-                "name": "n necro torch",
-                "matched": "torch",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "nm act 1",
-                "matched": "act",
-                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 6,
         "public_games": 6,
-        "average_name_length": 6.67
+        "average_name_length": 6.0
     }
 }
