@@ -1,16 +1,16 @@
 {
-    "timestamp": "2026-09-24T21:46:00+00:00",
+    "timestamp": "2026-09-24T22:04:00+00:00",
     "difficulty": {
-        "2": 4,
-        "1": 1,
+        "2": 2,
+        "1": 2,
         "0": 1
     },
     "mode": {
-        "0": 6
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 4,
-        "1|0": 1,
+        "2|0": 2,
+        "1|0": 2,
         "0|0": 1
     },
     "activities": [
@@ -19,37 +19,25 @@
             "count": 2
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
-            "name": "Maps",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "chaos run 13",
-            "count": 1
-        },
-        {
-            "name": "chaos run 12",
-            "count": 1
-        },
-        {
-            "name": "dadasa",
-            "count": 1
-        },
-        {
-            "name": "lasto map",
-            "count": 1
-        },
-        {
             "name": "asd",
+            "count": 2
+        },
+        {
+            "name": "chaos run 16",
+            "count": 1
+        },
+        {
+            "name": "chaos run 15",
             "count": 1
         },
         {
@@ -58,13 +46,6 @@
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "dadasa",
-            "count": 2,
-            "examples": [
-                "dadasa"
-            ]
-        },
         {
             "normalized": "wee haa!",
             "count": 2,
@@ -76,20 +57,13 @@
     "classified_games": {
         "Chaos": [
             {
-                "name": "chaos run 13",
+                "name": "chaos run 16",
                 "matched": "chaos",
                 "count": 1
             },
             {
-                "name": "chaos run 12",
+                "name": "chaos run 15",
                 "matched": "chaos",
-                "count": 1
-            }
-        ],
-        "Maps": [
-            {
-                "name": "lasto map",
-                "matched": "map",
                 "count": 1
             }
         ],
@@ -97,13 +71,13 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 8.33
+        "unique_names": 4,
+        "public_games": 5,
+        "average_name_length": 8.75
     }
 }
