@@ -1,31 +1,33 @@
 {
-    "timestamp": "2026-09-24T02:52:00+00:00",
+    "timestamp": "2026-09-24T03:06:00+00:00",
     "difficulty": {
-        "0": 2
+        "1": 1,
+        "0": 1
     },
     "mode": {
         "0": 2
     },
     "difficulty_mode": {
-        "0|0": 2
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n ntorch o bto",
+            "name": "new player",
             "count": 1
         },
         {
-            "name": "new player",
+            "name": "n ntorch o bto",
             "count": 1
         }
     ],
