@@ -1,20 +1,26 @@
 {
-    "timestamp": "2026-09-24T16:28:00+00:00",
+    "timestamp": "2026-09-24T16:41:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 3
+        "2": 3,
+        "1": 1,
+        "0": 2
     },
     "mode": {
-        "0": 4
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 3
+        "2|0": 3,
+        "1|0": 1,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
+        },
+        {
+            "name": "Trade",
+            "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
@@ -23,15 +29,23 @@
     ],
     "top_games": [
         {
+            "name": "n tal amu 1",
+            "count": 1
+        },
+        {
+            "name": "et t",
+            "count": 1
+        },
+        {
             "name": "dasad",
             "count": 1
         },
         {
-            "name": "gghghg",
+            "name": "damnson",
             "count": 1
         },
         {
-            "name": "damnson",
+            "name": "gghghg",
             "count": 1
         },
         {
@@ -41,17 +55,17 @@
     ],
     "unknown_games": [
         {
+            "normalized": "et t",
+            "count": 2,
+            "examples": [
+                "et t"
+            ]
+        },
+        {
             "normalized": "dasad",
             "count": 2,
             "examples": [
                 "dasad"
-            ]
-        },
-        {
-            "normalized": "gghghg",
-            "count": 2,
-            "examples": [
-                "gghghg"
             ]
         },
         {
@@ -60,9 +74,23 @@
             "examples": [
                 "damnson"
             ]
+        },
+        {
+            "normalized": "gghghg",
+            "count": 2,
+            "examples": [
+                "gghghg"
+            ]
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n tal amu 1",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
@@ -72,8 +100,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 5.25
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 6.0
     }
 }
