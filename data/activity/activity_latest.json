@@ -1,16 +1,16 @@
 {
-    "timestamp": "2026-09-24T19:04:00+00:00",
+    "timestamp": "2026-09-24T19:21:00+00:00",
     "difficulty": {
-        "2": 6,
+        "2": 4,
         "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 7
+        "0": 5
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 5,
+        "2|0": 3,
         "0|0": 2
     },
     "activities": [
@@ -19,15 +19,11 @@
             "count": 3
         },
         {
-            "name": "Trade",
-            "count": 2
-        },
-        {
             "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
-            "name": "Leveling",
+            "name": "Trade",
             "count": 1
         }
     ],
@@ -37,19 +33,11 @@
             "count": 1
         },
         {
-            "name": "n trav wp",
-            "count": 1
-        },
-        {
             "name": "lvv",
             "count": 1
         },
         {
-            "name": "n tal amu 6",
-            "count": 1
-        },
-        {
-            "name": "hell act 1",
+            "name": "n trav wp",
             "count": 1
         },
         {
@@ -94,18 +82,6 @@
                 "name": "n trav wp",
                 "matched": "n",
                 "count": 1
-            },
-            {
-                "name": "n tal amu 6",
-                "matched": "n",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "hell act 1",
-                "matched": "act",
-                "count": 1
             }
         ],
         "Misc. Public MF Runs": [
@@ -122,8 +98,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 8,
-        "average_name_length": 6.62
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 5.33
     }
 }
