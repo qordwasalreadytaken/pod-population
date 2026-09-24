@@ -1,29 +1,23 @@
 {
-    "timestamp": "2026-09-23T23:46:00+00:00",
+    "timestamp": "2026-09-24T00:12:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 3,
-        "0": 2
+        "2": 3,
+        "0": 1
     },
     "mode": {
-        "0": 6
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 3,
-        "0|0": 2
+        "2|0": 3,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Baal",
-            "count": 3
-        },
-        {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "Leveling",
+            "name": "Trade",
             "count": 1
         },
         {
@@ -34,22 +28,10 @@
     "top_games": [
         {
             "name": "asd",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "nm baal 11",
-            "count": 1
-        },
-        {
-            "name": "nm baal 10",
-            "count": 1
-        },
-        {
-            "name": "nm baal 8",
-            "count": 1
-        },
-        {
-            "name": "help ancients",
+            "name": "n masteries gc",
             "count": 1
         },
         {
@@ -71,37 +53,20 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             }
         ],
-        "Baal": [
+        "Trade": [
             {
-                "name": "nm baal 11",
-                "matched": "baal",
-                "count": 1
-            },
-            {
-                "name": "nm baal 10",
-                "matched": "baal",
-                "count": 1
-            },
-            {
-                "name": "nm baal 8",
-                "matched": "baal",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "help ancients",
-                "matched": "anci",
+                "name": "n masteries gc",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 7.83
+        "unique_names": 3,
+        "public_games": 4,
+        "average_name_length": 6.33
     }
 }
