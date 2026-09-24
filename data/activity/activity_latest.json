@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-24T21:22:00+00:00",
+    "timestamp": "2026-09-24T21:32:00+00:00",
     "difficulty": {
         "2": 2,
         "1": 1,
@@ -15,8 +15,8 @@
     },
     "activities": [
         {
-            "name": "Baal",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
             "name": "Maps",
@@ -25,15 +25,11 @@
         {
             "name": "Misc. Public MF Runs",
             "count": 1
-        },
-        {
-            "name": "Other",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "baal",
+            "name": "dadasa",
             "count": 1
         },
         {
@@ -51,6 +47,13 @@
     ],
     "unknown_games": [
         {
+            "normalized": "dadasa",
+            "count": 2,
+            "examples": [
+                "dadasa"
+            ]
+        },
+        {
             "normalized": "wee haa!",
             "count": 2,
             "examples": [
@@ -59,13 +62,6 @@
         }
     ],
     "classified_games": {
-        "Baal": [
-            {
-                "name": "baal",
-                "matched": "baal",
-                "count": 1
-            }
-        ],
         "Maps": [
             {
                 "name": "lasto map",
@@ -84,6 +80,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 6.0
+        "average_name_length": 6.5
     }
 }
