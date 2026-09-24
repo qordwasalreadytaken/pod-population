@@ -1,51 +1,69 @@
 {
-    "timestamp": "2026-09-24T21:05:00+00:00",
+    "timestamp": "2026-09-24T21:22:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 2,
+        "1": 1,
         "0": 1
     },
     "mode": {
         "0": 4
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 2,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Chaos",
-            "count": 2
+            "name": "Baal",
+            "count": 1
         },
         {
             "name": "Maps",
             "count": 1
         },
         {
-            "name": "Leveling",
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "chaos runs",
-            "count": 2
+            "name": "baal",
+            "count": 1
         },
         {
             "name": "lasto map",
             "count": 1
         },
         {
-            "name": "help act 5 pliz",
+            "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "wee haa!",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "wee haa!",
+            "count": 2,
+            "examples": [
+                "wee haa!"
+            ]
+        }
+    ],
     "classified_games": {
-        "Chaos": [
+        "Baal": [
             {
-                "name": "chaos runs",
-                "matched": "chaos",
-                "count": 2
+                "name": "baal",
+                "matched": "baal",
+                "count": 1
             }
         ],
         "Maps": [
@@ -55,17 +73,17 @@
                 "count": 1
             }
         ],
-        "Leveling": [
+        "Misc. Public MF Runs": [
             {
-                "name": "help act 5 pliz",
-                "matched": "act",
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
+        "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 11.33
+        "average_name_length": 6.0
     }
 }
