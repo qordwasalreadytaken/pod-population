@@ -1,23 +1,24 @@
 {
-    "timestamp": "2026-09-24T06:59:00+00:00",
+    "timestamp": "2026-09-24T07:24:00+00:00",
     "difficulty": {
-        "0": 1,
+        "0": 3,
         "2": 1,
         "1": 2
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 5
     },
     "difficulty_mode": {
         "0|1": 1,
         "2|0": 1,
-        "1|0": 2
+        "1|0": 2,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 4
         },
         {
             "name": "Leveling",
@@ -44,6 +45,14 @@
         {
             "name": "eqweq",
             "count": 1
+        },
+        {
+            "name": "wikid klownz",
+            "count": 1
+        },
+        {
+            "name": "o tiara 3 sok",
+            "count": 1
         }
     ],
     "unknown_games": [
@@ -60,6 +69,20 @@
             "examples": [
                 "eqweq"
             ]
+        },
+        {
+            "normalized": "wikid klownz",
+            "count": 2,
+            "examples": [
+                "wikid klownz"
+            ]
+        },
+        {
+            "normalized": "o tiara # sok",
+            "count": 2,
+            "examples": [
+                "o tiara 3 sok"
+            ]
         }
     ],
     "classified_games": {
@@ -73,14 +96,14 @@
         "Trade": [
             {
                 "name": "n necro torch",
-                "matched": "torch",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 8.25
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 9.67
     }
 }
