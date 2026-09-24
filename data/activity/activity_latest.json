@@ -1,14 +1,16 @@
 {
-    "timestamp": "2026-09-24T00:12:00+00:00",
+    "timestamp": "2026-09-24T00:59:00+00:00",
     "difficulty": {
         "2": 3,
         "0": 1
     },
     "mode": {
-        "0": 4
+        "1": 1,
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|1": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
@@ -17,11 +19,11 @@
             "count": 2
         },
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Leveling",
             "count": 1
         }
     ],
@@ -31,20 +33,20 @@
             "count": 2
         },
         {
-            "name": "n masteries gc",
+            "name": "kill bill",
             "count": 1
         },
         {
-            "name": "3r",
+            "name": "help ancients",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "#r",
+            "normalized": "kill bill",
             "count": 2,
             "examples": [
-                "3r"
+                "kill bill"
             ]
         }
     ],
@@ -56,10 +58,10 @@
                 "count": 2
             }
         ],
-        "Trade": [
+        "Leveling": [
             {
-                "name": "n masteries gc",
-                "matched": "n",
+                "name": "help ancients",
+                "matched": "anci",
                 "count": 1
             }
         ]
@@ -67,6 +69,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 4,
-        "average_name_length": 6.33
+        "average_name_length": 8.33
     }
 }
