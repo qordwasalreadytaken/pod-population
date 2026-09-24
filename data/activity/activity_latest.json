@@ -1,25 +1,29 @@
 {
-    "timestamp": "2026-09-24T00:59:00+00:00",
+    "timestamp": "2026-09-24T01:30:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 1
+        "2": 5,
+        "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 6
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 2,
-        "0|0": 1
+        "2|0": 4,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Other",
+            "count": 2
+        },
+        {
+            "name": "Rush",
             "count": 1
         },
         {
@@ -30,10 +34,18 @@
     "top_games": [
         {
             "name": "asd",
-            "count": 2
+            "count": 3
         },
         {
             "name": "kill bill",
+            "count": 1
+        },
+        {
+            "name": "gg",
+            "count": 1
+        },
+        {
+            "name": "norm rush",
             "count": 1
         },
         {
@@ -48,6 +60,13 @@
             "examples": [
                 "kill bill"
             ]
+        },
+        {
+            "normalized": "gg",
+            "count": 2,
+            "examples": [
+                "gg"
+            ]
         }
     ],
     "classified_games": {
@@ -55,7 +74,14 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 2
+                "count": 3
+            }
+        ],
+        "Rush": [
+            {
+                "name": "norm rush",
+                "matched": "rush",
+                "count": 1
             }
         ],
         "Leveling": [
@@ -67,8 +93,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 4,
-        "average_name_length": 8.33
+        "unique_names": 5,
+        "public_games": 7,
+        "average_name_length": 7.2
     }
 }
