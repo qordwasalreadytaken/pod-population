@@ -1,24 +1,23 @@
 {
-    "timestamp": "2026-09-24T15:25:00+00:00",
+    "timestamp": "2026-09-24T15:36:00+00:00",
     "difficulty": {
         "1": 1,
-        "0": 2,
-        "2": 2
+        "2": 2,
+        "0": 1
     },
     "mode": {
-        "1": 2,
+        "1": 1,
         "0": 3
     },
     "difficulty_mode": {
         "1|1": 1,
-        "0|1": 1,
         "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
@@ -31,15 +30,11 @@
             "count": 1
         },
         {
-            "name": "eq",
+            "name": "1226",
             "count": 1
         },
         {
             "name": "dasad",
-            "count": 1
-        },
-        {
-            "name": "1226",
             "count": 1
         },
         {
@@ -54,13 +49,6 @@
             "examples": [
                 "115",
                 "1226"
-            ]
-        },
-        {
-            "normalized": "eq",
-            "count": 2,
-            "examples": [
-                "eq"
             ]
         },
         {
@@ -81,8 +69,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 3.4
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 3.75
     }
 }
