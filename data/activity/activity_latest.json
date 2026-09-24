@@ -1,19 +1,23 @@
 {
-    "timestamp": "2026-09-24T21:32:00+00:00",
+    "timestamp": "2026-09-24T21:46:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 4,
         "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 2,
+        "2|0": 4,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
+        {
+            "name": "Chaos",
+            "count": 2
+        },
         {
             "name": "Other",
             "count": 2
@@ -28,6 +32,14 @@
         }
     ],
     "top_games": [
+        {
+            "name": "chaos run 13",
+            "count": 1
+        },
+        {
+            "name": "chaos run 12",
+            "count": 1
+        },
         {
             "name": "dadasa",
             "count": 1
@@ -62,6 +74,18 @@
         }
     ],
     "classified_games": {
+        "Chaos": [
+            {
+                "name": "chaos run 13",
+                "matched": "chaos",
+                "count": 1
+            },
+            {
+                "name": "chaos run 12",
+                "matched": "chaos",
+                "count": 1
+            }
+        ],
         "Maps": [
             {
                 "name": "lasto map",
@@ -78,8 +102,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.5
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 8.33
     }
 }
