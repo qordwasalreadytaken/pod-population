@@ -1,38 +1,38 @@
 {
-    "timestamp": "2026-09-24T14:05:00+00:00",
+    "timestamp": "2026-09-24T14:26:00+00:00",
     "difficulty": {
         "0": 2,
         "2": 3,
-        "1": 1
+        "1": 2
     },
     "mode": {
         "1": 2,
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
         "0|1": 2,
         "2|0": 3,
-        "1|0": 1
+        "1|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Leveling",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 3
         },
         {
-            "name": "Trade",
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "asd",
+            "count": 2
+        },
         {
             "name": "113",
             "count": 1
@@ -42,15 +42,11 @@
             "count": 1
         },
         {
-            "name": "andy hell",
+            "name": "dasda",
             "count": 1
         },
         {
-            "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "n silkweave",
+            "name": "1221",
             "count": 1
         },
         {
@@ -61,9 +57,10 @@
     "unknown_games": [
         {
             "normalized": "#",
-            "count": 2,
+            "count": 4,
             "examples": [
-                "113"
+                "113",
+                "1221"
             ]
         },
         {
@@ -75,36 +72,29 @@
         }
     ],
     "classified_games": {
-        "Leveling": [
-            {
-                "name": "andy hell",
-                "matched": "andy",
-                "count": 1
-            },
-            {
-                "name": "nm act 1",
-                "matched": "act",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
                 "matched": "asd",
+                "count": 2
+            },
+            {
+                "name": "dasda",
+                "matched": "asd",
                 "count": 1
             }
         ],
-        "Trade": [
+        "Leveling": [
             {
-                "name": "n silkweave",
-                "matched": "n",
+                "name": "nm act 1",
+                "matched": "act",
                 "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 6.0
+        "public_games": 7,
+        "average_name_length": 4.17
     }
 }
