@@ -1,56 +1,80 @@
 {
-    "timestamp": "2026-09-24T12:07:00+00:00",
+    "timestamp": "2026-09-24T12:36:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1,
+        "2": 4,
         "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 1,
+        "2|0": 4,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 2
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         },
         {
             "name": "Trade",
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Baal",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "125",
+            "count": 1
+        },
+        {
+            "name": "dads",
+            "count": 1
+        },
+        {
             "name": "asd",
-            "count": 2
+            "count": 1
         },
         {
             "name": "n silkweave",
             "count": 1
         },
         {
-            "name": "lbl",
+            "name": "kill baal norm",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "lbl",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "lbl"
+                "125"
+            ]
+        },
+        {
+            "normalized": "dads",
+            "count": 2,
+            "examples": [
+                "dads"
             ]
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n silkweave",
@@ -58,17 +82,17 @@
                 "count": 1
             }
         ],
-        "Misc. Public MF Runs": [
+        "Baal": [
             {
-                "name": "asd",
-                "matched": "asd",
-                "count": 2
+                "name": "kill baal norm",
+                "matched": "baal",
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 4,
-        "average_name_length": 5.67
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 7.0
     }
 }
