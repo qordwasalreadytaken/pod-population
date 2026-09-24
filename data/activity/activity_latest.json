@@ -1,7 +1,7 @@
 {
-    "timestamp": "2026-09-24T09:48:00+00:00",
+    "timestamp": "2026-09-24T10:05:00+00:00",
     "difficulty": {
-        "2": 1,
+        "0": 1,
         "1": 1
     },
     "mode": {
@@ -9,7 +9,7 @@
         "0": 1
     },
     "difficulty_mode": {
-        "2|1": 1,
+        "0|1": 1,
         "1|0": 1
     },
     "activities": [
@@ -24,7 +24,7 @@
     ],
     "top_games": [
         {
-            "name": "qe",
+            "name": "lvl up",
             "count": 1
         },
         {
@@ -34,10 +34,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "qe",
+            "normalized": "lvl up",
             "count": 2,
             "examples": [
-                "qe"
+                "lvl up"
             ]
         }
     ],
@@ -53,6 +53,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 3.0
+        "average_name_length": 5.0
     }
 }
