@@ -1,33 +1,41 @@
 {
-    "timestamp": "2026-09-24T20:05:00+00:00",
+    "timestamp": "2026-09-24T20:26:00+00:00",
     "difficulty": {
-        "2": 5,
-        "0": 2
+        "2": 7,
+        "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 6
+        "0": 7
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 4,
-        "0|0": 2
+        "2|0": 6,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
+        },
+        {
+            "name": "Chaos",
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
-        },
-        {
-            "name": "Trade",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
+        {
+            "name": "chaos runs",
+            "count": 2
+        },
+        {
+            "name": "lvv",
+            "count": 2
+        },
         {
             "name": "kill bill",
             "count": 1
@@ -41,23 +49,18 @@
             "count": 1
         },
         {
-            "name": "n tal amu 6",
-            "count": 1
-        },
-        {
-            "name": "lvv",
-            "count": 1
-        },
-        {
-            "name": "gord",
-            "count": 1
-        },
-        {
             "name": "asd",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "lvv",
+            "count": 4,
+            "examples": [
+                "lvv"
+            ]
+        },
         {
             "normalized": "kill bill",
             "count": 2,
@@ -71,16 +74,16 @@
             "examples": [
                 "sdfsd"
             ]
-        },
-        {
-            "normalized": "lvv",
-            "count": 2,
-            "examples": [
-                "lvv"
-            ]
         }
     ],
     "classified_games": {
+        "Chaos": [
+            {
+                "name": "chaos runs",
+                "matched": "chaos",
+                "count": 2
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asder",
@@ -88,27 +91,15 @@
                 "count": 1
             },
             {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            },
-            {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
-            }
-        ],
-        "Trade": [
-            {
-                "name": "n tal amu 6",
-                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 5.71
+        "unique_names": 6,
+        "public_games": 8,
+        "average_name_length": 5.83
     }
 }
