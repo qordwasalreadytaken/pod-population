@@ -1,29 +1,25 @@
 {
-    "timestamp": "2026-09-25T20:04:00+00:00",
+    "timestamp": "2026-09-25T20:23:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 2,
         "1": 1,
-        "0": 1
+        "0": 3
     },
     "mode": {
         "0": 6
     },
     "difficulty_mode": {
-        "2|0": 4,
+        "2|0": 2,
         "1|0": 1,
-        "0|0": 1
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Maps",
-            "count": 1
-        },
-        {
-            "name": "Other",
             "count": 1
         },
         {
@@ -33,8 +29,8 @@
     ],
     "top_games": [
         {
-            "name": "asdas",
-            "count": 1
+            "name": "asd",
+            "count": 2
         },
         {
             "name": "runes",
@@ -42,10 +38,6 @@
         },
         {
             "name": "chillmap",
-            "count": 1
-        },
-        {
-            "name": "qwdqs",
             "count": 1
         },
         {
@@ -57,21 +49,13 @@
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "qwdqs",
-            "count": 2,
-            "examples": [
-                "qwdqs"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asdas",
+                "name": "asd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             },
             {
                 "name": "runes",
@@ -100,8 +84,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
+        "unique_names": 5,
         "public_games": 6,
-        "average_name_length": 6.17
+        "average_name_length": 6.0
     }
 }
