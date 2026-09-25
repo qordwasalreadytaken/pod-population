@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-09-25T10:36:00+00:00",
+    "timestamp": "2026-09-25T10:47:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "2": 1,
+        "0": 2
     },
     "mode": {
         "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "0|0": 1
+        "2|0": 1,
+        "0|0": 2
     },
     "activities": [
         {
@@ -23,7 +23,7 @@
             "count": 1
         },
         {
-            "name": "sdaadssd",
+            "name": "level",
             "count": 1
         },
         {
@@ -41,10 +41,10 @@
             ]
         },
         {
-            "normalized": "sdaadssd",
+            "normalized": "level",
             "count": 2,
             "examples": [
-                "sdaadssd"
+                "level"
             ]
         }
     ],
@@ -52,6 +52,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 4.33
+        "average_name_length": 3.33
     }
 }
