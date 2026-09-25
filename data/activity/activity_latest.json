@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-09-25T16:51:00+00:00",
+    "timestamp": "2026-09-25T17:04:00+00:00",
     "difficulty": {
         "2": 4,
-        "0": 1
+        "0": 2
     },
     "mode": {
-        "0": 5
+        "0": 6
     },
     "difficulty_mode": {
         "2|0": 4,
-        "0|0": 1
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Maps",
@@ -47,6 +47,10 @@
             "count": 1
         },
         {
+            "name": "level",
+            "count": 1
+        },
+        {
             "name": "sz",
             "count": 1
         }
@@ -57,6 +61,13 @@
             "count": 2,
             "examples": [
                 "1213"
+            ]
+        },
+        {
+            "normalized": "level",
+            "count": 2,
+            "examples": [
+                "level"
             ]
         },
         {
@@ -91,8 +102,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
+        "unique_names": 6,
+        "public_games": 6,
         "average_name_length": 5.0
     }
 }
