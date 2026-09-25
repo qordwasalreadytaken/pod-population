@@ -302,7 +302,7 @@
         {
             "name": "n silkweave",
             "matched": "n",
-            "count": 89
+            "count": 90
         },
         {
             "name": "n fireskillers",
@@ -1943,7 +1943,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "andar",
+            "matched": "act",
             "count": 12
         },
         {
@@ -2063,7 +2063,7 @@
         },
         {
             "name": "acte andy",
-            "matched": "andy",
+            "matched": "act",
             "count": 5
         },
         {
@@ -2158,7 +2158,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -2588,7 +2588,7 @@
         {
             "name": "asd",
             "matched": "asd",
-            "count": 1252
+            "count": 1253
         },
         {
             "name": "n eld runes",
@@ -3547,7 +3547,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -4575,6 +4575,11 @@
             "count": 4
         },
         {
+            "name": "map 5",
+            "matched": "map",
+            "count": 4
+        },
+        {
             "name": "lasto map",
             "matched": "map",
             "count": 4
@@ -4616,11 +4621,6 @@
         },
         {
             "name": "pubmap-6",
-            "matched": "map",
-            "count": 3
-        },
-        {
-            "name": "map 5",
             "matched": "map",
             "count": 3
         },
@@ -4798,17 +4798,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
