@@ -65,6 +65,22 @@
         ]
     },
     {
+        "normalized": "jah ber plz #",
+        "count": 180,
+        "examples": [
+            "jah ber plz 1",
+            "jah ber plz 10",
+            "jah ber plz 11",
+            "jah ber plz 12",
+            "jah ber plz 2",
+            "jah ber plz 3",
+            "jah ber plz 4",
+            "jah ber plz 5",
+            "jah ber plz 6",
+            "jah ber plz 7"
+        ]
+    },
+    {
         "normalized": "nec grow #",
         "count": 180,
         "examples": [
@@ -78,22 +94,6 @@
             "nec grow 3",
             "nec grow 4",
             "nec grow 5"
-        ]
-    },
-    {
-        "normalized": "jah ber plz #",
-        "count": 174,
-        "examples": [
-            "jah ber plz 1",
-            "jah ber plz 10",
-            "jah ber plz 11",
-            "jah ber plz 12",
-            "jah ber plz 2",
-            "jah ber plz 3",
-            "jah ber plz 4",
-            "jah ber plz 5",
-            "jah ber plz 6",
-            "jah ber plz 7"
         ]
     },
     {
@@ -3852,6 +3852,14 @@
         ]
     },
     {
+        "normalized": "new char #",
+        "count": 4,
+        "examples": [
+            "new char 2",
+            "new char 4"
+        ]
+    },
+    {
         "normalized": "a wps plz",
         "count": 2,
         "examples": [
@@ -7370,13 +7378,6 @@
         "count": 2,
         "examples": [
             "gouto"
-        ]
-    },
-    {
-        "normalized": "new char #",
-        "count": 2,
-        "examples": [
-            "new char 2"
         ]
     }
 ]

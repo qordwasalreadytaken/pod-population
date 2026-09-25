@@ -1,24 +1,24 @@
 {
-    "timestamp": "2026-09-25T23:31:00+00:00",
+    "timestamp": "2026-09-25T23:46:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 1
+        "2": 4,
+        "0": 3
     },
     "mode": {
-        "0": 4
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "0|0": 1
+        "2|0": 4,
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 4
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Trade",
@@ -28,34 +28,44 @@
     "top_games": [
         {
             "name": "asd",
+            "count": 2
+        },
+        {
+            "name": "n",
             "count": 1
         },
         {
-            "name": "n silkweave",
+            "name": "jah ber plz 3",
             "count": 1
         },
         {
-            "name": "jah ber plz 2",
+            "name": "jah ber plz 5",
             "count": 1
         },
         {
-            "name": "new char 2",
+            "name": "jah ber plz 4",
+            "count": 1
+        },
+        {
+            "name": "new char 4",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "jah ber plz #",
-            "count": 2,
+            "count": 6,
             "examples": [
-                "jah ber plz 2"
+                "jah ber plz 3",
+                "jah ber plz 4",
+                "jah ber plz 5"
             ]
         },
         {
             "normalized": "new char #",
             "count": 2,
             "examples": [
-                "new char 2"
+                "new char 4"
             ]
         }
     ],
@@ -64,20 +74,20 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             }
         ],
         "Trade": [
             {
-                "name": "n silkweave",
+                "name": "n",
                 "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 9.25
+        "unique_names": 6,
+        "public_games": 7,
+        "average_name_length": 8.83
     }
 }
