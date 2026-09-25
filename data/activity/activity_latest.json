@@ -1,33 +1,45 @@
 {
-    "timestamp": "2026-09-25T15:46:00+00:00",
+    "timestamp": "2026-09-25T16:06:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 2
+        "2": 3,
+        "0": 3
     },
     "mode": {
-        "0": 4
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "0|0": 2
+        "2|0": 3,
+        "0|0": 3
     },
     "activities": [
+        {
+            "name": "Other",
+            "count": 3
+        },
         {
             "name": "Maps",
             "count": 2
         },
         {
-            "name": "Other",
-            "count": 2
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "map 5",
+            "count": 1
+        },
+        {
+            "name": "n silkweave",
+            "count": 1
+        },
         {
             "name": "map 4",
             "count": 1
         },
         {
-            "name": "map 3",
+            "name": "tgbt",
             "count": 1
         },
         {
@@ -40,6 +52,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "tgbt",
+            "count": 2,
+            "examples": [
+                "tgbt"
+            ]
+        },
         {
             "normalized": "sz",
             "count": 2,
@@ -58,20 +77,27 @@
     "classified_games": {
         "Maps": [
             {
-                "name": "map 4",
+                "name": "map 5",
                 "matched": "map",
                 "count": 1
             },
             {
-                "name": "map 3",
+                "name": "map 4",
                 "matched": "map",
+                "count": 1
+            }
+        ],
+        "Trade": [
+            {
+                "name": "n silkweave",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.0
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 6.5
     }
 }
