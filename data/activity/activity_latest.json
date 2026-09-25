@@ -1,16 +1,14 @@
 {
-    "timestamp": "2026-09-25T13:25:00+00:00",
+    "timestamp": "2026-09-25T13:35:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 1
+        "2": 2,
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
@@ -25,12 +23,8 @@
     ],
     "top_games": [
         {
-            "name": "asder",
-            "count": 1
-        },
-        {
             "name": "asd",
-            "count": 1
+            "count": 2
         },
         {
             "name": "4",
@@ -49,20 +43,15 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asder",
-                "matched": "asd",
-                "count": 1
-            },
-            {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
+        "unique_names": 2,
         "public_games": 3,
-        "average_name_length": 3.0
+        "average_name_length": 2.0
     }
 }
