@@ -1,68 +1,48 @@
 {
-    "timestamp": "2026-09-25T12:55:00+00:00",
+    "timestamp": "2026-09-25T13:05:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 3
+        "0": 2,
+        "2": 2
     },
     "mode": {
-        "0": 5
+        "1": 1,
+        "0": 3
     },
     "difficulty_mode": {
+        "0|1": 1,
         "2|0": 2,
-        "0|0": 3
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 3
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Other",
+            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "asder",
-            "count": 1
+            "count": 2
         },
         {
             "name": "asd",
             "count": 1
         },
         {
-            "name": "r",
-            "count": 1
-        },
-        {
-            "name": "wsedfrwe",
-            "count": 1
-        },
-        {
-            "name": "3",
+            "name": "4",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "r",
-            "count": 2,
-            "examples": [
-                "r"
-            ]
-        },
-        {
-            "normalized": "wsedfrwe",
-            "count": 2,
-            "examples": [
-                "wsedfrwe"
-            ]
-        },
-        {
             "normalized": "#",
             "count": 2,
             "examples": [
-                "3"
+                "4"
             ]
         }
     ],
@@ -71,7 +51,7 @@
             {
                 "name": "asder",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             },
             {
                 "name": "asd",
@@ -81,8 +61,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 3.6
+        "unique_names": 3,
+        "public_games": 4,
+        "average_name_length": 3.0
     }
 }
