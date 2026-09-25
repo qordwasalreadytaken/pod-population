@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2370,
+        "count": 2374,
         "examples": [
             "1",
             "10",
@@ -89,7 +89,7 @@
     },
     {
         "normalized": "jah ber plz #",
-        "count": 162,
+        "count": 164,
         "examples": [
             "jah ber plz 1",
             "jah ber plz 10",
@@ -795,6 +795,13 @@
         ]
     },
     {
+        "normalized": "pooping",
+        "count": 18,
+        "examples": [
+            "pooping"
+        ]
+    },
+    {
         "normalized": "mana",
         "count": 16,
         "examples": [
@@ -941,13 +948,6 @@
         "count": 16,
         "examples": [
             "dadsa"
-        ]
-    },
-    {
-        "normalized": "pooping",
-        "count": 16,
-        "examples": [
-            "pooping"
         ]
     },
     {
@@ -7363,6 +7363,13 @@
         "count": 2,
         "examples": [
             "gouto"
+        ]
+    },
+    {
+        "normalized": "new char",
+        "count": 2,
+        "examples": [
+            "new char"
         ]
     }
 ]
