@@ -1,16 +1,16 @@
 {
-    "timestamp": "2026-09-25T20:23:00+00:00",
+    "timestamp": "2026-09-25T20:34:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1,
+        "2": 1,
+        "1": 3,
         "0": 3
     },
     "mode": {
-        "0": 6
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 1,
+        "2|0": 1,
+        "1|0": 3,
         "0|0": 3
     },
     "activities": [
@@ -19,17 +19,17 @@
             "count": 4
         },
         {
-            "name": "Maps",
-            "count": 1
+            "name": "Rush",
+            "count": 2
         },
         {
-            "name": "Rush",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
+            "name": "gord",
             "count": 2
         },
         {
@@ -37,7 +37,7 @@
             "count": 1
         },
         {
-            "name": "chillmap",
+            "name": "need nm rush pl",
             "count": 1
         },
         {
@@ -45,16 +45,28 @@
             "count": 1
         },
         {
-            "name": "gord",
+            "name": "wikid klownz",
+            "count": 1
+        },
+        {
+            "name": "asd",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "wikid klownz",
+            "count": 2,
+            "examples": [
+                "wikid klownz"
+            ]
+        }
+    ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
-                "matched": "asd",
+                "name": "gord",
+                "matched": "gord",
                 "count": 2
             },
             {
@@ -63,19 +75,17 @@
                 "count": 1
             },
             {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            }
-        ],
-        "Maps": [
-            {
-                "name": "chillmap",
-                "matched": "map",
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             }
         ],
         "Rush": [
+            {
+                "name": "need nm rush pl",
+                "matched": "rush",
+                "count": 1
+            },
             {
                 "name": "nm rush me",
                 "matched": "rush",
@@ -84,8 +94,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 6,
-        "average_name_length": 6.0
+        "unique_names": 6,
+        "public_games": 7,
+        "average_name_length": 8.17
     }
 }
