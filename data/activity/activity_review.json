@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2374,
+        "count": 2376,
         "examples": [
             "1",
             "10",
@@ -89,7 +89,7 @@
     },
     {
         "normalized": "jah ber plz #",
-        "count": 164,
+        "count": 166,
         "examples": [
             "jah ber plz 1",
             "jah ber plz 10",
@@ -647,6 +647,13 @@
         ]
     },
     {
+        "normalized": "pooping",
+        "count": 20,
+        "examples": [
+            "pooping"
+        ]
+    },
+    {
         "normalized": "tomas",
         "count": 18,
         "examples": [
@@ -792,13 +799,6 @@
         "count": 18,
         "examples": [
             "mm"
-        ]
-    },
-    {
-        "normalized": "pooping",
-        "count": 18,
-        "examples": [
-            "pooping"
         ]
     },
     {
@@ -3842,6 +3842,13 @@
         "count": 4,
         "examples": [
             "qwdqs"
+        ]
+    },
+    {
+        "normalized": "new char",
+        "count": 4,
+        "examples": [
+            "new char"
         ]
     },
     {
@@ -7363,13 +7370,6 @@
         "count": 2,
         "examples": [
             "gouto"
-        ]
-    },
-    {
-        "normalized": "new char",
-        "count": 2,
-        "examples": [
-            "new char"
         ]
     }
 ]
