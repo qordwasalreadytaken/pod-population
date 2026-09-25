@@ -1,23 +1,23 @@
 {
-    "timestamp": "2026-09-25T13:47:00+00:00",
+    "timestamp": "2026-09-25T14:06:00+00:00",
     "difficulty": {
         "2": 2,
-        "0": 1
+        "0": 2
     },
     "mode": {
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
         "2|0": 2,
-        "0|0": 1
+        "0|0": 2
     },
     "activities": [
         {
-            "name": "Leveling",
-            "count": 1
+            "name": "Misc. Public MF Runs",
+            "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Leveling",
             "count": 1
         },
         {
@@ -27,11 +27,11 @@
     ],
     "top_games": [
         {
-            "name": "andy hell",
-            "count": 1
+            "name": "asd",
+            "count": 2
         },
         {
-            "name": "asd",
+            "name": "acte 1 begin",
             "count": 1
         },
         {
@@ -49,24 +49,24 @@
         }
     ],
     "classified_games": {
-        "Leveling": [
-            {
-                "name": "andy hell",
-                "matched": "andy",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
                 "matched": "asd",
+                "count": 2
+            }
+        ],
+        "Leveling": [
+            {
+                "name": "acte 1 begin",
+                "matched": "act",
                 "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 4.33
+        "public_games": 4,
+        "average_name_length": 5.33
     }
 }
