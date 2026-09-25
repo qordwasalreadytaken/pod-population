@@ -1,14 +1,14 @@
 {
-    "timestamp": "2026-09-25T23:04:00+00:00",
+    "timestamp": "2026-09-25T23:21:00+00:00",
     "difficulty": {
-        "2": 5,
+        "2": 4,
         "0": 2
     },
     "mode": {
-        "0": 7
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 5,
+        "2|0": 4,
         "0|0": 2
     },
     "activities": [
@@ -18,7 +18,7 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Trade",
@@ -27,8 +27,12 @@
     ],
     "top_games": [
         {
+            "name": "12",
+            "count": 1
+        },
+        {
             "name": "asd",
-            "count": 2
+            "count": 1
         },
         {
             "name": "n silkweave",
@@ -36,10 +40,6 @@
         },
         {
             "name": "jah ber plz 2",
-            "count": 1
-        },
-        {
-            "name": "pooping",
             "count": 1
         },
         {
@@ -53,24 +53,18 @@
     ],
     "unknown_games": [
         {
+            "normalized": "#",
+            "count": 4,
+            "examples": [
+                "12",
+                "6"
+            ]
+        },
+        {
             "normalized": "jah ber plz #",
             "count": 2,
             "examples": [
                 "jah ber plz 2"
-            ]
-        },
-        {
-            "normalized": "pooping",
-            "count": 2,
-            "examples": [
-                "pooping"
-            ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "6"
             ]
         },
         {
@@ -86,7 +80,7 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             }
         ],
         "Trade": [
@@ -99,7 +93,7 @@
     },
     "interesting": {
         "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 7.17
+        "public_games": 6,
+        "average_name_length": 6.33
     }
 }
