@@ -1,22 +1,15 @@
 {
-    "timestamp": "2026-09-25T18:06:00+00:00",
+    "timestamp": "2026-09-25T18:28:00+00:00",
     "difficulty": {
-        "2": 1,
         "1": 1
     },
     "mode": {
-        "1": 1,
         "0": 1
     },
     "difficulty_mode": {
-        "2|1": 1,
         "1|0": 1
     },
     "activities": [
-        {
-            "name": "Other",
-            "count": 1
-        },
         {
             "name": "Rush",
             "count": 1
@@ -24,23 +17,11 @@
     ],
     "top_games": [
         {
-            "name": "killbill",
-            "count": 1
-        },
-        {
             "name": "nm rush me",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "killbill",
-            "count": 2,
-            "examples": [
-                "killbill"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Rush": [
             {
@@ -51,8 +32,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 9.0
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 10.0
     }
 }
