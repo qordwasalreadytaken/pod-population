@@ -1,31 +1,47 @@
 {
-    "timestamp": "2026-09-26T14:04:00+00:00",
+    "timestamp": "2026-09-26T14:22:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 6,
         "0": 2
     },
     "mode": {
-        "0": 6
+        "0": 8
     },
     "difficulty_mode": {
-        "2|0": 4,
+        "2|0": 6,
         "0|0": 2
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 2
+            "name": "Misc. Public MF Runs",
+            "count": 3
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Trade",
+            "count": 3
         },
         {
             "name": "Other",
-            "count": 2
+            "count": 1
+        },
+        {
+            "name": "Chaos",
+            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "asder",
+            "count": 1
+        },
+        {
+            "name": "n sazbia helm",
+            "count": 1
+        },
         {
             "name": "n silkweave",
             "count": 1
@@ -35,15 +51,11 @@
             "count": 1
         },
         {
-            "name": "asd",
-            "count": 1
-        },
-        {
             "name": "1223",
             "count": 1
         },
         {
-            "name": "unreal pooping",
+            "name": "diabloii",
             "count": 1
         },
         {
@@ -58,17 +70,32 @@
             "examples": [
                 "1223"
             ]
-        },
-        {
-            "normalized": "unreal pooping",
-            "count": 2,
-            "examples": [
-                "unreal pooping"
-            ]
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "asder",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "asda",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
         "Trade": [
+            {
+                "name": "n sazbia helm",
+                "matched": "n",
+                "count": 1
+            },
             {
                 "name": "n silkweave",
                 "matched": "n",
@@ -80,22 +107,17 @@
                 "count": 1
             }
         ],
-        "Misc. Public MF Runs": [
+        "Chaos": [
             {
-                "name": "asda",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "asd",
-                "matched": "asd",
+                "name": "diabloii",
+                "matched": "dia",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 8.33
+        "unique_names": 8,
+        "public_games": 8,
+        "average_name_length": 7.75
     }
 }
