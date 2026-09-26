@@ -1,43 +1,29 @@
 {
-    "timestamp": "2026-09-26T08:29:00+00:00",
+    "timestamp": "2026-09-26T08:44:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 4
+        "2": 2,
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 6
+        "0": 3
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 4,
-        "0|0": 2
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 4
-        },
         {
             "name": "Other",
             "count": 2
         },
         {
-            "name": "Chaos",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "eq",
-            "count": 1
-        },
-        {
-            "name": "asda",
-            "count": 1
-        },
-        {
-            "name": "relic run 3",
+            "name": "ssda",
             "count": 1
         },
         {
@@ -45,68 +31,38 @@
             "count": 1
         },
         {
-            "name": "1216",
-            "count": 1
-        },
-        {
-            "name": "asdf 7",
-            "count": 1
-        },
-        {
-            "name": "diabloii",
+            "name": "sadsdf",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "eq",
+            "normalized": "ssda",
             "count": 2,
             "examples": [
-                "eq"
+                "ssda"
             ]
         },
         {
-            "normalized": "#",
+            "normalized": "sadsdf",
             "count": 2,
             "examples": [
-                "1216"
+                "sadsdf"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asda",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "relic run 3",
-                "matched": "run",
-                "count": 1
-            },
-            {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "asdf 7",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
-        "Chaos": [
-            {
-                "name": "diabloii",
-                "matched": "dia",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 5.43
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 4.33
     }
 }
