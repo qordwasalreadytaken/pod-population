@@ -1285,6 +1285,14 @@
         ]
     },
     {
+        "normalized": "new char #",
+        "count": 12,
+        "examples": [
+            "new char 2",
+            "new char 4"
+        ]
+    },
+    {
         "normalized": "a#h",
         "count": 10,
         "examples": [
@@ -1575,14 +1583,6 @@
         "count": 10,
         "examples": [
             "new char"
-        ]
-    },
-    {
-        "normalized": "new char #",
-        "count": 10,
-        "examples": [
-            "new char 2",
-            "new char 4"
         ]
     },
     {
