@@ -1,24 +1,22 @@
 {
-    "timestamp": "2026-09-26T05:23:00+00:00",
+    "timestamp": "2026-09-26T05:34:00+00:00",
     "difficulty": {
         "2": 2,
-        "1": 1,
         "0": 1
     },
     "mode": {
-        "1": 2,
+        "1": 1,
         "0": 2
     },
     "difficulty_mode": {
         "2|1": 1,
-        "1|1": 1,
         "2|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -28,10 +26,6 @@
     "top_games": [
         {
             "name": "kill bill",
-            "count": 1
-        },
-        {
-            "name": "lvling",
             "count": 1
         },
         {
@@ -52,13 +46,6 @@
             ]
         },
         {
-            "normalized": "lvling",
-            "count": 2,
-            "examples": [
-                "lvling"
-            ]
-        },
-        {
             "normalized": "wikid klownz",
             "count": 2,
             "examples": [
@@ -76,8 +63,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 7.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 8.0
     }
 }
