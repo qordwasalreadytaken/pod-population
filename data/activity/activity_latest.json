@@ -1,26 +1,26 @@
 {
-    "timestamp": "2026-09-26T07:09:00+00:00",
+    "timestamp": "2026-09-26T07:24:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 4
+        "0": 3,
+        "2": 5
     },
     "mode": {
         "1": 1,
-        "0": 5
+        "0": 7
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 4,
-        "0|0": 1
+        "2|0": 5,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Trade",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -37,7 +37,11 @@
             "count": 1
         },
         {
-            "name": "n fugged pls",
+            "name": "n magic facet 1",
+            "count": 1
+        },
+        {
+            "name": "n silkweave",
             "count": 1
         },
         {
@@ -50,6 +54,10 @@
         },
         {
             "name": "1216",
+            "count": 1
+        },
+        {
+            "name": "erwt",
             "count": 1
         },
         {
@@ -78,12 +86,24 @@
             "examples": [
                 "1216"
             ]
+        },
+        {
+            "normalized": "erwt",
+            "count": 2,
+            "examples": [
+                "erwt"
+            ]
         }
     ],
     "classified_games": {
         "Trade": [
             {
-                "name": "n fugged pls",
+                "name": "n magic facet 1",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n silkweave",
                 "matched": "n",
                 "count": 1
             }
@@ -104,8 +124,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 7.0
+        "unique_names": 8,
+        "public_games": 8,
+        "average_name_length": 7.5
     }
 }
