@@ -302,7 +302,7 @@
         {
             "name": "n silkweave",
             "matched": "n",
-            "count": 131
+            "count": 132
         },
         {
             "name": "n fireskillers",
@@ -446,7 +446,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "torch",
+            "matched": "buy",
             "count": 12
         },
         {
@@ -2108,7 +2108,7 @@
         },
         {
             "name": "acte andy",
-            "matched": "andy",
+            "matched": "act",
             "count": 5
         },
         {
@@ -2208,7 +2208,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -2368,7 +2368,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "norm",
+            "matched": "tomb",
             "count": 1
         },
         {
@@ -2393,7 +2393,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -4556,6 +4556,16 @@
             "name": "hell cs -1",
             "matched": "cs",
             "count": 1
+        },
+        {
+            "name": "hell cs -7",
+            "matched": "cs",
+            "count": 1
+        },
+        {
+            "name": "hell cs -6",
+            "matched": "cs",
+            "count": 1
         }
     ],
     "Maps": [
@@ -4913,17 +4923,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
