@@ -1,70 +1,15 @@
 {
-    "timestamp": "2026-09-26T05:34:00+00:00",
-    "difficulty": {
-        "2": 2,
-        "0": 1
-    },
-    "mode": {
-        "1": 1,
-        "0": 2
-    },
-    "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 1,
-        "0|0": 1
-    },
-    "activities": [
-        {
-            "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        }
-    ],
-    "top_games": [
-        {
-            "name": "kill bill",
-            "count": 1
-        },
-        {
-            "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "wikid klownz",
-            "count": 1
-        }
-    ],
-    "unknown_games": [
-        {
-            "normalized": "kill bill",
-            "count": 2,
-            "examples": [
-                "kill bill"
-            ]
-        },
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
-            ]
-        }
-    ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "timestamp": "2026-09-26T05:46:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "difficulty_mode": {},
+    "activities": [],
+    "top_games": [],
+    "unknown_games": [],
+    "classified_games": {},
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 8.0
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
