@@ -1,34 +1,30 @@
 {
-    "timestamp": "2026-09-26T17:04:00+00:00",
+    "timestamp": "2026-09-26T17:20:00+00:00",
     "difficulty": {
-        "2": 7,
+        "2": 6,
         "0": 2
     },
     "mode": {
         "1": 2,
-        "0": 7
+        "0": 6
     },
     "difficulty_mode": {
         "2|1": 1,
         "0|1": 1,
-        "2|0": 6,
+        "2|0": 5,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 4
         },
         {
             "name": "Trade",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Maps",
             "count": 1
         }
     ],
@@ -42,7 +38,7 @@
             "count": 1
         },
         {
-            "name": "1225",
+            "name": "n sazbia head",
             "count": 1
         },
         {
@@ -50,15 +46,11 @@
             "count": 1
         },
         {
-            "name": "n fugged pls",
+            "name": "n sazbia helm",
             "count": 1
         },
         {
-            "name": "map-2",
-            "count": 1
-        },
-        {
-            "name": "1224",
+            "name": "1225",
             "count": 1
         },
         {
@@ -73,10 +65,9 @@
     "unknown_games": [
         {
             "normalized": "#",
-            "count": 6,
+            "count": 4,
             "examples": [
                 "113",
-                "1224",
                 "1225"
             ]
         },
@@ -96,16 +87,14 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
-                "name": "n fugged pls",
+                "name": "n sazbia head",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n sazbia helm",
                 "matched": "n",
                 "count": 1
             },
@@ -115,17 +104,17 @@
                 "count": 1
             }
         ],
-        "Maps": [
+        "Misc. Public MF Runs": [
             {
-                "name": "map-2",
-                "matched": "map",
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 9,
-        "public_games": 9,
-        "average_name_length": 5.56
+        "unique_names": 8,
+        "public_games": 8,
+        "average_name_length": 6.88
     }
 }
