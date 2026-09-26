@@ -1,24 +1,24 @@
 {
-    "timestamp": "2026-09-26T09:46:00+00:00",
+    "timestamp": "2026-09-26T10:04:00+00:00",
     "difficulty": {
-        "2": 5,
+        "2": 3,
         "0": 1
     },
     "mode": {
-        "0": 6
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 5,
+        "2|0": 3,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Leveling",
@@ -27,23 +27,11 @@
     ],
     "top_games": [
         {
-            "name": "1222",
-            "count": 1
-        },
-        {
             "name": "asd",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "1221",
-            "count": 1
-        },
-        {
-            "name": "dasd",
-            "count": 1
-        },
-        {
-            "name": "key run 3",
+            "name": "1222",
             "count": 1
         },
         {
@@ -54,9 +42,8 @@
     "unknown_games": [
         {
             "normalized": "#",
-            "count": 4,
+            "count": 2,
             "examples": [
-                "1221",
                 "1222"
             ]
         }
@@ -66,17 +53,7 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "dasd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "key run 3",
-                "matched": "run",
-                "count": 1
+                "count": 2
             }
         ],
         "Leveling": [
@@ -88,8 +65,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 5.33
+        "unique_names": 3,
+        "public_games": 4,
+        "average_name_length": 5.0
     }
 }
