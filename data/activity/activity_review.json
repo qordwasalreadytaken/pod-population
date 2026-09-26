@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2384,
+        "count": 2386,
         "examples": [
             "1",
             "10",
@@ -1117,6 +1117,14 @@
         ]
     },
     {
+        "normalized": "new char #",
+        "count": 14,
+        "examples": [
+            "new char 2",
+            "new char 4"
+        ]
+    },
+    {
         "normalized": "qqq",
         "count": 12,
         "examples": [
@@ -1282,14 +1290,6 @@
         "count": 12,
         "examples": [
             "sur vs nec torc"
-        ]
-    },
-    {
-        "normalized": "new char #",
-        "count": 12,
-        "examples": [
-            "new char 2",
-            "new char 4"
         ]
     },
     {
