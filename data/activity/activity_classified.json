@@ -302,7 +302,7 @@
         {
             "name": "n silkweave",
             "matched": "n",
-            "count": 120
+            "count": 121
         },
         {
             "name": "n fireskillers",
@@ -342,7 +342,7 @@
         {
             "name": "n griffon 3s",
             "matched": "n",
-            "count": 36
+            "count": 37
         },
         {
             "name": "n torch necro",
@@ -446,7 +446,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "buy",
+            "matched": "torch",
             "count": 12
         },
         {
@@ -611,7 +611,7 @@
         },
         {
             "name": "n ntorch o bto",
-            "matched": "n",
+            "matched": "torch",
             "count": 6
         },
         {
@@ -2058,7 +2058,7 @@
         },
         {
             "name": "act 2 - normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 6
         },
         {
@@ -2093,7 +2093,7 @@
         },
         {
             "name": "acte andy",
-            "matched": "act",
+            "matched": "andy",
             "count": 5
         },
         {
@@ -2143,7 +2143,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "start",
+            "matched": "act",
             "count": 3
         },
         {
@@ -2223,7 +2223,7 @@
         },
         {
             "name": "normal act",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -2258,7 +2258,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "exp",
+            "matched": "act",
             "count": 2
         },
         {
@@ -2307,6 +2307,11 @@
             "count": 2
         },
         {
+            "name": "hell act 2",
+            "matched": "act",
+            "count": 2
+        },
+        {
             "name": "help normal",
             "matched": "norm",
             "count": 1
@@ -2348,7 +2353,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "tomb",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -2373,7 +2378,7 @@
         },
         {
             "name": "act start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -2498,11 +2503,6 @@
         },
         {
             "name": "1act - normal",
-            "matched": "act",
-            "count": 1
-        },
-        {
-            "name": "hell act 2",
             "matched": "act",
             "count": 1
         }
@@ -2643,7 +2643,7 @@
         {
             "name": "gord",
             "matched": "gord",
-            "count": 496
+            "count": 497
         },
         {
             "name": "n eld runes",
@@ -3622,7 +3622,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "mf",
+            "matched": "run",
             "count": 1
         },
         {
@@ -4626,7 +4626,7 @@
         },
         {
             "name": "desert maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 5
         },
         {
@@ -4661,7 +4661,7 @@
         },
         {
             "name": "public maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 4
         },
         {
@@ -4711,7 +4711,7 @@
         },
         {
             "name": "slow maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 3
         },
         {
@@ -4766,12 +4766,12 @@
         },
         {
             "name": "t maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
             "name": "t maps 2",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
@@ -4801,7 +4801,7 @@
         },
         {
             "name": "maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 1
         },
         {
@@ -4846,7 +4846,7 @@
         },
         {
             "name": "maps?2",
-            "matched": "maps",
+            "matched": "map",
             "count": 1
         },
         {
@@ -4866,7 +4866,7 @@
         },
         {
             "name": "maps 3",
-            "matched": "maps",
+            "matched": "map",
             "count": 1
         },
         {
