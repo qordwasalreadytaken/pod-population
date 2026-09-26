@@ -1,8 +1,8 @@
 {
-    "timestamp": "2026-09-26T07:35:00+00:00",
+    "timestamp": "2026-09-26T07:46:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 5
+        "0": 3,
+        "2": 4
     },
     "mode": {
         "1": 1,
@@ -10,8 +10,8 @@
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 5,
-        "0|0": 1
+        "2|0": 4,
+        "0|0": 2
     },
     "activities": [
         {
@@ -19,11 +19,11 @@
             "count": 3
         },
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 1
         },
         {
@@ -37,7 +37,7 @@
             "count": 1
         },
         {
-            "name": "n magic facet 1",
+            "name": "asd",
             "count": 1
         },
         {
@@ -49,11 +49,11 @@
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "1216",
             "count": 1
         },
         {
-            "name": "1216",
+            "name": "asdf 4",
             "count": 1
         },
         {
@@ -85,22 +85,22 @@
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n magic facet 1",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "n silkweave",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
                 "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "asdf 4",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
+        "Trade": [
+            {
+                "name": "n silkweave",
+                "matched": "n",
                 "count": 1
             }
         ],
@@ -115,6 +115,6 @@
     "interesting": {
         "unique_names": 7,
         "public_games": 7,
-        "average_name_length": 8.0
+        "average_name_length": 6.71
     }
 }
