@@ -1,15 +1,14 @@
 {
-    "timestamp": "2026-09-26T03:50:00+00:00",
+    "timestamp": "2026-09-26T04:05:00+00:00",
     "difficulty": {
-        "0": 1,
-        "2": 1
+        "2": 2
     },
     "mode": {
         "1": 1,
         "0": 1
     },
     "difficulty_mode": {
-        "0|1": 1,
+        "2|1": 1,
         "2|0": 1
     },
     "activities": [
@@ -24,7 +23,7 @@
     ],
     "top_games": [
         {
-            "name": "eq",
+            "name": "kill bill",
             "count": 1
         },
         {
@@ -34,10 +33,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "eq",
+            "normalized": "kill bill",
             "count": 2,
             "examples": [
-                "eq"
+                "kill bill"
             ]
         }
     ],
@@ -53,6 +52,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 2.5
+        "average_name_length": 6.0
     }
 }
