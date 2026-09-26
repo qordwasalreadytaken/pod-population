@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2490,
+        "count": 2496,
         "examples": [
             "1",
             "10",
@@ -126,7 +126,7 @@
     },
     {
         "normalized": "hell",
-        "count": 130,
+        "count": 132,
         "examples": [
             "hell"
         ]
@@ -1125,6 +1125,13 @@
         ]
     },
     {
+        "normalized": "m",
+        "count": 14,
+        "examples": [
+            "m"
+        ]
+    },
+    {
         "normalized": "qqq",
         "count": 12,
         "examples": [
@@ -1290,13 +1297,6 @@
         "count": 12,
         "examples": [
             "sur vs nec torc"
-        ]
-    },
-    {
-        "normalized": "m",
-        "count": 12,
-        "examples": [
-            "m"
         ]
     },
     {
@@ -7448,6 +7448,13 @@
         "count": 2,
         "examples": [
             "hyg"
+        ]
+    },
+    {
+        "normalized": "laveling",
+        "count": 2,
+        "examples": [
+            "laveling"
         ]
     }
 ]
