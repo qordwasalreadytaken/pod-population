@@ -1,20 +1,22 @@
 {
-    "timestamp": "2026-09-26T04:41:00+00:00",
+    "timestamp": "2026-09-26T04:49:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 2,
+        "1": 1
     },
     "mode": {
-        "1": 1,
+        "1": 2,
         "0": 1
     },
     "difficulty_mode": {
         "2|1": 1,
+        "1|1": 1,
         "2|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -24,6 +26,10 @@
     "top_games": [
         {
             "name": "kill bill",
+            "count": 1
+        },
+        {
+            "name": "lvling",
             "count": 1
         },
         {
@@ -38,6 +44,13 @@
             "examples": [
                 "kill bill"
             ]
+        },
+        {
+            "normalized": "lvling",
+            "count": 2,
+            "examples": [
+                "lvling"
+            ]
         }
     ],
     "classified_games": {
@@ -50,8 +63,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
+        "unique_names": 3,
+        "public_games": 3,
         "average_name_length": 6.0
     }
 }
