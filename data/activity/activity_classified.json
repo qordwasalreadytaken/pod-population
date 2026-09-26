@@ -302,7 +302,7 @@
         {
             "name": "n silkweave",
             "matched": "n",
-            "count": 133
+            "count": 134
         },
         {
             "name": "n fireskillers",
@@ -446,7 +446,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "buy",
+            "matched": "torch",
             "count": 12
         },
         {
@@ -616,7 +616,7 @@
         },
         {
             "name": "n ntorch o bto",
-            "matched": "torch",
+            "matched": "n",
             "count": 6
         },
         {
@@ -1973,7 +1973,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "act",
+            "matched": "andar",
             "count": 12
         },
         {
@@ -2108,7 +2108,7 @@
         },
         {
             "name": "acte andy",
-            "matched": "andy",
+            "matched": "act",
             "count": 5
         },
         {
@@ -2158,7 +2158,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "start",
+            "matched": "act",
             "count": 3
         },
         {
@@ -2393,7 +2393,7 @@
         },
         {
             "name": "act start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -2653,7 +2653,7 @@
         {
             "name": "asd",
             "matched": "asd",
-            "count": 1353
+            "count": 1354
         },
         {
             "name": "gord",
@@ -3637,7 +3637,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -3702,7 +3702,7 @@
         },
         {
             "name": "14123awdasdfqwr",
-            "matched": "asd",
+            "matched": "123",
             "count": 1
         },
         {
@@ -4581,6 +4581,16 @@
             "name": "hell cs -10",
             "matched": "cs",
             "count": 1
+        },
+        {
+            "name": "hell cs -14",
+            "matched": "cs",
+            "count": 1
+        },
+        {
+            "name": "hell cs -13",
+            "matched": "cs",
+            "count": 1
         }
     ],
     "Maps": [
@@ -4626,7 +4636,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 7
         },
         {
@@ -4681,7 +4691,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "mapping",
+            "matched": "map",
             "count": 4
         },
         {
@@ -4886,7 +4896,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -4901,7 +4911,7 @@
         },
         {
             "name": "mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -4938,17 +4948,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
