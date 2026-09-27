@@ -1,25 +1,24 @@
 {
-    "timestamp": "2026-09-27T16:36:00+00:00",
+    "timestamp": "2026-09-27T16:47:00+00:00",
     "difficulty": {
-        "2": 8,
         "1": 1,
-        "0": 4
+        "0": 4,
+        "2": 8
     },
     "mode": {
-        "1": 3,
-        "0": 10
+        "1": 2,
+        "0": 11
     },
     "difficulty_mode": {
-        "2|1": 1,
         "1|1": 1,
         "0|1": 1,
-        "2|0": 7,
+        "2|0": 8,
         "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 9
+            "count": 8
         },
         {
             "name": "Trade",
@@ -27,7 +26,7 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
@@ -36,8 +35,8 @@
             "count": 2
         },
         {
-            "name": "killbill",
-            "count": 1
+            "name": "asd",
+            "count": 2
         },
         {
             "name": "o fal n lem",
@@ -57,10 +56,6 @@
         },
         {
             "name": "poop",
-            "count": 1
-        },
-        {
-            "name": "asd",
             "count": 1
         },
         {
@@ -86,13 +81,6 @@
             "count": 4,
             "examples": [
                 "onek"
-            ]
-        },
-        {
-            "normalized": "killbill",
-            "count": 2,
-            "examples": [
-                "killbill"
             ]
         },
         {
@@ -160,13 +148,13 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 12,
+        "unique_names": 11,
         "public_games": 13,
-        "average_name_length": 6.08
+        "average_name_length": 5.91
     }
 }
