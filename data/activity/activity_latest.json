@@ -1,41 +1,47 @@
 {
-    "timestamp": "2026-09-27T14:33:00+00:00",
+    "timestamp": "2026-09-27T14:46:00+00:00",
     "difficulty": {
-        "2": 6,
-        "1": 2,
-        "0": 2
+        "2": 7,
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "1": 1,
         "0": 9
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 5,
-        "1|0": 2,
-        "0|0": 2
+        "2|0": 7,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 5
-        },
-        {
-            "name": "Other",
             "count": 4
         },
         {
-            "name": "Leveling",
-            "count": 1
+            "name": "Other",
+            "count": 3
+        },
+        {
+            "name": "Trade",
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "111",
+            "name": "asdaas",
+            "count": 2
+        },
+        {
+            "name": "t",
             "count": 1
         },
         {
-            "name": "asdaas",
+            "name": "n silkweave",
+            "count": 1
+        },
+        {
+            "name": "n ebotd",
             "count": 1
         },
         {
@@ -47,36 +53,20 @@
             "count": 1
         },
         {
-            "name": "n zod rune",
-            "count": 1
-        },
-        {
-            "name": "t",
-            "count": 1
-        },
-        {
             "name": "unrealpooping",
-            "count": 1
-        },
-        {
-            "name": "asd",
             "count": 1
         },
         {
             "name": "gord",
             "count": 1
-        },
-        {
-            "name": "acte 1",
-            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "#",
+            "normalized": "t",
             "count": 2,
             "examples": [
-                "111"
+                "t"
             ]
         },
         {
@@ -84,13 +74,6 @@
             "count": 2,
             "examples": [
                 "abs"
-            ]
-        },
-        {
-            "normalized": "t",
-            "count": 2,
-            "examples": [
-                "t"
             ]
         },
         {
@@ -106,20 +89,10 @@
             {
                 "name": "asdaas",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             },
             {
                 "name": "asdasd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "n zod rune",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "asd",
                 "matched": "asd",
                 "count": 1
             },
@@ -129,17 +102,22 @@
                 "count": 1
             }
         ],
-        "Leveling": [
+        "Trade": [
             {
-                "name": "acte 1",
-                "matched": "act",
+                "name": "n silkweave",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n ebotd",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 10,
-        "public_games": 10,
-        "average_name_length": 5.5
+        "unique_names": 8,
+        "public_games": 9,
+        "average_name_length": 6.38
     }
 }
