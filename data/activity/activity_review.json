@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2560,
+        "count": 2562,
         "examples": [
             "1",
             "10",
@@ -180,7 +180,7 @@
     },
     {
         "normalized": "eq",
-        "count": 78,
+        "count": 80,
         "examples": [
             "eq"
         ]
@@ -297,6 +297,13 @@
         ]
     },
     {
+        "normalized": "m",
+        "count": 42,
+        "examples": [
+            "m"
+        ]
+    },
+    {
         "normalized": "hell yeah",
         "count": 40,
         "examples": [
@@ -322,13 +329,6 @@
         "count": 40,
         "examples": [
             "1 ooc 4 1 eld"
-        ]
-    },
-    {
-        "normalized": "m",
-        "count": 40,
-        "examples": [
-            "m"
         ]
     },
     {

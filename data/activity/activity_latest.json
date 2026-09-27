@@ -1,17 +1,18 @@
 {
-    "timestamp": "2026-09-27T09:35:00+00:00",
+    "timestamp": "2026-09-27T09:46:00+00:00",
     "difficulty": {
         "2": 3,
-        "0": 2
+        "0": 3
     },
     "mode": {
         "1": 3,
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
         "0|1": 2,
-        "2|0": 2
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
@@ -19,11 +20,11 @@
             "count": 3
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "name": "Leveling",
+            "count": 2
         },
         {
-            "name": "Leveling",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -41,11 +42,15 @@
             "count": 1
         },
         {
+            "name": "hell anci plz",
+            "count": 1
+        },
+        {
             "name": "1230",
             "count": 1
         },
         {
-            "name": "hell anci plz",
+            "name": "act 3 wp please",
             "count": 1
         }
     ],
@@ -73,24 +78,29 @@
         }
     ],
     "classified_games": {
+        "Leveling": [
+            {
+                "name": "hell anci plz",
+                "matched": "anci",
+                "count": 1
+            },
+            {
+                "name": "act 3 wp please",
+                "matched": "act",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "1230",
                 "matched": "123",
                 "count": 1
             }
-        ],
-        "Leveling": [
-            {
-                "name": "hell anci plz",
-                "matched": "anci",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 4.6
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 6.33
     }
 }
