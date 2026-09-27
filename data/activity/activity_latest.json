@@ -1,25 +1,41 @@
 {
-    "timestamp": "2026-09-27T06:58:00+00:00",
+    "timestamp": "2026-09-27T07:21:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 4
     },
     "mode": {
         "1": 1,
-        "0": 1
+        "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 1
+        "2|0": 3
     },
     "activities": [
         {
             "name": "Other",
             "count": 2
+        },
+        {
+            "name": "Leveling",
+            "count": 1
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "111",
+            "count": 1
+        },
+        {
+            "name": "n hell anci pl",
+            "count": 1
+        },
+        {
+            "name": "wtb barb torch",
             "count": 1
         },
         {
@@ -37,10 +53,25 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Leveling": [
+            {
+                "name": "n hell anci pl",
+                "matched": "anci",
+                "count": 1
+            }
+        ],
+        "Trade": [
+            {
+                "name": "wtb barb torch",
+                "matched": "torch",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 3.5
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 8.75
     }
 }
