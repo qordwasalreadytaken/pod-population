@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2622,
+        "count": 2624,
         "examples": [
             "1",
             "10",
@@ -482,6 +482,13 @@
         ]
     },
     {
+        "normalized": "lvls",
+        "count": 26,
+        "examples": [
+            "lvls"
+        ]
+    },
+    {
         "normalized": "g",
         "count": 24,
         "examples": [
@@ -553,13 +560,6 @@
         "count": 24,
         "examples": [
             "pooping"
-        ]
-    },
-    {
-        "normalized": "lvls",
-        "count": 24,
-        "examples": [
-            "lvls"
         ]
     },
     {
@@ -4032,6 +4032,13 @@
         "count": 4,
         "examples": [
             "sasa"
+        ]
+    },
+    {
+        "normalized": "todpre",
+        "count": 4,
+        "examples": [
+            "todpre"
         ]
     },
     {
@@ -7602,13 +7609,6 @@
         "count": 2,
         "examples": [
             "killbillss"
-        ]
-    },
-    {
-        "normalized": "todpre",
-        "count": 2,
-        "examples": [
-            "todpre"
         ]
     }
 ]
