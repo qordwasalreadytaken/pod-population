@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2624,
+        "count": 2626,
         "examples": [
             "1",
             "10",
@@ -475,17 +475,17 @@
         ]
     },
     {
+        "normalized": "lvls",
+        "count": 28,
+        "examples": [
+            "lvls"
+        ]
+    },
+    {
         "normalized": "solo",
         "count": 26,
         "examples": [
             "solo"
-        ]
-    },
-    {
-        "normalized": "lvls",
-        "count": 26,
-        "examples": [
-            "lvls"
         ]
     },
     {
@@ -7609,6 +7609,20 @@
         "count": 2,
         "examples": [
             "killbillss"
+        ]
+    },
+    {
+        "normalized": "gotohelll #",
+        "count": 2,
+        "examples": [
+            "gotohelll 99999"
+        ]
+    },
+    {
+        "normalized": "#ded",
+        "count": 2,
+        "examples": [
+            "2ded"
         ]
     }
 ]

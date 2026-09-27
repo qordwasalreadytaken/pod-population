@@ -1,28 +1,24 @@
 {
-    "timestamp": "2026-09-27T20:46:00+00:00",
+    "timestamp": "2026-09-27T21:04:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 2,
         "1": 3,
         "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 8
+        "0": 6
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 3,
+        "2|0": 1,
         "1|0": 3,
         "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 4
         },
         {
             "name": "Baal",
@@ -31,17 +27,9 @@
         {
             "name": "Trade",
             "count": 1
-        },
-        {
-            "name": "Leveling",
-            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "asd",
-            "count": 2
-        },
         {
             "name": "lvls",
             "count": 1
@@ -51,23 +39,23 @@
             "count": 1
         },
         {
-            "name": "n baal essence",
+            "name": "baalrun nm 5",
             "count": 1
         },
         {
-            "name": "baalrun nm",
+            "name": "baalrun nm 4",
             "count": 1
         },
         {
-            "name": "todpre",
+            "name": "gotohelll 99999",
             "count": 1
         },
         {
-            "name": "1",
+            "name": "2ded",
             "count": 1
         },
         {
-            "name": "acte 1",
+            "name": "2",
             "count": 1
         }
     ],
@@ -80,28 +68,28 @@
             ]
         },
         {
-            "normalized": "todpre",
+            "normalized": "gotohelll #",
             "count": 2,
             "examples": [
-                "todpre"
+                "gotohelll 99999"
+            ]
+        },
+        {
+            "normalized": "#ded",
+            "count": 2,
+            "examples": [
+                "2ded"
             ]
         },
         {
             "normalized": "#",
             "count": 2,
             "examples": [
-                "1"
+                "2"
             ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 2
-            }
-        ],
         "Trade": [
             {
                 "name": "n silkweave",
@@ -111,27 +99,20 @@
         ],
         "Baal": [
             {
-                "name": "n baal essence",
+                "name": "baalrun nm 5",
                 "matched": "baal",
                 "count": 1
             },
             {
-                "name": "baalrun nm",
+                "name": "baalrun nm 4",
                 "matched": "baal",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "acte 1",
-                "matched": "act",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 9,
-        "average_name_length": 6.88
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 8.43
     }
 }
