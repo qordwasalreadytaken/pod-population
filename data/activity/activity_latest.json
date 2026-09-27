@@ -1,49 +1,50 @@
 {
-    "timestamp": "2026-09-27T16:47:00+00:00",
+    "timestamp": "2026-09-27T17:04:00+00:00",
     "difficulty": {
-        "1": 1,
+        "1": 2,
         "0": 4,
-        "2": 8
+        "2": 5
     },
     "mode": {
         "1": 2,
-        "0": 11
+        "0": 9
     },
     "difficulty_mode": {
         "1|1": 1,
         "0|1": 1,
-        "2|0": 8,
+        "2|0": 5,
+        "1|0": 1,
         "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 8
+            "count": 6
         },
         {
             "name": "Trade",
             "count": 3
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Baal",
             "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "onek",
-            "count": 2
-        },
-        {
-            "name": "asd",
-            "count": 2
-        },
-        {
-            "name": "o fal n lem",
+            "name": "n lem o fal",
             "count": 1
         },
         {
             "name": "lvls",
+            "count": 1
+        },
+        {
+            "name": "n baal essence",
+            "count": 1
+        },
+        {
+            "name": "n silkweave",
             "count": 1
         },
         {
@@ -59,15 +60,15 @@
             "count": 1
         },
         {
-            "name": "n silkweave",
+            "name": "n magic facet 1",
+            "count": 1
+        },
+        {
+            "name": "baal normal",
             "count": 1
         },
         {
             "name": "13",
-            "count": 1
-        },
-        {
-            "name": "n travi wp",
             "count": 1
         },
         {
@@ -76,13 +77,6 @@
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "onek",
-            "count": 4,
-            "examples": [
-                "onek"
-            ]
-        },
         {
             "normalized": "lvls",
             "count": 2,
@@ -129,7 +123,7 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "o fal n lem",
+                "name": "n lem o fal",
                 "matched": "n",
                 "count": 1
             },
@@ -139,22 +133,27 @@
                 "count": 1
             },
             {
-                "name": "n travi wp",
+                "name": "n magic facet 1",
                 "matched": "n",
                 "count": 1
             }
         ],
-        "Misc. Public MF Runs": [
+        "Baal": [
             {
-                "name": "asd",
-                "matched": "asd",
-                "count": 2
+                "name": "n baal essence",
+                "matched": "baal",
+                "count": 1
+            },
+            {
+                "name": "baal normal",
+                "matched": "baal",
+                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 11,
-        "public_games": 13,
-        "average_name_length": 5.91
+        "public_games": 11,
+        "average_name_length": 8.0
     }
 }
