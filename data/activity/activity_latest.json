@@ -1,24 +1,24 @@
 {
-    "timestamp": "2026-09-27T15:04:00+00:00",
+    "timestamp": "2026-09-27T15:22:00+00:00",
     "difficulty": {
         "2": 7,
-        "1": 1,
+        "1": 2,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 8
+        "0": 9
     },
     "difficulty_mode": {
         "2|1": 1,
         "2|0": 6,
-        "1|0": 1,
+        "1|0": 2,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 5
         },
         {
             "name": "Trade",
@@ -35,11 +35,15 @@
             "count": 1
         },
         {
+            "name": "asdasd",
+            "count": 1
+        },
+        {
             "name": "o sur lo n zod",
             "count": 1
         },
         {
-            "name": "asdaas",
+            "name": "t",
             "count": 1
         },
         {
@@ -55,7 +59,7 @@
             "count": 1
         },
         {
-            "name": "t",
+            "name": "21",
             "count": 1
         },
         {
@@ -76,6 +80,13 @@
             ]
         },
         {
+            "normalized": "t",
+            "count": 2,
+            "examples": [
+                "t"
+            ]
+        },
+        {
             "normalized": "lvv",
             "count": 2,
             "examples": [
@@ -83,10 +94,10 @@
             ]
         },
         {
-            "normalized": "t",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "t"
+                "21"
             ]
         },
         {
@@ -98,6 +109,18 @@
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asdasd",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "gord",
+                "matched": "gord",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "o sur lo n zod",
@@ -114,23 +137,11 @@
                 "matched": "n",
                 "count": 1
             }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asdaas",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 9,
-        "public_games": 9,
-        "average_name_length": 7.22
+        "unique_names": 10,
+        "public_games": 10,
+        "average_name_length": 6.7
     }
 }
