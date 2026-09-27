@@ -1,24 +1,24 @@
 {
-    "timestamp": "2026-09-27T15:46:00+00:00",
+    "timestamp": "2026-09-27T16:05:00+00:00",
     "difficulty": {
-        "2": 8,
+        "2": 10,
         "1": 1,
         "0": 3
     },
     "mode": {
         "1": 1,
-        "0": 11
+        "0": 13
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 7,
+        "2|0": 9,
         "1|0": 1,
         "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 8
         },
         {
             "name": "Trade",
@@ -26,16 +26,32 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "asdasd",
-            "count": 3
+            "name": "killbillss",
+            "count": 1
         },
         {
-            "name": "killbills",
+            "name": "jah ber plz 3",
+            "count": 1
+        },
+        {
+            "name": "onek",
+            "count": 1
+        },
+        {
+            "name": "jah ber plz 2",
+            "count": 1
+        },
+        {
+            "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "n barb torch",
             "count": 1
         },
         {
@@ -44,10 +60,6 @@
         },
         {
             "name": "n silkweave",
-            "count": 1
-        },
-        {
-            "name": "o sur lo n zod",
             "count": 1
         },
         {
@@ -63,20 +75,39 @@
             "count": 1
         },
         {
-            "name": "n travi wp pls",
+            "name": "new",
             "count": 1
         },
         {
-            "name": "new",
+            "name": "asdasd",
+            "count": 1
+        },
+        {
+            "name": "n travi wp pls",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "killbills",
+            "normalized": "jah ber plz #",
+            "count": 4,
+            "examples": [
+                "jah ber plz 2",
+                "jah ber plz 3"
+            ]
+        },
+        {
+            "normalized": "killbillss",
             "count": 2,
             "examples": [
-                "killbills"
+                "killbillss"
+            ]
+        },
+        {
+            "normalized": "onek",
+            "count": 2,
+            "examples": [
+                "onek"
             ]
         },
         {
@@ -111,19 +142,24 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            },
+            {
                 "name": "asdasd",
                 "matched": "asd",
-                "count": 3
+                "count": 1
             }
         ],
         "Trade": [
             {
-                "name": "n silkweave",
+                "name": "n barb torch",
                 "matched": "n",
                 "count": 1
             },
             {
-                "name": "o sur lo n zod",
+                "name": "n silkweave",
                 "matched": "n",
                 "count": 1
             },
@@ -140,8 +176,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 10,
-        "public_games": 12,
-        "average_name_length": 7.4
+        "unique_names": 14,
+        "public_games": 14,
+        "average_name_length": 7.57
     }
 }
