@@ -1,45 +1,31 @@
 {
-    "timestamp": "2026-09-27T17:32:00+00:00",
+    "timestamp": "2026-09-27T17:46:00+00:00",
     "difficulty": {
-        "1": 1,
-        "0": 2,
-        "2": 4
+        "0": 3,
+        "2": 2
     },
     "mode": {
-        "1": 2,
-        "0": 5
+        "1": 1,
+        "0": 4
     },
     "difficulty_mode": {
-        "1|1": 1,
         "0|1": 1,
-        "2|0": 4,
-        "0|0": 1
+        "2|0": 2,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 4
         },
         {
             "name": "Trade",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n lem o fal",
-            "count": 1
-        },
-        {
             "name": "lvls",
-            "count": 1
-        },
-        {
-            "name": "23525",
-            "count": 1
-        },
-        {
-            "name": "n silkweave",
             "count": 1
         },
         {
@@ -51,19 +37,15 @@
             "count": 1
         },
         {
+            "name": "n magic facet 2",
+            "count": 1
+        },
+        {
             "name": "13",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "#",
-            "count": 4,
-            "examples": [
-                "13",
-                "23525"
-            ]
-        },
         {
             "normalized": "lvls",
             "count": 2,
@@ -84,25 +66,27 @@
             "examples": [
                 "lvv"
             ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "13"
+            ]
         }
     ],
     "classified_games": {
         "Trade": [
             {
-                "name": "n lem o fal",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "n silkweave",
+                "name": "n magic facet 2",
                 "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 5.29
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 5.0
     }
 }
