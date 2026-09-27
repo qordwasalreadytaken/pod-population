@@ -1,35 +1,55 @@
 {
-    "timestamp": "2026-09-26T23:47:00+00:00",
+    "timestamp": "2026-09-27T00:16:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 1
+        "0": 4,
+        "2": 3
     },
     "mode": {
-        "1": 1,
-        "0": 2
+        "1": 2,
+        "0": 5
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 1,
-        "0|0": 1
+        "0|1": 2,
+        "2|0": 3,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
+            "count": 2
+        },
+        {
+            "name": "Chaos",
+            "count": 1
+        },
+        {
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "asd",
+            "count": 2
+        },
+        {
+            "name": "lvl",
+            "count": 1
+        },
+        {
             "name": "f",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "hell cs -24",
+            "count": 1
+        },
+        {
+            "name": "npoisonbone gc",
             "count": 1
         },
         {
@@ -38,6 +58,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "lvl",
+            "count": 2,
+            "examples": [
+                "lvl"
+            ]
+        },
         {
             "normalized": "f",
             "count": 2,
@@ -54,17 +81,31 @@
         }
     ],
     "classified_games": {
+        "Chaos": [
+            {
+                "name": "hell cs -24",
+                "matched": "cs",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
                 "matched": "asd",
+                "count": 2
+            }
+        ],
+        "Trade": [
+            {
+                "name": "npoisonbone gc",
+                "matched": "iso",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 4.0
+        "unique_names": 6,
+        "public_games": 7,
+        "average_name_length": 6.67
     }
 }
