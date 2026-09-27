@@ -1,33 +1,28 @@
 {
-    "timestamp": "2026-09-27T17:20:00+00:00",
+    "timestamp": "2026-09-27T17:32:00+00:00",
     "difficulty": {
-        "1": 2,
-        "0": 3,
-        "2": 5
+        "1": 1,
+        "0": 2,
+        "2": 4
     },
     "mode": {
         "1": 2,
-        "0": 8
+        "0": 5
     },
     "difficulty_mode": {
         "1|1": 1,
         "0|1": 1,
-        "2|0": 5,
-        "1|0": 1,
-        "0|0": 2
+        "2|0": 4,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 6
+            "count": 5
         },
         {
             "name": "Trade",
-            "count": 3
-        },
-        {
-            "name": "Baal",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
@@ -44,10 +39,6 @@
             "count": 1
         },
         {
-            "name": "n baal essence",
-            "count": 1
-        },
-        {
             "name": "n silkweave",
             "count": 1
         },
@@ -57,14 +48,6 @@
         },
         {
             "name": "lvv",
-            "count": 1
-        },
-        {
-            "name": "n magic facet 1",
-            "count": 1
-        },
-        {
-            "name": "wikid klownz",
             "count": 1
         },
         {
@@ -101,13 +84,6 @@
             "examples": [
                 "lvv"
             ]
-        },
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
-            ]
         }
     ],
     "classified_games": {
@@ -121,24 +97,12 @@
                 "name": "n silkweave",
                 "matched": "n",
                 "count": 1
-            },
-            {
-                "name": "n magic facet 1",
-                "matched": "n",
-                "count": 1
-            }
-        ],
-        "Baal": [
-            {
-                "name": "n baal essence",
-                "matched": "baal",
-                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 10,
-        "public_games": 10,
-        "average_name_length": 7.8
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 5.29
     }
 }
