@@ -1,25 +1,29 @@
 {
-    "timestamp": "2026-09-27T21:46:00+00:00",
+    "timestamp": "2026-09-27T22:04:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 3,
         "1": 2,
         "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 1,
+        "2|0": 3,
         "1|0": 2,
         "0|0": 1
     },
     "activities": [
         {
+            "name": "Trade",
+            "count": 2
+        },
+        {
             "name": "Baal",
             "count": 2
         },
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
@@ -30,14 +34,18 @@
     "top_games": [
         {
             "name": "n silkweave",
+            "count": 2
+        },
+        {
+            "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "baalrun nm 12",
             "count": 1
         },
         {
             "name": "baalrun nm 11",
-            "count": 1
-        },
-        {
-            "name": "baalrun nm 10",
             "count": 1
         },
         {
@@ -59,25 +67,32 @@
             {
                 "name": "n silkweave",
                 "matched": "n",
+                "count": 2
+            }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             }
         ],
         "Baal": [
             {
-                "name": "baalrun nm 11",
+                "name": "baalrun nm 12",
                 "matched": "baal",
                 "count": 1
             },
             {
-                "name": "baalrun nm 10",
+                "name": "baalrun nm 11",
                 "matched": "baal",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 9.5
+        "unique_names": 5,
+        "public_games": 6,
+        "average_name_length": 8.2
     }
 }
