@@ -203,6 +203,11 @@
             "count": 2
         },
         {
+            "name": "baalrun nm 8",
+            "matched": "baal",
+            "count": 2
+        },
+        {
             "name": "baal 8",
             "matched": "baal",
             "count": 1
@@ -313,11 +318,6 @@
             "count": 1
         },
         {
-            "name": "baalrun nm 8",
-            "matched": "baal",
-            "count": 1
-        },
-        {
             "name": "baalrun nm 7",
             "matched": "baal",
             "count": 1
@@ -332,7 +332,7 @@
         {
             "name": "n silkweave",
             "matched": "n",
-            "count": 166
+            "count": 167
         },
         {
             "name": "n fireskillers",
@@ -656,7 +656,7 @@
         },
         {
             "name": "n ntorch o bto",
-            "matched": "torch",
+            "matched": "n",
             "count": 6
         },
         {
@@ -2238,7 +2238,7 @@
         },
         {
             "name": "acte andy",
-            "matched": "andy",
+            "matched": "act",
             "count": 5
         },
         {
@@ -2343,7 +2343,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "leveli",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -2383,7 +2383,7 @@
         },
         {
             "name": "normal act",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -2418,7 +2418,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "exp",
+            "matched": "act",
             "count": 2
         },
         {
@@ -2503,7 +2503,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "tomb",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -3802,7 +3802,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "mf",
+            "matched": "run",
             "count": 1
         },
         {
@@ -4806,7 +4806,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 7
         },
         {
@@ -4851,7 +4851,7 @@
         },
         {
             "name": "desert maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 5
         },
         {
@@ -4861,7 +4861,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "map",
+            "matched": "mapping",
             "count": 4
         },
         {
@@ -4886,7 +4886,7 @@
         },
         {
             "name": "public maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 4
         },
         {
@@ -4936,7 +4936,7 @@
         },
         {
             "name": "slow maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 3
         },
         {
@@ -4991,12 +4991,12 @@
         },
         {
             "name": "t maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
             "name": "t maps 2",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
@@ -5026,7 +5026,7 @@
         },
         {
             "name": "maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 1
         },
         {
@@ -5066,12 +5066,12 @@
         },
         {
             "name": "mapping 2",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
             "name": "maps?2",
-            "matched": "maps",
+            "matched": "map",
             "count": 1
         },
         {
@@ -5081,7 +5081,7 @@
         },
         {
             "name": "mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -5091,7 +5091,7 @@
         },
         {
             "name": "maps 3",
-            "matched": "maps",
+            "matched": "map",
             "count": 1
         },
         {
@@ -5118,17 +5118,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
