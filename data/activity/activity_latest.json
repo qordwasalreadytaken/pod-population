@@ -1,85 +1,87 @@
 {
-    "timestamp": "2026-09-27T17:46:00+00:00",
+    "timestamp": "2026-09-27T18:06:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 2
+        "2": 1,
+        "1": 2,
+        "0": 2
     },
     "mode": {
-        "1": 1,
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 2,
+        "2|0": 1,
+        "1|0": 2,
         "0|0": 2
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 4
+            "name": "Trade",
+            "count": 2
         },
         {
-            "name": "Trade",
+            "name": "Other",
+            "count": 2
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "lvls",
+            "name": "n silkweave",
             "count": 1
         },
         {
-            "name": "t",
+            "name": "yttyyt",
             "count": 1
         },
         {
-            "name": "lvv",
+            "name": "asd",
             "count": 1
         },
         {
-            "name": "n magic facet 2",
+            "name": "n magic facet 3",
             "count": 1
         },
         {
-            "name": "13",
+            "name": "14",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "lvls",
+            "normalized": "yttyyt",
             "count": 2,
             "examples": [
-                "lvls"
-            ]
-        },
-        {
-            "normalized": "t",
-            "count": 2,
-            "examples": [
-                "t"
-            ]
-        },
-        {
-            "normalized": "lvv",
-            "count": 2,
-            "examples": [
-                "lvv"
+                "yttyyt"
             ]
         },
         {
             "normalized": "#",
             "count": 2,
             "examples": [
-                "13"
+                "14"
             ]
         }
     ],
     "classified_games": {
         "Trade": [
             {
-                "name": "n magic facet 2",
+                "name": "n silkweave",
                 "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n magic facet 3",
+                "matched": "n",
+                "count": 1
+            }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             }
         ]
@@ -87,6 +89,6 @@
     "interesting": {
         "unique_names": 5,
         "public_games": 5,
-        "average_name_length": 5.0
+        "average_name_length": 7.4
     }
 }
