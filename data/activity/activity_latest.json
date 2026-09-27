@@ -1,69 +1,35 @@
 {
-    "timestamp": "2026-09-27T16:05:00+00:00",
+    "timestamp": "2026-09-27T16:25:00+00:00",
     "difficulty": {
-        "2": 10,
-        "1": 1,
+        "2": 7,
         "0": 3
     },
     "mode": {
         "1": 1,
-        "0": 13
+        "0": 9
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 9,
-        "1|0": 1,
+        "2|0": 6,
         "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 8
+            "count": 7
         },
         {
             "name": "Trade",
-            "count": 4
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "killbillss",
-            "count": 1
-        },
-        {
-            "name": "jah ber plz 3",
-            "count": 1
-        },
-        {
-            "name": "onek",
-            "count": 1
-        },
-        {
-            "name": "jah ber plz 2",
-            "count": 1
-        },
-        {
-            "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "n barb torch",
-            "count": 1
-        },
-        {
-            "name": "t",
-            "count": 1
-        },
-        {
-            "name": "n silkweave",
-            "count": 1
-        },
-        {
-            "name": "n razortail",
+            "name": "killbill",
             "count": 1
         },
         {
@@ -71,50 +37,44 @@
             "count": 1
         },
         {
-            "name": "21",
+            "name": "poop",
             "count": 1
         },
         {
-            "name": "new",
+            "name": "asd",
             "count": 1
         },
         {
-            "name": "asdasd",
+            "name": "jah ber plz 5",
             "count": 1
         },
         {
-            "name": "n travi wp pls",
+            "name": "onek",
+            "count": 1
+        },
+        {
+            "name": "n silkweave",
+            "count": 1
+        },
+        {
+            "name": "a",
+            "count": 1
+        },
+        {
+            "name": "n travi wp",
+            "count": 1
+        },
+        {
+            "name": "wikid klownz",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "jah ber plz #",
-            "count": 4,
-            "examples": [
-                "jah ber plz 2",
-                "jah ber plz 3"
-            ]
-        },
-        {
-            "normalized": "killbillss",
+            "normalized": "killbill",
             "count": 2,
             "examples": [
-                "killbillss"
-            ]
-        },
-        {
-            "normalized": "onek",
-            "count": 2,
-            "examples": [
-                "onek"
-            ]
-        },
-        {
-            "normalized": "t",
-            "count": 2,
-            "examples": [
-                "t"
+                "killbill"
             ]
         },
         {
@@ -125,17 +85,38 @@
             ]
         },
         {
-            "normalized": "#",
+            "normalized": "poop",
             "count": 2,
             "examples": [
-                "21"
+                "poop"
             ]
         },
         {
-            "normalized": "new",
+            "normalized": "jah ber plz #",
             "count": 2,
             "examples": [
-                "new"
+                "jah ber plz 5"
+            ]
+        },
+        {
+            "normalized": "onek",
+            "count": 2,
+            "examples": [
+                "onek"
+            ]
+        },
+        {
+            "normalized": "a",
+            "count": 2,
+            "examples": [
+                "a"
+            ]
+        },
+        {
+            "normalized": "wikid klownz",
+            "count": 2,
+            "examples": [
+                "wikid klownz"
             ]
         }
     ],
@@ -145,39 +126,24 @@
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
-            },
-            {
-                "name": "asdasd",
-                "matched": "asd",
-                "count": 1
             }
         ],
         "Trade": [
-            {
-                "name": "n barb torch",
-                "matched": "n",
-                "count": 1
-            },
             {
                 "name": "n silkweave",
                 "matched": "n",
                 "count": 1
             },
             {
-                "name": "n razortail",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "n travi wp pls",
+                "name": "n travi wp",
                 "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 14,
-        "public_games": 14,
-        "average_name_length": 7.57
+        "unique_names": 10,
+        "public_games": 10,
+        "average_name_length": 6.9
     }
 }
