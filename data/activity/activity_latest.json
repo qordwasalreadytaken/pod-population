@@ -1,39 +1,33 @@
 {
-    "timestamp": "2026-09-27T01:43:00+00:00",
+    "timestamp": "2026-09-27T02:01:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 2,
-        "1": 1
+        "0": 4,
+        "2": 1
     },
     "mode": {
         "1": 2,
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
         "0|1": 2,
-        "2|0": 2,
-        "1|0": 1,
-        "0|0": 1
+        "2|0": 1,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
-        },
-        {
-            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
-            "name": "Trade",
+            "name": "Leveling",
+            "count": 2
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "asd",
-            "count": 2
-        },
         {
             "name": "lvl",
             "count": 1
@@ -43,11 +37,15 @@
             "count": 1
         },
         {
-            "name": "poopingg",
+            "name": "asd",
             "count": 1
         },
         {
-            "name": "n poisnbonegc",
+            "name": "helpme normal 4",
+            "count": 1
+        },
+        {
+            "name": "helpme normal 3",
             "count": 1
         }
     ],
@@ -65,13 +63,6 @@
             "examples": [
                 "f"
             ]
-        },
-        {
-            "normalized": "poopingg",
-            "count": 2,
-            "examples": [
-                "poopingg"
-            ]
         }
     ],
     "classified_games": {
@@ -79,20 +70,25 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             }
         ],
-        "Trade": [
+        "Leveling": [
             {
-                "name": "n poisnbonegc",
-                "matched": "n",
+                "name": "helpme normal 4",
+                "matched": "norm",
+                "count": 1
+            },
+            {
+                "name": "helpme normal 3",
+                "matched": "norm",
                 "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 6,
-        "average_name_length": 5.6
+        "public_games": 5,
+        "average_name_length": 7.4
     }
 }
