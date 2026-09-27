@@ -1,19 +1,23 @@
 {
-    "timestamp": "2026-09-27T20:23:00+00:00",
+    "timestamp": "2026-09-27T20:34:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 1,
+        "2": 5,
+        "1": 2,
         "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 8
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "1|0": 1,
+        "2|0": 5,
+        "1|0": 2,
         "0|0": 1
     },
     "activities": [
+        {
+            "name": "Baal",
+            "count": 3
+        },
         {
             "name": "Misc. Public MF Runs",
             "count": 2
@@ -23,15 +27,19 @@
             "count": 1
         },
         {
-            "name": "Baal",
+            "name": "Other",
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "n baal essence",
+            "count": 3
+        },
         {
             "name": "asd",
             "count": 2
@@ -41,24 +49,31 @@
             "count": 1
         },
         {
-            "name": "n baal essence",
+            "name": "todpre",
             "count": 1
         },
         {
-            "name": "sasa",
+            "name": "acte 1",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "sasa",
+            "normalized": "todpre",
             "count": 2,
             "examples": [
-                "sasa"
+                "todpre"
             ]
         }
     ],
     "classified_games": {
+        "Baal": [
+            {
+                "name": "n baal essence",
+                "matched": "baal",
+                "count": 3
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
@@ -73,17 +88,17 @@
                 "count": 1
             }
         ],
-        "Baal": [
+        "Leveling": [
             {
-                "name": "n baal essence",
-                "matched": "baal",
+                "name": "acte 1",
+                "matched": "act",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 5,
+        "unique_names": 5,
+        "public_games": 8,
         "average_name_length": 8.0
     }
 }
