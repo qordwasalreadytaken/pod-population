@@ -1,39 +1,49 @@
 {
-    "timestamp": "2026-09-27T14:46:00+00:00",
+    "timestamp": "2026-09-27T15:04:00+00:00",
     "difficulty": {
         "2": 7,
         "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 9
+        "1": 1,
+        "0": 8
     },
     "difficulty_mode": {
-        "2|0": 7,
+        "2|1": 1,
+        "2|0": 6,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 4
         },
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 3
         },
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "asdaas",
-            "count": 2
+            "name": "killbills",
+            "count": 1
         },
         {
-            "name": "t",
+            "name": "o sur lo n zod",
+            "count": 1
+        },
+        {
+            "name": "asdaas",
+            "count": 1
+        },
+        {
+            "name": "lvv",
             "count": 1
         },
         {
@@ -41,19 +51,15 @@
             "count": 1
         },
         {
-            "name": "n ebotd",
+            "name": "n razortail",
             "count": 1
         },
         {
-            "name": "asdasd",
+            "name": "t",
             "count": 1
         },
         {
-            "name": "abs",
-            "count": 1
-        },
-        {
-            "name": "unrealpooping",
+            "name": "guyguy",
             "count": 1
         },
         {
@@ -63,6 +69,20 @@
     ],
     "unknown_games": [
         {
+            "normalized": "killbills",
+            "count": 2,
+            "examples": [
+                "killbills"
+            ]
+        },
+        {
+            "normalized": "lvv",
+            "count": 2,
+            "examples": [
+                "lvv"
+            ]
+        },
+        {
             "normalized": "t",
             "count": 2,
             "examples": [
@@ -70,29 +90,34 @@
             ]
         },
         {
-            "normalized": "abs",
+            "normalized": "guyguy",
             "count": 2,
             "examples": [
-                "abs"
-            ]
-        },
-        {
-            "normalized": "unrealpooping",
-            "count": 2,
-            "examples": [
-                "unrealpooping"
+                "guyguy"
             ]
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "o sur lo n zod",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n silkweave",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n razortail",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asdaas",
-                "matched": "asd",
-                "count": 2
-            },
-            {
-                "name": "asdasd",
                 "matched": "asd",
                 "count": 1
             },
@@ -101,23 +126,11 @@
                 "matched": "gord",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "n silkweave",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "n ebotd",
-                "matched": "n",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 8,
+        "unique_names": 9,
         "public_games": 9,
-        "average_name_length": 6.38
+        "average_name_length": 7.22
     }
 }
