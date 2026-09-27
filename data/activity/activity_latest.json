@@ -1,40 +1,40 @@
 {
-    "timestamp": "2026-09-27T04:52:00+00:00",
+    "timestamp": "2026-09-27T05:05:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 3
     },
     "mode": {
         "1": 1,
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 1
+        "2|0": 2
     },
     "activities": [
         {
-            "name": "Chaos",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
-            "name": "Other",
+            "name": "Chaos",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "hellchaos",
-            "count": 1
+            "name": "t",
+            "count": 2
         },
         {
-            "name": "t",
+            "name": "hellchaos",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "t",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "t"
             ]
@@ -51,7 +51,7 @@
     },
     "interesting": {
         "unique_names": 2,
-        "public_games": 2,
+        "public_games": 3,
         "average_name_length": 5.0
     }
 }
