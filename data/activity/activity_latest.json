@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-09-27T17:04:00+00:00",
+    "timestamp": "2026-09-27T17:20:00+00:00",
     "difficulty": {
         "1": 2,
-        "0": 4,
+        "0": 3,
         "2": 5
     },
     "mode": {
         "1": 2,
-        "0": 9
+        "0": 8
     },
     "difficulty_mode": {
         "1|1": 1,
         "0|1": 1,
         "2|0": 5,
         "1|0": 1,
-        "0|0": 3
+        "0|0": 2
     },
     "activities": [
         {
@@ -27,7 +27,7 @@
         },
         {
             "name": "Baal",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
@@ -37,6 +37,10 @@
         },
         {
             "name": "lvls",
+            "count": 1
+        },
+        {
+            "name": "23525",
             "count": 1
         },
         {
@@ -56,27 +60,27 @@
             "count": 1
         },
         {
-            "name": "poop",
-            "count": 1
-        },
-        {
             "name": "n magic facet 1",
-            "count": 1
-        },
-        {
-            "name": "baal normal",
-            "count": 1
-        },
-        {
-            "name": "13",
             "count": 1
         },
         {
             "name": "wikid klownz",
             "count": 1
+        },
+        {
+            "name": "13",
+            "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "#",
+            "count": 4,
+            "examples": [
+                "13",
+                "23525"
+            ]
+        },
         {
             "normalized": "lvls",
             "count": 2,
@@ -96,20 +100,6 @@
             "count": 2,
             "examples": [
                 "lvv"
-            ]
-        },
-        {
-            "normalized": "poop",
-            "count": 2,
-            "examples": [
-                "poop"
-            ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "13"
             ]
         },
         {
@@ -143,17 +133,12 @@
                 "name": "n baal essence",
                 "matched": "baal",
                 "count": 1
-            },
-            {
-                "name": "baal normal",
-                "matched": "baal",
-                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 11,
-        "public_games": 11,
-        "average_name_length": 8.0
+        "unique_names": 10,
+        "public_games": 10,
+        "average_name_length": 7.8
     }
 }
