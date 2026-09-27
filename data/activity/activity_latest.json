@@ -1,18 +1,18 @@
 {
-    "timestamp": "2026-09-27T05:35:00+00:00",
+    "timestamp": "2026-09-27T05:47:00+00:00",
     "difficulty": {
         "2": 4,
-        "1": 2,
+        "1": 1,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 6
+        "0": 5
     },
     "difficulty_mode": {
         "2|1": 1,
         "2|0": 3,
-        "1|0": 2,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
@@ -21,21 +21,21 @@
             "count": 4
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Chaos",
+            "count": 1
         },
         {
-            "name": "Chaos",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 2
+            "name": "hellchaos",
+            "count": 1
         },
         {
-            "name": "hellchaos",
+            "name": "t",
             "count": 1
         },
         {
@@ -47,7 +47,7 @@
             "count": 1
         },
         {
-            "name": "t",
+            "name": "asd",
             "count": 1
         },
         {
@@ -56,6 +56,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "t",
+            "count": 2,
+            "examples": [
+                "t"
+            ]
+        },
         {
             "normalized": "no gear no fun",
             "count": 2,
@@ -68,13 +75,6 @@
             "count": 2,
             "examples": [
                 "1226"
-            ]
-        },
-        {
-            "normalized": "t",
-            "count": 2,
-            "examples": [
-                "t"
             ]
         },
         {
@@ -97,13 +97,13 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 6,
-        "public_games": 7,
+        "public_games": 6,
         "average_name_length": 6.5
     }
 }
