@@ -1,31 +1,23 @@
 {
-    "timestamp": "2026-09-27T05:47:00+00:00",
+    "timestamp": "2026-09-27T06:08:00+00:00",
     "difficulty": {
-        "2": 4,
-        "1": 1,
-        "0": 1
+        "2": 4
     },
     "mode": {
         "1": 1,
-        "0": 5
+        "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 3,
-        "1|0": 1,
-        "0|0": 1
+        "2|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 3
         },
         {
             "name": "Chaos",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -43,15 +35,7 @@
             "count": 1
         },
         {
-            "name": "1226",
-            "count": 1
-        },
-        {
-            "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "hkjkhjkj",
+            "name": "1227",
             "count": 1
         }
     ],
@@ -74,14 +58,7 @@
             "normalized": "#",
             "count": 2,
             "examples": [
-                "1226"
-            ]
-        },
-        {
-            "normalized": "hkjkhjkj",
-            "count": 2,
-            "examples": [
-                "hkjkhjkj"
+                "1227"
             ]
         }
     ],
@@ -92,18 +69,11 @@
                 "matched": "chaos",
                 "count": 1
             }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 6.5
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 7.0
     }
 }
