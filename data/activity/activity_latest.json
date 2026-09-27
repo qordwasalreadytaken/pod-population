@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-27T09:05:00+00:00",
+    "timestamp": "2026-09-27T09:25:00+00:00",
     "difficulty": {
         "0": 2,
         "2": 3
@@ -28,11 +28,11 @@
             "count": 2
         },
         {
-            "name": "m",
+            "name": "qe",
             "count": 1
         },
         {
-            "name": "qe",
+            "name": "m",
             "count": 1
         },
         {
@@ -42,17 +42,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "m",
-            "count": 2,
-            "examples": [
-                "m"
-            ]
-        },
-        {
             "normalized": "qe",
             "count": 2,
             "examples": [
                 "qe"
+            ]
+        },
+        {
+            "normalized": "m",
+            "count": 2,
+            "examples": [
+                "m"
             ]
         },
         {
