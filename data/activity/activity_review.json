@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2520,
+        "count": 2522,
         "examples": [
             "1",
             "10",
@@ -24,7 +24,7 @@
     },
     {
         "normalized": "t",
-        "count": 592,
+        "count": 594,
         "examples": [
             "t"
         ]
@@ -816,6 +816,13 @@
         ]
     },
     {
+        "normalized": "no gear no fun",
+        "count": 18,
+        "examples": [
+            "no gear no fun"
+        ]
+    },
+    {
         "normalized": "mana",
         "count": 16,
         "examples": [
@@ -927,13 +934,6 @@
         "count": 16,
         "examples": [
             "re"
-        ]
-    },
-    {
-        "normalized": "no gear no fun",
-        "count": 16,
-        "examples": [
-            "no gear no fun"
         ]
     },
     {
@@ -3948,6 +3948,13 @@
         "count": 4,
         "examples": [
             "nooob"
+        ]
+    },
+    {
+        "normalized": "hkjkhjkj",
+        "count": 4,
+        "examples": [
+            "hkjkhjkj"
         ]
     },
     {
@@ -7504,13 +7511,6 @@
         "count": 2,
         "examples": [
             "help me"
-        ]
-    },
-    {
-        "normalized": "hkjkhjkj",
-        "count": 2,
-        "examples": [
-            "hkjkhjkj"
         ]
     }
 ]
