@@ -1,41 +1,49 @@
 {
-    "timestamp": "2026-09-28T15:05:00+00:00",
+    "timestamp": "2026-09-28T15:27:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 2,
-        "1": 2
+        "0": 4,
+        "2": 4,
+        "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 6
+        "0": 8
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 2,
-        "1|0": 2,
-        "0|0": 2
+        "2|0": 4,
+        "1|0": 1,
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
-        },
-        {
-            "name": "Leveling",
-            "count": 1
+            "count": 6
         },
         {
             "name": "Misc. Public MF Runs",
+            "count": 2
+        },
+        {
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "gord",
+            "count": 2
+        },
+        {
             "name": "a start",
             "count": 1
         },
         {
-            "name": "1246",
+            "name": "keys 4",
+            "count": 1
+        },
+        {
+            "name": "keys 3",
             "count": 1
         },
         {
@@ -43,15 +51,11 @@
             "count": 1
         },
         {
+            "name": "1248",
+            "count": 1
+        },
+        {
             "name": "zxc",
-            "count": 1
-        },
-        {
-            "name": "goceto",
-            "count": 1
-        },
-        {
-            "name": "gord",
             "count": 1
         },
         {
@@ -61,11 +65,19 @@
     ],
     "unknown_games": [
         {
+            "normalized": "keys #",
+            "count": 4,
+            "examples": [
+                "keys 3",
+                "keys 4"
+            ]
+        },
+        {
             "normalized": "#",
             "count": 4,
             "examples": [
                 "12",
-                "1246"
+                "1248"
             ]
         },
         {
@@ -81,13 +93,6 @@
             "examples": [
                 "zxc"
             ]
-        },
-        {
-            "normalized": "goceto",
-            "count": 2,
-            "examples": [
-                "goceto"
-            ]
         }
     ],
     "classified_games": {
@@ -102,13 +107,13 @@
             {
                 "name": "gord",
                 "matched": "gord",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 4.14
+        "unique_names": 8,
+        "public_games": 9,
+        "average_name_length": 4.38
     }
 }
