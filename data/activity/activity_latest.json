@@ -1,17 +1,15 @@
 {
-    "timestamp": "2026-09-28T11:04:00+00:00",
+    "timestamp": "2026-09-28T11:24:00+00:00",
     "difficulty": {
         "2": 3,
-        "1": 1,
-        "0": 1
+        "1": 1
     },
     "mode": {
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
         "2|0": 3,
-        "1|0": 1,
-        "0|0": 1
+        "1|0": 1
     },
     "activities": [
         {
@@ -21,10 +19,6 @@
         {
             "name": "Other",
             "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
         }
     ],
     "top_games": [
@@ -41,27 +35,17 @@
             "count": 1
         },
         {
-            "name": "horeto",
-            "count": 1
-        },
-        {
-            "name": "asda",
+            "name": "22",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "#",
-            "count": 2,
+            "count": 4,
             "examples": [
-                "1242"
-            ]
-        },
-        {
-            "normalized": "horeto",
-            "count": 2,
-            "examples": [
-                "horeto"
+                "1242",
+                "22"
             ]
         }
     ],
@@ -77,18 +61,11 @@
                 "matched": "n",
                 "count": 1
             }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asda",
-                "matched": "asd",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
+        "unique_names": 4,
+        "public_games": 4,
         "average_name_length": 8.0
     }
 }
