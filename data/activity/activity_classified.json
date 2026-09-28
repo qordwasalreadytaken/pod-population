@@ -491,7 +491,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "buy",
+            "matched": "torch",
             "count": 12
         },
         {
@@ -671,7 +671,7 @@
         },
         {
             "name": "n ntorch o bto",
-            "matched": "n",
+            "matched": "torch",
             "count": 6
         },
         {
@@ -1291,7 +1291,7 @@
         },
         {
             "name": "n nec torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 2
         },
         {
@@ -1411,7 +1411,7 @@
         },
         {
             "name": "n nec torch :)",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
@@ -1601,7 +1601,7 @@
         },
         {
             "name": "n oocs wuw",
-            "matched": "wuw",
+            "matched": "n",
             "count": 1
         },
         {
@@ -2073,6 +2073,11 @@
             "name": "n travi wp nm",
             "matched": "n",
             "count": 1
+        },
+        {
+            "name": "n poisonb gc",
+            "matched": "n",
+            "count": 1
         }
     ],
     "Leveling": [
@@ -2118,7 +2123,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "act",
+            "matched": "andar",
             "count": 12
         },
         {
@@ -2213,7 +2218,7 @@
         },
         {
             "name": "act 2 - normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 6
         },
         {
@@ -2258,7 +2263,7 @@
         },
         {
             "name": "acte andy",
-            "matched": "andy",
+            "matched": "act",
             "count": 5
         },
         {
@@ -2363,7 +2368,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "leveli",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -2403,7 +2408,7 @@
         },
         {
             "name": "normal act",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -2523,7 +2528,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "tomb",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -2673,7 +2678,7 @@
         },
         {
             "name": "1act - normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -3041,6 +3046,11 @@
             "count": 6
         },
         {
+            "name": "n cham rune",
+            "matched": "run",
+            "count": 6
+        },
+        {
             "name": "12352135",
             "matched": "123",
             "count": 5
@@ -3068,11 +3078,6 @@
         {
             "name": "dasds",
             "matched": "asd",
-            "count": 5
-        },
-        {
-            "name": "n cham rune",
-            "matched": "run",
             "count": 5
         },
         {
@@ -3422,7 +3427,7 @@
         },
         {
             "name": "asdsd36aaaa",
-            "matched": "aaa",
+            "matched": "asd",
             "count": 2
         },
         {
@@ -5143,17 +5148,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
