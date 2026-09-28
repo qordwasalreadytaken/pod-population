@@ -1,34 +1,29 @@
 {
-    "timestamp": "2026-09-28T13:51:00+00:00",
+    "timestamp": "2026-09-28T14:05:00+00:00",
     "difficulty": {
-        "0": 1,
-        "2": 3
+        "2": 3,
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 3
+        "2|0": 3,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Leveling",
-            "count": 1
-        },
-        {
-            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "a start",
+            "name": "lvv",
             "count": 1
         },
         {
@@ -36,15 +31,22 @@
             "count": 1
         },
         {
-            "name": "n silkweave",
+            "name": "1245",
             "count": 1
         },
         {
-            "name": "1245",
+            "name": "acte 1",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "lvv",
+            "count": 2,
+            "examples": [
+                "lvv"
+            ]
+        },
         {
             "normalized": "keke #",
             "count": 2,
@@ -63,15 +65,8 @@
     "classified_games": {
         "Leveling": [
             {
-                "name": "a start",
-                "matched": "start",
-                "count": 1
-            }
-        ],
-        "Trade": [
-            {
-                "name": "n silkweave",
-                "matched": "n",
+                "name": "acte 1",
+                "matched": "act",
                 "count": 1
             }
         ]
@@ -79,6 +74,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 7.0
+        "average_name_length": 4.75
     }
 }
