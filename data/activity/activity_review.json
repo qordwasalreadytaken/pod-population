@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2734,
+        "count": 2738,
         "examples": [
             "1",
             "10",
@@ -17,7 +17,7 @@
     },
     {
         "normalized": "lvv",
-        "count": 1282,
+        "count": 1284,
         "examples": [
             "lvv"
         ]
@@ -979,6 +979,20 @@
         ]
     },
     {
+        "normalized": "keys #",
+        "count": 16,
+        "examples": [
+            "keys 10",
+            "keys 11",
+            "keys 3",
+            "keys 4",
+            "keys 6",
+            "keys 7",
+            "keys 8",
+            "keys 9"
+        ]
+    },
+    {
         "normalized": "#r#r",
         "count": 14,
         "examples": [
@@ -1341,18 +1355,6 @@
         "count": 12,
         "examples": [
             "sur vs nec torc"
-        ]
-    },
-    {
-        "normalized": "keys #",
-        "count": 12,
-        "examples": [
-            "keys 3",
-            "keys 4",
-            "keys 6",
-            "keys 7",
-            "keys 8",
-            "keys 9"
         ]
     },
     {
