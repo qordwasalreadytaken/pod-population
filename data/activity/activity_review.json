@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2752,
+        "count": 2758,
         "examples": [
             "1",
             "10",
@@ -440,6 +440,22 @@
         ]
     },
     {
+        "normalized": "keys #",
+        "count": 32,
+        "examples": [
+            "keys 10",
+            "keys 11",
+            "keys 14",
+            "keys 15",
+            "keys 16",
+            "keys 17",
+            "keys 18",
+            "keys 24",
+            "keys 25",
+            "keys 26"
+        ]
+    },
+    {
         "normalized": "yep",
         "count": 30,
         "examples": [
@@ -500,22 +516,6 @@
         "count": 26,
         "examples": [
             "solo"
-        ]
-    },
-    {
-        "normalized": "keys #",
-        "count": 26,
-        "examples": [
-            "keys 10",
-            "keys 11",
-            "keys 14",
-            "keys 15",
-            "keys 16",
-            "keys 17",
-            "keys 18",
-            "keys 3",
-            "keys 4",
-            "keys 6"
         ]
     },
     {
