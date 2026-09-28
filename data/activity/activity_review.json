@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2830,
+        "count": 2832,
         "examples": [
             "1",
             "10",
@@ -112,7 +112,7 @@
     },
     {
         "normalized": "a",
-        "count": 144,
+        "count": 146,
         "examples": [
             "a"
         ]
@@ -1360,6 +1360,13 @@
         ]
     },
     {
+        "normalized": "hgfjhg",
+        "count": 12,
+        "examples": [
+            "hgfjhg"
+        ]
+    },
+    {
         "normalized": "a#h",
         "count": 10,
         "examples": [
@@ -1664,13 +1671,6 @@
         "count": 10,
         "examples": [
             "hit"
-        ]
-    },
-    {
-        "normalized": "hgfjhg",
-        "count": 10,
-        "examples": [
-            "hgfjhg"
         ]
     },
     {
@@ -2849,6 +2849,13 @@
         "count": 6,
         "examples": [
             "horeto"
+        ]
+    },
+    {
+        "normalized": "b warshrike",
+        "count": 6,
+        "examples": [
+            "b warshrike"
         ]
     },
     {
@@ -4113,13 +4120,6 @@
         "count": 4,
         "examples": [
             "yeeti"
-        ]
-    },
-    {
-        "normalized": "b warshrike",
-        "count": 4,
-        "examples": [
-            "b warshrike"
         ]
     },
     {

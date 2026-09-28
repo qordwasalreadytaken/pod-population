@@ -1,27 +1,25 @@
 {
-    "timestamp": "2026-09-28T23:04:00+00:00",
+    "timestamp": "2026-09-28T23:23:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 2,
+        "1": 1,
         "0": 2
     },
     "mode": {
         "0": 5
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 2,
+        "1|0": 1,
         "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -35,7 +33,7 @@
             "count": 1
         },
         {
-            "name": "12312",
+            "name": "b warshrike",
             "count": 1
         },
         {
@@ -53,6 +51,13 @@
             "count": 2,
             "examples": [
                 "670"
+            ]
+        },
+        {
+            "normalized": "b warshrike",
+            "count": 2,
+            "examples": [
+                "b warshrike"
             ]
         },
         {
@@ -77,18 +82,11 @@
                 "matched": "n",
                 "count": 1
             }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "12312",
-                "matched": "123",
-                "count": 1
-            }
         ]
     },
     "interesting": {
         "unique_names": 5,
         "public_games": 5,
-        "average_name_length": 5.2
+        "average_name_length": 6.4
     }
 }
