@@ -1,28 +1,20 @@
 {
-    "timestamp": "2026-09-28T15:41:00+00:00",
+    "timestamp": "2026-09-28T15:50:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 4,
-        "1": 1
+        "2": 6,
+        "0": 2
     },
     "mode": {
-        "1": 1,
-        "0": 7
+        "0": 8
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 4,
-        "1|0": 1,
+        "2|0": 6,
         "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
-        },
-        {
-            "name": "Leveling",
-            "count": 1
+            "count": 6
         },
         {
             "name": "Trade",
@@ -35,7 +27,11 @@
     ],
     "top_games": [
         {
-            "name": "a start",
+            "name": "keys 9",
+            "count": 1
+        },
+        {
+            "name": "keys 8",
             "count": 1
         },
         {
@@ -43,19 +39,15 @@
             "count": 1
         },
         {
+            "name": "keys 7",
+            "count": 1
+        },
+        {
             "name": "n silkweave",
             "count": 1
         },
         {
-            "name": "keys 6",
-            "count": 1
-        },
-        {
             "name": "1248",
-            "count": 1
-        },
-        {
-            "name": "zxc",
             "count": 1
         },
         {
@@ -68,6 +60,15 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "keys #",
+            "count": 6,
+            "examples": [
+                "keys 7",
+                "keys 8",
+                "keys 9"
+            ]
+        },
         {
             "normalized": "#",
             "count": 4,
@@ -82,30 +83,9 @@
             "examples": [
                 "lvv"
             ]
-        },
-        {
-            "normalized": "keys #",
-            "count": 2,
-            "examples": [
-                "keys 6"
-            ]
-        },
-        {
-            "normalized": "zxc",
-            "count": 2,
-            "examples": [
-                "zxc"
-            ]
         }
     ],
     "classified_games": {
-        "Leveling": [
-            {
-                "name": "a start",
-                "matched": "start",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "n silkweave",
@@ -124,6 +104,6 @@
     "interesting": {
         "unique_names": 8,
         "public_games": 8,
-        "average_name_length": 5.0
+        "average_name_length": 5.25
     }
 }
