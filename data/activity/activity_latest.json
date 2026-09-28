@@ -1,33 +1,23 @@
 {
-    "timestamp": "2026-09-28T14:29:00+00:00",
+    "timestamp": "2026-09-28T14:47:00+00:00",
     "difficulty": {
-        "2": 4,
-        "1": 1,
-        "0": 1
+        "2": 3,
+        "0": 2
     },
     "mode": {
-        "0": 6
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 4,
-        "1|0": 1,
-        "0|0": 1
+        "2|0": 3,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
             "count": 5
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "asdf",
-            "count": 1
-        },
         {
             "name": "lvv",
             "count": 1
@@ -41,11 +31,11 @@
             "count": 1
         },
         {
-            "name": "zxc",
+            "name": "b warshrike",
             "count": 1
         },
         {
-            "name": "b warshrike",
+            "name": "rg",
             "count": 1
         }
     ],
@@ -72,32 +62,24 @@
             ]
         },
         {
-            "normalized": "zxc",
-            "count": 2,
-            "examples": [
-                "zxc"
-            ]
-        },
-        {
             "normalized": "b warshrike",
             "count": 2,
             "examples": [
                 "b warshrike"
             ]
+        },
+        {
+            "normalized": "rg",
+            "count": 2,
+            "examples": [
+                "rg"
+            ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asdf",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 5.17
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 5.2
     }
 }

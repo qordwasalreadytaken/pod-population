@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2716,
+        "count": 2718,
         "examples": [
             "1",
             "10",
@@ -17,7 +17,7 @@
     },
     {
         "normalized": "lvv",
-        "count": 1272,
+        "count": 1274,
         "examples": [
             "lvv"
         ]
@@ -1167,6 +1167,15 @@
         ]
     },
     {
+        "normalized": "keke #",
+        "count": 14,
+        "examples": [
+            "keke 2",
+            "keke 3",
+            "keke 4"
+        ]
+    },
+    {
         "normalized": "qqq",
         "count": 12,
         "examples": [
@@ -1332,15 +1341,6 @@
         "count": 12,
         "examples": [
             "sur vs nec torc"
-        ]
-    },
-    {
-        "normalized": "keke #",
-        "count": 12,
-        "examples": [
-            "keke 2",
-            "keke 3",
-            "keke 4"
         ]
     },
     {
@@ -4090,6 +4090,13 @@
         "count": 4,
         "examples": [
             "yeeti"
+        ]
+    },
+    {
+        "normalized": "b warshrike",
+        "count": 4,
+        "examples": [
+            "b warshrike"
         ]
     },
     {
@@ -7691,10 +7698,10 @@
         ]
     },
     {
-        "normalized": "b warshrike",
+        "normalized": "rg",
         "count": 2,
         "examples": [
-            "b warshrike"
+            "rg"
         ]
     }
 ]
