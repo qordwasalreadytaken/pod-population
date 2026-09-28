@@ -1,51 +1,55 @@
 {
-    "timestamp": "2026-09-28T17:35:00+00:00",
+    "timestamp": "2026-09-28T17:47:00+00:00",
     "difficulty": {
-        "2": 7,
+        "2": 11,
         "1": 1,
         "0": 2
     },
     "mode": {
-        "0": 10
+        "0": 14
     },
     "difficulty_mode": {
-        "2|0": 7,
+        "2|0": 11,
         "1|0": 1,
         "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 8
+            "count": 9
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 5
         }
     ],
     "top_games": [
         {
-            "name": "keys 31",
-            "count": 1
-        },
-        {
-            "name": "keys 30",
-            "count": 1
-        },
-        {
-            "name": "keys 29",
-            "count": 1
-        },
-        {
-            "name": "keys 28",
-            "count": 1
-        },
-        {
-            "name": "keys 27",
-            "count": 1
-        },
-        {
             "name": "asdasd",
+            "count": 4
+        },
+        {
+            "name": "keys 43",
+            "count": 1
+        },
+        {
+            "name": "keys 42",
+            "count": 1
+        },
+        {
+            "name": "keys 41",
+            "count": 1
+        },
+        {
+            "name": "keys 40",
+            "count": 1
+        },
+        {
+            "name": "keys 39",
+            "count": 1
+        },
+        {
+            "name": "keys 37",
             "count": 1
         },
         {
@@ -68,13 +72,14 @@
     "unknown_games": [
         {
             "normalized": "keys #",
-            "count": 10,
+            "count": 12,
             "examples": [
-                "keys 27",
-                "keys 28",
-                "keys 29",
-                "keys 30",
-                "keys 31"
+                "keys 37",
+                "keys 39",
+                "keys 40",
+                "keys 41",
+                "keys 42",
+                "keys 43"
             ]
         },
         {
@@ -92,7 +97,7 @@
             {
                 "name": "asdasd",
                 "matched": "asd",
-                "count": 1
+                "count": 4
             },
             {
                 "name": "gord",
@@ -102,8 +107,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 10,
-        "public_games": 10,
-        "average_name_length": 5.5
+        "unique_names": 11,
+        "public_games": 14,
+        "average_name_length": 5.64
     }
 }

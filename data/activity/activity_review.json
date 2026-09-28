@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2764,
+        "count": 2770,
         "examples": [
             "1",
             "10",
@@ -244,6 +244,22 @@
         ]
     },
     {
+        "normalized": "keys #",
+        "count": 54,
+        "examples": [
+            "keys 10",
+            "keys 11",
+            "keys 14",
+            "keys 15",
+            "keys 16",
+            "keys 17",
+            "keys 18",
+            "keys 24",
+            "keys 25",
+            "keys 26"
+        ]
+    },
+    {
         "normalized": "onek",
         "count": 50,
         "examples": [
@@ -308,22 +324,6 @@
         "count": 42,
         "examples": [
             "sfsdf"
-        ]
-    },
-    {
-        "normalized": "keys #",
-        "count": 42,
-        "examples": [
-            "keys 10",
-            "keys 11",
-            "keys 14",
-            "keys 15",
-            "keys 16",
-            "keys 17",
-            "keys 18",
-            "keys 24",
-            "keys 25",
-            "keys 26"
         ]
     },
     {
