@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2804,
+        "count": 2808,
         "examples": [
             "1",
             "10",
@@ -31,7 +31,7 @@
     },
     {
         "normalized": "wikid klownz",
-        "count": 436,
+        "count": 438,
         "examples": [
             "wikid klownz"
         ]
@@ -160,6 +160,22 @@
         ]
     },
     {
+        "normalized": "keys #",
+        "count": 92,
+        "examples": [
+            "keys 10",
+            "keys 11",
+            "keys 14",
+            "keys 15",
+            "keys 16",
+            "keys 17",
+            "keys 18",
+            "keys 24",
+            "keys 25",
+            "keys 26"
+        ]
+    },
+    {
         "normalized": "sad",
         "count": 88,
         "examples": [
@@ -183,22 +199,6 @@
         "count": 84,
         "examples": [
             "eq"
-        ]
-    },
-    {
-        "normalized": "keys #",
-        "count": 84,
-        "examples": [
-            "keys 10",
-            "keys 11",
-            "keys 14",
-            "keys 15",
-            "keys 16",
-            "keys 17",
-            "keys 18",
-            "keys 24",
-            "keys 25",
-            "keys 26"
         ]
     },
     {
