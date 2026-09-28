@@ -1,73 +1,46 @@
 {
-    "timestamp": "2026-09-28T04:36:00+00:00",
+    "timestamp": "2026-09-28T04:55:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 4,
+        "2": 2,
         "1": 1
     },
     "mode": {
-        "1": 1,
-        "0": 6
+        "0": 3
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 4,
-        "1|0": 1,
-        "0|0": 1
+        "2|0": 2,
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "1236",
+            "count": 1
+        },
+        {
             "name": "t",
-            "count": 2
-        },
-        {
-            "name": "113",
-            "count": 1
-        },
-        {
-            "name": "1231",
-            "count": 1
-        },
-        {
-            "name": "n frw bk",
             "count": 1
         },
         {
             "name": "schutagain",
-            "count": 1
-        },
-        {
-            "name": "1233",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "t",
-            "count": 4,
-            "examples": [
-                "t"
-            ]
-        },
-        {
-            "normalized": "#",
             "count": 2,
             "examples": [
-                "113"
+                "t"
             ]
         },
         {
@@ -81,27 +54,15 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "1231",
+                "name": "1236",
                 "matched": "123",
-                "count": 1
-            },
-            {
-                "name": "1233",
-                "matched": "123",
-                "count": 1
-            }
-        ],
-        "Trade": [
-            {
-                "name": "n frw bk",
-                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 7,
+        "unique_names": 3,
+        "public_games": 3,
         "average_name_length": 5.0
     }
 }
