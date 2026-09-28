@@ -1,43 +1,47 @@
 {
-    "timestamp": "2026-09-28T17:24:00+00:00",
+    "timestamp": "2026-09-28T17:35:00+00:00",
     "difficulty": {
-        "2": 5,
+        "2": 7,
         "1": 1,
-        "0": 3
+        "0": 2
     },
     "mode": {
-        "0": 9
+        "0": 10
     },
     "difficulty_mode": {
-        "2|0": 5,
+        "2|0": 7,
         "1|0": 1,
-        "0|0": 3
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 6
+            "count": 8
         },
         {
             "name": "Misc. Public MF Runs",
             "count": 2
-        },
-        {
-            "name": "Leveling",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "keys 26",
+            "name": "keys 31",
             "count": 1
         },
         {
-            "name": "keys 25",
+            "name": "keys 30",
             "count": 1
         },
         {
-            "name": "keys 24",
+            "name": "keys 29",
+            "count": 1
+        },
+        {
+            "name": "keys 28",
+            "count": 1
+        },
+        {
+            "name": "keys 27",
             "count": 1
         },
         {
@@ -57,10 +61,6 @@
             "count": 1
         },
         {
-            "name": "acte 1",
-            "count": 1
-        },
-        {
             "name": "12",
             "count": 1
         }
@@ -68,11 +68,13 @@
     "unknown_games": [
         {
             "normalized": "keys #",
-            "count": 6,
+            "count": 10,
             "examples": [
-                "keys 24",
-                "keys 25",
-                "keys 26"
+                "keys 27",
+                "keys 28",
+                "keys 29",
+                "keys 30",
+                "keys 31"
             ]
         },
         {
@@ -97,18 +99,11 @@
                 "matched": "gord",
                 "count": 1
             }
-        ],
-        "Leveling": [
-            {
-                "name": "acte 1",
-                "matched": "act",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 9,
-        "public_games": 9,
-        "average_name_length": 5.22
+        "unique_names": 10,
+        "public_games": 10,
+        "average_name_length": 5.5
     }
 }
