@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2704,
+        "count": 2706,
         "examples": [
             "1",
             "10",
@@ -570,6 +570,13 @@
         ]
     },
     {
+        "normalized": "zxc",
+        "count": 22,
+        "examples": [
+            "zxc"
+        ]
+    },
+    {
         "normalized": "gs",
         "count": 22,
         "examples": [
@@ -616,13 +623,6 @@
         "count": 22,
         "examples": [
             "sz"
-        ]
-    },
-    {
-        "normalized": "zxc",
-        "count": 20,
-        "examples": [
-            "zxc"
         ]
     },
     {
@@ -2820,6 +2820,14 @@
         ]
     },
     {
+        "normalized": "keke #",
+        "count": 6,
+        "examples": [
+            "keke 2",
+            "keke 3"
+        ]
+    },
+    {
         "normalized": "nm #",
         "count": 4,
         "examples": [
@@ -4081,14 +4089,6 @@
         "count": 4,
         "examples": [
             "yeeti"
-        ]
-    },
-    {
-        "normalized": "keke #",
-        "count": 4,
-        "examples": [
-            "keke 2",
-            "keke 3"
         ]
     },
     {
