@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2796,
+        "count": 2800,
         "examples": [
             "1",
             "10",
@@ -31,7 +31,7 @@
     },
     {
         "normalized": "wikid klownz",
-        "count": 432,
+        "count": 434,
         "examples": [
             "wikid klownz"
         ]
@@ -186,15 +186,8 @@
         ]
     },
     {
-        "normalized": "f",
-        "count": 78,
-        "examples": [
-            "f"
-        ]
-    },
-    {
         "normalized": "keys #",
-        "count": 78,
+        "count": 80,
         "examples": [
             "keys 10",
             "keys 11",
@@ -206,6 +199,13 @@
             "keys 24",
             "keys 25",
             "keys 26"
+        ]
+    },
+    {
+        "normalized": "f",
+        "count": 78,
+        "examples": [
+            "f"
         ]
     },
     {
