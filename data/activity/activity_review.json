@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2726,
+        "count": 2730,
         "examples": [
             "1",
             "10",
@@ -17,7 +17,7 @@
     },
     {
         "normalized": "lvv",
-        "count": 1278,
+        "count": 1280,
         "examples": [
             "lvv"
         ]
@@ -433,6 +433,13 @@
         ]
     },
     {
+        "normalized": "zxc",
+        "count": 30,
+        "examples": [
+            "zxc"
+        ]
+    },
+    {
         "normalized": "yep",
         "count": 30,
         "examples": [
@@ -465,13 +472,6 @@
         "count": 28,
         "examples": [
             "qwe"
-        ]
-    },
-    {
-        "normalized": "zxc",
-        "count": 28,
-        "examples": [
-            "zxc"
         ]
     },
     {
@@ -2829,6 +2829,15 @@
         ]
     },
     {
+        "normalized": "keys #",
+        "count": 6,
+        "examples": [
+            "keys 3",
+            "keys 4",
+            "keys 6"
+        ]
+    },
+    {
         "normalized": "nm #",
         "count": 4,
         "examples": [
@@ -4097,14 +4106,6 @@
         "count": 4,
         "examples": [
             "b warshrike"
-        ]
-    },
-    {
-        "normalized": "keys #",
-        "count": 4,
-        "examples": [
-            "keys 3",
-            "keys 4"
         ]
     },
     {
