@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2738,
+        "count": 2742,
         "examples": [
             "1",
             "10",
@@ -405,6 +405,13 @@
         ]
     },
     {
+        "normalized": "zxc",
+        "count": 32,
+        "examples": [
+            "zxc"
+        ]
+    },
+    {
         "normalized": "dobretoo",
         "count": 32,
         "examples": [
@@ -430,13 +437,6 @@
         "count": 32,
         "examples": [
             "dasad"
-        ]
-    },
-    {
-        "normalized": "zxc",
-        "count": 30,
-        "examples": [
-            "zxc"
         ]
     },
     {
@@ -700,6 +700,22 @@
         "count": 20,
         "examples": [
             "eqwq"
+        ]
+    },
+    {
+        "normalized": "keys #",
+        "count": 20,
+        "examples": [
+            "keys 10",
+            "keys 11",
+            "keys 14",
+            "keys 15",
+            "keys 3",
+            "keys 4",
+            "keys 6",
+            "keys 7",
+            "keys 8",
+            "keys 9"
         ]
     },
     {
@@ -976,20 +992,6 @@
         "count": 16,
         "examples": [
             "dadsa"
-        ]
-    },
-    {
-        "normalized": "keys #",
-        "count": 16,
-        "examples": [
-            "keys 10",
-            "keys 11",
-            "keys 3",
-            "keys 4",
-            "keys 6",
-            "keys 7",
-            "keys 8",
-            "keys 9"
         ]
     },
     {

@@ -1,15 +1,17 @@
 {
-    "timestamp": "2026-09-28T16:05:00+00:00",
+    "timestamp": "2026-09-28T16:29:00+00:00",
     "difficulty": {
         "2": 6,
-        "0": 3
+        "1": 1,
+        "0": 2
     },
     "mode": {
         "0": 9
     },
     "difficulty_mode": {
         "2|0": 6,
-        "0|0": 3
+        "1|0": 1,
+        "0|0": 2
     },
     "activities": [
         {
@@ -31,19 +33,19 @@
     ],
     "top_games": [
         {
-            "name": "keys 11",
-            "count": 1
-        },
-        {
             "name": "asdasd",
             "count": 1
         },
         {
-            "name": "keys 10",
+            "name": "keys 15",
             "count": 1
         },
         {
-            "name": "lvv",
+            "name": "keys 14",
+            "count": 1
+        },
+        {
+            "name": "zxc",
             "count": 1
         },
         {
@@ -55,11 +57,11 @@
             "count": 1
         },
         {
-            "name": "acte 1",
+            "name": "gord",
             "count": 1
         },
         {
-            "name": "gord",
+            "name": "acte 1",
             "count": 1
         },
         {
@@ -72,8 +74,8 @@
             "normalized": "keys #",
             "count": 4,
             "examples": [
-                "keys 10",
-                "keys 11"
+                "keys 14",
+                "keys 15"
             ]
         },
         {
@@ -85,10 +87,10 @@
             ]
         },
         {
-            "normalized": "lvv",
+            "normalized": "zxc",
             "count": 2,
             "examples": [
-                "lvv"
+                "zxc"
             ]
         }
     ],
