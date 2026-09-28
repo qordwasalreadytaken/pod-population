@@ -1,26 +1,26 @@
 {
-    "timestamp": "2026-09-28T16:45:00+00:00",
+    "timestamp": "2026-09-28T17:04:00+00:00",
     "difficulty": {
-        "2": 5,
+        "2": 3,
         "1": 1,
-        "0": 2
+        "0": 3
     },
     "mode": {
-        "0": 8
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 5,
+        "2|0": 3,
         "1|0": 1,
-        "0|0": 2
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 6
+            "count": 4
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Leveling",
@@ -29,19 +29,11 @@
     ],
     "top_games": [
         {
-            "name": "keys 18",
-            "count": 1
-        },
-        {
-            "name": "keys 17",
+            "name": "asdasd",
             "count": 1
         },
         {
             "name": "t",
-            "count": 1
-        },
-        {
-            "name": "keys 16",
             "count": 1
         },
         {
@@ -50,6 +42,10 @@
         },
         {
             "name": "gord",
+            "count": 1
+        },
+        {
+            "name": "1222",
             "count": 1
         },
         {
@@ -63,19 +59,11 @@
     ],
     "unknown_games": [
         {
-            "normalized": "keys #",
+            "normalized": "#",
             "count": 6,
             "examples": [
-                "keys 16",
-                "keys 17",
-                "keys 18"
-            ]
-        },
-        {
-            "normalized": "#",
-            "count": 4,
-            "examples": [
                 "12",
+                "1222",
                 "1248"
             ]
         },
@@ -89,6 +77,11 @@
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
+            {
+                "name": "asdasd",
+                "matched": "asd",
+                "count": 1
+            },
             {
                 "name": "gord",
                 "matched": "gord",
@@ -104,8 +97,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 8,
-        "average_name_length": 4.75
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 3.86
     }
 }
