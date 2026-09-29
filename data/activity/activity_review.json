@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2868,
+        "count": 2870,
         "examples": [
             "1",
             "10",
@@ -17,7 +17,7 @@
     },
     {
         "normalized": "lvv",
-        "count": 1286,
+        "count": 1288,
         "examples": [
             "lvv"
         ]
@@ -1374,6 +1374,13 @@
         ]
     },
     {
+        "normalized": "killall",
+        "count": 12,
+        "examples": [
+            "killall"
+        ]
+    },
+    {
         "normalized": "a#h",
         "count": 10,
         "examples": [
@@ -1685,13 +1692,6 @@
         "count": 10,
         "examples": [
             "b warshrike"
-        ]
-    },
-    {
-        "normalized": "killall",
-        "count": 10,
-        "examples": [
-            "killall"
         ]
     },
     {
@@ -4141,6 +4141,13 @@
         "count": 4,
         "examples": [
             "hoptoreyi"
+        ]
+    },
+    {
+        "normalized": "bb",
+        "count": 4,
+        "examples": [
+            "bb"
         ]
     },
     {
@@ -7767,13 +7774,6 @@
         "count": 2,
         "examples": [
             "gera"
-        ]
-    },
-    {
-        "normalized": "bb",
-        "count": 2,
-        "examples": [
-            "bb"
         ]
     }
 ]
