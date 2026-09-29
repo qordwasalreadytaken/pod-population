@@ -1,62 +1,58 @@
 {
-    "timestamp": "2026-09-29T18:07:00+00:00",
+    "timestamp": "2026-09-29T18:31:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 2,
+        "1": 1
     },
     "mode": {
         "0": 3
     },
     "difficulty_mode": {
-        "2|0": 3
+        "2|0": 2,
+        "1|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Maps",
-            "count": 1
-        },
-        {
             "name": "Trade",
+            "count": 2
+        },
+        {
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "lvv",
-            "count": 1
-        },
-        {
-            "name": "chillmap",
-            "count": 1
-        },
-        {
             "name": "n pooping",
+            "count": 1
+        },
+        {
+            "name": "n silkweave",
+            "count": 1
+        },
+        {
+            "name": "12",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "lvv",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "lvv"
+                "12"
             ]
         }
     ],
     "classified_games": {
-        "Maps": [
-            {
-                "name": "chillmap",
-                "matched": "map",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "n pooping",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n silkweave",
                 "matched": "n",
                 "count": 1
             }
@@ -65,6 +61,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 6.67
+        "average_name_length": 7.33
     }
 }
