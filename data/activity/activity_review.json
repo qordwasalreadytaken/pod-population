@@ -1772,6 +1772,16 @@
         ]
     },
     {
+        "normalized": "sss #",
+        "count": 8,
+        "examples": [
+            "sss 1",
+            "sss 2",
+            "sss 222",
+            "sss 3"
+        ]
+    },
+    {
         "normalized": "gaf",
         "count": 8,
         "examples": [
@@ -2346,15 +2356,6 @@
         "count": 6,
         "examples": [
             "nm go"
-        ]
-    },
-    {
-        "normalized": "sss #",
-        "count": 6,
-        "examples": [
-            "sss 1",
-            "sss 2",
-            "sss 222"
         ]
     },
     {
@@ -4164,6 +4165,13 @@
         "count": 4,
         "examples": [
             "holero"
+        ]
+    },
+    {
+        "normalized": "adss",
+        "count": 4,
+        "examples": [
+            "adss"
         ]
     },
     {
@@ -7797,13 +7805,6 @@
         "count": 2,
         "examples": [
             "adsda"
-        ]
-    },
-    {
-        "normalized": "adss",
-        "count": 2,
-        "examples": [
-            "adss"
         ]
     }
 ]
