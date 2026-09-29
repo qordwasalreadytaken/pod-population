@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-29T20:06:00+00:00",
+    "timestamp": "2026-09-29T20:27:00+00:00",
     "difficulty": {
         "2": 4
     },
@@ -21,15 +21,15 @@
     ],
     "top_games": [
         {
-            "name": "sss 1",
+            "name": "adss",
+            "count": 1
+        },
+        {
+            "name": "sss 2",
             "count": 1
         },
         {
             "name": "n silkweave",
-            "count": 1
-        },
-        {
-            "name": "dass",
             "count": 1
         },
         {
@@ -39,17 +39,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "sss #",
+            "normalized": "adss",
             "count": 2,
             "examples": [
-                "sss 1"
+                "adss"
             ]
         },
         {
-            "normalized": "dass",
+            "normalized": "sss #",
             "count": 2,
             "examples": [
-                "dass"
+                "sss 2"
             ]
         }
     ],
