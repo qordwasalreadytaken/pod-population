@@ -1,66 +1,57 @@
 {
-    "timestamp": "2026-09-29T17:04:00+00:00",
+    "timestamp": "2026-09-29T17:24:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 5
+        "2": 5,
+        "0": 2
     },
     "mode": {
-        "1": 1,
-        "0": 6
+        "0": 7
     },
     "difficulty_mode": {
-        "0|1": 1,
         "2|0": 5,
-        "0|0": 1
+        "0|0": 2
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 4
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asdasd",
+            "name": "first run",
             "count": 2
         },
         {
-            "name": "123",
+            "name": "n silkweave",
             "count": 1
         },
         {
-            "name": "zxc",
+            "name": "n pooping",
+            "count": 1
+        },
+        {
+            "name": "n 4s arkaine 2",
+            "count": 1
+        },
+        {
+            "name": "n 4s arkaine 1",
             "count": 1
         },
         {
             "name": "lvv",
             "count": 1
-        },
-        {
-            "name": "n terror keys 2",
-            "count": 1
-        },
-        {
-            "name": "first run",
-            "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "zxc",
-            "count": 2,
-            "examples": [
-                "zxc"
-            ]
-        },
         {
             "normalized": "lvv",
             "count": 2,
@@ -70,34 +61,39 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "asdasd",
-                "matched": "asd",
-                "count": 2
-            },
-            {
-                "name": "123",
-                "matched": "123",
+                "name": "n silkweave",
+                "matched": "n",
                 "count": 1
             },
             {
-                "name": "first run",
-                "matched": "run",
+                "name": "n pooping",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n 4s arkaine 2",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n 4s arkaine 1",
+                "matched": "n",
                 "count": 1
             }
         ],
-        "Trade": [
+        "Misc. Public MF Runs": [
             {
-                "name": "n terror keys 2",
-                "matched": "n",
-                "count": 1
+                "name": "first run",
+                "matched": "run",
+                "count": 2
             }
         ]
     },
     "interesting": {
         "unique_names": 6,
         "public_games": 7,
-        "average_name_length": 6.5
+        "average_name_length": 10.0
     }
 }
