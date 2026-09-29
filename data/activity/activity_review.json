@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2926,
+        "count": 2928,
         "examples": [
             "1",
             "10",
@@ -642,6 +642,20 @@
         ]
     },
     {
+        "normalized": "sss #",
+        "count": 20,
+        "examples": [
+            "sss 1",
+            "sss 2",
+            "sss 222",
+            "sss 3",
+            "sss 4",
+            "sss 5",
+            "sss 6",
+            "sss 7"
+        ]
+    },
+    {
         "normalized": "aag",
         "count": 20,
         "examples": [
@@ -730,19 +744,6 @@
         "count": 18,
         "examples": [
             "hell o"
-        ]
-    },
-    {
-        "normalized": "sss #",
-        "count": 18,
-        "examples": [
-            "sss 1",
-            "sss 2",
-            "sss 222",
-            "sss 3",
-            "sss 4",
-            "sss 5",
-            "sss 6"
         ]
     },
     {
