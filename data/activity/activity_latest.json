@@ -1,22 +1,23 @@
 {
-    "timestamp": "2026-09-29T07:54:00+00:00",
+    "timestamp": "2026-09-29T08:08:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 2
+        "2": 4,
+        "0": 3
     },
     "mode": {
-        "1": 1,
-        "0": 4
+        "1": 2,
+        "0": 5
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 2,
+        "0|1": 1,
+        "2|0": 3,
         "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 6
         },
         {
             "name": "Trade",
@@ -26,6 +27,14 @@
     "top_games": [
         {
             "name": "killall",
+            "count": 1
+        },
+        {
+            "name": "bb",
+            "count": 1
+        },
+        {
+            "name": "lvv",
             "count": 1
         },
         {
@@ -51,6 +60,20 @@
             "count": 2,
             "examples": [
                 "killall"
+            ]
+        },
+        {
+            "normalized": "bb",
+            "count": 2,
+            "examples": [
+                "bb"
+            ]
+        },
+        {
+            "normalized": "lvv",
+            "count": 2,
+            "examples": [
+                "lvv"
             ]
         },
         {
@@ -85,8 +108,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 9.0
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 7.14
     }
 }
