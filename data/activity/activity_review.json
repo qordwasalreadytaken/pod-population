@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2930,
+        "count": 2932,
         "examples": [
             "1",
             "10",
@@ -533,6 +533,21 @@
         ]
     },
     {
+        "normalized": "sss #",
+        "count": 24,
+        "examples": [
+            "sss 1",
+            "sss 2",
+            "sss 222",
+            "sss 3",
+            "sss 4",
+            "sss 5",
+            "sss 6",
+            "sss 7",
+            "sss 8"
+        ]
+    },
+    {
         "normalized": "hello",
         "count": 24,
         "examples": [
@@ -590,21 +605,6 @@
         "count": 24,
         "examples": [
             "pooping"
-        ]
-    },
-    {
-        "normalized": "sss #",
-        "count": 22,
-        "examples": [
-            "sss 1",
-            "sss 2",
-            "sss 222",
-            "sss 3",
-            "sss 4",
-            "sss 5",
-            "sss 6",
-            "sss 7",
-            "sss 8"
         ]
     },
     {
@@ -7838,6 +7838,13 @@
         "count": 2,
         "examples": [
             "dadas"
+        ]
+    },
+    {
+        "normalized": "hige",
+        "count": 2,
+        "examples": [
+            "hige"
         ]
     }
 ]
