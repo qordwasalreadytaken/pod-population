@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2860,
+        "count": 2862,
         "examples": [
             "1",
             "10",
@@ -31,7 +31,7 @@
     },
     {
         "normalized": "wikid klownz",
-        "count": 450,
+        "count": 452,
         "examples": [
             "wikid klownz"
         ]
@@ -4130,6 +4130,13 @@
         ]
     },
     {
+        "normalized": "killall",
+        "count": 4,
+        "examples": [
+            "killall"
+        ]
+    },
+    {
         "normalized": "a wps plz",
         "count": 2,
         "examples": [
@@ -7753,13 +7760,6 @@
         "count": 2,
         "examples": [
             "gera"
-        ]
-    },
-    {
-        "normalized": "killall",
-        "count": 2,
-        "examples": [
-            "killall"
         ]
     }
 ]
