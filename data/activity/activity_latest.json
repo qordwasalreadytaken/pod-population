@@ -1,20 +1,22 @@
 {
-    "timestamp": "2026-09-29T21:05:00+00:00",
+    "timestamp": "2026-09-29T21:24:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 1
+        "2": 9
     },
     "mode": {
-        "0": 4
+        "0": 9
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "0|0": 1
+        "2|0": 9
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 6
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 2
         },
         {
             "name": "Trade",
@@ -23,7 +25,31 @@
     ],
     "top_games": [
         {
-            "name": "sss 4",
+            "name": "dasd",
+            "count": 1
+        },
+        {
+            "name": "dsa",
+            "count": 1
+        },
+        {
+            "name": "dsad",
+            "count": 1
+        },
+        {
+            "name": "dadas",
+            "count": 1
+        },
+        {
+            "name": "adsd",
+            "count": 1
+        },
+        {
+            "name": "dadasd",
+            "count": 1
+        },
+        {
+            "name": "das",
             "count": 1
         },
         {
@@ -31,38 +57,67 @@
             "count": 1
         },
         {
-            "name": "adss",
-            "count": 1
-        },
-        {
-            "name": "palidrom",
+            "name": "dassd",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "sss #",
+            "normalized": "dsa",
             "count": 2,
             "examples": [
-                "sss 4"
+                "dsa"
             ]
         },
         {
-            "normalized": "adss",
+            "normalized": "dsad",
             "count": 2,
             "examples": [
-                "adss"
+                "dsad"
             ]
         },
         {
-            "normalized": "palidrom",
+            "normalized": "dadas",
             "count": 2,
             "examples": [
-                "palidrom"
+                "dadas"
+            ]
+        },
+        {
+            "normalized": "adsd",
+            "count": 2,
+            "examples": [
+                "adsd"
+            ]
+        },
+        {
+            "normalized": "das",
+            "count": 2,
+            "examples": [
+                "das"
+            ]
+        },
+        {
+            "normalized": "dassd",
+            "count": 2,
+            "examples": [
+                "dassd"
             ]
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "dasd",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "dadasd",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n silkweave",
@@ -72,8 +127,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 7.0
+        "unique_names": 9,
+        "public_games": 9,
+        "average_name_length": 5.0
     }
 }
