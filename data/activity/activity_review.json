@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2934,
+        "count": 2936,
         "examples": [
             "1",
             "10",
@@ -491,6 +491,22 @@
         ]
     },
     {
+        "normalized": "sss #",
+        "count": 28,
+        "examples": [
+            "sss 1",
+            "sss 10",
+            "sss 2",
+            "sss 222",
+            "sss 3",
+            "sss 4",
+            "sss 5",
+            "sss 6",
+            "sss 7",
+            "sss 8"
+        ]
+    },
+    {
         "normalized": "ewq",
         "count": 28,
         "examples": [
@@ -509,22 +525,6 @@
         "count": 28,
         "examples": [
             "lvls"
-        ]
-    },
-    {
-        "normalized": "sss #",
-        "count": 26,
-        "examples": [
-            "sss 1",
-            "sss 2",
-            "sss 222",
-            "sss 3",
-            "sss 4",
-            "sss 5",
-            "sss 6",
-            "sss 7",
-            "sss 8",
-            "sss 9"
         ]
     },
     {
@@ -4209,6 +4209,13 @@
         ]
     },
     {
+        "normalized": "need ist",
+        "count": 4,
+        "examples": [
+            "need ist"
+        ]
+    },
+    {
         "normalized": "a wps plz",
         "count": 2,
         "examples": [
@@ -7849,10 +7856,10 @@
         ]
     },
     {
-        "normalized": "need ist",
+        "normalized": "doin stufnshit",
         "count": 2,
         "examples": [
-            "need ist"
+            "doin stufnshit"
         ]
     }
 ]

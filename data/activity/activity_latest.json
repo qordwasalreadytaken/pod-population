@@ -1,45 +1,45 @@
 {
-    "timestamp": "2026-09-29T22:46:00+00:00",
+    "timestamp": "2026-09-29T23:04:00+00:00",
     "difficulty": {
         "2": 8,
-        "0": 1
+        "1": 1
     },
     "mode": {
         "0": 9
     },
     "difficulty_mode": {
         "2|0": 8,
-        "0|0": 1
+        "1|0": 1
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 5
+            "name": "Other",
+            "count": 4
         },
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
             "name": "n pooping",
-            "count": 3
-        },
-        {
-            "name": "need ist",
-            "count": 1
-        },
-        {
-            "name": "sss 9",
-            "count": 1
+            "count": 2
         },
         {
             "name": "asdasd",
+            "count": 2
+        },
+        {
+            "name": "sss 10",
+            "count": 1
+        },
+        {
+            "name": "need ist",
             "count": 1
         },
         {
@@ -51,11 +51,18 @@
             "count": 1
         },
         {
-            "name": "doin stuf n sht",
+            "name": "doin stufnshit",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "sss #",
+            "count": 2,
+            "examples": [
+                "sss 10"
+            ]
+        },
         {
             "normalized": "need ist",
             "count": 2,
@@ -64,17 +71,17 @@
             ]
         },
         {
-            "normalized": "sss #",
-            "count": 2,
-            "examples": [
-                "sss 9"
-            ]
-        },
-        {
             "normalized": "#",
             "count": 2,
             "examples": [
                 "113"
+            ]
+        },
+        {
+            "normalized": "doin stufnshit",
+            "count": 2,
+            "examples": [
+                "doin stufnshit"
             ]
         }
     ],
@@ -83,15 +90,10 @@
             {
                 "name": "n pooping",
                 "matched": "n",
-                "count": 3
+                "count": 2
             },
             {
                 "name": "n silkweave",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "doin stuf n sht",
                 "matched": "n",
                 "count": 1
             }
@@ -100,7 +102,7 @@
             {
                 "name": "asdasd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             }
         ]
     },
