@@ -1,17 +1,17 @@
 {
-    "timestamp": "2026-09-29T14:41:00+00:00",
+    "timestamp": "2026-09-29T14:52:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 3,
+        "2": 4,
         "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 3,
+        "2|0": 4,
         "1|0": 1
     },
     "activities": [
@@ -20,17 +20,21 @@
             "count": 3
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "name": "Trade",
+            "count": 2
         },
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "113",
+            "count": 1
+        },
+        {
+            "name": "n terror keys 5",
             "count": 1
         },
         {
@@ -62,24 +66,29 @@
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n terror keys 5",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n terror keys 4",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asdasd",
                 "matched": "asd",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "n terror keys 4",
-                "matched": "n",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.8
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 8.17
     }
 }
