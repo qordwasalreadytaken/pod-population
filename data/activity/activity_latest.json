@@ -1,13 +1,13 @@
 {
-    "timestamp": "2026-09-29T00:15:00+00:00",
+    "timestamp": "2026-09-29T01:11:00+00:00",
     "difficulty": {
-        "0": 1
+        "2": 1
     },
     "mode": {
         "0": 1
     },
     "difficulty_mode": {
-        "0|0": 1
+        "2|0": 1
     },
     "activities": [
         {
@@ -17,16 +17,16 @@
     ],
     "top_games": [
         {
-            "name": "gera",
+            "name": "113",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "gera",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "gera"
+                "113"
             ]
         }
     ],
@@ -34,6 +34,6 @@
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 4.0
+        "average_name_length": 3.0
     }
 }
