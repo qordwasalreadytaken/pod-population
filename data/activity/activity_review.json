@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2872,
+        "count": 2874,
         "examples": [
             "1",
             "10",
@@ -10,9 +10,9 @@
             "111",
             "1111",
             "111131",
+            "111132",
             "1112",
-            "111555",
-            "112"
+            "111555"
         ]
     },
     {
@@ -302,6 +302,13 @@
         ]
     },
     {
+        "normalized": "zxc",
+        "count": 42,
+        "examples": [
+            "zxc"
+        ]
+    },
+    {
         "normalized": "r",
         "count": 42,
         "examples": [
@@ -324,13 +331,6 @@
         "count": 42,
         "examples": [
             "sfsdf"
-        ]
-    },
-    {
-        "normalized": "zxc",
-        "count": 40,
-        "examples": [
-            "zxc"
         ]
     },
     {
