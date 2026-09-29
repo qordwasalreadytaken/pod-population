@@ -428,6 +428,22 @@
         ]
     },
     {
+        "normalized": "sss #",
+        "count": 32,
+        "examples": [
+            "sss 1",
+            "sss 10",
+            "sss 11",
+            "sss 12",
+            "sss 2",
+            "sss 222",
+            "sss 3",
+            "sss 4",
+            "sss 5",
+            "sss 6"
+        ]
+    },
+    {
         "normalized": "dobretoo",
         "count": 32,
         "examples": [
@@ -453,22 +469,6 @@
         "count": 32,
         "examples": [
             "dasad"
-        ]
-    },
-    {
-        "normalized": "sss #",
-        "count": 30,
-        "examples": [
-            "sss 1",
-            "sss 10",
-            "sss 11",
-            "sss 2",
-            "sss 222",
-            "sss 3",
-            "sss 4",
-            "sss 5",
-            "sss 6",
-            "sss 7"
         ]
     },
     {
@@ -2225,6 +2225,13 @@
         ]
     },
     {
+        "normalized": "need ist",
+        "count": 8,
+        "examples": [
+            "need ist"
+        ]
+    },
+    {
         "normalized": "sdsd",
         "count": 6,
         "examples": [
@@ -2903,10 +2910,10 @@
         ]
     },
     {
-        "normalized": "need ist",
+        "normalized": "doin stufnshit",
         "count": 6,
         "examples": [
-            "need ist"
+            "doin stufnshit"
         ]
     },
     {
@@ -4213,13 +4220,6 @@
         "count": 4,
         "examples": [
             "fsd"
-        ]
-    },
-    {
-        "normalized": "doin stufnshit",
-        "count": 4,
-        "examples": [
-            "doin stufnshit"
         ]
     },
     {
