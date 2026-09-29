@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-29T23:33:00+00:00",
+    "timestamp": "2026-09-29T23:46:00+00:00",
     "difficulty": {
         "2": 5,
         "1": 1
@@ -14,11 +14,11 @@
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Trade",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
@@ -27,15 +27,19 @@
     ],
     "top_games": [
         {
-            "name": "n pooping",
-            "count": 2
+            "name": "sss 13",
+            "count": 1
         },
         {
-            "name": "sss 12",
+            "name": "n pooping",
             "count": 1
         },
         {
             "name": "asdasd",
+            "count": 1
+        },
+        {
+            "name": "sss 12",
             "count": 1
         },
         {
@@ -50,9 +54,10 @@
     "unknown_games": [
         {
             "normalized": "sss #",
-            "count": 2,
+            "count": 4,
             "examples": [
-                "sss 12"
+                "sss 12",
+                "sss 13"
             ]
         },
         {
@@ -75,7 +80,7 @@
             {
                 "name": "n pooping",
                 "matched": "n",
-                "count": 2
+                "count": 1
             }
         ],
         "Misc. Public MF Runs": [
@@ -87,8 +92,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
+        "unique_names": 6,
         "public_games": 6,
-        "average_name_length": 8.6
+        "average_name_length": 8.17
     }
 }
