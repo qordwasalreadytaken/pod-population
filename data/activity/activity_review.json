@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2936,
+        "count": 2938,
         "examples": [
             "1",
             "10",
@@ -456,6 +456,22 @@
         ]
     },
     {
+        "normalized": "sss #",
+        "count": 30,
+        "examples": [
+            "sss 1",
+            "sss 10",
+            "sss 11",
+            "sss 2",
+            "sss 222",
+            "sss 3",
+            "sss 4",
+            "sss 5",
+            "sss 6",
+            "sss 7"
+        ]
+    },
+    {
         "normalized": "yep",
         "count": 30,
         "examples": [
@@ -488,22 +504,6 @@
         "count": 28,
         "examples": [
             "qwe"
-        ]
-    },
-    {
-        "normalized": "sss #",
-        "count": 28,
-        "examples": [
-            "sss 1",
-            "sss 10",
-            "sss 2",
-            "sss 222",
-            "sss 3",
-            "sss 4",
-            "sss 5",
-            "sss 6",
-            "sss 7",
-            "sss 8"
         ]
     },
     {
@@ -1512,6 +1512,13 @@
         ]
     },
     {
+        "normalized": "doom",
+        "count": 10,
+        "examples": [
+            "doom"
+        ]
+    },
+    {
         "normalized": "farming #",
         "count": 10,
         "examples": [
@@ -1842,13 +1849,6 @@
         "count": 8,
         "examples": [
             "czarrre"
-        ]
-    },
-    {
-        "normalized": "doom",
-        "count": 8,
-        "examples": [
-            "doom"
         ]
     },
     {
@@ -2900,6 +2900,13 @@
         "count": 6,
         "examples": [
             "horeto"
+        ]
+    },
+    {
+        "normalized": "need ist",
+        "count": 6,
+        "examples": [
+            "need ist"
         ]
     },
     {
@@ -4209,10 +4216,10 @@
         ]
     },
     {
-        "normalized": "need ist",
+        "normalized": "doin stufnshit",
         "count": 4,
         "examples": [
-            "need ist"
+            "doin stufnshit"
         ]
     },
     {
@@ -7853,13 +7860,6 @@
         "count": 2,
         "examples": [
             "hige"
-        ]
-    },
-    {
-        "normalized": "doin stufnshit",
-        "count": 2,
-        "examples": [
-            "doin stufnshit"
         ]
     }
 ]

@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-29T23:04:00+00:00",
+    "timestamp": "2026-09-29T23:22:00+00:00",
     "difficulty": {
         "2": 8,
         "1": 1
@@ -14,7 +14,7 @@
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 5
         },
         {
             "name": "Trade",
@@ -22,7 +22,7 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
@@ -31,11 +31,15 @@
             "count": 2
         },
         {
-            "name": "asdasd",
-            "count": 2
+            "name": "doom",
+            "count": 1
         },
         {
-            "name": "sss 10",
+            "name": "sss 11",
+            "count": 1
+        },
+        {
+            "name": "asdasd",
             "count": 1
         },
         {
@@ -57,10 +61,17 @@
     ],
     "unknown_games": [
         {
+            "normalized": "doom",
+            "count": 2,
+            "examples": [
+                "doom"
+            ]
+        },
+        {
             "normalized": "sss #",
             "count": 2,
             "examples": [
-                "sss 10"
+                "sss 11"
             ]
         },
         {
@@ -102,13 +113,13 @@
             {
                 "name": "asdasd",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 7,
+        "unique_names": 8,
         "public_games": 9,
-        "average_name_length": 8.14
+        "average_name_length": 7.62
     }
 }
