@@ -1439,6 +1439,16 @@
         ]
     },
     {
+        "normalized": "sss #",
+        "count": 10,
+        "examples": [
+            "sss 1",
+            "sss 2",
+            "sss 222",
+            "sss 3"
+        ]
+    },
+    {
         "normalized": "as",
         "count": 10,
         "examples": [
@@ -1769,16 +1779,6 @@
         "count": 8,
         "examples": [
             "ghgh"
-        ]
-    },
-    {
-        "normalized": "sss #",
-        "count": 8,
-        "examples": [
-            "sss 1",
-            "sss 2",
-            "sss 222",
-            "sss 3"
         ]
     },
     {
@@ -2880,6 +2880,13 @@
         "count": 6,
         "examples": [
             "horeto"
+        ]
+    },
+    {
+        "normalized": "adss",
+        "count": 6,
+        "examples": [
+            "adss"
         ]
     },
     {
@@ -4165,13 +4172,6 @@
         "count": 4,
         "examples": [
             "holero"
-        ]
-    },
-    {
-        "normalized": "adss",
-        "count": 4,
-        "examples": [
-            "adss"
         ]
     },
     {
@@ -7805,6 +7805,13 @@
         "count": 2,
         "examples": [
             "adsda"
+        ]
+    },
+    {
+        "normalized": "palidrom",
+        "count": 2,
+        "examples": [
+            "palidrom"
         ]
     }
 ]
