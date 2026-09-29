@@ -1234,6 +1234,17 @@
         ]
     },
     {
+        "normalized": "sss #",
+        "count": 12,
+        "examples": [
+            "sss 1",
+            "sss 2",
+            "sss 222",
+            "sss 3",
+            "sss 4"
+        ]
+    },
+    {
         "normalized": "kmkol",
         "count": 12,
         "examples": [
@@ -1436,16 +1447,6 @@
         "count": 10,
         "examples": [
             "asfgjh"
-        ]
-    },
-    {
-        "normalized": "sss #",
-        "count": 10,
-        "examples": [
-            "sss 1",
-            "sss 2",
-            "sss 222",
-            "sss 3"
         ]
     },
     {
@@ -2205,6 +2206,13 @@
         ]
     },
     {
+        "normalized": "adss",
+        "count": 8,
+        "examples": [
+            "adss"
+        ]
+    },
+    {
         "normalized": "sdsd",
         "count": 6,
         "examples": [
@@ -2880,13 +2888,6 @@
         "count": 6,
         "examples": [
             "horeto"
-        ]
-    },
-    {
-        "normalized": "adss",
-        "count": 6,
-        "examples": [
-            "adss"
         ]
     },
     {
@@ -4172,6 +4173,13 @@
         "count": 4,
         "examples": [
             "holero"
+        ]
+    },
+    {
+        "normalized": "palidrom",
+        "count": 4,
+        "examples": [
+            "palidrom"
         ]
     },
     {
@@ -7805,13 +7813,6 @@
         "count": 2,
         "examples": [
             "adsda"
-        ]
-    },
-    {
-        "normalized": "palidrom",
-        "count": 2,
-        "examples": [
-            "palidrom"
         ]
     }
 ]
