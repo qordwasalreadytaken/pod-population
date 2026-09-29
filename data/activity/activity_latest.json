@@ -1,17 +1,21 @@
 {
-    "timestamp": "2026-09-29T22:05:00+00:00",
+    "timestamp": "2026-09-29T22:24:00+00:00",
     "difficulty": {
-        "2": 5,
+        "2": 6,
         "0": 1
     },
     "mode": {
-        "0": 6
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 5,
+        "2|0": 6,
         "0|0": 1
     },
     "activities": [
+        {
+            "name": "Trade",
+            "count": 3
+        },
         {
             "name": "Other",
             "count": 2
@@ -19,31 +23,27 @@
         {
             "name": "Misc. Public MF Runs",
             "count": 2
-        },
-        {
-            "name": "Trade",
-            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "sss 7",
-            "count": 1
-        },
-        {
             "name": "asdasd",
-            "count": 1
-        },
-        {
-            "name": "dasd",
-            "count": 1
-        },
-        {
-            "name": "111",
-            "count": 1
+            "count": 2
         },
         {
             "name": "n silkweave",
+            "count": 1
+        },
+        {
+            "name": "n pooping",
+            "count": 1
+        },
+        {
+            "name": "sss 8",
+            "count": 1
+        },
+        {
+            "name": "113",
             "count": 1
         },
         {
@@ -56,33 +56,26 @@
             "normalized": "sss #",
             "count": 2,
             "examples": [
-                "sss 7"
+                "sss 8"
             ]
         },
         {
             "normalized": "#",
             "count": 2,
             "examples": [
-                "111"
+                "113"
             ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asdasd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "dasd",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "n silkweave",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n pooping",
                 "matched": "n",
                 "count": 1
             },
@@ -91,11 +84,18 @@
                 "matched": "n",
                 "count": 1
             }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "asdasd",
+                "matched": "asd",
+                "count": 2
+            }
         ]
     },
     "interesting": {
         "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 7.33
+        "public_games": 7,
+        "average_name_length": 8.17
     }
 }

@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2928,
+        "count": 2930,
         "examples": [
             "1",
             "10",
@@ -593,6 +593,21 @@
         ]
     },
     {
+        "normalized": "sss #",
+        "count": 22,
+        "examples": [
+            "sss 1",
+            "sss 2",
+            "sss 222",
+            "sss 3",
+            "sss 4",
+            "sss 5",
+            "sss 6",
+            "sss 7",
+            "sss 8"
+        ]
+    },
+    {
         "normalized": "gs",
         "count": 22,
         "examples": [
@@ -639,20 +654,6 @@
         "count": 22,
         "examples": [
             "sz"
-        ]
-    },
-    {
-        "normalized": "sss #",
-        "count": 20,
-        "examples": [
-            "sss 1",
-            "sss 2",
-            "sss 222",
-            "sss 3",
-            "sss 4",
-            "sss 5",
-            "sss 6",
-            "sss 7"
         ]
     },
     {
