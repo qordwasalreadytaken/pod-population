@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2924,
+        "count": 2926,
         "examples": [
             "1",
             "10",
@@ -733,6 +733,19 @@
         ]
     },
     {
+        "normalized": "sss #",
+        "count": 18,
+        "examples": [
+            "sss 1",
+            "sss 2",
+            "sss 222",
+            "sss 3",
+            "sss 4",
+            "sss 5",
+            "sss 6"
+        ]
+    },
+    {
         "normalized": "fsgthsartha",
         "count": 18,
         "examples": [
@@ -1022,18 +1035,6 @@
             "34r43r",
             "3r4r",
             "5r3r"
-        ]
-    },
-    {
-        "normalized": "sss #",
-        "count": 14,
-        "examples": [
-            "sss 1",
-            "sss 2",
-            "sss 222",
-            "sss 3",
-            "sss 4",
-            "sss 5"
         ]
     },
     {
@@ -4195,6 +4196,13 @@
         "count": 4,
         "examples": [
             "adsd"
+        ]
+    },
+    {
+        "normalized": "fsd",
+        "count": 4,
+        "examples": [
+            "fsd"
         ]
     },
     {
@@ -7828,13 +7836,6 @@
         "count": 2,
         "examples": [
             "dadas"
-        ]
-    },
-    {
-        "normalized": "fsd",
-        "count": 2,
-        "examples": [
-            "fsd"
         ]
     }
 ]
