@@ -1,17 +1,21 @@
 {
-    "timestamp": "2026-09-30T20:48:00+00:00",
+    "timestamp": "2026-09-30T21:05:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 3,
         "0": 2
     },
     "mode": {
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 2,
+        "2|0": 3,
         "0|0": 2
     },
     "activities": [
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 2
+        },
         {
             "name": "Other",
             "count": 2
@@ -19,13 +23,13 @@
         {
             "name": "Trade",
             "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "asda",
+            "count": 1
+        },
         {
             "name": "sdas",
             "count": 1
@@ -60,24 +64,29 @@
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asda",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "asdasd",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n silkweave",
                 "matched": "n",
                 "count": 1
             }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asdasd",
-                "matched": "asd",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 8.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 7.2
     }
 }
