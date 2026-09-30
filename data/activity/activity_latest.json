@@ -1,33 +1,37 @@
 {
-    "timestamp": "2026-09-30T17:04:00+00:00",
+    "timestamp": "2026-09-30T17:24:00+00:00",
     "difficulty": {
-        "2": 4,
-        "0": 1
+        "2": 3,
+        "0": 4
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 6
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 3,
-        "0|0": 1
+        "2|0": 2,
+        "0|0": 4
     },
     "activities": [
         {
             "name": "Other",
+            "count": 4
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
             "name": "Trade",
-            "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "asdasd",
+            "count": 2
+        },
         {
             "name": "a hell",
             "count": 1
@@ -37,19 +41,27 @@
             "count": 1
         },
         {
-            "name": "n 3s nighwing 2",
-            "count": 1
-        },
-        {
             "name": "111135",
             "count": 1
         },
         {
-            "name": "asdasd",
+            "name": "morbius inc",
+            "count": 1
+        },
+        {
+            "name": "1",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "#",
+            "count": 4,
+            "examples": [
+                "1",
+                "111135"
+            ]
+        },
         {
             "normalized": "a hell",
             "count": 2,
@@ -58,10 +70,10 @@
             ]
         },
         {
-            "normalized": "#",
+            "normalized": "morbius inc",
             "count": 2,
             "examples": [
-                "111135"
+                "morbius inc"
             ]
         }
     ],
@@ -71,24 +83,19 @@
                 "name": "n 3s nighwing 3",
                 "matched": "n",
                 "count": 1
-            },
-            {
-                "name": "n 3s nighwing 2",
-                "matched": "n",
-                "count": 1
             }
         ],
         "Misc. Public MF Runs": [
             {
                 "name": "asdasd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 9.6
+        "unique_names": 6,
+        "public_games": 7,
+        "average_name_length": 7.5
     }
 }
