@@ -1,116 +1,100 @@
 {
-    "timestamp": "2026-09-30T14:29:00+00:00",
+    "timestamp": "2026-09-30T14:47:00+00:00",
     "difficulty": {
-        "1": 2,
-        "0": 1,
-        "2": 6
+        "1": 1,
+        "2": 5
     },
     "mode": {
-        "1": 3,
-        "0": 6
+        "1": 1,
+        "0": 5
     },
     "difficulty_mode": {
-        "1|1": 2,
-        "0|1": 1,
-        "2|0": 6
+        "1|1": 1,
+        "2|0": 5
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 4
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 4
+            "count": 2
         }
     ],
     "top_games": [
-        {
-            "name": "asdasd",
-            "count": 2
-        },
         {
             "name": "a5nm",
             "count": 1
         },
         {
-            "name": "a3nm",
-            "count": 1
-        },
-        {
-            "name": "qe",
-            "count": 1
-        },
-        {
-            "name": "dasds",
-            "count": 1
-        },
-        {
-            "name": "dsad",
-            "count": 1
-        },
-        {
-            "name": "cxy",
+            "name": "ass",
             "count": 1
         },
         {
             "name": "dasd",
+            "count": 1
+        },
+        {
+            "name": "zxc",
+            "count": 1
+        },
+        {
+            "name": "adsa",
+            "count": 1
+        },
+        {
+            "name": "asdasd",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "a#nm",
-            "count": 4,
+            "count": 2,
             "examples": [
-                "a3nm",
                 "a5nm"
             ]
         },
         {
-            "normalized": "qe",
+            "normalized": "ass",
             "count": 2,
             "examples": [
-                "qe"
+                "ass"
             ]
         },
         {
-            "normalized": "dsad",
+            "normalized": "zxc",
             "count": 2,
             "examples": [
-                "dsad"
+                "zxc"
             ]
         },
         {
-            "normalized": "cxy",
+            "normalized": "adsa",
             "count": 2,
             "examples": [
-                "cxy"
+                "adsa"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asdasd",
-                "matched": "asd",
-                "count": 2
-            },
-            {
-                "name": "dasds",
+                "name": "dasd",
                 "matched": "asd",
                 "count": 1
             },
             {
-                "name": "dasd",
+                "name": "asdasd",
                 "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 9,
+        "unique_names": 6,
+        "public_games": 6,
         "average_name_length": 4.0
     }
 }
