@@ -1,19 +1,15 @@
 {
-    "timestamp": "2026-09-30T12:08:00+00:00",
+    "timestamp": "2026-09-30T12:41:00+00:00",
     "difficulty": {
-        "2": 7
+        "2": 4
     },
     "mode": {
-        "0": 7
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 7
+        "2|0": 4
     },
     "activities": [
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 3
-        },
         {
             "name": "Other",
             "count": 3
@@ -25,15 +21,7 @@
     ],
     "top_games": [
         {
-            "name": "n 4s arcaine 1",
-            "count": 1
-        },
-        {
-            "name": "gasd",
-            "count": 1
-        },
-        {
-            "name": "asds",
+            "name": "t",
             "count": 1
         },
         {
@@ -41,19 +29,22 @@
             "count": 1
         },
         {
-            "name": "ball-1",
+            "name": "n 4s arcaine 2",
             "count": 1
         },
         {
-            "name": "asdasd",
-            "count": 1
-        },
-        {
-            "name": "t",
+            "name": "dsa",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "t",
+            "count": 2,
+            "examples": [
+                "t"
+            ]
+        },
         {
             "normalized": "lvv",
             "count": 2,
@@ -62,49 +53,25 @@
             ]
         },
         {
-            "normalized": "ball-#",
+            "normalized": "dsa",
             "count": 2,
             "examples": [
-                "ball-1"
-            ]
-        },
-        {
-            "normalized": "t",
-            "count": 2,
-            "examples": [
-                "t"
+                "dsa"
             ]
         }
     ],
     "classified_games": {
         "Trade": [
             {
-                "name": "n 4s arcaine 1",
+                "name": "n 4s arcaine 2",
                 "matched": "n",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "gasd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "asds",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "asdasd",
-                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 5.43
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 5.25
     }
 }
