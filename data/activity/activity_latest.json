@@ -1,17 +1,17 @@
 {
-    "timestamp": "2026-09-30T11:23:00+00:00",
+    "timestamp": "2026-09-30T11:35:00+00:00",
     "difficulty": {
         "1": 1,
-        "2": 5,
+        "2": 9,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 6
+        "0": 10
     },
     "difficulty_mode": {
         "1|1": 1,
-        "2|0": 5,
+        "2|0": 9,
         "0|0": 1
     },
     "activities": [
@@ -20,11 +20,19 @@
             "count": 5
         },
         {
+            "name": "Misc. Public MF Runs",
+            "count": 4
+        },
+        {
             "name": "Trade",
             "count": 2
         }
     ],
     "top_games": [
+        {
+            "name": "asdasd",
+            "count": 4
+        },
         {
             "name": "nm",
             "count": 1
@@ -92,6 +100,13 @@
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asdasd",
+                "matched": "asd",
+                "count": 4
+            }
+        ],
         "Trade": [
             {
                 "name": "n tkey o vex 1",
@@ -106,8 +121,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 6.29
+        "unique_names": 8,
+        "public_games": 11,
+        "average_name_length": 6.25
     }
 }
