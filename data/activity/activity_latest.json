@@ -1,100 +1,103 @@
 {
-    "timestamp": "2026-09-30T14:47:00+00:00",
+    "timestamp": "2026-09-30T15:06:00+00:00",
     "difficulty": {
-        "1": 1,
-        "2": 5
+        "2": 8
     },
     "mode": {
-        "1": 1,
-        "0": 5
+        "0": 8
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "2|0": 5
+        "2|0": 8
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 5
         },
         {
             "name": "Misc. Public MF Runs",
             "count": 2
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "a5nm",
-            "count": 1
-        },
-        {
-            "name": "ass",
-            "count": 1
-        },
-        {
-            "name": "dasd",
-            "count": 1
-        },
-        {
             "name": "zxc",
-            "count": 1
-        },
-        {
-            "name": "adsa",
-            "count": 1
+            "count": 2
         },
         {
             "name": "asdasd",
+            "count": 2
+        },
+        {
+            "name": "ddda",
+            "count": 1
+        },
+        {
+            "name": "n 4s arcaine 6",
+            "count": 1
+        },
+        {
+            "name": "dsd",
+            "count": 1
+        },
+        {
+            "name": "dsad",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "a#nm",
-            "count": 2,
-            "examples": [
-                "a5nm"
-            ]
-        },
-        {
-            "normalized": "ass",
-            "count": 2,
-            "examples": [
-                "ass"
-            ]
-        },
-        {
             "normalized": "zxc",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "zxc"
             ]
         },
         {
-            "normalized": "adsa",
+            "normalized": "ddda",
             "count": 2,
             "examples": [
-                "adsa"
+                "ddda"
+            ]
+        },
+        {
+            "normalized": "dsd",
+            "count": 2,
+            "examples": [
+                "dsd"
+            ]
+        },
+        {
+            "normalized": "dsad",
+            "count": 2,
+            "examples": [
+                "dsad"
             ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "dasd",
-                "matched": "asd",
+                "name": "n 4s arcaine 6",
+                "matched": "n",
                 "count": 1
-            },
+            }
+        ],
+        "Misc. Public MF Runs": [
             {
                 "name": "asdasd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
         "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 4.0
+        "public_games": 8,
+        "average_name_length": 5.67
     }
 }
