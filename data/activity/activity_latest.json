@@ -1,99 +1,15 @@
 {
-    "timestamp": "2026-09-29T23:46:00+00:00",
-    "difficulty": {
-        "2": 5,
-        "1": 1
-    },
-    "mode": {
-        "0": 6
-    },
-    "difficulty_mode": {
-        "2|0": 5,
-        "1|0": 1
-    },
-    "activities": [
-        {
-            "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        }
-    ],
-    "top_games": [
-        {
-            "name": "sss 13",
-            "count": 1
-        },
-        {
-            "name": "n pooping",
-            "count": 1
-        },
-        {
-            "name": "asdasd",
-            "count": 1
-        },
-        {
-            "name": "sss 12",
-            "count": 1
-        },
-        {
-            "name": "need ist",
-            "count": 1
-        },
-        {
-            "name": "doin stufnshit",
-            "count": 1
-        }
-    ],
-    "unknown_games": [
-        {
-            "normalized": "sss #",
-            "count": 4,
-            "examples": [
-                "sss 12",
-                "sss 13"
-            ]
-        },
-        {
-            "normalized": "need ist",
-            "count": 2,
-            "examples": [
-                "need ist"
-            ]
-        },
-        {
-            "normalized": "doin stufnshit",
-            "count": 2,
-            "examples": [
-                "doin stufnshit"
-            ]
-        }
-    ],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "n pooping",
-                "matched": "n",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asdasd",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "timestamp": "2026-09-30T00:15:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "difficulty_mode": {},
+    "activities": [],
+    "top_games": [],
+    "unknown_games": [],
+    "classified_games": {},
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 8.17
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
