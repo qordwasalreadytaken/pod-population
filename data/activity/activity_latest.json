@@ -1,43 +1,35 @@
 {
-    "timestamp": "2026-09-30T16:29:00+00:00",
+    "timestamp": "2026-09-30T16:45:00+00:00",
     "difficulty": {
-        "2": 5,
-        "0": 2
+        "2": 3,
+        "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 6
+        "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 4,
-        "0|0": 2
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asdasd",
-            "count": 2
-        },
-        {
             "name": "a hell",
-            "count": 1
-        },
-        {
-            "name": "asdasdasdasd",
             "count": 1
         },
         {
@@ -49,7 +41,7 @@
             "count": 1
         },
         {
-            "name": "wikid klownz",
+            "name": "asdasd",
             "count": 1
         }
     ],
@@ -67,39 +59,27 @@
             "examples": [
                 "111135"
             ]
-        },
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
-            ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asdasd",
-                "matched": "asd",
-                "count": 2
-            },
-            {
-                "name": "asdasdasdasd",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "n 3s nighwing 2",
                 "matched": "n",
                 "count": 1
             }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "asdasd",
+                "matched": "asd",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 9.5
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 8.25
     }
 }
