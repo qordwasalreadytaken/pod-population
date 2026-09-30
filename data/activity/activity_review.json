@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2958,
+        "count": 2960,
         "examples": [
             "1",
             "10",
@@ -17,7 +17,7 @@
     },
     {
         "normalized": "lvv",
-        "count": 1316,
+        "count": 1318,
         "examples": [
             "lvv"
         ]
@@ -183,6 +183,13 @@
         ]
     },
     {
+        "normalized": "eq",
+        "count": 86,
+        "examples": [
+            "eq"
+        ]
+    },
+    {
         "normalized": "atlas'#",
         "count": 86,
         "examples": [
@@ -192,13 +199,6 @@
             "atlas'4",
             "atlas'6",
             "atlas'8"
-        ]
-    },
-    {
-        "normalized": "eq",
-        "count": 84,
-        "examples": [
-            "eq"
         ]
     },
     {
@@ -1915,6 +1915,13 @@
         ]
     },
     {
+        "normalized": "ww",
+        "count": 8,
+        "examples": [
+            "ww"
+        ]
+    },
+    {
         "normalized": "vega",
         "count": 8,
         "examples": [
@@ -2523,13 +2530,6 @@
         ]
     },
     {
-        "normalized": "ww",
-        "count": 6,
-        "examples": [
-            "ww"
-        ]
-    },
-    {
         "normalized": "a game",
         "count": 6,
         "examples": [
@@ -2935,6 +2935,13 @@
         "count": 6,
         "examples": [
             "ddas"
+        ]
+    },
+    {
+        "normalized": "a#nm",
+        "count": 6,
+        "examples": [
+            "a3nm"
         ]
     },
     {
@@ -4276,13 +4283,6 @@
         "count": 4,
         "examples": [
             "j"
-        ]
-    },
-    {
-        "normalized": "a#nm",
-        "count": 4,
-        "examples": [
-            "a3nm"
         ]
     },
     {
@@ -7923,6 +7923,13 @@
         "count": 2,
         "examples": [
             "ssad"
+        ]
+    },
+    {
+        "normalized": "adsfgg",
+        "count": 2,
+        "examples": [
+            "adsfgg"
         ]
     }
 ]
