@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 2964,
+        "count": 2966,
         "examples": [
             "1",
             "10",
@@ -12,7 +12,7 @@
             "111131",
             "111132",
             "111133",
-            "1112"
+            "111135"
         ]
     },
     {
@@ -223,6 +223,13 @@
         ]
     },
     {
+        "normalized": "zxc",
+        "count": 66,
+        "examples": [
+            "zxc"
+        ]
+    },
+    {
         "normalized": "lel #",
         "count": 64,
         "examples": [
@@ -250,13 +257,6 @@
         "count": 64,
         "examples": [
             "kill bill"
-        ]
-    },
-    {
-        "normalized": "zxc",
-        "count": 62,
-        "examples": [
-            "zxc"
         ]
     },
     {
