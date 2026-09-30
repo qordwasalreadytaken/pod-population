@@ -1,17 +1,13 @@
 {
-    "timestamp": "2026-09-30T21:25:00+00:00",
+    "timestamp": "2026-09-30T21:38:00+00:00",
     "difficulty": {
-        "2": 4,
-        "1": 1,
-        "0": 1
+        "2": 4
     },
     "mode": {
-        "0": 6
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 4,
-        "1|0": 1,
-        "0|0": 1
+        "2|0": 4
     },
     "activities": [
         {
@@ -20,20 +16,20 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asdasd",
-            "count": 2
+            "name": "n silkweave",
+            "count": 1
         },
         {
-            "name": "n silkweave",
+            "name": "asdasd",
             "count": 1
         },
         {
@@ -43,10 +39,6 @@
         {
             "name": "n magic facet",
             "count": 1
-        },
-        {
-            "name": "dsad",
-            "count": 1
         }
     ],
     "unknown_games": [
@@ -55,13 +47,6 @@
             "count": 2,
             "examples": [
                 "dsda"
-            ]
-        },
-        {
-            "normalized": "dsad",
-            "count": 2,
-            "examples": [
-                "dsad"
             ]
         }
     ],
@@ -82,13 +67,13 @@
             {
                 "name": "asdasd",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 6,
-        "average_name_length": 7.6
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 8.5
     }
 }
