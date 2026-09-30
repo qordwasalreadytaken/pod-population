@@ -1,21 +1,19 @@
 {
-    "timestamp": "2026-09-30T22:26:00+00:00",
+    "timestamp": "2026-09-30T22:38:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1,
-        "0": 1
+        "2": 3,
+        "1": 1
     },
     "mode": {
         "0": 4
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 1,
-        "0|0": 1
+        "2|0": 3,
+        "1|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 2
         },
         {
@@ -23,13 +21,13 @@
             "count": 1
         },
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asdasd",
+            "name": "n silkweave",
             "count": 2
         },
         {
@@ -37,7 +35,7 @@
             "count": 1
         },
         {
-            "name": "n silkweave",
+            "name": "asdasd",
             "count": 1
         }
     ],
@@ -55,14 +53,14 @@
             {
                 "name": "n silkweave",
                 "matched": "n",
-                "count": 1
+                "count": 2
             }
         ],
         "Misc. Public MF Runs": [
             {
                 "name": "asdasd",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             }
         ]
     },
