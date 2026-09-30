@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-09-30T08:55:00+00:00",
+    "timestamp": "2026-09-30T09:06:00+00:00",
     "difficulty": {
         "2": 2
     },
@@ -11,7 +11,7 @@
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
@@ -21,7 +21,7 @@
     ],
     "top_games": [
         {
-            "name": "dadas",
+            "name": "asda",
             "count": 1
         },
         {
@@ -29,16 +29,15 @@
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "dadas",
-            "count": 2,
-            "examples": [
-                "dadas"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asda",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n silkweave",
@@ -50,6 +49,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 8.0
+        "average_name_length": 7.5
     }
 }
