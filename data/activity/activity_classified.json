@@ -511,7 +511,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "buy",
+            "matched": "torch",
             "count": 12
         },
         {
@@ -886,7 +886,7 @@
         },
         {
             "name": "n poisonb gc",
-            "matched": "iso",
+            "matched": "n",
             "count": 4
         },
         {
@@ -1111,6 +1111,11 @@
         },
         {
             "name": "n 3s nighwing 2",
+            "matched": "n",
+            "count": 3
+        },
+        {
+            "name": "n java life frw",
             "matched": "n",
             "count": 3
         },
@@ -1485,11 +1490,6 @@
             "count": 2
         },
         {
-            "name": "n java life frw",
-            "matched": "n",
-            "count": 2
-        },
-        {
             "name": "n paladin gear",
             "matched": "n",
             "count": 1
@@ -1716,7 +1716,7 @@
         },
         {
             "name": "n oocs wuw",
-            "matched": "wuw",
+            "matched": "n",
             "count": 1
         },
         {
@@ -2166,7 +2166,7 @@
         },
         {
             "name": "n barb torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -2298,7 +2298,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "act",
+            "matched": "andar",
             "count": 12
         },
         {
@@ -2388,7 +2388,7 @@
         },
         {
             "name": "act 2 - normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 6
         },
         {
@@ -2488,7 +2488,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 3
         },
         {
@@ -2613,7 +2613,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "exp",
+            "matched": "act",
             "count": 2
         },
         {
@@ -2723,7 +2723,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -3018,7 +3018,7 @@
         {
             "name": "asdasd",
             "matched": "asd",
-            "count": 154
+            "count": 155
         },
         {
             "name": "asda",
@@ -3622,7 +3622,7 @@
         },
         {
             "name": "asdsd36aaaa",
-            "matched": "asd",
+            "matched": "aaa",
             "count": 2
         },
         {
@@ -4032,7 +4032,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "mf",
+            "matched": "run",
             "count": 1
         },
         {
@@ -5066,7 +5066,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 7
         },
         {
@@ -5121,7 +5121,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "mapping",
+            "matched": "map",
             "count": 4
         },
         {
@@ -5326,7 +5326,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -5341,7 +5341,7 @@
         },
         {
             "name": "mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -5378,17 +5378,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
