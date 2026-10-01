@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-10-01T01:56:00+00:00",
+    "timestamp": "2026-10-01T02:28:00+00:00",
     "difficulty": {
-        "0": 5,
+        "0": 4,
         "2": 1
     },
     "mode": {
         "1": 1,
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
         "0|1": 1,
         "2|0": 1,
-        "0|0": 4
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 6
+            "count": 5
         }
     ],
     "top_games": [
@@ -29,19 +29,15 @@
             "count": 1
         },
         {
+            "name": "i w pooping-_-2",
+            "count": 1
+        },
+        {
             "name": "new boy in town",
             "count": 1
         },
         {
             "name": "morbius inc",
-            "count": 1
-        },
-        {
-            "name": "new boi in town",
-            "count": 1
-        },
-        {
-            "name": "i w pooping-_-1",
             "count": 1
         }
     ],
@@ -61,6 +57,13 @@
             ]
         },
         {
+            "normalized": "i w pooping-_-#",
+            "count": 2,
+            "examples": [
+                "i w pooping-_-2"
+            ]
+        },
+        {
             "normalized": "new boy in town",
             "count": 2,
             "examples": [
@@ -73,26 +76,12 @@
             "examples": [
                 "morbius inc"
             ]
-        },
-        {
-            "normalized": "new boi in town",
-            "count": 2,
-            "examples": [
-                "new boi in town"
-            ]
-        },
-        {
-            "normalized": "i w pooping-_-#",
-            "count": 2,
-            "examples": [
-                "i w pooping-_-1"
-            ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 10.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 9.0
     }
 }
