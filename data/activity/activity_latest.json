@@ -1,45 +1,45 @@
 {
-    "timestamp": "2026-10-01T20:51:00+00:00",
+    "timestamp": "2026-10-01T21:04:00+00:00",
     "difficulty": {
-        "2": 4,
-        "0": 1
+        "2": 5,
+        "0": 2
     },
     "mode": {
-        "0": 5
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 4,
-        "0|0": 1
+        "2|0": 5,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Trade",
+            "count": 3
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
             "name": "Other",
             "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "asdasd",
+            "count": 2
+        },
+        {
+            "name": "n silkweave",
+            "count": 2
+        },
         {
             "name": "n sorc torch",
             "count": 1
         },
         {
-            "name": "2115",
-            "count": 1
-        },
-        {
-            "name": "asdasd",
-            "count": 1
-        },
-        {
-            "name": "n silkweave",
+            "name": "sss",
             "count": 1
         },
         {
@@ -49,10 +49,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "#",
+            "normalized": "sss",
             "count": 2,
             "examples": [
-                "2115"
+                "sss"
             ]
         },
         {
@@ -64,29 +64,29 @@
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n sorc torch",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "n silkweave",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asdasd",
                 "matched": "asd",
+                "count": 2
+            }
+        ],
+        "Trade": [
+            {
+                "name": "n silkweave",
+                "matched": "n",
+                "count": 2
+            },
+            {
+                "name": "n sorc torch",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 9.0
+        "public_games": 7,
+        "average_name_length": 8.8
     }
 }
