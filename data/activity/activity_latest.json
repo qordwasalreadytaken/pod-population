@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-01T21:24:00+00:00",
+    "timestamp": "2026-10-01T21:36:00+00:00",
     "difficulty": {
         "2": 2,
         "0": 2
@@ -13,15 +13,15 @@
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 1
         },
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 1
         }
     ],
@@ -39,7 +39,7 @@
             "count": 1
         },
         {
-            "name": "wikid klownz",
+            "name": "tombrun",
             "count": 1
         }
     ],
@@ -50,13 +50,6 @@
             "examples": [
                 "sss"
             ]
-        },
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
-            ]
         }
     ],
     "classified_games": {
@@ -64,6 +57,11 @@
             {
                 "name": "asdasd",
                 "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "tombrun",
+                "matched": "run",
                 "count": 1
             }
         ],
@@ -78,6 +76,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 8.0
+        "average_name_length": 6.75
     }
 }
