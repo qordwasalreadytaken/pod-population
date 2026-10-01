@@ -1,16 +1,14 @@
 {
-    "timestamp": "2026-10-01T20:28:00+00:00",
+    "timestamp": "2026-10-01T20:43:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 1,
+        "2": 4,
         "0": 2
     },
     "mode": {
         "0": 6
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "1|0": 1,
+        "2|0": 4,
         "0|0": 2
     },
     "activities": [
@@ -29,7 +27,7 @@
     ],
     "top_games": [
         {
-            "name": "asdasd",
+            "name": "2115",
             "count": 1
         },
         {
@@ -37,11 +35,11 @@
             "count": 1
         },
         {
-            "name": "n silkweave",
+            "name": "asdasd",
             "count": 1
         },
         {
-            "name": "2114",
+            "name": "n silkweave",
             "count": 1
         },
         {
@@ -55,17 +53,17 @@
     ],
     "unknown_games": [
         {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "2115"
+            ]
+        },
+        {
             "normalized": "sss",
             "count": 2,
             "examples": [
                 "sss"
-            ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "2114"
             ]
         },
         {
