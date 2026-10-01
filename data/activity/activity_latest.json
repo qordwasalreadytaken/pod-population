@@ -1,39 +1,43 @@
 {
-    "timestamp": "2026-10-01T00:17:00+00:00",
+    "timestamp": "2026-10-01T01:21:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 2,
         "1": 1,
-        "0": 1
+        "0": 2
     },
     "mode": {
-        "0": 3
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 1,
+        "2|0": 2,
         "1|0": 1,
-        "0|0": 1
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "113",
-            "count": 1
-        },
-        {
             "name": "asdasd",
+            "count": 2
+        },
+        {
+            "name": "115",
             "count": 1
         },
         {
-            "name": "i w pooping-_-",
+            "name": "i w pooping-_-1",
+            "count": 1
+        },
+        {
+            "name": "wikid klownz",
             "count": 1
         }
     ],
@@ -42,14 +46,21 @@
             "normalized": "#",
             "count": 2,
             "examples": [
-                "113"
+                "115"
             ]
         },
         {
-            "normalized": "i w pooping-_-",
+            "normalized": "i w pooping-_-#",
             "count": 2,
             "examples": [
-                "i w pooping-_-"
+                "i w pooping-_-1"
+            ]
+        },
+        {
+            "normalized": "wikid klownz",
+            "count": 2,
+            "examples": [
+                "wikid klownz"
             ]
         }
     ],
@@ -58,13 +69,13 @@
             {
                 "name": "asdasd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 7.67
+        "unique_names": 4,
+        "public_games": 5,
+        "average_name_length": 9.0
     }
 }
