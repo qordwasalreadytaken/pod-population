@@ -1,20 +1,18 @@
 {
-    "timestamp": "2026-10-01T02:56:00+00:00",
+    "timestamp": "2026-10-01T03:17:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "2": 2
     },
     "mode": {
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "0|0": 1
+        "2|0": 2
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 2
+            "name": "Trade",
+            "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
@@ -23,29 +21,23 @@
     ],
     "top_games": [
         {
+            "name": "n frw bk ring",
+            "count": 1
+        },
+        {
             "name": "asdads",
             "count": 1
-        },
-        {
-            "name": "116",
-            "count": 1
-        },
-        {
-            "name": "1",
-            "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "#",
-            "count": 4,
-            "examples": [
-                "1",
-                "116"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n frw bk ring",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asdads",
@@ -55,8 +47,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 3.33
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 9.5
     }
 }
