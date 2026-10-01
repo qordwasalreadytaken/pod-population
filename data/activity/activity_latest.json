@@ -1,40 +1,27 @@
 {
-    "timestamp": "2026-10-01T15:50:00+00:00",
+    "timestamp": "2026-10-01T16:05:00+00:00",
     "difficulty": {
-        "2": 2,
         "1": 1
     },
     "mode": {
-        "0": 3
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 2,
         "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "t",
-            "count": 2
-        },
         {
             "name": "i w pooping",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "t",
-            "count": 4,
-            "examples": [
-                "t"
-            ]
-        },
         {
             "normalized": "i w pooping",
             "count": 2,
@@ -45,8 +32,8 @@
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 3,
-        "average_name_length": 6.0
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 11.0
     }
 }
