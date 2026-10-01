@@ -1,17 +1,24 @@
 {
-    "timestamp": "2026-10-01T04:06:00+00:00",
+    "timestamp": "2026-10-01T04:31:00+00:00",
     "difficulty": {
-        "2": 2,
+        "1": 1,
+        "2": 3,
         "0": 1
     },
     "mode": {
-        "0": 3
+        "1": 1,
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 2,
+        "1|1": 1,
+        "2|0": 3,
         "0|0": 1
     },
     "activities": [
+        {
+            "name": "Other",
+            "count": 3
+        },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
@@ -19,13 +26,17 @@
         {
             "name": "Trade",
             "count": 1
-        },
-        {
-            "name": "Other",
-            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "11",
+            "count": 1
+        },
+        {
+            "name": "111137",
+            "count": 1
+        },
         {
             "name": "asdads",
             "count": 1
@@ -40,6 +51,14 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "#",
+            "count": 4,
+            "examples": [
+                "11",
+                "111137"
+            ]
+        },
         {
             "normalized": "wikid klownz",
             "count": 2,
@@ -65,8 +84,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 10.67
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 8.0
     }
 }
