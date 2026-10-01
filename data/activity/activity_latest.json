@@ -1,42 +1,78 @@
 {
-    "timestamp": "2026-10-01T22:47:00+00:00",
+    "timestamp": "2026-10-01T23:04:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
+        "1": 1,
+        "2": 2,
+        "0": 4
     },
     "mode": {
-        "0": 2
+        "1": 1,
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 1
+        "1|1": 1,
+        "2|0": 2,
+        "0|0": 4
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "name": "Other",
+            "count": 6
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "sss",
+            "count": 3
+        },
+        {
+            "name": "qe",
+            "count": 1
+        },
+        {
+            "name": "122",
+            "count": 1
+        },
+        {
             "name": "asdasd",
             "count": 1
         },
         {
-            "name": "sss",
+            "name": "wikid klownz",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "sss",
-            "count": 2,
+            "count": 6,
             "examples": [
                 "sss"
+            ]
+        },
+        {
+            "normalized": "qe",
+            "count": 2,
+            "examples": [
+                "qe"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "122"
+            ]
+        },
+        {
+            "normalized": "wikid klownz",
+            "count": 2,
+            "examples": [
+                "wikid klownz"
             ]
         }
     ],
@@ -50,8 +86,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 4.5
+        "unique_names": 5,
+        "public_games": 7,
+        "average_name_length": 5.2
     }
 }
