@@ -357,7 +357,7 @@
         {
             "name": "n silkweave",
             "matched": "n",
-            "count": 302
+            "count": 303
         },
         {
             "name": "n fireskillers",
@@ -570,6 +570,11 @@
             "count": 9
         },
         {
+            "name": "n sorc torch",
+            "matched": "n",
+            "count": 8
+        },
+        {
             "name": "n fire skiller",
             "matched": "n",
             "count": 8
@@ -611,11 +616,6 @@
         },
         {
             "name": "n eth 2",
-            "matched": "n",
-            "count": 7
-        },
-        {
-            "name": "n sorc torch",
             "matched": "n",
             "count": 7
         },
@@ -2488,7 +2488,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "start",
+            "matched": "act",
             "count": 3
         },
         {
@@ -2538,7 +2538,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -2613,7 +2613,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "exp",
+            "matched": "act",
             "count": 2
         },
         {
@@ -2723,7 +2723,7 @@
         },
         {
             "name": "act start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -3018,7 +3018,7 @@
         {
             "name": "asdasd",
             "matched": "asd",
-            "count": 158
+            "count": 159
         },
         {
             "name": "asda",
@@ -4032,7 +4032,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "mf",
+            "matched": "run",
             "count": 1
         },
         {
@@ -4097,7 +4097,7 @@
         },
         {
             "name": "14123awdasdfqwr",
-            "matched": "123",
+            "matched": "asd",
             "count": 1
         },
         {
@@ -5066,7 +5066,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 7
         },
         {
@@ -5111,7 +5111,7 @@
         },
         {
             "name": "desert maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 5
         },
         {
@@ -5121,7 +5121,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "map",
+            "matched": "mapping",
             "count": 4
         },
         {
@@ -5151,7 +5151,7 @@
         },
         {
             "name": "public maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 4
         },
         {
@@ -5201,7 +5201,7 @@
         },
         {
             "name": "slow maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 3
         },
         {
@@ -5256,12 +5256,12 @@
         },
         {
             "name": "t maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
             "name": "t maps 2",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
@@ -5286,7 +5286,7 @@
         },
         {
             "name": "maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 1
         },
         {
@@ -5326,12 +5326,12 @@
         },
         {
             "name": "mapping 2",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
             "name": "maps?2",
-            "matched": "maps",
+            "matched": "map",
             "count": 1
         },
         {
@@ -5341,7 +5341,7 @@
         },
         {
             "name": "mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -5351,7 +5351,7 @@
         },
         {
             "name": "maps 3",
-            "matched": "maps",
+            "matched": "map",
             "count": 1
         },
         {
@@ -5378,17 +5378,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
