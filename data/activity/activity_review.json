@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 3002,
+        "count": 3004,
         "examples": [
             "1",
             "10",
@@ -267,6 +267,13 @@
         ]
     },
     {
+        "normalized": "morbius inc",
+        "count": 50,
+        "examples": [
+            "morbius inc"
+        ]
+    },
+    {
         "normalized": "onek",
         "count": 50,
         "examples": [
@@ -278,13 +285,6 @@
         "count": 48,
         "examples": [
             "yep"
-        ]
-    },
-    {
-        "normalized": "morbius inc",
-        "count": 48,
-        "examples": [
-            "morbius inc"
         ]
     },
     {
@@ -3768,6 +3768,13 @@
         ]
     },
     {
+        "normalized": "d",
+        "count": 4,
+        "examples": [
+            "d"
+        ]
+    },
+    {
         "normalized": "hows",
         "count": 4,
         "examples": [
@@ -4319,6 +4326,13 @@
         "count": 4,
         "examples": [
             "i w pooping-_-"
+        ]
+    },
+    {
+        "normalized": "i w pooping-_-#",
+        "count": 4,
+        "examples": [
+            "i w pooping-_-1"
         ]
     },
     {
@@ -7010,13 +7024,6 @@
         ]
     },
     {
-        "normalized": "d",
-        "count": 2,
-        "examples": [
-            "d"
-        ]
-    },
-    {
         "normalized": "kenitoo",
         "count": 2,
         "examples": [
@@ -8004,10 +8011,17 @@
         ]
     },
     {
-        "normalized": "i w pooping-_-#",
+        "normalized": "new boy in town",
         "count": 2,
         "examples": [
-            "i w pooping-_-1"
+            "new boy in town"
+        ]
+    },
+    {
+        "normalized": "new boi in town",
+        "count": 2,
+        "examples": [
+            "new boi in town"
         ]
     }
 ]
