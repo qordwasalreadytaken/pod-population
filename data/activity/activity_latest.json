@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-02T03:52:00+00:00",
+    "timestamp": "2026-10-02T04:06:00+00:00",
     "difficulty": {
         "2": 4,
         "0": 1
@@ -27,7 +27,7 @@
             "count": 2
         },
         {
-            "name": "tt",
+            "name": "124",
             "count": 1
         },
         {
@@ -41,10 +41,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "tt",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "tt"
+                "124"
             ]
         },
         {
@@ -72,6 +72,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 5,
-        "average_name_length": 5.75
+        "average_name_length": 6.0
     }
 }
