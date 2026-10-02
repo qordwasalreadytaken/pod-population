@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-10-02T20:36:00+00:00",
+    "timestamp": "2026-10-02T20:49:00+00:00",
     "difficulty": {
-        "2": 7,
+        "2": 5,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 7
+        "0": 5
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 6,
+        "2|0": 4,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 6
+            "count": 4
         },
         {
             "name": "Misc. Public MF Runs",
@@ -29,11 +29,11 @@
     ],
     "top_games": [
         {
-            "name": "c",
-            "count": 3
+            "name": "killbi",
+            "count": 1
         },
         {
-            "name": "killb",
+            "name": "c",
             "count": 1
         },
         {
@@ -55,17 +55,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "c",
-            "count": 6,
+            "normalized": "killbi",
+            "count": 2,
             "examples": [
-                "c"
+                "killbi"
             ]
         },
         {
-            "normalized": "killb",
+            "normalized": "c",
             "count": 2,
             "examples": [
-                "killb"
+                "c"
             ]
         },
         {
@@ -101,7 +101,7 @@
     },
     "interesting": {
         "unique_names": 6,
-        "public_games": 8,
-        "average_name_length": 6.67
+        "public_games": 6,
+        "average_name_length": 6.83
     }
 }
