@@ -1,73 +1,82 @@
 {
-    "timestamp": "2026-10-02T16:52:00+00:00",
+    "timestamp": "2026-10-02T17:04:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 4
+        "2": 6,
+        "1": 1
     },
     "mode": {
-        "0": 7
+        "1": 1,
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "1|0": 4
+        "2|1": 1,
+        "2|0": 5,
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
         },
         {
-            "name": "Chaos",
-            "count": 3
+            "name": "Rush",
+            "count": 1
         },
         {
             "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Chaos",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "b war traveler",
-            "count": 2
+            "count": 3
+        },
+        {
+            "name": "killb",
+            "count": 1
+        },
+        {
+            "name": "hellrush",
+            "count": 1
         },
         {
             "name": "n 15ias titans",
             "count": 1
         },
         {
-            "name": "nmdia-4",
-            "count": 1
-        },
-        {
-            "name": "nmdia-3",
-            "count": 1
-        },
-        {
-            "name": "nmdia-2",
-            "count": 1
-        },
-        {
-            "name": "a nm",
+            "name": "nmdia-5",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "b war traveler",
-            "count": 4,
+            "count": 6,
             "examples": [
                 "b war traveler"
             ]
         },
         {
-            "normalized": "a nm",
+            "normalized": "killb",
             "count": 2,
             "examples": [
-                "a nm"
+                "killb"
             ]
         }
     ],
     "classified_games": {
+        "Rush": [
+            {
+                "name": "hellrush",
+                "matched": "rush",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n 15ias titans",
@@ -77,25 +86,15 @@
         ],
         "Chaos": [
             {
-                "name": "nmdia-4",
-                "matched": "dia",
-                "count": 1
-            },
-            {
-                "name": "nmdia-3",
-                "matched": "dia",
-                "count": 1
-            },
-            {
-                "name": "nmdia-2",
+                "name": "nmdia-5",
                 "matched": "dia",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
+        "unique_names": 5,
         "public_games": 7,
-        "average_name_length": 8.83
+        "average_name_length": 9.6
     }
 }
