@@ -1,33 +1,27 @@
 {
-    "timestamp": "2026-10-02T18:31:00+00:00",
+    "timestamp": "2026-10-02T18:52:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 2
     },
     "mode": {
-        "1": 1,
         "0": 2
     },
     "difficulty_mode": {
-        "2|1": 1,
         "2|0": 2
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 2
+            "name": "Other",
+            "count": 1
         },
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "killb",
-            "count": 1
-        },
-        {
-            "name": "n sorc torch",
+            "name": "chill",
             "count": 1
         },
         {
@@ -37,20 +31,15 @@
     ],
     "unknown_games": [
         {
-            "normalized": "killb",
+            "normalized": "chill",
             "count": 2,
             "examples": [
-                "killb"
+                "chill"
             ]
         }
     ],
     "classified_games": {
         "Trade": [
-            {
-                "name": "n sorc torch",
-                "matched": "n",
-                "count": 1
-            },
             {
                 "name": "n silkweave",
                 "matched": "n",
@@ -59,8 +48,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 9.33
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 8.0
     }
 }
