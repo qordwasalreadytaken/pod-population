@@ -1,41 +1,49 @@
 {
-    "timestamp": "2026-10-02T19:22:00+00:00",
+    "timestamp": "2026-10-02T19:35:00+00:00",
     "difficulty": {
-        "2": 5,
+        "2": 7,
         "1": 2,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 7
+        "0": 9
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 4,
+        "2|0": 6,
         "1|0": 2,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
+            "count": 5
+        },
+        {
+            "name": "Trade",
             "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
-        },
-        {
-            "name": "Trade",
             "count": 2
         }
     ],
     "top_games": [
         {
+            "name": "n silkweave",
+            "count": 2
+        },
+        {
             "name": "killb",
             "count": 1
         },
         {
-            "name": "dasd",
+            "name": "dsad",
+            "count": 1
+        },
+        {
+            "name": "ssda",
             "count": 1
         },
         {
@@ -44,10 +52,6 @@
         },
         {
             "name": "n druid torch",
-            "count": 1
-        },
-        {
-            "name": "n silkweave",
             "count": 1
         },
         {
@@ -72,6 +76,20 @@
             ]
         },
         {
+            "normalized": "dsad",
+            "count": 2,
+            "examples": [
+                "dsad"
+            ]
+        },
+        {
+            "normalized": "ssda",
+            "count": 2,
+            "examples": [
+                "ssda"
+            ]
+        },
+        {
             "normalized": "need titans",
             "count": 2,
             "examples": [
@@ -87,12 +105,19 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "dasd",
-                "matched": "asd",
-                "count": 1
+                "name": "n silkweave",
+                "matched": "n",
+                "count": 2
             },
+            {
+                "name": "n druid torch",
+                "matched": "torch",
+                "count": 1
+            }
+        ],
+        "Misc. Public MF Runs": [
             {
                 "name": "aa",
                 "matched": "aa",
@@ -103,23 +128,11 @@
                 "matched": "gord",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "n druid torch",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "n silkweave",
-                "matched": "n",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 8,
-        "average_name_length": 7.75
+        "unique_names": 9,
+        "public_games": 10,
+        "average_name_length": 7.33
     }
 }
