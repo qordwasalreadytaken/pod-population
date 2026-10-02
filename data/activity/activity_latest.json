@@ -1,22 +1,24 @@
 {
-    "timestamp": "2026-10-02T19:47:00+00:00",
+    "timestamp": "2026-10-02T20:05:00+00:00",
     "difficulty": {
         "2": 7,
-        "1": 2
+        "1": 2,
+        "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 8
+        "0": 9
     },
     "difficulty_mode": {
         "2|1": 1,
         "2|0": 6,
-        "1|0": 2
+        "1|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 6
         },
         {
             "name": "Misc. Public MF Runs",
@@ -24,36 +26,28 @@
         },
         {
             "name": "Trade",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "c",
+            "count": 2
+        },
+        {
+            "name": "asdasd",
+            "count": 2
+        },
+        {
+            "name": "need titans",
+            "count": 2
+        },
         {
             "name": "killb",
             "count": 1
         },
         {
-            "name": "dasd",
-            "count": 1
-        },
-        {
-            "name": "ddsa",
-            "count": 1
-        },
-        {
-            "name": "asdasd",
-            "count": 1
-        },
-        {
             "name": "n silkweave",
-            "count": 1
-        },
-        {
-            "name": "need titans",
-            "count": 1
-        },
-        {
-            "name": "n druid torch",
             "count": 1
         },
         {
@@ -67,24 +61,24 @@
     ],
     "unknown_games": [
         {
-            "normalized": "killb",
-            "count": 2,
+            "normalized": "c",
+            "count": 4,
             "examples": [
-                "killb"
-            ]
-        },
-        {
-            "normalized": "ddsa",
-            "count": 2,
-            "examples": [
-                "ddsa"
+                "c"
             ]
         },
         {
             "normalized": "need titans",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "need titans"
+            ]
+        },
+        {
+            "normalized": "killb",
+            "count": 2,
+            "examples": [
+                "killb"
             ]
         },
         {
@@ -98,14 +92,9 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "dasd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
                 "name": "asdasd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             },
             {
                 "name": "gord",
@@ -118,17 +107,12 @@
                 "name": "n silkweave",
                 "matched": "n",
                 "count": 1
-            },
-            {
-                "name": "n druid torch",
-                "matched": "torch",
-                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 9,
-        "public_games": 9,
-        "average_name_length": 7.11
+        "unique_names": 7,
+        "public_games": 10,
+        "average_name_length": 6.29
     }
 }
