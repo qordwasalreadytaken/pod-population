@@ -456,7 +456,7 @@
         },
         {
             "name": "n druid torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 20
         },
         {
@@ -891,7 +891,7 @@
         },
         {
             "name": "n poisonb gc",
-            "matched": "iso",
+            "matched": "n",
             "count": 4
         },
         {
@@ -911,6 +911,11 @@
         },
         {
             "name": "n arreats 1",
+            "matched": "n",
+            "count": 4
+        },
+        {
+            "name": "n 15ias titans",
             "matched": "n",
             "count": 4
         },
@@ -1121,11 +1126,6 @@
         },
         {
             "name": "n dragoon weapo",
-            "matched": "n",
-            "count": 3
-        },
-        {
-            "name": "n 15ias titans",
             "matched": "n",
             "count": 3
         },
@@ -2181,7 +2181,7 @@
         },
         {
             "name": "n barb torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -2453,7 +2453,7 @@
         },
         {
             "name": "acte andy",
-            "matched": "andy",
+            "matched": "act",
             "count": 5
         },
         {
@@ -2558,7 +2558,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -2878,7 +2878,7 @@
         },
         {
             "name": "1act - normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -3652,7 +3652,7 @@
         },
         {
             "name": "asdsd36aaaa",
-            "matched": "aaa",
+            "matched": "asd",
             "count": 2
         },
         {
@@ -4132,7 +4132,7 @@
         },
         {
             "name": "14123awdasdfqwr",
-            "matched": "123",
+            "matched": "asd",
             "count": 1
         },
         {
@@ -5056,6 +5056,21 @@
             "name": "hell cs -24",
             "matched": "cs",
             "count": 1
+        },
+        {
+            "name": "nmdia-4",
+            "matched": "dia",
+            "count": 1
+        },
+        {
+            "name": "nmdia-3",
+            "matched": "dia",
+            "count": 1
+        },
+        {
+            "name": "nmdia-2",
+            "matched": "dia",
+            "count": 1
         }
     ],
     "Maps": [
@@ -5101,7 +5116,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 7
         },
         {
@@ -5156,7 +5171,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "map",
+            "matched": "mapping",
             "count": 4
         },
         {
@@ -5361,7 +5376,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -5376,7 +5391,7 @@
         },
         {
             "name": "mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -5413,17 +5428,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]

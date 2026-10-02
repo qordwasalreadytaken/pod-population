@@ -1,19 +1,23 @@
 {
-    "timestamp": "2026-10-02T16:44:00+00:00",
+    "timestamp": "2026-10-02T16:52:00+00:00",
     "difficulty": {
         "2": 3,
-        "1": 1
+        "1": 4
     },
     "mode": {
-        "0": 4
+        "0": 7
     },
     "difficulty_mode": {
         "2|0": 3,
-        "1|0": 1
+        "1|0": 4
     },
     "activities": [
         {
             "name": "Other",
+            "count": 3
+        },
+        {
+            "name": "Chaos",
             "count": 3
         },
         {
@@ -28,6 +32,18 @@
         },
         {
             "name": "n 15ias titans",
+            "count": 1
+        },
+        {
+            "name": "nmdia-4",
+            "count": 1
+        },
+        {
+            "name": "nmdia-3",
+            "count": 1
+        },
+        {
+            "name": "nmdia-2",
             "count": 1
         },
         {
@@ -58,11 +74,28 @@
                 "matched": "n",
                 "count": 1
             }
+        ],
+        "Chaos": [
+            {
+                "name": "nmdia-4",
+                "matched": "dia",
+                "count": 1
+            },
+            {
+                "name": "nmdia-3",
+                "matched": "dia",
+                "count": 1
+            },
+            {
+                "name": "nmdia-2",
+                "matched": "dia",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 4,
-        "average_name_length": 10.67
+        "unique_names": 6,
+        "public_games": 7,
+        "average_name_length": 8.83
     }
 }
