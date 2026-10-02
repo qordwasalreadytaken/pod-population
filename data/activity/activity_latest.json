@@ -1,27 +1,31 @@
 {
-    "timestamp": "2026-10-02T14:45:00+00:00",
+    "timestamp": "2026-10-02T15:05:00+00:00",
     "difficulty": {
         "1": 2,
         "2": 2,
-        "0": 2
+        "0": 3
     },
     "mode": {
         "1": 1,
-        "0": 5
+        "0": 6
     },
     "difficulty_mode": {
         "1|1": 1,
         "2|0": 2,
         "1|0": 1,
-        "0|0": 2
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 4
         },
         {
             "name": "Misc. Public MF Runs",
+            "count": 2
+        },
+        {
+            "name": "Baal",
             "count": 1
         }
     ],
@@ -43,7 +47,11 @@
             "count": 1
         },
         {
-            "name": "zzz",
+            "name": "nasdb",
+            "count": 1
+        },
+        {
+            "name": "baal normal",
             "count": 1
         },
         {
@@ -68,13 +76,6 @@
             ]
         },
         {
-            "normalized": "zzz",
-            "count": 2,
-            "examples": [
-                "zzz"
-            ]
-        },
-        {
             "normalized": "wikid klownz",
             "count": 2,
             "examples": [
@@ -88,12 +89,24 @@
                 "name": "asdasd",
                 "matched": "asd",
                 "count": 1
+            },
+            {
+                "name": "nasdb",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
+        "Baal": [
+            {
+                "name": "baal normal",
+                "matched": "baal",
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 5.83
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 6.86
     }
 }
