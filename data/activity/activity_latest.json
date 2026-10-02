@@ -1,55 +1,46 @@
 {
-    "timestamp": "2026-10-02T03:10:00+00:00",
+    "timestamp": "2026-10-02T03:31:00+00:00",
     "difficulty": {
         "2": 2,
-        "1": 1
-    },
-    "mode": {
-        "1": 2,
         "0": 1
     },
+    "mode": {
+        "0": 3
+    },
     "difficulty_mode": {
-        "2|1": 1,
-        "1|1": 1,
-        "2|0": 1
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "killbills",
-            "count": 1
-        },
-        {
-            "name": "qe",
-            "count": 1
-        },
-        {
             "name": "asdads",
+            "count": 1
+        },
+        {
+            "name": "123",
+            "count": 1
+        },
+        {
+            "name": "wikid klownz",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "killbills",
+            "normalized": "wikid klownz",
             "count": 2,
             "examples": [
-                "killbills"
-            ]
-        },
-        {
-            "normalized": "qe",
-            "count": 2,
-            "examples": [
-                "qe"
+                "wikid klownz"
             ]
         }
     ],
@@ -59,12 +50,17 @@
                 "name": "asdads",
                 "matched": "asd",
                 "count": 1
+            },
+            {
+                "name": "123",
+                "matched": "123",
+                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 5.67
+        "average_name_length": 7.0
     }
 }
