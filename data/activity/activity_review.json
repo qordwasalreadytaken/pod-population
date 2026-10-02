@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 3066,
+        "count": 3068,
         "examples": [
             "0",
             "1",
@@ -160,6 +160,13 @@
         ]
     },
     {
+        "normalized": "eq",
+        "count": 92,
+        "examples": [
+            "eq"
+        ]
+    },
+    {
         "normalized": "keys #",
         "count": 92,
         "examples": [
@@ -173,13 +180,6 @@
             "keys 24",
             "keys 25",
             "keys 26"
-        ]
-    },
-    {
-        "normalized": "eq",
-        "count": 90,
-        "examples": [
-            "eq"
         ]
     },
     {
@@ -1468,6 +1468,13 @@
         ]
     },
     {
+        "normalized": "killbills",
+        "count": 12,
+        "examples": [
+            "killbills"
+        ]
+    },
+    {
         "normalized": "dsda",
         "count": 12,
         "examples": [
@@ -1779,13 +1786,6 @@
         "count": 10,
         "examples": [
             "hit"
-        ]
-    },
-    {
-        "normalized": "killbills",
-        "count": 10,
-        "examples": [
-            "killbills"
         ]
     },
     {
