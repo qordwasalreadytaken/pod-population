@@ -1,91 +1,57 @@
 {
-    "timestamp": "2026-10-02T15:26:00+00:00",
+    "timestamp": "2026-10-02T15:40:00+00:00",
     "difficulty": {
-        "1": 1,
-        "2": 2,
-        "0": 2
+        "2": 1,
+        "1": 1
     },
     "mode": {
-        "1": 1,
-        "0": 4
+        "0": 2
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "2|0": 2,
-        "0|0": 2
+        "2|0": 1,
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "qe",
+            "name": "12121213",
             "count": 1
         },
         {
-            "name": "asdasd",
-            "count": 1
-        },
-        {
-            "name": "12121212",
-            "count": 1
-        },
-        {
-            "name": "nasdb",
-            "count": 1
-        },
-        {
-            "name": "wikid klownz",
+            "name": "act 1 nightmare",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "qe",
-            "count": 2,
-            "examples": [
-                "qe"
-            ]
-        },
-        {
             "normalized": "#",
             "count": 2,
             "examples": [
-                "12121212"
-            ]
-        },
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
+                "12121213"
             ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Leveling": [
             {
-                "name": "asdasd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "nasdb",
-                "matched": "asd",
+                "name": "act 1 nightmare",
+                "matched": "act",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.6
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 11.5
     }
 }
