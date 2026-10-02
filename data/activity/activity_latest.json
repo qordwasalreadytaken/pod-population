@@ -1,29 +1,33 @@
 {
-    "timestamp": "2026-10-02T03:31:00+00:00",
+    "timestamp": "2026-10-02T03:52:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 4,
         "0": 1
     },
     "mode": {
-        "0": 3
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 2,
+        "2|0": 4,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
             "name": "asdads",
+            "count": 2
+        },
+        {
+            "name": "tt",
             "count": 1
         },
         {
@@ -37,6 +41,13 @@
     ],
     "unknown_games": [
         {
+            "normalized": "tt",
+            "count": 2,
+            "examples": [
+                "tt"
+            ]
+        },
+        {
             "normalized": "wikid klownz",
             "count": 2,
             "examples": [
@@ -49,7 +60,7 @@
             {
                 "name": "asdads",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             },
             {
                 "name": "123",
@@ -59,8 +70,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 7.0
+        "unique_names": 4,
+        "public_games": 5,
+        "average_name_length": 5.75
     }
 }
