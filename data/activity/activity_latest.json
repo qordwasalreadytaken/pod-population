@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-02T11:24:00+00:00",
+    "timestamp": "2026-10-02T11:36:00+00:00",
     "difficulty": {
         "2": 2,
         "0": 1
@@ -23,35 +23,44 @@
     ],
     "top_games": [
         {
-            "name": "gord",
-            "count": 2
+            "name": "asdasd",
+            "count": 1
         },
         {
-            "name": "alda",
+            "name": "gord",
+            "count": 1
+        },
+        {
+            "name": "ghgghty",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "alda",
+            "normalized": "ghgghty",
             "count": 2,
             "examples": [
-                "alda"
+                "ghgghty"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
+                "name": "asdasd",
+                "matched": "asd",
+                "count": 1
+            },
+            {
                 "name": "gord",
                 "matched": "gord",
-                "count": 2
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
+        "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 4.0
+        "average_name_length": 5.67
     }
 }
