@@ -1,8 +1,7 @@
 {
-    "timestamp": "2026-10-02T17:04:00+00:00",
+    "timestamp": "2026-10-02T17:24:00+00:00",
     "difficulty": {
-        "2": 6,
-        "1": 1
+        "2": 7
     },
     "mode": {
         "1": 1,
@@ -10,91 +9,75 @@
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 5,
-        "1|0": 1
+        "2|0": 6
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Chaos",
             "count": 4
         },
         {
-            "name": "Rush",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
             "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Chaos",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "b war traveler",
-            "count": 3
+            "name": "hdia",
+            "count": 4
         },
         {
             "name": "killb",
             "count": 1
         },
         {
-            "name": "hellrush",
+            "name": "n silkweave",
             "count": 1
         },
         {
-            "name": "n 15ias titans",
-            "count": 1
-        },
-        {
-            "name": "nmdia-5",
+            "name": "b war traveler",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "b war traveler",
-            "count": 6,
-            "examples": [
-                "b war traveler"
-            ]
-        },
         {
             "normalized": "killb",
             "count": 2,
             "examples": [
                 "killb"
             ]
+        },
+        {
+            "normalized": "b war traveler",
+            "count": 2,
+            "examples": [
+                "b war traveler"
+            ]
         }
     ],
     "classified_games": {
-        "Rush": [
+        "Chaos": [
             {
-                "name": "hellrush",
-                "matched": "rush",
-                "count": 1
+                "name": "hdia",
+                "matched": "dia",
+                "count": 4
             }
         ],
         "Trade": [
             {
-                "name": "n 15ias titans",
+                "name": "n silkweave",
                 "matched": "n",
-                "count": 1
-            }
-        ],
-        "Chaos": [
-            {
-                "name": "nmdia-5",
-                "matched": "dia",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
+        "unique_names": 4,
         "public_games": 7,
-        "average_name_length": 9.6
+        "average_name_length": 8.5
     }
 }
