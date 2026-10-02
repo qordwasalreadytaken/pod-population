@@ -1,17 +1,17 @@
 {
-    "timestamp": "2026-10-02T02:55:00+00:00",
+    "timestamp": "2026-10-02T03:10:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 2,
         "1": 1
     },
     "mode": {
         "1": 2,
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
         "2|1": 1,
         "1|1": 1,
-        "2|0": 2
+        "2|0": 1
     },
     "activities": [
         {
@@ -20,20 +20,20 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "asdads",
-            "count": 2
-        },
         {
             "name": "killbills",
             "count": 1
         },
         {
             "name": "qe",
+            "count": 1
+        },
+        {
+            "name": "asdads",
             "count": 1
         }
     ],
@@ -58,13 +58,13 @@
             {
                 "name": "asdads",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 4,
+        "public_games": 3,
         "average_name_length": 5.67
     }
 }
