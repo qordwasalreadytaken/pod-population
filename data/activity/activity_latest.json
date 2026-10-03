@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-03T02:20:00+00:00",
+    "timestamp": "2026-10-03T02:50:00+00:00",
     "difficulty": {
         "2": 1
     },
@@ -17,16 +17,16 @@
     ],
     "top_games": [
         {
-            "name": "ki",
+            "name": "kil",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "ki",
+            "normalized": "kil",
             "count": 2,
             "examples": [
-                "ki"
+                "kil"
             ]
         }
     ],
@@ -34,6 +34,6 @@
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 2.0
+        "average_name_length": 3.0
     }
 }
