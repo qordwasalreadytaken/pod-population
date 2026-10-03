@@ -1,57 +1,39 @@
 {
-    "timestamp": "2026-10-03T03:16:00+00:00",
+    "timestamp": "2026-10-03T03:53:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 1
     },
     "mode": {
-        "1": 1,
-        "0": 1
+        "1": 1
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 1
+        "2|1": 1
     },
     "activities": [
         {
             "name": "Other",
             "count": 1
-        },
-        {
-            "name": "Trade",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "kil",
-            "count": 1
-        },
-        {
-            "name": "n high titans",
+            "name": "killbi",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "kil",
+            "normalized": "killbi",
             "count": 2,
             "examples": [
-                "kil"
+                "killbi"
             ]
         }
     ],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "n high titans",
-                "matched": "n",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 8.0
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 6.0
     }
 }
