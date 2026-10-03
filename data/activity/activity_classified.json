@@ -362,7 +362,7 @@
         {
             "name": "n silkweave",
             "matched": "n",
-            "count": 339
+            "count": 340
         },
         {
             "name": "n fireskillers",
@@ -386,7 +386,7 @@
         },
         {
             "name": "n necro torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 46
         },
         {
@@ -451,7 +451,7 @@
         },
         {
             "name": "n druid torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 23
         },
         {
@@ -2328,7 +2328,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "act",
+            "matched": "andar",
             "count": 12
         },
         {
@@ -2608,7 +2608,7 @@
         },
         {
             "name": "normal act",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -2689,6 +2689,11 @@
         {
             "name": "andy hell",
             "matched": "andy",
+            "count": 2
+        },
+        {
+            "name": "ancients",
+            "matched": "anci",
             "count": 2
         },
         {
@@ -2888,7 +2893,7 @@
         },
         {
             "name": "1act - normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -2903,11 +2908,6 @@
         },
         {
             "name": "n hell anci pl",
-            "matched": "anci",
-            "count": 1
-        },
-        {
-            "name": "ancients",
             "matched": "anci",
             "count": 1
         }
@@ -3048,7 +3048,7 @@
         {
             "name": "asd",
             "matched": "asd",
-            "count": 1402
+            "count": 1403
         },
         {
             "name": "gord",
@@ -4092,7 +4092,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "mf",
+            "matched": "run",
             "count": 1
         },
         {
@@ -5156,7 +5156,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 7
         },
         {
@@ -5211,7 +5211,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "mapping",
+            "matched": "map",
             "count": 4
         },
         {
@@ -5416,7 +5416,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -5431,7 +5431,7 @@
         },
         {
             "name": "mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -5468,17 +5468,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
