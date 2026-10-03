@@ -1,73 +1,103 @@
 {
-    "timestamp": "2026-10-03T18:58:00+00:00",
+    "timestamp": "2026-10-03T19:56:00+00:00",
     "difficulty": {
-        "2": 5
+        "2": 10,
+        "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 11
     },
     "difficulty_mode": {
-        "2|0": 5
+        "2|0": 10,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 3
+            "name": "Trade",
+            "count": 7
         },
         {
             "name": "Other",
-            "count": 2
+            "count": 3
+        },
+        {
+            "name": "Chaos",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "c",
-            "count": 2
+            "name": "n",
+            "count": 6
         },
         {
-            "name": "1239",
+            "name": "t",
             "count": 1
         },
         {
-            "name": "1238",
+            "name": "diablo",
             "count": 1
         },
         {
-            "name": "1237",
+            "name": "n silkweave",
+            "count": 1
+        },
+        {
+            "name": "1240",
+            "count": 1
+        },
+        {
+            "name": "wikid klownz",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "c",
-            "count": 4,
+            "normalized": "t",
+            "count": 2,
             "examples": [
-                "c"
+                "t"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1240"
+            ]
+        },
+        {
+            "normalized": "wikid klownz",
+            "count": 2,
+            "examples": [
+                "wikid klownz"
             ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "1239",
-                "matched": "123",
-                "count": 1
+                "name": "n",
+                "matched": "n",
+                "count": 6
             },
             {
-                "name": "1238",
-                "matched": "123",
+                "name": "n silkweave",
+                "matched": "n",
                 "count": 1
-            },
+            }
+        ],
+        "Chaos": [
             {
-                "name": "1237",
-                "matched": "123",
+                "name": "diablo",
+                "matched": "dia",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 5,
-        "average_name_length": 3.25
+        "unique_names": 6,
+        "public_games": 11,
+        "average_name_length": 5.83
     }
 }
