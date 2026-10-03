@@ -1,24 +1,26 @@
 {
-    "timestamp": "2026-10-03T19:56:00+00:00",
+    "timestamp": "2026-10-03T21:00:00+00:00",
     "difficulty": {
-        "2": 10,
-        "0": 1
+        "2": 5
     },
     "mode": {
-        "0": 11
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 10,
-        "0|0": 1
+        "2|0": 5
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 7
+            "name": "Misc. Public MF Runs",
+            "count": 2
         },
         {
             "name": "Other",
-            "count": 3
+            "count": 1
+        },
+        {
+            "name": "Trade",
+            "count": 1
         },
         {
             "name": "Chaos",
@@ -27,15 +29,15 @@
     ],
     "top_games": [
         {
-            "name": "n",
-            "count": 6
-        },
-        {
-            "name": "t",
+            "name": "dasd",
             "count": 1
         },
         {
-            "name": "diablo",
+            "name": "asdasd",
+            "count": 1
+        },
+        {
+            "name": "yxcyx",
             "count": 1
         },
         {
@@ -43,44 +45,33 @@
             "count": 1
         },
         {
-            "name": "1240",
-            "count": 1
-        },
-        {
-            "name": "wikid klownz",
+            "name": "diablo",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "t",
+            "normalized": "yxcyx",
             "count": 2,
             "examples": [
-                "t"
-            ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "1240"
-            ]
-        },
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
+                "yxcyx"
             ]
         }
     ],
     "classified_games": {
-        "Trade": [
+        "Misc. Public MF Runs": [
             {
-                "name": "n",
-                "matched": "n",
-                "count": 6
+                "name": "dasd",
+                "matched": "asd",
+                "count": 1
             },
+            {
+                "name": "asdasd",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
+        "Trade": [
             {
                 "name": "n silkweave",
                 "matched": "n",
@@ -96,8 +87,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 11,
-        "average_name_length": 5.83
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 6.4
     }
 }
