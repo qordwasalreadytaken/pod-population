@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 3108,
+        "count": 3112,
         "examples": [
             "0",
             "1",
@@ -397,6 +397,13 @@
         ]
     },
     {
+        "normalized": "new",
+        "count": 38,
+        "examples": [
+            "new"
+        ]
+    },
+    {
         "normalized": "n#fhr#light sc",
         "count": 38,
         "examples": [
@@ -441,13 +448,6 @@
             "sss 3",
             "sss 4",
             "sss 5"
-        ]
-    },
-    {
-        "normalized": "new",
-        "count": 36,
-        "examples": [
-            "new"
         ]
     },
     {
@@ -1810,6 +1810,13 @@
         ]
     },
     {
+        "normalized": "killbill",
+        "count": 10,
+        "examples": [
+            "killbill"
+        ]
+    },
+    {
         "normalized": "new char",
         "count": 10,
         "examples": [
@@ -2307,13 +2314,6 @@
         "count": 8,
         "examples": [
             "dassd"
-        ]
-    },
-    {
-        "normalized": "killbill",
-        "count": 8,
-        "examples": [
-            "killbill"
         ]
     },
     {
