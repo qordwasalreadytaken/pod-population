@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 3116,
+        "count": 3118,
         "examples": [
             "0",
             "1",
@@ -160,15 +160,8 @@
         ]
     },
     {
-        "normalized": "h",
-        "count": 92,
-        "examples": [
-            "h"
-        ]
-    },
-    {
         "normalized": "keys #",
-        "count": 92,
+        "count": 94,
         "examples": [
             "keys 10",
             "keys 11",
@@ -180,6 +173,13 @@
             "keys 24",
             "keys 25",
             "keys 26"
+        ]
+    },
+    {
+        "normalized": "h",
+        "count": 92,
+        "examples": [
+            "h"
         ]
     },
     {
