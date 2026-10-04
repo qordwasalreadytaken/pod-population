@@ -1,19 +1,25 @@
 {
-    "timestamp": "2026-10-04T23:34:00+00:00",
+    "timestamp": "2026-10-04T23:47:00+00:00",
     "difficulty": {
         "2": 2,
-        "1": 1
+        "1": 1,
+        "0": 3
     },
     "mode": {
         "1": 2,
-        "0": 1
+        "0": 4
     },
     "difficulty_mode": {
         "2|1": 1,
         "1|1": 1,
-        "2|0": 1
+        "2|0": 1,
+        "0|0": 3
     },
     "activities": [
+        {
+            "name": "Rush",
+            "count": 3
+        },
         {
             "name": "Other",
             "count": 2
@@ -29,11 +35,23 @@
             "count": 1
         },
         {
-            "name": "qe",
+            "name": "eq",
             "count": 1
         },
         {
             "name": "cows",
+            "count": 1
+        },
+        {
+            "name": "rush pls",
+            "count": 1
+        },
+        {
+            "name": "rush plzs",
+            "count": 1
+        },
+        {
+            "name": "rush plz",
             "count": 1
         }
     ],
@@ -46,10 +64,10 @@
             ]
         },
         {
-            "normalized": "qe",
+            "normalized": "eq",
             "count": 2,
             "examples": [
-                "qe"
+                "eq"
             ]
         }
     ],
@@ -57,14 +75,31 @@
         "Cows": [
             {
                 "name": "cows",
-                "matched": "cow",
+                "matched": "cows",
+                "count": 1
+            }
+        ],
+        "Rush": [
+            {
+                "name": "rush pls",
+                "matched": "rush",
+                "count": 1
+            },
+            {
+                "name": "rush plzs",
+                "matched": "rush",
+                "count": 1
+            },
+            {
+                "name": "rush plz",
+                "matched": "rush",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.67
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 7.5
     }
 }

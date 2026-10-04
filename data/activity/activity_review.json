@@ -170,7 +170,7 @@
     },
     {
         "normalized": "eq",
-        "count": 98,
+        "count": 100,
         "examples": [
             "eq"
         ]
@@ -4498,6 +4498,13 @@
         ]
     },
     {
+        "normalized": "gg its only me",
+        "count": 4,
+        "examples": [
+            "gg its only me"
+        ]
+    },
+    {
         "normalized": "a wps plz",
         "count": 2,
         "examples": [
@@ -8198,13 +8205,6 @@
         "count": 2,
         "examples": [
             "peppa pig"
-        ]
-    },
-    {
-        "normalized": "gg its only me",
-        "count": 2,
-        "examples": [
-            "gg its only me"
         ]
     }
 ]
