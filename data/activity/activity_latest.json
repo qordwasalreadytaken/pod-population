@@ -1,23 +1,25 @@
 {
-    "timestamp": "2026-10-04T18:02:00+00:00",
+    "timestamp": "2026-10-04T19:20:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 1
+        "2": 4,
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "1|0": 1
+        "2|0": 4,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 4
         },
         {
-            "name": "Trade",
+            "name": "Maps",
             "count": 1
         },
         {
@@ -27,37 +29,65 @@
     ],
     "top_games": [
         {
-            "name": "keys 15",
+            "name": "lvv",
             "count": 1
         },
         {
-            "name": "n titans javs",
+            "name": "keys 34",
             "count": 1
         },
         {
-            "name": "keys 14",
+            "name": "map",
+            "count": 1
+        },
+        {
+            "name": "gt",
             "count": 1
         },
         {
             "name": "gord",
             "count": 1
+        },
+        {
+            "name": "1224",
+            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "keys #",
-            "count": 4,
+            "normalized": "lvv",
+            "count": 2,
             "examples": [
-                "keys 14",
-                "keys 15"
+                "lvv"
+            ]
+        },
+        {
+            "normalized": "keys #",
+            "count": 2,
+            "examples": [
+                "keys 34"
+            ]
+        },
+        {
+            "normalized": "gt",
+            "count": 2,
+            "examples": [
+                "gt"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1224"
             ]
         }
     ],
     "classified_games": {
-        "Trade": [
+        "Maps": [
             {
-                "name": "n titans javs",
-                "matched": "n",
+                "name": "map",
+                "matched": "map",
                 "count": 1
             }
         ],
@@ -70,8 +100,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 7.75
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 3.83
     }
 }
