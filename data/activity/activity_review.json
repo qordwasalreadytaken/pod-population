@@ -153,15 +153,8 @@
         ]
     },
     {
-        "normalized": "eq",
-        "count": 94,
-        "examples": [
-            "eq"
-        ]
-    },
-    {
         "normalized": "keys #",
-        "count": 94,
+        "count": 98,
         "examples": [
             "keys 10",
             "keys 11",
@@ -173,6 +166,13 @@
             "keys 24",
             "keys 25",
             "keys 26"
+        ]
+    },
+    {
+        "normalized": "eq",
+        "count": 94,
+        "examples": [
+            "eq"
         ]
     },
     {

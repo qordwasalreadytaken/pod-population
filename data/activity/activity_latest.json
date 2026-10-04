@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-10-04T16:50:00+00:00",
+    "timestamp": "2026-10-04T18:02:00+00:00",
     "difficulty": {
         "2": 3,
-        "0": 1
+        "1": 1
     },
     "mode": {
         "0": 4
     },
     "difficulty_mode": {
         "2|0": 3,
-        "0|0": 1
+        "1|0": 1
     },
     "activities": [
         {
@@ -17,51 +17,51 @@
             "count": 2
         },
         {
+            "name": "Trade",
+            "count": 1
+        },
+        {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "keys 4",
+            "name": "keys 15",
             "count": 1
         },
         {
-            "name": "norunedrop",
+            "name": "n titans javs",
+            "count": 1
+        },
+        {
+            "name": "keys 14",
             "count": 1
         },
         {
             "name": "gord",
-            "count": 1
-        },
-        {
-            "name": "1224",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "keys #",
-            "count": 2,
+            "count": 4,
             "examples": [
-                "keys 4"
-            ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "1224"
+                "keys 14",
+                "keys 15"
             ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "norunedrop",
-                "matched": "run",
+                "name": "n titans javs",
+                "matched": "n",
                 "count": 1
-            },
+            }
+        ],
+        "Misc. Public MF Runs": [
             {
                 "name": "gord",
                 "matched": "gord",
@@ -72,6 +72,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 6.0
+        "average_name_length": 7.75
     }
 }
