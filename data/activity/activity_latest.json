@@ -1,39 +1,43 @@
 {
-    "timestamp": "2026-10-04T20:24:00+00:00",
+    "timestamp": "2026-10-04T21:10:00+00:00",
     "difficulty": {
-        "2": 10
+        "2": 5
     },
     "mode": {
-        "0": 10
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 10
+        "2|0": 5
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 7
+            "name": "Misc. Public MF Runs",
+            "count": 2
         },
         {
             "name": "Other",
-            "count": 3
+            "count": 2
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n",
-            "count": 6
-        },
-        {
-            "name": "keys 39",
+            "name": "asdf",
             "count": 1
         },
         {
-            "name": "keys 38",
+            "name": "keys 42",
             "count": 1
         },
         {
-            "name": "lvv",
+            "name": "lvling",
+            "count": 1
+        },
+        {
+            "name": "asdasd",
             "count": 1
         },
         {
@@ -44,27 +48,33 @@
     "unknown_games": [
         {
             "normalized": "keys #",
-            "count": 4,
+            "count": 2,
             "examples": [
-                "keys 38",
-                "keys 39"
+                "keys 42"
             ]
         },
         {
-            "normalized": "lvv",
+            "normalized": "lvling",
             "count": 2,
             "examples": [
-                "lvv"
+                "lvling"
             ]
         }
     ],
     "classified_games": {
-        "Trade": [
+        "Misc. Public MF Runs": [
             {
-                "name": "n",
-                "matched": "n",
-                "count": 6
+                "name": "asdf",
+                "matched": "asd",
+                "count": 1
             },
+            {
+                "name": "asdasd",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
+        "Trade": [
             {
                 "name": "n silkweave",
                 "matched": "n",
@@ -74,7 +84,7 @@
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 10,
-        "average_name_length": 5.8
+        "public_games": 5,
+        "average_name_length": 6.8
     }
 }
