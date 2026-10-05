@@ -1,27 +1,27 @@
 {
-    "timestamp": "2026-10-05T16:47:00+00:00",
+    "timestamp": "2026-10-05T17:04:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 2
+        "2": 4,
+        "0": 3
     },
     "mode": {
-        "0": 5
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "0|0": 2
+        "2|0": 4,
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
+            "count": 3
+        },
+        {
+            "name": "Baal",
             "count": 2
         },
         {
             "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Baal",
             "count": 1
         },
         {
@@ -30,6 +30,14 @@
         }
     ],
     "top_games": [
+        {
+            "name": "baal normal",
+            "count": 2
+        },
+        {
+            "name": "865",
+            "count": 1
+        },
         {
             "name": "chill",
             "count": 1
@@ -43,15 +51,18 @@
             "count": 1
         },
         {
-            "name": "baal normal",
-            "count": 1
-        },
-        {
             "name": "acte/5",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "865"
+            ]
+        },
         {
             "normalized": "chill",
             "count": 2,
@@ -79,7 +90,7 @@
             {
                 "name": "baal normal",
                 "matched": "baal",
-                "count": 1
+                "count": 2
             }
         ],
         "Leveling": [
@@ -91,8 +102,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 8.6
+        "unique_names": 6,
+        "public_games": 7,
+        "average_name_length": 7.67
     }
 }
