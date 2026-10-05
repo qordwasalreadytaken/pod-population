@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 3136,
+        "count": 3138,
         "examples": [
             "0",
             "1",
@@ -154,7 +154,7 @@
     },
     {
         "normalized": "keys #",
-        "count": 114,
+        "count": 120,
         "examples": [
             "keys 1",
             "keys 10",
@@ -165,7 +165,7 @@
             "keys 16",
             "keys 17",
             "keys 18",
-            "keys 24"
+            "keys 21"
         ]
     },
     {
@@ -507,6 +507,13 @@
         ]
     },
     {
+        "normalized": "#g",
+        "count": 32,
+        "examples": [
+            "1211313g"
+        ]
+    },
+    {
         "normalized": "dsaadsd",
         "count": 30,
         "examples": [
@@ -525,13 +532,6 @@
         "count": 30,
         "examples": [
             "need titans"
-        ]
-    },
-    {
-        "normalized": "#g",
-        "count": 30,
-        "examples": [
-            "1211313g"
         ]
     },
     {
@@ -4520,6 +4520,13 @@
         ]
     },
     {
+        "normalized": "mardiemike",
+        "count": 4,
+        "examples": [
+            "mardiemike"
+        ]
+    },
+    {
         "normalized": "a wps plz",
         "count": 2,
         "examples": [
@@ -8220,13 +8227,6 @@
         "count": 2,
         "examples": [
             "peppa pig"
-        ]
-    },
-    {
-        "normalized": "mardiemike",
-        "count": 2,
-        "examples": [
-            "mardiemike"
         ]
     }
 ]
