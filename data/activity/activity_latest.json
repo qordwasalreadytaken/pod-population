@@ -1,33 +1,23 @@
 {
-    "timestamp": "2026-10-05T19:47:00+00:00",
+    "timestamp": "2026-10-05T20:28:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
+        "2": 1
     },
     "mode": {
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 1
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "n silkweave",
-            "count": 1
-        },
-        {
-            "name": "acte 5",
             "count": 1
         }
     ],
@@ -39,18 +29,11 @@
                 "matched": "n",
                 "count": 1
             }
-        ],
-        "Leveling": [
-            {
-                "name": "acte 5",
-                "matched": "act",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 8.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 11.0
     }
 }
