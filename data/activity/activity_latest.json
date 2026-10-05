@@ -1,53 +1,55 @@
 {
-    "timestamp": "2026-10-05T13:34:00+00:00",
+    "timestamp": "2026-10-05T13:54:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
+        "0": 2
     },
     "mode": {
-        "1": 1,
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "0|0": 1
+        "0|0": 2
     },
     "activities": [
         {
+            "name": "Leveling",
+            "count": 1
+        },
+        {
             "name": "Other",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "gg its only me",
+            "name": "tomb 1",
             "count": 1
         },
         {
-            "name": "5 akt",
+            "name": "wikid klownz",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "gg its only me",
+            "normalized": "wikid klownz",
             "count": 2,
             "examples": [
-                "gg its only me"
-            ]
-        },
-        {
-            "normalized": "# akt",
-            "count": 2,
-            "examples": [
-                "5 akt"
+                "wikid klownz"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Leveling": [
+            {
+                "name": "tomb 1",
+                "matched": "tomb",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 9.5
+        "average_name_length": 9.0
     }
 }
