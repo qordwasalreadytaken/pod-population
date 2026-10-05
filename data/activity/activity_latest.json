@@ -1,49 +1,41 @@
 {
-    "timestamp": "2026-10-05T23:05:00+00:00",
+    "timestamp": "2026-10-05T23:23:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
+        "0": 2
     },
     "mode": {
         "0": 2
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 1
+        "0|0": 2
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
             "name": "Leveling",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "asdasd",
+            "name": "act 2",
             "count": 1
         },
         {
-            "name": "act lvl",
+            "name": "kill andy",
             "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asdasd",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
         "Leveling": [
             {
-                "name": "act lvl",
+                "name": "act 2",
                 "matched": "act",
+                "count": 1
+            },
+            {
+                "name": "kill andy",
+                "matched": "andy",
                 "count": 1
             }
         ]
@@ -51,6 +43,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 6.5
+        "average_name_length": 7.0
     }
 }
