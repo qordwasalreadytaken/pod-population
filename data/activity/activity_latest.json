@@ -1,33 +1,33 @@
 {
-    "timestamp": "2026-10-05T18:07:00+00:00",
+    "timestamp": "2026-10-05T18:33:00+00:00",
     "difficulty": {
-        "2": 4,
-        "0": 1
+        "2": 5,
+        "0": 2
     },
     "mode": {
-        "0": 5
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 4,
-        "0|0": 1
+        "2|0": 5,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Maps",
-            "count": 1
+            "count": 7
         }
     ],
     "top_games": [
         {
-            "name": "keys 1",
+            "name": "keys 12",
             "count": 1
         },
         {
-            "name": "map",
+            "name": "keys 11",
+            "count": 1
+        },
+        {
+            "name": "keys 10",
             "count": 1
         },
         {
@@ -39,6 +39,10 @@
             "count": 1
         },
         {
+            "name": "mardiemike",
+            "count": 1
+        },
+        {
             "name": "heasti",
             "count": 1
         }
@@ -46,9 +50,11 @@
     "unknown_games": [
         {
             "normalized": "keys #",
-            "count": 2,
+            "count": 6,
             "examples": [
-                "keys 1"
+                "keys 10",
+                "keys 11",
+                "keys 12"
             ]
         },
         {
@@ -66,6 +72,13 @@
             ]
         },
         {
+            "normalized": "mardiemike",
+            "count": 2,
+            "examples": [
+                "mardiemike"
+            ]
+        },
+        {
             "normalized": "heasti",
             "count": 2,
             "examples": [
@@ -73,18 +86,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Maps": [
-            {
-                "name": "map",
-                "matched": "map",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 5.2
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 6.86
     }
 }
