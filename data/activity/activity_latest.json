@@ -1,23 +1,15 @@
 {
-    "timestamp": "2026-10-05T00:15:00+00:00",
+    "timestamp": "2026-10-05T01:16:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1
+        "2": 1
     },
     "mode": {
-        "1": 2,
         "0": 1
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "1|1": 1,
         "2|0": 1
     },
     "activities": [
-        {
-            "name": "Other",
-            "count": 2
-        },
         {
             "name": "Cows",
             "count": 1
@@ -25,46 +17,23 @@
     ],
     "top_games": [
         {
-            "name": "gg its only me",
-            "count": 1
-        },
-        {
-            "name": "eq",
-            "count": 1
-        },
-        {
             "name": "cows",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "gg its only me",
-            "count": 2,
-            "examples": [
-                "gg its only me"
-            ]
-        },
-        {
-            "normalized": "eq",
-            "count": 2,
-            "examples": [
-                "eq"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Cows": [
             {
                 "name": "cows",
-                "matched": "cows",
+                "matched": "cow",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.67
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 4.0
     }
 }
