@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-05T23:23:00+00:00",
+    "timestamp": "2026-10-05T23:33:00+00:00",
     "difficulty": {
         "0": 2
     },
@@ -11,31 +11,38 @@
     },
     "activities": [
         {
+            "name": "Other",
+            "count": 1
+        },
+        {
             "name": "Leveling",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "act 2",
+            "name": "wikid klownz",
             "count": 1
         },
         {
-            "name": "kill andy",
+            "name": "act 2",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "wikid klownz",
+            "count": 2,
+            "examples": [
+                "wikid klownz"
+            ]
+        }
+    ],
     "classified_games": {
         "Leveling": [
             {
                 "name": "act 2",
                 "matched": "act",
-                "count": 1
-            },
-            {
-                "name": "kill andy",
-                "matched": "andy",
                 "count": 1
             }
         ]
@@ -43,6 +50,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 7.0
+        "average_name_length": 8.5
     }
 }
