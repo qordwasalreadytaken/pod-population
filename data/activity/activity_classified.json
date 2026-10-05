@@ -362,7 +362,7 @@
         {
             "name": "n silkweave",
             "matched": "n",
-            "count": 359
+            "count": 360
         },
         {
             "name": "n fireskillers",
@@ -521,7 +521,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "torch",
+            "matched": "buy",
             "count": 12
         },
         {
@@ -706,7 +706,7 @@
         },
         {
             "name": "n ntorch o bto",
-            "matched": "n",
+            "matched": "torch",
             "count": 6
         },
         {
@@ -1736,7 +1736,7 @@
         },
         {
             "name": "n oocs wuw",
-            "matched": "n",
+            "matched": "wuw",
             "count": 1
         },
         {
@@ -2186,7 +2186,7 @@
         },
         {
             "name": "n barb torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -2348,7 +2348,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "andar",
+            "matched": "act",
             "count": 12
         },
         {
@@ -2588,7 +2588,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "leveli",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -2928,7 +2928,7 @@
         },
         {
             "name": "1act - normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -2944,6 +2944,11 @@
         {
             "name": "n hell anci pl",
             "matched": "anci",
+            "count": 1
+        },
+        {
+            "name": "act lvl",
+            "matched": "act",
             "count": 1
         }
     ],
@@ -4147,7 +4152,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -5523,17 +5528,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
