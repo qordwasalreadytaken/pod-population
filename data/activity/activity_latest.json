@@ -1,24 +1,24 @@
 {
-    "timestamp": "2026-10-05T17:24:00+00:00",
+    "timestamp": "2026-10-05T17:36:00+00:00",
     "difficulty": {
-        "2": 4,
-        "0": 3
+        "2": 3,
+        "0": 2
     },
     "mode": {
-        "0": 7
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 4,
-        "0|0": 3
+        "2|0": 3,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Baal",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Maps",
@@ -28,7 +28,7 @@
     "top_games": [
         {
             "name": "baal normal",
-            "count": 3
+            "count": 2
         },
         {
             "name": "map",
@@ -36,10 +36,6 @@
         },
         {
             "name": "865",
-            "count": 1
-        },
-        {
-            "name": "chill",
             "count": 1
         },
         {
@@ -53,13 +49,6 @@
             "count": 2,
             "examples": [
                 "865"
-            ]
-        },
-        {
-            "normalized": "chill",
-            "count": 2,
-            "examples": [
-                "chill"
             ]
         },
         {
@@ -82,13 +71,13 @@
             {
                 "name": "baal normal",
                 "matched": "baal",
-                "count": 3
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 7,
-        "average_name_length": 6.0
+        "unique_names": 4,
+        "public_games": 5,
+        "average_name_length": 6.25
     }
 }
