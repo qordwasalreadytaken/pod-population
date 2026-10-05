@@ -1,33 +1,37 @@
 {
-    "timestamp": "2026-10-05T16:06:00+00:00",
+    "timestamp": "2026-10-05T16:29:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "2": 4,
+        "0": 2
     },
     "mode": {
-        "0": 3
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "0|0": 1
+        "2|0": 4,
+        "0|0": 2
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 1
-        },
-        {
             "name": "Other",
-            "count": 1
+            "count": 3
         },
         {
             "name": "Baal",
+            "count": 2
+        },
+        {
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n druid torch",
+            "name": "baal normal",
+            "count": 2
+        },
+        {
+            "name": "864",
             "count": 1
         },
         {
@@ -35,16 +39,34 @@
             "count": 1
         },
         {
-            "name": "baal normal",
+            "name": "1211313g",
+            "count": 1
+        },
+        {
+            "name": "n druid torch",
             "count": 1
         }
     ],
     "unknown_games": [
         {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "864"
+            ]
+        },
+        {
             "normalized": "chill",
             "count": 2,
             "examples": [
                 "chill"
+            ]
+        },
+        {
+            "normalized": "#g",
+            "count": 2,
+            "examples": [
+                "1211313g"
             ]
         }
     ],
@@ -60,13 +82,13 @@
             {
                 "name": "baal normal",
                 "matched": "baal",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 9.67
+        "unique_names": 5,
+        "public_games": 6,
+        "average_name_length": 8.0
     }
 }
