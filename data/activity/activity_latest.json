@@ -1,33 +1,31 @@
 {
-    "timestamp": "2026-10-05T14:07:00+00:00",
+    "timestamp": "2026-10-05T14:32:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
+        "2": 2
     },
     "mode": {
         "0": 2
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 1
+        "2|0": 2
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
-            "name": "Leveling",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "lvv",
+            "name": "asdasd",
             "count": 1
         },
         {
-            "name": "tomb 1",
+            "name": "lvv",
             "count": 1
         }
     ],
@@ -41,10 +39,10 @@
         }
     ],
     "classified_games": {
-        "Leveling": [
+        "Misc. Public MF Runs": [
             {
-                "name": "tomb 1",
-                "matched": "tomb",
+                "name": "asdasd",
+                "matched": "asd",
                 "count": 1
             }
         ]
