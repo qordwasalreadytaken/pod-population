@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 3132,
+        "count": 3134,
         "examples": [
             "0",
             "1",
@@ -154,8 +154,9 @@
     },
     {
         "normalized": "keys #",
-        "count": 106,
+        "count": 108,
         "examples": [
+            "keys 1",
             "keys 10",
             "keys 11",
             "keys 14",
@@ -164,8 +165,7 @@
             "keys 17",
             "keys 18",
             "keys 24",
-            "keys 25",
-            "keys 26"
+            "keys 25"
         ]
     },
     {
@@ -570,17 +570,17 @@
         ]
     },
     {
+        "normalized": "#g",
+        "count": 28,
+        "examples": [
+            "1211313g"
+        ]
+    },
+    {
         "normalized": "solo",
         "count": 26,
         "examples": [
             "solo"
-        ]
-    },
-    {
-        "normalized": "#g",
-        "count": 26,
-        "examples": [
-            "1211313g"
         ]
     },
     {
@@ -8213,6 +8213,13 @@
         "count": 2,
         "examples": [
             "peppa pig"
+        ]
+    },
+    {
+        "normalized": "heasti",
+        "count": 2,
+        "examples": [
+            "heasti"
         ]
     }
 ]

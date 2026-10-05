@@ -1,31 +1,31 @@
 {
-    "timestamp": "2026-10-05T17:49:00+00:00",
+    "timestamp": "2026-10-05T18:07:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 1
+        "2": 4,
+        "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "1|0": 1
+        "2|0": 4,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 4
         },
         {
             "name": "Maps",
             "count": 1
-        },
-        {
-            "name": "Rush",
-            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "keys 1",
+            "count": 1
+        },
         {
             "name": "map",
             "count": 1
@@ -39,11 +39,18 @@
             "count": 1
         },
         {
-            "name": "plz rush nm",
+            "name": "heasti",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "keys #",
+            "count": 2,
+            "examples": [
+                "keys 1"
+            ]
+        },
         {
             "normalized": "#",
             "count": 2,
@@ -57,6 +64,13 @@
             "examples": [
                 "1211313g"
             ]
+        },
+        {
+            "normalized": "heasti",
+            "count": 2,
+            "examples": [
+                "heasti"
+            ]
         }
     ],
     "classified_games": {
@@ -66,18 +80,11 @@
                 "matched": "map",
                 "count": 1
             }
-        ],
-        "Rush": [
-            {
-                "name": "plz rush nm",
-                "matched": "rush",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.25
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 5.2
     }
 }
