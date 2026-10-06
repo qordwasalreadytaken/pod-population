@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-06T17:04:00+00:00",
+    "timestamp": "2026-10-06T17:22:00+00:00",
     "difficulty": {
         "2": 2,
         "1": 2,
@@ -18,11 +18,11 @@
     "activities": [
         {
             "name": "Other",
-            "count": 6
+            "count": 5
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "name": "Leveling",
+            "count": 2
         }
     ],
     "top_games": [
@@ -35,27 +35,36 @@
             "count": 1
         },
         {
+            "name": "act 4 5 nm",
+            "count": 1
+        },
+        {
             "name": "1212",
             "count": 1
         },
         {
-            "name": "meph nm",
+            "name": "acte n wp",
             "count": 1
         },
         {
-            "name": "213r",
+            "name": "2341",
             "count": 1
         },
         {
-            "name": "f",
-            "count": 1
-        },
-        {
-            "name": "wikid klownz",
+            "name": "31",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "#",
+            "count": 6,
+            "examples": [
+                "1212",
+                "2341",
+                "31"
+            ]
+        },
         {
             "normalized": "just me",
             "count": 2,
@@ -69,41 +78,18 @@
             "examples": [
                 "sdg"
             ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "1212"
-            ]
-        },
-        {
-            "normalized": "#r",
-            "count": 2,
-            "examples": [
-                "213r"
-            ]
-        },
-        {
-            "normalized": "f",
-            "count": 2,
-            "examples": [
-                "f"
-            ]
-        },
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
-            ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Leveling": [
             {
-                "name": "meph nm",
-                "matched": "meph",
+                "name": "act 4 5 nm",
+                "matched": "act",
+                "count": 1
+            },
+            {
+                "name": "acte n wp",
+                "matched": "act",
                 "count": 1
             }
         ]
@@ -111,6 +97,6 @@
     "interesting": {
         "unique_names": 7,
         "public_games": 7,
-        "average_name_length": 5.43
+        "average_name_length": 5.57
     }
 }
