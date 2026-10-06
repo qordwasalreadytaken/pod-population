@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 3208,
+        "count": 3212,
         "examples": [
             "0",
             "1",
@@ -1002,6 +1002,16 @@
         ]
     },
     {
+        "normalized": "#r#r",
+        "count": 16,
+        "examples": [
+            "1r1r",
+            "34r43r",
+            "3r4r",
+            "5r3r"
+        ]
+    },
+    {
         "normalized": "trav wp plz",
         "count": 16,
         "examples": [
@@ -1185,15 +1195,6 @@
         "count": 14,
         "examples": [
             "dsad"
-        ]
-    },
-    {
-        "normalized": "#r#r",
-        "count": 14,
-        "examples": [
-            "34r43r",
-            "3r4r",
-            "5r3r"
         ]
     },
     {
@@ -8270,6 +8271,27 @@
         "count": 2,
         "examples": [
             "tfyhtyu"
+        ]
+    },
+    {
+        "normalized": "just me g",
+        "count": 2,
+        "examples": [
+            "just me g"
+        ]
+    },
+    {
+        "normalized": "#f#f",
+        "count": 2,
+        "examples": [
+            "1f1f"
+        ]
+    },
+    {
+        "normalized": "wrqg",
+        "count": 2,
+        "examples": [
+            "wrqg"
         ]
     }
 ]
