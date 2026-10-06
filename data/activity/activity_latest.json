@@ -1,27 +1,33 @@
 {
-    "timestamp": "2026-10-06T18:53:00+00:00",
+    "timestamp": "2026-10-06T19:04:00+00:00",
     "difficulty": {
-        "1": 1,
+        "1": 2,
         "0": 1
     },
     "mode": {
+        "1": 1,
         "0": 2
     },
     "difficulty_mode": {
+        "1|1": 1,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Leveling",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
-            "name": "Other",
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "just me g",
+            "count": 1
+        },
         {
             "name": "act 5 nm",
             "count": 1
@@ -32,6 +38,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "just me g",
+            "count": 2,
+            "examples": [
+                "just me g"
+            ]
+        },
         {
             "normalized": "#f#f",
             "count": 2,
@@ -50,8 +63,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 6.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 7.0
     }
 }
