@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 3230,
+        "count": 3232,
         "examples": [
             "0",
             "1",
@@ -31,7 +31,7 @@
     },
     {
         "normalized": "wikid klownz",
-        "count": 620,
+        "count": 622,
         "examples": [
             "wikid klownz"
         ]
@@ -1575,6 +1575,15 @@
         ]
     },
     {
+        "normalized": "#r",
+        "count": 12,
+        "examples": [
+            "213r",
+            "32r",
+            "3r"
+        ]
+    },
+    {
         "normalized": "dsda",
         "count": 12,
         "examples": [
@@ -1844,14 +1853,6 @@
         "count": 10,
         "examples": [
             "pit"
-        ]
-    },
-    {
-        "normalized": "#r",
-        "count": 10,
-        "examples": [
-            "213r",
-            "3r"
         ]
     },
     {
