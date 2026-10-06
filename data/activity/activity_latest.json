@@ -1,26 +1,26 @@
 {
-    "timestamp": "2026-10-06T20:43:00+00:00",
+    "timestamp": "2026-10-06T20:51:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1,
+        "2": 1,
+        "1": 4,
         "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 1,
+        "2|0": 1,
+        "1|0": 4,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Cows",
@@ -29,35 +29,38 @@
     ],
     "top_games": [
         {
-            "name": "1213",
-            "count": 1
-        },
-        {
             "name": "n eld runes",
             "count": 1
         },
         {
-            "name": "cow run 9",
+            "name": "1218",
             "count": 1
         },
         {
-            "name": "qwerqf",
+            "name": "1215",
+            "count": 1
+        },
+        {
+            "name": "1214",
+            "count": 1
+        },
+        {
+            "name": "cow run 10",
+            "count": 1
+        },
+        {
+            "name": "12341r",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "#",
-            "count": 2,
+            "count": 6,
             "examples": [
-                "1213"
-            ]
-        },
-        {
-            "normalized": "qwerqf",
-            "count": 2,
-            "examples": [
-                "qwerqf"
+                "1214",
+                "1215",
+                "1218"
             ]
         }
     ],
@@ -67,19 +70,24 @@
                 "name": "n eld runes",
                 "matched": "run",
                 "count": 1
+            },
+            {
+                "name": "12341r",
+                "matched": "123",
+                "count": 1
             }
         ],
         "Cows": [
             {
-                "name": "cow run 9",
+                "name": "cow run 10",
                 "matched": "cow",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 7.5
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 6.5
     }
 }
