@@ -1,41 +1,35 @@
 {
-    "timestamp": "2026-10-06T20:28:00+00:00",
+    "timestamp": "2026-10-06T20:43:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 3,
+        "2": 2,
+        "1": 1,
         "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 6
+        "0": 4
     },
     "difficulty_mode": {
-        "2|1": 1,
         "2|0": 2,
-        "1|0": 3,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Cows",
             "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
+        },
+        {
+            "name": "Cows",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "qe",
-            "count": 1
-        },
-        {
-            "name": "k",
+            "name": "1213",
             "count": 1
         },
         {
@@ -43,49 +37,27 @@
             "count": 1
         },
         {
-            "name": "1212",
+            "name": "cow run 9",
             "count": 1
         },
         {
-            "name": "cow run 7",
-            "count": 1
-        },
-        {
-            "name": "cow run 6",
-            "count": 1
-        },
-        {
-            "name": "t134t",
+            "name": "qwerqf",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "qe",
-            "count": 2,
-            "examples": [
-                "qe"
-            ]
-        },
-        {
-            "normalized": "k",
-            "count": 2,
-            "examples": [
-                "k"
-            ]
-        },
-        {
             "normalized": "#",
             "count": 2,
             "examples": [
-                "1212"
+                "1213"
             ]
         },
         {
-            "normalized": "t#t",
+            "normalized": "qwerqf",
             "count": 2,
             "examples": [
-                "t134t"
+                "qwerqf"
             ]
         }
     ],
@@ -99,20 +71,15 @@
         ],
         "Cows": [
             {
-                "name": "cow run 7",
-                "matched": "cow",
-                "count": 1
-            },
-            {
-                "name": "cow run 6",
+                "name": "cow run 9",
                 "matched": "cow",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 5.86
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 7.5
     }
 }
