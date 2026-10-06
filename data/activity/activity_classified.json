@@ -51,6 +51,11 @@
             "count": 2
         },
         {
+            "name": "cow run 1",
+            "matched": "cow",
+            "count": 2
+        },
+        {
             "name": "hell cow",
             "matched": "cow",
             "count": 1
@@ -77,11 +82,6 @@
         },
         {
             "name": "cows 3",
-            "matched": "cow",
-            "count": 1
-        },
-        {
-            "name": "cow run 1",
             "matched": "cow",
             "count": 1
         }
@@ -721,7 +721,7 @@
         },
         {
             "name": "n ntorch o bto",
-            "matched": "n",
+            "matched": "torch",
             "count": 6
         },
         {
@@ -916,7 +916,7 @@
         },
         {
             "name": "n poisonb gc",
-            "matched": "iso",
+            "matched": "n",
             "count": 4
         },
         {
@@ -1541,7 +1541,7 @@
         },
         {
             "name": "n pala torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
@@ -2383,7 +2383,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "act",
+            "matched": "andar",
             "count": 12
         },
         {
@@ -2497,6 +2497,11 @@
             "count": 5
         },
         {
+            "name": "acte",
+            "matched": "act",
+            "count": 5
+        },
+        {
             "name": "acte 5",
             "matched": "act",
             "count": 5
@@ -2518,7 +2523,7 @@
         },
         {
             "name": "acte andy",
-            "matched": "act",
+            "matched": "andy",
             "count": 5
         },
         {
@@ -2533,11 +2538,6 @@
         },
         {
             "name": "act 2 lets go",
-            "matched": "act",
-            "count": 4
-        },
-        {
-            "name": "acte",
             "matched": "act",
             "count": 4
         },
@@ -2653,7 +2653,7 @@
         },
         {
             "name": "ancients norm",
-            "matched": "anci",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -2703,7 +2703,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "act",
+            "matched": "exp",
             "count": 2
         },
         {
@@ -2848,7 +2848,7 @@
         },
         {
             "name": "act start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -3168,7 +3168,7 @@
         {
             "name": "n eld runes",
             "matched": "run",
-            "count": 491
+            "count": 492
         },
         {
             "name": "asdasd",
@@ -3193,7 +3193,7 @@
         {
             "name": "aa",
             "matched": "aa",
-            "count": 61
+            "count": 62
         },
         {
             "name": "asder",
@@ -3807,7 +3807,7 @@
         },
         {
             "name": "asdsd36aaaa",
-            "matched": "aaa",
+            "matched": "asd",
             "count": 2
         },
         {
@@ -4282,7 +4282,7 @@
         },
         {
             "name": "14123awdasdfqwr",
-            "matched": "123",
+            "matched": "asd",
             "count": 1
         },
         {
@@ -5291,7 +5291,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 7
         },
         {
@@ -5346,7 +5346,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "map",
+            "matched": "mapping",
             "count": 4
         },
         {
@@ -5551,7 +5551,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -5566,7 +5566,7 @@
         },
         {
             "name": "mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -5603,17 +5603,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]

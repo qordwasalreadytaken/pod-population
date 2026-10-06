@@ -1,24 +1,25 @@
 {
-    "timestamp": "2026-10-06T19:35:00+00:00",
+    "timestamp": "2026-10-06T19:47:00+00:00",
     "difficulty": {
+        "2": 5,
         "1": 2,
-        "2": 2,
-        "0": 2
+        "0": 3
     },
     "mode": {
-        "1": 1,
-        "0": 5
+        "1": 2,
+        "0": 8
     },
     "difficulty_mode": {
+        "2|1": 1,
         "1|1": 1,
-        "2|0": 2,
+        "2|0": 4,
         "1|0": 1,
-        "0|0": 2
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 6
         },
         {
             "name": "Misc. Public MF Runs",
@@ -34,6 +35,14 @@
         }
     ],
     "top_games": [
+        {
+            "name": "k",
+            "count": 2
+        },
+        {
+            "name": "qe",
+            "count": 1
+        },
         {
             "name": "eq",
             "count": 1
@@ -51,6 +60,10 @@
             "count": 1
         },
         {
+            "name": "werr",
+            "count": 1
+        },
+        {
             "name": "r3r",
             "count": 1
         },
@@ -61,10 +74,31 @@
     ],
     "unknown_games": [
         {
+            "normalized": "k",
+            "count": 4,
+            "examples": [
+                "k"
+            ]
+        },
+        {
+            "normalized": "qe",
+            "count": 2,
+            "examples": [
+                "qe"
+            ]
+        },
+        {
             "normalized": "eq",
             "count": 2,
             "examples": [
                 "eq"
+            ]
+        },
+        {
+            "normalized": "werr",
+            "count": 2,
+            "examples": [
+                "werr"
             ]
         },
         {
@@ -104,8 +138,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 5.17
+        "unique_names": 9,
+        "public_games": 10,
+        "average_name_length": 4.22
     }
 }
