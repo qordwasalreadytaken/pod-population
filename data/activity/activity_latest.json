@@ -1,21 +1,29 @@
 {
-    "timestamp": "2026-10-06T22:37:00+00:00",
+    "timestamp": "2026-10-06T22:47:00+00:00",
     "difficulty": {
-        "0": 2
+        "0": 3
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "0|0": 2
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
             "count": 2
+        },
+        {
+            "name": "Baal",
+            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "baal-1",
+            "count": 1
+        },
         {
             "name": "rqwer",
             "count": 1
@@ -41,10 +49,18 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Baal": [
+            {
+                "name": "baal-1",
+                "matched": "baal",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 8.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 7.67
     }
 }
