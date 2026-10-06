@@ -1,21 +1,21 @@
 {
-    "timestamp": "2026-10-06T22:47:00+00:00",
+    "timestamp": "2026-10-06T23:05:00+00:00",
     "difficulty": {
-        "0": 3
+        "0": 2
     },
     "mode": {
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
-        "0|0": 3
+        "0|0": 2
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 2
+            "name": "Baal",
+            "count": 1
         },
         {
-            "name": "Baal",
+            "name": "Other",
             "count": 1
         }
     ],
@@ -25,22 +25,11 @@
             "count": 1
         },
         {
-            "name": "rqwer",
-            "count": 1
-        },
-        {
             "name": "wikid klownz",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "rqwer",
-            "count": 2,
-            "examples": [
-                "rqwer"
-            ]
-        },
         {
             "normalized": "wikid klownz",
             "count": 2,
@@ -59,8 +48,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 7.67
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 9.0
     }
 }
