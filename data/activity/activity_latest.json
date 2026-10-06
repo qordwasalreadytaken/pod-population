@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-06T07:04:00+00:00",
+    "timestamp": "2026-10-06T07:34:00+00:00",
     "difficulty": {
         "2": 1
     },
@@ -11,29 +11,29 @@
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "1211313g",
+            "name": "n silkweave",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "#g",
-            "count": 2,
-            "examples": [
-                "1211313g"
-            ]
-        }
-    ],
-    "classified_games": {},
+    "unknown_games": [],
+    "classified_games": {
+        "Trade": [
+            {
+                "name": "n silkweave",
+                "matched": "n",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 8.0
+        "average_name_length": 11.0
     }
 }
