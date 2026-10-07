@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-07T01:48:00+00:00",
+    "timestamp": "2026-10-07T02:16:00+00:00",
     "difficulty": {
         "2": 2
     },
@@ -11,13 +11,17 @@
     },
     "activities": [
         {
+            "name": "Trade",
+            "count": 1
+        },
+        {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asdasd",
+            "name": "n druid torch",
             "count": 1
         },
         {
@@ -27,12 +31,14 @@
     ],
     "unknown_games": [],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "asdasd",
-                "matched": "asd",
+                "name": "n druid torch",
+                "matched": "torch",
                 "count": 1
-            },
+            }
+        ],
+        "Misc. Public MF Runs": [
             {
                 "name": "123",
                 "matched": "123",
@@ -43,6 +49,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 4.5
+        "average_name_length": 8.0
     }
 }

@@ -20087,7 +20087,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -20187,7 +20187,7 @@
             "Leveling": [
                 {
                     "name": "normal act",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -36454,7 +36454,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "mf runs",
-                    "matched": "run",
+                    "matched": "mf",
                     "count": 1
                 }
             ]
@@ -122352,7 +122352,7 @@
                 },
                 {
                     "name": "asdsd36aaaa",
-                    "matched": "asd",
+                    "matched": "aaa",
                     "count": 1
                 },
                 {
@@ -122407,7 +122407,7 @@
                 },
                 {
                     "name": "asdsd36aaaa",
-                    "matched": "asd",
+                    "matched": "aaa",
                     "count": 1
                 }
             ]
@@ -141641,7 +141641,7 @@
             "Leveling": [
                 {
                     "name": "acte 5 exp",
-                    "matched": "exp",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -141698,7 +141698,7 @@
             "Leveling": [
                 {
                     "name": "acte 5 exp",
-                    "matched": "exp",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -263226,7 +263226,7 @@
             "Trade": [
                 {
                     "name": "n ntorch o bto",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -263283,7 +263283,7 @@
             "Trade": [
                 {
                     "name": "n ntorch o bto",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -263339,7 +263339,7 @@
             "Trade": [
                 {
                     "name": "n ntorch o bto",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -263395,7 +263395,7 @@
             "Trade": [
                 {
                     "name": "n ntorch o bto",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -263451,7 +263451,7 @@
             "Trade": [
                 {
                     "name": "n ntorch o bto",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -263516,7 +263516,7 @@
                 },
                 {
                     "name": "n ntorch o bto",
-                    "matched": "n",
+                    "matched": "torch",
                     "count": 1
                 }
             ]
@@ -333025,6 +333025,60 @@
             "unique_names": 2,
             "public_games": 2,
             "average_name_length": 4.5
+        }
+    },
+    {
+        "timestamp": "2026-10-07T02:16:00+00:00",
+        "difficulty": {
+            "2": 2
+        },
+        "mode": {
+            "0": 2
+        },
+        "difficulty_mode": {
+            "2|0": 2
+        },
+        "activities": [
+            {
+                "name": "Trade",
+                "count": 1
+            },
+            {
+                "name": "Misc. Public MF Runs",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "n druid torch",
+                "count": 1
+            },
+            {
+                "name": "123",
+                "count": 1
+            }
+        ],
+        "unknown_games": [],
+        "classified_games": {
+            "Trade": [
+                {
+                    "name": "n druid torch",
+                    "matched": "torch",
+                    "count": 1
+                }
+            ],
+            "Misc. Public MF Runs": [
+                {
+                    "name": "123",
+                    "matched": "123",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 2,
+            "public_games": 2,
+            "average_name_length": 8.0
         }
     }
 ]
