@@ -1,54 +1,15 @@
 {
-    "timestamp": "2026-10-07T10:05:00+00:00",
-    "difficulty": {
-        "2": 2
-    },
-    "mode": {
-        "0": 2
-    },
-    "difficulty_mode": {
-        "2|0": 2
-    },
-    "activities": [
-        {
-            "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        }
-    ],
-    "top_games": [
-        {
-            "name": "n tkey o vex 15",
-            "count": 1
-        },
-        {
-            "name": "n eld runes",
-            "count": 1
-        }
-    ],
+    "timestamp": "2026-10-07T10:27:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "difficulty_mode": {},
+    "activities": [],
+    "top_games": [],
     "unknown_games": [],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "n tkey o vex 15",
-                "matched": "n",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "n eld runes",
-                "matched": "run",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 13.0
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
