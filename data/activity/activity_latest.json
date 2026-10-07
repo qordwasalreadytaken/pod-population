@@ -1,41 +1,27 @@
 {
-    "timestamp": "2026-10-07T05:28:00+00:00",
+    "timestamp": "2026-10-07T05:45:00+00:00",
     "difficulty": {
-        "0": 1,
         "2": 1
     },
     "mode": {
-        "1": 1,
         "0": 1
     },
     "difficulty_mode": {
-        "0|1": 1,
         "2|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "wikid klownz",
-            "count": 1
-        },
         {
             "name": "1211313g",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
-            ]
-        },
         {
             "normalized": "#g",
             "count": 2,
@@ -46,8 +32,8 @@
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 10.0
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 8.0
     }
 }
