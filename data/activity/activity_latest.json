@@ -1,13 +1,15 @@
 {
-    "timestamp": "2026-10-07T11:49:00+00:00",
+    "timestamp": "2026-10-07T12:08:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 2,
+        "1": 1
     },
     "mode": {
         "0": 3
     },
     "difficulty_mode": {
-        "2|0": 3
+        "2|0": 2,
+        "1|0": 1
     },
     "activities": [
         {
@@ -15,7 +17,7 @@
             "count": 2
         },
         {
-            "name": "Trade",
+            "name": "Rush",
             "count": 1
         }
     ],
@@ -29,7 +31,7 @@
             "count": 1
         },
         {
-            "name": "n tkey o vex 16",
+            "name": "rush nm",
             "count": 1
         }
     ],
@@ -47,10 +49,10 @@
                 "count": 1
             }
         ],
-        "Trade": [
+        "Rush": [
             {
-                "name": "n tkey o vex 16",
-                "matched": "n",
+                "name": "rush nm",
+                "matched": "rush",
                 "count": 1
             }
         ]
@@ -58,6 +60,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 10.67
+        "average_name_length": 8.0
     }
 }
