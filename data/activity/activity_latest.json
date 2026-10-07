@@ -1,22 +1,30 @@
 {
-    "timestamp": "2026-10-07T14:04:00+00:00",
+    "timestamp": "2026-10-07T14:28:00+00:00",
     "difficulty": {
-        "2": 5,
-        "0": 1
+        "2": 7,
+        "1": 2
     },
     "mode": {
         "1": 2,
-        "0": 4
+        "0": 7
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "0|1": 1,
-        "2|0": 4
+        "2|1": 2,
+        "2|0": 5,
+        "1|0": 2
     },
     "activities": [
         {
             "name": "Other",
             "count": 5
+        },
+        {
+            "name": "Baal",
+            "count": 2
+        },
+        {
+            "name": "Rush",
+            "count": 1
         },
         {
             "name": "Trade",
@@ -29,11 +37,19 @@
             "count": 2
         },
         {
+            "name": "baal nm",
+            "count": 2
+        },
+        {
+            "name": "qe",
+            "count": 1
+        },
+        {
             "name": "gfg",
             "count": 1
         },
         {
-            "name": "wikid klownz",
+            "name": "rush hell plz",
             "count": 1
         },
         {
@@ -54,17 +70,17 @@
             ]
         },
         {
+            "normalized": "qe",
+            "count": 2,
+            "examples": [
+                "qe"
+            ]
+        },
+        {
             "normalized": "gfg",
             "count": 2,
             "examples": [
                 "gfg"
-            ]
-        },
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
             ]
         },
         {
@@ -76,17 +92,31 @@
         }
     ],
     "classified_games": {
+        "Rush": [
+            {
+                "name": "rush hell plz",
+                "matched": "rush",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n 15ias titans",
                 "matched": "n",
                 "count": 1
             }
+        ],
+        "Baal": [
+            {
+                "name": "baal nm",
+                "matched": "baal",
+                "count": 2
+            }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 6,
-        "average_name_length": 6.4
+        "unique_names": 7,
+        "public_games": 9,
+        "average_name_length": 6.0
     }
 }
