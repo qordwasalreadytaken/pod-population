@@ -1,24 +1,24 @@
 {
-    "timestamp": "2026-10-07T18:55:00+00:00",
+    "timestamp": "2026-10-07T19:07:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 5,
         "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 4,
+        "2|0": 5,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Maps",
             "count": 3
         },
         {
-            "name": "Chaos",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
             "name": "Trade",
@@ -27,8 +27,8 @@
     ],
     "top_games": [
         {
-            "name": "hchaos 2",
-            "count": 1
+            "name": "mapz",
+            "count": 3
         },
         {
             "name": "tt",
@@ -39,37 +39,32 @@
             "count": 1
         },
         {
-            "name": "55",
-            "count": 1
-        },
-        {
             "name": "121213",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "#",
-            "count": 4,
-            "examples": [
-                "121213",
-                "55"
-            ]
-        },
-        {
             "normalized": "tt",
             "count": 2,
             "examples": [
                 "tt"
             ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "121213"
+            ]
         }
     ],
     "classified_games": {
-        "Chaos": [
+        "Maps": [
             {
-                "name": "hchaos 2",
-                "matched": "chaos",
-                "count": 1
+                "name": "mapz",
+                "matched": "map",
+                "count": 3
             }
         ],
         "Trade": [
@@ -81,8 +76,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.6
+        "unique_names": 4,
+        "public_games": 6,
+        "average_name_length": 6.75
     }
 }
