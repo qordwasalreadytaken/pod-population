@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-07T20:05:00+00:00",
+    "timestamp": "2026-10-07T20:27:00+00:00",
     "difficulty": {
         "2": 1,
         "0": 1
@@ -13,7 +13,7 @@
     },
     "activities": [
         {
-            "name": "Maps",
+            "name": "Trade",
             "count": 1
         },
         {
@@ -23,7 +23,7 @@
     ],
     "top_games": [
         {
-            "name": "mapz",
+            "name": "n silkweave",
             "count": 1
         },
         {
@@ -41,10 +41,10 @@
         }
     ],
     "classified_games": {
-        "Maps": [
+        "Trade": [
             {
-                "name": "mapz",
-                "matched": "map",
+                "name": "n silkweave",
+                "matched": "n",
                 "count": 1
             }
         ]
@@ -52,6 +52,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 4.0
+        "average_name_length": 7.5
     }
 }
