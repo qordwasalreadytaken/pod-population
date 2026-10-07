@@ -1,26 +1,22 @@
 {
-    "timestamp": "2026-10-07T14:28:00+00:00",
+    "timestamp": "2026-10-07T14:43:00+00:00",
     "difficulty": {
-        "2": 7,
-        "1": 2
+        "2": 6,
+        "0": 1
     },
     "mode": {
         "1": 2,
-        "0": 7
+        "0": 5
     },
     "difficulty_mode": {
-        "2|1": 2,
-        "2|0": 5,
-        "1|0": 2
+        "2|1": 1,
+        "0|1": 1,
+        "2|0": 5
     },
     "activities": [
         {
             "name": "Other",
             "count": 5
-        },
-        {
-            "name": "Baal",
-            "count": 2
         },
         {
             "name": "Rush",
@@ -37,15 +33,11 @@
             "count": 2
         },
         {
-            "name": "baal nm",
-            "count": 2
-        },
-        {
-            "name": "qe",
+            "name": "gfg",
             "count": 1
         },
         {
-            "name": "gfg",
+            "name": "eq",
             "count": 1
         },
         {
@@ -70,17 +62,17 @@
             ]
         },
         {
-            "normalized": "qe",
-            "count": 2,
-            "examples": [
-                "qe"
-            ]
-        },
-        {
             "normalized": "gfg",
             "count": 2,
             "examples": [
                 "gfg"
+            ]
+        },
+        {
+            "normalized": "eq",
+            "count": 2,
+            "examples": [
+                "eq"
             ]
         },
         {
@@ -105,18 +97,11 @@
                 "matched": "n",
                 "count": 1
             }
-        ],
-        "Baal": [
-            {
-                "name": "baal nm",
-                "matched": "baal",
-                "count": 2
-            }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 9,
-        "average_name_length": 6.0
+        "unique_names": 6,
+        "public_games": 7,
+        "average_name_length": 5.83
     }
 }
