@@ -1,50 +1,70 @@
 {
-    "timestamp": "2026-10-08T18:32:00+00:00",
+    "timestamp": "2026-10-08T18:54:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 1,
+        "1": 2,
+        "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 1,
+        "1|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
             "count": 2
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "terror key 19",
-            "count": 1
+            "name": "gord",
+            "count": 2
         },
         {
             "name": "lvv",
             "count": 1
+        },
+        {
+            "name": "dads",
+            "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "terror key #",
-            "count": 2,
-            "examples": [
-                "terror key 19"
-            ]
-        },
         {
             "normalized": "lvv",
             "count": 2,
             "examples": [
                 "lvv"
             ]
+        },
+        {
+            "normalized": "dads",
+            "count": 2,
+            "examples": [
+                "dads"
+            ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "gord",
+                "matched": "gord",
+                "count": 2
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 8.0
+        "unique_names": 3,
+        "public_games": 4,
+        "average_name_length": 3.67
     }
 }
