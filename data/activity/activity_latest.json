@@ -1,26 +1,22 @@
 {
-    "timestamp": "2026-10-08T11:50:00+00:00",
+    "timestamp": "2026-10-08T12:08:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 2,
-        "0": 1
+        "2": 6
     },
     "mode": {
-        "0": 5
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 2,
-        "0|0": 1
+        "2|0": 6
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 2
+            "name": "Misc. Public MF Runs",
+            "count": 4
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Other",
+            "count": 1
         },
         {
             "name": "Trade",
@@ -33,47 +29,60 @@
             "count": 2
         },
         {
+            "name": "high rune plz 3",
+            "count": 1
+        },
+        {
+            "name": "high rune plz 2",
+            "count": 1
+        },
+        {
             "name": "2331",
             "count": 1
         },
         {
             "name": "n silkweave",
             "count": 1
-        },
-        {
-            "name": "47",
-            "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "#",
-            "count": 4,
+            "count": 2,
             "examples": [
-                "2331",
-                "47"
+                "2331"
             ]
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 2
+            },
+            {
+                "name": "high rune plz 3",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "high rune plz 2",
+                "matched": "run",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n silkweave",
                 "matched": "n",
                 "count": 1
             }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 2
-            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 5,
-        "average_name_length": 5.0
+        "unique_names": 5,
+        "public_games": 6,
+        "average_name_length": 9.6
     }
 }
