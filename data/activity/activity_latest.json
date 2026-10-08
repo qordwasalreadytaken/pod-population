@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-08T02:16:00+00:00",
+    "timestamp": "2026-10-08T02:49:00+00:00",
     "difficulty": {
         "0": 3
     },
@@ -11,21 +11,25 @@
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 2
+            "name": "Trade",
+            "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Leveling",
+            "count": 1
+        },
+        {
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asdasd",
+            "name": "bring free pls",
             "count": 1
         },
         {
-            "name": "1213",
+            "name": "help act 5 pliz",
             "count": 1
         },
         {
@@ -35,13 +39,6 @@
     ],
     "unknown_games": [
         {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "1213"
-            ]
-        },
-        {
             "normalized": "poilk",
             "count": 2,
             "examples": [
@@ -50,10 +47,17 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "asdasd",
-                "matched": "asd",
+                "name": "bring free pls",
+                "matched": "bring",
+                "count": 1
+            }
+        ],
+        "Leveling": [
+            {
+                "name": "help act 5 pliz",
+                "matched": "act",
                 "count": 1
             }
         ]
@@ -61,6 +65,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 5.0
+        "average_name_length": 11.33
     }
 }
