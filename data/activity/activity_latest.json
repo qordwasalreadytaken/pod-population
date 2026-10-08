@@ -1,22 +1,20 @@
 {
-    "timestamp": "2026-10-08T20:45:00+00:00",
+    "timestamp": "2026-10-08T21:05:00+00:00",
     "difficulty": {
-        "2": 5,
-        "0": 1
+        "2": 7
     },
     "mode": {
         "1": 2,
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "0|1": 1,
-        "2|0": 4
+        "2|1": 2,
+        "2|0": 5
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 4
+            "count": 5
         },
         {
             "name": "Other",
@@ -25,23 +23,23 @@
     ],
     "top_games": [
         {
+            "name": "gord",
+            "count": 2
+        },
+        {
+            "name": "eq",
+            "count": 1
+        },
+        {
             "name": "coz i all alone",
             "count": 1
         },
         {
-            "name": "qe",
+            "name": "choas run 8",
             "count": 1
         },
         {
-            "name": "choas run 3",
-            "count": 1
-        },
-        {
-            "name": "choas run 2",
-            "count": 1
-        },
-        {
-            "name": "gord",
+            "name": "choas run 7",
             "count": 1
         },
         {
@@ -51,35 +49,35 @@
     ],
     "unknown_games": [
         {
+            "normalized": "eq",
+            "count": 2,
+            "examples": [
+                "eq"
+            ]
+        },
+        {
             "normalized": "coz i all alone",
             "count": 2,
             "examples": [
                 "coz i all alone"
-            ]
-        },
-        {
-            "normalized": "qe",
-            "count": 2,
-            "examples": [
-                "qe"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "choas run 3",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "choas run 2",
-                "matched": "run",
-                "count": 1
-            },
-            {
                 "name": "gord",
                 "matched": "gord",
+                "count": 2
+            },
+            {
+                "name": "choas run 8",
+                "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "choas run 7",
+                "matched": "run",
                 "count": 1
             },
             {
@@ -91,7 +89,7 @@
     },
     "interesting": {
         "unique_names": 6,
-        "public_games": 6,
+        "public_games": 7,
         "average_name_length": 8.17
     }
 }

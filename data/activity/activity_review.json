@@ -153,6 +153,13 @@
         ]
     },
     {
+        "normalized": "eq",
+        "count": 120,
+        "examples": [
+            "eq"
+        ]
+    },
+    {
         "normalized": "keys #",
         "count": 120,
         "examples": [
@@ -166,13 +173,6 @@
             "keys 17",
             "keys 18",
             "keys 21"
-        ]
-    },
-    {
-        "normalized": "eq",
-        "count": 118,
-        "examples": [
-            "eq"
         ]
     },
     {
@@ -1443,6 +1443,13 @@
         ]
     },
     {
+        "normalized": "coz i all alone",
+        "count": 14,
+        "examples": [
+            "coz i all alone"
+        ]
+    },
+    {
         "normalized": "key farming #",
         "count": 14,
         "examples": [
@@ -1650,13 +1657,6 @@
         "count": 12,
         "examples": [
             "just me baby"
-        ]
-    },
-    {
-        "normalized": "coz i all alone",
-        "count": 12,
-        "examples": [
-            "coz i all alone"
         ]
     },
     {
