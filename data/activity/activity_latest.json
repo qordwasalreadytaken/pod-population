@@ -1,40 +1,31 @@
 {
-    "timestamp": "2026-10-08T19:37:00+00:00",
+    "timestamp": "2026-10-08T19:50:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 2
+        "2": 2,
+        "0": 1
     },
     "mode": {
-        "1": 2,
-        "0": 3
+        "1": 1,
+        "0": 2
     },
     "difficulty_mode": {
         "2|1": 1,
-        "0|1": 1,
-        "2|0": 2,
+        "2|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "coz i all alone",
-            "count": 1
-        },
-        {
-            "name": "wikid klownz",
-            "count": 1
-        },
-        {
-            "name": "123",
             "count": 1
         },
         {
@@ -55,13 +46,6 @@
             ]
         },
         {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
-            ]
-        },
-        {
             "normalized": "dsad",
             "count": 2,
             "examples": [
@@ -72,11 +56,6 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "123",
-                "matched": "123",
-                "count": 1
-            },
-            {
                 "name": "gord",
                 "matched": "gord",
                 "count": 1
@@ -84,8 +63,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 7.6
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 7.67
     }
 }
