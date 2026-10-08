@@ -1,25 +1,25 @@
 {
-    "timestamp": "2026-10-08T15:05:00+00:00",
+    "timestamp": "2026-10-08T15:27:00+00:00",
     "difficulty": {
-        "0": 3,
+        "0": 2,
         "2": 1
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
         "0|1": 1,
         "2|0": 1,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 1
         }
     ],
@@ -29,15 +29,11 @@
             "count": 1
         },
         {
-            "name": "asdasd",
+            "name": "n 15ias titans",
             "count": 1
         },
         {
             "name": "tanker",
-            "count": 1
-        },
-        {
-            "name": "fdf",
             "count": 1
         }
     ],
@@ -55,27 +51,20 @@
             "examples": [
                 "tanker"
             ]
-        },
-        {
-            "normalized": "fdf",
-            "count": 2,
-            "examples": [
-                "fdf"
-            ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "asdasd",
-                "matched": "asd",
+                "name": "n 15ias titans",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.75
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 10.67
     }
 }
