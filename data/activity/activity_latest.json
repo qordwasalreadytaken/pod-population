@@ -1,45 +1,43 @@
 {
-    "timestamp": "2026-10-08T13:51:00+00:00",
+    "timestamp": "2026-10-08T14:06:00+00:00",
     "difficulty": {
-        "0": 2,
         "2": 4,
-        "1": 1
+        "1": 1,
+        "0": 2
     },
     "mode": {
-        "1": 1,
-        "0": 6
+        "0": 7
     },
     "difficulty_mode": {
-        "0|1": 1,
         "2|0": 4,
         "1|0": 1,
-        "0|0": 1
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 3
         },
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
             "name": "Baal",
             "count": 1
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "wikid klownz",
+            "name": "asdasd",
             "count": 1
         },
         {
-            "name": "key farming 21",
-            "count": 1
-        },
-        {
-            "name": "key farming 20",
+            "name": "n amn runes",
             "count": 1
         },
         {
@@ -47,11 +45,15 @@
             "count": 1
         },
         {
-            "name": "n silkweave",
+            "name": "key farming 21",
             "count": 1
         },
         {
             "name": "n",
+            "count": 1
+        },
+        {
+            "name": "fdf",
             "count": 1
         },
         {
@@ -62,17 +64,16 @@
     "unknown_games": [
         {
             "normalized": "key farming #",
-            "count": 4,
+            "count": 2,
             "examples": [
-                "key farming 20",
                 "key farming 21"
             ]
         },
         {
-            "normalized": "wikid klownz",
+            "normalized": "fdf",
             "count": 2,
             "examples": [
-                "wikid klownz"
+                "fdf"
             ]
         },
         {
@@ -84,6 +85,18 @@
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asdasd",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "n amn runes",
+                "matched": "run",
+                "count": 1
+            }
+        ],
         "Baal": [
             {
                 "name": "baalhell",
@@ -92,11 +105,6 @@
             }
         ],
         "Trade": [
-            {
-                "name": "n silkweave",
-                "matched": "n",
-                "count": 1
-            },
             {
                 "name": "n",
                 "matched": "n",
@@ -107,6 +115,6 @@
     "interesting": {
         "unique_names": 7,
         "public_games": 7,
-        "average_name_length": 9.0
+        "average_name_length": 6.57
     }
 }
