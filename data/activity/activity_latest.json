@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-08T18:06:00+00:00",
+    "timestamp": "2026-10-08T18:32:00+00:00",
     "difficulty": {
         "2": 2
     },
@@ -11,17 +11,13 @@
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "n amn runes",
+            "name": "terror key 19",
             "count": 1
         },
         {
@@ -31,6 +27,13 @@
     ],
     "unknown_games": [
         {
+            "normalized": "terror key #",
+            "count": 2,
+            "examples": [
+                "terror key 19"
+            ]
+        },
+        {
             "normalized": "lvv",
             "count": 2,
             "examples": [
@@ -38,18 +41,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "n amn runes",
-                "matched": "run",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 7.0
+        "average_name_length": 8.0
     }
 }
