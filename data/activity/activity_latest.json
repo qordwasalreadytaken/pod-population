@@ -1,39 +1,37 @@
 {
-    "timestamp": "2026-10-08T12:08:00+00:00",
+    "timestamp": "2026-10-08T12:39:00+00:00",
     "difficulty": {
-        "2": 6
+        "2": 6,
+        "0": 1
     },
     "mode": {
-        "0": 6
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 6
+        "2|0": 6,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 4
         },
         {
-            "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Trade",
-            "count": 1
+            "name": "Misc. Public MF Runs",
+            "count": 3
         }
     ],
     "top_games": [
         {
             "name": "asd",
-            "count": 2
+            "count": 3
         },
         {
-            "name": "high rune plz 3",
+            "name": "2332",
             "count": 1
         },
         {
-            "name": "high rune plz 2",
+            "name": "key farming 7",
             "count": 1
         },
         {
@@ -41,16 +39,31 @@
             "count": 1
         },
         {
-            "name": "n silkweave",
+            "name": "nar",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "#",
+            "count": 4,
+            "examples": [
+                "2331",
+                "2332"
+            ]
+        },
+        {
+            "normalized": "key farming #",
             "count": 2,
             "examples": [
-                "2331"
+                "key farming 7"
+            ]
+        },
+        {
+            "normalized": "nar",
+            "count": 2,
+            "examples": [
+                "nar"
             ]
         }
     ],
@@ -59,30 +72,13 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 2
-            },
-            {
-                "name": "high rune plz 3",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "high rune plz 2",
-                "matched": "run",
-                "count": 1
-            }
-        ],
-        "Trade": [
-            {
-                "name": "n silkweave",
-                "matched": "n",
-                "count": 1
+                "count": 3
             }
         ]
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 6,
-        "average_name_length": 9.6
+        "public_games": 7,
+        "average_name_length": 5.4
     }
 }
