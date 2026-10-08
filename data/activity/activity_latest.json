@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-08T22:50:00+00:00",
+    "timestamp": "2026-10-08T23:04:00+00:00",
     "difficulty": {
         "2": 2,
         "0": 1
@@ -15,11 +15,11 @@
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 2
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -33,7 +33,7 @@
             "count": 1
         },
         {
-            "name": "asdasd",
+            "name": "nar",
             "count": 1
         }
     ],
@@ -44,6 +44,13 @@
             "examples": [
                 "coz i all alone"
             ]
+        },
+        {
+            "normalized": "nar",
+            "count": 2,
+            "examples": [
+                "nar"
+            ]
         }
     ],
     "classified_games": {
@@ -52,17 +59,12 @@
                 "name": "123",
                 "matched": "123",
                 "count": 1
-            },
-            {
-                "name": "asdasd",
-                "matched": "asd",
-                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 8.0
+        "average_name_length": 7.0
     }
 }
