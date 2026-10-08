@@ -1,39 +1,31 @@
 {
-    "timestamp": "2026-10-08T14:29:00+00:00",
+    "timestamp": "2026-10-08T14:47:00+00:00",
     "difficulty": {
-        "2": 2,
+        "0": 3,
+        "2": 1
+    },
+    "mode": {
         "1": 1,
         "0": 3
     },
-    "mode": {
-        "0": 6
-    },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 1,
-        "0|0": 3
+        "0|1": 1,
+        "2|0": 1,
+        "0|0": 2
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
-        },
-        {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
-            "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Baal",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asdasd",
+            "name": "wikid klownz",
             "count": 1
         },
         {
@@ -41,15 +33,7 @@
             "count": 1
         },
         {
-            "name": "n",
-            "count": 1
-        },
-        {
-            "name": "baalrun",
-            "count": 1
-        },
-        {
-            "name": "nar",
+            "name": "tanker",
             "count": 1
         },
         {
@@ -59,10 +43,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "nar",
+            "normalized": "wikid klownz",
             "count": 2,
             "examples": [
-                "nar"
+                "wikid klownz"
+            ]
+        },
+        {
+            "normalized": "tanker",
+            "count": 2,
+            "examples": [
+                "tanker"
             ]
         },
         {
@@ -76,34 +67,15 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asdasd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
                 "name": "n amn runes",
                 "matched": "run",
-                "count": 1
-            }
-        ],
-        "Trade": [
-            {
-                "name": "n",
-                "matched": "n",
-                "count": 1
-            }
-        ],
-        "Baal": [
-            {
-                "name": "baalrun",
-                "matched": "baal",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 5.17
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 8.0
     }
 }
