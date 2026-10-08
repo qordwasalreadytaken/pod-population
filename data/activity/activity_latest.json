@@ -1,26 +1,30 @@
 {
-    "timestamp": "2026-10-08T06:09:00+00:00",
+    "timestamp": "2026-10-08T06:43:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 2,
         "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 2
+        },
+        {
+            "name": "Other",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "cln/15ias titan",
-            "count": 1
+            "name": "n silkweave",
+            "count": 2
         },
         {
             "name": "cln/15ias-titan",
@@ -29,13 +33,6 @@
     ],
     "unknown_games": [
         {
-            "normalized": "cln/#ias titan",
-            "count": 2,
-            "examples": [
-                "cln/15ias titan"
-            ]
-        },
-        {
             "normalized": "cln/#ias-titan",
             "count": 2,
             "examples": [
@@ -43,10 +40,18 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Trade": [
+            {
+                "name": "n silkweave",
+                "matched": "n",
+                "count": 2
+            }
+        ]
+    },
     "interesting": {
         "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 15.0
+        "public_games": 3,
+        "average_name_length": 13.0
     }
 }
