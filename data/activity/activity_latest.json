@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-09T14:31:00+00:00",
+    "timestamp": "2026-10-09T14:53:00+00:00",
     "difficulty": {
         "2": 3,
         "0": 1
@@ -27,11 +27,11 @@
     ],
     "top_games": [
         {
-            "name": "1212",
+            "name": "n claw bshield",
             "count": 1
         },
         {
-            "name": "n claw 3bshield",
+            "name": "t",
             "count": 1
         },
         {
@@ -45,10 +45,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "#",
+            "normalized": "t",
             "count": 2,
             "examples": [
-                "1212"
+                "t"
             ]
         },
         {
@@ -62,7 +62,7 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "n claw 3bshield",
+                "name": "n claw bshield",
                 "matched": "n",
                 "count": 1
             }
@@ -78,6 +78,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 8.25
+        "average_name_length": 7.25
     }
 }
