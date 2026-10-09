@@ -1,55 +1,29 @@
 {
-    "timestamp": "2026-10-09T15:04:00+00:00",
+    "timestamp": "2026-10-09T15:25:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 2,
-        "0": 2
+        "2": 2,
+        "0": 1
     },
     "mode": {
-        "0": 7
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "1|0": 2,
-        "0|0": 2
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
-        },
-        {
-            "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "n claw bshield",
+            "name": "klkl",
             "count": 1
         },
         {
-            "name": "t",
-            "count": 1
-        },
-        {
-            "name": "asdasd",
-            "count": 1
-        },
-        {
-            "name": "fgfgg",
-            "count": 1
-        },
-        {
-            "name": "hhhh",
-            "count": 1
-        },
-        {
-            "name": "hh",
+            "name": "test",
             "count": 1
         },
         {
@@ -59,31 +33,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "t",
+            "normalized": "klkl",
             "count": 2,
             "examples": [
-                "t"
+                "klkl"
             ]
         },
         {
-            "normalized": "fgfgg",
+            "normalized": "test",
             "count": 2,
             "examples": [
-                "fgfgg"
-            ]
-        },
-        {
-            "normalized": "hhhh",
-            "count": 2,
-            "examples": [
-                "hhhh"
-            ]
-        },
-        {
-            "normalized": "hh",
-            "count": 2,
-            "examples": [
-                "hh"
+                "test"
             ]
         },
         {
@@ -94,25 +54,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "n claw bshield",
-                "matched": "n",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asdasd",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 5.71
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 5.33
     }
 }
