@@ -572,6 +572,13 @@
         ]
     },
     {
+        "normalized": "begining",
+        "count": 30,
+        "examples": [
+            "begining"
+        ]
+    },
+    {
         "normalized": "w",
         "count": 28,
         "examples": [
@@ -611,13 +618,6 @@
         "count": 28,
         "examples": [
             "booomm"
-        ]
-    },
-    {
-        "normalized": "begining",
-        "count": 28,
-        "examples": [
-            "begining"
         ]
     },
     {
@@ -1272,6 +1272,14 @@
         ]
     },
     {
+        "normalized": "javelma grow #",
+        "count": 16,
+        "examples": [
+            "javelma grow 1",
+            "javelma grow 2"
+        ]
+    },
+    {
         "normalized": "kokoball",
         "count": 14,
         "examples": [
@@ -1490,14 +1498,6 @@
             "key farming 21",
             "key farming 7",
             "key farming 9"
-        ]
-    },
-    {
-        "normalized": "javelma grow #",
-        "count": 14,
-        "examples": [
-            "javelma grow 1",
-            "javelma grow 2"
         ]
     },
     {
@@ -4793,6 +4793,13 @@
         "count": 4,
         "examples": [
             "cln/15ias-titan"
+        ]
+    },
+    {
+        "normalized": "mll",
+        "count": 4,
+        "examples": [
+            "mll"
         ]
     },
     {
@@ -8597,10 +8604,10 @@
         ]
     },
     {
-        "normalized": "mll",
+        "normalized": "gk",
         "count": 2,
         "examples": [
-            "mll"
+            "gk"
         ]
     }
 ]
