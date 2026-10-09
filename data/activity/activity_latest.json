@@ -1,42 +1,27 @@
 {
-    "timestamp": "2026-10-09T18:30:00+00:00",
+    "timestamp": "2026-10-09T18:53:00+00:00",
     "difficulty": {
-        "1": 1,
-        "2": 4
+        "2": 2
     },
     "mode": {
-        "1": 1,
-        "0": 4
+        "0": 2
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "2|0": 4
+        "2|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 1
         },
         {
             "name": "Trade",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "gk",
-            "count": 1
-        },
-        {
             "name": "t",
-            "count": 1
-        },
-        {
-            "name": "n claw blade s",
-            "count": 1
-        },
-        {
-            "name": "124",
             "count": 1
         },
         {
@@ -46,34 +31,15 @@
     ],
     "unknown_games": [
         {
-            "normalized": "gk",
-            "count": 2,
-            "examples": [
-                "gk"
-            ]
-        },
-        {
             "normalized": "t",
             "count": 2,
             "examples": [
                 "t"
             ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "124"
-            ]
         }
     ],
     "classified_games": {
         "Trade": [
-            {
-                "name": "n claw blade s",
-                "matched": "n",
-                "count": 1
-            },
             {
                 "name": "n gg titans",
                 "matched": "n",
@@ -82,8 +48,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.2
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 6.0
     }
 }
