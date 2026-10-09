@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-09T08:46:00+00:00",
+    "timestamp": "2026-10-09T09:09:00+00:00",
     "difficulty": {
         "2": 2
     },
@@ -17,11 +17,11 @@
     ],
     "top_games": [
         {
-            "name": "terror key 7",
+            "name": "terror key 12",
             "count": 1
         },
         {
-            "name": "terror key 6",
+            "name": "terror key 11",
             "count": 1
         }
     ],
@@ -30,8 +30,8 @@
             "normalized": "terror key #",
             "count": 4,
             "examples": [
-                "terror key 6",
-                "terror key 7"
+                "terror key 11",
+                "terror key 12"
             ]
         }
     ],
@@ -39,6 +39,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 12.0
+        "average_name_length": 13.0
     }
 }
