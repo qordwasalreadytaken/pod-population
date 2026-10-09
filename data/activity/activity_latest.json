@@ -1,31 +1,27 @@
 {
-    "timestamp": "2026-10-09T08:24:00+00:00",
+    "timestamp": "2026-10-09T08:46:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 2
     },
     "mode": {
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 3
+        "2|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "terror key 2",
+            "name": "terror key 7",
             "count": 1
         },
         {
-            "name": "terror key 1",
-            "count": 1
-        },
-        {
-            "name": "lvv",
+            "name": "terror key 6",
             "count": 1
         }
     ],
@@ -34,22 +30,15 @@
             "normalized": "terror key #",
             "count": 4,
             "examples": [
-                "terror key 1",
-                "terror key 2"
-            ]
-        },
-        {
-            "normalized": "lvv",
-            "count": 2,
-            "examples": [
-                "lvv"
+                "terror key 6",
+                "terror key 7"
             ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 9.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 12.0
     }
 }
