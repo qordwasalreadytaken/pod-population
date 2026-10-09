@@ -1,19 +1,25 @@
 {
-    "timestamp": "2026-10-09T19:35:00+00:00",
+    "timestamp": "2026-10-09T19:47:00+00:00",
     "difficulty": {
         "2": 1,
+        "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
         "2|0": 1,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Maps",
+            "count": 1
+        },
+        {
+            "name": "Leveling",
             "count": 1
         },
         {
@@ -24,6 +30,10 @@
     "top_games": [
         {
             "name": "map",
+            "count": 1
+        },
+        {
+            "name": "acte",
             "count": 1
         },
         {
@@ -47,11 +57,18 @@
                 "matched": "map",
                 "count": 1
             }
+        ],
+        "Leveling": [
+            {
+                "name": "acte",
+                "matched": "act",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 3.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 3.33
     }
 }
