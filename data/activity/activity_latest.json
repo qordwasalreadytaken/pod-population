@@ -1,39 +1,70 @@
 {
-    "timestamp": "2026-10-09T11:05:00+00:00",
+    "timestamp": "2026-10-09T11:24:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 2,
+        "0": 1
     },
     "mode": {
-        "0": 4
+        "1": 1,
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 4
+        "2|1": 1,
+        "2|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 2
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "hate key farm",
-            "count": 4
+            "name": "qe",
+            "count": 1
+        },
+        {
+            "name": "asdasd",
+            "count": 1
+        },
+        {
+            "name": "javelamazon 1",
+            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "hate key farm",
-            "count": 8,
+            "normalized": "qe",
+            "count": 2,
             "examples": [
-                "hate key farm"
+                "qe"
+            ]
+        },
+        {
+            "normalized": "javelamazon #",
+            "count": 2,
+            "examples": [
+                "javelamazon 1"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asdasd",
+                "matched": "asd",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 4,
-        "average_name_length": 13.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 7.0
     }
 }
