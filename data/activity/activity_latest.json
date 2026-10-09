@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-09T15:25:00+00:00",
+    "timestamp": "2026-10-09T15:38:00+00:00",
     "difficulty": {
         "2": 2,
         "0": 1
@@ -19,11 +19,11 @@
     ],
     "top_games": [
         {
-            "name": "klkl",
+            "name": "t",
             "count": 1
         },
         {
-            "name": "test",
+            "name": "klkl",
             "count": 1
         },
         {
@@ -33,17 +33,17 @@
     ],
     "unknown_games": [
         {
+            "normalized": "t",
+            "count": 2,
+            "examples": [
+                "t"
+            ]
+        },
+        {
             "normalized": "klkl",
             "count": 2,
             "examples": [
                 "klkl"
-            ]
-        },
-        {
-            "normalized": "test",
-            "count": 2,
-            "examples": [
-                "test"
             ]
         },
         {
@@ -58,6 +58,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 5.33
+        "average_name_length": 4.33
     }
 }
