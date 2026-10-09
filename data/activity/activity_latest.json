@@ -1,21 +1,23 @@
 {
-    "timestamp": "2026-10-09T19:03:00+00:00",
+    "timestamp": "2026-10-09T19:22:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 5,
+        "0": 1
     },
     "mode": {
-        "0": 3
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 3
+        "2|0": 5,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Maps",
-            "count": 1
+            "name": "Other",
+            "count": 4
         },
         {
-            "name": "Other",
+            "name": "Maps",
             "count": 1
         },
         {
@@ -25,24 +27,46 @@
     ],
     "top_games": [
         {
+            "name": "t",
+            "count": 2
+        },
+        {
+            "name": "1222",
+            "count": 1
+        },
+        {
             "name": "map",
             "count": 1
         },
         {
-            "name": "t",
+            "name": "n gg titans",
             "count": 1
         },
         {
-            "name": "n gg titans",
+            "name": "dadad",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "t",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "t"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1222"
+            ]
+        },
+        {
+            "normalized": "dadad",
+            "count": 2,
+            "examples": [
+                "dadad"
             ]
         }
     ],
@@ -63,8 +87,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 5.0
+        "unique_names": 5,
+        "public_games": 6,
+        "average_name_length": 4.8
     }
 }
