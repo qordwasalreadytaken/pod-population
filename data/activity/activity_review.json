@@ -612,6 +612,13 @@
         ]
     },
     {
+        "normalized": "nar",
+        "count": 26,
+        "examples": [
+            "nar"
+        ]
+    },
+    {
         "normalized": "dsad",
         "count": 24,
         "examples": [
@@ -690,13 +697,6 @@
         "count": 24,
         "examples": [
             "killb"
-        ]
-    },
-    {
-        "normalized": "nar",
-        "count": 24,
-        "examples": [
-            "nar"
         ]
     },
     {
@@ -1248,6 +1248,20 @@
         ]
     },
     {
+        "normalized": "des key farm #",
+        "count": 16,
+        "examples": [
+            "des key farm 16",
+            "des key farm 17",
+            "des key farm 2",
+            "des key farm 24",
+            "des key farm 25",
+            "des key farm 3",
+            "des key farm 4",
+            "des key farm 5"
+        ]
+    },
+    {
         "normalized": "kokoball",
         "count": 14,
         "examples": [
@@ -1671,18 +1685,6 @@
         "count": 12,
         "examples": [
             "tanker"
-        ]
-    },
-    {
-        "normalized": "des key farm #",
-        "count": 12,
-        "examples": [
-            "des key farm 16",
-            "des key farm 17",
-            "des key farm 2",
-            "des key farm 3",
-            "des key farm 4",
-            "des key farm 5"
         ]
     },
     {
