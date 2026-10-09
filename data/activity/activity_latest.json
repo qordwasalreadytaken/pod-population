@@ -1,72 +1,42 @@
 {
-    "timestamp": "2026-10-09T19:22:00+00:00",
+    "timestamp": "2026-10-09T19:35:00+00:00",
     "difficulty": {
-        "2": 5,
+        "2": 1,
         "0": 1
     },
     "mode": {
-        "0": 6
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 5,
+        "2|0": 1,
         "0|0": 1
     },
     "activities": [
-        {
-            "name": "Other",
-            "count": 4
-        },
         {
             "name": "Maps",
             "count": 1
         },
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "t",
-            "count": 2
-        },
-        {
-            "name": "1222",
-            "count": 1
-        },
-        {
             "name": "map",
             "count": 1
         },
         {
-            "name": "n gg titans",
-            "count": 1
-        },
-        {
-            "name": "dadad",
+            "name": "sda",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "t",
-            "count": 4,
-            "examples": [
-                "t"
-            ]
-        },
-        {
-            "normalized": "#",
+            "normalized": "sda",
             "count": 2,
             "examples": [
-                "1222"
-            ]
-        },
-        {
-            "normalized": "dadad",
-            "count": 2,
-            "examples": [
-                "dadad"
+                "sda"
             ]
         }
     ],
@@ -77,18 +47,11 @@
                 "matched": "map",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "n gg titans",
-                "matched": "n",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 6,
-        "average_name_length": 4.8
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 3.0
     }
 }
