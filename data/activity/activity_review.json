@@ -31,7 +31,7 @@
     },
     {
         "normalized": "t",
-        "count": 706,
+        "count": 708,
         "examples": [
             "t"
         ]
@@ -1069,6 +1069,13 @@
         ]
     },
     {
+        "normalized": "begining",
+        "count": 18,
+        "examples": [
+            "begining"
+        ]
+    },
+    {
         "normalized": "mana",
         "count": 16,
         "examples": [
@@ -1262,13 +1269,6 @@
         "examples": [
             "2 akt",
             "5 akt"
-        ]
-    },
-    {
-        "normalized": "begining",
-        "count": 16,
-        "examples": [
-            "begining"
         ]
     },
     {
@@ -4778,6 +4778,13 @@
         "count": 4,
         "examples": [
             "cln/15ias-titan"
+        ]
+    },
+    {
+        "normalized": "javelma grow #",
+        "count": 4,
+        "examples": [
+            "javelma grow 1"
         ]
     },
     {
@@ -8579,13 +8586,6 @@
         "count": 2,
         "examples": [
             "hh"
-        ]
-    },
-    {
-        "normalized": "javelma grow #",
-        "count": 2,
-        "examples": [
-            "javelma grow 1"
         ]
     }
 ]
