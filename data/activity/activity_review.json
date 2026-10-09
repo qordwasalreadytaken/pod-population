@@ -31,7 +31,7 @@
     },
     {
         "normalized": "t",
-        "count": 708,
+        "count": 710,
         "examples": [
             "t"
         ]
@@ -1076,6 +1076,14 @@
         ]
     },
     {
+        "normalized": "javelma grow #",
+        "count": 18,
+        "examples": [
+            "javelma grow 1",
+            "javelma grow 2"
+        ]
+    },
+    {
         "normalized": "mana",
         "count": 16,
         "examples": [
@@ -1269,14 +1277,6 @@
         "examples": [
             "2 akt",
             "5 akt"
-        ]
-    },
-    {
-        "normalized": "javelma grow #",
-        "count": 16,
-        "examples": [
-            "javelma grow 1",
-            "javelma grow 2"
         ]
     },
     {
@@ -4800,6 +4800,13 @@
         "count": 4,
         "examples": [
             "mll"
+        ]
+    },
+    {
+        "normalized": "gk",
+        "count": 4,
+        "examples": [
+            "gk"
         ]
     },
     {
@@ -8601,13 +8608,6 @@
         "count": 2,
         "examples": [
             "hh"
-        ]
-    },
-    {
-        "normalized": "gk",
-        "count": 2,
-        "examples": [
-            "gk"
         ]
     }
 ]
