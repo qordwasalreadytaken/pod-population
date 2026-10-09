@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-10-09T06:43:00+00:00",
+    "timestamp": "2026-10-09T07:08:00+00:00",
     "difficulty": {
-        "2": 6,
+        "2": 4,
         "0": 1
     },
     "mode": {
-        "0": 7
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 6,
+        "2|0": 4,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 6
+            "count": 4
         },
         {
             "name": "Trade",
@@ -23,19 +23,11 @@
     ],
     "top_games": [
         {
-            "name": "des key farm 5",
+            "name": "des key farm 17",
             "count": 1
         },
         {
-            "name": "des key farm 4",
-            "count": 1
-        },
-        {
-            "name": "des key farm 3",
-            "count": 1
-        },
-        {
-            "name": "des key farm 2",
+            "name": "des key farm 16",
             "count": 1
         },
         {
@@ -54,12 +46,10 @@
     "unknown_games": [
         {
             "normalized": "des key farm #",
-            "count": 8,
+            "count": 4,
             "examples": [
-                "des key farm 2",
-                "des key farm 3",
-                "des key farm 4",
-                "des key farm 5"
+                "des key farm 16",
+                "des key farm 17"
             ]
         },
         {
@@ -87,8 +77,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 11.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 10.2
     }
 }
