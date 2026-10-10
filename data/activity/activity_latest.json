@@ -1,28 +1,63 @@
 {
-    "timestamp": "2026-10-10T11:04:00+00:00",
+    "timestamp": "2026-10-10T11:23:00+00:00",
     "difficulty": {
-        "1": 1
-    },
-    "mode": {
+        "2": 1,
+        "1": 1,
         "0": 1
     },
+    "mode": {
+        "0": 3
+    },
     "difficulty_mode": {
-        "1|0": 1
+        "2|0": 1,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
+            "name": "Trade",
+            "count": 1
+        },
+        {
             "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "n silkweave",
+            "count": 1
+        },
+        {
             "name": "gord",
+            "count": 1
+        },
+        {
+            "name": "javel grow 3",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "javel grow #",
+            "count": 2,
+            "examples": [
+                "javel grow 3"
+            ]
+        }
+    ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n silkweave",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "gord",
@@ -32,8 +67,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 4.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 9.0
     }
 }
