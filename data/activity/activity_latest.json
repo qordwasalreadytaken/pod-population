@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-10-10T12:55:00+00:00",
+    "timestamp": "2026-10-10T13:05:00+00:00",
     "difficulty": {
         "2": 2,
-        "1": 2,
+        "1": 1,
         "0": 2
     },
     "mode": {
-        "0": 6
+        "0": 5
     },
     "difficulty_mode": {
         "2|0": 2,
-        "1|0": 2,
+        "1|0": 1,
         "0|0": 2
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 4
+            "count": 3
         },
         {
             "name": "Other",
@@ -34,10 +34,6 @@
         },
         {
             "name": "javel grow 4",
-            "count": 1
-        },
-        {
-            "name": "dasd",
             "count": 1
         },
         {
@@ -78,11 +74,6 @@
                 "count": 1
             },
             {
-                "name": "dasd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
                 "name": "asdasd",
                 "matched": "asd",
                 "count": 1
@@ -90,8 +81,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 6.67
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 7.2
     }
 }
