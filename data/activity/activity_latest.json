@@ -1,35 +1,31 @@
 {
-    "timestamp": "2026-10-10T08:31:00+00:00",
+    "timestamp": "2026-10-10T08:51:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 1,
         "1": 1,
-        "0": 2
+        "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2,
+        "2|0": 1,
         "1|0": 1,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 3
         }
     ],
     "top_games": [
         {
             "name": "adsdas",
-            "count": 2
-        },
-        {
-            "name": "qdw",
             "count": 1
         },
         {
-            "name": "nar",
+            "name": "qdw",
             "count": 1
         },
         {
@@ -40,7 +36,7 @@
     "unknown_games": [
         {
             "normalized": "adsdas",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "adsdas"
             ]
@@ -53,13 +49,6 @@
             ]
         },
         {
-            "normalized": "nar",
-            "count": 2,
-            "examples": [
-                "nar"
-            ]
-        },
-        {
             "normalized": "javel grow #",
             "count": 2,
             "examples": [
@@ -69,8 +58,8 @@
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 4,
-        "public_games": 5,
-        "average_name_length": 6.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 7.0
     }
 }
