@@ -1,20 +1,24 @@
 {
-    "timestamp": "2026-10-10T02:40:00+00:00",
+    "timestamp": "2026-10-10T03:00:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 2
+        "2": 5
     },
     "mode": {
-        "0": 3
+        "1": 1,
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 2
+        "2|1": 1,
+        "2|0": 4
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 3
+        },
+        {
+            "name": "Other",
+            "count": 1
         },
         {
             "name": "Trade",
@@ -24,33 +28,45 @@
     "top_games": [
         {
             "name": "asdasd",
-            "count": 2
+            "count": 3
+        },
+        {
+            "name": "coz im alalone",
+            "count": 1
         },
         {
             "name": "n gg titans pls",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "coz im alalone",
+            "count": 2,
+            "examples": [
+                "coz im alalone"
+            ]
+        }
+    ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asdasd",
+                "matched": "asd",
+                "count": 3
+            }
+        ],
         "Trade": [
             {
                 "name": "n gg titans pls",
                 "matched": "n",
                 "count": 1
             }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asdasd",
-                "matched": "asd",
-                "count": 2
-            }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 3,
-        "average_name_length": 10.5
+        "unique_names": 3,
+        "public_games": 5,
+        "average_name_length": 11.67
     }
 }
