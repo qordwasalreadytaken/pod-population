@@ -1,8 +1,7 @@
 {
-    "timestamp": "2026-10-10T16:50:00+00:00",
+    "timestamp": "2026-10-10T17:04:00+00:00",
     "difficulty": {
-        "2": 5,
-        "1": 1,
+        "2": 6,
         "0": 1
     },
     "mode": {
@@ -11,31 +10,26 @@
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 4,
-        "1|0": 1,
+        "2|0": 5,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 6
-        },
-        {
-            "name": "Leveling",
-            "count": 1
+            "count": 7
         }
     ],
     "top_games": [
+        {
+            "name": "adsdas",
+            "count": 2
+        },
         {
             "name": "m",
             "count": 1
         },
         {
             "name": "dfhj",
-            "count": 1
-        },
-        {
-            "name": "adsdas",
             "count": 1
         },
         {
@@ -47,15 +41,18 @@
             "count": 1
         },
         {
-            "name": "acte",
-            "count": 1
-        },
-        {
             "name": "danza",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "adsdas",
+            "count": 4,
+            "examples": [
+                "adsdas"
+            ]
+        },
         {
             "normalized": "m",
             "count": 2,
@@ -68,13 +65,6 @@
             "count": 2,
             "examples": [
                 "dfhj"
-            ]
-        },
-        {
-            "normalized": "adsdas",
-            "count": 2,
-            "examples": [
-                "adsdas"
             ]
         },
         {
@@ -99,18 +89,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Leveling": [
-            {
-                "name": "acte",
-                "matched": "act",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 7,
+        "unique_names": 6,
         "public_games": 7,
-        "average_name_length": 5.43
+        "average_name_length": 5.67
     }
 }
