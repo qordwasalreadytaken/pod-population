@@ -1,27 +1,27 @@
 {
-    "timestamp": "2026-10-10T17:04:00+00:00",
+    "timestamp": "2026-10-10T17:21:00+00:00",
     "difficulty": {
-        "2": 6,
+        "2": 7,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 6
+        "0": 7
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 5,
+        "2|0": 6,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 7
+            "count": 8
         }
     ],
     "top_games": [
         {
-            "name": "adsdas",
+            "name": "dfhj",
             "count": 2
         },
         {
@@ -29,7 +29,11 @@
             "count": 1
         },
         {
-            "name": "dfhj",
+            "name": "1212",
+            "count": 1
+        },
+        {
+            "name": "adsdas",
             "count": 1
         },
         {
@@ -47,10 +51,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "adsdas",
+            "normalized": "dfhj",
             "count": 4,
             "examples": [
-                "adsdas"
+                "dfhj"
             ]
         },
         {
@@ -61,10 +65,17 @@
             ]
         },
         {
-            "normalized": "dfhj",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "dfhj"
+                "1212"
+            ]
+        },
+        {
+            "normalized": "adsdas",
+            "count": 2,
+            "examples": [
+                "adsdas"
             ]
         },
         {
@@ -91,8 +102,8 @@
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 5.67
+        "unique_names": 7,
+        "public_games": 8,
+        "average_name_length": 5.43
     }
 }
