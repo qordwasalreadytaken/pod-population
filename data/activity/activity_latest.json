@@ -1,37 +1,37 @@
 {
-    "timestamp": "2026-10-10T20:05:00+00:00",
+    "timestamp": "2026-10-10T20:25:00+00:00",
     "difficulty": {
         "2": 5,
-        "1": 1,
         "0": 1
     },
     "mode": {
-        "1": 1,
         "0": 6
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 4,
-        "1|0": 1,
+        "2|0": 5,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Trade",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
+            "count": 2
+        },
+        {
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n lem o fal",
+            "name": "key",
+            "count": 2
+        },
+        {
+            "name": "dasd",
             "count": 1
         },
         {
@@ -39,19 +39,7 @@
             "count": 1
         },
         {
-            "name": "key",
-            "count": 1
-        },
-        {
             "name": "n sup 4os gmb",
-            "count": 1
-        },
-        {
-            "name": "dfhj",
-            "count": 1
-        },
-        {
-            "name": "sdad",
             "count": 1
         },
         {
@@ -62,23 +50,9 @@
     "unknown_games": [
         {
             "normalized": "key",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "key"
-            ]
-        },
-        {
-            "normalized": "dfhj",
-            "count": 2,
-            "examples": [
-                "dfhj"
-            ]
-        },
-        {
-            "normalized": "sdad",
-            "count": 2,
-            "examples": [
-                "sdad"
             ]
         },
         {
@@ -90,29 +64,29 @@
         }
     ],
     "classified_games": {
-        "Trade": [
+        "Misc. Public MF Runs": [
             {
-                "name": "n lem o fal",
-                "matched": "n",
+                "name": "dasd",
+                "matched": "asd",
                 "count": 1
             },
-            {
-                "name": "n sup 4os gmb",
-                "matched": "n",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
             {
                 "name": "asder",
                 "matched": "asd",
                 "count": 1
             }
+        ],
+        "Trade": [
+            {
+                "name": "n sup 4os gmb",
+                "matched": "n",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 6.43
+        "unique_names": 5,
+        "public_games": 6,
+        "average_name_length": 6.0
     }
 }
