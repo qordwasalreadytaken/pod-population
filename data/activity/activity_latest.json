@@ -1,23 +1,39 @@
 {
-    "timestamp": "2026-10-10T19:33:00+00:00",
+    "timestamp": "2026-10-10T19:46:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 1
+        "2": 4,
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "0": 2
+        "1": 1,
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 1
+        "2|1": 1,
+        "2|0": 3,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 5
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "key",
+            "count": 2
+        },
+        {
+            "name": "n lem o fal",
+            "count": 1
+        },
         {
             "name": "dfhj",
             "count": 1
@@ -25,9 +41,20 @@
         {
             "name": "sdad",
             "count": 1
+        },
+        {
+            "name": "danza",
+            "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "key",
+            "count": 4,
+            "examples": [
+                "key"
+            ]
+        },
         {
             "normalized": "dfhj",
             "count": 2,
@@ -41,12 +68,27 @@
             "examples": [
                 "sdad"
             ]
+        },
+        {
+            "normalized": "danza",
+            "count": 2,
+            "examples": [
+                "danza"
+            ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Trade": [
+            {
+                "name": "n lem o fal",
+                "matched": "n",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 4.0
+        "unique_names": 5,
+        "public_games": 6,
+        "average_name_length": 5.4
     }
 }
