@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-10-10T14:05:00+00:00",
+    "timestamp": "2026-10-10T14:24:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 2
+        "2": 2,
+        "0": 1
     },
     "mode": {
         "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 2
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
@@ -23,11 +23,11 @@
     ],
     "top_games": [
         {
-            "name": "n eld runes",
+            "name": "gord",
             "count": 1
         },
         {
-            "name": "gord",
+            "name": "n eld runes",
             "count": 1
         },
         {
@@ -47,13 +47,13 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "n eld runes",
-                "matched": "run",
+                "name": "gord",
+                "matched": "gord",
                 "count": 1
             },
             {
-                "name": "gord",
-                "matched": "gord",
+                "name": "n eld runes",
+                "matched": "run",
                 "count": 1
             }
         ]
