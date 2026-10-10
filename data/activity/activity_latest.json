@@ -1,35 +1,41 @@
 {
-    "timestamp": "2026-10-10T17:21:00+00:00",
+    "timestamp": "2026-10-10T17:34:00+00:00",
     "difficulty": {
         "2": 7,
+        "1": 1,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 7
+        "0": 8
     },
     "difficulty_mode": {
         "2|1": 1,
         "2|0": 6,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 8
+            "count": 9
         }
     ],
     "top_games": [
-        {
-            "name": "dfhj",
-            "count": 2
-        },
         {
             "name": "m",
             "count": 1
         },
         {
+            "name": "1214",
+            "count": 1
+        },
+        {
             "name": "1212",
+            "count": 1
+        },
+        {
+            "name": "dfhj",
             "count": 1
         },
         {
@@ -45,16 +51,22 @@
             "count": 1
         },
         {
+            "name": "1213",
+            "count": 1
+        },
+        {
             "name": "danza",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "dfhj",
-            "count": 4,
+            "normalized": "#",
+            "count": 6,
             "examples": [
-                "dfhj"
+                "1212",
+                "1213",
+                "1214"
             ]
         },
         {
@@ -65,10 +77,10 @@
             ]
         },
         {
-            "normalized": "#",
+            "normalized": "dfhj",
             "count": 2,
             "examples": [
-                "1212"
+                "dfhj"
             ]
         },
         {
@@ -102,8 +114,8 @@
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 7,
-        "public_games": 8,
-        "average_name_length": 5.43
+        "unique_names": 9,
+        "public_games": 9,
+        "average_name_length": 5.11
     }
 }
