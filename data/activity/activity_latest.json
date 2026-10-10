@@ -1,22 +1,28 @@
 {
-    "timestamp": "2026-10-10T16:40:00+00:00",
+    "timestamp": "2026-10-10T16:50:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 5,
+        "1": 1,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 6
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 2,
+        "2|0": 4,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 6
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
@@ -25,11 +31,23 @@
             "count": 1
         },
         {
+            "name": "dfhj",
+            "count": 1
+        },
+        {
+            "name": "adsdas",
+            "count": 1
+        },
+        {
             "name": "cln-15iastitans",
             "count": 1
         },
         {
             "name": "lvv",
+            "count": 1
+        },
+        {
+            "name": "acte",
             "count": 1
         },
         {
@@ -43,6 +61,20 @@
             "count": 2,
             "examples": [
                 "m"
+            ]
+        },
+        {
+            "normalized": "dfhj",
+            "count": 2,
+            "examples": [
+                "dfhj"
+            ]
+        },
+        {
+            "normalized": "adsdas",
+            "count": 2,
+            "examples": [
+                "adsdas"
             ]
         },
         {
@@ -67,10 +99,18 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Leveling": [
+            {
+                "name": "acte",
+                "matched": "act",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.0
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 5.43
     }
 }
