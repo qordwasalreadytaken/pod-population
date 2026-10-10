@@ -1,26 +1,26 @@
 {
-    "timestamp": "2026-10-10T05:50:00+00:00",
+    "timestamp": "2026-10-10T06:08:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 1
+        "0": 2,
+        "2": 2
     },
     "mode": {
-        "1": 2,
-        "0": 2
+        "1": 1,
+        "0": 3
     },
     "difficulty_mode": {
-        "0|1": 2,
-        "2|0": 1,
+        "0|1": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Trade",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
@@ -29,7 +29,7 @@
             "count": 1
         },
         {
-            "name": "wikid klownz",
+            "name": "n titans",
             "count": 1
         },
         {
@@ -50,13 +50,6 @@
             ]
         },
         {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
-            ]
-        },
-        {
             "normalized": "javel grow #",
             "count": 2,
             "examples": [
@@ -67,6 +60,11 @@
     "classified_games": {
         "Trade": [
             {
+                "name": "n titans",
+                "matched": "n",
+                "count": 1
+            },
+            {
                 "name": "n silkweave",
                 "matched": "n",
                 "count": 1
@@ -76,6 +74,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 9.25
+        "average_name_length": 8.25
     }
 }
