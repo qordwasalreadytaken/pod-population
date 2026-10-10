@@ -1,16 +1,16 @@
 {
-    "timestamp": "2026-10-10T12:34:00+00:00",
+    "timestamp": "2026-10-10T12:55:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 1,
+        "2": 2,
+        "1": 2,
         "0": 2
     },
     "mode": {
         "0": 6
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "1|0": 1,
+        "2|0": 2,
+        "1|0": 2,
         "0|0": 2
     },
     "activities": [
@@ -25,10 +25,6 @@
     ],
     "top_games": [
         {
-            "name": "asdasd",
-            "count": 1
-        },
-        {
             "name": "gord",
             "count": 1
         },
@@ -37,41 +33,40 @@
             "count": 1
         },
         {
+            "name": "javel grow 4",
+            "count": 1
+        },
+        {
             "name": "dasd",
+            "count": 1
+        },
+        {
+            "name": "asdasd",
             "count": 1
         },
         {
             "name": "nar",
             "count": 1
-        },
-        {
-            "name": "javel grow 3",
-            "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "javel grow #",
+            "count": 2,
+            "examples": [
+                "javel grow 4"
+            ]
+        },
         {
             "normalized": "nar",
             "count": 2,
             "examples": [
                 "nar"
             ]
-        },
-        {
-            "normalized": "javel grow #",
-            "count": 2,
-            "examples": [
-                "javel grow 3"
-            ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
-            {
-                "name": "asdasd",
-                "matched": "asd",
-                "count": 1
-            },
             {
                 "name": "gord",
                 "matched": "gord",
@@ -84,6 +79,11 @@
             },
             {
                 "name": "dasd",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "asdasd",
                 "matched": "asd",
                 "count": 1
             }
