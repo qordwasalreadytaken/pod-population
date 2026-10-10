@@ -1,17 +1,17 @@
 {
-    "timestamp": "2026-10-10T13:05:00+00:00",
+    "timestamp": "2026-10-10T13:23:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 3,
         "1": 1,
-        "0": 2
+        "0": 1
     },
     "mode": {
         "0": 5
     },
     "difficulty_mode": {
-        "2|0": 2,
+        "2|0": 3,
         "1|0": 1,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
@@ -25,6 +25,10 @@
     ],
     "top_games": [
         {
+            "name": "asdasd",
+            "count": 1
+        },
+        {
             "name": "gord",
             "count": 1
         },
@@ -34,10 +38,6 @@
         },
         {
             "name": "javel grow 4",
-            "count": 1
-        },
-        {
-            "name": "asdasd",
             "count": 1
         },
         {
@@ -64,6 +64,11 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
+                "name": "asdasd",
+                "matched": "asd",
+                "count": 1
+            },
+            {
                 "name": "gord",
                 "matched": "gord",
                 "count": 1
@@ -71,11 +76,6 @@
             {
                 "name": "n eld runes",
                 "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "asdasd",
-                "matched": "asd",
                 "count": 1
             }
         ]
