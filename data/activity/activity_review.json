@@ -146,17 +146,17 @@
         ]
     },
     {
+        "normalized": "eq",
+        "count": 128,
+        "examples": [
+            "eq"
+        ]
+    },
+    {
         "normalized": "sdaadssd",
         "count": 128,
         "examples": [
             "sdaadssd"
-        ]
-    },
-    {
-        "normalized": "eq",
-        "count": 126,
-        "examples": [
-            "eq"
         ]
     },
     {
@@ -8718,6 +8718,20 @@
         "count": 2,
         "examples": [
             "give me item 1"
+        ]
+    },
+    {
+        "normalized": "xbbbnn",
+        "count": 2,
+        "examples": [
+            "xbbbnn"
+        ]
+    },
+    {
+        "normalized": "red",
+        "count": 2,
+        "examples": [
+            "red"
         ]
     }
 ]
