@@ -1,22 +1,24 @@
 {
-    "timestamp": "2026-10-11T12:57:00+00:00",
+    "timestamp": "2026-10-11T13:14:00+00:00",
     "difficulty": {
         "2": 4,
+        "1": 1,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
         "2|1": 1,
         "2|0": 3,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Trade",
@@ -29,11 +31,11 @@
     ],
     "top_games": [
         {
-            "name": "n lem o fal",
-            "count": 1
+            "name": "dsfdsf",
+            "count": 2
         },
         {
-            "name": "n eld runes",
+            "name": "n lem o fal",
             "count": 1
         },
         {
@@ -41,15 +43,22 @@
             "count": 1
         },
         {
-            "name": "adsdas",
+            "name": "n eld runes",
             "count": 1
         },
         {
-            "name": "dsfdsf",
+            "name": "adsdas",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "dsfdsf",
+            "count": 4,
+            "examples": [
+                "dsfdsf"
+            ]
+        },
         {
             "normalized": "abs",
             "count": 2,
@@ -62,13 +71,6 @@
             "count": 2,
             "examples": [
                 "adsdas"
-            ]
-        },
-        {
-            "normalized": "dsfdsf",
-            "count": 2,
-            "examples": [
-                "dsfdsf"
             ]
         }
     ],
@@ -90,7 +92,7 @@
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 5,
+        "public_games": 6,
         "average_name_length": 7.4
     }
 }
