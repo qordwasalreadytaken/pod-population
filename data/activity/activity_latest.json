@@ -1,32 +1,32 @@
 {
-    "timestamp": "2026-10-11T22:25:00+00:00",
+    "timestamp": "2026-10-11T22:37:00+00:00",
     "difficulty": {
-        "2": 7
+        "2": 5
     },
     "mode": {
-        "0": 7
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 7
+        "2|0": 5
     },
     "activities": [
         {
+            "name": "Other",
+            "count": 2
+        },
+        {
             "name": "Misc. Public MF Runs",
-            "count": 5
+            "count": 2
         },
         {
             "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asdasd",
-            "count": 3
+            "name": "adsd",
+            "count": 1
         },
         {
             "name": "n high ed titan",
@@ -47,6 +47,13 @@
     ],
     "unknown_games": [
         {
+            "normalized": "adsd",
+            "count": 2,
+            "examples": [
+                "adsd"
+            ]
+        },
+        {
             "normalized": "wuz",
             "count": 2,
             "examples": [
@@ -55,12 +62,14 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "asdasd",
-                "matched": "asd",
-                "count": 3
-            },
+                "name": "n high ed titan",
+                "matched": "n",
+                "count": 1
+            }
+        ],
+        "Misc. Public MF Runs": [
             {
                 "name": "run",
                 "matched": "run",
@@ -71,18 +80,11 @@
                 "matched": "asd",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "n high ed titan",
-                "matched": "n",
-                "count": 1
-            }
         ]
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 7,
-        "average_name_length": 6.2
+        "public_games": 5,
+        "average_name_length": 5.8
     }
 }
