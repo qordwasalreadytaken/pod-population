@@ -1,13 +1,15 @@
 {
-    "timestamp": "2026-10-11T17:22:00+00:00",
+    "timestamp": "2026-10-11T17:35:00+00:00",
     "difficulty": {
-        "2": 9
+        "2": 7,
+        "1": 1
     },
     "mode": {
-        "0": 9
+        "0": 8
     },
     "difficulty_mode": {
-        "2|0": 9
+        "2|0": 7,
+        "1|0": 1
     },
     "activities": [
         {
@@ -16,7 +18,7 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Maps",
@@ -29,7 +31,7 @@
     ],
     "top_games": [
         {
-            "name": "gord",
+            "name": "key",
             "count": 2
         },
         {
@@ -37,19 +39,11 @@
             "count": 1
         },
         {
-            "name": "key",
+            "name": "gord",
             "count": 1
         },
         {
             "name": "chillmap-2",
-            "count": 1
-        },
-        {
-            "name": "walk",
-            "count": 1
-        },
-        {
-            "name": "1212",
             "count": 1
         },
         {
@@ -59,28 +53,25 @@
         {
             "name": "n eld runes",
             "count": 1
+        },
+        {
+            "name": "acte",
+            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "pit",
-            "count": 2,
-            "examples": [
-                "pit"
-            ]
-        },
-        {
             "normalized": "key",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "key"
             ]
         },
         {
-            "normalized": "#",
+            "normalized": "pit",
             "count": 2,
             "examples": [
-                "1212"
+                "pit"
             ]
         }
     ],
@@ -89,7 +80,7 @@
             {
                 "name": "gord",
                 "matched": "gord",
-                "count": 2
+                "count": 1
             },
             {
                 "name": "n eld runes",
@@ -111,15 +102,15 @@
         ],
         "Leveling": [
             {
-                "name": "walk",
-                "matched": "walk",
+                "name": "acte",
+                "matched": "act",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 9,
-        "average_name_length": 5.88
+        "unique_names": 7,
+        "public_games": 8,
+        "average_name_length": 6.14
     }
 }
