@@ -1,39 +1,55 @@
 {
-    "timestamp": "2026-10-11T03:11:00+00:00",
+    "timestamp": "2026-10-11T03:38:00+00:00",
     "difficulty": {
-        "1": 1
+        "2": 4
     },
     "mode": {
-        "0": 1
+        "0": 4
     },
     "difficulty_mode": {
-        "1|0": 1
+        "2|0": 4
     },
     "activities": [
         {
             "name": "Leveling",
+            "count": 3
+        },
+        {
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "acte",
+            "name": "walk",
+            "count": 3
+        },
+        {
+            "name": "test",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "test",
+            "count": 2,
+            "examples": [
+                "test"
+            ]
+        }
+    ],
     "classified_games": {
         "Leveling": [
             {
-                "name": "acte",
-                "matched": "act",
-                "count": 1
+                "name": "walk",
+                "matched": "walk",
+                "count": 3
             }
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
+        "unique_names": 2,
+        "public_games": 4,
         "average_name_length": 4.0
     }
 }
