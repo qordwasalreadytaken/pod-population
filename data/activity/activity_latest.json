@@ -1,29 +1,29 @@
 {
-    "timestamp": "2026-10-11T17:04:00+00:00",
+    "timestamp": "2026-10-11T17:22:00+00:00",
     "difficulty": {
-        "2": 6
+        "2": 9
     },
     "mode": {
-        "0": 6
+        "0": 9
     },
     "difficulty_mode": {
-        "2|0": 6
+        "2|0": 9
     },
     "activities": [
+        {
+            "name": "Other",
+            "count": 3
+        },
         {
             "name": "Misc. Public MF Runs",
             "count": 3
         },
         {
-            "name": "Leveling",
-            "count": 1
-        },
-        {
-            "name": "Other",
-            "count": 1
-        },
-        {
             "name": "Maps",
+            "count": 2
+        },
+        {
+            "name": "Leveling",
             "count": 1
         }
     ],
@@ -31,6 +31,18 @@
         {
             "name": "gord",
             "count": 2
+        },
+        {
+            "name": "pit",
+            "count": 1
+        },
+        {
+            "name": "key",
+            "count": 1
+        },
+        {
+            "name": "chillmap-2",
+            "count": 1
         },
         {
             "name": "walk",
@@ -50,6 +62,20 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "pit",
+            "count": 2,
+            "examples": [
+                "pit"
+            ]
+        },
+        {
+            "normalized": "key",
+            "count": 2,
+            "examples": [
+                "key"
+            ]
+        },
         {
             "normalized": "#",
             "count": 2,
@@ -71,24 +97,29 @@
                 "count": 1
             }
         ],
+        "Maps": [
+            {
+                "name": "chillmap-2",
+                "matched": "map",
+                "count": 1
+            },
+            {
+                "name": "chillmap",
+                "matched": "map",
+                "count": 1
+            }
+        ],
         "Leveling": [
             {
                 "name": "walk",
                 "matched": "walk",
                 "count": 1
             }
-        ],
-        "Maps": [
-            {
-                "name": "chillmap",
-                "matched": "map",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 6,
-        "average_name_length": 6.2
+        "unique_names": 8,
+        "public_games": 9,
+        "average_name_length": 5.88
     }
 }
