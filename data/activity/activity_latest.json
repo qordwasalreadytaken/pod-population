@@ -1,18 +1,22 @@
 {
-    "timestamp": "2026-10-11T22:05:00+00:00",
+    "timestamp": "2026-10-11T22:25:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 7
     },
     "mode": {
-        "0": 4
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 4
+        "2|0": 7
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 5
+        },
+        {
+            "name": "Trade",
+            "count": 1
         },
         {
             "name": "Other",
@@ -22,6 +26,10 @@
     "top_games": [
         {
             "name": "asdasd",
+            "count": 3
+        },
+        {
+            "name": "n high ed titan",
             "count": 1
         },
         {
@@ -51,7 +59,7 @@
             {
                 "name": "asdasd",
                 "matched": "asd",
-                "count": 1
+                "count": 3
             },
             {
                 "name": "run",
@@ -63,11 +71,18 @@
                 "matched": "asd",
                 "count": 1
             }
+        ],
+        "Trade": [
+            {
+                "name": "n high ed titan",
+                "matched": "n",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 4.0
+        "unique_names": 5,
+        "public_games": 7,
+        "average_name_length": 6.2
     }
 }
