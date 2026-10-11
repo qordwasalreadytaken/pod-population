@@ -1,13 +1,15 @@
 {
-    "timestamp": "2026-10-11T18:30:00+00:00",
+    "timestamp": "2026-10-11T18:52:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 2,
+        "1": 1
     },
     "mode": {
         "0": 3
     },
     "difficulty_mode": {
-        "2|0": 3
+        "2|0": 2,
+        "1|0": 1
     },
     "activities": [
         {
@@ -15,7 +17,7 @@
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Leveling",
             "count": 1
         }
     ],
@@ -29,7 +31,7 @@
             "count": 1
         },
         {
-            "name": "dasd",
+            "name": "acte",
             "count": 1
         }
     ],
@@ -50,10 +52,10 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Leveling": [
             {
-                "name": "dasd",
-                "matched": "asd",
+                "name": "acte",
+                "matched": "act",
                 "count": 1
             }
         ]
