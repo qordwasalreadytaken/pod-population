@@ -1,20 +1,24 @@
 {
-    "timestamp": "2026-10-11T08:52:00+00:00",
+    "timestamp": "2026-10-11T09:05:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 1
+        "2": 2
     },
     "mode": {
         "1": 1,
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 1
+        "2|0": 2
     },
     "activities": [
         {
             "name": "Other",
+            "count": 1
+        },
+        {
+            "name": "Trade",
             "count": 1
         },
         {
@@ -25,6 +29,10 @@
     "top_games": [
         {
             "name": "eq",
+            "count": 1
+        },
+        {
+            "name": "o silkw n jah",
             "count": 1
         },
         {
@@ -42,6 +50,13 @@
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "o silkw n jah",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "12345",
@@ -51,8 +66,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 3.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 6.67
     }
 }
