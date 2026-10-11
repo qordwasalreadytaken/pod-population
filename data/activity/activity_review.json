@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 3362,
+        "count": 3364,
         "examples": [
             "0",
             "1",
@@ -568,17 +568,17 @@
         ]
     },
     {
+        "normalized": "key",
+        "count": 32,
+        "examples": [
+            "key"
+        ]
+    },
+    {
         "normalized": "dsaadsd",
         "count": 30,
         "examples": [
             "dsaadsd"
-        ]
-    },
-    {
-        "normalized": "key",
-        "count": 30,
-        "examples": [
-            "key"
         ]
     },
     {
@@ -1799,6 +1799,14 @@
         ]
     },
     {
+        "normalized": "b ist # oocs #",
+        "count": 12,
+        "examples": [
+            "b ist 4 oocs 1",
+            "b ist 4 oocs 2"
+        ]
+    },
+    {
         "normalized": "a#h",
         "count": 10,
         "examples": [
@@ -2138,13 +2146,6 @@
         "count": 10,
         "examples": [
             "mkk"
-        ]
-    },
-    {
-        "normalized": "b ist # oocs #",
-        "count": 10,
-        "examples": [
-            "b ist 4 oocs 1"
         ]
     },
     {
