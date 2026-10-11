@@ -1,13 +1,13 @@
 {
-    "timestamp": "2026-10-11T20:05:00+00:00",
+    "timestamp": "2026-10-11T20:26:00+00:00",
     "difficulty": {
-        "2": 5
+        "2": 6
     },
     "mode": {
-        "0": 5
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 5
+        "2|0": 6
     },
     "activities": [
         {
@@ -16,16 +16,20 @@
         },
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "wuz",
+            "name": "123124",
             "count": 1
         },
         {
-            "name": "123123",
+            "name": "lvv",
+            "count": 1
+        },
+        {
+            "name": "wuz",
             "count": 1
         },
         {
@@ -42,6 +46,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "lvv",
+            "count": 2,
+            "examples": [
+                "lvv"
+            ]
+        },
         {
             "normalized": "wuz",
             "count": 2,
@@ -60,7 +71,7 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "123123",
+                "name": "123124",
                 "matched": "123",
                 "count": 1
             },
@@ -77,8 +88,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 4.6
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 4.33
     }
 }
