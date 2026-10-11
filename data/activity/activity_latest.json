@@ -1,16 +1,16 @@
 {
-    "timestamp": "2026-10-11T12:35:00+00:00",
+    "timestamp": "2026-10-11T12:57:00+00:00",
     "difficulty": {
-        "2": 5,
+        "2": 4,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 4,
+        "2|0": 3,
         "0|0": 1
     },
     "activities": [
@@ -19,11 +19,11 @@
             "count": 3
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Trade",
+            "count": 1
         },
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -38,10 +38,6 @@
         },
         {
             "name": "abs",
-            "count": 1
-        },
-        {
-            "name": "asdasd",
             "count": 1
         },
         {
@@ -89,17 +85,12 @@
                 "name": "n eld runes",
                 "matched": "run",
                 "count": 1
-            },
-            {
-                "name": "asdasd",
-                "matched": "asd",
-                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 7.17
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 7.4
     }
 }
