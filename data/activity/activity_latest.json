@@ -1,13 +1,13 @@
 {
-    "timestamp": "2026-10-11T10:25:00+00:00",
+    "timestamp": "2026-10-11T10:37:00+00:00",
     "difficulty": {
         "2": 1
     },
     "mode": {
-        "1": 1
+        "0": 1
     },
     "difficulty_mode": {
-        "2|1": 1
+        "2|0": 1
     },
     "activities": [
         {
@@ -17,16 +17,16 @@
     ],
     "top_games": [
         {
-            "name": "bg",
+            "name": "wuzah",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "bg",
+            "normalized": "wuzah",
             "count": 2,
             "examples": [
-                "bg"
+                "wuzah"
             ]
         }
     ],
@@ -34,6 +34,6 @@
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 2.0
+        "average_name_length": 5.0
     }
 }
