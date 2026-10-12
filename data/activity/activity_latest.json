@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-12T12:11:00+00:00",
+    "timestamp": "2026-10-12T12:55:00+00:00",
     "difficulty": {
         "2": 1,
         "1": 1,
@@ -19,13 +19,13 @@
             "count": 2
         },
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n nec torch 1",
+            "name": "abs",
             "count": 1
         },
         {
@@ -37,15 +37,16 @@
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "abs",
+            "count": 2,
+            "examples": [
+                "abs"
+            ]
+        }
+    ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n nec torch 1",
-                "matched": "torch",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "javel run 1",
@@ -62,6 +63,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 10.0
+        "average_name_length": 6.67
     }
 }
