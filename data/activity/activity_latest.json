@@ -1,48 +1,50 @@
 {
-    "timestamp": "2026-10-12T10:35:00+00:00",
+    "timestamp": "2026-10-12T10:55:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 1,
+        "0": 1
     },
     "mode": {
         "0": 2
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "12",
+            "name": "n nec torch 1",
             "count": 1
         },
         {
-            "name": "asdf",
+            "name": "alda",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "#",
+            "normalized": "alda",
             "count": 2,
             "examples": [
-                "12"
+                "alda"
             ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "asdf",
-                "matched": "asd",
+                "name": "n nec torch 1",
+                "matched": "n",
                 "count": 1
             }
         ]
@@ -50,6 +52,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 3.0
+        "average_name_length": 8.5
     }
 }
