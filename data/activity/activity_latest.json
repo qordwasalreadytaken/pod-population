@@ -1,50 +1,48 @@
 {
-    "timestamp": "2026-10-12T05:57:00+00:00",
+    "timestamp": "2026-10-12T06:38:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
+        "2": 2
     },
     "mode": {
         "0": 2
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 1
+        "2|0": 2
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n eld runes",
+            "name": "asfd",
             "count": 1
         },
         {
-            "name": "quests",
+            "name": "n layin of hand",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "quests",
+            "normalized": "asfd",
             "count": 2,
             "examples": [
-                "quests"
+                "asfd"
             ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "n eld runes",
-                "matched": "run",
+                "name": "n layin of hand",
+                "matched": "n",
                 "count": 1
             }
         ]
@@ -52,6 +50,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 8.5
+        "average_name_length": 9.5
     }
 }
