@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-10-12T11:45:00+00:00",
+    "timestamp": "2026-10-12T12:11:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 1,
         "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2,
+        "2|0": 1,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Trade",
@@ -24,10 +24,6 @@
         }
     ],
     "top_games": [
-        {
-            "name": "n eld runes",
-            "count": 1
-        },
         {
             "name": "n nec torch 1",
             "count": 1
@@ -43,12 +39,14 @@
     ],
     "unknown_games": [],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "n eld runes",
-                "matched": "run",
+                "name": "n nec torch 1",
+                "matched": "torch",
                 "count": 1
-            },
+            }
+        ],
+        "Misc. Public MF Runs": [
             {
                 "name": "javel run 1",
                 "matched": "run",
@@ -59,18 +57,11 @@
                 "matched": "asd",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "n nec torch 1",
-                "matched": "torch",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 10.25
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 10.0
     }
 }
