@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-13T06:12:00+00:00",
+    "timestamp": "2026-10-13T06:49:00+00:00",
     "difficulty": {
         "1": 1,
         "2": 2
@@ -15,7 +15,15 @@
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
@@ -24,11 +32,11 @@
             "count": 1
         },
         {
-            "name": "asesi",
+            "name": "123124",
             "count": 1
         },
         {
-            "name": "lvv",
+            "name": "n titans",
             "count": 1
         }
     ],
@@ -39,26 +47,27 @@
             "examples": [
                 "gg"
             ]
-        },
-        {
-            "normalized": "asesi",
-            "count": 2,
-            "examples": [
-                "asesi"
-            ]
-        },
-        {
-            "normalized": "lvv",
-            "count": 2,
-            "examples": [
-                "lvv"
-            ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "123124",
+                "matched": "123",
+                "count": 1
+            }
+        ],
+        "Trade": [
+            {
+                "name": "n titans",
+                "matched": "n",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 3.33
+        "average_name_length": 5.33
     }
 }
