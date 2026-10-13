@@ -1,33 +1,46 @@
 {
-    "timestamp": "2026-10-13T14:56:00+00:00",
+    "timestamp": "2026-10-13T15:14:00+00:00",
     "difficulty": {
+        "1": 2,
         "0": 2,
-        "2": 3,
-        "1": 1
+        "2": 5
     },
     "mode": {
-        "1": 1,
-        "0": 5
+        "1": 2,
+        "0": 7
     },
     "difficulty_mode": {
+        "1|1": 1,
         "0|1": 1,
-        "2|0": 3,
+        "2|0": 5,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 6
         },
         {
             "name": "Misc. Public MF Runs",
             "count": 2
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "gg",
+            "count": 1
+        },
+        {
             "name": "wikid klownz",
+            "count": 1
+        },
+        {
+            "name": "b cham 2",
             "count": 1
         },
         {
@@ -35,7 +48,11 @@
             "count": 1
         },
         {
-            "name": "qwe",
+            "name": "o ber n jah",
+            "count": 1
+        },
+        {
+            "name": "b cham 1",
             "count": 1
         },
         {
@@ -53,6 +70,21 @@
     ],
     "unknown_games": [
         {
+            "normalized": "b cham #",
+            "count": 4,
+            "examples": [
+                "b cham 1",
+                "b cham 2"
+            ]
+        },
+        {
+            "normalized": "gg",
+            "count": 2,
+            "examples": [
+                "gg"
+            ]
+        },
+        {
             "normalized": "wikid klownz",
             "count": 2,
             "examples": [
@@ -67,13 +99,6 @@
             ]
         },
         {
-            "normalized": "qwe",
-            "count": 2,
-            "examples": [
-                "qwe"
-            ]
-        },
-        {
             "normalized": "lvv",
             "count": 2,
             "examples": [
@@ -82,6 +107,13 @@
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "o ber n jah",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
@@ -96,8 +128,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 5.0
+        "unique_names": 9,
+        "public_games": 9,
+        "average_name_length": 6.22
     }
 }
