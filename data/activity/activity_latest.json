@@ -1,31 +1,31 @@
 {
-    "timestamp": "2026-10-13T21:32:00+00:00",
+    "timestamp": "2026-10-13T21:46:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 3
     },
     "mode": {
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 4
+        "2|0": 3
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 4
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 2
-        },
-        {
-            "name": "asdd",
+            "name": "n cham o runes",
             "count": 1
         },
         {
-            "name": "n cham o rune",
+            "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "asdd",
             "count": 1
         }
     ],
@@ -33,25 +33,25 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
-                "matched": "asd",
-                "count": 2
+                "name": "n cham o runes",
+                "matched": "run",
+                "count": 1
             },
             {
-                "name": "asdd",
+                "name": "asd",
                 "matched": "asd",
                 "count": 1
             },
             {
-                "name": "n cham o rune",
-                "matched": "run",
+                "name": "asdd",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 4,
-        "average_name_length": 6.67
+        "public_games": 3,
+        "average_name_length": 7.0
     }
 }
