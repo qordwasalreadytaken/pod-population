@@ -596,7 +596,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "buy",
+            "matched": "torch",
             "count": 12
         },
         {
@@ -2673,7 +2673,7 @@
         },
         {
             "name": "act 2 - normal",
-            "matched": "norm",
+            "matched": "act",
             "count": 6
         },
         {
@@ -2838,7 +2838,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "leveli",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -2858,7 +2858,7 @@
         },
         {
             "name": "ancients norm",
-            "matched": "anci",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -3068,7 +3068,7 @@
         },
         {
             "name": "act start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -3393,7 +3393,7 @@
         {
             "name": "asd",
             "matched": "asd",
-            "count": 1426
+            "count": 1428
         },
         {
             "name": "gord",
@@ -3501,17 +3501,17 @@
             "count": 13
         },
         {
+            "name": "asdsd",
+            "matched": "asd",
+            "count": 13
+        },
+        {
             "name": "anda mepi run",
             "matched": "run",
             "count": 13
         },
         {
             "name": "asdxc",
-            "matched": "asd",
-            "count": 12
-        },
-        {
-            "name": "asdsd",
             "matched": "asd",
             "count": 12
         },
@@ -4502,7 +4502,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "mf",
+            "matched": "run",
             "count": 1
         },
         {
@@ -5978,17 +5978,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
