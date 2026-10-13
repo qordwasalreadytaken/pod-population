@@ -1,59 +1,55 @@
 {
-    "timestamp": "2026-10-13T04:01:00+00:00",
+    "timestamp": "2026-10-13T04:36:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 2
+        "2": 2,
+        "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 2
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 2,
-        "0|0": 2
+        "2|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "b cham",
-            "count": 2
-        },
         {
             "name": "kill bills",
             "count": 1
         },
         {
-            "name": "aa",
+            "name": "1214",
             "count": 1
         },
         {
-            "name": "asdasd",
+            "name": "aa",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "b cham",
-            "count": 4,
-            "examples": [
-                "b cham"
-            ]
-        },
-        {
             "normalized": "kill bills",
             "count": 2,
             "examples": [
                 "kill bills"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1214"
             ]
         }
     ],
@@ -63,17 +59,12 @@
                 "name": "aa",
                 "matched": "aa",
                 "count": 1
-            },
-            {
-                "name": "asdasd",
-                "matched": "asd",
-                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 5,
-        "average_name_length": 6.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 5.33
     }
 }
