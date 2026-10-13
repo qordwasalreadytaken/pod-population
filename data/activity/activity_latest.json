@@ -1,21 +1,21 @@
 {
-    "timestamp": "2026-10-13T18:54:00+00:00",
+    "timestamp": "2026-10-13T19:04:00+00:00",
     "difficulty": {
         "1": 1,
-        "2": 3
+        "2": 1
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 1
     },
     "difficulty_mode": {
         "1|1": 1,
-        "2|0": 3
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 2
         }
     ],
     "top_games": [
@@ -24,40 +24,30 @@
             "count": 1
         },
         {
-            "name": "n4s tal arm 22",
-            "count": 1
-        },
-        {
-            "name": "n4s tal arm 21",
-            "count": 1
-        },
-        {
-            "name": "n4s tal arm 20",
+            "name": "n4s tal arm 23",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "n#s tal arm #",
-            "count": 6,
-            "examples": [
-                "n4s tal arm 20",
-                "n4s tal arm 21",
-                "n4s tal arm 22"
-            ]
-        },
         {
             "normalized": "gg",
             "count": 2,
             "examples": [
                 "gg"
             ]
+        },
+        {
+            "normalized": "n#s tal arm #",
+            "count": 2,
+            "examples": [
+                "n4s tal arm 23"
+            ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 11.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 8.0
     }
 }
