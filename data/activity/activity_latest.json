@@ -1,13 +1,13 @@
 {
-    "timestamp": "2026-10-13T17:37:00+00:00",
+    "timestamp": "2026-10-13T17:50:00+00:00",
     "difficulty": {
-        "2": 5
+        "2": 4
     },
     "mode": {
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 5
+        "2|0": 4
     },
     "activities": [
         {
@@ -17,72 +17,56 @@
         {
             "name": "Misc. Public MF Runs",
             "count": 1
-        },
-        {
-            "name": "Other",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n 3s tal wep 3",
+            "name": "n 3s tal wep 7",
             "count": 1
         },
         {
-            "name": "n 3s tal wep 2",
+            "name": "aa",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "n 3s tal wep 6",
             "count": 1
         },
         {
-            "name": "n 3s talwep 1",
-            "count": 1
-        },
-        {
-            "name": "onek",
+            "name": "n 3s tal wep 5",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "onek",
-            "count": 2,
-            "examples": [
-                "onek"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Trade": [
             {
-                "name": "n 3s tal wep 3",
+                "name": "n 3s tal wep 7",
                 "matched": "n",
                 "count": 1
             },
             {
-                "name": "n 3s tal wep 2",
+                "name": "n 3s tal wep 6",
                 "matched": "n",
                 "count": 1
             },
             {
-                "name": "n 3s talwep 1",
+                "name": "n 3s tal wep 5",
                 "matched": "n",
                 "count": 1
             }
         ],
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
-                "matched": "asd",
+                "name": "aa",
+                "matched": "aa",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 9.6
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 11.0
     }
 }
