@@ -1,61 +1,50 @@
 {
-    "timestamp": "2026-10-13T15:32:00+00:00",
+    "timestamp": "2026-10-13T15:52:00+00:00",
     "difficulty": {
         "1": 1,
-        "0": 2,
-        "2": 5
+        "2": 4
     },
     "mode": {
-        "1": 2,
-        "0": 6
+        "1": 1,
+        "0": 4
     },
     "difficulty_mode": {
         "1|1": 1,
-        "0|1": 1,
-        "2|0": 5,
-        "0|0": 1
+        "2|0": 4
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
-        },
-        {
-            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
             "name": "Trade",
+            "count": 2
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 2
-        },
-        {
             "name": "gg",
             "count": 1
         },
         {
-            "name": "wikid klownz",
+            "name": "asd",
             "count": 1
         },
         {
-            "name": "lvv",
+            "name": "b cham 5",
+            "count": 1
+        },
+        {
+            "name": "n light rbf 1",
             "count": 1
         },
         {
             "name": "n lem 1",
-            "count": 1
-        },
-        {
-            "name": "b cham 3",
-            "count": 1
-        },
-        {
-            "name": "hige",
             "count": 1
         }
     ],
@@ -68,31 +57,10 @@
             ]
         },
         {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
-            ]
-        },
-        {
-            "normalized": "lvv",
-            "count": 2,
-            "examples": [
-                "lvv"
-            ]
-        },
-        {
             "normalized": "b cham #",
             "count": 2,
             "examples": [
-                "b cham 3"
-            ]
-        },
-        {
-            "normalized": "hige",
-            "count": 2,
-            "examples": [
-                "hige"
+                "b cham 5"
             ]
         }
     ],
@@ -101,10 +69,15 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             }
         ],
         "Trade": [
+            {
+                "name": "n light rbf 1",
+                "matched": "n",
+                "count": 1
+            },
             {
                 "name": "n lem 1",
                 "matched": "n",
@@ -113,8 +86,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 8,
-        "average_name_length": 5.57
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 6.6
     }
 }
