@@ -596,7 +596,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "buy",
+            "matched": "torch",
             "count": 12
         },
         {
@@ -755,6 +755,11 @@
             "count": 7
         },
         {
+            "name": "n decent anni",
+            "matched": "n",
+            "count": 7
+        },
+        {
             "name": "n bloodfist",
             "matched": "n",
             "count": 6
@@ -837,11 +842,6 @@
         {
             "name": "n nec torch 2",
             "matched": "torch",
-            "count": 6
-        },
-        {
-            "name": "n decent anni",
-            "matched": "n",
             "count": 6
         },
         {
@@ -2763,7 +2763,7 @@
         },
         {
             "name": "act 2 - normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 6
         },
         {
@@ -2813,7 +2813,7 @@
         },
         {
             "name": "acte andy",
-            "matched": "act",
+            "matched": "andy",
             "count": 5
         },
         {
@@ -2883,7 +2883,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "start",
+            "matched": "act",
             "count": 3
         },
         {
@@ -2928,7 +2928,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -2948,7 +2948,7 @@
         },
         {
             "name": "ancients norm",
-            "matched": "norm",
+            "matched": "anci",
             "count": 2
         },
         {
@@ -2968,7 +2968,7 @@
         },
         {
             "name": "normal act",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -3278,7 +3278,7 @@
         },
         {
             "name": "1act - normal",
-            "matched": "norm",
+            "matched": "act",
             "count": 1
         },
         {
@@ -5474,6 +5474,11 @@
             "name": "n cham o rune 0",
             "matched": "run",
             "count": 1
+        },
+        {
+            "name": "123125",
+            "matched": "123",
+            "count": 1
         }
     ],
     "Chaos": [
@@ -5811,7 +5816,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 7
         },
         {
@@ -5871,7 +5876,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "map",
+            "matched": "mapping",
             "count": 4
         },
         {
@@ -6071,7 +6076,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -6086,7 +6091,7 @@
         },
         {
             "name": "mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
