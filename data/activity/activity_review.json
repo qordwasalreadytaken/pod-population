@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 3426,
+        "count": 3428,
         "examples": [
             "0",
             "1",
@@ -444,6 +444,13 @@
         ]
     },
     {
+        "normalized": "qq",
+        "count": 38,
+        "examples": [
+            "qq"
+        ]
+    },
+    {
         "normalized": "new",
         "count": 38,
         "examples": [
@@ -516,13 +523,6 @@
             "sss 3",
             "sss 4",
             "sss 5"
-        ]
-    },
-    {
-        "normalized": "qq",
-        "count": 36,
-        "examples": [
-            "qq"
         ]
     },
     {
@@ -8965,6 +8965,13 @@
         "count": 2,
         "examples": [
             "ddss"
+        ]
+    },
+    {
+        "normalized": "dsadssd",
+        "count": 2,
+        "examples": [
+            "dsadssd"
         ]
     }
 ]
