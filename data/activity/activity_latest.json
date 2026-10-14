@@ -1,33 +1,33 @@
 {
-    "timestamp": "2026-10-14T21:22:00+00:00",
+    "timestamp": "2026-10-14T21:34:00+00:00",
     "difficulty": {
         "2": 3,
-        "0": 3
+        "0": 2
     },
     "mode": {
-        "0": 6
+        "0": 5
     },
     "difficulty_mode": {
         "2|0": 3,
-        "0|0": 3
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 4
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "lvv",
+            "name": "n decent anni",
             "count": 1
         },
         {
-            "name": "adsd",
+            "name": "lvv",
             "count": 1
         },
         {
@@ -36,10 +36,6 @@
         },
         {
             "name": "no girls",
-            "count": 1
-        },
-        {
-            "name": "n cham o rune 2",
             "count": 1
         },
         {
@@ -53,13 +49,6 @@
             "count": 2,
             "examples": [
                 "lvv"
-            ]
-        },
-        {
-            "normalized": "adsd",
-            "count": 2,
-            "examples": [
-                "adsd"
             ]
         },
         {
@@ -85,17 +74,17 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "n cham o rune 2",
-                "matched": "run",
+                "name": "n decent anni",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 6.67
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 6.8
     }
 }
