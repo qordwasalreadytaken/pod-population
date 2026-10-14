@@ -1,39 +1,82 @@
 {
-    "timestamp": "2026-10-14T11:05:00+00:00",
+    "timestamp": "2026-10-14T11:24:00+00:00",
     "difficulty": {
-        "2": 1
+        "1": 1,
+        "2": 3
     },
     "mode": {
-        "0": 1
+        "1": 1,
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1
+        "1|1": 1,
+        "2|0": 3
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
+            "count": 2
+        },
+        {
+            "name": "Other",
+            "count": 1
+        },
+        {
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "qq",
+            "count": 1
+        },
+        {
+            "name": "n mephis brain",
+            "count": 1
+        },
+        {
+            "name": "n blue javaglov",
+            "count": 1
+        },
+        {
             "name": "asdsd",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "qq",
+            "count": 2,
+            "examples": [
+                "qq"
+            ]
+        }
+    ],
     "classified_games": {
         "Misc. Public MF Runs": [
+            {
+                "name": "n mephis brain",
+                "matched": "meph",
+                "count": 1
+            },
             {
                 "name": "asdsd",
                 "matched": "asd",
                 "count": 1
             }
+        ],
+        "Trade": [
+            {
+                "name": "n blue javaglov",
+                "matched": "n",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 5.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 9.0
     }
 }
