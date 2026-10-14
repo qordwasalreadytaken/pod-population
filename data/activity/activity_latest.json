@@ -1,23 +1,20 @@
 {
-    "timestamp": "2026-10-14T10:05:00+00:00",
+    "timestamp": "2026-10-14T10:26:00+00:00",
     "difficulty": {
-        "1": 1,
-        "2": 3,
+        "2": 5,
         "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 4
+        "0": 6
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "2|0": 3,
+        "2|0": 5,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Trade",
@@ -26,11 +23,11 @@
     ],
     "top_games": [
         {
-            "name": "gg",
-            "count": 1
+            "name": "t",
+            "count": 2
         },
         {
-            "name": "t",
+            "name": "dsd",
             "count": 1
         },
         {
@@ -48,17 +45,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "gg",
-            "count": 2,
+            "normalized": "t",
+            "count": 4,
             "examples": [
-                "gg"
+                "t"
             ]
         },
         {
-            "normalized": "t",
+            "normalized": "dsd",
             "count": 2,
             "examples": [
-                "t"
+                "dsd"
             ]
         },
         {
@@ -73,7 +70,7 @@
         "Trade": [
             {
                 "name": "n nec torch 2",
-                "matched": "torch",
+                "matched": "n",
                 "count": 1
             },
             {
@@ -85,7 +82,7 @@
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 7.4
+        "public_games": 6,
+        "average_name_length": 7.6
     }
 }
