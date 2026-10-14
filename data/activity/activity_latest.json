@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-10-14T23:21:00+00:00",
+    "timestamp": "2026-10-14T23:32:00+00:00",
     "difficulty": {
-        "2": 6
+        "2": 4
     },
     "mode": {
-        "0": 6
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 6
+        "2|0": 4
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 3
-        },
-        {
             "name": "Misc. Public MF Runs",
             "count": 2
+        },
+        {
+            "name": "Other",
+            "count": 1
         },
         {
             "name": "Trade",
@@ -26,14 +26,6 @@
     "top_games": [
         {
             "name": "godzilla",
-            "count": 1
-        },
-        {
-            "name": "rodan",
-            "count": 1
-        },
-        {
-            "name": "mothra",
             "count": 1
         },
         {
@@ -55,20 +47,6 @@
             "count": 2,
             "examples": [
                 "godzilla"
-            ]
-        },
-        {
-            "normalized": "rodan",
-            "count": 2,
-            "examples": [
-                "rodan"
-            ]
-        },
-        {
-            "normalized": "mothra",
-            "count": 2,
-            "examples": [
-                "mothra"
             ]
         }
     ],
@@ -94,8 +72,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 6.83
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 7.5
     }
 }
