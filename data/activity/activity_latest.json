@@ -1,36 +1,32 @@
 {
-    "timestamp": "2026-10-14T13:04:00+00:00",
+    "timestamp": "2026-10-14T13:23:00+00:00",
     "difficulty": {
         "1": 1,
         "0": 1,
-        "2": 5
+        "2": 3
     },
     "mode": {
         "1": 2,
-        "0": 5
+        "0": 3
     },
     "difficulty_mode": {
         "1|1": 1,
         "0|1": 1,
-        "2|0": 5
+        "2|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 4
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "onek",
-            "count": 2
-        },
-        {
-            "name": "qq",
+            "name": "gg",
             "count": 1
         },
         {
@@ -38,31 +34,24 @@
             "count": 1
         },
         {
-            "name": "adsd",
-            "count": 1
-        },
-        {
             "name": "asd",
             "count": 1
         },
         {
-            "name": "asdds",
+            "name": "onek",
+            "count": 1
+        },
+        {
+            "name": "adsd",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "onek",
-            "count": 4,
-            "examples": [
-                "onek"
-            ]
-        },
-        {
-            "normalized": "qq",
+            "normalized": "gg",
             "count": 2,
             "examples": [
-                "qq"
+                "gg"
             ]
         },
         {
@@ -70,6 +59,13 @@
             "count": 2,
             "examples": [
                 "qe"
+            ]
+        },
+        {
+            "normalized": "onek",
+            "count": 2,
+            "examples": [
+                "onek"
             ]
         },
         {
@@ -86,17 +82,12 @@
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
-            },
-            {
-                "name": "asdds",
-                "matched": "asd",
-                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 3.33
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 3.0
     }
 }
