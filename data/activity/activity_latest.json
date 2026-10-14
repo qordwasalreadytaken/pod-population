@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-10-14T20:35:00+00:00",
+    "timestamp": "2026-10-14T20:48:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 5,
         "0": 3
     },
     "mode": {
-        "0": 6
+        "0": 8
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 5,
         "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 7
         },
         {
             "name": "Misc. Public MF Runs",
@@ -23,11 +23,19 @@
     ],
     "top_games": [
         {
-            "name": "godzilla",
+            "name": "adsd",
             "count": 1
         },
         {
-            "name": "adds",
+            "name": "sasas",
+            "count": 1
+        },
+        {
+            "name": "dsda",
+            "count": 1
+        },
+        {
+            "name": "godzilla",
             "count": 1
         },
         {
@@ -49,17 +57,31 @@
     ],
     "unknown_games": [
         {
+            "normalized": "adsd",
+            "count": 2,
+            "examples": [
+                "adsd"
+            ]
+        },
+        {
+            "normalized": "sasas",
+            "count": 2,
+            "examples": [
+                "sasas"
+            ]
+        },
+        {
+            "normalized": "dsda",
+            "count": 2,
+            "examples": [
+                "dsda"
+            ]
+        },
+        {
             "normalized": "godzilla",
             "count": 2,
             "examples": [
                 "godzilla"
-            ]
-        },
-        {
-            "normalized": "adds",
-            "count": 2,
-            "examples": [
-                "adds"
             ]
         },
         {
@@ -94,8 +116,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 6.67
+        "unique_names": 8,
+        "public_games": 8,
+        "average_name_length": 6.12
     }
 }
