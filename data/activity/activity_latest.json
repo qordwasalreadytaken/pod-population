@@ -1,23 +1,44 @@
 {
-    "timestamp": "2026-10-14T03:46:00+00:00",
+    "timestamp": "2026-10-14T04:06:00+00:00",
     "difficulty": {
-        "1": 1
+        "1": 1,
+        "2": 1,
+        "0": 1
     },
     "mode": {
-        "1": 1
+        "1": 1,
+        "0": 2
     },
     "difficulty_mode": {
-        "1|1": 1
+        "1|1": 1,
+        "2|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
+            "count": 1
+        },
+        {
+            "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "gg",
+            "count": 1
+        },
+        {
+            "name": "n titans 15ias",
+            "count": 1
+        },
+        {
+            "name": "asdsd",
             "count": 1
         }
     ],
@@ -30,10 +51,25 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Trade": [
+            {
+                "name": "n titans 15ias",
+                "matched": "n",
+                "count": 1
+            }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "asdsd",
+                "matched": "asd",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 2.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 7.0
     }
 }
