@@ -1,23 +1,30 @@
 {
-    "timestamp": "2026-10-14T07:30:00+00:00",
+    "timestamp": "2026-10-14T07:46:00+00:00",
     "difficulty": {
-        "1": 1
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "1": 1
+        "1": 1,
+        "0": 1
     },
     "difficulty_mode": {
-        "1|1": 1
+        "1|1": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
             "name": "qq",
+            "count": 1
+        },
+        {
+            "name": "1",
             "count": 1
         }
     ],
@@ -28,12 +35,19 @@
             "examples": [
                 "qq"
             ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1"
+            ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 2.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 1.5
     }
 }
