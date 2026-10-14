@@ -1,26 +1,36 @@
 {
-    "timestamp": "2026-10-14T05:49:00+00:00",
+    "timestamp": "2026-10-14T06:08:00+00:00",
     "difficulty": {
         "1": 1,
+        "2": 1,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
         "1|1": 1,
+        "2|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
             "count": 2
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "qq",
+            "count": 1
+        },
+        {
+            "name": "dasd",
             "count": 1
         },
         {
@@ -44,10 +54,18 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "dasd",
+                "matched": "asd",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 4.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 4.33
     }
 }
