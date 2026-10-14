@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-14T15:05:00+00:00",
+    "timestamp": "2026-10-14T15:27:00+00:00",
     "difficulty": {
         "1": 2,
         "2": 2
@@ -19,7 +19,7 @@
             "count": 3
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 1
         }
     ],
@@ -29,11 +29,11 @@
             "count": 1
         },
         {
-            "name": "onek",
+            "name": "n nec torch 1",
             "count": 1
         },
         {
-            "name": "asdd",
+            "name": "onek",
             "count": 1
         },
         {
@@ -65,10 +65,10 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "asdd",
-                "matched": "asd",
+                "name": "n nec torch 1",
+                "matched": "n",
                 "count": 1
             }
         ]
@@ -76,6 +76,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 4.25
+        "average_name_length": 6.5
     }
 }
