@@ -1026,7 +1026,7 @@
         },
         {
             "name": "n poisonb gc",
-            "matched": "iso",
+            "matched": "n",
             "count": 4
         },
         {
@@ -1696,6 +1696,11 @@
         },
         {
             "name": "o silkw n jah",
+            "matched": "n",
+            "count": 2
+        },
+        {
+            "name": "n blue javaglov",
             "matched": "n",
             "count": 2
         },
@@ -2593,11 +2598,6 @@
             "name": "n 3s tal wep 11",
             "matched": "n",
             "count": 1
-        },
-        {
-            "name": "n blue javaglov",
-            "matched": "n",
-            "count": 1
         }
     ],
     "Leveling": [
@@ -2668,7 +2668,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "andar",
+            "matched": "act",
             "count": 12
         },
         {
@@ -2803,7 +2803,7 @@
         },
         {
             "name": "acte andy",
-            "matched": "act",
+            "matched": "andy",
             "count": 5
         },
         {
@@ -2918,7 +2918,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "leveli",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -2938,7 +2938,7 @@
         },
         {
             "name": "ancients norm",
-            "matched": "anci",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -2988,7 +2988,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "act",
+            "matched": "exp",
             "count": 2
         },
         {
@@ -3123,7 +3123,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "norm",
+            "matched": "tomb",
             "count": 1
         },
         {
@@ -4356,6 +4356,11 @@
             "count": 2
         },
         {
+            "name": "n mephis brain",
+            "matched": "meph",
+            "count": 2
+        },
+        {
             "name": "aaaa",
             "matched": "aaa",
             "count": 1
@@ -5414,11 +5419,6 @@
             "name": "n cham o runes",
             "matched": "run",
             "count": 1
-        },
-        {
-            "name": "n mephis brain",
-            "matched": "meph",
-            "count": 1
         }
     ],
     "Chaos": [
@@ -5756,7 +5756,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 7
         },
         {
@@ -5816,7 +5816,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "map",
+            "matched": "mapping",
             "count": 4
         },
         {
@@ -6016,7 +6016,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -6031,7 +6031,7 @@
         },
         {
             "name": "mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {

@@ -1,24 +1,24 @@
 {
-    "timestamp": "2026-10-14T11:24:00+00:00",
+    "timestamp": "2026-10-14T11:36:00+00:00",
     "difficulty": {
         "1": 1,
-        "2": 3
+        "2": 2
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
         "1|1": 1,
-        "2|0": 3
+        "2|0": 2
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Other",
+            "count": 1
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
@@ -38,10 +38,6 @@
         {
             "name": "n blue javaglov",
             "count": 1
-        },
-        {
-            "name": "asdsd",
-            "count": 1
         }
     ],
     "unknown_games": [
@@ -59,11 +55,6 @@
                 "name": "n mephis brain",
                 "matched": "meph",
                 "count": 1
-            },
-            {
-                "name": "asdsd",
-                "matched": "asd",
-                "count": 1
             }
         ],
         "Trade": [
@@ -75,8 +66,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 9.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 10.33
     }
 }
