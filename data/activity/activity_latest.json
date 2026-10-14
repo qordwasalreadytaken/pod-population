@@ -1,100 +1,70 @@
 {
-    "timestamp": "2026-10-14T16:52:00+00:00",
+    "timestamp": "2026-10-14T17:04:00+00:00",
     "difficulty": {
-        "1": 3,
-        "0": 1,
-        "2": 2
+        "2": 1,
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "1": 2,
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "0|1": 1,
-        "2|0": 2,
-        "1|0": 2
+        "2|0": 1,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 6
+            "count": 2
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "gg",
+            "name": "n cham o rune 1",
             "count": 1
         },
         {
-            "name": "wikid klownz",
+            "name": "grow 2",
             "count": 1
         },
         {
-            "name": "qwe",
-            "count": 1
-        },
-        {
-            "name": "t",
-            "count": 1
-        },
-        {
-            "name": "grow 1",
-            "count": 1
-        },
-        {
-            "name": "dsadssd",
+            "name": "qq",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "gg",
-            "count": 2,
-            "examples": [
-                "gg"
-            ]
-        },
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
-            ]
-        },
-        {
-            "normalized": "qwe",
-            "count": 2,
-            "examples": [
-                "qwe"
-            ]
-        },
-        {
-            "normalized": "t",
-            "count": 2,
-            "examples": [
-                "t"
-            ]
-        },
-        {
             "normalized": "grow #",
             "count": 2,
             "examples": [
-                "grow 1"
+                "grow 2"
             ]
         },
         {
-            "normalized": "dsadssd",
+            "normalized": "qq",
             "count": 2,
             "examples": [
-                "dsadssd"
+                "qq"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "n cham o rune 1",
+                "matched": "run",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 5.17
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 7.67
     }
 }
