@@ -1,53 +1,70 @@
 {
-    "timestamp": "2026-10-14T07:46:00+00:00",
+    "timestamp": "2026-10-14T08:06:00+00:00",
     "difficulty": {
-        "1": 1,
-        "0": 1
+        "0": 2,
+        "2": 1
     },
     "mode": {
         "1": 1,
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
-        "1|1": 1,
+        "0|1": 1,
+        "2|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
             "count": 2
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "qq",
+            "name": "qe",
             "count": 1
         },
         {
-            "name": "1",
+            "name": "n 15ias titans",
+            "count": 1
+        },
+        {
+            "name": "dsadssd",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "qq",
+            "normalized": "qe",
             "count": 2,
             "examples": [
-                "qq"
+                "qe"
             ]
         },
         {
-            "normalized": "#",
+            "normalized": "dsadssd",
             "count": 2,
             "examples": [
-                "1"
+                "dsadssd"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Trade": [
+            {
+                "name": "n 15ias titans",
+                "matched": "n",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 1.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 7.67
     }
 }
