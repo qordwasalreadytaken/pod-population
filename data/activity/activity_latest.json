@@ -1,14 +1,16 @@
 {
-    "timestamp": "2026-10-14T10:26:00+00:00",
+    "timestamp": "2026-10-14T10:38:00+00:00",
     "difficulty": {
-        "2": 5,
+        "2": 4,
+        "1": 1,
         "0": 1
     },
     "mode": {
         "0": 6
     },
     "difficulty_mode": {
-        "2|0": 5,
+        "2|0": 4,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
@@ -23,8 +25,12 @@
     ],
     "top_games": [
         {
-            "name": "t",
+            "name": "dsadssd",
             "count": 2
+        },
+        {
+            "name": "t",
+            "count": 1
         },
         {
             "name": "dsd",
@@ -37,16 +43,19 @@
         {
             "name": "n 15ias titans",
             "count": 1
-        },
-        {
-            "name": "dsadssd",
-            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "t",
+            "normalized": "dsadssd",
             "count": 4,
+            "examples": [
+                "dsadssd"
+            ]
+        },
+        {
+            "normalized": "t",
+            "count": 2,
             "examples": [
                 "t"
             ]
@@ -57,20 +66,13 @@
             "examples": [
                 "dsd"
             ]
-        },
-        {
-            "normalized": "dsadssd",
-            "count": 2,
-            "examples": [
-                "dsadssd"
-            ]
         }
     ],
     "classified_games": {
         "Trade": [
             {
                 "name": "n nec torch 2",
-                "matched": "n",
+                "matched": "torch",
                 "count": 1
             },
             {
