@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-15T01:18:00+00:00",
+    "timestamp": "2026-10-15T01:41:00+00:00",
     "difficulty": {
         "1": 1,
         "2": 2
@@ -28,7 +28,7 @@
             "count": 1
         },
         {
-            "name": "hel_01",
+            "name": "test",
             "count": 1
         },
         {
@@ -45,10 +45,10 @@
             ]
         },
         {
-            "normalized": "hel_#",
+            "normalized": "test",
             "count": 2,
             "examples": [
-                "hel_01"
+                "test"
             ]
         }
     ],
@@ -64,6 +64,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 10.67
+        "average_name_length": 10.0
     }
 }
