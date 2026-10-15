@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-15T20:35:00+00:00",
+    "timestamp": "2026-10-15T20:48:00+00:00",
     "difficulty": {
         "2": 6,
         "0": 1
@@ -14,21 +14,25 @@
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 4
+            "count": 3
+        },
+        {
+            "name": "Other",
+            "count": 2
         },
         {
             "name": "Trade",
             "count": 2
-        },
-        {
-            "name": "Other",
-            "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "qwe",
+            "count": 1
+        },
+        {
             "name": "gord",
-            "count": 2
+            "count": 1
         },
         {
             "name": "n anni's",
@@ -53,6 +57,13 @@
     ],
     "unknown_games": [
         {
+            "normalized": "qwe",
+            "count": 2,
+            "examples": [
+                "qwe"
+            ]
+        },
+        {
             "normalized": "lvv",
             "count": 2,
             "examples": [
@@ -65,7 +76,7 @@
             {
                 "name": "gord",
                 "matched": "gord",
-                "count": 2
+                "count": 1
             },
             {
                 "name": "n eld runes",
@@ -92,8 +103,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
+        "unique_names": 7,
         "public_games": 7,
-        "average_name_length": 6.5
+        "average_name_length": 6.0
     }
 }
