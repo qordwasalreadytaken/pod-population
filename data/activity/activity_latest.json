@@ -1,62 +1,40 @@
 {
-    "timestamp": "2026-10-15T01:55:00+00:00",
+    "timestamp": "2026-10-15T02:12:00+00:00",
     "difficulty": {
-        "1": 1,
-        "2": 3
+        "2": 2
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "2|0": 3
+        "2|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "clean up step",
+            "name": "godzilla",
             "count": 1
         },
         {
             "name": "asd",
             "count": 1
-        },
-        {
-            "name": "test",
-            "count": 1
-        },
-        {
-            "name": "n decent anni",
-            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "clean up step",
+            "normalized": "godzilla",
             "count": 2,
             "examples": [
-                "clean up step"
-            ]
-        },
-        {
-            "normalized": "test",
-            "count": 2,
-            "examples": [
-                "test"
+                "godzilla"
             ]
         }
     ],
@@ -67,18 +45,11 @@
                 "matched": "asd",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "n decent anni",
-                "matched": "n",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 8.25
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 5.5
     }
 }
