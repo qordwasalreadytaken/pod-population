@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-15T20:04:00+00:00",
+    "timestamp": "2026-10-15T20:23:00+00:00",
     "difficulty": {
         "2": 5,
         "0": 1
@@ -17,22 +17,30 @@
             "count": 3
         },
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 2
         },
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "n anni's",
+            "count": 1
+        },
+        {
+            "name": "n eld runes",
+            "count": 1
+        },
+        {
             "name": "asd",
-            "count": 2
+            "count": 1
         },
         {
             "name": "lvv",
-            "count": 2
+            "count": 1
         },
         {
             "name": "gord",
@@ -46,36 +54,46 @@
     "unknown_games": [
         {
             "normalized": "lvv",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "lvv"
             ]
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n anni's",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n travi wp",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
+            {
+                "name": "n eld runes",
+                "matched": "run",
+                "count": 1
+            },
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             },
             {
                 "name": "gord",
                 "matched": "gord",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "n travi wp",
-                "matched": "n",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
+        "unique_names": 6,
         "public_games": 6,
-        "average_name_length": 5.0
+        "average_name_length": 6.5
     }
 }
