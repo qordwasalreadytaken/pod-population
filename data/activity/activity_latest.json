@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-10-15T19:04:00+00:00",
+    "timestamp": "2026-10-15T19:20:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 3,
         "1": 1,
         "0": 3
     },
     "mode": {
-        "0": 6
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 2,
+        "2|0": 3,
         "1|0": 1,
         "0|0": 3
     },
@@ -21,9 +21,17 @@
         {
             "name": "Other",
             "count": 3
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "n anni's",
+            "count": 1
+        },
         {
             "name": "gord",
             "count": 1
@@ -73,6 +81,13 @@
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n anni's",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "gord",
@@ -92,8 +107,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 4.67
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 5.14
     }
 }
