@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 3444,
+        "count": 3446,
         "examples": [
             "0",
             "1",
@@ -1682,6 +1682,13 @@
         ]
     },
     {
+        "normalized": "ky",
+        "count": 14,
+        "examples": [
+            "ky"
+        ]
+    },
+    {
         "normalized": "qqq",
         "count": 12,
         "examples": [
@@ -1910,13 +1917,6 @@
         "count": 12,
         "examples": [
             "no girls"
-        ]
-    },
-    {
-        "normalized": "ky",
-        "count": 12,
-        "examples": [
-            "ky"
         ]
     },
     {
@@ -5144,6 +5144,13 @@
         "count": 4,
         "examples": [
             "coffee"
+        ]
+    },
+    {
+        "normalized": "dotodo",
+        "count": 4,
+        "examples": [
+            "dotodo"
         ]
     },
     {
@@ -9036,13 +9043,6 @@
         "count": 2,
         "examples": [
             "rodan"
-        ]
-    },
-    {
-        "normalized": "dotodo",
-        "count": 2,
-        "examples": [
-            "dotodo"
         ]
     }
 ]
