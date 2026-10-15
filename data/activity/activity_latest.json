@@ -1,20 +1,18 @@
 {
-    "timestamp": "2026-10-15T14:37:00+00:00",
+    "timestamp": "2026-10-15T14:49:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 1
+        "2": 3
     },
     "mode": {
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "0|0": 1
+        "2|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 3
         }
     ],
     "top_games": [
@@ -28,10 +26,6 @@
         },
         {
             "name": "coffee",
-            "count": 1
-        },
-        {
-            "name": "hfd",
             "count": 1
         }
     ],
@@ -56,19 +50,12 @@
             "examples": [
                 "coffee"
             ]
-        },
-        {
-            "normalized": "hfd",
-            "count": 2,
-            "examples": [
-                "hfd"
-            ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 4.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 5.0
     }
 }
