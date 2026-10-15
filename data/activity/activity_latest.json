@@ -1,29 +1,29 @@
 {
-    "timestamp": "2026-10-15T04:41:00+00:00",
+    "timestamp": "2026-10-15T04:51:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 2,
         "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 2,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Other",
+            "count": 1
         },
         {
             "name": "Trade",
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
@@ -33,15 +33,11 @@
     ],
     "top_games": [
         {
-            "name": "asd",
+            "name": "mothra",
             "count": 1
         },
         {
             "name": "n decent anni",
-            "count": 1
-        },
-        {
-            "name": "mothra",
             "count": 1
         },
         {
@@ -63,22 +59,17 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "dasdss",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "n decent anni",
                 "matched": "n",
+                "count": 1
+            }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "dasdss",
+                "matched": "asd",
                 "count": 1
             }
         ],
@@ -91,8 +82,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 7.2
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 8.25
     }
 }
