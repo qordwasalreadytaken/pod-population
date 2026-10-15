@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-15T02:34:00+00:00",
+    "timestamp": "2026-10-15T02:52:00+00:00",
     "difficulty": {
         "2": 4,
         "0": 1
@@ -13,7 +13,7 @@
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
@@ -21,7 +21,7 @@
             "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         },
         {
@@ -31,7 +31,7 @@
     ],
     "top_games": [
         {
-            "name": "godzilla",
+            "name": "asd",
             "count": 2
         },
         {
@@ -39,7 +39,7 @@
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "mothra",
             "count": 1
         },
         {
@@ -49,10 +49,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "godzilla",
-            "count": 4,
+            "normalized": "mothra",
+            "count": 2,
             "examples": [
-                "godzilla"
+                "mothra"
             ]
         }
     ],
@@ -68,7 +68,7 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             }
         ],
         "Rush": [
@@ -82,6 +82,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 5,
-        "average_name_length": 8.0
+        "average_name_length": 7.5
     }
 }
