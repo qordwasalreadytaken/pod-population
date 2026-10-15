@@ -1,41 +1,43 @@
 {
-    "timestamp": "2026-10-15T13:37:00+00:00",
+    "timestamp": "2026-10-15T13:50:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 3,
+        "1": 2,
         "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 4,
+        "2|0": 3,
+        "1|0": 2,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 4
+            "name": "Misc. Public MF Runs",
+            "count": 3
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "name": "Other",
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "coffee",
-            "count": 1
+            "name": "asd",
+            "count": 2
         },
         {
             "name": "onek",
             "count": 1
         },
         {
-            "name": "wter",
+            "name": "coffee",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "asdsd",
             "count": 1
         },
         {
@@ -45,13 +47,6 @@
     ],
     "unknown_games": [
         {
-            "normalized": "coffee",
-            "count": 2,
-            "examples": [
-                "coffee"
-            ]
-        },
-        {
             "normalized": "onek",
             "count": 2,
             "examples": [
@@ -59,10 +54,10 @@
             ]
         },
         {
-            "normalized": "wter",
+            "normalized": "coffee",
             "count": 2,
             "examples": [
-                "wter"
+                "coffee"
             ]
         },
         {
@@ -78,13 +73,18 @@
             {
                 "name": "asd",
                 "matched": "asd",
+                "count": 2
+            },
+            {
+                "name": "asdsd",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 3.8
+        "public_games": 6,
+        "average_name_length": 4.0
     }
 }
