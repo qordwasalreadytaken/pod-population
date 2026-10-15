@@ -601,7 +601,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "buy",
+            "matched": "torch",
             "count": 12
         },
         {
@@ -636,6 +636,11 @@
         },
         {
             "name": "n 2cham o 3ohm",
+            "matched": "n",
+            "count": 10
+        },
+        {
+            "name": "n anni's",
             "matched": "n",
             "count": 10
         },
@@ -676,11 +681,6 @@
         },
         {
             "name": "n blue javaglov",
-            "matched": "n",
-            "count": 9
-        },
-        {
-            "name": "n anni's",
             "matched": "n",
             "count": 9
         },
@@ -831,7 +831,7 @@
         },
         {
             "name": "n ntorch o bto",
-            "matched": "n",
+            "matched": "torch",
             "count": 6
         },
         {
@@ -1096,7 +1096,7 @@
         },
         {
             "name": "n sorch torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 3
         },
         {
@@ -1726,7 +1726,7 @@
         },
         {
             "name": "n pala torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
@@ -1941,7 +1941,7 @@
         },
         {
             "name": "n oocs wuw",
-            "matched": "n",
+            "matched": "wuw",
             "count": 1
         },
         {
@@ -2823,7 +2823,7 @@
         },
         {
             "name": "acte andy",
-            "matched": "andy",
+            "matched": "act",
             "count": 5
         },
         {
@@ -2893,7 +2893,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 3
         },
         {
@@ -2938,7 +2938,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "leveli",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -2958,7 +2958,7 @@
         },
         {
             "name": "ancients norm",
-            "matched": "norm",
+            "matched": "anci",
             "count": 2
         },
         {
@@ -3493,17 +3493,17 @@
         {
             "name": "asd",
             "matched": "asd",
-            "count": 1519
+            "count": 1520
         },
         {
             "name": "gord",
             "matched": "gord",
-            "count": 635
+            "count": 636
         },
         {
             "name": "n eld runes",
             "matched": "run",
-            "count": 588
+            "count": 589
         },
         {
             "name": "asdasd",
@@ -3551,6 +3551,11 @@
             "count": 23
         },
         {
+            "name": "n cham o rune",
+            "matched": "run",
+            "count": 23
+        },
+        {
             "name": "qordruns",
             "matched": "run",
             "count": 22
@@ -3558,11 +3563,6 @@
         {
             "name": "asdsd",
             "matched": "asd",
-            "count": 22
-        },
-        {
-            "name": "n cham o rune",
-            "matched": "run",
             "count": 22
         },
         {
@@ -3656,6 +3656,11 @@
             "count": 10
         },
         {
+            "name": "dasds",
+            "matched": "asd",
+            "count": 10
+        },
+        {
             "name": "asdd",
             "matched": "asd",
             "count": 10
@@ -3688,11 +3693,6 @@
         {
             "name": "sor grow run 3",
             "matched": "run",
-            "count": 9
-        },
-        {
-            "name": "dasds",
-            "matched": "asd",
             "count": 9
         },
         {
@@ -4222,7 +4222,7 @@
         },
         {
             "name": "asdsd36aaaa",
-            "matched": "aaa",
+            "matched": "asd",
             "count": 2
         },
         {
@@ -4403,6 +4403,11 @@
         {
             "name": "12345",
             "matched": "123",
+            "count": 2
+        },
+        {
+            "name": "n cham o runes",
+            "matched": "run",
             "count": 2
         },
         {
@@ -4652,7 +4657,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -4717,7 +4722,7 @@
         },
         {
             "name": "14123awdasdfqwr",
-            "matched": "123",
+            "matched": "asd",
             "count": 1
         },
         {
@@ -5466,11 +5471,6 @@
             "count": 1
         },
         {
-            "name": "n cham o runes",
-            "matched": "run",
-            "count": 1
-        },
-        {
             "name": "n cham o rune 8",
             "matched": "run",
             "count": 1
@@ -6153,17 +6153,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
