@@ -1,14 +1,16 @@
 {
-    "timestamp": "2026-10-15T04:05:00+00:00",
+    "timestamp": "2026-10-15T04:27:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 3,
+        "1": 1,
         "0": 1
     },
     "mode": {
         "0": 5
     },
     "difficulty_mode": {
-        "2|0": 4,
+        "2|0": 3,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
@@ -32,7 +34,7 @@
     "top_games": [
         {
             "name": "asd",
-            "count": 2
+            "count": 1
         },
         {
             "name": "n decent anni",
@@ -40,6 +42,10 @@
         },
         {
             "name": "mothra",
+            "count": 1
+        },
+        {
+            "name": "dasdss",
             "count": 1
         },
         {
@@ -61,7 +67,12 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 2
+                "count": 1
+            },
+            {
+                "name": "dasdss",
+                "matched": "asd",
+                "count": 1
             }
         ],
         "Trade": [
@@ -80,8 +91,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
+        "unique_names": 5,
         "public_games": 5,
-        "average_name_length": 7.5
+        "average_name_length": 7.2
     }
 }
