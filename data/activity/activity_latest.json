@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-10-15T12:35:00+00:00",
+    "timestamp": "2026-10-15T12:57:00+00:00",
     "difficulty": {
-        "2": 5,
+        "2": 2,
         "0": 1
     },
     "mode": {
-        "0": 6
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 5,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -23,23 +23,11 @@
     ],
     "top_games": [
         {
-            "name": "wge",
-            "count": 1
-        },
-        {
-            "name": "q3rfe",
-            "count": 1
-        },
-        {
-            "name": "bgf",
-            "count": 1
-        },
-        {
-            "name": "egsrt",
-            "count": 1
-        },
-        {
             "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "ewfa",
             "count": 1
         },
         {
@@ -49,31 +37,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "wge",
+            "normalized": "ewfa",
             "count": 2,
             "examples": [
-                "wge"
-            ]
-        },
-        {
-            "normalized": "q#rfe",
-            "count": 2,
-            "examples": [
-                "q3rfe"
-            ]
-        },
-        {
-            "normalized": "bgf",
-            "count": 2,
-            "examples": [
-                "bgf"
-            ]
-        },
-        {
-            "normalized": "egsrt",
-            "count": 2,
-            "examples": [
-                "egsrt"
+                "ewfa"
             ]
         },
         {
@@ -94,8 +61,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 3.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 3.0
     }
 }
