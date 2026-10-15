@@ -1,119 +1,83 @@
 {
-    "timestamp": "2026-10-15T22:04:00+00:00",
+    "timestamp": "2026-10-15T22:23:00+00:00",
     "difficulty": {
-        "2": 6,
-        "0": 3
+        "2": 3,
+        "1": 1
     },
     "mode": {
-        "0": 9
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 6,
-        "0|0": 3
+        "2|0": 3,
+        "1|0": 1
     },
     "activities": [
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 5
-        },
         {
             "name": "Other",
             "count": 2
         },
         {
             "name": "Trade",
-            "count": 2
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "gord",
-            "count": 2
-        },
-        {
-            "name": "qeqs",
+            "name": "n anni's",
             "count": 1
         },
         {
-            "name": "sdad",
+            "name": "dsd",
             "count": 1
         },
         {
-            "name": "dasds",
+            "name": "asd",
             "count": 1
         },
         {
-            "name": "n eld runes",
-            "count": 1
-        },
-        {
-            "name": "n help",
-            "count": 1
-        },
-        {
-            "name": "n help plz",
-            "count": 1
-        },
-        {
-            "name": "n cham o runes",
+            "name": "sdfg",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "qeqs",
+            "normalized": "dsd",
             "count": 2,
             "examples": [
-                "qeqs"
+                "dsd"
             ]
         },
         {
-            "normalized": "sdad",
+            "normalized": "sdfg",
             "count": 2,
             "examples": [
-                "sdad"
+                "sdfg"
             ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "gord",
-                "matched": "gord",
-                "count": 2
-            },
-            {
-                "name": "dasds",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "n eld runes",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "n cham o runes",
-                "matched": "run",
+                "name": "n anni's",
+                "matched": "n",
                 "count": 1
             }
         ],
-        "Trade": [
+        "Misc. Public MF Runs": [
             {
-                "name": "n help",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "n help plz",
-                "matched": "n",
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 9,
-        "average_name_length": 7.25
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 4.5
     }
 }
