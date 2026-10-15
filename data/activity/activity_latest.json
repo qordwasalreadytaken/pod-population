@@ -1,39 +1,74 @@
 {
-    "timestamp": "2026-10-15T14:05:00+00:00",
+    "timestamp": "2026-10-15T14:25:00+00:00",
     "difficulty": {
-        "2": 1
-    },
-    "mode": {
+        "2": 3,
         "0": 1
     },
+    "mode": {
+        "0": 4
+    },
     "difficulty_mode": {
-        "2|0": 1
+        "2|0": 3,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 4
         }
     ],
     "top_games": [
         {
+            "name": "gsdvf",
+            "count": 1
+        },
+        {
+            "name": "coffee",
+            "count": 1
+        },
+        {
             "name": "ergrt",
+            "count": 1
+        },
+        {
+            "name": "hfd",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "gsdvf",
+            "count": 2,
+            "examples": [
+                "gsdvf"
+            ]
+        },
+        {
+            "normalized": "coffee",
+            "count": 2,
+            "examples": [
+                "coffee"
+            ]
+        },
         {
             "normalized": "ergrt",
             "count": 2,
             "examples": [
                 "ergrt"
             ]
+        },
+        {
+            "normalized": "hfd",
+            "count": 2,
+            "examples": [
+                "hfd"
+            ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 5.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 4.75
     }
 }
