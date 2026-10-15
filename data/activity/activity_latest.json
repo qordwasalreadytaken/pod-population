@@ -1,79 +1,15 @@
 {
-    "timestamp": "2026-10-15T16:51:00+00:00",
-    "difficulty": {
-        "2": 3,
-        "0": 1
-    },
-    "mode": {
-        "1": 1,
-        "0": 3
-    },
-    "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 2,
-        "0|0": 1
-    },
-    "activities": [
-        {
-            "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 2
-        }
-    ],
-    "top_games": [
-        {
-            "name": "nk",
-            "count": 1
-        },
-        {
-            "name": "onek",
-            "count": 1
-        },
-        {
-            "name": "gord",
-            "count": 1
-        },
-        {
-            "name": "n cham o rune",
-            "count": 1
-        }
-    ],
-    "unknown_games": [
-        {
-            "normalized": "nk",
-            "count": 2,
-            "examples": [
-                "nk"
-            ]
-        },
-        {
-            "normalized": "onek",
-            "count": 2,
-            "examples": [
-                "onek"
-            ]
-        }
-    ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            },
-            {
-                "name": "n cham o rune",
-                "matched": "run",
-                "count": 1
-            }
-        ]
-    },
+    "timestamp": "2026-10-15T17:04:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "difficulty_mode": {},
+    "activities": [],
+    "top_games": [],
+    "unknown_games": [],
+    "classified_games": {},
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 5.75
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
