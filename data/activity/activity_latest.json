@@ -1,89 +1,48 @@
 {
-    "timestamp": "2026-10-15T04:51:00+00:00",
+    "timestamp": "2026-10-15T05:05:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1,
-        "0": 1
+        "2": 2
     },
     "mode": {
-        "0": 4
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 1,
-        "0|0": 1
+        "2|0": 2
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 1
-        },
-        {
             "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Rush",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "mothra",
+            "name": "n blue javaglov",
             "count": 1
         },
         {
-            "name": "n decent anni",
-            "count": 1
-        },
-        {
-            "name": "dasdss",
-            "count": 1
-        },
-        {
-            "name": "rush plz",
+            "name": "forest of doom",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "mothra",
-            "count": 2,
-            "examples": [
-                "mothra"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Trade": [
             {
-                "name": "n decent anni",
+                "name": "n blue javaglov",
                 "matched": "n",
                 "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
+            },
             {
-                "name": "dasdss",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
-        "Rush": [
-            {
-                "name": "rush plz",
-                "matched": "rush",
+                "name": "forest of doom",
+                "matched": "for",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 8.25
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 14.5
     }
 }
