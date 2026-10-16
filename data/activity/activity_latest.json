@@ -1,24 +1,15 @@
 {
-    "timestamp": "2026-10-16T07:01:00+00:00",
+    "timestamp": "2026-10-16T07:27:00+00:00",
     "difficulty": {
-        "0": 1,
-        "2": 2,
-        "1": 1
+        "2": 2
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 2,
-        "1|0": 1
+        "2|0": 2
     },
     "activities": [
-        {
-            "name": "Other",
-            "count": 2
-        },
         {
             "name": "Trade",
             "count": 1
@@ -30,38 +21,15 @@
     ],
     "top_games": [
         {
-            "name": "wikid klownz",
-            "count": 1
-        },
-        {
             "name": "n perf ruby",
             "count": 1
         },
         {
             "name": "asdsd",
             "count": 1
-        },
-        {
-            "name": "misingmaulet4al",
-            "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
-            ]
-        },
-        {
-            "normalized": "misingmaulet#al",
-            "count": 2,
-            "examples": [
-                "misingmaulet4al"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Trade": [
             {
@@ -79,8 +47,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 10.75
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 8.0
     }
 }
