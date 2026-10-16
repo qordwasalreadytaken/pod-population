@@ -1,105 +1,15 @@
 {
-    "timestamp": "2026-10-16T17:04:00+00:00",
-    "difficulty": {
-        "2": 3,
-        "1": 1,
-        "0": 2
-    },
-    "mode": {
-        "0": 6
-    },
-    "difficulty_mode": {
-        "2|0": 3,
-        "1|0": 1,
-        "0|0": 2
-    },
-    "activities": [
-        {
-            "name": "Other",
-            "count": 3
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 2
-        },
-        {
-            "name": "Trade",
-            "count": 1
-        }
-    ],
-    "top_games": [
-        {
-            "name": "qwe",
-            "count": 1
-        },
-        {
-            "name": "adsd",
-            "count": 1
-        },
-        {
-            "name": "gord",
-            "count": 1
-        },
-        {
-            "name": "mitlobios",
-            "count": 1
-        },
-        {
-            "name": "mmk",
-            "count": 1
-        },
-        {
-            "name": "n cham o lo",
-            "count": 1
-        }
-    ],
-    "unknown_games": [
-        {
-            "normalized": "qwe",
-            "count": 2,
-            "examples": [
-                "qwe"
-            ]
-        },
-        {
-            "normalized": "adsd",
-            "count": 2,
-            "examples": [
-                "adsd"
-            ]
-        },
-        {
-            "normalized": "mitlobios",
-            "count": 2,
-            "examples": [
-                "mitlobios"
-            ]
-        }
-    ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            },
-            {
-                "name": "mmk",
-                "matched": "mmk",
-                "count": 1
-            }
-        ],
-        "Trade": [
-            {
-                "name": "n cham o lo",
-                "matched": "n",
-                "count": 1
-            }
-        ]
-    },
+    "timestamp": "2026-10-16T17:20:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "difficulty_mode": {},
+    "activities": [],
+    "top_games": [],
+    "unknown_games": [],
+    "classified_games": {},
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 5.67
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
