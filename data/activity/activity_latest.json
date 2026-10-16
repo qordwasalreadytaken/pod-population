@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-16T00:54:00+00:00",
+    "timestamp": "2026-10-16T01:14:00+00:00",
     "difficulty": {
         "1": 1,
         "2": 1
@@ -14,44 +14,40 @@
     },
     "activities": [
         {
-            "name": "Baal",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "name": "Other",
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "baal money",
+            "name": "3",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "segfdv",
             "count": 1
         }
     ],
-    "unknown_games": [],
-    "classified_games": {
-        "Baal": [
-            {
-                "name": "baal money",
-                "matched": "baal",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "unknown_games": [
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "3"
+            ]
+        },
+        {
+            "normalized": "segfdv",
+            "count": 2,
+            "examples": [
+                "segfdv"
+            ]
+        }
+    ],
+    "classified_games": {},
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 6.5
+        "average_name_length": 3.5
     }
 }
