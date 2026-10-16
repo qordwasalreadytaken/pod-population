@@ -1,20 +1,22 @@
 {
-    "timestamp": "2026-10-16T23:32:00+00:00",
+    "timestamp": "2026-10-16T23:46:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1
+        "2": 4
     },
     "mode": {
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 1
+        "2|0": 4
     },
     "activities": [
         {
             "name": "Other",
             "count": 2
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         },
         {
             "name": "Trade",
@@ -24,34 +26,34 @@
     "top_games": [
         {
             "name": "godzilla",
+            "count": 2
+        },
+        {
+            "name": "asd",
             "count": 1
         },
         {
             "name": "n perf ruby",
-            "count": 1
-        },
-        {
-            "name": "goyti",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "godzilla",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "godzilla"
-            ]
-        },
-        {
-            "normalized": "goyti",
-            "count": 2,
-            "examples": [
-                "goyti"
             ]
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n perf ruby",
@@ -62,7 +64,7 @@
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 8.0
+        "public_games": 4,
+        "average_name_length": 7.33
     }
 }
