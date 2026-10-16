@@ -552,7 +552,7 @@
         {
             "name": "n perf ruby",
             "matched": "n",
-            "count": 20
+            "count": 21
         },
         {
             "name": "n frw bk n wisp",
@@ -606,7 +606,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "torch",
+            "matched": "buy",
             "count": 12
         },
         {
@@ -760,6 +760,11 @@
             "count": 7
         },
         {
+            "name": "n nec torch",
+            "matched": "n",
+            "count": 7
+        },
+        {
             "name": "n sazbia helm",
             "matched": "n",
             "count": 7
@@ -835,13 +840,8 @@
             "count": 6
         },
         {
-            "name": "n nec torch",
-            "matched": "n",
-            "count": 6
-        },
-        {
             "name": "n ntorch o bto",
-            "matched": "n",
+            "matched": "torch",
             "count": 6
         },
         {
@@ -2708,7 +2708,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "act",
+            "matched": "andar",
             "count": 12
         },
         {
@@ -2793,7 +2793,7 @@
         },
         {
             "name": "act 2 - normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 6
         },
         {
@@ -2913,7 +2913,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 3
         },
         {
@@ -2958,7 +2958,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "leveli",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -2978,7 +2978,7 @@
         },
         {
             "name": "ancients norm",
-            "matched": "anci",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -2998,7 +2998,7 @@
         },
         {
             "name": "normal act",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -3163,7 +3163,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "tomb",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -3188,7 +3188,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -3518,7 +3518,7 @@
         {
             "name": "gord",
             "matched": "gord",
-            "count": 656
+            "count": 657
         },
         {
             "name": "n eld runes",
@@ -3558,7 +3558,7 @@
         {
             "name": "asdsd",
             "matched": "asd",
-            "count": 49
+            "count": 50
         },
         {
             "name": "123",
@@ -5851,7 +5851,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 7
         },
         {
@@ -5911,7 +5911,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "mapping",
+            "matched": "map",
             "count": 4
         },
         {
@@ -6111,7 +6111,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -6126,7 +6126,7 @@
         },
         {
             "name": "mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -6173,17 +6173,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
