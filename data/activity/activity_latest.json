@@ -1,31 +1,43 @@
 {
-    "timestamp": "2026-10-16T15:23:00+00:00",
+    "timestamp": "2026-10-16T15:34:00+00:00",
     "difficulty": {
-        "2": 4,
-        "0": 1
+        "2": 5,
+        "0": 2
     },
     "mode": {
-        "0": 5
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 4,
-        "0|0": 1
+        "2|0": 5,
+        "0|0": 2
     },
     "activities": [
+        {
+            "name": "Other",
+            "count": 3
+        },
         {
             "name": "Trade",
             "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         },
         {
-            "name": "Other",
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "adsd",
+            "count": 1
+        },
+        {
+            "name": "onek",
+            "count": 1
+        },
         {
             "name": "n nec torch",
             "count": 1
@@ -35,11 +47,11 @@
             "count": 1
         },
         {
-            "name": "asdsd",
+            "name": "n perf ruby",
             "count": 1
         },
         {
-            "name": "n perf ruby",
+            "name": "a fresh start",
             "count": 1
         },
         {
@@ -48,6 +60,20 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "adsd",
+            "count": 2,
+            "examples": [
+                "adsd"
+            ]
+        },
+        {
+            "normalized": "onek",
+            "count": 2,
+            "examples": [
+                "onek"
+            ]
+        },
         {
             "normalized": "#",
             "count": 2,
@@ -74,17 +100,19 @@
                 "name": "gord",
                 "matched": "gord",
                 "count": 1
-            },
+            }
+        ],
+        "Leveling": [
             {
-                "name": "asdsd",
-                "matched": "asd",
+                "name": "a fresh start",
+                "matched": "start",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.6
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 7.0
     }
 }
