@@ -1,23 +1,23 @@
 {
-    "timestamp": "2026-10-16T20:04:00+00:00",
+    "timestamp": "2026-10-16T20:24:00+00:00",
     "difficulty": {
-        "2": 5,
+        "2": 3,
         "0": 1
     },
     "mode": {
-        "0": 6
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 5,
+        "2|0": 3,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 4
+            "name": "Other",
+            "count": 2
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
@@ -28,10 +28,6 @@
     "top_games": [
         {
             "name": "gord",
-            "count": 3
-        },
-        {
-            "name": "need annihilus'",
             "count": 1
         },
         {
@@ -39,16 +35,27 @@
             "count": 1
         },
         {
-            "name": "123",
+            "name": "dsd",
+            "count": 1
+        },
+        {
+            "name": "gg",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "need annihilus'",
+            "normalized": "dsd",
             "count": 2,
             "examples": [
-                "need annihilus'"
+                "dsd"
+            ]
+        },
+        {
+            "normalized": "gg",
+            "count": 2,
+            "examples": [
+                "gg"
             ]
         }
     ],
@@ -57,11 +64,6 @@
             {
                 "name": "gord",
                 "matched": "gord",
-                "count": 3
-            },
-            {
-                "name": "123",
-                "matched": "123",
                 "count": 1
             }
         ],
@@ -75,7 +77,7 @@
     },
     "interesting": {
         "unique_names": 4,
-        "public_games": 6,
-        "average_name_length": 8.5
+        "public_games": 4,
+        "average_name_length": 5.25
     }
 }
