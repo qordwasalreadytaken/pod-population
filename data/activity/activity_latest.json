@@ -1,16 +1,16 @@
 {
-    "timestamp": "2026-10-16T09:40:00+00:00",
+    "timestamp": "2026-10-16T09:49:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 1
+        "0": 1,
+        "2": 2
     },
     "mode": {
-        "1": 2,
-        "0": 1
+        "1": 1,
+        "0": 2
     },
     "difficulty_mode": {
-        "0|1": 2,
-        "2|0": 1
+        "0|1": 1,
+        "2|0": 2
     },
     "activities": [
         {
@@ -28,7 +28,7 @@
             "count": 1
         },
         {
-            "name": "qe",
+            "name": "estr",
             "count": 1
         },
         {
@@ -45,10 +45,10 @@
             ]
         },
         {
-            "normalized": "qe",
+            "normalized": "estr",
             "count": 2,
             "examples": [
-                "qe"
+                "estr"
             ]
         }
     ],
@@ -64,6 +64,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 3.0
+        "average_name_length": 3.67
     }
 }

@@ -132,17 +132,17 @@
         ]
     },
     {
+        "normalized": "eq",
+        "count": 138,
+        "examples": [
+            "eq"
+        ]
+    },
+    {
         "normalized": "sure",
         "count": 138,
         "examples": [
             "sure"
-        ]
-    },
-    {
-        "normalized": "eq",
-        "count": 136,
-        "examples": [
-            "eq"
         ]
     },
     {
@@ -9267,6 +9267,13 @@
         "count": 2,
         "examples": [
             "somebody"
+        ]
+    },
+    {
+        "normalized": "estr",
+        "count": 2,
+        "examples": [
+            "estr"
         ]
     }
 ]
