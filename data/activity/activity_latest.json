@@ -1,85 +1,85 @@
 {
-    "timestamp": "2026-10-16T11:47:00+00:00",
+    "timestamp": "2026-10-16T12:07:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 1,
-        "0": 2
+        "2": 6
     },
     "mode": {
         "0": 6
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "1|0": 1,
-        "0|0": 2
+        "2|0": 6
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
             "count": 2
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "b torch asa",
+            "count": 1
+        },
+        {
+            "name": "wesfr",
+            "count": 1
+        },
+        {
+            "name": "fr",
+            "count": 1
+        },
         {
             "name": "asd",
             "count": 1
         },
         {
-            "name": "wsef",
+            "name": "wrg",
             "count": 1
         },
         {
             "name": "gord",
             "count": 1
-        },
-        {
-            "name": "grow 1",
-            "count": 1
-        },
-        {
-            "name": "qwefad",
-            "count": 1
-        },
-        {
-            "name": "sds",
-            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "wsef",
+            "normalized": "wesfr",
             "count": 2,
             "examples": [
-                "wsef"
+                "wesfr"
             ]
         },
         {
-            "normalized": "grow #",
+            "normalized": "fr",
             "count": 2,
             "examples": [
-                "grow 1"
+                "fr"
             ]
         },
         {
-            "normalized": "qwefad",
+            "normalized": "wrg",
             "count": 2,
             "examples": [
-                "qwefad"
-            ]
-        },
-        {
-            "normalized": "sds",
-            "count": 2,
-            "examples": [
-                "sds"
+                "wrg"
             ]
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "b torch asa",
+                "matched": "torch",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
@@ -96,6 +96,6 @@
     "interesting": {
         "unique_names": 6,
         "public_games": 6,
-        "average_name_length": 4.33
+        "average_name_length": 4.67
     }
 }
