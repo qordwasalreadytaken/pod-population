@@ -1,29 +1,41 @@
 {
-    "timestamp": "2026-10-16T12:56:00+00:00",
+    "timestamp": "2026-10-16T13:10:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 4,
         "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 2,
+        "2|0": 4,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Other",
             "count": 2
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "n eld runes",
+            "count": 1
+        },
+        {
+            "name": "b torch asa",
+            "count": 1
+        },
         {
             "name": "asd",
             "count": 1
@@ -60,6 +72,11 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
+                "name": "n eld runes",
+                "matched": "run",
+                "count": 1
+            },
+            {
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
@@ -69,11 +86,18 @@
                 "matched": "gord",
                 "count": 1
             }
+        ],
+        "Trade": [
+            {
+                "name": "b torch asa",
+                "matched": "torch",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 3.75
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 6.17
     }
 }
