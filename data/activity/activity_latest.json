@@ -1,15 +1,21 @@
 {
-    "timestamp": "2026-10-16T19:46:00+00:00",
+    "timestamp": "2026-10-16T20:04:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 5,
+        "0": 1
     },
     "mode": {
-        "0": 3
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 3
+        "2|0": 5,
+        "0|0": 1
     },
     "activities": [
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 4
+        },
         {
             "name": "Other",
             "count": 1
@@ -17,13 +23,13 @@
         {
             "name": "Trade",
             "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "gord",
+            "count": 3
+        },
         {
             "name": "need annihilus'",
             "count": 1
@@ -33,7 +39,7 @@
             "count": 1
         },
         {
-            "name": "gord",
+            "name": "123",
             "count": 1
         }
     ],
@@ -47,24 +53,29 @@
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "gord",
+                "matched": "gord",
+                "count": 3
+            },
+            {
+                "name": "123",
+                "matched": "123",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n perf. ruby",
                 "matched": "n",
                 "count": 1
             }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 10.33
+        "unique_names": 4,
+        "public_games": 6,
+        "average_name_length": 8.5
     }
 }
