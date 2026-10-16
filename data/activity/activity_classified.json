@@ -606,7 +606,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "buy",
+            "matched": "torch",
             "count": 12
         },
         {
@@ -1725,6 +1725,11 @@
             "count": 2
         },
         {
+            "name": "b torch assa 1",
+            "matched": "torch",
+            "count": 2
+        },
+        {
             "name": "n paladin gear",
             "matched": "n",
             "count": 1
@@ -2633,11 +2638,6 @@
             "name": "n help plz",
             "matched": "n",
             "count": 1
-        },
-        {
-            "name": "b torch assa 1",
-            "matched": "torch",
-            "count": 1
         }
     ],
     "Leveling": [
@@ -2708,7 +2708,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "andar",
+            "matched": "act",
             "count": 12
         },
         {
@@ -2793,7 +2793,7 @@
         },
         {
             "name": "act 2 - normal",
-            "matched": "norm",
+            "matched": "act",
             "count": 6
         },
         {
@@ -2843,7 +2843,7 @@
         },
         {
             "name": "acte andy",
-            "matched": "andy",
+            "matched": "act",
             "count": 5
         },
         {
@@ -2998,7 +2998,7 @@
         },
         {
             "name": "normal act",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -3028,7 +3028,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "exp",
+            "matched": "act",
             "count": 2
         },
         {
@@ -3188,7 +3188,7 @@
         },
         {
             "name": "act start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -3518,12 +3518,12 @@
         {
             "name": "gord",
             "matched": "gord",
-            "count": 648
+            "count": 649
         },
         {
             "name": "n eld runes",
             "matched": "run",
-            "count": 595
+            "count": 596
         },
         {
             "name": "asdasd",
@@ -4677,7 +4677,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -4742,7 +4742,7 @@
         },
         {
             "name": "14123awdasdfqwr",
-            "matched": "asd",
+            "matched": "123",
             "count": 1
         },
         {
@@ -5851,7 +5851,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 7
         },
         {
@@ -5911,7 +5911,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "mapping",
+            "matched": "map",
             "count": 4
         },
         {
@@ -6111,7 +6111,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -6126,7 +6126,7 @@
         },
         {
             "name": "mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -6173,17 +6173,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
