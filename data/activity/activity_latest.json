@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-10-16T07:52:00+00:00",
+    "timestamp": "2026-10-16T08:06:00+00:00",
     "difficulty": {
         "2": 2,
-        "1": 1
+        "0": 1
     },
     "mode": {
         "0": 3
     },
     "difficulty_mode": {
         "2|0": 2,
-        "1|0": 1
+        "0|0": 1
     },
     "activities": [
         {
@@ -35,16 +35,16 @@
             "count": 1
         },
         {
-            "name": "goretoo",
+            "name": "gg",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "goretoo",
+            "normalized": "gg",
             "count": 2,
             "examples": [
-                "goretoo"
+                "gg"
             ]
         }
     ],
@@ -67,6 +67,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 7.67
+        "average_name_length": 6.0
     }
 }
