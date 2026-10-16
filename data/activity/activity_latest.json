@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-10-16T16:37:00+00:00",
+    "timestamp": "2026-10-16T16:49:00+00:00",
     "difficulty": {
-        "2": 4,
-        "0": 1
+        "2": 6,
+        "0": 2
     },
     "mode": {
-        "0": 5
+        "0": 8
     },
     "difficulty_mode": {
-        "2|0": 4,
-        "0|0": 1
+        "2|0": 6,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 5
         },
         {
             "name": "Trade",
@@ -28,7 +28,7 @@
     "top_games": [
         {
             "name": "asd",
-            "count": 1
+            "count": 3
         },
         {
             "name": "adsd",
@@ -40,6 +40,10 @@
         },
         {
             "name": "gord",
+            "count": 1
+        },
+        {
+            "name": "mmk",
             "count": 1
         },
         {
@@ -61,11 +65,16 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
+                "count": 3
             },
             {
                 "name": "gord",
                 "matched": "gord",
+                "count": 1
+            },
+            {
+                "name": "mmk",
+                "matched": "mmk",
                 "count": 1
             }
         ],
@@ -83,8 +92,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.6
+        "unique_names": 6,
+        "public_games": 8,
+        "average_name_length": 6.0
     }
 }
