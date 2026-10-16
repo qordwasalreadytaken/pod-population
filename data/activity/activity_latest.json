@@ -1,18 +1,22 @@
 {
-    "timestamp": "2026-10-16T12:07:00+00:00",
+    "timestamp": "2026-10-16T12:35:00+00:00",
     "difficulty": {
-        "2": 6
+        "2": 5,
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "0": 6
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 6
+        "2|0": 5,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Misc. Public MF Runs",
@@ -25,15 +29,15 @@
     ],
     "top_games": [
         {
+            "name": "adsf",
+            "count": 2
+        },
+        {
+            "name": "ref",
+            "count": 1
+        },
+        {
             "name": "b torch asa",
-            "count": 1
-        },
-        {
-            "name": "wesfr",
-            "count": 1
-        },
-        {
-            "name": "fr",
             "count": 1
         },
         {
@@ -41,34 +45,34 @@
             "count": 1
         },
         {
-            "name": "wrg",
+            "name": "gord",
             "count": 1
         },
         {
-            "name": "gord",
+            "name": "fre",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "wesfr",
-            "count": 2,
+            "normalized": "adsf",
+            "count": 4,
             "examples": [
-                "wesfr"
+                "adsf"
             ]
         },
         {
-            "normalized": "fr",
+            "normalized": "ref",
             "count": 2,
             "examples": [
-                "fr"
+                "ref"
             ]
         },
         {
-            "normalized": "wrg",
+            "normalized": "fre",
             "count": 2,
             "examples": [
-                "wrg"
+                "fre"
             ]
         }
     ],
@@ -95,7 +99,7 @@
     },
     "interesting": {
         "unique_names": 6,
-        "public_games": 6,
+        "public_games": 7,
         "average_name_length": 4.67
     }
 }
