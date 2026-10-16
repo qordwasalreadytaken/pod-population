@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-10-16T05:49:00+00:00",
+    "timestamp": "2026-10-16T06:08:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 2
+        "2": 2,
+        "0": 1
     },
     "mode": {
         "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 2
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
@@ -23,34 +23,43 @@
     ],
     "top_games": [
         {
-            "name": "asdsd",
-            "count": 2
+            "name": "n eld runes",
+            "count": 1
         },
         {
-            "name": "toeprto",
+            "name": "asdsd",
+            "count": 1
+        },
+        {
+            "name": "go",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "toeprto",
+            "normalized": "go",
             "count": 2,
             "examples": [
-                "toeprto"
+                "go"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
+                "name": "n eld runes",
+                "matched": "run",
+                "count": 1
+            },
+            {
                 "name": "asdsd",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
+        "unique_names": 3,
         "public_games": 3,
         "average_name_length": 6.0
     }
