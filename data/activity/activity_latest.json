@@ -1,31 +1,33 @@
 {
-    "timestamp": "2026-10-16T05:37:00+00:00",
+    "timestamp": "2026-10-16T05:49:00+00:00",
     "difficulty": {
+        "2": 1,
         "1": 2
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
+        "2|0": 1,
         "1|0": 2
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 1
+            "name": "Misc. Public MF Runs",
+            "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "toeprto",
-            "count": 1
+            "name": "asdsd",
+            "count": 2
         },
         {
-            "name": "asdsd",
+            "name": "toeprto",
             "count": 1
         }
     ],
@@ -43,13 +45,13 @@
             {
                 "name": "asdsd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
         "unique_names": 2,
-        "public_games": 2,
+        "public_games": 3,
         "average_name_length": 6.0
     }
 }
