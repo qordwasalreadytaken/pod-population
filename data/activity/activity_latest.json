@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-17T12:29:00+00:00",
+    "timestamp": "2026-10-17T12:45:00+00:00",
     "difficulty": {
         "2": 5,
         "0": 1
@@ -29,11 +29,11 @@
     ],
     "top_games": [
         {
-            "name": "yo",
-            "count": 1
+            "name": "onek",
+            "count": 2
         },
         {
-            "name": "onek",
+            "name": "yo",
             "count": 1
         },
         {
@@ -45,34 +45,23 @@
             "count": 1
         },
         {
-            "name": "dsd",
-            "count": 1
-        },
-        {
             "name": "ersdvf",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "yo",
-            "count": 2,
-            "examples": [
-                "yo"
-            ]
-        },
-        {
             "normalized": "onek",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "onek"
             ]
         },
         {
-            "normalized": "dsd",
+            "normalized": "yo",
             "count": 2,
             "examples": [
-                "dsd"
+                "yo"
             ]
         },
         {
@@ -100,8 +89,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
+        "unique_names": 5,
         "public_games": 6,
-        "average_name_length": 5.33
+        "average_name_length": 5.8
     }
 }
