@@ -1,30 +1,30 @@
 {
-    "timestamp": "2026-10-17T19:03:00+00:00",
+    "timestamp": "2026-10-17T19:17:00+00:00",
     "difficulty": {
-        "2": 5,
-        "0": 2
+        "2": 6,
+        "0": 3
     },
     "mode": {
         "1": 1,
-        "0": 6
+        "0": 8
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 4,
-        "0|0": 2
+        "2|0": 5,
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 4
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Maps",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Trade",
@@ -33,7 +33,7 @@
     ],
     "top_games": [
         {
-            "name": "meleemap",
+            "name": "nperfruby/eld",
             "count": 2
         },
         {
@@ -41,11 +41,19 @@
             "count": 1
         },
         {
+            "name": "aasdf",
+            "count": 1
+        },
+        {
             "name": "run",
             "count": 1
         },
         {
-            "name": "nperfruby/eld",
+            "name": "meleemap",
+            "count": 1
+        },
+        {
+            "name": "fqf",
             "count": 1
         },
         {
@@ -59,6 +67,13 @@
     ],
     "unknown_games": [
         {
+            "normalized": "nperfruby/eld",
+            "count": 4,
+            "examples": [
+                "nperfruby/eld"
+            ]
+        },
+        {
             "normalized": "yo",
             "count": 2,
             "examples": [
@@ -66,15 +81,20 @@
             ]
         },
         {
-            "normalized": "nperfruby/eld",
+            "normalized": "fqf",
             "count": 2,
             "examples": [
-                "nperfruby/eld"
+                "fqf"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
+            {
+                "name": "aasdf",
+                "matched": "asd",
+                "count": 1
+            },
             {
                 "name": "run",
                 "matched": "run",
@@ -90,7 +110,7 @@
             {
                 "name": "meleemap",
                 "matched": "map",
-                "count": 2
+                "count": 1
             }
         ],
         "Trade": [
@@ -102,8 +122,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 6.83
+        "unique_names": 8,
+        "public_games": 9,
+        "average_name_length": 6.12
     }
 }
