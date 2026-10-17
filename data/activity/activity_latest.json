@@ -1,76 +1,39 @@
 {
-    "timestamp": "2026-10-17T14:04:00+00:00",
+    "timestamp": "2026-10-17T14:21:00+00:00",
     "difficulty": {
-        "2": 4,
-        "0": 1
+        "1": 1
     },
     "mode": {
-        "1": 1,
-        "0": 4
+        "0": 1
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 3,
-        "0|0": 1
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "nperfruby/eld",
-            "count": 2
-        },
-        {
-            "name": "yo",
-            "count": 1
-        },
-        {
-            "name": "qwe",
-            "count": 1
-        },
-        {
-            "name": "mkk",
+            "name": "gotor5e",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "nperfruby/eld",
-            "count": 4,
-            "examples": [
-                "nperfruby/eld"
-            ]
-        },
-        {
-            "normalized": "yo",
+            "normalized": "gotor#e",
             "count": 2,
             "examples": [
-                "yo"
-            ]
-        },
-        {
-            "normalized": "qwe",
-            "count": 2,
-            "examples": [
-                "qwe"
-            ]
-        },
-        {
-            "normalized": "mkk",
-            "count": 2,
-            "examples": [
-                "mkk"
+                "gotor5e"
             ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 4,
-        "public_games": 5,
-        "average_name_length": 5.25
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 7.0
     }
 }
