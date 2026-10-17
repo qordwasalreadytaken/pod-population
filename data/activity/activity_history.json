@@ -701,7 +701,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -772,7 +772,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "norm",
+                    "matched": "leveli",
                     "count": 1
                 }
             ]
@@ -8995,7 +8995,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 },
                 {
@@ -12824,7 +12824,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "norm",
+                    "matched": "anci",
                     "count": 1
                 }
             ]
@@ -36454,7 +36454,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "mf runs",
-                    "matched": "run",
+                    "matched": "mf",
                     "count": 1
                 }
             ]
@@ -122352,7 +122352,7 @@
                 },
                 {
                     "name": "asdsd36aaaa",
-                    "matched": "asd",
+                    "matched": "aaa",
                     "count": 1
                 },
                 {
@@ -122407,7 +122407,7 @@
                 },
                 {
                     "name": "asdsd36aaaa",
-                    "matched": "asd",
+                    "matched": "aaa",
                     "count": 1
                 }
             ]
@@ -259090,7 +259090,7 @@
             "Leveling": [
                 {
                     "name": "acte andy",
-                    "matched": "act",
+                    "matched": "andy",
                     "count": 1
                 }
             ],
@@ -259197,7 +259197,7 @@
             "Leveling": [
                 {
                     "name": "acte andy",
-                    "matched": "act",
+                    "matched": "andy",
                     "count": 1
                 }
             ]
@@ -259508,7 +259508,7 @@
             "Leveling": [
                 {
                     "name": "acte andy",
-                    "matched": "act",
+                    "matched": "andy",
                     "count": 1
                 }
             ],
@@ -259592,7 +259592,7 @@
             "Leveling": [
                 {
                     "name": "acte andy",
-                    "matched": "act",
+                    "matched": "andy",
                     "count": 1
                 }
             ]
@@ -260449,7 +260449,7 @@
             "Leveling": [
                 {
                     "name": "acte andy",
-                    "matched": "act",
+                    "matched": "andy",
                     "count": 1
                 }
             ],
@@ -263226,7 +263226,7 @@
             "Trade": [
                 {
                     "name": "n ntorch o bto",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -263283,7 +263283,7 @@
             "Trade": [
                 {
                     "name": "n ntorch o bto",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -263339,7 +263339,7 @@
             "Trade": [
                 {
                     "name": "n ntorch o bto",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -263395,7 +263395,7 @@
             "Trade": [
                 {
                     "name": "n ntorch o bto",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -263451,7 +263451,7 @@
             "Trade": [
                 {
                     "name": "n ntorch o bto",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -263516,7 +263516,7 @@
                 },
                 {
                     "name": "n ntorch o bto",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -387770,6 +387770,109 @@
         "interesting": {
             "unique_names": 4,
             "public_games": 4,
+            "average_name_length": 6.5
+        }
+    },
+    {
+        "timestamp": "2026-10-17T09:22:00+00:00",
+        "difficulty": {
+            "0": 4,
+            "2": 2
+        },
+        "mode": {
+            "1": 1,
+            "0": 5
+        },
+        "difficulty_mode": {
+            "0|1": 1,
+            "2|0": 2,
+            "0|0": 3
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 2
+            },
+            {
+                "name": "Trade",
+                "count": 2
+            },
+            {
+                "name": "Misc. Public MF Runs",
+                "count": 2
+            }
+        ],
+        "top_games": [
+            {
+                "name": "23",
+                "count": 1
+            },
+            {
+                "name": "n anni",
+                "count": 1
+            },
+            {
+                "name": "n perf ruby",
+                "count": 1
+            },
+            {
+                "name": "asdadasdasd",
+                "count": 1
+            },
+            {
+                "name": "sethy",
+                "count": 1
+            },
+            {
+                "name": "1231",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "#",
+                "count": 2,
+                "examples": [
+                    "23"
+                ]
+            },
+            {
+                "normalized": "sethy",
+                "count": 2,
+                "examples": [
+                    "sethy"
+                ]
+            }
+        ],
+        "classified_games": {
+            "Trade": [
+                {
+                    "name": "n anni",
+                    "matched": "n",
+                    "count": 1
+                },
+                {
+                    "name": "n perf ruby",
+                    "matched": "n",
+                    "count": 1
+                }
+            ],
+            "Misc. Public MF Runs": [
+                {
+                    "name": "asdadasdasd",
+                    "matched": "asd",
+                    "count": 1
+                },
+                {
+                    "name": "1231",
+                    "matched": "123",
+                    "count": 1
+                }
+            ]
+        },
+        "interesting": {
+            "unique_names": 6,
+            "public_games": 6,
             "average_name_length": 6.5
         }
     }
