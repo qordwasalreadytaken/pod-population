@@ -1,23 +1,19 @@
 {
-    "timestamp": "2026-10-17T08:41:00+00:00",
+    "timestamp": "2026-10-17T08:48:00+00:00",
     "difficulty": {
         "2": 1,
-        "1": 3,
-        "0": 2
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "0": 6
+        "0": 3
     },
     "difficulty_mode": {
         "2|0": 1,
-        "1|0": 3,
-        "0|0": 2
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
-        {
-            "name": "Other",
-            "count": 3
-        },
         {
             "name": "Misc. Public MF Runs",
             "count": 2
@@ -33,49 +29,15 @@
             "count": 1
         },
         {
-            "name": "lady tohru",
-            "count": 1
-        },
-        {
             "name": "gord",
-            "count": 1
-        },
-        {
-            "name": "dotorto",
             "count": 1
         },
         {
             "name": "12312",
             "count": 1
-        },
-        {
-            "name": "2e",
-            "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "lady tohru",
-            "count": 2,
-            "examples": [
-                "lady tohru"
-            ]
-        },
-        {
-            "normalized": "dotorto",
-            "count": 2,
-            "examples": [
-                "dotorto"
-            ]
-        },
-        {
-            "normalized": "#e",
-            "count": 2,
-            "examples": [
-                "2e"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Trade": [
             {
@@ -98,8 +60,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 6.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 6.67
     }
 }
