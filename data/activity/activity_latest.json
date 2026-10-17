@@ -1,101 +1,81 @@
 {
-    "timestamp": "2026-10-17T08:05:00+00:00",
+    "timestamp": "2026-10-17T08:27:00+00:00",
     "difficulty": {
-        "2": 6,
+        "2": 1,
         "1": 1,
-        "0": 1
+        "0": 2
     },
     "mode": {
-        "0": 8
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 6,
+        "2|0": 1,
         "1|0": 1,
-        "0|0": 1
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 6
+            "count": 3
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "k",
-            "count": 3
-        },
-        {
-            "name": "gord",
+            "name": "n perf ruby",
             "count": 1
         },
         {
-            "name": "n eld runes",
+            "name": "dotorto",
             "count": 1
         },
         {
-            "name": "gtoorod",
+            "name": "sofosk",
             "count": 1
         },
         {
-            "name": "grow 1",
-            "count": 1
-        },
-        {
-            "name": "wikid klownz",
+            "name": "2e",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "k",
-            "count": 6,
+            "normalized": "dotorto",
+            "count": 2,
             "examples": [
-                "k"
+                "dotorto"
             ]
         },
         {
-            "normalized": "gtoorod",
+            "normalized": "sofosk",
             "count": 2,
             "examples": [
-                "gtoorod"
+                "sofosk"
             ]
         },
         {
-            "normalized": "grow #",
+            "normalized": "#e",
             "count": 2,
             "examples": [
-                "grow 1"
-            ]
-        },
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
+                "2e"
             ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            },
-            {
-                "name": "n eld runes",
-                "matched": "run",
+                "name": "n perf ruby",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 8,
-        "average_name_length": 6.83
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 6.5
     }
 }
