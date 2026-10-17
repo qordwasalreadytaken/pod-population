@@ -1,14 +1,16 @@
 {
-    "timestamp": "2026-10-17T03:26:00+00:00",
+    "timestamp": "2026-10-17T03:39:00+00:00",
     "difficulty": {
-        "0": 3
+        "0": 2,
+        "2": 1
     },
     "mode": {
-        "1": 2,
-        "0": 1
+        "1": 1,
+        "0": 2
     },
     "difficulty_mode": {
-        "0|1": 2,
+        "0|1": 1,
+        "2|0": 1,
         "0|0": 1
     },
     "activities": [
@@ -19,11 +21,11 @@
     ],
     "top_games": [
         {
-            "name": "eq",
+            "name": "wikid klownz",
             "count": 1
         },
         {
-            "name": "wikid klownz",
+            "name": "godzilla",
             "count": 1
         },
         {
@@ -33,17 +35,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "eq",
-            "count": 2,
-            "examples": [
-                "eq"
-            ]
-        },
-        {
             "normalized": "wikid klownz",
             "count": 2,
             "examples": [
                 "wikid klownz"
+            ]
+        },
+        {
+            "normalized": "godzilla",
+            "count": 2,
+            "examples": [
+                "godzilla"
             ]
         },
         {
@@ -58,6 +60,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 5.33
+        "average_name_length": 7.33
     }
 }
