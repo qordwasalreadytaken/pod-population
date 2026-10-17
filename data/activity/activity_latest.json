@@ -1,32 +1,30 @@
 {
-    "timestamp": "2026-10-17T19:32:00+00:00",
+    "timestamp": "2026-10-17T19:46:00+00:00",
     "difficulty": {
-        "2": 6,
-        "1": 1,
-        "0": 4
+        "2": 5,
+        "0": 5
     },
     "mode": {
         "1": 1,
-        "0": 10
+        "0": 9
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 5,
-        "1|0": 1,
-        "0|0": 4
+        "2|0": 4,
+        "0|0": 5
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 5
+            "name": "Other",
+            "count": 4
         },
         {
-            "name": "Other",
-            "count": 3
+            "name": "Misc. Public MF Runs",
+            "count": 4
         },
         {
             "name": "Maps",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Trade",
@@ -35,11 +33,15 @@
     ],
     "top_games": [
         {
-            "name": "aasdf",
+            "name": "new",
             "count": 2
         },
         {
             "name": "yo",
+            "count": 1
+        },
+        {
+            "name": "dasd",
             "count": 1
         },
         {
@@ -52,14 +54,6 @@
         },
         {
             "name": "run",
-            "count": 1
-        },
-        {
-            "name": "meleemap",
-            "count": 1
-        },
-        {
-            "name": "new",
             "count": 1
         },
         {
@@ -77,17 +71,17 @@
     ],
     "unknown_games": [
         {
+            "normalized": "new",
+            "count": 4,
+            "examples": [
+                "new"
+            ]
+        },
+        {
             "normalized": "yo",
             "count": 2,
             "examples": [
                 "yo"
-            ]
-        },
-        {
-            "normalized": "new",
-            "count": 2,
-            "examples": [
-                "new"
             ]
         },
         {
@@ -99,23 +93,11 @@
         }
     ],
     "classified_games": {
-        "Maps": [
-            {
-                "name": "pubmap-3",
-                "matched": "map",
-                "count": 1
-            },
-            {
-                "name": "meleemap",
-                "matched": "map",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
-                "name": "aasdf",
+                "name": "dasd",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             },
             {
                 "name": "asdd",
@@ -133,6 +115,13 @@
                 "count": 1
             }
         ],
+        "Maps": [
+            {
+                "name": "pubmap-3",
+                "matched": "map",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n cham o lo",
@@ -142,8 +131,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 10,
-        "public_games": 11,
-        "average_name_length": 5.1
+        "unique_names": 9,
+        "public_games": 10,
+        "average_name_length": 4.67
     }
 }
