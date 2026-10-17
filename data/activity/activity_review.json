@@ -24,7 +24,7 @@
     },
     {
         "normalized": "wikid klownz",
-        "count": 798,
+        "count": 800,
         "examples": [
             "wikid klownz"
         ]
@@ -1033,6 +1033,14 @@
         ]
     },
     {
+        "normalized": "grow #",
+        "count": 20,
+        "examples": [
+            "grow 1",
+            "grow 2"
+        ]
+    },
+    {
         "normalized": "tomas",
         "count": 18,
         "examples": [
@@ -1235,14 +1243,6 @@
         "examples": [
             "javelma grow 1",
             "javelma grow 2"
-        ]
-    },
-    {
-        "normalized": "grow #",
-        "count": 18,
-        "examples": [
-            "grow 1",
-            "grow 2"
         ]
     },
     {
@@ -5305,6 +5305,13 @@
         "count": 4,
         "examples": [
             "dosrety"
+        ]
+    },
+    {
+        "normalized": "gtoorod",
+        "count": 4,
+        "examples": [
+            "gtoorod"
         ]
     },
     {
@@ -9407,13 +9414,6 @@
         "count": 2,
         "examples": [
             "myuhker"
-        ]
-    },
-    {
-        "normalized": "gtoorod",
-        "count": 2,
-        "examples": [
-            "gtoorod"
         ]
     }
 ]
