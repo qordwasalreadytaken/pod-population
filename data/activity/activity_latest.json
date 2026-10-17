@@ -1,39 +1,55 @@
 {
-    "timestamp": "2026-10-17T11:20:00+00:00",
+    "timestamp": "2026-10-17T11:32:00+00:00",
     "difficulty": {
-        "2": 1
+        "2": 2
     },
     "mode": {
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 1
+        "2|0": 2
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asdasd",
+            "name": "n perfruby/elds",
+            "count": 1
+        },
+        {
+            "name": "dsd",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "dsd",
+            "count": 2,
+            "examples": [
+                "dsd"
+            ]
+        }
+    ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "asdasd",
-                "matched": "asd",
+                "name": "n perfruby/elds",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 6.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 9.0
     }
 }
