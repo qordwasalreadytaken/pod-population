@@ -605,6 +605,11 @@
             "count": 14
         },
         {
+            "name": "n 5/5 phys",
+            "matched": "n",
+            "count": 14
+        },
+        {
             "name": "buy ohm andsur",
             "matched": "buy",
             "count": 13
@@ -625,11 +630,6 @@
             "count": 13
         },
         {
-            "name": "n 5/5 phys",
-            "matched": "n",
-            "count": 13
-        },
-        {
             "name": "n fcr soj",
             "matched": "n",
             "count": 12
@@ -641,7 +641,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "torch",
+            "matched": "buy",
             "count": 12
         },
         {
@@ -866,7 +866,7 @@
         },
         {
             "name": "n ntorch o bto",
-            "matched": "torch",
+            "matched": "n",
             "count": 6
         },
         {
@@ -971,7 +971,7 @@
         },
         {
             "name": "n high d torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 5
         },
         {
@@ -1996,7 +1996,7 @@
         },
         {
             "name": "n oocs wuw",
-            "matched": "n",
+            "matched": "wuw",
             "count": 1
         },
         {
@@ -2753,7 +2753,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "andar",
+            "matched": "act",
             "count": 12
         },
         {
@@ -2843,7 +2843,7 @@
         },
         {
             "name": "act 2 - normal",
-            "matched": "norm",
+            "matched": "act",
             "count": 6
         },
         {
@@ -2863,7 +2863,7 @@
         },
         {
             "name": "act 2 start",
-            "matched": "start",
+            "matched": "act",
             "count": 6
         },
         {
@@ -2898,7 +2898,7 @@
         },
         {
             "name": "acte andy",
-            "matched": "act",
+            "matched": "andy",
             "count": 5
         },
         {
@@ -2968,7 +2968,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "start",
+            "matched": "act",
             "count": 3
         },
         {
@@ -3013,7 +3013,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -3053,7 +3053,7 @@
         },
         {
             "name": "normal act",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -3248,7 +3248,7 @@
         },
         {
             "name": "act start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -3573,12 +3573,12 @@
         {
             "name": "asd",
             "matched": "asd",
-            "count": 1578
+            "count": 1579
         },
         {
             "name": "gord",
             "matched": "gord",
-            "count": 710
+            "count": 712
         },
         {
             "name": "n eld runes",
@@ -4772,7 +4772,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -5981,7 +5981,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 7
         },
         {
@@ -5996,7 +5996,7 @@
         },
         {
             "name": "maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 6
         },
         {
@@ -6031,7 +6031,7 @@
         },
         {
             "name": "desert maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 5
         },
         {
@@ -6041,7 +6041,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "map",
+            "matched": "mapping",
             "count": 4
         },
         {
@@ -6071,7 +6071,7 @@
         },
         {
             "name": "public maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 4
         },
         {
@@ -6131,7 +6131,7 @@
         },
         {
             "name": "slow maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 3
         },
         {
@@ -6181,12 +6181,12 @@
         },
         {
             "name": "t maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 2
         },
         {
             "name": "t maps 2",
-            "matched": "map",
+            "matched": "maps",
             "count": 2
         },
         {
@@ -6241,12 +6241,12 @@
         },
         {
             "name": "mapping 2",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
             "name": "maps?2",
-            "matched": "map",
+            "matched": "maps",
             "count": 1
         },
         {
@@ -6256,7 +6256,7 @@
         },
         {
             "name": "mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -6266,7 +6266,7 @@
         },
         {
             "name": "maps 3",
-            "matched": "map",
+            "matched": "maps",
             "count": 1
         },
         {
@@ -6303,17 +6303,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
