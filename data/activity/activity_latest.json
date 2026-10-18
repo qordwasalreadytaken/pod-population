@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-10-18T19:18:00+00:00",
+    "timestamp": "2026-10-18T19:32:00+00:00",
     "difficulty": {
-        "2": 7,
-        "0": 4
+        "2": 4,
+        "0": 5
     },
     "mode": {
         "1": 1,
-        "0": 10
+        "0": 8
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 6,
-        "0|0": 4
+        "2|0": 3,
+        "0|0": 5
     },
     "activities": [
         {
             "name": "Other",
-            "count": 8
+            "count": 6
         },
         {
             "name": "Trade",
@@ -29,11 +29,15 @@
     ],
     "top_games": [
         {
-            "name": "tk",
-            "count": 4
+            "name": "afawdas",
+            "count": 2
         },
         {
             "name": "dfg",
+            "count": 1
+        },
+        {
+            "name": "tk",
             "count": 1
         },
         {
@@ -45,28 +49,24 @@
             "count": 1
         },
         {
-            "name": "awd",
+            "name": "awafasd",
             "count": 1
         },
         {
-            "name": "123r",
+            "name": "1r1r",
             "count": 1
         },
         {
             "name": "umbrah",
             "count": 1
-        },
-        {
-            "name": "new player",
-            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "tk",
-            "count": 8,
+            "normalized": "afawdas",
+            "count": 4,
             "examples": [
-                "tk"
+                "afawdas"
             ]
         },
         {
@@ -77,10 +77,17 @@
             ]
         },
         {
-            "normalized": "awd",
+            "normalized": "tk",
             "count": 2,
             "examples": [
-                "awd"
+                "tk"
+            ]
+        },
+        {
+            "normalized": "#r#r",
+            "count": 2,
+            "examples": [
+                "1r1r"
             ]
         },
         {
@@ -88,13 +95,6 @@
             "count": 2,
             "examples": [
                 "umbrah"
-            ]
-        },
-        {
-            "normalized": "new player",
-            "count": 2,
-            "examples": [
-                "new player"
             ]
         }
     ],
@@ -113,15 +113,15 @@
         ],
         "Misc. Public MF Runs": [
             {
-                "name": "123r",
-                "matched": "123",
+                "name": "awafasd",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 8,
-        "public_games": 11,
-        "average_name_length": 6.12
+        "public_games": 9,
+        "average_name_length": 6.25
     }
 }
