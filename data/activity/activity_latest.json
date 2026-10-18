@@ -1,17 +1,17 @@
 {
-    "timestamp": "2026-10-18T09:04:00+00:00",
+    "timestamp": "2026-10-18T09:23:00+00:00",
     "difficulty": {
         "0": 3,
-        "2": 4,
+        "2": 3,
         "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 7
+        "0": 6
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 4,
+        "2|0": 3,
         "1|0": 1,
         "0|0": 2
     },
@@ -21,21 +21,17 @@
             "count": 5
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Trade",
+            "count": 1
         },
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "12",
-            "count": 1
-        },
-        {
-            "name": "asdd",
             "count": 1
         },
         {
@@ -101,29 +97,24 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asdd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "mmk",
-                "matched": "mmk",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "n allresfrw sc",
                 "matched": "n",
                 "count": 1
             }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "mmk",
+                "matched": "mmk",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 8,
-        "average_name_length": 5.25
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 5.43
     }
 }
