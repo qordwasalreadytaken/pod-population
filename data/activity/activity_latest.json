@@ -1,28 +1,24 @@
 {
-    "timestamp": "2026-10-18T10:33:00+00:00",
+    "timestamp": "2026-10-18T10:46:00+00:00",
     "difficulty": {
         "0": 4,
         "2": 4,
-        "1": 4
+        "1": 2
     },
     "mode": {
         "1": 1,
-        "0": 11
+        "0": 9
     },
     "difficulty_mode": {
         "0|1": 1,
         "2|0": 4,
-        "1|0": 4,
+        "1|0": 2,
         "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 10
-        },
-        {
-            "name": "Trade",
-            "count": 1
+            "count": 9
         },
         {
             "name": "Misc. Public MF Runs",
@@ -31,19 +27,15 @@
     ],
     "top_games": [
         {
+            "name": "onek",
+            "count": 2
+        },
+        {
             "name": "14",
             "count": 1
         },
         {
-            "name": "onek",
-            "count": 1
-        },
-        {
             "name": "n15allrfhr gc",
-            "count": 1
-        },
-        {
-            "name": "n cham o lo",
             "count": 1
         },
         {
@@ -56,14 +48,6 @@
         },
         {
             "name": "231",
-            "count": 1
-        },
-        {
-            "name": "lol 1",
-            "count": 1
-        },
-        {
-            "name": "wqerq",
             "count": 1
         },
         {
@@ -89,16 +73,8 @@
             ]
         },
         {
-            "normalized": "lol #",
-            "count": 4,
-            "examples": [
-                "lol 1",
-                "lol 2"
-            ]
-        },
-        {
             "normalized": "onek",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "onek"
             ]
@@ -118,10 +94,10 @@
             ]
         },
         {
-            "normalized": "wqerq",
+            "normalized": "lol #",
             "count": 2,
             "examples": [
-                "wqerq"
+                "lol 2"
             ]
         },
         {
@@ -140,13 +116,6 @@
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n cham o lo",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "mmk",
@@ -156,8 +125,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 12,
-        "public_games": 12,
-        "average_name_length": 5.42
+        "unique_names": 9,
+        "public_games": 10,
+        "average_name_length": 4.89
     }
 }
