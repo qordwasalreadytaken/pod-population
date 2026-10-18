@@ -1,8 +1,9 @@
 {
-    "timestamp": "2026-10-18T01:03:00+00:00",
+    "timestamp": "2026-10-18T01:32:00+00:00",
     "difficulty": {
-        "1": 2,
-        "2": 1
+        "1": 1,
+        "2": 1,
+        "0": 1
     },
     "mode": {
         "1": 1,
@@ -11,7 +12,7 @@
     "difficulty_mode": {
         "1|1": 1,
         "2|0": 1,
-        "1|0": 1
+        "0|0": 1
     },
     "activities": [
         {
@@ -29,11 +30,11 @@
             "count": 1
         },
         {
-            "name": "need titans",
+            "name": "doretoo",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "ted",
             "count": 1
         }
     ],
@@ -46,18 +47,18 @@
             ]
         },
         {
-            "normalized": "need titans",
+            "normalized": "doretoo",
             "count": 2,
             "examples": [
-                "need titans"
+                "doretoo"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
-                "matched": "asd",
+                "name": "ted",
+                "matched": "ted",
                 "count": 1
             }
         ]
@@ -65,6 +66,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 5.33
+        "average_name_length": 4.0
     }
 }
