@@ -1,47 +1,31 @@
 {
-    "timestamp": "2026-10-18T07:35:00+00:00",
+    "timestamp": "2026-10-18T07:46:00+00:00",
     "difficulty": {
         "2": 1,
         "1": 1,
-        "0": 4
+        "0": 1
     },
     "mode": {
-        "0": 6
+        "0": 3
     },
     "difficulty_mode": {
         "2|0": 1,
         "1|0": 1,
-        "0|0": 4
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "asder",
+            "name": "adsd",
             "count": 1
         },
         {
             "name": "rr",
-            "count": 1
-        },
-        {
-            "name": "112r",
-            "count": 1
-        },
-        {
-            "name": "1231r",
-            "count": 1
-        },
-        {
-            "name": "umbrah",
             "count": 1
         },
         {
@@ -51,24 +35,17 @@
     ],
     "unknown_games": [
         {
+            "normalized": "adsd",
+            "count": 2,
+            "examples": [
+                "adsd"
+            ]
+        },
+        {
             "normalized": "rr",
             "count": 2,
             "examples": [
                 "rr"
-            ]
-        },
-        {
-            "normalized": "#r",
-            "count": 2,
-            "examples": [
-                "112r"
-            ]
-        },
-        {
-            "normalized": "umbrah",
-            "count": 2,
-            "examples": [
-                "umbrah"
             ]
         },
         {
@@ -79,23 +56,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asder",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "1231r",
-                "matched": "123",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 4.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 2.67
     }
 }
