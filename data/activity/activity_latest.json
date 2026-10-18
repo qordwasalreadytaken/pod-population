@@ -1,26 +1,30 @@
 {
-    "timestamp": "2026-10-18T18:05:00+00:00",
+    "timestamp": "2026-10-18T18:25:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 1
+        "2": 4,
+        "0": 3
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 6
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 2,
-        "0|0": 1
+        "2|0": 3,
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 4
         },
         {
             "name": "Trade",
             "count": 2
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         }
     ],
     "top_games": [
@@ -29,15 +33,27 @@
             "count": 1
         },
         {
+            "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "n 5/5 phys",
+            "count": 1
+        },
+        {
             "name": "n cham o lo",
             "count": 1
         },
         {
-            "name": "n fhr15allr gc",
+            "name": "rf",
             "count": 1
         },
         {
-            "name": "gb",
+            "name": "new player",
+            "count": 1
+        },
+        {
+            "name": "tg",
             "count": 1
         }
     ],
@@ -50,30 +66,51 @@
             ]
         },
         {
-            "normalized": "gb",
+            "normalized": "rf",
             "count": 2,
             "examples": [
-                "gb"
+                "rf"
+            ]
+        },
+        {
+            "normalized": "new player",
+            "count": 2,
+            "examples": [
+                "new player"
+            ]
+        },
+        {
+            "normalized": "tg",
+            "count": 2,
+            "examples": [
+                "tg"
             ]
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
-                "name": "n cham o lo",
+                "name": "n 5/5 phys",
                 "matched": "n",
                 "count": 1
             },
             {
-                "name": "n fhr15allr gc",
+                "name": "n cham o lo",
                 "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 8.25
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 6.29
     }
 }
