@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-10-18T21:20:00+00:00",
+    "timestamp": "2026-10-18T21:32:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 3,
         "1": 1
     },
     "mode": {
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 2,
+        "2|0": 3,
         "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Trade",
@@ -28,7 +28,7 @@
     "top_games": [
         {
             "name": "k",
-            "count": 1
+            "count": 2
         },
         {
             "name": "n 5/5 phys",
@@ -42,7 +42,7 @@
     "unknown_games": [
         {
             "normalized": "k",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "k"
             ]
@@ -66,7 +66,7 @@
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 3,
+        "public_games": 4,
         "average_name_length": 5.0
     }
 }
