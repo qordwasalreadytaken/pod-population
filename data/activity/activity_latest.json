@@ -1,20 +1,22 @@
 {
-    "timestamp": "2026-10-18T20:04:00+00:00",
+    "timestamp": "2026-10-18T20:22:00+00:00",
     "difficulty": {
-        "2": 6,
-        "0": 4
+        "0": 6,
+        "2": 6
     },
     "mode": {
-        "0": 10
+        "1": 1,
+        "0": 11
     },
     "difficulty_mode": {
+        "0|1": 1,
         "2|0": 6,
-        "0|0": 4
+        "0|0": 5
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 6
         },
         {
             "name": "Trade",
@@ -22,20 +24,24 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 3
         }
     ],
     "top_games": [
         {
             "name": "tk",
-            "count": 2
+            "count": 3
         },
         {
             "name": "n 5/5 phys",
             "count": 2
         },
         {
-            "name": "qwe",
+            "name": "awafasd",
+            "count": 2
+        },
+        {
+            "name": "wikid klownz",
             "count": 1
         },
         {
@@ -51,10 +57,6 @@
             "count": 1
         },
         {
-            "name": "awafasd",
-            "count": 1
-        },
-        {
             "name": "umbrah",
             "count": 1
         }
@@ -62,16 +64,16 @@
     "unknown_games": [
         {
             "normalized": "tk",
-            "count": 4,
+            "count": 6,
             "examples": [
                 "tk"
             ]
         },
         {
-            "normalized": "qwe",
+            "normalized": "wikid klownz",
             "count": 2,
             "examples": [
-                "qwe"
+                "wikid klownz"
             ]
         },
         {
@@ -104,20 +106,20 @@
         ],
         "Misc. Public MF Runs": [
             {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            },
-            {
                 "name": "awafasd",
                 "matched": "asd",
+                "count": 2
+            },
+            {
+                "name": "gord",
+                "matched": "gord",
                 "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 8,
-        "public_games": 10,
-        "average_name_length": 5.62
+        "public_games": 12,
+        "average_name_length": 6.75
     }
 }
