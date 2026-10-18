@@ -1,31 +1,21 @@
 {
-    "timestamp": "2026-10-18T14:21:00+00:00",
+    "timestamp": "2026-10-18T14:33:00+00:00",
     "difficulty": {
         "1": 1,
-        "2": 3,
-        "0": 1
+        "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 2
     },
     "difficulty_mode": {
         "1|1": 1,
-        "2|0": 3,
-        "0|0": 1
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
             "count": 2
-        },
-        {
-            "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
         },
         {
             "name": "Leveling",
@@ -34,23 +24,15 @@
     ],
     "top_games": [
         {
-            "name": "21",
+            "name": "26",
             "count": 1
         },
         {
-            "name": "adsd",
+            "name": "act 2",
             "count": 1
         },
         {
-            "name": "n high d torch",
-            "count": 1
-        },
-        {
-            "name": "asdsd",
-            "count": 1
-        },
-        {
-            "name": "start new",
+            "name": "gg",
             "count": 1
         }
     ],
@@ -59,43 +41,29 @@
             "normalized": "#",
             "count": 2,
             "examples": [
-                "21"
+                "26"
             ]
         },
         {
-            "normalized": "adsd",
+            "normalized": "gg",
             "count": 2,
             "examples": [
-                "adsd"
+                "gg"
             ]
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n high d torch",
-                "matched": "n",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asdsd",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
         "Leveling": [
             {
-                "name": "start new",
-                "matched": "start",
+                "name": "act 2",
+                "matched": "act",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.8
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 3.0
     }
 }
