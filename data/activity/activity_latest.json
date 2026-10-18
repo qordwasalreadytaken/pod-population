@@ -1,19 +1,19 @@
 {
-    "timestamp": "2026-10-18T16:35:00+00:00",
+    "timestamp": "2026-10-18T16:46:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 4
+        "2": 2,
+        "0": 3
     },
     "mode": {
         "0": 5
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 4
+        "2|0": 2,
+        "0|0": 3
     },
     "activities": [
         {
-            "name": "Leveling",
+            "name": "Trade",
             "count": 2
         },
         {
@@ -21,13 +21,21 @@
             "count": 2
         },
         {
-            "name": "Trade",
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "n fhr15allr gc",
+            "count": 1
+        },
+        {
             "name": "n travi wp",
+            "count": 1
+        },
+        {
+            "name": "1243r",
             "count": 1
         },
         {
@@ -37,34 +45,31 @@
         {
             "name": "rqwerf",
             "count": 1
-        },
-        {
-            "name": "rerf",
-            "count": 1
-        },
-        {
-            "name": "act 2 start",
-            "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "#r",
+            "count": 2,
+            "examples": [
+                "1243r"
+            ]
+        },
         {
             "normalized": "rqwerf",
             "count": 2,
             "examples": [
                 "rqwerf"
             ]
-        },
-        {
-            "normalized": "rerf",
-            "count": 2,
-            "examples": [
-                "rerf"
-            ]
         }
     ],
     "classified_games": {
         "Trade": [
+            {
+                "name": "n fhr15allr gc",
+                "matched": "n",
+                "count": 1
+            },
             {
                 "name": "n travi wp",
                 "matched": "n",
@@ -76,17 +81,12 @@
                 "name": "a start",
                 "matched": "start",
                 "count": 1
-            },
-            {
-                "name": "act 2 start",
-                "matched": "start",
-                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 5,
         "public_games": 5,
-        "average_name_length": 7.6
+        "average_name_length": 8.4
     }
 }
