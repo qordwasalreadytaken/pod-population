@@ -1,43 +1,35 @@
 {
-    "timestamp": "2026-10-18T20:22:00+00:00",
+    "timestamp": "2026-10-18T20:34:00+00:00",
     "difficulty": {
-        "0": 6,
-        "2": 6
+        "0": 2,
+        "2": 3
     },
     "mode": {
         "1": 1,
-        "0": 11
+        "0": 4
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 6,
-        "0|0": 5
+        "2|0": 3,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 6
+            "count": 3
         },
         {
             "name": "Trade",
-            "count": 3
+            "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "tk",
-            "count": 3
-        },
-        {
-            "name": "n 5/5 phys",
-            "count": 2
-        },
-        {
-            "name": "awafasd",
             "count": 2
         },
         {
@@ -45,26 +37,18 @@
             "count": 1
         },
         {
-            "name": "n cham o lo",
+            "name": "n 5/5 phys",
             "count": 1
         },
         {
             "name": "gord",
-            "count": 1
-        },
-        {
-            "name": "gg",
-            "count": 1
-        },
-        {
-            "name": "umbrah",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "tk",
-            "count": 6,
+            "count": 4,
             "examples": [
                 "tk"
             ]
@@ -75,20 +59,6 @@
             "examples": [
                 "wikid klownz"
             ]
-        },
-        {
-            "normalized": "gg",
-            "count": 2,
-            "examples": [
-                "gg"
-            ]
-        },
-        {
-            "normalized": "umbrah",
-            "count": 2,
-            "examples": [
-                "umbrah"
-            ]
         }
     ],
     "classified_games": {
@@ -96,20 +66,10 @@
             {
                 "name": "n 5/5 phys",
                 "matched": "n",
-                "count": 2
-            },
-            {
-                "name": "n cham o lo",
-                "matched": "n",
                 "count": 1
             }
         ],
         "Misc. Public MF Runs": [
-            {
-                "name": "awafasd",
-                "matched": "asd",
-                "count": 2
-            },
             {
                 "name": "gord",
                 "matched": "gord",
@@ -118,8 +78,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 12,
-        "average_name_length": 6.75
+        "unique_names": 4,
+        "public_games": 5,
+        "average_name_length": 7.0
     }
 }
