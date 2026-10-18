@@ -1,17 +1,17 @@
 {
-    "timestamp": "2026-10-18T15:21:00+00:00",
+    "timestamp": "2026-10-18T15:33:00+00:00",
     "difficulty": {
         "1": 1,
-        "2": 1,
+        "2": 2,
         "0": 3
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
         "1|1": 1,
-        "2|0": 1,
+        "2|0": 2,
         "0|0": 3
     },
     "activities": [
@@ -21,7 +21,7 @@
         },
         {
             "name": "Trade",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Leveling",
@@ -35,6 +35,10 @@
     "top_games": [
         {
             "name": "26",
+            "count": 1
+        },
+        {
+            "name": "n travi wp",
             "count": 1
         },
         {
@@ -73,6 +77,11 @@
     "classified_games": {
         "Trade": [
             {
+                "name": "n travi wp",
+                "matched": "n",
+                "count": 1
+            },
+            {
                 "name": "n cham o lo",
                 "matched": "n",
                 "count": 1
@@ -94,8 +103,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.0
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 6.67
     }
 }
