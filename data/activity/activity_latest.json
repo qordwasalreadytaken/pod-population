@@ -1,19 +1,19 @@
 {
-    "timestamp": "2026-10-18T17:03:00+00:00",
+    "timestamp": "2026-10-18T17:19:00+00:00",
     "difficulty": {
         "2": 4,
-        "0": 3
+        "0": 1
     },
     "mode": {
-        "0": 7
+        "0": 5
     },
     "difficulty_mode": {
         "2|0": 4,
-        "0|0": 3
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Baal",
+            "name": "Other",
             "count": 2
         },
         {
@@ -21,22 +21,18 @@
             "count": 2
         },
         {
-            "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Leveling",
+            "name": "Baal",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "keyset",
+            "count": 1
+        },
+        {
             "name": "baalrun",
-            "count": 2
+            "count": 1
         },
         {
             "name": "n fhr15allr gc",
@@ -47,24 +43,23 @@
             "count": 1
         },
         {
-            "name": "bvr",
-            "count": 1
-        },
-        {
-            "name": "4123r",
-            "count": 1
-        },
-        {
-            "name": "a start",
+            "name": "fdwfg",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "bvr",
+            "normalized": "keyset",
             "count": 2,
             "examples": [
-                "bvr"
+                "keyset"
+            ]
+        },
+        {
+            "normalized": "fdwfg",
+            "count": 2,
+            "examples": [
+                "fdwfg"
             ]
         }
     ],
@@ -73,7 +68,7 @@
             {
                 "name": "baalrun",
                 "matched": "baal",
-                "count": 2
+                "count": 1
             }
         ],
         "Trade": [
@@ -87,25 +82,11 @@
                 "matched": "n",
                 "count": 1
             }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "4123r",
-                "matched": "123",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "a start",
-                "matched": "start",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 7.67
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 8.4
     }
 }
