@@ -1,24 +1,20 @@
 {
-    "timestamp": "2026-10-18T13:20:00+00:00",
+    "timestamp": "2026-10-18T13:32:00+00:00",
     "difficulty": {
         "1": 1,
-        "2": 4,
+        "2": 2,
         "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 6
+        "0": 4
     },
     "difficulty_mode": {
         "1|1": 1,
-        "2|0": 4,
+        "2|0": 2,
         "0|0": 2
     },
     "activities": [
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 3
-        },
         {
             "name": "Other",
             "count": 2
@@ -28,15 +24,15 @@
             "count": 1
         },
         {
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
             "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "asd",
-            "count": 2
-        },
         {
             "name": "21",
             "count": 1
@@ -75,22 +71,17 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 2
-            },
-            {
-                "name": "asdsd",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "n high d torch",
                 "matched": "torch",
+                "count": 1
+            }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "asdsd",
+                "matched": "asd",
                 "count": 1
             }
         ],
@@ -103,8 +94,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 6.17
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 6.8
     }
 }
