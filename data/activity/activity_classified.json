@@ -163,6 +163,11 @@
             "count": 5
         },
         {
+            "name": "baalrun",
+            "matched": "baal",
+            "count": 5
+        },
+        {
             "name": "baalrun nm",
             "matched": "baal",
             "count": 4
@@ -199,11 +204,6 @@
         },
         {
             "name": "baal q for rush",
-            "matched": "baal",
-            "count": 3
-        },
-        {
-            "name": "baalrun",
             "matched": "baal",
             "count": 3
         },
@@ -590,17 +590,17 @@
             "count": 15
         },
         {
+            "name": "n travi wp",
+            "matched": "n",
+            "count": 15
+        },
+        {
             "name": "n perf. ruby",
             "matched": "n",
             "count": 15
         },
         {
             "name": "n magic facet 1",
-            "matched": "n",
-            "count": 14
-        },
-        {
-            "name": "n travi wp",
             "matched": "n",
             "count": 14
         },
@@ -636,7 +636,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "buy",
+            "matched": "torch",
             "count": 12
         },
         {
@@ -1081,7 +1081,7 @@
         },
         {
             "name": "n poisonb gc",
-            "matched": "iso",
+            "matched": "n",
             "count": 4
         },
         {
@@ -1760,6 +1760,11 @@
             "count": 2
         },
         {
+            "name": "n fhr15allr gc",
+            "matched": "n",
+            "count": 2
+        },
+        {
             "name": "n paladin gear",
             "matched": "n",
             "count": 1
@@ -1986,7 +1991,7 @@
         },
         {
             "name": "n oocs wuw",
-            "matched": "wuw",
+            "matched": "n",
             "count": 1
         },
         {
@@ -2673,11 +2678,6 @@
             "name": "n perfruby/elds",
             "matched": "n",
             "count": 1
-        },
-        {
-            "name": "n fhr15allr gc",
-            "matched": "n",
-            "count": 1
         }
     ],
     "Leveling": [
@@ -2712,13 +2712,13 @@
             "count": 17
         },
         {
-            "name": "acte",
-            "matched": "act",
-            "count": 16
-        },
-        {
             "name": "a start",
             "matched": "start",
+            "count": 17
+        },
+        {
+            "name": "acte",
+            "matched": "act",
             "count": 16
         },
         {
@@ -2838,7 +2838,7 @@
         },
         {
             "name": "act 2 - normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 6
         },
         {
@@ -2858,7 +2858,7 @@
         },
         {
             "name": "act 2 start",
-            "matched": "act",
+            "matched": "start",
             "count": 6
         },
         {
@@ -2963,7 +2963,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 3
         },
         {
@@ -3008,7 +3008,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -3048,7 +3048,7 @@
         },
         {
             "name": "normal act",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -3218,7 +3218,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "tomb",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -3243,7 +3243,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -5617,6 +5617,11 @@
         },
         {
             "name": "123rf",
+            "matched": "123",
+            "count": 1
+        },
+        {
+            "name": "4123r",
             "matched": "123",
             "count": 1
         }
