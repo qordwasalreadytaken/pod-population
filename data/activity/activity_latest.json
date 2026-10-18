@@ -1,92 +1,57 @@
 {
-    "timestamp": "2026-10-18T17:19:00+00:00",
+    "timestamp": "2026-10-18T17:32:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 1,
         "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 4,
+        "2|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 2
-        },
-        {
             "name": "Trade",
-            "count": 2
+            "count": 1
         },
         {
-            "name": "Baal",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "keyset",
-            "count": 1
-        },
-        {
-            "name": "baalrun",
-            "count": 1
-        },
-        {
             "name": "n fhr15allr gc",
             "count": 1
         },
         {
-            "name": "n travi wp",
-            "count": 1
-        },
-        {
-            "name": "fdwfg",
+            "name": "rqwef",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "keyset",
+            "normalized": "rqwef",
             "count": 2,
             "examples": [
-                "keyset"
-            ]
-        },
-        {
-            "normalized": "fdwfg",
-            "count": 2,
-            "examples": [
-                "fdwfg"
+                "rqwef"
             ]
         }
     ],
     "classified_games": {
-        "Baal": [
-            {
-                "name": "baalrun",
-                "matched": "baal",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "n fhr15allr gc",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "n travi wp",
                 "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 8.4
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 9.5
     }
 }
