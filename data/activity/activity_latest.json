@@ -1,31 +1,39 @@
 {
-    "timestamp": "2026-10-18T19:04:00+00:00",
+    "timestamp": "2026-10-18T19:18:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1,
-        "0": 2
+        "2": 7,
+        "0": 4
     },
     "mode": {
-        "0": 5
+        "1": 1,
+        "0": 10
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 1,
-        "0|0": 2
+        "2|1": 1,
+        "2|0": 6,
+        "0|0": 4
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 8
         },
         {
             "name": "Trade",
             "count": 2
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n 5/5 phys",
+            "name": "tk",
+            "count": 4
+        },
+        {
+            "name": "dfg",
             "count": 1
         },
         {
@@ -33,11 +41,19 @@
             "count": 1
         },
         {
-            "name": "gg",
+            "name": "n 5/5 phys",
             "count": 1
         },
         {
-            "name": "a",
+            "name": "awd",
+            "count": 1
+        },
+        {
+            "name": "123r",
+            "count": 1
+        },
+        {
+            "name": "umbrah",
             "count": 1
         },
         {
@@ -47,17 +63,31 @@
     ],
     "unknown_games": [
         {
-            "normalized": "gg",
-            "count": 2,
+            "normalized": "tk",
+            "count": 8,
             "examples": [
-                "gg"
+                "tk"
             ]
         },
         {
-            "normalized": "a",
+            "normalized": "dfg",
             "count": 2,
             "examples": [
-                "a"
+                "dfg"
+            ]
+        },
+        {
+            "normalized": "awd",
+            "count": 2,
+            "examples": [
+                "awd"
+            ]
+        },
+        {
+            "normalized": "umbrah",
+            "count": 2,
+            "examples": [
+                "umbrah"
             ]
         },
         {
@@ -71,20 +101,27 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "n 5/5 phys",
+                "name": "n cham o lo",
                 "matched": "n",
                 "count": 1
             },
             {
-                "name": "n cham o lo",
+                "name": "n 5/5 phys",
                 "matched": "n",
+                "count": 1
+            }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "123r",
+                "matched": "123",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.8
+        "unique_names": 8,
+        "public_games": 11,
+        "average_name_length": 6.12
     }
 }
