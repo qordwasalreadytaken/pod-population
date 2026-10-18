@@ -1,22 +1,20 @@
 {
-    "timestamp": "2026-10-18T19:32:00+00:00",
+    "timestamp": "2026-10-18T19:47:00+00:00",
     "difficulty": {
         "2": 4,
-        "0": 5
+        "0": 3
     },
     "mode": {
-        "1": 1,
-        "0": 8
+        "0": 7
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 3,
-        "0|0": 5
+        "2|0": 4,
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 6
+            "count": 4
         },
         {
             "name": "Trade",
@@ -29,16 +27,8 @@
     ],
     "top_games": [
         {
-            "name": "afawdas",
-            "count": 2
-        },
-        {
-            "name": "dfg",
-            "count": 1
-        },
-        {
             "name": "tk",
-            "count": 1
+            "count": 2
         },
         {
             "name": "n cham o lo",
@@ -49,11 +39,11 @@
             "count": 1
         },
         {
-            "name": "awafasd",
+            "name": "gg",
             "count": 1
         },
         {
-            "name": "1r1r",
+            "name": "awafasd",
             "count": 1
         },
         {
@@ -63,31 +53,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "afawdas",
-            "count": 4,
-            "examples": [
-                "afawdas"
-            ]
-        },
-        {
-            "normalized": "dfg",
-            "count": 2,
-            "examples": [
-                "dfg"
-            ]
-        },
-        {
             "normalized": "tk",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "tk"
             ]
         },
         {
-            "normalized": "#r#r",
+            "normalized": "gg",
             "count": 2,
             "examples": [
-                "1r1r"
+                "gg"
             ]
         },
         {
@@ -120,8 +96,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 9,
-        "average_name_length": 6.25
+        "unique_names": 6,
+        "public_games": 7,
+        "average_name_length": 6.33
     }
 }
