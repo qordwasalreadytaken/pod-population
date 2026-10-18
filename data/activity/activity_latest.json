@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-18T16:04:00+00:00",
+    "timestamp": "2026-10-18T16:24:00+00:00",
     "difficulty": {
         "2": 1,
         "0": 3
@@ -17,15 +17,15 @@
             "count": 1
         },
         {
+            "name": "Other",
+            "count": 1
+        },
+        {
             "name": "Leveling",
             "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Other",
             "count": 1
         }
     ],
@@ -35,24 +35,24 @@
             "count": 1
         },
         {
+            "name": "rerf",
+            "count": 1
+        },
+        {
             "name": "act 2 start",
             "count": 1
         },
         {
             "name": "1231",
             "count": 1
-        },
-        {
-            "name": "gg",
-            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "gg",
+            "normalized": "rerf",
             "count": 2,
             "examples": [
-                "gg"
+                "rerf"
             ]
         }
     ],
@@ -82,6 +82,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 6.75
+        "average_name_length": 7.25
     }
 }
