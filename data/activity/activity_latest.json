@@ -1,23 +1,25 @@
 {
-    "timestamp": "2026-10-19T11:24:00+00:00",
+    "timestamp": "2026-10-19T11:36:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 1
+        "2": 1,
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "1|0": 1
+        "2|0": 1,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 2
+            "name": "Misc. Public MF Runs",
+            "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 1
         },
         {
@@ -31,24 +33,20 @@
             "count": 1
         },
         {
-            "name": "qwe",
-            "count": 1
-        },
-        {
-            "name": "n 15allrfhr gc",
-            "count": 1
-        },
-        {
             "name": "n 5os phase bla",
+            "count": 1
+        },
+        {
+            "name": "awd",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "qwe",
+            "normalized": "awd",
             "count": 2,
             "examples": [
-                "qwe"
+                "awd"
             ]
         }
     ],
@@ -62,11 +60,6 @@
         ],
         "Trade": [
             {
-                "name": "n 15allrfhr gc",
-                "matched": "n",
-                "count": 1
-            },
-            {
                 "name": "n 5os phase bla",
                 "matched": "n",
                 "count": 1
@@ -74,8 +67,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 8.75
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 7.0
     }
 }
