@@ -119,7 +119,7 @@
     },
     {
         "normalized": "a",
-        "count": 170,
+        "count": 172,
         "examples": [
             "a"
         ]
@@ -819,6 +819,17 @@
         ]
     },
     {
+        "normalized": "#r",
+        "count": 24,
+        "examples": [
+            "112r",
+            "1243r",
+            "213r",
+            "32r",
+            "3r"
+        ]
+    },
+    {
         "normalized": "gghghg",
         "count": 24,
         "examples": [
@@ -916,17 +927,6 @@
         "count": 22,
         "examples": [
             "no gear no fun"
-        ]
-    },
-    {
-        "normalized": "#r",
-        "count": 22,
-        "examples": [
-            "112r",
-            "1243r",
-            "213r",
-            "32r",
-            "3r"
         ]
     },
     {
