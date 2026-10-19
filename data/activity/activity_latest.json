@@ -1,81 +1,15 @@
 {
-    "timestamp": "2026-10-19T17:22:00+00:00",
-    "difficulty": {
-        "2": 3,
-        "1": 1
-    },
-    "mode": {
-        "0": 4
-    },
-    "difficulty_mode": {
-        "2|0": 3,
-        "1|0": 1
-    },
-    "activities": [
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 2
-        },
-        {
-            "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Other",
-            "count": 1
-        }
-    ],
-    "top_games": [
-        {
-            "name": "n cham o lo",
-            "count": 1
-        },
-        {
-            "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "asdsd",
-            "count": 1
-        },
-        {
-            "name": "rff",
-            "count": 1
-        }
-    ],
-    "unknown_games": [
-        {
-            "normalized": "rff",
-            "count": 2,
-            "examples": [
-                "rff"
-            ]
-        }
-    ],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "n cham o lo",
-                "matched": "n",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "asdsd",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "timestamp": "2026-10-19T17:35:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "difficulty_mode": {},
+    "activities": [],
+    "top_games": [],
+    "unknown_games": [],
+    "classified_games": {},
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 5.5
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
