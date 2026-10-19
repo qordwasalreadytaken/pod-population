@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 3602,
+        "count": 3604,
         "examples": [
             "0",
             "1",
@@ -964,6 +964,13 @@
         ]
     },
     {
+        "normalized": "coffee",
+        "count": 22,
+        "examples": [
+            "coffee"
+        ]
+    },
+    {
         "normalized": "ky",
         "count": 22,
         "examples": [
@@ -1069,10 +1076,14 @@
         ]
     },
     {
-        "normalized": "coffee",
+        "normalized": "#r",
         "count": 20,
         "examples": [
-            "coffee"
+            "112r",
+            "1243r",
+            "213r",
+            "32r",
+            "3r"
         ]
     },
     {
@@ -1238,17 +1249,6 @@
         "count": 18,
         "examples": [
             "no loot no fun"
-        ]
-    },
-    {
-        "normalized": "#r",
-        "count": 18,
-        "examples": [
-            "112r",
-            "1243r",
-            "213r",
-            "32r",
-            "3r"
         ]
     },
     {

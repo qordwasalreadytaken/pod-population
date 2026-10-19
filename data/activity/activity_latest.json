@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-19T17:46:00+00:00",
+    "timestamp": "2026-10-19T18:06:00+00:00",
     "difficulty": {
         "2": 1,
         "1": 1,
@@ -16,11 +16,7 @@
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
@@ -33,7 +29,7 @@
             "count": 1
         },
         {
-            "name": "123",
+            "name": "124",
             "count": 1
         }
     ],
@@ -51,17 +47,16 @@
             "examples": [
                 "32r"
             ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "124"
+            ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "123",
-                "matched": "123",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
