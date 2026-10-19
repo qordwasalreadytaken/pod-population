@@ -1,15 +1,19 @@
 {
-    "timestamp": "2026-10-19T20:25:00+00:00",
+    "timestamp": "2026-10-19T20:38:00+00:00",
     "difficulty": {
-        "2": 1
+        "2": 2
     },
     "mode": {
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 1
+        "2|0": 2
     },
     "activities": [
+        {
+            "name": "Trade",
+            "count": 1
+        },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
@@ -17,23 +21,34 @@
     ],
     "top_games": [
         {
-            "name": "asdd",
+            "name": "n 15allrfhr gc",
+            "count": 1
+        },
+        {
+            "name": "asds",
             "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n 15allrfhr gc",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
-                "name": "asdd",
+                "name": "asds",
                 "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 4.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 9.0
     }
 }
