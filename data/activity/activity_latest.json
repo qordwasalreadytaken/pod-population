@@ -1,15 +1,19 @@
 {
-    "timestamp": "2026-10-19T05:40:00+00:00",
+    "timestamp": "2026-10-19T05:51:00+00:00",
     "difficulty": {
-        "2": 1
+        "2": 2
     },
     "mode": {
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 1
+        "2|0": 2
     },
     "activities": [
+        {
+            "name": "Trade",
+            "count": 1
+        },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
@@ -17,12 +21,23 @@
     ],
     "top_games": [
         {
+            "name": "lmk what u need",
+            "count": 1
+        },
+        {
             "name": "asdsd",
             "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "lmk what u need",
+                "matched": "lmk",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asdsd",
@@ -32,8 +47,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 5.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 10.0
     }
 }
