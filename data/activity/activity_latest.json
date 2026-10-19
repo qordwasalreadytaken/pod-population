@@ -1,35 +1,31 @@
 {
-    "timestamp": "2026-10-19T21:34:00+00:00",
+    "timestamp": "2026-10-19T21:46:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 4
     },
     "mode": {
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 3
+        "2|0": 4
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 1
+            "name": "Misc. Public MF Runs",
+            "count": 2
         },
         {
             "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "groto",
-            "count": 1
+            "name": "n 15allrfhr gc",
+            "count": 2
         },
         {
-            "name": "n 15allrfhr gc",
+            "name": "asd",
             "count": 1
         },
         {
@@ -37,34 +33,31 @@
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "groto",
-            "count": 2,
-            "examples": [
-                "groto"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n 15allrfhr gc",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            },
             {
                 "name": "asds",
                 "matched": "asd",
                 "count": 1
             }
+        ],
+        "Trade": [
+            {
+                "name": "n 15allrfhr gc",
+                "matched": "n",
+                "count": 2
+            }
         ]
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 7.67
+        "public_games": 4,
+        "average_name_length": 7.0
     }
 }
