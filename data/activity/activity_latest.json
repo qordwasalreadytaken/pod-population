@@ -1,57 +1,94 @@
 {
-    "timestamp": "2026-10-19T12:08:00+00:00",
+    "timestamp": "2026-10-19T12:37:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 3,
+        "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 1,
+        "2|0": 3,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
+            "count": 2
+        },
+        {
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "zxc",
+            "count": 1
+        },
+        {
+            "name": "asdsd",
+            "count": 1
+        },
+        {
             "name": "asd",
             "count": 1
         },
         {
-            "name": "awd",
+            "name": "n 5os phase bla",
+            "count": 1
+        },
+        {
+            "name": "wrefs",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "awd",
+            "normalized": "zxc",
             "count": 2,
             "examples": [
-                "awd"
+                "zxc"
+            ]
+        },
+        {
+            "normalized": "wrefs",
+            "count": 2,
+            "examples": [
+                "wrefs"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
+                "name": "asdsd",
+                "matched": "asd",
+                "count": 1
+            },
+            {
                 "name": "asd",
                 "matched": "asd",
+                "count": 1
+            }
+        ],
+        "Trade": [
+            {
+                "name": "n 5os phase bla",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 3.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 6.2
     }
 }
