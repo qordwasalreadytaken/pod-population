@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-19T23:23:00+00:00",
+    "timestamp": "2026-10-19T23:34:00+00:00",
     "difficulty": {
         "2": 2,
         "0": 1
@@ -13,49 +13,45 @@
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n 15allrfhr gc",
-            "count": 1
-        },
-        {
             "name": "asd",
             "count": 1
         },
         {
-            "name": "necrogame",
+            "name": "doom",
+            "count": 1
+        },
+        {
+            "name": "gtruy",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "necrogame",
+            "normalized": "doom",
             "count": 2,
             "examples": [
-                "necrogame"
+                "doom"
+            ]
+        },
+        {
+            "normalized": "gtruy",
+            "count": 2,
+            "examples": [
+                "gtruy"
             ]
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n 15allrfhr gc",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
@@ -67,6 +63,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 8.67
+        "average_name_length": 4.0
     }
 }
