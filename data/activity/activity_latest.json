@@ -1,25 +1,35 @@
 {
-    "timestamp": "2026-10-19T06:11:00+00:00",
+    "timestamp": "2026-10-19T06:51:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 3,
+        "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 3,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Trade",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
+        },
+        {
+            "name": "Other",
+            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "n 15allrfhr gc",
+            "count": 1
+        },
         {
             "name": "lmk what u need",
             "count": 1
@@ -27,11 +37,28 @@
         {
             "name": "asdsd",
             "count": 1
+        },
+        {
+            "name": "lerouge",
+            "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "lerouge",
+            "count": 2,
+            "examples": [
+                "lerouge"
+            ]
+        }
+    ],
     "classified_games": {
         "Trade": [
+            {
+                "name": "n 15allrfhr gc",
+                "matched": "n",
+                "count": 1
+            },
             {
                 "name": "lmk what u need",
                 "matched": "lmk",
@@ -47,8 +74,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 10.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 10.25
     }
 }
