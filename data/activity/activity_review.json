@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 3604,
+        "count": 3606,
         "examples": [
             "0",
             "1",
@@ -119,7 +119,7 @@
     },
     {
         "normalized": "a",
-        "count": 168,
+        "count": 170,
         "examples": [
             "a"
         ]
@@ -919,6 +919,17 @@
         ]
     },
     {
+        "normalized": "#r",
+        "count": 22,
+        "examples": [
+            "112r",
+            "1243r",
+            "213r",
+            "32r",
+            "3r"
+        ]
+    },
+    {
         "normalized": "sz",
         "count": 22,
         "examples": [
@@ -1073,17 +1084,6 @@
         "count": 20,
         "examples": [
             "dadsa"
-        ]
-    },
-    {
-        "normalized": "#r",
-        "count": 20,
-        "examples": [
-            "112r",
-            "1243r",
-            "213r",
-            "32r",
-            "3r"
         ]
     },
     {
