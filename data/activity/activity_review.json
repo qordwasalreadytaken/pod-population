@@ -119,7 +119,7 @@
     },
     {
         "normalized": "a",
-        "count": 174,
+        "count": 176,
         "examples": [
             "a"
         ]
@@ -738,6 +738,17 @@
         ]
     },
     {
+        "normalized": "#r",
+        "count": 28,
+        "examples": [
+            "112r",
+            "1243r",
+            "213r",
+            "32r",
+            "3r"
+        ]
+    },
+    {
         "normalized": "lvls",
         "count": 28,
         "examples": [
@@ -763,17 +774,6 @@
         "count": 26,
         "examples": [
             "solo"
-        ]
-    },
-    {
-        "normalized": "#r",
-        "count": 26,
-        "examples": [
-            "112r",
-            "1243r",
-            "213r",
-            "32r",
-            "3r"
         ]
     },
     {
