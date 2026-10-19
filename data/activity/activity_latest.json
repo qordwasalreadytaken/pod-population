@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-19T22:46:00+00:00",
+    "timestamp": "2026-10-19T23:04:00+00:00",
     "difficulty": {
         "2": 3,
         "0": 1
@@ -27,11 +27,11 @@
     ],
     "top_games": [
         {
-            "name": "asd",
+            "name": "dobretoo",
             "count": 1
         },
         {
-            "name": "adsad",
+            "name": "asd",
             "count": 1
         },
         {
@@ -45,10 +45,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "adsad",
+            "normalized": "dobretoo",
             "count": 2,
             "examples": [
-                "adsad"
+                "dobretoo"
             ]
         },
         {
@@ -78,6 +78,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 7.75
+        "average_name_length": 8.5
     }
 }
