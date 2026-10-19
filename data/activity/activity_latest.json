@@ -1,39 +1,41 @@
 {
-    "timestamp": "2026-10-19T04:06:00+00:00",
+    "timestamp": "2026-10-19T04:29:00+00:00",
     "difficulty": {
-        "2": 4,
-        "0": 1
+        "2": 4
     },
     "mode": {
-        "1": 2,
+        "1": 1,
         "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
-        "0|1": 1,
         "2|0": 3
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Other",
-            "count": 2
+            "count": 1
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "asd",
-            "count": 2
-        },
         {
             "name": "keys",
             "count": 1
         },
         {
-            "name": "wikid klownz",
+            "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "n anni",
             "count": 1
         },
         {
@@ -48,13 +50,6 @@
             "examples": [
                 "keys"
             ]
-        },
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
-            ]
         }
     ],
     "classified_games": {
@@ -62,18 +57,25 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             },
             {
                 "name": "asdsd",
                 "matched": "asd",
                 "count": 1
             }
+        ],
+        "Trade": [
+            {
+                "name": "n anni",
+                "matched": "n",
+                "count": 1
+            }
         ]
     },
     "interesting": {
         "unique_names": 4,
-        "public_games": 5,
-        "average_name_length": 6.0
+        "public_games": 4,
+        "average_name_length": 4.5
     }
 }
