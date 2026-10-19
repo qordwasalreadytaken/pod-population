@@ -102,6 +102,13 @@
         ]
     },
     {
+        "normalized": "a",
+        "count": 180,
+        "examples": [
+            "a"
+        ]
+    },
+    {
         "normalized": "nec grow #",
         "count": 180,
         "examples": [
@@ -115,13 +122,6 @@
             "nec grow 3",
             "nec grow 4",
             "nec grow 5"
-        ]
-    },
-    {
-        "normalized": "a",
-        "count": 176,
-        "examples": [
-            "a"
         ]
     },
     {
@@ -680,6 +680,17 @@
         ]
     },
     {
+        "normalized": "#r",
+        "count": 30,
+        "examples": [
+            "112r",
+            "1243r",
+            "213r",
+            "32r",
+            "3r"
+        ]
+    },
+    {
         "normalized": "unrealpooping",
         "count": 30,
         "examples": [
@@ -735,17 +746,6 @@
         "count": 28,
         "examples": [
             "mm"
-        ]
-    },
-    {
-        "normalized": "#r",
-        "count": 28,
-        "examples": [
-            "112r",
-            "1243r",
-            "213r",
-            "32r",
-            "3r"
         ]
     },
     {
@@ -9803,6 +9803,13 @@
         "count": 2,
         "examples": [
             "fwe"
+        ]
+    },
+    {
+        "normalized": "#s",
+        "count": 2,
+        "examples": [
+            "1241s"
         ]
     }
 ]
