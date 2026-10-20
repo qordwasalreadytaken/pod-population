@@ -1,8 +1,9 @@
 {
-    "timestamp": "2026-10-20T23:32:00+00:00",
+    "timestamp": "2026-10-20T23:46:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 1
+        "2": 2,
+        "1": 1,
+        "0": 1
     },
     "mode": {
         "1": 1,
@@ -10,8 +11,9 @@
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 2,
-        "1|0": 1
+        "2|0": 1,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
@@ -25,11 +27,7 @@
     ],
     "top_games": [
         {
-            "name": "ggg",
-            "count": 1
-        },
-        {
-            "name": "coffee",
+            "name": "gg",
             "count": 1
         },
         {
@@ -39,21 +37,18 @@
         {
             "name": "ghgyg",
             "count": 1
+        },
+        {
+            "name": "necros only!!!!",
+            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "ggg",
+            "normalized": "gg",
             "count": 2,
             "examples": [
-                "ggg"
-            ]
-        },
-        {
-            "normalized": "coffee",
-            "count": 2,
-            "examples": [
-                "coffee"
+                "gg"
             ]
         },
         {
@@ -61,6 +56,13 @@
             "count": 2,
             "examples": [
                 "ghgyg"
+            ]
+        },
+        {
+            "normalized": "necros only!!!!",
+            "count": 2,
+            "examples": [
+                "necros only!!!!"
             ]
         }
     ],
@@ -76,6 +78,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 4.25
+        "average_name_length": 6.25
     }
 }
