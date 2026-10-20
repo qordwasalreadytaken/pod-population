@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-20T15:49:00+00:00",
+    "timestamp": "2026-10-20T16:06:00+00:00",
     "difficulty": {
         "2": 2,
         "1": 1,
@@ -16,15 +16,11 @@
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
             "count": 2
-        },
-        {
-            "name": "Rush",
-            "count": 1
         }
     ],
     "top_games": [
@@ -41,11 +37,11 @@
             "count": 1
         },
         {
-            "name": "lolox",
+            "name": "a-2",
             "count": 1
         },
         {
-            "name": "rush please",
+            "name": "lolox",
             "count": 1
         }
     ],
@@ -55,6 +51,13 @@
             "count": 2,
             "examples": [
                 "qwe"
+            ]
+        },
+        {
+            "normalized": "a-#",
+            "count": 2,
+            "examples": [
+                "a-2"
             ]
         },
         {
@@ -77,18 +80,11 @@
                 "matched": "gord",
                 "count": 1
             }
-        ],
-        "Rush": [
-            {
-                "name": "rush please",
-                "matched": "rush",
-                "count": 1
-            }
         ]
     },
     "interesting": {
         "unique_names": 5,
         "public_games": 5,
-        "average_name_length": 5.6
+        "average_name_length": 4.0
     }
 }
