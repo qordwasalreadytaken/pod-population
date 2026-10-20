@@ -779,6 +779,13 @@
         ]
     },
     {
+        "normalized": "test",
+        "count": 26,
+        "examples": [
+            "test"
+        ]
+    },
+    {
         "normalized": "help",
         "count": 26,
         "examples": [
@@ -790,13 +797,6 @@
         "count": 26,
         "examples": [
             "solo"
-        ]
-    },
-    {
-        "normalized": "test",
-        "count": 24,
-        "examples": [
-            "test"
         ]
     },
     {
@@ -3945,6 +3945,13 @@
         ]
     },
     {
+        "normalized": "aws",
+        "count": 6,
+        "examples": [
+            "aws"
+        ]
+    },
+    {
         "normalized": "nm #",
         "count": 4,
         "examples": [
@@ -5647,13 +5654,6 @@
         "count": 4,
         "examples": [
             "q2eq"
-        ]
-    },
-    {
-        "normalized": "aws",
-        "count": 4,
-        "examples": [
-            "aws"
         ]
     },
     {
@@ -10029,6 +10029,13 @@
         "count": 2,
         "examples": [
             "1rerr"
+        ]
+    },
+    {
+        "normalized": "rrr",
+        "count": 2,
+        "examples": [
+            "rrr"
         ]
     }
 ]
