@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-10-20T17:24:00+00:00",
+    "timestamp": "2026-10-20T17:35:00+00:00",
     "difficulty": {
         "2": 2,
         "1": 3,
-        "0": 2
+        "0": 3
     },
     "mode": {
-        "0": 7
+        "0": 8
     },
     "difficulty_mode": {
         "2|0": 2,
         "1|0": 3,
-        "0|0": 2
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Misc. Public MF Runs",
@@ -33,6 +33,10 @@
     ],
     "top_games": [
         {
+            "name": "awda",
+            "count": 2
+        },
+        {
             "name": "n java t o sorc",
             "count": 1
         },
@@ -41,11 +45,11 @@
             "count": 1
         },
         {
-            "name": "night act",
+            "name": "night act 1",
             "count": 1
         },
         {
-            "name": "312r",
+            "name": "13424r",
             "count": 1
         },
         {
@@ -55,18 +59,21 @@
         {
             "name": "lolox",
             "count": 1
-        },
-        {
-            "name": "awda",
-            "count": 1
         }
     ],
     "unknown_games": [
         {
+            "normalized": "awda",
+            "count": 4,
+            "examples": [
+                "awda"
+            ]
+        },
+        {
             "normalized": "#r",
             "count": 2,
             "examples": [
-                "312r"
+                "13424r"
             ]
         },
         {
@@ -74,13 +81,6 @@
             "count": 2,
             "examples": [
                 "lolox"
-            ]
-        },
-        {
-            "normalized": "awda",
-            "count": 2,
-            "examples": [
-                "awda"
             ]
         }
     ],
@@ -106,7 +106,7 @@
         ],
         "Leveling": [
             {
-                "name": "night act",
+                "name": "night act 1",
                 "matched": "act",
                 "count": 1
             }
@@ -114,7 +114,7 @@
     },
     "interesting": {
         "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 6.57
+        "public_games": 8,
+        "average_name_length": 7.14
     }
 }

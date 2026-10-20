@@ -465,6 +465,19 @@
         ]
     },
     {
+        "normalized": "#r",
+        "count": 42,
+        "examples": [
+            "112r",
+            "1243r",
+            "13424r",
+            "213r",
+            "312r",
+            "32r",
+            "3r"
+        ]
+    },
+    {
         "normalized": "nar",
         "count": 42,
         "examples": [
@@ -497,18 +510,6 @@
         "count": 40,
         "examples": [
             "new player"
-        ]
-    },
-    {
-        "normalized": "#r",
-        "count": 40,
-        "examples": [
-            "112r",
-            "1243r",
-            "213r",
-            "312r",
-            "32r",
-            "3r"
         ]
     },
     {
@@ -743,6 +744,13 @@
         ]
     },
     {
+        "normalized": "lolox",
+        "count": 30,
+        "examples": [
+            "lolox"
+        ]
+    },
+    {
         "normalized": "ewq",
         "count": 28,
         "examples": [
@@ -768,13 +776,6 @@
         "count": 28,
         "examples": [
             "booomm"
-        ]
-    },
-    {
-        "normalized": "lolox",
-        "count": 28,
-        "examples": [
-            "lolox"
         ]
     },
     {
@@ -1579,6 +1580,13 @@
         ]
     },
     {
+        "normalized": "awda",
+        "count": 16,
+        "examples": [
+            "awda"
+        ]
+    },
+    {
         "normalized": "count",
         "count": 14,
         "examples": [
@@ -2091,13 +2099,6 @@
         "count": 12,
         "examples": [
             "awdaf"
-        ]
-    },
-    {
-        "normalized": "awda",
-        "count": 12,
-        "examples": [
-            "awda"
         ]
     },
     {
