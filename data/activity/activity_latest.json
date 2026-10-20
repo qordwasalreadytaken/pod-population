@@ -1,29 +1,23 @@
 {
-    "timestamp": "2026-10-20T22:04:00+00:00",
+    "timestamp": "2026-10-20T22:22:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1,
-        "0": 3
+        "2": 1,
+        "0": 1
     },
     "mode": {
-        "0": 6
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 1,
-        "0|0": 3
+        "2|0": 1,
+        "0|0": 1
     },
     "activities": [
-        {
-            "name": "Other",
-            "count": 4
-        },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 1
         }
     ],
@@ -33,53 +27,16 @@
             "count": 1
         },
         {
-            "name": "n annihilus",
-            "count": 1
-        },
-        {
-            "name": "ghgyg",
-            "count": 1
-        },
-        {
-            "name": "cghfsd",
-            "count": 1
-        },
-        {
-            "name": "ffwf",
-            "count": 1
-        },
-        {
-            "name": "umbrah",
+            "name": "ewfqw",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "ghgyg",
+            "normalized": "ewfqw",
             "count": 2,
             "examples": [
-                "ghgyg"
-            ]
-        },
-        {
-            "normalized": "cghfsd",
-            "count": 2,
-            "examples": [
-                "cghfsd"
-            ]
-        },
-        {
-            "normalized": "ffwf",
-            "count": 2,
-            "examples": [
-                "ffwf"
-            ]
-        },
-        {
-            "normalized": "umbrah",
-            "count": 2,
-            "examples": [
-                "umbrah"
+                "ewfqw"
             ]
         }
     ],
@@ -90,18 +47,11 @@
                 "matched": "asd",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "n annihilus",
-                "matched": "n",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 5.83
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 4.0
     }
 }
