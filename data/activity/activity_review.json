@@ -793,6 +793,13 @@
         ]
     },
     {
+        "normalized": "test",
+        "count": 24,
+        "examples": [
+            "test"
+        ]
+    },
+    {
         "normalized": "hello",
         "count": 24,
         "examples": [
@@ -887,13 +894,6 @@
             "des key farm 31",
             "des key farm 32",
             "des key farm 33"
-        ]
-    },
-    {
-        "normalized": "test",
-        "count": 22,
-        "examples": [
-            "test"
         ]
     },
     {
@@ -5650,6 +5650,13 @@
         ]
     },
     {
+        "normalized": "aws",
+        "count": 4,
+        "examples": [
+            "aws"
+        ]
+    },
+    {
         "normalized": "a wps plz",
         "count": 2,
         "examples": [
@@ -10018,10 +10025,10 @@
         ]
     },
     {
-        "normalized": "aws",
+        "normalized": "#rerr",
         "count": 2,
         "examples": [
-            "aws"
+            "1rerr"
         ]
     }
 ]
