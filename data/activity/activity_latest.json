@@ -1,51 +1,50 @@
 {
-    "timestamp": "2026-10-20T00:57:00+00:00",
+    "timestamp": "2026-10-20T01:25:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 1,
+        "1": 1
     },
     "mode": {
-        "0": 2
+        "1": 1,
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|1": 1,
+        "1|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Trade",
-            "count": 1
+            "name": "Other",
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "asd",
+            "name": "keys",
             "count": 1
         },
         {
-            "name": "n titans",
+            "name": "tiotore",
             "count": 1
         }
     ],
-    "unknown_games": [],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
-        "Trade": [
-            {
-                "name": "n titans",
-                "matched": "n",
-                "count": 1
-            }
-        ]
-    },
+    "unknown_games": [
+        {
+            "normalized": "keys",
+            "count": 2,
+            "examples": [
+                "keys"
+            ]
+        },
+        {
+            "normalized": "tiotore",
+            "count": 2,
+            "examples": [
+                "tiotore"
+            ]
+        }
+    ],
+    "classified_games": {},
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
