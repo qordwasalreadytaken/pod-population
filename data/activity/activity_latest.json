@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-20T04:43:00+00:00",
+    "timestamp": "2026-10-20T04:52:00+00:00",
     "difficulty": {
         "2": 2,
         "0": 2
@@ -14,11 +14,7 @@
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 3
         },
         {
             "name": "Trade",
@@ -27,7 +23,7 @@
     ],
     "top_games": [
         {
-            "name": "asdsd",
+            "name": "adssd",
             "count": 1
         },
         {
@@ -45,6 +41,13 @@
     ],
     "unknown_games": [
         {
+            "normalized": "adssd",
+            "count": 2,
+            "examples": [
+                "adssd"
+            ]
+        },
+        {
             "normalized": "necros only!!!!",
             "count": 2,
             "examples": [
@@ -60,13 +63,6 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asdsd",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "n anni",
