@@ -1,27 +1,29 @@
 {
-    "timestamp": "2026-10-20T21:46:00+00:00",
+    "timestamp": "2026-10-20T22:04:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 1
+        "2": 2,
+        "1": 1,
+        "0": 3
     },
     "mode": {
-        "0": 4
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "1|0": 1
+        "2|0": 2,
+        "1|0": 1,
+        "0|0": 3
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Other",
+            "count": 4
         },
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 1
         }
     ],
@@ -35,20 +37,49 @@
             "count": 1
         },
         {
-            "name": "asda",
+            "name": "ghgyg",
             "count": 1
         },
         {
-            "name": "fqef",
+            "name": "cghfsd",
+            "count": 1
+        },
+        {
+            "name": "ffwf",
+            "count": 1
+        },
+        {
+            "name": "umbrah",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "fqef",
+            "normalized": "ghgyg",
             "count": 2,
             "examples": [
-                "fqef"
+                "ghgyg"
+            ]
+        },
+        {
+            "normalized": "cghfsd",
+            "count": 2,
+            "examples": [
+                "cghfsd"
+            ]
+        },
+        {
+            "normalized": "ffwf",
+            "count": 2,
+            "examples": [
+                "ffwf"
+            ]
+        },
+        {
+            "normalized": "umbrah",
+            "count": 2,
+            "examples": [
+                "umbrah"
             ]
         }
     ],
@@ -56,11 +87,6 @@
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "asda",
                 "matched": "asd",
                 "count": 1
             }
@@ -74,8 +100,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 5.5
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 5.83
     }
 }
