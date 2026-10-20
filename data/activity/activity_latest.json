@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-20T12:35:00+00:00",
+    "timestamp": "2026-10-20T12:57:00+00:00",
     "difficulty": {
         "1": 1,
         "0": 2
@@ -19,34 +19,45 @@
     ],
     "top_games": [
         {
-            "name": "lolox",
-            "count": 2
+            "name": "3wes",
+            "count": 1
         },
         {
-            "name": "3wes",
+            "name": "q2eq",
+            "count": 1
+        },
+        {
+            "name": "lolox",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "lolox",
-            "count": 4,
-            "examples": [
-                "lolox"
-            ]
-        },
         {
             "normalized": "#wes",
             "count": 2,
             "examples": [
                 "3wes"
             ]
+        },
+        {
+            "normalized": "q#eq",
+            "count": 2,
+            "examples": [
+                "q2eq"
+            ]
+        },
+        {
+            "normalized": "lolox",
+            "count": 2,
+            "examples": [
+                "lolox"
+            ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 2,
+        "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 4.5
+        "average_name_length": 4.33
     }
 }
