@@ -1,41 +1,37 @@
 {
-    "timestamp": "2026-10-20T15:24:00+00:00",
+    "timestamp": "2026-10-20T15:37:00+00:00",
     "difficulty": {
         "2": 3,
         "1": 1,
-        "0": 4
+        "0": 2
     },
     "mode": {
-        "0": 8
+        "0": 6
     },
     "difficulty_mode": {
         "2|0": 3,
         "1|0": 1,
-        "0|0": 4
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
-            "name": "Rush",
-            "count": 2
+            "name": "Trade",
+            "count": 1
         },
         {
-            "name": "Trade",
+            "name": "Rush",
             "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "rush please",
-            "count": 2
-        },
         {
             "name": "qwe",
             "count": 1
@@ -53,11 +49,11 @@
             "count": 1
         },
         {
-            "name": "lolox",
+            "name": "sss-3",
             "count": 1
         },
         {
-            "name": "1337",
+            "name": "rush please",
             "count": 1
         }
     ],
@@ -70,17 +66,10 @@
             ]
         },
         {
-            "normalized": "lolox",
+            "normalized": "sss-#",
             "count": 2,
             "examples": [
-                "lolox"
-            ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "1337"
+                "sss-3"
             ]
         }
     ],
@@ -108,13 +97,13 @@
             {
                 "name": "rush please",
                 "matched": "rush",
-                "count": 2
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 8,
-        "average_name_length": 6.71
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 7.17
     }
 }
