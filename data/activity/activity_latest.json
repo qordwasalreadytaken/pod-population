@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-10-20T10:36:00+00:00",
+    "timestamp": "2026-10-20T10:48:00+00:00",
     "difficulty": {
         "2": 1,
         "1": 1,
-        "0": 4
+        "0": 2
     },
     "mode": {
-        "0": 6
+        "0": 4
     },
     "difficulty_mode": {
         "2|0": 1,
         "1|0": 1,
-        "0|0": 4
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 3
         },
         {
             "name": "Trade",
@@ -34,14 +34,6 @@
         },
         {
             "name": "wersfvd",
-            "count": 1
-        },
-        {
-            "name": "esfdv",
-            "count": 1
-        },
-        {
-            "name": "awdaf",
             "count": 1
         },
         {
@@ -65,20 +57,6 @@
             ]
         },
         {
-            "normalized": "esfdv",
-            "count": 2,
-            "examples": [
-                "esfdv"
-            ]
-        },
-        {
-            "normalized": "awdaf",
-            "count": 2,
-            "examples": [
-                "awdaf"
-            ]
-        },
-        {
             "normalized": "genkatosgame",
             "count": 2,
             "examples": [
@@ -96,8 +74,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 8.5
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 10.25
     }
 }
