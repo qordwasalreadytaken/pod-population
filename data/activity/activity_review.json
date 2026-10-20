@@ -624,6 +624,18 @@
         ]
     },
     {
+        "normalized": "#r",
+        "count": 36,
+        "examples": [
+            "112r",
+            "1243r",
+            "213r",
+            "312r",
+            "32r",
+            "3r"
+        ]
+    },
+    {
         "normalized": "yo",
         "count": 36,
         "examples": [
@@ -642,18 +654,6 @@
         "count": 34,
         "examples": [
             "xsttt"
-        ]
-    },
-    {
-        "normalized": "#r",
-        "count": 34,
-        "examples": [
-            "112r",
-            "1243r",
-            "213r",
-            "312r",
-            "32r",
-            "3r"
         ]
     },
     {
@@ -882,6 +882,13 @@
         ]
     },
     {
+        "normalized": "lolox",
+        "count": 24,
+        "examples": [
+            "lolox"
+        ]
+    },
+    {
         "normalized": "test",
         "count": 22,
         "examples": [
@@ -1001,13 +1008,6 @@
         "count": 22,
         "examples": [
             "egvbrb"
-        ]
-    },
-    {
-        "normalized": "lolox",
-        "count": 22,
-        "examples": [
-            "lolox"
         ]
     },
     {
