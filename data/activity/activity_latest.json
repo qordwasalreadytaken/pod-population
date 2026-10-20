@@ -1,18 +1,18 @@
 {
-    "timestamp": "2026-10-20T20:26:00+00:00",
+    "timestamp": "2026-10-20T20:39:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 5
     },
     "mode": {
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 4
+        "2|0": 5
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
@@ -25,11 +25,15 @@
     ],
     "top_games": [
         {
-            "name": "beer",
+            "name": "qwe",
             "count": 1
         },
         {
             "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "beer",
             "count": 1
         },
         {
@@ -42,6 +46,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "qwe",
+            "count": 2,
+            "examples": [
+                "qwe"
+            ]
+        },
         {
             "normalized": "beer",
             "count": 2,
@@ -74,8 +85,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 5.75
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 5.2
     }
 }
