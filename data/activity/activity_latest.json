@@ -1,45 +1,51 @@
 {
-    "timestamp": "2026-10-20T19:22:00+00:00",
+    "timestamp": "2026-10-20T19:47:00+00:00",
     "difficulty": {
-        "2": 4,
-        "1": 5
+        "2": 7,
+        "1": 3,
+        "0": 1
     },
     "mode": {
-        "0": 9
+        "0": 11
     },
     "difficulty_mode": {
-        "2|0": 4,
-        "1|0": 5
+        "2|0": 7,
+        "1|0": 3,
+        "0|0": 1
     },
     "activities": [
         {
+            "name": "Misc. Public MF Runs",
+            "count": 4
+        },
+        {
             "name": "Other",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Trade",
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
-        },
-        {
             "name": "Leveling",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n annihilus",
-            "count": 1
+            "name": "gord",
+            "count": 2
         },
         {
             "name": "asd",
+            "count": 2
+        },
+        {
+            "name": "rwerf",
             "count": 1
         },
         {
-            "name": "test",
+            "name": "n annihilus",
             "count": 1
         },
         {
@@ -59,20 +65,16 @@
             "count": 1
         },
         {
-            "name": "gord",
-            "count": 1
-        },
-        {
-            "name": "night act 3",
+            "name": "1-3",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "test",
+            "normalized": "rwerf",
             "count": 2,
             "examples": [
-                "test"
+                "rwerf"
             ]
         },
         {
@@ -88,9 +90,28 @@
             "examples": [
                 "rrr"
             ]
+        },
+        {
+            "normalized": "#-#",
+            "count": 2,
+            "examples": [
+                "1-3"
+            ]
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "gord",
+                "matched": "gord",
+                "count": 2
+            },
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 2
+            }
+        ],
         "Trade": [
             {
                 "name": "n annihilus",
@@ -103,26 +124,9 @@
                 "count": 1
             }
         ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            }
-        ],
         "Leveling": [
             {
                 "name": "night act 4",
-                "matched": "act",
-                "count": 1
-            },
-            {
-                "name": "night act 3",
                 "matched": "act",
                 "count": 1
             }
@@ -130,7 +134,7 @@
     },
     "interesting": {
         "unique_names": 9,
-        "public_games": 9,
-        "average_name_length": 7.22
+        "public_games": 11,
+        "average_name_length": 6.44
     }
 }
