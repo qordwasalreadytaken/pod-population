@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-20T02:54:00+00:00",
+    "timestamp": "2026-10-20T03:06:00+00:00",
     "difficulty": {
         "2": 1,
         "0": 1
@@ -17,7 +17,7 @@
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -27,19 +27,11 @@
             "count": 1
         },
         {
-            "name": "merc rehire",
+            "name": "aa",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "merc rehire",
-            "count": 2,
-            "examples": [
-                "merc rehire"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Trade": [
             {
@@ -47,11 +39,18 @@
                 "matched": "n",
                 "count": 1
             }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "aa",
+                "matched": "aa",
+                "count": 1
+            }
         ]
     },
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 8.5
+        "average_name_length": 4.0
     }
 }
