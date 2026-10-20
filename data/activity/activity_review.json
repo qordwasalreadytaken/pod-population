@@ -500,6 +500,18 @@
         ]
     },
     {
+        "normalized": "#r",
+        "count": 40,
+        "examples": [
+            "112r",
+            "1243r",
+            "213r",
+            "312r",
+            "32r",
+            "3r"
+        ]
+    },
+    {
         "normalized": "dsd",
         "count": 40,
         "examples": [
@@ -546,18 +558,6 @@
         "count": 38,
         "examples": [
             "n5fhr11light sc"
-        ]
-    },
-    {
-        "normalized": "#r",
-        "count": 38,
-        "examples": [
-            "112r",
-            "1243r",
-            "213r",
-            "312r",
-            "32r",
-            "3r"
         ]
     },
     {
@@ -771,6 +771,13 @@
         ]
     },
     {
+        "normalized": "lolox",
+        "count": 28,
+        "examples": [
+            "lolox"
+        ]
+    },
+    {
         "normalized": "help",
         "count": 26,
         "examples": [
@@ -782,13 +789,6 @@
         "count": 26,
         "examples": [
             "solo"
-        ]
-    },
-    {
-        "normalized": "lolox",
-        "count": 26,
-        "examples": [
-            "lolox"
         ]
     },
     {
@@ -2094,6 +2094,13 @@
         ]
     },
     {
+        "normalized": "awda",
+        "count": 12,
+        "examples": [
+            "awda"
+        ]
+    },
+    {
         "normalized": "a#h",
         "count": 10,
         "examples": [
@@ -2419,13 +2426,6 @@
         "count": 10,
         "examples": [
             "clean up step"
-        ]
-    },
-    {
-        "normalized": "awda",
-        "count": 10,
-        "examples": [
-            "awda"
         ]
     },
     {

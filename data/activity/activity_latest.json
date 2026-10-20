@@ -1,26 +1,30 @@
 {
-    "timestamp": "2026-10-20T17:06:00+00:00",
+    "timestamp": "2026-10-20T17:24:00+00:00",
     "difficulty": {
         "2": 2,
         "1": 3,
-        "0": 3
+        "0": 2
     },
     "mode": {
-        "0": 8
+        "0": 7
     },
     "difficulty_mode": {
         "2|0": 2,
         "1|0": 3,
-        "0|0": 3
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 2
+        },
+        {
+            "name": "Trade",
+            "count": 1
         },
         {
             "name": "Leveling",
@@ -29,11 +33,7 @@
     ],
     "top_games": [
         {
-            "name": "awda",
-            "count": 2
-        },
-        {
-            "name": "asd",
+            "name": "n java t o sorc",
             "count": 1
         },
         {
@@ -55,16 +55,13 @@
         {
             "name": "lolox",
             "count": 1
+        },
+        {
+            "name": "awda",
+            "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "awda",
-            "count": 4,
-            "examples": [
-                "awda"
-            ]
-        },
         {
             "normalized": "#r",
             "count": 2,
@@ -78,15 +75,24 @@
             "examples": [
                 "lolox"
             ]
+        },
+        {
+            "normalized": "awda",
+            "count": 2,
+            "examples": [
+                "awda"
+            ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "asd",
-                "matched": "asd",
+                "name": "n java t o sorc",
+                "matched": "n",
                 "count": 1
-            },
+            }
+        ],
+        "Misc. Public MF Runs": [
             {
                 "name": "asdsd",
                 "matched": "asd",
@@ -108,7 +114,7 @@
     },
     "interesting": {
         "unique_names": 7,
-        "public_games": 8,
-        "average_name_length": 4.86
+        "public_games": 7,
+        "average_name_length": 6.57
     }
 }
