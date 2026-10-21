@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-21T21:04:00+00:00",
+    "timestamp": "2026-10-21T21:23:00+00:00",
     "difficulty": {
         "2": 5,
         "0": 1
@@ -13,25 +13,29 @@
     },
     "activities": [
         {
+            "name": "Other",
+            "count": 4
+        },
+        {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 1
         },
         {
             "name": "Trade",
-            "count": 2
-        },
-        {
-            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
+            "name": "adada",
             "count": 1
         },
         {
-            "name": "gord",
+            "name": "sdsdad",
+            "count": 1
+        },
+        {
+            "name": "asd",
             "count": 1
         },
         {
@@ -43,20 +47,37 @@
             "count": 1
         },
         {
-            "name": "n druidtorch",
-            "count": 1
-        },
-        {
-            "name": "123",
+            "name": "umbrah",
             "count": 1
         }
     ],
     "unknown_games": [
         {
+            "normalized": "adada",
+            "count": 2,
+            "examples": [
+                "adada"
+            ]
+        },
+        {
+            "normalized": "sdsdad",
+            "count": 2,
+            "examples": [
+                "sdsdad"
+            ]
+        },
+        {
             "normalized": "nblackhandkey",
             "count": 2,
             "examples": [
                 "nblackhandkey"
+            ]
+        },
+        {
+            "normalized": "umbrah",
+            "count": 2,
+            "examples": [
+                "umbrah"
             ]
         }
     ],
@@ -66,26 +87,11 @@
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
-            },
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            },
-            {
-                "name": "123",
-                "matched": "123",
-                "count": 1
             }
         ],
         "Trade": [
             {
                 "name": "n anni",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "n druidtorch",
                 "matched": "n",
                 "count": 1
             }
@@ -94,6 +100,6 @@
     "interesting": {
         "unique_names": 6,
         "public_games": 6,
-        "average_name_length": 6.83
+        "average_name_length": 6.5
     }
 }
