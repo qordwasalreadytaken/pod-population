@@ -1,8 +1,9 @@
 {
-    "timestamp": "2026-10-21T11:04:00+00:00",
+    "timestamp": "2026-10-21T11:24:00+00:00",
     "difficulty": {
         "2": 3,
-        "1": 2
+        "1": 1,
+        "0": 1
     },
     "mode": {
         "1": 1,
@@ -11,16 +12,21 @@
     "difficulty_mode": {
         "2|1": 1,
         "2|0": 2,
-        "1|0": 2
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 2
         },
         {
             "name": "Trade",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
@@ -29,19 +35,19 @@
             "count": 1
         },
         {
+            "name": "asdsd",
+            "count": 1
+        },
+        {
             "name": "n anni",
             "count": 1
         },
         {
-            "name": "lmk what u need",
+            "name": "qfr",
             "count": 1
         },
         {
-            "name": "wfre",
-            "count": 1
-        },
-        {
-            "name": "aresfd",
+            "name": "adasd",
             "count": 1
         }
     ],
@@ -54,30 +60,30 @@
             ]
         },
         {
-            "normalized": "wfre",
+            "normalized": "qfr",
             "count": 2,
             "examples": [
-                "wfre"
-            ]
-        },
-        {
-            "normalized": "aresfd",
-            "count": 2,
-            "examples": [
-                "aresfd"
+                "qfr"
             ]
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asdsd",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "adasd",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n anni",
                 "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "lmk what u need",
-                "matched": "lmk",
                 "count": 1
             }
         ]
@@ -85,6 +91,6 @@
     "interesting": {
         "unique_names": 5,
         "public_games": 5,
-        "average_name_length": 6.4
+        "average_name_length": 4.0
     }
 }
