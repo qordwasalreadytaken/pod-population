@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-10-21T21:23:00+00:00",
+    "timestamp": "2026-10-21T21:36:00+00:00",
     "difficulty": {
-        "2": 5,
+        "2": 4,
         "0": 1
     },
     "mode": {
-        "0": 6
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 5,
+        "2|0": 4,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
@@ -28,10 +28,6 @@
     "top_games": [
         {
             "name": "adada",
-            "count": 1
-        },
-        {
-            "name": "sdsdad",
             "count": 1
         },
         {
@@ -57,13 +53,6 @@
             "count": 2,
             "examples": [
                 "adada"
-            ]
-        },
-        {
-            "normalized": "sdsdad",
-            "count": 2,
-            "examples": [
-                "sdsdad"
             ]
         },
         {
@@ -98,8 +87,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 6.5
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 6.6
     }
 }
