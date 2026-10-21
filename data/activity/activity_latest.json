@@ -1,15 +1,58 @@
 {
-    "timestamp": "2026-10-21T08:06:00+00:00",
-    "difficulty": {},
-    "mode": {},
-    "difficulty_mode": {},
-    "activities": [],
-    "top_games": [],
-    "unknown_games": [],
-    "classified_games": {},
+    "timestamp": "2026-10-21T08:32:00+00:00",
+    "difficulty": {
+        "1": 1,
+        "2": 1
+    },
+    "mode": {
+        "1": 1,
+        "0": 1
+    },
+    "difficulty_mode": {
+        "1|1": 1,
+        "2|0": 1
+    },
+    "activities": [
+        {
+            "name": "Other",
+            "count": 1
+        },
+        {
+            "name": "Trade",
+            "count": 1
+        }
+    ],
+    "top_games": [
+        {
+            "name": "qe",
+            "count": 1
+        },
+        {
+            "name": "lmk what u need",
+            "count": 1
+        }
+    ],
+    "unknown_games": [
+        {
+            "normalized": "qe",
+            "count": 2,
+            "examples": [
+                "qe"
+            ]
+        }
+    ],
+    "classified_games": {
+        "Trade": [
+            {
+                "name": "lmk what u need",
+                "matched": "lmk",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 0,
-        "public_games": 0,
-        "average_name_length": 0.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 8.5
     }
 }
