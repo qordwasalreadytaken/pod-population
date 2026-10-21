@@ -1,39 +1,54 @@
 {
-    "timestamp": "2026-10-21T12:57:00+00:00",
+    "timestamp": "2026-10-21T13:17:00+00:00",
     "difficulty": {
-        "2": 4,
-        "1": 2
+        "2": 3,
+        "1": 3,
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 5
+        "1": 3,
+        "0": 4
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 3,
+        "1|1": 1,
+        "0|1": 1,
+        "2|0": 2,
         "1|0": 2
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 3
-        },
-        {
             "name": "Other",
-            "count": 2
+            "count": 4
         },
         {
             "name": "Cows",
+            "count": 1
+        },
+        {
+            "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 2
+            "name": "hcow",
+            "count": 1
         },
         {
-            "name": "hcow",
+            "name": "qe",
+            "count": 1
+        },
+        {
+            "name": "wikid klownz",
+            "count": 1
+        },
+        {
+            "name": "n anni",
             "count": 1
         },
         {
@@ -41,27 +56,41 @@
             "count": 1
         },
         {
-            "name": "frwesdc",
+            "name": "qrwefdsc",
             "count": 1
         },
         {
-            "name": "gesf",
+            "name": "rgdb",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "frwesdc",
+            "normalized": "qe",
             "count": 2,
             "examples": [
-                "frwesdc"
+                "qe"
             ]
         },
         {
-            "normalized": "gesf",
+            "normalized": "wikid klownz",
             "count": 2,
             "examples": [
-                "gesf"
+                "wikid klownz"
+            ]
+        },
+        {
+            "normalized": "qrwefdsc",
+            "count": 2,
+            "examples": [
+                "qrwefdsc"
+            ]
+        },
+        {
+            "normalized": "rgdb",
+            "count": 2,
+            "examples": [
+                "rgdb"
             ]
         }
     ],
@@ -73,12 +102,14 @@
                 "count": 1
             }
         ],
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "asd",
-                "matched": "asd",
-                "count": 2
-            },
+                "name": "n anni",
+                "matched": "n",
+                "count": 1
+            }
+        ],
+        "Misc. Public MF Runs": [
             {
                 "name": "1232",
                 "matched": "123",
@@ -87,8 +118,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 6,
-        "average_name_length": 4.4
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 5.71
     }
 }
