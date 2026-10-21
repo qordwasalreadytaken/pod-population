@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-10-21T20:49:00+00:00",
+    "timestamp": "2026-10-21T21:04:00+00:00",
     "difficulty": {
-        "2": 7,
-        "0": 2
+        "2": 5,
+        "0": 1
     },
     "mode": {
-        "0": 9
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 7,
-        "0|0": 2
+        "2|0": 5,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 6
+            "count": 3
         },
         {
             "name": "Trade",
@@ -27,8 +27,12 @@
     ],
     "top_games": [
         {
+            "name": "asd",
+            "count": 1
+        },
+        {
             "name": "gord",
-            "count": 3
+            "count": 1
         },
         {
             "name": "n anni",
@@ -39,15 +43,7 @@
             "count": 1
         },
         {
-            "name": "adasd",
-            "count": 1
-        },
-        {
             "name": "n druidtorch",
-            "count": 1
-        },
-        {
-            "name": "asd",
             "count": 1
         },
         {
@@ -67,18 +63,13 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "gord",
-                "matched": "gord",
-                "count": 3
-            },
-            {
-                "name": "adasd",
+                "name": "asd",
                 "matched": "asd",
                 "count": 1
             },
             {
-                "name": "asd",
-                "matched": "asd",
+                "name": "gord",
+                "matched": "gord",
                 "count": 1
             },
             {
@@ -95,14 +86,14 @@
             },
             {
                 "name": "n druidtorch",
-                "matched": "torch",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 9,
-        "average_name_length": 6.57
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 6.83
     }
 }
