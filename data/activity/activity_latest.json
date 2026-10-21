@@ -1,41 +1,35 @@
 {
-    "timestamp": "2026-10-21T17:35:00+00:00",
+    "timestamp": "2026-10-21T17:48:00+00:00",
     "difficulty": {
-        "2": 7,
-        "1": 2
+        "2": 3,
+        "1": 2,
+        "0": 1
     },
     "mode": {
-        "0": 9
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 7,
-        "1|0": 2
+        "2|0": 3,
+        "1|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 6
-        },
-        {
-            "name": "Other",
-            "count": 2
+            "count": 4
         },
         {
             "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "gord",
-            "count": 3
-        },
-        {
             "name": "n cham o lo",
-            "count": 1
-        },
-        {
-            "name": "qwe",
             "count": 1
         },
         {
@@ -53,16 +47,13 @@
         {
             "name": "night a",
             "count": 1
+        },
+        {
+            "name": "gord",
+            "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "qwe",
-            "count": 2,
-            "examples": [
-                "qwe"
-            ]
-        },
         {
             "normalized": "night a",
             "count": 2,
@@ -72,12 +63,14 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "gord",
-                "matched": "gord",
-                "count": 3
-            },
+                "name": "n cham o lo",
+                "matched": "n",
+                "count": 1
+            }
+        ],
+        "Misc. Public MF Runs": [
             {
                 "name": "asd",
                 "matched": "asd",
@@ -92,19 +85,17 @@
                 "name": "1231",
                 "matched": "123",
                 "count": 1
-            }
-        ],
-        "Trade": [
+            },
             {
-                "name": "n cham o lo",
-                "matched": "n",
+                "name": "gord",
+                "matched": "gord",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 9,
-        "average_name_length": 5.14
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 5.5
     }
 }
