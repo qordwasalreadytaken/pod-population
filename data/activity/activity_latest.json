@@ -1,8 +1,7 @@
 {
-    "timestamp": "2026-10-20T23:46:00+00:00",
+    "timestamp": "2026-10-21T00:12:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1,
+        "2": 3,
         "0": 1
     },
     "mode": {
@@ -11,8 +10,7 @@
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 1,
-        "1|0": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
@@ -21,7 +19,7 @@
             "count": 3
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Maps",
             "count": 1
         }
     ],
@@ -31,11 +29,11 @@
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "come map",
             "count": 1
         },
         {
-            "name": "ghgyg",
+            "name": "coffee",
             "count": 1
         },
         {
@@ -52,10 +50,10 @@
             ]
         },
         {
-            "normalized": "ghgyg",
+            "normalized": "coffee",
             "count": 2,
             "examples": [
-                "ghgyg"
+                "coffee"
             ]
         },
         {
@@ -67,10 +65,10 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Maps": [
             {
-                "name": "asd",
-                "matched": "asd",
+                "name": "come map",
+                "matched": "map",
                 "count": 1
             }
         ]
@@ -78,6 +76,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 6.25
+        "average_name_length": 7.75
     }
 }
