@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-10-21T15:39:00+00:00",
+    "timestamp": "2026-10-21T15:51:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 3
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 3
+        "2|0": 2
     },
     "activities": [
         {
@@ -18,10 +18,6 @@
         },
         {
             "name": "Cows",
-            "count": 1
-        },
-        {
-            "name": "Other",
             "count": 1
         }
     ],
@@ -35,23 +31,11 @@
             "count": 1
         },
         {
-            "name": "coffee",
-            "count": 1
-        },
-        {
             "name": "1232",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "coffee",
-            "count": 2,
-            "examples": [
-                "coffee"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Cows": [
             {
@@ -74,8 +58,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 4.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 4.0
     }
 }

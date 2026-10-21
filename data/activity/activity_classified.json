@@ -8,7 +8,7 @@
         {
             "name": "hcow",
             "matched": "cow",
-            "count": 13
+            "count": 14
         },
         {
             "name": "hellcow",
@@ -651,7 +651,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "buy",
+            "matched": "torch",
             "count": 12
         },
         {
@@ -1116,7 +1116,7 @@
         },
         {
             "name": "n poisonb gc",
-            "matched": "iso",
+            "matched": "n",
             "count": 4
         },
         {
@@ -3048,7 +3048,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -3068,7 +3068,7 @@
         },
         {
             "name": "ancients norm",
-            "matched": "anci",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -3088,7 +3088,7 @@
         },
         {
             "name": "normal act",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -3118,7 +3118,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "act",
+            "matched": "exp",
             "count": 2
         },
         {
@@ -3413,7 +3413,7 @@
         },
         {
             "name": "1act - normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -3633,7 +3633,7 @@
         {
             "name": "gord",
             "matched": "gord",
-            "count": 738
+            "count": 739
         },
         {
             "name": "n eld runes",
@@ -3771,6 +3771,11 @@
             "count": 12
         },
         {
+            "name": "1232",
+            "matched": "123",
+            "count": 12
+        },
+        {
             "name": "n ort rune",
             "matched": "run",
             "count": 11
@@ -3798,11 +3803,6 @@
         {
             "name": "first run",
             "matched": "run",
-            "count": 11
-        },
-        {
-            "name": "1232",
-            "matched": "123",
             "count": 11
         },
         {
@@ -4397,7 +4397,7 @@
         },
         {
             "name": "asdsd36aaaa",
-            "matched": "asd",
+            "matched": "aaa",
             "count": 2
         },
         {
@@ -4587,7 +4587,7 @@
         },
         {
             "name": "saaasd",
-            "matched": "asd",
+            "matched": "aaa",
             "count": 2
         },
         {
@@ -4842,7 +4842,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -6388,17 +6388,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
