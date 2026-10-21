@@ -1,30 +1,30 @@
 {
-    "timestamp": "2026-10-21T23:34:00+00:00",
+    "timestamp": "2026-10-21T23:46:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 2,
         "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Other",
+            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "mothra",
-            "count": 2
+            "count": 1
         },
         {
             "name": "asd",
@@ -38,7 +38,7 @@
     "unknown_games": [
         {
             "normalized": "mothra",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "mothra"
             ]
@@ -60,7 +60,7 @@
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 4,
+        "public_games": 3,
         "average_name_length": 4.0
     }
 }
