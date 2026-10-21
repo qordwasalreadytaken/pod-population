@@ -1,23 +1,23 @@
 {
-    "timestamp": "2026-10-21T14:26:00+00:00",
+    "timestamp": "2026-10-21T14:39:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 4
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 2
+        "2|0": 3
     },
     "activities": [
         {
-            "name": "Cows",
-            "count": 1
+            "name": "Trade",
+            "count": 2
         },
         {
-            "name": "Trade",
+            "name": "Cows",
             "count": 1
         },
         {
@@ -27,11 +27,11 @@
     ],
     "top_games": [
         {
-            "name": "hcow",
-            "count": 1
+            "name": "n anni",
+            "count": 2
         },
         {
-            "name": "n anni",
+            "name": "hcow",
             "count": 1
         },
         {
@@ -52,7 +52,7 @@
             {
                 "name": "n anni",
                 "matched": "n",
-                "count": 1
+                "count": 2
             }
         ],
         "Misc. Public MF Runs": [
@@ -65,7 +65,7 @@
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 3,
+        "public_games": 4,
         "average_name_length": 4.67
     }
 }
