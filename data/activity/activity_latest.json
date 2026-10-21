@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-21T21:48:00+00:00",
+    "timestamp": "2026-10-21T22:04:00+00:00",
     "difficulty": {
         "2": 6,
         "0": 1
@@ -14,28 +14,32 @@
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 5
         },
         {
             "name": "Trade",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n anni",
+            "name": "k",
             "count": 2
+        },
+        {
+            "name": "goblins",
+            "count": 1
+        },
+        {
+            "name": "n anni",
+            "count": 1
         },
         {
             "name": "asd",
-            "count": 2
-        },
-        {
-            "name": "k",
             "count": 1
         },
         {
@@ -50,9 +54,16 @@
     "unknown_games": [
         {
             "normalized": "k",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "k"
+            ]
+        },
+        {
+            "normalized": "goblins",
+            "count": 2,
+            "examples": [
+                "goblins"
             ]
         },
         {
@@ -75,20 +86,20 @@
             {
                 "name": "n anni",
                 "matched": "n",
-                "count": 2
+                "count": 1
             }
         ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
+        "unique_names": 6,
         "public_games": 7,
-        "average_name_length": 5.8
+        "average_name_length": 6.0
     }
 }
