@@ -1,15 +1,17 @@
 {
-    "timestamp": "2026-10-21T19:47:00+00:00",
+    "timestamp": "2026-10-21T20:04:00+00:00",
     "difficulty": {
         "2": 5,
-        "1": 2
+        "1": 1,
+        "0": 1
     },
     "mode": {
         "0": 7
     },
     "difficulty_mode": {
         "2|0": 5,
-        "1|0": 2
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
@@ -27,11 +29,11 @@
     ],
     "top_games": [
         {
-            "name": "n anni",
+            "name": "a hell",
             "count": 1
         },
         {
-            "name": "dasdd",
+            "name": "n anni",
             "count": 1
         },
         {
@@ -47,20 +49,20 @@
             "count": 1
         },
         {
-            "name": "night a",
+            "name": "asdas",
             "count": 1
         },
         {
-            "name": "1231",
+            "name": "123",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "night a",
+            "normalized": "a hell",
             "count": 2,
             "examples": [
-                "night a"
+                "a hell"
             ]
         }
     ],
@@ -79,11 +81,6 @@
         ],
         "Misc. Public MF Runs": [
             {
-                "name": "dasdd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
@@ -94,7 +91,12 @@
                 "count": 1
             },
             {
-                "name": "1231",
+                "name": "asdas",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "123",
                 "matched": "123",
                 "count": 1
             }
@@ -103,6 +105,6 @@
     "interesting": {
         "unique_names": 7,
         "public_games": 7,
-        "average_name_length": 6.0
+        "average_name_length": 5.71
     }
 }
