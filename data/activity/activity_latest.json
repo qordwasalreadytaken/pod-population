@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-21T07:32:00+00:00",
+    "timestamp": "2026-10-21T07:52:00+00:00",
     "difficulty": {
         "2": 2
     },
@@ -11,29 +11,45 @@
     },
     "activities": [
         {
+            "name": "Leveling",
+            "count": 1
+        },
+        {
             "name": "Other",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "acte hell",
+            "count": 1
+        },
+        {
             "name": "k",
-            "count": 2
+            "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "k",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "k"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Leveling": [
+            {
+                "name": "acte hell",
+                "matched": "act",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
+        "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 1.0
+        "average_name_length": 5.0
     }
 }
