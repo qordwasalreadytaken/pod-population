@@ -1,35 +1,39 @@
 {
-    "timestamp": "2026-10-21T10:38:00+00:00",
+    "timestamp": "2026-10-21T10:49:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 5,
         "1": 1,
-        "0": 2
+        "0": 1
     },
     "mode": {
-        "0": 6
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 5,
         "1|0": 1,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
+            "count": 3
+        },
+        {
+            "name": "Other",
             "count": 2
         },
         {
             "name": "Trade",
-            "count": 2
-        },
-        {
-            "name": "Other",
             "count": 2
         }
     ],
     "top_games": [
         {
             "name": "asdsd",
+            "count": 2
+        },
+        {
+            "name": "adsda",
             "count": 1
         },
         {
@@ -45,27 +49,23 @@
             "count": 1
         },
         {
-            "name": "tokoiu",
-            "count": 1
-        },
-        {
-            "name": "qasdas",
+            "name": "asds",
             "count": 1
         }
     ],
     "unknown_games": [
         {
+            "normalized": "adsda",
+            "count": 2,
+            "examples": [
+                "adsda"
+            ]
+        },
+        {
             "normalized": "aresfd",
             "count": 2,
             "examples": [
                 "aresfd"
-            ]
-        },
-        {
-            "normalized": "tokoiu",
-            "count": 2,
-            "examples": [
-                "tokoiu"
             ]
         }
     ],
@@ -74,10 +74,10 @@
             {
                 "name": "asdsd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             },
             {
-                "name": "qasdas",
+                "name": "asds",
                 "matched": "asd",
                 "count": 1
             }
@@ -97,7 +97,7 @@
     },
     "interesting": {
         "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 7.33
+        "public_games": 7,
+        "average_name_length": 6.83
     }
 }
