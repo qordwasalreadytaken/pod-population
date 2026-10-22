@@ -1,30 +1,40 @@
 {
-    "timestamp": "2026-10-22T20:48:00+00:00",
+    "timestamp": "2026-10-22T21:05:00+00:00",
     "difficulty": {
-        "2": 5,
+        "2": 4,
         "1": 1
     },
     "mode": {
-        "0": 6
+        "1": 1,
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 5,
+        "2|1": 1,
+        "2|0": 3,
         "1|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 4
+            "count": 2
         },
         {
             "name": "Other",
             "count": 2
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "b'meself n hell",
+            "count": 1
+        },
+        {
             "name": "gord",
-            "count": 2
+            "count": 1
         },
         {
             "name": "asda",
@@ -32,10 +42,6 @@
         },
         {
             "name": "wad",
-            "count": 1
-        },
-        {
-            "name": "asdd",
             "count": 1
         },
         {
@@ -60,19 +66,21 @@
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "b'meself n hell",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "gord",
                 "matched": "gord",
-                "count": 2
-            },
-            {
-                "name": "asda",
-                "matched": "asd",
                 "count": 1
             },
             {
-                "name": "asdd",
+                "name": "asda",
                 "matched": "asd",
                 "count": 1
             }
@@ -80,7 +88,7 @@
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 6,
-        "average_name_length": 4.6
+        "public_games": 5,
+        "average_name_length": 6.8
     }
 }
