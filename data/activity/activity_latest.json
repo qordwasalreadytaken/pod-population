@@ -1,47 +1,31 @@
 {
-    "timestamp": "2026-10-22T11:36:00+00:00",
+    "timestamp": "2026-10-22T11:49:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 2,
-        "0": 1
+        "1": 2
     },
     "mode": {
-        "0": 4
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 2,
-        "0|0": 1
+        "1|0": 2
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Other",
             "count": 1
-        },
-        {
-            "name": "Leveling",
-            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "asd",
-            "count": 1
-        },
         {
             "name": "ted",
             "count": 1
         },
         {
             "name": "1256",
-            "count": 1
-        },
-        {
-            "name": "tristnorm",
             "count": 1
         }
     ],
@@ -57,27 +41,15 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
                 "name": "ted",
                 "matched": "ted",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "tristnorm",
-                "matched": "trist",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 4.75
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 3.5
     }
 }
