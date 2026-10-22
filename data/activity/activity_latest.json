@@ -1,20 +1,18 @@
 {
-    "timestamp": "2026-10-22T21:34:00+00:00",
+    "timestamp": "2026-10-22T21:47:00+00:00",
     "difficulty": {
+        "0": 1,
         "2": 4,
-        "1": 2,
-        "0": 1
+        "1": 1
     },
     "mode": {
-        "1": 2,
+        "1": 1,
         "0": 5
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "1|1": 1,
-        "2|0": 3,
-        "1|0": 1,
-        "0|0": 1
+        "0|1": 1,
+        "2|0": 4,
+        "1|0": 1
     },
     "activities": [
         {
@@ -22,21 +20,21 @@
             "count": 3
         },
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "b'meself n hell",
+            "name": "eq",
             "count": 1
         },
         {
-            "name": "qe",
+            "name": "asd",
             "count": 1
         },
         {
@@ -54,18 +52,14 @@
         {
             "name": "horetogs",
             "count": 1
-        },
-        {
-            "name": "gord",
-            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "qe",
+            "normalized": "eq",
             "count": 2,
             "examples": [
-                "qe"
+                "eq"
             ]
         },
         {
@@ -84,34 +78,29 @@
         }
     ],
     "classified_games": {
-        "Trade": [
+        "Misc. Public MF Runs": [
             {
-                "name": "b'meself n hell",
-                "matched": "n",
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             },
+            {
+                "name": "asda",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
+        "Trade": [
             {
                 "name": "n 15allrfrh gc",
                 "matched": "n",
                 "count": 1
             }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asda",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 7.14
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 5.67
     }
 }
