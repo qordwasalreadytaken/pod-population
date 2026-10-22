@@ -1,27 +1,30 @@
 {
-    "timestamp": "2026-10-22T16:05:00+00:00",
+    "timestamp": "2026-10-22T16:29:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 3,
+        "0": 2
     },
     "mode": {
-        "1": 1,
+        "1": 2,
         "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 3
+        "0|1": 1,
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Cows",
             "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 1
         }
     ],
@@ -31,31 +34,42 @@
             "count": 1
         },
         {
-            "name": "dasdds",
+            "name": "wikid klownz",
             "count": 1
         },
         {
-            "name": "coffee",
+            "name": "a hell",
             "count": 1
         },
         {
-            "name": "aqd",
+            "name": "n clean cat eye",
+            "count": 1
+        },
+        {
+            "name": "me",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "coffee",
+            "normalized": "wikid klownz",
             "count": 2,
             "examples": [
-                "coffee"
+                "wikid klownz"
             ]
         },
         {
-            "normalized": "aqd",
+            "normalized": "a hell",
             "count": 2,
             "examples": [
-                "aqd"
+                "a hell"
+            ]
+        },
+        {
+            "normalized": "me",
+            "count": 2,
+            "examples": [
+                "me"
             ]
         }
     ],
@@ -67,17 +81,17 @@
                 "count": 1
             }
         ],
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "dasdds",
-                "matched": "asd",
+                "name": "n clean cat eye",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 5.5
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 8.4
     }
 }
