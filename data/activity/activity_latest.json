@@ -1,24 +1,18 @@
 {
-    "timestamp": "2026-10-22T12:08:00+00:00",
+    "timestamp": "2026-10-22T12:35:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 2
+        "2": 3
     },
     "mode": {
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 2
+        "2|0": 3
     },
     "activities": [
         {
             "name": "Other",
             "count": 2
-        },
-        {
-            "name": "Leveling",
-            "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
@@ -27,57 +21,46 @@
     ],
     "top_games": [
         {
-            "name": "acte hell",
+            "name": "dasdds",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "rfg",
             "count": 1
         },
         {
-            "name": "fwres",
-            "count": 1
-        },
-        {
-            "name": "1256",
+            "name": "aqd",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "fwres",
+            "normalized": "rfg",
             "count": 2,
             "examples": [
-                "fwres"
+                "rfg"
             ]
         },
         {
-            "normalized": "#",
+            "normalized": "aqd",
             "count": 2,
             "examples": [
-                "1256"
+                "aqd"
             ]
         }
     ],
     "classified_games": {
-        "Leveling": [
-            {
-                "name": "acte hell",
-                "matched": "act",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
+                "name": "dasdds",
                 "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 5.25
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 4.0
     }
 }
