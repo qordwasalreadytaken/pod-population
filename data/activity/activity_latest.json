@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-10-22T09:54:00+00:00",
+    "timestamp": "2026-10-22T10:04:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 4,
         "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 2,
+        "2|0": 4,
         "1|0": 1,
         "0|0": 1
     },
@@ -19,11 +19,19 @@
             "count": 3
         },
         {
+            "name": "Misc. Public MF Runs",
+            "count": 2
+        },
+        {
             "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "dasdds",
+            "count": 2
+        },
         {
             "name": "coffee",
             "count": 1
@@ -65,6 +73,13 @@
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "dasdds",
+                "matched": "asd",
+                "count": 2
+            }
+        ],
         "Trade": [
             {
                 "name": "n anni",
@@ -74,8 +89,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 5.5
+        "unique_names": 5,
+        "public_games": 6,
+        "average_name_length": 5.6
     }
 }
