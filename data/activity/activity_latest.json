@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-10-22T15:05:00+00:00",
+    "timestamp": "2026-10-22T15:26:00+00:00",
     "difficulty": {
-        "2": 5
+        "2": 3
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 2
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 4
+        "2|0": 2
     },
     "activities": [
         {
@@ -19,14 +19,6 @@
         {
             "name": "Cows",
             "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Leveling",
-            "count": 1
         }
     ],
     "top_games": [
@@ -35,15 +27,7 @@
             "count": 1
         },
         {
-            "name": "dasdds",
-            "count": 1
-        },
-        {
-            "name": "acte hell",
-            "count": 1
-        },
-        {
-            "name": "rfg",
+            "name": "coffee",
             "count": 1
         },
         {
@@ -53,10 +37,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "rfg",
+            "normalized": "coffee",
             "count": 2,
             "examples": [
-                "rfg"
+                "coffee"
             ]
         },
         {
@@ -74,25 +58,11 @@
                 "matched": "cow",
                 "count": 1
             }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "dasdds",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "acte hell",
-                "matched": "act",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 5.6
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 5.33
     }
 }
