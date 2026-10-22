@@ -1,24 +1,17 @@
 {
-    "timestamp": "2026-10-22T22:04:00+00:00",
+    "timestamp": "2026-10-22T22:22:00+00:00",
     "difficulty": {
-        "0": 1,
         "2": 3,
         "1": 1
     },
     "mode": {
-        "1": 1,
         "0": 4
     },
     "difficulty_mode": {
-        "0|1": 1,
         "2|0": 3,
         "1|0": 1
     },
     "activities": [
-        {
-            "name": "Other",
-            "count": 2
-        },
         {
             "name": "Misc. Public MF Runs",
             "count": 2
@@ -26,13 +19,13 @@
         {
             "name": "Trade",
             "count": 1
+        },
+        {
+            "name": "Other",
+            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "eq",
-            "count": 1
-        },
         {
             "name": "asd",
             "count": 1
@@ -51,13 +44,6 @@
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "eq",
-            "count": 2,
-            "examples": [
-                "eq"
-            ]
-        },
         {
             "normalized": "horetogs",
             "count": 2,
@@ -88,8 +74,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.2
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 7.25
     }
 }
