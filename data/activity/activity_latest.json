@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-22T04:05:00+00:00",
+    "timestamp": "2026-10-22T04:27:00+00:00",
     "difficulty": {
         "2": 1,
         "0": 1
@@ -20,22 +20,33 @@
     "top_games": [
         {
             "name": "coffee",
-            "count": 2
+            "count": 1
+        },
+        {
+            "name": "gd",
+            "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "coffee",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "coffee"
+            ]
+        },
+        {
+            "normalized": "gd",
+            "count": 2,
+            "examples": [
+                "gd"
             ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 1,
+        "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 6.0
+        "average_name_length": 4.0
     }
 }
