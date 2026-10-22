@@ -1,36 +1,74 @@
 {
-    "timestamp": "2026-10-22T20:36:00+00:00",
+    "timestamp": "2026-10-22T20:48:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 5,
+        "1": 1
     },
     "mode": {
-        "0": 2
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 5,
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
+            "count": 4
+        },
+        {
+            "name": "Other",
             "count": 2
         }
     ],
     "top_games": [
         {
             "name": "gord",
+            "count": 2
+        },
+        {
+            "name": "asda",
+            "count": 1
+        },
+        {
+            "name": "wad",
             "count": 1
         },
         {
             "name": "asdd",
             "count": 1
+        },
+        {
+            "name": "horetogs",
+            "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "wad",
+            "count": 2,
+            "examples": [
+                "wad"
+            ]
+        },
+        {
+            "normalized": "horetogs",
+            "count": 2,
+            "examples": [
+                "horetogs"
+            ]
+        }
+    ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
                 "name": "gord",
                 "matched": "gord",
+                "count": 2
+            },
+            {
+                "name": "asda",
+                "matched": "asd",
                 "count": 1
             },
             {
@@ -41,8 +79,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 4.0
+        "unique_names": 5,
+        "public_games": 6,
+        "average_name_length": 4.6
     }
 }
