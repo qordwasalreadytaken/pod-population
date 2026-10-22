@@ -1,38 +1,58 @@
 {
-    "timestamp": "2026-10-22T08:07:00+00:00",
+    "timestamp": "2026-10-22T08:33:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 2,
+        "1": 1
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 2,
+        "1|0": 1
     },
     "activities": [
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 2
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n frw bk ring",
+            "name": "coffee",
             "count": 1
         },
         {
             "name": "n anni",
             "count": 1
+        },
+        {
+            "name": "1223",
+            "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "coffee",
+            "count": 2,
+            "examples": [
+                "coffee"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1223"
+            ]
+        }
+    ],
     "classified_games": {
         "Trade": [
-            {
-                "name": "n frw bk ring",
-                "matched": "n",
-                "count": 1
-            },
             {
                 "name": "n anni",
                 "matched": "n",
@@ -41,8 +61,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 9.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 5.33
     }
 }
