@@ -1,51 +1,39 @@
 {
-    "timestamp": "2026-10-22T10:24:00+00:00",
+    "timestamp": "2026-10-22T10:37:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 1,
         "1": 1,
-        "0": 1
+        "0": 2
     },
     "mode": {
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 1,
         "1|0": 1,
-        "0|0": 1
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Trade",
-            "count": 1
+            "name": "Leveling",
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "dasdds",
-            "count": 1
+            "name": "tristnorm",
+            "count": 2
         },
         {
             "name": "coffee",
             "count": 1
         },
         {
-            "name": "n anni",
-            "count": 1
-        },
-        {
             "name": "goty",
-            "count": 1
-        },
-        {
-            "name": "goofin",
             "count": 1
         }
     ],
@@ -63,34 +51,20 @@
             "examples": [
                 "goty"
             ]
-        },
-        {
-            "normalized": "goofin",
-            "count": 2,
-            "examples": [
-                "goofin"
-            ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Leveling": [
             {
-                "name": "dasdds",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
-        "Trade": [
-            {
-                "name": "n anni",
-                "matched": "n",
-                "count": 1
+                "name": "tristnorm",
+                "matched": "norm",
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 5.6
+        "unique_names": 3,
+        "public_games": 4,
+        "average_name_length": 6.33
     }
 }
