@@ -1,21 +1,15 @@
 {
-    "timestamp": "2026-10-22T05:25:00+00:00",
+    "timestamp": "2026-10-22T05:38:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "2": 1
     },
     "mode": {
-        "0": 3
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "0|0": 1
+        "2|0": 1
     },
     "activities": [
-        {
-            "name": "Other",
-            "count": 2
-        },
         {
             "name": "Trade",
             "count": 1
@@ -25,32 +19,9 @@
         {
             "name": "n frw bk ring",
             "count": 1
-        },
-        {
-            "name": "coffee",
-            "count": 1
-        },
-        {
-            "name": "umbrah",
-            "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "coffee",
-            "count": 2,
-            "examples": [
-                "coffee"
-            ]
-        },
-        {
-            "normalized": "umbrah",
-            "count": 2,
-            "examples": [
-                "umbrah"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Trade": [
             {
@@ -61,8 +32,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 8.33
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 13.0
     }
 }
