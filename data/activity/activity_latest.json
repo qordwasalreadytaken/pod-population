@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-22T18:47:00+00:00",
+    "timestamp": "2026-10-22T19:03:00+00:00",
     "difficulty": {
         "2": 1,
         "1": 1
@@ -13,7 +13,7 @@
     },
     "activities": [
         {
-            "name": "Maps",
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
@@ -23,7 +23,7 @@
     ],
     "top_games": [
         {
-            "name": "pubmap",
+            "name": "1123",
             "count": 1
         },
         {
@@ -41,10 +41,10 @@
         }
     ],
     "classified_games": {
-        "Maps": [
+        "Misc. Public MF Runs": [
             {
-                "name": "pubmap",
-                "matched": "map",
+                "name": "1123",
+                "matched": "123",
                 "count": 1
             }
         ]
@@ -52,6 +52,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 7.0
+        "average_name_length": 6.0
     }
 }
