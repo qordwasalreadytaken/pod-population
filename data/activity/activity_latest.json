@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-10-23T20:05:00+00:00",
+    "timestamp": "2026-10-23T20:25:00+00:00",
     "difficulty": {
-        "2": 6,
+        "2": 7,
         "0": 1
     },
     "mode": {
-        "0": 7
+        "0": 8
     },
     "difficulty_mode": {
-        "2|0": 6,
+        "2|0": 7,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 5
         },
         {
             "name": "Trade",
@@ -31,15 +31,19 @@
             "count": 2
         },
         {
+            "name": "ok",
+            "count": 1
+        },
+        {
+            "name": "n ias allr jew",
+            "count": 1
+        },
+        {
             "name": "n clean cat eye",
             "count": 1
         },
         {
             "name": "awd",
-            "count": 1
-        },
-        {
-            "name": "n ias allr jew",
             "count": 1
         },
         {
@@ -60,6 +64,13 @@
             ]
         },
         {
+            "normalized": "ok",
+            "count": 2,
+            "examples": [
+                "ok"
+            ]
+        },
+        {
             "normalized": "awd",
             "count": 2,
             "examples": [
@@ -77,12 +88,12 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "n clean cat eye",
+                "name": "n ias allr jew",
                 "matched": "n",
                 "count": 1
             },
             {
-                "name": "n ias allr jew",
+                "name": "n clean cat eye",
                 "matched": "n",
                 "count": 1
             }
@@ -96,8 +107,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 7.17
+        "unique_names": 7,
+        "public_games": 8,
+        "average_name_length": 6.43
     }
 }
