@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-23T21:34:00+00:00",
+    "timestamp": "2026-10-23T21:47:00+00:00",
     "difficulty": {
         "2": 7
     },
@@ -12,24 +12,20 @@
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Trade",
             "count": 3
-        },
-        {
-            "name": "Baal",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "awf",
-            "count": 1
+            "name": "k",
+            "count": 2
         },
         {
-            "name": "k",
+            "name": "awf",
             "count": 1
         },
         {
@@ -45,27 +41,23 @@
             "count": 1
         },
         {
-            "name": "baal",
-            "count": 1
-        },
-        {
             "name": "ok",
             "count": 1
         }
     ],
     "unknown_games": [
         {
+            "normalized": "k",
+            "count": 4,
+            "examples": [
+                "k"
+            ]
+        },
+        {
             "normalized": "awf",
             "count": 2,
             "examples": [
                 "awf"
-            ]
-        },
-        {
-            "normalized": "k",
-            "count": 2,
-            "examples": [
-                "k"
             ]
         },
         {
@@ -93,18 +85,11 @@
                 "matched": "n",
                 "count": 1
             }
-        ],
-        "Baal": [
-            {
-                "name": "baal",
-                "matched": "baal",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 7,
+        "unique_names": 6,
         "public_games": 7,
-        "average_name_length": 7.43
+        "average_name_length": 8.0
     }
 }
