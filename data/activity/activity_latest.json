@@ -1,33 +1,35 @@
 {
-    "timestamp": "2026-10-23T18:47:00+00:00",
+    "timestamp": "2026-10-23T19:04:00+00:00",
     "difficulty": {
-        "0": 2,
         "2": 3,
-        "1": 2
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 6
+        "0": 5
     },
     "difficulty_mode": {
-        "0|1": 1,
         "2|0": 3,
-        "1|0": 2,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "wikid klownz",
+            "name": "stoned",
+            "count": 1
+        },
+        {
+            "name": "k",
             "count": 1
         },
         {
@@ -35,19 +37,7 @@
             "count": 1
         },
         {
-            "name": "a hell",
-            "count": 1
-        },
-        {
-            "name": "stoned",
-            "count": 1
-        },
-        {
             "name": "1231",
-            "count": 1
-        },
-        {
-            "name": "1230",
             "count": 1
         },
         {
@@ -57,10 +47,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "wikid klownz",
+            "normalized": "stoned",
             "count": 2,
             "examples": [
-                "wikid klownz"
+                "stoned"
+            ]
+        },
+        {
+            "normalized": "k",
+            "count": 2,
+            "examples": [
+                "k"
             ]
         },
         {
@@ -68,20 +65,6 @@
             "count": 2,
             "examples": [
                 "a h"
-            ]
-        },
-        {
-            "normalized": "a hell",
-            "count": 2,
-            "examples": [
-                "a hell"
-            ]
-        },
-        {
-            "normalized": "stoned",
-            "count": 2,
-            "examples": [
-                "stoned"
             ]
         }
     ],
@@ -93,11 +76,6 @@
                 "count": 1
             },
             {
-                "name": "1230",
-                "matched": "123",
-                "count": 1
-            },
-            {
                 "name": "gord",
                 "matched": "gord",
                 "count": 1
@@ -105,8 +83,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 5.57
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 3.6
     }
 }
