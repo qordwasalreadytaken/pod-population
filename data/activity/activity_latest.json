@@ -1,25 +1,25 @@
 {
-    "timestamp": "2026-10-23T12:07:00+00:00",
+    "timestamp": "2026-10-23T12:33:00+00:00",
     "difficulty": {
-        "1": 2,
+        "1": 5,
         "0": 2,
         "2": 2
     },
     "mode": {
         "1": 2,
-        "0": 4
+        "0": 7
     },
     "difficulty_mode": {
         "1|1": 1,
         "0|1": 1,
         "2|0": 2,
-        "1|0": 1,
+        "1|0": 4,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 7
         },
         {
             "name": "Misc. Public MF Runs",
@@ -48,7 +48,19 @@
             "count": 1
         },
         {
-            "name": "aggha",
+            "name": "1226",
+            "count": 1
+        },
+        {
+            "name": "1225",
+            "count": 1
+        },
+        {
+            "name": "1224",
+            "count": 1
+        },
+        {
+            "name": "a nm",
             "count": 1
         },
         {
@@ -58,6 +70,16 @@
     ],
     "unknown_games": [
         {
+            "normalized": "#",
+            "count": 8,
+            "examples": [
+                "1224",
+                "1225",
+                "1226",
+                "3"
+            ]
+        },
+        {
             "normalized": "qe",
             "count": 2,
             "examples": [
@@ -65,17 +87,10 @@
             ]
         },
         {
-            "normalized": "#",
+            "normalized": "a nm",
             "count": 2,
             "examples": [
-                "3"
-            ]
-        },
-        {
-            "normalized": "aggha",
-            "count": 2,
-            "examples": [
-                "aggha"
+                "a nm"
             ]
         },
         {
@@ -103,8 +118,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 5.33
+        "unique_names": 9,
+        "public_games": 9,
+        "average_name_length": 4.78
     }
 }
