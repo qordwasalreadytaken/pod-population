@@ -1,49 +1,31 @@
 {
-    "timestamp": "2026-10-23T16:54:00+00:00",
+    "timestamp": "2026-10-23T17:04:00+00:00",
     "difficulty": {
-        "2": 4,
-        "0": 1
+        "2": 2
     },
     "mode": {
-        "0": 5
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 4,
-        "0|0": 1
+        "2|0": 2
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 2
-        },
-        {
             "name": "Trade",
-            "count": 2
+            "count": 1
         },
         {
-            "name": "Leveling",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "a hell",
-            "count": 1
-        },
-        {
-            "name": "n cat eye clean",
-            "count": 1
-        },
-        {
-            "name": "hell start",
-            "count": 1
-        },
-        {
             "name": "n clean cat eye",
             "count": 1
         },
         {
-            "name": "q",
+            "name": "a hell",
             "count": 1
         }
     ],
@@ -54,39 +36,20 @@
             "examples": [
                 "a hell"
             ]
-        },
-        {
-            "normalized": "q",
-            "count": 2,
-            "examples": [
-                "q"
-            ]
         }
     ],
     "classified_games": {
         "Trade": [
             {
-                "name": "n cat eye clean",
-                "matched": "n",
-                "count": 1
-            },
-            {
                 "name": "n clean cat eye",
                 "matched": "n",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "hell start",
-                "matched": "start",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 9.4
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 10.5
     }
 }
