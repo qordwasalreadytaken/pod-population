@@ -1,26 +1,24 @@
 {
-    "timestamp": "2026-10-23T19:34:00+00:00",
+    "timestamp": "2026-10-23T19:46:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 6
+        "2": 7,
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 7
+        "0": 8
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 6,
+        "2|0": 7,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 6
+            "count": 5
         },
         {
             "name": "Trade",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -29,7 +27,11 @@
     ],
     "top_games": [
         {
-            "name": "4321",
+            "name": "k",
+            "count": 3
+        },
+        {
+            "name": "n clean cat eye",
             "count": 1
         },
         {
@@ -37,23 +39,11 @@
             "count": 1
         },
         {
-            "name": "awf",
-            "count": 1
-        },
-        {
             "name": "n ias allr jew",
             "count": 1
         },
         {
-            "name": "k",
-            "count": 1
-        },
-        {
             "name": "stoned",
-            "count": 1
-        },
-        {
-            "name": "a h",
             "count": 1
         },
         {
@@ -63,10 +53,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "#",
-            "count": 2,
+            "normalized": "k",
+            "count": 6,
             "examples": [
-                "4321"
+                "k"
             ]
         },
         {
@@ -77,36 +67,20 @@
             ]
         },
         {
-            "normalized": "awf",
-            "count": 2,
-            "examples": [
-                "awf"
-            ]
-        },
-        {
-            "normalized": "k",
-            "count": 2,
-            "examples": [
-                "k"
-            ]
-        },
-        {
             "normalized": "stoned",
             "count": 2,
             "examples": [
                 "stoned"
             ]
-        },
-        {
-            "normalized": "a h",
-            "count": 2,
-            "examples": [
-                "a h"
-            ]
         }
     ],
     "classified_games": {
         "Trade": [
+            {
+                "name": "n clean cat eye",
+                "matched": "n",
+                "count": 1
+            },
             {
                 "name": "n ias allr jew",
                 "matched": "n",
@@ -122,8 +96,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 8,
+        "unique_names": 6,
         "public_games": 8,
-        "average_name_length": 4.75
+        "average_name_length": 7.17
     }
 }
