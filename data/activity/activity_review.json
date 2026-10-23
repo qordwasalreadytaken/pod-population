@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 3682,
+        "count": 3686,
         "examples": [
             "0",
             "1",
@@ -842,6 +842,13 @@
         ]
     },
     {
+        "normalized": "hello",
+        "count": 26,
+        "examples": [
+            "hello"
+        ]
+    },
+    {
         "normalized": "solo",
         "count": 26,
         "examples": [
@@ -849,10 +856,10 @@
         ]
     },
     {
-        "normalized": "hello",
+        "normalized": "a nm",
         "count": 24,
         "examples": [
-            "hello"
+            "a nm"
         ]
     },
     {
@@ -950,13 +957,6 @@
         "count": 24,
         "examples": [
             "necros only!!!!"
-        ]
-    },
-    {
-        "normalized": "a nm",
-        "count": 22,
-        "examples": [
-            "a nm"
         ]
     },
     {
