@@ -1,42 +1,40 @@
 {
-    "timestamp": "2026-10-23T00:59:00+00:00",
+    "timestamp": "2026-10-23T01:31:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 2
     },
     "mode": {
-        "1": 1,
         "0": 2
     },
     "difficulty_mode": {
-        "2|1": 1,
         "2|0": 2
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Trade",
+            "count": 1
         },
         {
-            "name": "Cows",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 2
+            "name": "n druid torch",
+            "count": 1
         },
         {
-            "name": "hcow",
+            "name": "asd",
             "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
-        "Cows": [
+        "Trade": [
             {
-                "name": "hcow",
-                "matched": "cow",
+                "name": "n druid torch",
+                "matched": "n",
                 "count": 1
             }
         ],
@@ -44,13 +42,13 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 2,
-        "public_games": 3,
-        "average_name_length": 3.5
+        "public_games": 2,
+        "average_name_length": 8.0
     }
 }
