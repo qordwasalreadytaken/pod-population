@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-23T13:25:00+00:00",
+    "timestamp": "2026-10-23T13:38:00+00:00",
     "difficulty": {
         "2": 2,
         "1": 2,
@@ -37,11 +37,11 @@
             "count": 1
         },
         {
-            "name": "1221",
+            "name": "a nm",
             "count": 1
         },
         {
-            "name": "a nm",
+            "name": "1221",
             "count": 1
         },
         {
@@ -51,17 +51,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "1221"
-            ]
-        },
-        {
             "normalized": "a nm",
             "count": 2,
             "examples": [
                 "a nm"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1221"
             ]
         },
         {
