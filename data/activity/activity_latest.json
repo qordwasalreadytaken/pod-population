@@ -1,73 +1,81 @@
 {
-    "timestamp": "2026-10-23T18:06:00+00:00",
+    "timestamp": "2026-10-23T18:29:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 2
+        "2": 3,
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 2
+        "2|0": 3,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
         },
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "a hell",
+            "count": 2
+        },
+        {
+            "name": "stoned",
             "count": 1
         },
         {
-            "name": "n clean cat eye",
+            "name": "1229",
             "count": 1
         },
         {
-            "name": "1227",
-            "count": 1
-        },
-        {
-            "name": "1226",
+            "name": "gord",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "#",
+            "normalized": "a hell",
             "count": 4,
             "examples": [
-                "1226",
-                "1227"
+                "a hell"
             ]
         },
         {
-            "normalized": "a hell",
+            "normalized": "stoned",
             "count": 2,
             "examples": [
-                "a hell"
+                "stoned"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1229"
             ]
         }
     ],
     "classified_games": {
-        "Trade": [
+        "Misc. Public MF Runs": [
             {
-                "name": "n clean cat eye",
-                "matched": "n",
+                "name": "gord",
+                "matched": "gord",
                 "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 7.25
+        "public_games": 5,
+        "average_name_length": 5.0
     }
 }
