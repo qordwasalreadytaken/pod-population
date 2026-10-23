@@ -1,24 +1,28 @@
 {
-    "timestamp": "2026-10-23T20:25:00+00:00",
+    "timestamp": "2026-10-23T20:37:00+00:00",
     "difficulty": {
-        "2": 7,
+        "2": 6,
         "0": 1
     },
     "mode": {
-        "0": 8
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 7,
+        "2|0": 6,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 5
+            "name": "Trade",
+            "count": 4
         },
         {
-            "name": "Trade",
-            "count": 2
+            "name": "Baal",
+            "count": 1
+        },
+        {
+            "name": "Other",
+            "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
@@ -27,8 +31,16 @@
     ],
     "top_games": [
         {
-            "name": "k",
-            "count": 2
+            "name": "n cat eye clean",
+            "count": 1
+        },
+        {
+            "name": "n pnb skiller",
+            "count": 1
+        },
+        {
+            "name": "baal",
+            "count": 1
         },
         {
             "name": "ok",
@@ -43,50 +55,31 @@
             "count": 1
         },
         {
-            "name": "awd",
-            "count": 1
-        },
-        {
-            "name": "stoned",
-            "count": 1
-        },
-        {
             "name": "gord",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "k",
-            "count": 4,
-            "examples": [
-                "k"
-            ]
-        },
-        {
             "normalized": "ok",
             "count": 2,
             "examples": [
                 "ok"
             ]
-        },
-        {
-            "normalized": "awd",
-            "count": 2,
-            "examples": [
-                "awd"
-            ]
-        },
-        {
-            "normalized": "stoned",
-            "count": 2,
-            "examples": [
-                "stoned"
-            ]
         }
     ],
     "classified_games": {
         "Trade": [
+            {
+                "name": "n cat eye clean",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n pnb skiller",
+                "matched": "n",
+                "count": 1
+            },
             {
                 "name": "n ias allr jew",
                 "matched": "n",
@@ -95,6 +88,13 @@
             {
                 "name": "n clean cat eye",
                 "matched": "n",
+                "count": 1
+            }
+        ],
+        "Baal": [
+            {
+                "name": "baal",
+                "matched": "baal",
                 "count": 1
             }
         ],
@@ -108,7 +108,7 @@
     },
     "interesting": {
         "unique_names": 7,
-        "public_games": 8,
-        "average_name_length": 6.43
+        "public_games": 7,
+        "average_name_length": 9.57
     }
 }
