@@ -1,16 +1,14 @@
 {
-    "timestamp": "2026-10-23T19:04:00+00:00",
+    "timestamp": "2026-10-23T19:22:00+00:00",
     "difficulty": {
         "2": 3,
-        "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
         "2|0": 3,
-        "1|0": 1,
         "0|0": 1
     },
     "activities": [
@@ -20,24 +18,20 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "stoned",
-            "count": 1
-        },
         {
             "name": "k",
             "count": 1
         },
         {
-            "name": "a h",
+            "name": "stoned",
             "count": 1
         },
         {
-            "name": "1231",
+            "name": "a h",
             "count": 1
         },
         {
@@ -47,17 +41,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "stoned",
-            "count": 2,
-            "examples": [
-                "stoned"
-            ]
-        },
-        {
             "normalized": "k",
             "count": 2,
             "examples": [
                 "k"
+            ]
+        },
+        {
+            "normalized": "stoned",
+            "count": 2,
+            "examples": [
+                "stoned"
             ]
         },
         {
@@ -71,11 +65,6 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "1231",
-                "matched": "123",
-                "count": 1
-            },
-            {
                 "name": "gord",
                 "matched": "gord",
                 "count": 1
@@ -83,8 +72,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 3.6
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 3.5
     }
 }
