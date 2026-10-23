@@ -1,35 +1,58 @@
 {
-    "timestamp": "2026-10-23T17:35:00+00:00",
+    "timestamp": "2026-10-23T17:47:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 4,
+        "1": 1
     },
     "mode": {
-        "0": 2
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 4,
+        "1|0": 1
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 1
+            "name": "Other",
+            "count": 4
         },
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n clean cat eye",
+            "name": "1222",
+            "count": 1
+        },
+        {
+            "name": "1221",
             "count": 1
         },
         {
             "name": "a hell",
             "count": 1
+        },
+        {
+            "name": "n clean cat eye",
+            "count": 1
+        },
+        {
+            "name": "1223",
+            "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "#",
+            "count": 6,
+            "examples": [
+                "1221",
+                "1222",
+                "1223"
+            ]
+        },
         {
             "normalized": "a hell",
             "count": 2,
@@ -48,8 +71,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 10.5
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 6.6
     }
 }
