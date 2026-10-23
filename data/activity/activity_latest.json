@@ -1,51 +1,47 @@
 {
-    "timestamp": "2026-10-23T13:50:00+00:00",
+    "timestamp": "2026-10-23T14:05:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 3,
         "1": 2,
-        "0": 2
+        "0": 1
     },
     "mode": {
         "0": 6
     },
     "difficulty_mode": {
-        "2|0": 2,
+        "2|0": 3,
         "1|0": 2,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Trade",
-            "count": 1
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
+            "count": 2
+        },
+        {
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "asd",
+            "count": 2
+        },
+        {
             "name": "n ias allr jew",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "1222",
             "count": 1
         },
         {
             "name": "a nm",
-            "count": 1
-        },
-        {
-            "name": "1221",
-            "count": 1
-        },
-        {
-            "name": "q3reqer",
             "count": 1
         },
         {
@@ -55,24 +51,17 @@
     ],
     "unknown_games": [
         {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1222"
+            ]
+        },
+        {
             "normalized": "a nm",
             "count": 2,
             "examples": [
                 "a nm"
-            ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "1221"
-            ]
-        },
-        {
-            "normalized": "q#reqer",
-            "count": 2,
-            "examples": [
-                "q3reqer"
             ]
         },
         {
@@ -84,24 +73,24 @@
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 2
+            }
+        ],
         "Trade": [
             {
                 "name": "n ias allr jew",
                 "matched": "n",
                 "count": 1
             }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 6,
+        "unique_names": 5,
         "public_games": 6,
-        "average_name_length": 6.5
+        "average_name_length": 6.4
     }
 }
