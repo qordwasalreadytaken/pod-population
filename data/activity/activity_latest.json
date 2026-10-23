@@ -1,24 +1,22 @@
 {
-    "timestamp": "2026-10-23T15:26:00+00:00",
+    "timestamp": "2026-10-23T15:40:00+00:00",
     "difficulty": {
-        "1": 2,
-        "0": 3
+        "2": 1,
+        "1": 1,
+        "0": 4
     },
     "mode": {
-        "0": 5
+        "0": 6
     },
     "difficulty_mode": {
-        "1|0": 2,
-        "0|0": 3
+        "2|0": 1,
+        "1|0": 1,
+        "0|0": 4
     },
     "activities": [
         {
-            "name": "Baal",
-            "count": 2
-        },
-        {
             "name": "Other",
-            "count": 2
+            "count": 5
         },
         {
             "name": "Leveling",
@@ -27,8 +25,12 @@
     ],
     "top_games": [
         {
-            "name": "baalnm",
+            "name": "awd",
             "count": 2
+        },
+        {
+            "name": "coffee",
+            "count": 1
         },
         {
             "name": "goofing",
@@ -45,6 +47,20 @@
     ],
     "unknown_games": [
         {
+            "normalized": "awd",
+            "count": 4,
+            "examples": [
+                "awd"
+            ]
+        },
+        {
+            "normalized": "coffee",
+            "count": 2,
+            "examples": [
+                "coffee"
+            ]
+        },
+        {
             "normalized": "goofing",
             "count": 2,
             "examples": [
@@ -60,13 +76,6 @@
         }
     ],
     "classified_games": {
-        "Baal": [
-            {
-                "name": "baalnm",
-                "matched": "baal",
-                "count": 2
-            }
-        ],
         "Leveling": [
             {
                 "name": "act norm",
@@ -76,8 +85,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 5,
-        "average_name_length": 5.75
+        "unique_names": 5,
+        "public_games": 6,
+        "average_name_length": 5.2
     }
 }
