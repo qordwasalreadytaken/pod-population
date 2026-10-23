@@ -1,21 +1,15 @@
 {
-    "timestamp": "2026-10-23T16:05:00+00:00",
+    "timestamp": "2026-10-23T16:28:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 1
+        "2": 2
     },
     "mode": {
-        "0": 4
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "0|0": 1
+        "2|0": 2
     },
     "activities": [
-        {
-            "name": "Other",
-            "count": 2
-        },
         {
             "name": "Leveling",
             "count": 1
@@ -33,32 +27,9 @@
         {
             "name": "n clean cat eye",
             "count": 1
-        },
-        {
-            "name": "coffee",
-            "count": 1
-        },
-        {
-            "name": "goofing",
-            "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "coffee",
-            "count": 2,
-            "examples": [
-                "coffee"
-            ]
-        },
-        {
-            "normalized": "goofing",
-            "count": 2,
-            "examples": [
-                "goofing"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Leveling": [
             {
@@ -76,8 +47,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 9.5
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 12.5
     }
 }
