@@ -1,17 +1,19 @@
 {
-    "timestamp": "2026-10-23T10:36:00+00:00",
+    "timestamp": "2026-10-23T10:48:00+00:00",
     "difficulty": {
-        "0": 4,
-        "2": 3
+        "0": 2,
+        "2": 4,
+        "1": 1
     },
     "mode": {
-        "1": 2,
-        "0": 5
+        "1": 1,
+        "0": 6
     },
     "difficulty_mode": {
-        "0|1": 2,
-        "2|0": 3,
-        "0|0": 2
+        "0|1": 1,
+        "2|0": 4,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
@@ -29,11 +31,11 @@
             "count": 1
         },
         {
-            "name": "2",
+            "name": "efrsdc",
             "count": 1
         },
         {
-            "name": "ersfdv",
+            "name": "qraef",
             "count": 1
         },
         {
@@ -45,28 +47,41 @@
             "count": 1
         },
         {
-            "name": "goofing",
+            "name": "aggha",
             "count": 1
         },
         {
-            "name": "12d",
+            "name": "goofing",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "#",
-            "count": 4,
+            "count": 2,
             "examples": [
-                "2",
                 "4"
             ]
         },
         {
-            "normalized": "ersfdv",
+            "normalized": "efrsdc",
             "count": 2,
             "examples": [
-                "ersfdv"
+                "efrsdc"
+            ]
+        },
+        {
+            "normalized": "qraef",
+            "count": 2,
+            "examples": [
+                "qraef"
+            ]
+        },
+        {
+            "normalized": "aggha",
+            "count": 2,
+            "examples": [
+                "aggha"
             ]
         },
         {
@@ -74,13 +89,6 @@
             "count": 2,
             "examples": [
                 "goofing"
-            ]
-        },
-        {
-            "normalized": "#d",
-            "count": 2,
-            "examples": [
-                "12d"
             ]
         }
     ],
@@ -101,6 +109,6 @@
     "interesting": {
         "unique_names": 7,
         "public_games": 7,
-        "average_name_length": 6.71
+        "average_name_length": 7.57
     }
 }
