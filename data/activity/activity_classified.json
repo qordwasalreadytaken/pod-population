@@ -625,17 +625,17 @@
             "count": 15
         },
         {
+            "name": "n nec torch",
+            "matched": "n",
+            "count": 15
+        },
+        {
             "name": "n perf. ruby",
             "matched": "n",
             "count": 15
         },
         {
             "name": "n magic facet 1",
-            "matched": "n",
-            "count": 14
-        },
-        {
-            "name": "n nec torch",
             "matched": "n",
             "count": 14
         },
@@ -1161,7 +1161,7 @@
         },
         {
             "name": "n poisonb gc",
-            "matched": "n",
+            "matched": "iso",
             "count": 4
         },
         {
@@ -1206,7 +1206,7 @@
         },
         {
             "name": "n druidtorch",
-            "matched": "torch",
+            "matched": "n",
             "count": 4
         },
         {
@@ -2086,7 +2086,7 @@
         },
         {
             "name": "n oocs wuw",
-            "matched": "n",
+            "matched": "wuw",
             "count": 1
         },
         {
@@ -2843,7 +2843,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "act",
+            "matched": "andar",
             "count": 12
         },
         {
@@ -2978,7 +2978,7 @@
         },
         {
             "name": "act norm",
-            "matched": "act",
+            "matched": "norm",
             "count": 6
         },
         {
@@ -3133,7 +3133,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "leveli",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -3728,7 +3728,7 @@
         {
             "name": "gord",
             "matched": "gord",
-            "count": 781
+            "count": 782
         },
         {
             "name": "n eld runes",
@@ -4957,7 +4957,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "mf",
+            "matched": "run",
             "count": 1
         },
         {
@@ -6503,17 +6503,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
