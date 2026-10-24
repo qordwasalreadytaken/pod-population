@@ -1,41 +1,49 @@
 {
-    "timestamp": "2026-10-24T20:04:00+00:00",
+    "timestamp": "2026-10-24T20:22:00+00:00",
     "difficulty": {
-        "2": 6,
-        "0": 1
+        "2": 6
     },
     "mode": {
-        "0": 7
+        "1": 1,
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 6,
-        "0|0": 1
+        "2|1": 1,
+        "2|0": 5
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Trade",
             "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
+            "count": 2
+        },
+        {
+            "name": "Cows",
+            "count": 1
+        },
+        {
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "awfaf",
+            "name": "hcow",
             "count": 1
         },
         {
-            "name": "12c",
+            "name": "beer",
             "count": 1
         },
         {
-            "name": "n nat boots",
+            "name": "12v",
+            "count": 1
+        },
+        {
+            "name": "asdad",
             "count": 1
         },
         {
@@ -43,72 +51,57 @@
             "count": 1
         },
         {
-            "name": "stoned",
-            "count": 1
-        },
-        {
             "name": "n ias allr jew",
-            "count": 1
-        },
-        {
-            "name": "class_of_2000",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "awfaf",
+            "normalized": "beer",
             "count": 2,
             "examples": [
-                "awfaf"
+                "beer"
             ]
         },
         {
-            "normalized": "#c",
+            "normalized": "#v",
             "count": 2,
             "examples": [
-                "12c"
-            ]
-        },
-        {
-            "normalized": "stoned",
-            "count": 2,
-            "examples": [
-                "stoned"
-            ]
-        },
-        {
-            "normalized": "class_of_#",
-            "count": 2,
-            "examples": [
-                "class_of_2000"
+                "12v"
             ]
         }
     ],
     "classified_games": {
-        "Trade": [
+        "Cows": [
             {
-                "name": "n nat boots",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "n ias allr jew",
-                "matched": "n",
+                "name": "hcow",
+                "matched": "cow",
                 "count": 1
             }
         ],
         "Misc. Public MF Runs": [
             {
+                "name": "asdad",
+                "matched": "asd",
+                "count": 1
+            },
+            {
                 "name": "asd",
                 "matched": "asd",
+                "count": 1
+            }
+        ],
+        "Trade": [
+            {
+                "name": "n ias allr jew",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 7.86
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 5.5
     }
 }
