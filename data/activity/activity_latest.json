@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-10-24T14:04:00+00:00",
+    "timestamp": "2026-10-24T14:22:00+00:00",
     "difficulty": {
-        "2": 5,
-        "0": 1
+        "2": 3,
+        "0": 2
     },
     "mode": {
-        "0": 6
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 5,
-        "0|0": 1
+        "2|0": 3,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 3
         },
         {
             "name": "Trade",
@@ -27,15 +27,11 @@
     ],
     "top_games": [
         {
-            "name": "1227",
+            "name": "o zodcham n inf",
             "count": 1
         },
         {
-            "name": "n nec t o paly",
-            "count": 1
-        },
-        {
-            "name": "1226",
+            "name": "1229",
             "count": 1
         },
         {
@@ -43,7 +39,7 @@
             "count": 1
         },
         {
-            "name": "ddd",
+            "name": "12",
             "count": 1
         },
         {
@@ -56,15 +52,8 @@
             "normalized": "#",
             "count": 4,
             "examples": [
-                "1226",
-                "1227"
-            ]
-        },
-        {
-            "normalized": "ddd",
-            "count": 2,
-            "examples": [
-                "ddd"
+                "12",
+                "1229"
             ]
         },
         {
@@ -78,7 +67,7 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "n nec t o paly",
+                "name": "o zodcham n inf",
                 "matched": "n",
                 "count": 1
             }
@@ -92,8 +81,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 5.67
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 6.0
     }
 }
