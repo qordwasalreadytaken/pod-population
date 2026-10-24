@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-24T21:21:00+00:00",
+    "timestamp": "2026-10-24T21:33:00+00:00",
     "difficulty": {
         "2": 4
     },
@@ -13,11 +13,15 @@
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Cows",
+            "count": 1
         },
         {
-            "name": "Cows",
+            "name": "Other",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
@@ -31,11 +35,11 @@
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "k",
             "count": 1
         },
         {
-            "name": "asdad",
+            "name": "asd",
             "count": 1
         },
         {
@@ -43,7 +47,15 @@
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "k",
+            "count": 2,
+            "examples": [
+                "k"
+            ]
+        }
+    ],
     "classified_games": {
         "Cows": [
             {
@@ -55,11 +67,6 @@
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "asdad",
                 "matched": "asd",
                 "count": 1
             }
@@ -75,6 +82,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 6.5
+        "average_name_length": 5.5
     }
 }
