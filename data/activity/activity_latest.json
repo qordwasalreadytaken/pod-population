@@ -1,37 +1,55 @@
 {
-    "timestamp": "2026-10-24T08:44:00+00:00",
+    "timestamp": "2026-10-24T08:52:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 2,
+        "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 1,
+        "2|0": 2,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
+            "count": 2
+        },
+        {
+            "name": "Other",
             "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n trang oul",
+            "name": "gord",
+            "count": 2
+        },
+        {
+            "name": "onek",
             "count": 1
         },
         {
-            "name": "gord",
+            "name": "n trang oul",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "onek",
+            "count": 2,
+            "examples": [
+                "onek"
+            ]
+        }
+    ],
     "classified_games": {
         "Trade": [
             {
@@ -44,13 +62,13 @@
             {
                 "name": "gord",
                 "matched": "gord",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 7.5
+        "unique_names": 3,
+        "public_games": 4,
+        "average_name_length": 6.33
     }
 }
