@@ -2350,6 +2350,14 @@
         ]
     },
     {
+        "normalized": "#v",
+        "count": 10,
+        "examples": [
+            "12v",
+            "1v"
+        ]
+    },
+    {
         "normalized": "nec gr#w #",
         "count": 10,
         "examples": [
@@ -2570,6 +2578,13 @@
         ]
     },
     {
+        "normalized": "beer",
+        "count": 10,
+        "examples": [
+            "beer"
+        ]
+    },
+    {
         "normalized": "dlkjfhg",
         "count": 8,
         "examples": [
@@ -2715,14 +2730,6 @@
         "count": 8,
         "examples": [
             "adsdad"
-        ]
-    },
-    {
-        "normalized": "#v",
-        "count": 8,
-        "examples": [
-            "12v",
-            "1v"
         ]
     },
     {
@@ -3180,13 +3187,6 @@
         "count": 8,
         "examples": [
             "rwerf"
-        ]
-    },
-    {
-        "normalized": "beer",
-        "count": 8,
-        "examples": [
-            "beer"
         ]
     },
     {
@@ -10618,6 +10618,13 @@
         "count": 2,
         "examples": [
             "12c"
+        ]
+    },
+    {
+        "normalized": "fdhhfd",
+        "count": 2,
+        "examples": [
+            "fdhhfd"
         ]
     }
 ]
