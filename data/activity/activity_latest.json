@@ -1,32 +1,32 @@
 {
-    "timestamp": "2026-10-24T03:05:00+00:00",
+    "timestamp": "2026-10-24T03:27:00+00:00",
     "difficulty": {
         "2": 1
     },
     "mode": {
-        "0": 1
+        "1": 1
     },
     "difficulty_mode": {
-        "2|0": 1
+        "2|1": 1
     },
     "activities": [
         {
-            "name": "Trade",
+            "name": "Cows",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n 5-5 fire cold",
+            "name": "hcow",
             "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
-        "Trade": [
+        "Cows": [
             {
-                "name": "n 5-5 fire cold",
-                "matched": "n",
+                "name": "hcow",
+                "matched": "cow",
                 "count": 1
             }
         ]
@@ -34,6 +34,6 @@
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 15.0
+        "average_name_length": 4.0
     }
 }
