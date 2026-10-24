@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 3720,
+        "count": 3722,
         "examples": [
             "0",
             "1",
@@ -2207,6 +2207,13 @@
         ]
     },
     {
+        "normalized": "goofin somemore",
+        "count": 12,
+        "examples": [
+            "goofin somemore"
+        ]
+    },
+    {
         "normalized": "a#h",
         "count": 10,
         "examples": [
@@ -2556,10 +2563,10 @@
         ]
     },
     {
-        "normalized": "goofin somemore",
+        "normalized": "ddd",
         "count": 10,
         "examples": [
-            "goofin somemore"
+            "ddd"
         ]
     },
     {
@@ -3186,13 +3193,6 @@
         "count": 8,
         "examples": [
             "a h"
-        ]
-    },
-    {
-        "normalized": "ddd",
-        "count": 8,
-        "examples": [
-            "ddd"
         ]
     },
     {
