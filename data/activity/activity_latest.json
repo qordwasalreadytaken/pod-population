@@ -1,103 +1,68 @@
 {
-    "timestamp": "2026-10-24T14:46:00+00:00",
+    "timestamp": "2026-10-24T15:04:00+00:00",
     "difficulty": {
         "2": 3,
-        "1": 2,
-        "0": 1
+        "1": 1
     },
     "mode": {
-        "0": 6
+        "0": 4
     },
     "difficulty_mode": {
         "2|0": 3,
-        "1|0": 2,
-        "0|0": 1
+        "1|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 3
         },
         {
-            "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "k",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "1230",
-            "count": 1
-        },
-        {
-            "name": "o zodcham n inf",
+            "name": "coffee",
             "count": 1
         },
         {
             "name": "ted",
-            "count": 1
-        },
-        {
-            "name": "gord",
-            "count": 1
-        },
-        {
-            "name": "12",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "k",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "k"
             ]
         },
         {
-            "normalized": "#",
+            "normalized": "coffee",
             "count": 2,
             "examples": [
-                "12"
+                "coffee"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "1230",
-                "matched": "123",
-                "count": 1
-            },
-            {
                 "name": "ted",
                 "matched": "ted",
-                "count": 1
-            },
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            }
-        ],
-        "Trade": [
-            {
-                "name": "o zodcham n inf",
-                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 4.83
+        "unique_names": 3,
+        "public_games": 4,
+        "average_name_length": 3.33
     }
 }
