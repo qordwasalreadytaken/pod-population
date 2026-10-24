@@ -1,23 +1,23 @@
 {
-    "timestamp": "2026-10-24T22:46:00+00:00",
+    "timestamp": "2026-10-24T23:03:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 3
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 3
+        "2|0": 2
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 2
+            "name": "Cows",
+            "count": 1
         },
         {
-            "name": "Cows",
+            "name": "Other",
             "count": 1
         },
         {
@@ -27,11 +27,11 @@
     ],
     "top_games": [
         {
-            "name": "k",
-            "count": 2
+            "name": "hcow",
+            "count": 1
         },
         {
-            "name": "hcow",
+            "name": "k",
             "count": 1
         },
         {
@@ -42,7 +42,7 @@
     "unknown_games": [
         {
             "normalized": "k",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "k"
             ]
@@ -66,7 +66,7 @@
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 4,
+        "public_games": 3,
         "average_name_length": 2.67
     }
 }
