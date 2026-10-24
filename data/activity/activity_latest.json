@@ -1,66 +1,56 @@
 {
-    "timestamp": "2026-10-24T21:33:00+00:00",
+    "timestamp": "2026-10-24T21:46:00+00:00",
     "difficulty": {
         "2": 4
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 3
+        "2|0": 4
     },
     "activities": [
         {
-            "name": "Cows",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
-        },
-        {
-            "name": "Trade",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "hcow",
-            "count": 1
+            "name": "k",
+            "count": 2
         },
         {
-            "name": "k",
+            "name": "n ias allr jew",
             "count": 1
         },
         {
             "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "n ias allr jew",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "k",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "k"
             ]
         }
     ],
     "classified_games": {
-        "Cows": [
+        "Trade": [
             {
-                "name": "hcow",
-                "matched": "cow",
+                "name": "n ias allr jew",
+                "matched": "n",
                 "count": 1
             }
         ],
@@ -70,18 +60,11 @@
                 "matched": "asd",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "n ias allr jew",
-                "matched": "n",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
+        "unique_names": 3,
         "public_games": 4,
-        "average_name_length": 5.5
+        "average_name_length": 6.0
     }
 }
