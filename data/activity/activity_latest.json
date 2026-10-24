@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-10-24T13:46:00+00:00",
+    "timestamp": "2026-10-24T14:04:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 5,
         "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 4,
+        "2|0": 5,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Trade",
@@ -27,11 +27,15 @@
     ],
     "top_games": [
         {
-            "name": "n nect o palyt",
+            "name": "1227",
             "count": 1
         },
         {
-            "name": "1225",
+            "name": "n nec t o paly",
+            "count": 1
+        },
+        {
+            "name": "1226",
             "count": 1
         },
         {
@@ -50,9 +54,10 @@
     "unknown_games": [
         {
             "normalized": "#",
-            "count": 2,
+            "count": 4,
             "examples": [
-                "1225"
+                "1226",
+                "1227"
             ]
         },
         {
@@ -73,7 +78,7 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "n nect o palyt",
+                "name": "n nec t o paly",
                 "matched": "n",
                 "count": 1
             }
@@ -87,8 +92,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.0
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 5.67
     }
 }
