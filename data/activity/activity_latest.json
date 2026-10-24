@@ -1,25 +1,31 @@
 {
-    "timestamp": "2026-10-24T17:32:00+00:00",
+    "timestamp": "2026-10-24T17:46:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 1
+        "2": 6,
+        "1": 1,
+        "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 7
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 2,
-        "1|0": 1
+        "2|0": 5,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 5
         },
         {
             "name": "Cows",
+            "count": 1
+        },
+        {
+            "name": "Trade",
             "count": 1
         },
         {
@@ -30,23 +36,49 @@
     "top_games": [
         {
             "name": "k",
-            "count": 2
+            "count": 3
         },
         {
             "name": "hcow",
             "count": 1
         },
         {
+            "name": "n ias allr jew",
+            "count": 1
+        },
+        {
+            "name": "1221",
+            "count": 1
+        },
+        {
             "name": "gord",
+            "count": 1
+        },
+        {
+            "name": "aw",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "k",
-            "count": 4,
+            "count": 6,
             "examples": [
                 "k"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "1221"
+            ]
+        },
+        {
+            "normalized": "aw",
+            "count": 2,
+            "examples": [
+                "aw"
             ]
         }
     ],
@@ -55,6 +87,13 @@
             {
                 "name": "hcow",
                 "matched": "cow",
+                "count": 1
+            }
+        ],
+        "Trade": [
+            {
+                "name": "n ias allr jew",
+                "matched": "n",
                 "count": 1
             }
         ],
@@ -67,8 +106,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 4,
-        "average_name_length": 3.0
+        "unique_names": 6,
+        "public_games": 8,
+        "average_name_length": 4.83
     }
 }
