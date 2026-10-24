@@ -676,7 +676,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "torch",
+            "matched": "buy",
             "count": 12
         },
         {
@@ -2898,7 +2898,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "andar",
+            "matched": "act",
             "count": 12
         },
         {
@@ -3003,7 +3003,7 @@
         },
         {
             "name": "act 2 - normal",
-            "matched": "norm",
+            "matched": "act",
             "count": 6
         },
         {
@@ -3023,7 +3023,7 @@
         },
         {
             "name": "act 2 start",
-            "matched": "start",
+            "matched": "act",
             "count": 6
         },
         {
@@ -3033,7 +3033,7 @@
         },
         {
             "name": "act norm",
-            "matched": "norm",
+            "matched": "act",
             "count": 6
         },
         {
@@ -3083,7 +3083,7 @@
         },
         {
             "name": "tristnorm",
-            "matched": "trist",
+            "matched": "norm",
             "count": 5
         },
         {
@@ -3143,7 +3143,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "start",
+            "matched": "act",
             "count": 3
         },
         {
@@ -3188,7 +3188,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "leveli",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -3228,7 +3228,7 @@
         },
         {
             "name": "normal act",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -3253,7 +3253,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "exp",
+            "matched": "act",
             "count": 2
         },
         {
@@ -3418,7 +3418,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "norm",
+            "matched": "tomb",
             "count": 1
         },
         {
@@ -3443,7 +3443,7 @@
         },
         {
             "name": "act start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -3558,7 +3558,7 @@
         },
         {
             "name": "1act - normal",
-            "matched": "norm",
+            "matched": "act",
             "count": 1
         },
         {
@@ -3598,7 +3598,7 @@
         },
         {
             "name": "act normies",
-            "matched": "norm",
+            "matched": "act",
             "count": 1
         }
     ],
@@ -3833,7 +3833,7 @@
         {
             "name": "ted",
             "matched": "ted",
-            "count": 40
+            "count": 41
         },
         {
             "name": "run",
@@ -4572,7 +4572,7 @@
         },
         {
             "name": "asdsd36aaaa",
-            "matched": "asd",
+            "matched": "aaa",
             "count": 2
         },
         {
@@ -4757,7 +4757,7 @@
         },
         {
             "name": "saaasd",
-            "matched": "asd",
+            "matched": "aaa",
             "count": 2
         },
         {
@@ -5012,7 +5012,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "mf",
+            "matched": "run",
             "count": 1
         },
         {
@@ -5894,6 +5894,11 @@
             "name": "qwfasdf",
             "matched": "asd",
             "count": 1
+        },
+        {
+            "name": "121235",
+            "matched": "123",
+            "count": 1
         }
     ],
     "Chaos": [
@@ -6236,7 +6241,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 7
         },
         {
@@ -6251,7 +6256,7 @@
         },
         {
             "name": "maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 6
         },
         {
@@ -6291,7 +6296,7 @@
         },
         {
             "name": "desert maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 5
         },
         {
@@ -6301,7 +6306,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "map",
+            "matched": "mapping",
             "count": 4
         },
         {
@@ -6326,7 +6331,7 @@
         },
         {
             "name": "public maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 4
         },
         {
@@ -6386,7 +6391,7 @@
         },
         {
             "name": "slow maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 3
         },
         {
@@ -6436,12 +6441,12 @@
         },
         {
             "name": "t maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 2
         },
         {
             "name": "t maps 2",
-            "matched": "map",
+            "matched": "maps",
             "count": 2
         },
         {
@@ -6496,12 +6501,12 @@
         },
         {
             "name": "mapping 2",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
             "name": "maps?2",
-            "matched": "map",
+            "matched": "maps",
             "count": 1
         },
         {
@@ -6511,7 +6516,7 @@
         },
         {
             "name": "mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -6521,7 +6526,7 @@
         },
         {
             "name": "maps 3",
-            "matched": "map",
+            "matched": "maps",
             "count": 1
         },
         {
@@ -6563,17 +6568,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
