@@ -1,19 +1,15 @@
 {
-    "timestamp": "2026-10-24T10:04:00+00:00",
+    "timestamp": "2026-10-24T10:22:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 1
     },
     "mode": {
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 1
     },
     "activities": [
-        {
-            "name": "Trade",
-            "count": 1
-        },
         {
             "name": "Other",
             "count": 1
@@ -21,35 +17,23 @@
     ],
     "top_games": [
         {
-            "name": "n trangoul helm",
-            "count": 1
-        },
-        {
-            "name": "afersd",
+            "name": "frwaersdc",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "afersd",
+            "normalized": "frwaersdc",
             "count": 2,
             "examples": [
-                "afersd"
+                "frwaersdc"
             ]
         }
     ],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "n trangoul helm",
-                "matched": "n",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 10.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 9.0
     }
 }
