@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-24T14:33:00+00:00",
+    "timestamp": "2026-10-24T14:46:00+00:00",
     "difficulty": {
         "2": 3,
         "1": 2,
@@ -19,25 +19,21 @@
             "count": 3
         },
         {
-            "name": "Leveling",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
             "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "1230",
+            "name": "k",
             "count": 1
         },
         {
-            "name": "acte hell",
+            "name": "1230",
             "count": 1
         },
         {
@@ -58,6 +54,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "k",
+            "count": 2,
+            "examples": [
+                "k"
+            ]
+        },
         {
             "normalized": "#",
             "count": 2,
@@ -84,13 +87,6 @@
                 "count": 1
             }
         ],
-        "Leveling": [
-            {
-                "name": "acte hell",
-                "matched": "act",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "o zodcham n inf",
@@ -102,6 +98,6 @@
     "interesting": {
         "unique_names": 6,
         "public_games": 6,
-        "average_name_length": 6.17
+        "average_name_length": 4.83
     }
 }
