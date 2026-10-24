@@ -1,33 +1,33 @@
 {
-    "timestamp": "2026-10-24T18:39:00+00:00",
+    "timestamp": "2026-10-24T18:49:00+00:00",
     "difficulty": {
         "2": 6,
         "1": 2
     },
     "mode": {
-        "1": 2,
-        "0": 6
+        "1": 1,
+        "0": 7
     },
     "difficulty_mode": {
-        "2|1": 2,
-        "2|0": 4,
+        "2|1": 1,
+        "2|0": 5,
         "1|0": 2
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 3
         },
         {
-            "name": "Cows",
-            "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 2
-        },
-        {
             "name": "Trade",
+            "count": 2
+        },
+        {
+            "name": "Other",
+            "count": 2
+        },
+        {
+            "name": "Cows",
             "count": 1
         }
     ],
@@ -37,7 +37,7 @@
             "count": 1
         },
         {
-            "name": "hcow",
+            "name": "n nect o pal t",
             "count": 1
         },
         {
@@ -57,11 +57,11 @@
             "count": 1
         },
         {
-            "name": "gord",
+            "name": "ted",
             "count": 1
         },
         {
-            "name": "grow",
+            "name": "gord",
             "count": 1
         }
     ],
@@ -79,13 +79,6 @@
             "examples": [
                 "stoned"
             ]
-        },
-        {
-            "normalized": "grow",
-            "count": 2,
-            "examples": [
-                "grow"
-            ]
         }
     ],
     "classified_games": {
@@ -94,10 +87,17 @@
                 "name": "hcows",
                 "matched": "cows",
                 "count": 1
+            }
+        ],
+        "Trade": [
+            {
+                "name": "n nect o pal t",
+                "matched": "n",
+                "count": 1
             },
             {
-                "name": "hcow",
-                "matched": "cow",
+                "name": "n ias allr jew",
+                "matched": "n",
                 "count": 1
             }
         ],
@@ -108,15 +108,13 @@
                 "count": 1
             },
             {
+                "name": "ted",
+                "matched": "ted",
+                "count": 1
+            },
+            {
                 "name": "gord",
                 "matched": "gord",
-                "count": 1
-            }
-        ],
-        "Trade": [
-            {
-                "name": "n ias allr jew",
-                "matched": "n",
                 "count": 1
             }
         ]
@@ -124,6 +122,6 @@
     "interesting": {
         "unique_names": 8,
         "public_games": 8,
-        "average_name_length": 5.38
+        "average_name_length": 6.5
     }
 }
