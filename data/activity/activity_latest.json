@@ -1,30 +1,30 @@
 {
-    "timestamp": "2026-10-24T18:26:00+00:00",
+    "timestamp": "2026-10-24T18:39:00+00:00",
     "difficulty": {
-        "2": 5,
-        "0": 2
+        "2": 6,
+        "1": 2
     },
     "mode": {
-        "1": 1,
+        "1": 2,
         "0": 6
     },
     "difficulty_mode": {
-        "2|1": 1,
+        "2|1": 2,
         "2|0": 4,
-        "0|0": 2
+        "1|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 3
         },
         {
             "name": "Cows",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Trade",
@@ -33,7 +33,15 @@
     ],
     "top_games": [
         {
+            "name": "hcows",
+            "count": 1
+        },
+        {
             "name": "hcow",
+            "count": 1
+        },
+        {
+            "name": "awf",
             "count": 1
         },
         {
@@ -45,23 +53,26 @@
             "count": 1
         },
         {
-            "name": "1222",
-            "count": 1
-        },
-        {
             "name": "n ias allr jew",
             "count": 1
         },
         {
-            "name": "adw",
+            "name": "gord",
             "count": 1
         },
         {
-            "name": "aw",
+            "name": "grow",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "awf",
+            "count": 2,
+            "examples": [
+                "awf"
+            ]
+        },
         {
             "normalized": "stoned",
             "count": 2,
@@ -70,29 +81,20 @@
             ]
         },
         {
-            "normalized": "#",
+            "normalized": "grow",
             "count": 2,
             "examples": [
-                "1222"
-            ]
-        },
-        {
-            "normalized": "adw",
-            "count": 2,
-            "examples": [
-                "adw"
-            ]
-        },
-        {
-            "normalized": "aw",
-            "count": 2,
-            "examples": [
-                "aw"
+                "grow"
             ]
         }
     ],
     "classified_games": {
         "Cows": [
+            {
+                "name": "hcows",
+                "matched": "cows",
+                "count": 1
+            },
             {
                 "name": "hcow",
                 "matched": "cow",
@@ -103,6 +105,11 @@
             {
                 "name": "asd",
                 "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "gord",
+                "matched": "gord",
                 "count": 1
             }
         ],
@@ -115,8 +122,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 5.14
+        "unique_names": 8,
+        "public_games": 8,
+        "average_name_length": 5.38
     }
 }
