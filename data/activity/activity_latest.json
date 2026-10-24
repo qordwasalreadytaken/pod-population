@@ -1,21 +1,19 @@
 {
-    "timestamp": "2026-10-24T20:46:00+00:00",
+    "timestamp": "2026-10-24T21:04:00+00:00",
     "difficulty": {
-        "2": 7
+        "2": 4,
+        "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 6
+        "0": 4
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 6
+        "2|0": 3,
+        "0|0": 1
     },
     "activities": [
-        {
-            "name": "Other",
-            "count": 3
-        },
         {
             "name": "Misc. Public MF Runs",
             "count": 2
@@ -27,6 +25,10 @@
         {
             "name": "Trade",
             "count": 1
+        },
+        {
+            "name": "Other",
+            "count": 1
         }
     ],
     "top_games": [
@@ -35,19 +37,7 @@
             "count": 1
         },
         {
-            "name": "fdhhfd",
-            "count": 1
-        },
-        {
             "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "beer",
-            "count": 1
-        },
-        {
-            "name": "12v",
             "count": 1
         },
         {
@@ -57,28 +47,18 @@
         {
             "name": "n ias allr jew",
             "count": 1
+        },
+        {
+            "name": "asa",
+            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "fdhhfd",
+            "normalized": "asa",
             "count": 2,
             "examples": [
-                "fdhhfd"
-            ]
-        },
-        {
-            "normalized": "beer",
-            "count": 2,
-            "examples": [
-                "beer"
-            ]
-        },
-        {
-            "normalized": "#v",
-            "count": 2,
-            "examples": [
-                "12v"
+                "asa"
             ]
         }
     ],
@@ -111,8 +91,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 5.57
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 5.8
     }
 }
