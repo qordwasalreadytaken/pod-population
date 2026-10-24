@@ -1,19 +1,15 @@
 {
-    "timestamp": "2026-10-24T19:18:00+00:00",
+    "timestamp": "2026-10-24T19:32:00+00:00",
     "difficulty": {
         "2": 5,
-        "1": 2,
-        "0": 1
+        "1": 1
     },
     "mode": {
-        "1": 1,
-        "0": 7
+        "0": 6
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 4,
-        "1|0": 2,
-        "0|0": 1
+        "2|0": 5,
+        "1|0": 1
     },
     "activities": [
         {
@@ -21,29 +17,21 @@
             "count": 3
         },
         {
-            "name": "Trade",
-            "count": 2
-        },
-        {
             "name": "Other",
             "count": 2
         },
         {
-            "name": "Cows",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "hcows",
-            "count": 1
-        },
-        {
-            "name": "n nec t o pal",
-            "count": 1
-        },
-        {
             "name": "asd",
+            "count": 2
+        },
+        {
+            "name": "awdw",
             "count": 1
         },
         {
@@ -57,73 +45,48 @@
         {
             "name": "ted",
             "count": 1
-        },
-        {
-            "name": "gord",
-            "count": 1
-        },
-        {
-            "name": "fasfasfzxfzxfzx",
-            "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "awdw",
+            "count": 2,
+            "examples": [
+                "awdw"
+            ]
+        },
         {
             "normalized": "stoned",
             "count": 2,
             "examples": [
                 "stoned"
             ]
-        },
-        {
-            "normalized": "fasfasfzxfzxfzx",
-            "count": 2,
-            "examples": [
-                "fasfasfzxfzxfzx"
-            ]
         }
     ],
     "classified_games": {
-        "Cows": [
-            {
-                "name": "hcows",
-                "matched": "cow",
-                "count": 1
-            }
-        ],
-        "Trade": [
-            {
-                "name": "n nec t o pal",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "n ias allr jew",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             },
             {
                 "name": "ted",
                 "matched": "ted",
                 "count": 1
-            },
+            }
+        ],
+        "Trade": [
             {
-                "name": "gord",
-                "matched": "gord",
+                "name": "n ias allr jew",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 8,
-        "average_name_length": 7.88
+        "unique_names": 5,
+        "public_games": 6,
+        "average_name_length": 6.0
     }
 }
