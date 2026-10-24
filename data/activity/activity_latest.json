@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-10-24T22:33:00+00:00",
+    "timestamp": "2026-10-24T22:46:00+00:00",
     "difficulty": {
-        "2": 5
+        "2": 4
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 4
+        "2|0": 3
     },
     "activities": [
         {
@@ -21,29 +21,17 @@
             "count": 1
         },
         {
-            "name": "Trade",
-            "count": 1
-        },
-        {
             "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "hcow",
-            "count": 1
-        },
-        {
             "name": "k",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "fgfnm",
-            "count": 1
-        },
-        {
-            "name": "n ias allr jew",
+            "name": "hcow",
             "count": 1
         },
         {
@@ -54,16 +42,9 @@
     "unknown_games": [
         {
             "normalized": "k",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "k"
-            ]
-        },
-        {
-            "normalized": "fgfnm",
-            "count": 2,
-            "examples": [
-                "fgfnm"
             ]
         }
     ],
@@ -72,13 +53,6 @@
             {
                 "name": "hcow",
                 "matched": "cow",
-                "count": 1
-            }
-        ],
-        "Trade": [
-            {
-                "name": "n ias allr jew",
-                "matched": "n",
                 "count": 1
             }
         ],
@@ -91,8 +65,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 5.4
+        "unique_names": 3,
+        "public_games": 4,
+        "average_name_length": 2.67
     }
 }
