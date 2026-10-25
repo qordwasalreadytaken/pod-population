@@ -1,22 +1,24 @@
 {
-    "timestamp": "2026-10-25T10:46:00+00:00",
+    "timestamp": "2026-10-25T11:04:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 4,
+        "1": 1,
         "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "1": 2,
+        "0": 4
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 2,
+        "1|1": 1,
+        "2|0": 3,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 4
         },
         {
             "name": "Cows",
@@ -33,6 +35,14 @@
             "count": 1
         },
         {
+            "name": "5",
+            "count": 1
+        },
+        {
+            "name": "qt5wsgtrf",
+            "count": 1
+        },
+        {
             "name": "asd",
             "count": 1
         },
@@ -46,6 +56,20 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "5"
+            ]
+        },
+        {
+            "normalized": "qt#wsgtrf",
+            "count": 2,
+            "examples": [
+                "qt5wsgtrf"
+            ]
+        },
         {
             "normalized": "niasallr#phys",
             "count": 2,
@@ -78,8 +102,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.75
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 6.17
     }
 }
