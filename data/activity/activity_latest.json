@@ -1,20 +1,22 @@
 {
-    "timestamp": "2026-10-25T21:20:00+00:00",
+    "timestamp": "2026-10-25T21:33:00+00:00",
     "difficulty": {
-        "2": 6,
-        "0": 1
+        "2": 7
     },
     "mode": {
         "0": 7
     },
     "difficulty_mode": {
-        "2|0": 6,
-        "0|0": 1
+        "2|0": 7
     },
     "activities": [
         {
             "name": "Other",
-            "count": 6
+            "count": 5
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         },
         {
             "name": "Trade",
@@ -27,15 +29,15 @@
             "count": 4
         },
         {
+            "name": "asd",
+            "count": 1
+        },
+        {
             "name": "niasallr55phys",
             "count": 1
         },
         {
             "name": "n 5-5 fire cold",
-            "count": 1
-        },
-        {
-            "name": "umbrah",
             "count": 1
         }
     ],
@@ -53,16 +55,16 @@
             "examples": [
                 "niasallr55phys"
             ]
-        },
-        {
-            "normalized": "umbrah",
-            "count": 2,
-            "examples": [
-                "umbrah"
-            ]
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n 5-5 fire cold",
@@ -74,6 +76,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 7,
-        "average_name_length": 9.0
+        "average_name_length": 8.25
     }
 }
