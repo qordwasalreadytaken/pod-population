@@ -1,38 +1,34 @@
 {
-    "timestamp": "2026-10-25T21:04:00+00:00",
+    "timestamp": "2026-10-25T21:20:00+00:00",
     "difficulty": {
-        "2": 7,
+        "2": 6,
         "0": 1
     },
     "mode": {
-        "0": 8
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 7,
+        "2|0": 6,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 6
         },
         {
             "name": "Trade",
-            "count": 3
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "niasallr55phys",
-            "count": 2
-        },
-        {
             "name": "k",
-            "count": 2
+            "count": 4
         },
         {
-            "name": "n cateye clean",
-            "count": 2
+            "name": "niasallr55phys",
+            "count": 1
         },
         {
             "name": "n 5-5 fire cold",
@@ -45,17 +41,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "niasallr#phys",
-            "count": 4,
+            "normalized": "k",
+            "count": 8,
             "examples": [
-                "niasallr55phys"
+                "k"
             ]
         },
         {
-            "normalized": "k",
-            "count": 4,
+            "normalized": "niasallr#phys",
+            "count": 2,
             "examples": [
-                "k"
+                "niasallr55phys"
             ]
         },
         {
@@ -69,11 +65,6 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "n cateye clean",
-                "matched": "n",
-                "count": 2
-            },
-            {
                 "name": "n 5-5 fire cold",
                 "matched": "n",
                 "count": 1
@@ -81,8 +72,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 8,
-        "average_name_length": 10.0
+        "unique_names": 4,
+        "public_games": 7,
+        "average_name_length": 9.0
     }
 }
