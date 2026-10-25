@@ -1,27 +1,22 @@
 {
-    "timestamp": "2026-10-25T11:46:00+00:00",
+    "timestamp": "2026-10-25T12:06:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 3
+        "0": 3,
+        "2": 1
     },
     "mode": {
-        "1": 2,
-        "0": 4
+        "1": 1,
+        "0": 3
     },
     "difficulty_mode": {
-        "2|1": 1,
         "0|1": 1,
-        "2|0": 2,
+        "2|0": 1,
         "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Cows",
-            "count": 1
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
@@ -30,15 +25,7 @@
     ],
     "top_games": [
         {
-            "name": "hcow",
-            "count": 1
-        },
-        {
             "name": "wikid klownz",
-            "count": 1
-        },
-        {
-            "name": "tgrtyy",
             "count": 1
         },
         {
@@ -63,13 +50,6 @@
             ]
         },
         {
-            "normalized": "tgrtyy",
-            "count": 2,
-            "examples": [
-                "tgrtyy"
-            ]
-        },
-        {
             "normalized": "a-#",
             "count": 2,
             "examples": [
@@ -85,13 +65,6 @@
         }
     ],
     "classified_games": {
-        "Cows": [
-            {
-                "name": "hcow",
-                "matched": "cow",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
@@ -101,8 +74,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 5.67
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 6.0
     }
 }
