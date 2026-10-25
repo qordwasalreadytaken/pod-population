@@ -1,21 +1,23 @@
 {
-    "timestamp": "2026-10-25T01:03:00+00:00",
+    "timestamp": "2026-10-25T01:34:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 2,
+        "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -27,6 +29,10 @@
         {
             "name": "coffee",
             "count": 1
+        },
+        {
+            "name": "wikid klownz",
+            "count": 1
         }
     ],
     "unknown_games": [
@@ -35,6 +41,13 @@
             "count": 2,
             "examples": [
                 "coffee"
+            ]
+        },
+        {
+            "normalized": "wikid klownz",
+            "count": 2,
+            "examples": [
+                "wikid klownz"
             ]
         }
     ],
@@ -48,8 +61,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 4.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 7.0
     }
 }
