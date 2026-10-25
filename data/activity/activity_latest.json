@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-25T23:32:00+00:00",
+    "timestamp": "2026-10-25T23:46:00+00:00",
     "difficulty": {
         "2": 5
     },
@@ -11,11 +11,11 @@
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 2
         },
         {
@@ -25,19 +25,15 @@
     ],
     "top_games": [
         {
+            "name": "asd",
+            "count": 2
+        },
+        {
             "name": "niasallr55phys",
             "count": 1
         },
         {
             "name": "lvv",
-            "count": 1
-        },
-        {
-            "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "gord",
             "count": 1
         },
         {
@@ -66,12 +62,7 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
+                "count": 2
             }
         ],
         "Chaos": [
@@ -83,8 +74,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
+        "unique_names": 4,
         "public_games": 5,
-        "average_name_length": 7.4
+        "average_name_length": 8.25
     }
 }
