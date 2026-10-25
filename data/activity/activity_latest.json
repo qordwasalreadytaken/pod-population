@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-10-25T12:30:00+00:00",
+    "timestamp": "2026-10-25T12:52:00+00:00",
     "difficulty": {
         "2": 2,
-        "0": 2
+        "0": 3
     },
     "mode": {
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
         "2|0": 2,
-        "0|0": 2
+        "0|0": 3
     },
     "activities": [
         {
@@ -18,6 +18,10 @@
         },
         {
             "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
+            "name": "Leveling",
             "count": 1
         }
     ],
@@ -28,6 +32,10 @@
         },
         {
             "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "new start",
             "count": 1
         },
         {
@@ -69,11 +77,18 @@
                 "matched": "asd",
                 "count": 1
             }
+        ],
+        "Leveling": [
+            {
+                "name": "new start",
+                "matched": "start",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.5
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 7.0
     }
 }
