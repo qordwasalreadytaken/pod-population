@@ -1,29 +1,37 @@
 {
-    "timestamp": "2026-10-25T17:32:00+00:00",
+    "timestamp": "2026-10-25T17:46:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
-    },
-    "mode": {
+        "2": 2,
         "0": 2
     },
+    "mode": {
+        "0": 4
+    },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 1
+        "2|0": 2,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Trade",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
+            "name": "n cat eye clean",
+            "count": 1
+        },
+        {
             "name": "n clean cat eye",
+            "count": 1
+        },
+        {
+            "name": "umbrah",
             "count": 1
         },
         {
@@ -32,6 +40,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "umbrah",
+            "count": 2,
+            "examples": [
+                "umbrah"
+            ]
+        },
         {
             "normalized": "a-#",
             "count": 2,
@@ -43,6 +58,11 @@
     "classified_games": {
         "Trade": [
             {
+                "name": "n cat eye clean",
+                "matched": "n",
+                "count": 1
+            },
+            {
                 "name": "n clean cat eye",
                 "matched": "n",
                 "count": 1
@@ -50,8 +70,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 9.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 9.75
     }
 }
