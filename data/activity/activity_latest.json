@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-25T15:04:00+00:00",
+    "timestamp": "2026-10-25T15:21:00+00:00",
     "difficulty": {
         "2": 3
     },
@@ -11,17 +11,17 @@
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "onek",
+            "name": "asdsd",
             "count": 1
         },
         {
@@ -35,13 +35,6 @@
     ],
     "unknown_games": [
         {
-            "normalized": "onek",
-            "count": 2,
-            "examples": [
-                "onek"
-            ]
-        },
-        {
             "normalized": "niasallr#phys",
             "count": 2,
             "examples": [
@@ -52,6 +45,11 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
+                "name": "asdsd",
+                "matched": "asd",
+                "count": 1
+            },
+            {
                 "name": "ted",
                 "matched": "ted",
                 "count": 1
@@ -61,6 +59,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 7.0
+        "average_name_length": 7.33
     }
 }
