@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-25T08:06:00+00:00",
+    "timestamp": "2026-10-25T08:28:00+00:00",
     "difficulty": {
         "2": 2
     },
@@ -17,27 +17,27 @@
     ],
     "top_games": [
         {
-            "name": "niasallr55phys",
+            "name": "wf",
             "count": 1
         },
         {
-            "name": "lvv",
+            "name": "niasallr55phys",
             "count": 1
         }
     ],
     "unknown_games": [
         {
+            "normalized": "wf",
+            "count": 2,
+            "examples": [
+                "wf"
+            ]
+        },
+        {
             "normalized": "niasallr#phys",
             "count": 2,
             "examples": [
                 "niasallr55phys"
-            ]
-        },
-        {
-            "normalized": "lvv",
-            "count": 2,
-            "examples": [
-                "lvv"
             ]
         }
     ],
@@ -45,6 +45,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 8.5
+        "average_name_length": 8.0
     }
 }
