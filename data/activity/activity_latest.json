@@ -1,25 +1,29 @@
 {
-    "timestamp": "2026-10-25T16:24:00+00:00",
+    "timestamp": "2026-10-25T16:36:00+00:00",
     "difficulty": {
         "2": 1,
-        "0": 1
+        "0": 2
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
         "2|0": 1,
-        "0|0": 1
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         }
     ],
     "top_games": [
         {
             "name": "niasallr55phys",
+            "count": 1
+        },
+        {
+            "name": "a-3",
             "count": 1
         },
         {
@@ -36,6 +40,13 @@
             ]
         },
         {
+            "normalized": "a-#",
+            "count": 2,
+            "examples": [
+                "a-3"
+            ]
+        },
+        {
             "normalized": "qwdqdw",
             "count": 2,
             "examples": [
@@ -45,8 +56,8 @@
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 10.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 7.67
     }
 }
