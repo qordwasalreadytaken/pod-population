@@ -1,16 +1,14 @@
 {
-    "timestamp": "2026-10-25T12:06:00+00:00",
+    "timestamp": "2026-10-25T12:30:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 1
+        "2": 2,
+        "0": 2
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 1,
+        "2|0": 2,
         "0|0": 2
     },
     "activities": [
@@ -25,7 +23,7 @@
     ],
     "top_games": [
         {
-            "name": "wikid klownz",
+            "name": "niasallr55phys",
             "count": 1
         },
         {
@@ -33,7 +31,7 @@
             "count": 1
         },
         {
-            "name": "a-2",
+            "name": "a-3",
             "count": 1
         },
         {
@@ -43,17 +41,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "wikid klownz",
+            "normalized": "niasallr#phys",
             "count": 2,
             "examples": [
-                "wikid klownz"
+                "niasallr55phys"
             ]
         },
         {
             "normalized": "a-#",
             "count": 2,
             "examples": [
-                "a-2"
+                "a-3"
             ]
         },
         {
@@ -76,6 +74,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 6.0
+        "average_name_length": 6.5
     }
 }
