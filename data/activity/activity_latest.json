@@ -1,39 +1,66 @@
 {
-    "timestamp": "2026-10-26T07:54:00+00:00",
+    "timestamp": "2026-10-26T08:13:00+00:00",
     "difficulty": {
-        "2": 1
+        "2": 4
     },
     "mode": {
-        "0": 1
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 1
+        "2|0": 4
     },
     "activities": [
         {
+            "name": "Other",
+            "count": 2
+        },
+        {
             "name": "Trade",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
             "name": "n all 5-5 facet",
+            "count": 2
+        },
+        {
+            "name": "niasallr55phys",
+            "count": 1
+        },
+        {
+            "name": "kami",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "niasallr#phys",
+            "count": 2,
+            "examples": [
+                "niasallr55phys"
+            ]
+        },
+        {
+            "normalized": "kami",
+            "count": 2,
+            "examples": [
+                "kami"
+            ]
+        }
+    ],
     "classified_games": {
         "Trade": [
             {
                 "name": "n all 5-5 facet",
                 "matched": "n",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 15.0
+        "unique_names": 3,
+        "public_games": 4,
+        "average_name_length": 11.0
     }
 }
