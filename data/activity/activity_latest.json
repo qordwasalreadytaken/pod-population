@@ -1,32 +1,25 @@
 {
-    "timestamp": "2026-10-26T10:51:00+00:00",
+    "timestamp": "2026-10-26T11:05:00+00:00",
     "difficulty": {
-        "1": 1,
-        "2": 4
+        "2": 3
     },
     "mode": {
-        "1": 1,
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "2|0": 4
+        "2|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Trade",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "qe",
-            "count": 1
-        },
         {
             "name": "1221",
             "count": 1
@@ -36,22 +29,11 @@
             "count": 1
         },
         {
-            "name": "lmk what u need",
-            "count": 1
-        },
-        {
             "name": "niasallr55phys",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "qe",
-            "count": 2,
-            "examples": [
-                "qe"
-            ]
-        },
         {
             "normalized": "#",
             "count": 2,
@@ -73,17 +55,12 @@
                 "name": "n guilulam face",
                 "matched": "n",
                 "count": 1
-            },
-            {
-                "name": "lmk what u need",
-                "matched": "lmk",
-                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 10.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 11.0
     }
 }
