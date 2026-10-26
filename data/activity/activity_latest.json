@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-26T22:49:00+00:00",
+    "timestamp": "2026-10-26T23:04:00+00:00",
     "difficulty": {
         "2": 3
     },
@@ -11,8 +11,12 @@
     },
     "activities": [
         {
+            "name": "Other",
+            "count": 1
+        },
+        {
             "name": "Maps",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
@@ -21,21 +25,33 @@
     ],
     "top_games": [
         {
+            "name": "godzilla",
+            "count": 1
+        },
+        {
             "name": "maps",
-            "count": 2
+            "count": 1
         },
         {
             "name": "gord",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "godzilla",
+            "count": 2,
+            "examples": [
+                "godzilla"
+            ]
+        }
+    ],
     "classified_games": {
         "Maps": [
             {
                 "name": "maps",
-                "matched": "maps",
-                "count": 2
+                "matched": "map",
+                "count": 1
             }
         ],
         "Misc. Public MF Runs": [
@@ -47,8 +63,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
+        "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 4.0
+        "average_name_length": 5.33
     }
 }
