@@ -1,42 +1,50 @@
 {
-    "timestamp": "2026-10-26T19:00:00+00:00",
+    "timestamp": "2026-10-26T19:23:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 2,
         "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
+        {
+            "name": "Other",
+            "count": 1
+        },
         {
             "name": "Trade",
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "kami",
+            "count": 1
+        },
+        {
             "name": "n cat eye clean",
             "count": 1
         },
         {
-            "name": "12",
+            "name": "start",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "#",
+            "normalized": "kami",
             "count": 2,
             "examples": [
-                "12"
+                "kami"
             ]
         }
     ],
@@ -47,11 +55,18 @@
                 "matched": "n",
                 "count": 1
             }
+        ],
+        "Leveling": [
+            {
+                "name": "start",
+                "matched": "start",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 8.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 8.0
     }
 }
