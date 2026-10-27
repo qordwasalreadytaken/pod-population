@@ -1,31 +1,33 @@
 {
-    "timestamp": "2026-10-27T17:03:00+00:00",
+    "timestamp": "2026-10-27T17:18:00+00:00",
     "difficulty": {
-        "0": 4,
-        "1": 1
-    },
-    "mode": {
         "1": 1,
         "0": 4
     },
+    "mode": {
+        "0": 5
+    },
     "difficulty_mode": {
-        "0|1": 1,
         "1|0": 1,
-        "0|0": 3
+        "0|0": 4
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 4
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "wikid klownz",
+            "name": "a night",
             "count": 1
         },
         {
-            "name": "a night",
+            "name": "new start",
             "count": 1
         },
         {
@@ -51,13 +53,6 @@
             ]
         },
         {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
-            ]
-        },
-        {
             "normalized": "a night",
             "count": 2,
             "examples": [
@@ -72,10 +67,18 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Leveling": [
+            {
+                "name": "new start",
+                "matched": "start",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
         "unique_names": 5,
         "public_games": 5,
-        "average_name_length": 5.4
+        "average_name_length": 4.8
     }
 }
