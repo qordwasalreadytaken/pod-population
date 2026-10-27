@@ -1,13 +1,15 @@
 {
-    "timestamp": "2026-10-27T18:21:00+00:00",
+    "timestamp": "2026-10-27T18:32:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 1,
+        "0": 1
     },
     "mode": {
         "0": 2
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
@@ -25,16 +27,16 @@
             "count": 1
         },
         {
-            "name": "lvv",
+            "name": "114",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "lvv",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "lvv"
+                "114"
             ]
         }
     ],
