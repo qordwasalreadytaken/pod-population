@@ -1,24 +1,20 @@
 {
-    "timestamp": "2026-10-27T21:46:00+00:00",
+    "timestamp": "2026-10-27T22:03:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 2,
         "0": 2
     },
     "mode": {
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 2,
         "0|0": 2
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
             "count": 2
-        },
-        {
-            "name": "Trade",
-            "count": 1
         },
         {
             "name": "Other",
@@ -31,15 +27,11 @@
     ],
     "top_games": [
         {
+            "name": "gord",
+            "count": 1
+        },
+        {
             "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "asdd",
-            "count": 1
-        },
-        {
-            "name": "n clean cat eye",
             "count": 1
         },
         {
@@ -63,20 +55,13 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
-                "matched": "asd",
+                "name": "gord",
+                "matched": "gord",
                 "count": 1
             },
             {
-                "name": "asdd",
+                "name": "asd",
                 "matched": "asd",
-                "count": 1
-            }
-        ],
-        "Trade": [
-            {
-                "name": "n clean cat eye",
-                "matched": "n",
                 "count": 1
             }
         ],
@@ -89,8 +74,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.2
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 4.0
     }
 }
