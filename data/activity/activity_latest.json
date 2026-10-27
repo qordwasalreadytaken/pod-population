@@ -1,41 +1,31 @@
 {
-    "timestamp": "2026-10-27T00:12:00+00:00",
+    "timestamp": "2026-10-27T00:59:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "2": 3
     },
     "mode": {
         "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "0|0": 1
+        "2|0": 3
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Maps",
-            "count": 1
-        },
-        {
-            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "asd",
-            "count": 1
+            "count": 2
         },
         {
             "name": "maps",
-            "count": 1
-        },
-        {
-            "name": "lets walk",
             "count": 1
         }
     ],
@@ -45,7 +35,7 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             }
         ],
         "Maps": [
@@ -54,18 +44,11 @@
                 "matched": "map",
                 "count": 1
             }
-        ],
-        "Leveling": [
-            {
-                "name": "lets walk",
-                "matched": "walk",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 3,
+        "unique_names": 2,
         "public_games": 3,
-        "average_name_length": 5.33
+        "average_name_length": 3.5
     }
 }
