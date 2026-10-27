@@ -144178,7 +144178,7 @@
             "Trade": [
                 {
                     "name": "n oocs wuw",
-                    "matched": "wuw",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -263226,7 +263226,7 @@
             "Trade": [
                 {
                     "name": "n ntorch o bto",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -263283,7 +263283,7 @@
             "Trade": [
                 {
                     "name": "n ntorch o bto",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -263339,7 +263339,7 @@
             "Trade": [
                 {
                     "name": "n ntorch o bto",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -263395,7 +263395,7 @@
             "Trade": [
                 {
                     "name": "n ntorch o bto",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -263451,7 +263451,7 @@
             "Trade": [
                 {
                     "name": "n ntorch o bto",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -263516,7 +263516,7 @@
                 },
                 {
                     "name": "n ntorch o bto",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -292453,7 +292453,7 @@
             "Trade": [
                 {
                     "name": "n poisonb gc",
-                    "matched": "iso",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -292525,7 +292525,7 @@
             "Trade": [
                 {
                     "name": "n poisonb gc",
-                    "matched": "iso",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -292615,7 +292615,7 @@
                 },
                 {
                     "name": "n poisonb gc",
-                    "matched": "iso",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -292707,7 +292707,7 @@
                 },
                 {
                     "name": "n poisonb gc",
-                    "matched": "iso",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -396277,7 +396277,7 @@
             "Trade": [
                 {
                     "name": "n high d torch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -396371,7 +396371,7 @@
             "Trade": [
                 {
                     "name": "n high d torch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -396472,7 +396472,7 @@
             "Trade": [
                 {
                     "name": "n high d torch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -396573,7 +396573,7 @@
             "Trade": [
                 {
                     "name": "n high d torch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -396674,7 +396674,7 @@
             "Trade": [
                 {
                     "name": "n high d torch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -416149,7 +416149,7 @@
             "Trade": [
                 {
                     "name": "n druidtorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 },
                 {
@@ -416251,7 +416251,7 @@
                 },
                 {
                     "name": "n druidtorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -416381,7 +416381,7 @@
                 },
                 {
                     "name": "n druidtorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -416480,7 +416480,7 @@
                 },
                 {
                     "name": "n druidtorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -419338,7 +419338,7 @@
             "Leveling": [
                 {
                     "name": "tristnorm",
-                    "matched": "trist",
+                    "matched": "norm",
                     "count": 2
                 }
             ]
@@ -419434,7 +419434,7 @@
             "Leveling": [
                 {
                     "name": "tristnorm",
-                    "matched": "trist",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -419511,7 +419511,7 @@
             "Leveling": [
                 {
                     "name": "tristnorm",
-                    "matched": "trist",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -419594,7 +419594,7 @@
             "Leveling": [
                 {
                     "name": "tristnorm",
-                    "matched": "trist",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -445890,6 +445890,45 @@
     },
     {
         "timestamp": "2026-10-27T10:40:00+00:00",
+        "difficulty": {
+            "0": 1
+        },
+        "mode": {
+            "0": 1
+        },
+        "difficulty_mode": {
+            "0|0": 1
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 1
+            }
+        ],
+        "top_games": [
+            {
+                "name": "thfhg",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "thfhg",
+                "count": 2,
+                "examples": [
+                    "thfhg"
+                ]
+            }
+        ],
+        "classified_games": {},
+        "interesting": {
+            "unique_names": 1,
+            "public_games": 1,
+            "average_name_length": 5.0
+        }
+    },
+    {
+        "timestamp": "2026-10-27T10:51:00+00:00",
         "difficulty": {
             "0": 1
         },
