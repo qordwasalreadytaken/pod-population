@@ -1,50 +1,41 @@
 {
-    "timestamp": "2026-10-27T18:32:00+00:00",
+    "timestamp": "2026-10-27T18:46:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
+        "2": 2
     },
     "mode": {
         "0": 2
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 1
+        "2|0": 2
     },
     "activities": [
         {
             "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "n necro torch",
+            "name": "n clean cat eye",
             "count": 1
         },
         {
-            "name": "114",
+            "name": "n necro torch",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "114"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Trade": [
             {
-                "name": "n necro torch",
+                "name": "n clean cat eye",
                 "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n necro torch",
+                "matched": "torch",
                 "count": 1
             }
         ]
@@ -52,6 +43,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 8.0
+        "average_name_length": 14.0
     }
 }
