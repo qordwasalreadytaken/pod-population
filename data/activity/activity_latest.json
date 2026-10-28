@@ -1,18 +1,20 @@
 {
-    "timestamp": "2026-10-28T13:19:00+00:00",
+    "timestamp": "2026-10-28T13:32:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 3,
+        "0": 2
     },
     "mode": {
-        "0": 3
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 3
+        "2|0": 3,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 4
         },
         {
             "name": "Misc. Public MF Runs",
@@ -21,15 +23,23 @@
     ],
     "top_games": [
         {
-            "name": "t",
-            "count": 1
-        },
-        {
             "name": "gord",
             "count": 1
         },
         {
+            "name": "t",
+            "count": 1
+        },
+        {
             "name": "niasallr55phys",
+            "count": 1
+        },
+        {
+            "name": "qwqq",
+            "count": 1
+        },
+        {
+            "name": "wwqqqq",
             "count": 1
         }
     ],
@@ -47,6 +57,20 @@
             "examples": [
                 "niasallr55phys"
             ]
+        },
+        {
+            "normalized": "qwqq",
+            "count": 2,
+            "examples": [
+                "qwqq"
+            ]
+        },
+        {
+            "normalized": "wwqqqq",
+            "count": 2,
+            "examples": [
+                "wwqqqq"
+            ]
         }
     ],
     "classified_games": {
@@ -59,8 +83,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.33
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 5.8
     }
 }
