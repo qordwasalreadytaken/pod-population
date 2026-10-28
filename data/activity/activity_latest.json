@@ -1,35 +1,47 @@
 {
-    "timestamp": "2026-10-28T15:19:00+00:00",
+    "timestamp": "2026-10-28T15:32:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 2
+        "0": 4,
+        "2": 4
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 7
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 2,
-        "0|0": 2
+        "2|0": 4,
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 7
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "t",
+            "count": 2
+        },
         {
             "name": "wikid klownz",
             "count": 1
         },
         {
-            "name": "t",
+            "name": "act-5 hell",
             "count": 1
         },
         {
             "name": "niasallr55phys",
+            "count": 1
+        },
+        {
+            "name": "w",
             "count": 1
         },
         {
@@ -43,6 +55,13 @@
     ],
     "unknown_games": [
         {
+            "normalized": "t",
+            "count": 4,
+            "examples": [
+                "t"
+            ]
+        },
+        {
             "normalized": "wikid klownz",
             "count": 2,
             "examples": [
@@ -50,17 +69,17 @@
             ]
         },
         {
-            "normalized": "t",
-            "count": 2,
-            "examples": [
-                "t"
-            ]
-        },
-        {
             "normalized": "niasallr#phys",
             "count": 2,
             "examples": [
                 "niasallr55phys"
+            ]
+        },
+        {
+            "normalized": "w",
+            "count": 2,
+            "examples": [
+                "w"
             ]
         },
         {
@@ -78,10 +97,18 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Leveling": [
+            {
+                "name": "act-5 hell",
+                "matched": "act",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.6
+        "unique_names": 7,
+        "public_games": 8,
+        "average_name_length": 6.29
     }
 }
