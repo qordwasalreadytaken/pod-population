@@ -1,39 +1,25 @@
 {
-    "timestamp": "2026-10-28T16:04:00+00:00",
+    "timestamp": "2026-10-28T16:21:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 2
+        "0": 3
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 2
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 2,
         "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Leveling",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
         {
             "name": "wikid klownz",
-            "count": 1
-        },
-        {
-            "name": "kami",
-            "count": 1
-        },
-        {
-            "name": "act 2-5 hell",
             "count": 1
         },
         {
@@ -54,13 +40,6 @@
             ]
         },
         {
-            "normalized": "kami",
-            "count": 2,
-            "examples": [
-                "kami"
-            ]
-        },
-        {
             "normalized": "w",
             "count": 2,
             "examples": [
@@ -75,18 +54,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Leveling": [
-            {
-                "name": "act 2-5 hell",
-                "matched": "act",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.2
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 5.0
     }
 }
