@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-28T21:32:00+00:00",
+    "timestamp": "2026-10-28T21:46:00+00:00",
     "difficulty": {
         "2": 2,
         "0": 1
@@ -13,11 +13,11 @@
     },
     "activities": [
         {
-            "name": "Maps",
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Maps",
             "count": 1
         },
         {
@@ -27,11 +27,11 @@
     ],
     "top_games": [
         {
-            "name": "map",
+            "name": "asd",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "map",
             "count": 1
         },
         {
@@ -41,17 +41,17 @@
     ],
     "unknown_games": [],
     "classified_games": {
-        "Maps": [
-            {
-                "name": "map",
-                "matched": "map",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
                 "matched": "asd",
+                "count": 1
+            }
+        ],
+        "Maps": [
+            {
+                "name": "map",
+                "matched": "map",
                 "count": 1
             }
         ],
