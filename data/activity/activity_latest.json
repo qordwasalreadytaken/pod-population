@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-28T22:32:00+00:00",
+    "timestamp": "2026-10-28T22:46:00+00:00",
     "difficulty": {
         "2": 4,
         "1": 1,
@@ -15,16 +15,12 @@
     },
     "activities": [
         {
+            "name": "Other",
+            "count": 3
+        },
+        {
             "name": "Misc. Public MF Runs",
             "count": 2
-        },
-        {
-            "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Maps",
-            "count": 1
         },
         {
             "name": "Leveling",
@@ -37,15 +33,15 @@
             "count": 1
         },
         {
+            "name": "adas",
+            "count": 1
+        },
+        {
             "name": "kami",
             "count": 1
         },
         {
             "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "map",
             "count": 1
         },
         {
@@ -58,6 +54,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "adas",
+            "count": 2,
+            "examples": [
+                "adas"
+            ]
+        },
         {
             "normalized": "kami",
             "count": 2,
@@ -86,13 +89,6 @@
                 "count": 1
             }
         ],
-        "Maps": [
-            {
-                "name": "map",
-                "matched": "map",
-                "count": 1
-            }
-        ],
         "Leveling": [
             {
                 "name": "5 walk",
@@ -104,6 +100,6 @@
     "interesting": {
         "unique_names": 6,
         "public_games": 6,
-        "average_name_length": 3.83
+        "average_name_length": 4.0
     }
 }
