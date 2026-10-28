@@ -1,26 +1,26 @@
 {
-    "timestamp": "2026-10-28T22:03:00+00:00",
+    "timestamp": "2026-10-28T22:18:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 4,
         "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 4,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
             "name": "Maps",
@@ -32,6 +32,10 @@
         }
     ],
     "top_games": [
+        {
+            "name": "gord",
+            "count": 1
+        },
         {
             "name": "kami",
             "count": 1
@@ -72,6 +76,11 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
+                "name": "gord",
+                "matched": "gord",
+                "count": 1
+            },
+            {
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
@@ -93,8 +102,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 3.8
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 3.83
     }
 }
