@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-28T01:15:00+00:00",
+    "timestamp": "2026-10-28T01:32:00+00:00",
     "difficulty": {
         "0": 2,
         "2": 1
@@ -16,14 +16,10 @@
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Leveling",
             "count": 1
         }
     ],
@@ -37,7 +33,7 @@
             "count": 1
         },
         {
-            "name": "a walk",
+            "name": "purple haze",
             "count": 1
         }
     ],
@@ -48,6 +44,13 @@
             "examples": [
                 "wikid klownz"
             ]
+        },
+        {
+            "normalized": "purple haze",
+            "count": 2,
+            "examples": [
+                "purple haze"
+            ]
         }
     ],
     "classified_games": {
@@ -57,18 +60,11 @@
                 "matched": "asd",
                 "count": 1
             }
-        ],
-        "Leveling": [
-            {
-                "name": "a walk",
-                "matched": "walk",
-                "count": 1
-            }
         ]
     },
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 7.0
+        "average_name_length": 8.67
     }
 }
