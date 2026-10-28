@@ -1,26 +1,26 @@
 {
-    "timestamp": "2026-10-28T23:17:00+00:00",
+    "timestamp": "2026-10-28T23:32:00+00:00",
     "difficulty": {
-        "2": 6,
+        "2": 3,
         "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 8
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 6,
+        "2|0": 3,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 4
+            "count": 2
         },
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Leveling",
@@ -30,7 +30,7 @@
     "top_games": [
         {
             "name": "asd",
-            "count": 3
+            "count": 1
         },
         {
             "name": "gord",
@@ -38,10 +38,6 @@
         },
         {
             "name": "adas",
-            "count": 1
-        },
-        {
-            "name": "kami",
             "count": 1
         },
         {
@@ -62,13 +58,6 @@
             ]
         },
         {
-            "normalized": "kami",
-            "count": 2,
-            "examples": [
-                "kami"
-            ]
-        },
-        {
             "normalized": "ben",
             "count": 2,
             "examples": [
@@ -81,7 +70,7 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 3
+                "count": 1
             },
             {
                 "name": "gord",
@@ -98,8 +87,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 8,
+        "unique_names": 5,
+        "public_games": 5,
         "average_name_length": 4.0
     }
 }
