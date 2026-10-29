@@ -1,17 +1,15 @@
 {
-    "timestamp": "2026-10-29T15:31:00+00:00",
+    "timestamp": "2026-10-29T15:47:00+00:00",
     "difficulty": {
-        "2": 4,
-        "1": 1,
-        "0": 1
+        "2": 3,
+        "1": 3
     },
     "mode": {
         "0": 6
     },
     "difficulty_mode": {
-        "2|0": 4,
-        "1|0": 1,
-        "0|0": 1
+        "2|0": 3,
+        "1|0": 3
     },
     "activities": [
         {
@@ -33,31 +31,42 @@
             "count": 2
         },
         {
-            "name": "coffee",
-            "count": 2
-        },
-        {
-            "name": "act 2 nm",
+            "name": "kami",
             "count": 1
         },
         {
-            "name": "knl",
+            "name": "coffee",
+            "count": 1
+        },
+        {
+            "name": "quest",
+            "count": 1
+        },
+        {
+            "name": "act 2 nm",
             "count": 1
         }
     ],
     "unknown_games": [
         {
+            "normalized": "kami",
+            "count": 2,
+            "examples": [
+                "kami"
+            ]
+        },
+        {
             "normalized": "coffee",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "coffee"
             ]
         },
         {
-            "normalized": "knl",
+            "normalized": "quest",
             "count": 2,
             "examples": [
-                "knl"
+                "quest"
             ]
         }
     ],
@@ -78,8 +87,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
+        "unique_names": 5,
         "public_games": 6,
-        "average_name_length": 5.5
+        "average_name_length": 5.6
     }
 }
