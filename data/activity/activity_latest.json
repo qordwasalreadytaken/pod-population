@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-29T23:17:00+00:00",
+    "timestamp": "2026-10-29T23:32:00+00:00",
     "difficulty": {
         "2": 5
     },
@@ -22,14 +22,10 @@
     "top_games": [
         {
             "name": "k",
-            "count": 2
+            "count": 3
         },
         {
             "name": "stoned come",
-            "count": 1
-        },
-        {
-            "name": "lmao",
             "count": 1
         },
         {
@@ -40,7 +36,7 @@
     "unknown_games": [
         {
             "normalized": "k",
-            "count": 4,
+            "count": 6,
             "examples": [
                 "k"
             ]
@@ -50,13 +46,6 @@
             "count": 2,
             "examples": [
                 "stoned come"
-            ]
-        },
-        {
-            "normalized": "lmao",
-            "count": 2,
-            "examples": [
-                "lmao"
             ]
         }
     ],
@@ -70,8 +59,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
+        "unique_names": 3,
         "public_games": 5,
-        "average_name_length": 4.75
+        "average_name_length": 5.0
     }
 }
