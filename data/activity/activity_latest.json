@@ -1,98 +1,46 @@
 {
-    "timestamp": "2026-10-29T13:46:00+00:00",
+    "timestamp": "2026-10-29T14:04:00+00:00",
     "difficulty": {
-        "2": 4,
         "1": 1,
         "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 5
+        "0": 2
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 3,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Cows",
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "hcow",
-            "count": 1
-        },
-        {
-            "name": "ergf",
-            "count": 1
-        },
-        {
-            "name": "red",
-            "count": 1
-        },
-        {
-            "name": "niasallr55phys",
-            "count": 1
-        },
-        {
             "name": "asd",
             "count": 1
         },
         {
-            "name": "a x",
+            "name": "lvl up",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "ergf",
+            "normalized": "lvl up",
             "count": 2,
             "examples": [
-                "ergf"
-            ]
-        },
-        {
-            "normalized": "red",
-            "count": 2,
-            "examples": [
-                "red"
-            ]
-        },
-        {
-            "normalized": "niasallr#phys",
-            "count": 2,
-            "examples": [
-                "niasallr55phys"
-            ]
-        },
-        {
-            "normalized": "a x",
-            "count": 2,
-            "examples": [
-                "a x"
+                "lvl up"
             ]
         }
     ],
     "classified_games": {
-        "Cows": [
-            {
-                "name": "hcow",
-                "matched": "cow",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
@@ -102,8 +50,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 5.17
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 4.5
     }
 }
