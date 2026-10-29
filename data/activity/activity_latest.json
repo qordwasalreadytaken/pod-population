@@ -1,40 +1,33 @@
 {
-    "timestamp": "2026-10-29T16:32:00+00:00",
+    "timestamp": "2026-10-29T16:46:00+00:00",
     "difficulty": {
-        "2": 4,
-        "0": 2
+        "1": 1,
+        "0": 2,
+        "2": 5
     },
     "mode": {
         "1": 2,
-        "0": 4
+        "0": 6
     },
     "difficulty_mode": {
-        "2|1": 1,
+        "1|1": 1,
         "0|1": 1,
-        "2|0": 3,
+        "2|0": 5,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Cows",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 8
         }
     ],
     "top_games": [
         {
-            "name": "coffee",
-            "count": 2
+            "name": "kami",
+            "count": 4
         },
         {
-            "name": "hcow",
+            "name": "dsrgd",
             "count": 1
         },
         {
@@ -42,7 +35,7 @@
             "count": 1
         },
         {
-            "name": "asder",
+            "name": "coffee",
             "count": 1
         },
         {
@@ -52,10 +45,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "coffee",
-            "count": 4,
+            "normalized": "kami",
+            "count": 8,
             "examples": [
-                "coffee"
+                "kami"
+            ]
+        },
+        {
+            "normalized": "dsrgd",
+            "count": 2,
+            "examples": [
+                "dsrgd"
             ]
         },
         {
@@ -66,6 +66,13 @@
             ]
         },
         {
+            "normalized": "coffee",
+            "count": 2,
+            "examples": [
+                "coffee"
+            ]
+        },
+        {
             "normalized": "qq",
             "count": 2,
             "examples": [
@@ -73,25 +80,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Cows": [
-            {
-                "name": "hcow",
-                "matched": "cow",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asder",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
         "unique_names": 5,
-        "public_games": 6,
+        "public_games": 8,
         "average_name_length": 5.8
     }
 }
