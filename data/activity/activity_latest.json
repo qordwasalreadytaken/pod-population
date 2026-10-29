@@ -1,39 +1,68 @@
 {
-    "timestamp": "2026-10-29T14:32:00+00:00",
+    "timestamp": "2026-10-29T14:46:00+00:00",
     "difficulty": {
-        "2": 1
-    },
-    "mode": {
+        "2": 4,
         "0": 1
     },
+    "mode": {
+        "0": 5
+    },
     "difficulty_mode": {
-        "2|0": 1
+        "2|0": 4,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Rush",
-            "count": 1
+            "name": "Chaos",
+            "count": 3
+        },
+        {
+            "name": "Other",
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "hell rushh",
+            "name": "chaos",
+            "count": 3
+        },
+        {
+            "name": "coffee",
+            "count": 1
+        },
+        {
+            "name": "12",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "coffee",
+            "count": 2,
+            "examples": [
+                "coffee"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "12"
+            ]
+        }
+    ],
     "classified_games": {
-        "Rush": [
+        "Chaos": [
             {
-                "name": "hell rushh",
-                "matched": "rush",
-                "count": 1
+                "name": "chaos",
+                "matched": "chaos",
+                "count": 3
             }
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 10.0
+        "unique_names": 3,
+        "public_games": 5,
+        "average_name_length": 4.33
     }
 }
