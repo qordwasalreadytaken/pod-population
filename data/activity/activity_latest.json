@@ -1,29 +1,30 @@
 {
-    "timestamp": "2026-10-29T16:21:00+00:00",
+    "timestamp": "2026-10-29T16:32:00+00:00",
     "difficulty": {
-        "2": 7,
-        "0": 1
+        "2": 4,
+        "0": 2
     },
     "mode": {
-        "1": 1,
-        "0": 7
+        "1": 2,
+        "0": 4
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 6,
+        "0|1": 1,
+        "2|0": 3,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 4
         },
         {
             "name": "Cows",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -33,19 +34,15 @@
             "count": 2
         },
         {
-            "name": "asder",
-            "count": 2
-        },
-        {
             "name": "hcow",
             "count": 1
         },
         {
-            "name": "quest",
+            "name": "wikid klownz",
             "count": 1
         },
         {
-            "name": "kami",
+            "name": "asder",
             "count": 1
         },
         {
@@ -62,17 +59,10 @@
             ]
         },
         {
-            "normalized": "quest",
+            "normalized": "wikid klownz",
             "count": 2,
             "examples": [
-                "quest"
-            ]
-        },
-        {
-            "normalized": "kami",
-            "count": 2,
-            "examples": [
-                "kami"
+                "wikid klownz"
             ]
         },
         {
@@ -95,13 +85,13 @@
             {
                 "name": "asder",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 8,
-        "average_name_length": 4.33
+        "unique_names": 5,
+        "public_games": 6,
+        "average_name_length": 5.8
     }
 }
