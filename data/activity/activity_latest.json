@@ -1,20 +1,18 @@
 {
-    "timestamp": "2026-10-29T22:32:00+00:00",
+    "timestamp": "2026-10-29T22:46:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "2": 2
     },
     "mode": {
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "0|0": 1
+        "2|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Leveling",
@@ -29,10 +27,6 @@
         {
             "name": "a walk",
             "count": 1
-        },
-        {
-            "name": "fdsaf",
-            "count": 1
         }
     ],
     "unknown_games": [
@@ -41,13 +35,6 @@
             "count": 2,
             "examples": [
                 "k"
-            ]
-        },
-        {
-            "normalized": "fdsaf",
-            "count": 2,
-            "examples": [
-                "fdsaf"
             ]
         }
     ],
@@ -61,8 +48,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 4.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 3.5
     }
 }
