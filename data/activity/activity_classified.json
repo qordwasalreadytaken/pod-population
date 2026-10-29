@@ -1231,7 +1231,7 @@
         },
         {
             "name": "n druidtorch",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -2997,6 +2997,11 @@
             "count": 9
         },
         {
+            "name": "5 walk",
+            "matched": "walk",
+            "count": 9
+        },
+        {
             "name": "1 act",
             "matched": "act",
             "count": 8
@@ -3009,11 +3014,6 @@
         {
             "name": "2act",
             "matched": "act",
-            "count": 8
-        },
-        {
-            "name": "5 walk",
-            "matched": "walk",
             "count": 8
         },
         {
@@ -3133,7 +3133,7 @@
         },
         {
             "name": "acte andy",
-            "matched": "andy",
+            "matched": "act",
             "count": 5
         },
         {
@@ -3148,7 +3148,7 @@
         },
         {
             "name": "tristnorm",
-            "matched": "trist",
+            "matched": "norm",
             "count": 5
         },
         {
@@ -3258,7 +3258,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -3278,7 +3278,7 @@
         },
         {
             "name": "ancients norm",
-            "matched": "norm",
+            "matched": "anci",
             "count": 2
         },
         {
@@ -3293,7 +3293,7 @@
         },
         {
             "name": "normal act",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -3498,7 +3498,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "norm",
+            "matched": "tomb",
             "count": 1
         },
         {
@@ -3883,7 +3883,7 @@
         {
             "name": "gord",
             "matched": "gord",
-            "count": 847
+            "count": 848
         },
         {
             "name": "n eld runes",
@@ -4677,7 +4677,7 @@
         },
         {
             "name": "asdsd36aaaa",
-            "matched": "aaa",
+            "matched": "asd",
             "count": 2
         },
         {
@@ -4862,7 +4862,7 @@
         },
         {
             "name": "saaasd",
-            "matched": "aaa",
+            "matched": "asd",
             "count": 2
         },
         {
@@ -5127,7 +5127,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -6366,7 +6366,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 7
         },
         {
@@ -6426,7 +6426,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "mapping",
+            "matched": "map",
             "count": 4
         },
         {
@@ -6621,7 +6621,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -6636,7 +6636,7 @@
         },
         {
             "name": "mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -6688,17 +6688,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
