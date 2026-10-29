@@ -1,31 +1,23 @@
 {
-    "timestamp": "2026-10-29T14:20:00+00:00",
+    "timestamp": "2026-10-29T14:32:00+00:00",
     "difficulty": {
-        "1": 2
+        "2": 1
     },
     "mode": {
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
-        "1|0": 2
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Rush",
             "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "nm rushh",
-            "count": 1
-        },
-        {
-            "name": "asd",
+            "name": "hell rushh",
             "count": 1
         }
     ],
@@ -33,22 +25,15 @@
     "classified_games": {
         "Rush": [
             {
-                "name": "nm rushh",
+                "name": "hell rushh",
                 "matched": "rush",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 5.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 10.0
     }
 }
