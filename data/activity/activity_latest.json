@@ -1,63 +1,68 @@
 {
-    "timestamp": "2026-10-29T22:18:00+00:00",
+    "timestamp": "2026-10-29T22:32:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 2,
+        "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 4
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 2
         },
         {
             "name": "Leveling",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "a walk",
-            "count": 2
-        },
-        {
-            "name": "asdd",
+            "name": "k",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "a walk",
+            "count": 1
+        },
+        {
+            "name": "fdsaf",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "k",
+            "count": 2,
+            "examples": [
+                "k"
+            ]
+        },
+        {
+            "normalized": "fdsaf",
+            "count": 2,
+            "examples": [
+                "fdsaf"
+            ]
+        }
+    ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asdd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
         "Leveling": [
             {
                 "name": "a walk",
                 "matched": "walk",
-                "count": 2
+                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 4,
-        "average_name_length": 4.33
+        "public_games": 3,
+        "average_name_length": 4.0
     }
 }
