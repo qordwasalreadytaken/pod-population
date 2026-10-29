@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-29T13:03:00+00:00",
+    "timestamp": "2026-10-29T13:19:00+00:00",
     "difficulty": {
         "2": 4,
         "1": 1,
@@ -35,15 +35,15 @@
             "count": 1
         },
         {
+            "name": "kami",
+            "count": 1
+        },
+        {
             "name": "rfesdv",
             "count": 1
         },
         {
             "name": "niasallr55phys",
-            "count": 1
-        },
-        {
-            "name": "resg",
             "count": 1
         },
         {
@@ -57,6 +57,13 @@
     ],
     "unknown_games": [
         {
+            "normalized": "kami",
+            "count": 2,
+            "examples": [
+                "kami"
+            ]
+        },
+        {
             "normalized": "rfesdv",
             "count": 2,
             "examples": [
@@ -68,13 +75,6 @@
             "count": 2,
             "examples": [
                 "niasallr55phys"
-            ]
-        },
-        {
-            "normalized": "resg",
-            "count": 2,
-            "examples": [
-                "resg"
             ]
         },
         {
