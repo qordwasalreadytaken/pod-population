@@ -1,22 +1,26 @@
 {
-    "timestamp": "2026-10-29T17:32:00+00:00",
+    "timestamp": "2026-10-29T17:46:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 2
-    },
-    "mode": {
+        "2": 2,
         "1": 1,
         "0": 4
     },
+    "mode": {
+        "0": 7
+    },
     "difficulty_mode": {
-        "0|1": 1,
         "2|0": 2,
-        "0|0": 2
+        "1|0": 1,
+        "0|0": 4
     },
     "activities": [
         {
+            "name": "Misc. Public MF Runs",
+            "count": 5
+        },
+        {
             "name": "Other",
-            "count": 4
+            "count": 1
         },
         {
             "name": "Leveling",
@@ -25,57 +29,35 @@
     ],
     "top_games": [
         {
-            "name": "dfghfgh",
-            "count": 1
+            "name": "asder",
+            "count": 5
         },
         {
-            "name": "kami",
-            "count": 1
-        },
-        {
-            "name": "quest",
+            "name": "wwqqqq",
             "count": 1
         },
         {
             "name": "act",
             "count": 1
-        },
-        {
-            "name": "qq",
-            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "dfghfgh",
+            "normalized": "wwqqqq",
             "count": 2,
             "examples": [
-                "dfghfgh"
-            ]
-        },
-        {
-            "normalized": "kami",
-            "count": 2,
-            "examples": [
-                "kami"
-            ]
-        },
-        {
-            "normalized": "quest",
-            "count": 2,
-            "examples": [
-                "quest"
-            ]
-        },
-        {
-            "normalized": "qq",
-            "count": 2,
-            "examples": [
-                "qq"
+                "wwqqqq"
             ]
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asder",
+                "matched": "asd",
+                "count": 5
+            }
+        ],
         "Leveling": [
             {
                 "name": "act",
@@ -85,8 +67,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 4.2
+        "unique_names": 3,
+        "public_games": 7,
+        "average_name_length": 4.67
     }
 }
