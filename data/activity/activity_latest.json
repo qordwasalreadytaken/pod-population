@@ -1,26 +1,23 @@
 {
-    "timestamp": "2026-10-29T01:24:00+00:00",
+    "timestamp": "2026-10-29T01:33:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 1,
-        "0": 1
-    },
-    "mode": {
         "1": 1,
         "0": 2
     },
+    "mode": {
+        "0": 3
+    },
     "difficulty_mode": {
-        "2|1": 1,
         "1|0": 1,
-        "0|0": 1
+        "0|0": 2
     },
     "activities": [
         {
-            "name": "Cows",
+            "name": "Leveling",
             "count": 1
         },
         {
-            "name": "Leveling",
+            "name": "Other",
             "count": 1
         },
         {
@@ -30,11 +27,11 @@
     ],
     "top_games": [
         {
-            "name": "hcow",
+            "name": "a walk",
             "count": 1
         },
         {
-            "name": "a walk",
+            "name": "12",
             "count": 1
         },
         {
@@ -42,15 +39,16 @@
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "12"
+            ]
+        }
+    ],
     "classified_games": {
-        "Cows": [
-            {
-                "name": "hcow",
-                "matched": "cow",
-                "count": 1
-            }
-        ],
         "Leveling": [
             {
                 "name": "a walk",
@@ -69,6 +67,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 4.33
+        "average_name_length": 3.67
     }
 }
