@@ -1,8 +1,7 @@
 {
-    "timestamp": "2026-10-29T16:04:00+00:00",
+    "timestamp": "2026-10-29T16:21:00+00:00",
     "difficulty": {
-        "2": 5,
-        "1": 2,
+        "2": 7,
         "0": 1
     },
     "mode": {
@@ -11,8 +10,7 @@
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 4,
-        "1|0": 2,
+        "2|0": 6,
         "0|0": 1
     },
     "activities": [
@@ -21,21 +19,21 @@
             "count": 5
         },
         {
-            "name": "Cows",
-            "count": 1
-        },
-        {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "Leveling",
+            "name": "Cows",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "quest",
+            "name": "coffee",
+            "count": 2
+        },
+        {
+            "name": "asder",
             "count": 2
         },
         {
@@ -43,19 +41,11 @@
             "count": 1
         },
         {
-            "name": "asder",
-            "count": 1
-        },
-        {
-            "name": "coffee",
+            "name": "quest",
             "count": 1
         },
         {
             "name": "kami",
-            "count": 1
-        },
-        {
-            "name": "act 2 nm",
             "count": 1
         },
         {
@@ -65,17 +55,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "quest",
+            "normalized": "coffee",
             "count": 4,
             "examples": [
-                "quest"
+                "coffee"
             ]
         },
         {
-            "normalized": "coffee",
+            "normalized": "quest",
             "count": 2,
             "examples": [
-                "coffee"
+                "quest"
             ]
         },
         {
@@ -105,20 +95,13 @@
             {
                 "name": "asder",
                 "matched": "asd",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "act 2 nm",
-                "matched": "act",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 7,
+        "unique_names": 6,
         "public_games": 8,
-        "average_name_length": 4.86
+        "average_name_length": 4.33
     }
 }
