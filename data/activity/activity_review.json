@@ -2285,6 +2285,13 @@
         ]
     },
     {
+        "normalized": "a x",
+        "count": 12,
+        "examples": [
+            "a x"
+        ]
+    },
+    {
         "normalized": "a#h",
         "count": 10,
         "examples": [
@@ -2646,13 +2653,6 @@
         "count": 10,
         "examples": [
             "beer"
-        ]
-    },
-    {
-        "normalized": "a x",
-        "count": 10,
-        "examples": [
-            "a x"
         ]
     },
     {
@@ -6111,6 +6111,13 @@
         "count": 4,
         "examples": [
             "crack"
+        ]
+    },
+    {
+        "normalized": "qewfad",
+        "count": 4,
+        "examples": [
+            "qewfad"
         ]
     },
     {
@@ -10888,17 +10895,17 @@
         ]
     },
     {
-        "normalized": "qewfad",
-        "count": 2,
-        "examples": [
-            "qewfad"
-        ]
-    },
-    {
         "normalized": "wgtsfds",
         "count": 2,
         "examples": [
             "wgtsfds"
+        ]
+    },
+    {
+        "normalized": "resg",
+        "count": 2,
+        "examples": [
+            "resg"
         ]
     }
 ]

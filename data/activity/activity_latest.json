@@ -1,14 +1,16 @@
 {
-    "timestamp": "2026-10-29T12:05:00+00:00",
+    "timestamp": "2026-10-29T12:27:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 3,
         "1": 1,
         "0": 1
     },
     "mode": {
+        "1": 1,
         "0": 4
     },
     "difficulty_mode": {
+        "2|1": 1,
         "2|0": 2,
         "1|0": 1,
         "0|0": 1
@@ -16,28 +18,47 @@
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
+        },
+        {
+            "name": "Cows",
+            "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 2
+            "name": "hcow",
+            "count": 1
+        },
+        {
+            "name": "resg",
+            "count": 1
         },
         {
             "name": "qewfad",
             "count": 1
         },
         {
-            "name": "wgtsfds",
+            "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "a x",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "resg",
+            "count": 2,
+            "examples": [
+                "resg"
+            ]
+        },
         {
             "normalized": "qewfad",
             "count": 2,
@@ -46,25 +67,32 @@
             ]
         },
         {
-            "normalized": "wgtsfds",
+            "normalized": "a x",
             "count": 2,
             "examples": [
-                "wgtsfds"
+                "a x"
             ]
         }
     ],
     "classified_games": {
+        "Cows": [
+            {
+                "name": "hcow",
+                "matched": "cow",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 4,
-        "average_name_length": 5.33
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 4.0
     }
 }
