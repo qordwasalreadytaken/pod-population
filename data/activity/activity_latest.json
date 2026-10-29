@@ -1,41 +1,49 @@
 {
-    "timestamp": "2026-10-29T16:46:00+00:00",
+    "timestamp": "2026-10-29T17:03:00+00:00",
     "difficulty": {
-        "1": 1,
-        "0": 2,
-        "2": 5
+        "2": 4,
+        "0": 2
     },
     "mode": {
-        "1": 2,
         "0": 6
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "0|1": 1,
-        "2|0": 5,
-        "0|0": 1
+        "2|0": 4,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 8
+            "count": 4
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "kami",
-            "count": 4
-        },
-        {
-            "name": "dsrgd",
-            "count": 1
-        },
-        {
-            "name": "wikid klownz",
+            "name": "asder",
             "count": 1
         },
         {
             "name": "coffee",
+            "count": 1
+        },
+        {
+            "name": "quest",
+            "count": 1
+        },
+        {
+            "name": "kami",
+            "count": 1
+        },
+        {
+            "name": "act",
             "count": 1
         },
         {
@@ -45,31 +53,24 @@
     ],
     "unknown_games": [
         {
-            "normalized": "kami",
-            "count": 8,
-            "examples": [
-                "kami"
-            ]
-        },
-        {
-            "normalized": "dsrgd",
-            "count": 2,
-            "examples": [
-                "dsrgd"
-            ]
-        },
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
-            ]
-        },
-        {
             "normalized": "coffee",
             "count": 2,
             "examples": [
                 "coffee"
+            ]
+        },
+        {
+            "normalized": "quest",
+            "count": 2,
+            "examples": [
+                "quest"
+            ]
+        },
+        {
+            "normalized": "kami",
+            "count": 2,
+            "examples": [
+                "kami"
             ]
         },
         {
@@ -80,10 +81,25 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asder",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
+        "Leveling": [
+            {
+                "name": "act",
+                "matched": "act",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 8,
-        "average_name_length": 5.8
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 4.17
     }
 }
