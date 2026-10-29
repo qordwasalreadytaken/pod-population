@@ -1,18 +1,18 @@
 {
-    "timestamp": "2026-10-29T23:32:00+00:00",
+    "timestamp": "2026-10-29T23:46:00+00:00",
     "difficulty": {
-        "2": 5
+        "2": 7
     },
     "mode": {
-        "0": 5
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 5
+        "2|0": 7
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 6
         },
         {
             "name": "Misc. Public MF Runs",
@@ -22,7 +22,7 @@
     "top_games": [
         {
             "name": "k",
-            "count": 3
+            "count": 5
         },
         {
             "name": "stoned come",
@@ -36,7 +36,7 @@
     "unknown_games": [
         {
             "normalized": "k",
-            "count": 6,
+            "count": 10,
             "examples": [
                 "k"
             ]
@@ -60,7 +60,7 @@
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 5,
+        "public_games": 7,
         "average_name_length": 5.0
     }
 }
