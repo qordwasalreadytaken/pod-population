@@ -1,25 +1,26 @@
 {
-    "timestamp": "2026-10-29T17:46:00+00:00",
+    "timestamp": "2026-10-29T18:05:00+00:00",
     "difficulty": {
-        "2": 2,
         "1": 1,
-        "0": 4
+        "2": 1,
+        "0": 2
     },
     "mode": {
-        "0": 7
+        "1": 1,
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 1,
-        "0|0": 4
+        "1|1": 1,
+        "2|0": 1,
+        "0|0": 2
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 5
+            "name": "Other",
+            "count": 2
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
@@ -29,11 +30,15 @@
     ],
     "top_games": [
         {
-            "name": "asder",
-            "count": 5
+            "name": "fdsghj",
+            "count": 1
         },
         {
-            "name": "wwqqqq",
+            "name": "asder",
+            "count": 1
+        },
+        {
+            "name": "wwqqqqq",
             "count": 1
         },
         {
@@ -43,10 +48,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "wwqqqq",
+            "normalized": "fdsghj",
             "count": 2,
             "examples": [
-                "wwqqqq"
+                "fdsghj"
+            ]
+        },
+        {
+            "normalized": "wwqqqqq",
+            "count": 2,
+            "examples": [
+                "wwqqqqq"
             ]
         }
     ],
@@ -55,7 +67,7 @@
             {
                 "name": "asder",
                 "matched": "asd",
-                "count": 5
+                "count": 1
             }
         ],
         "Leveling": [
@@ -67,8 +79,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 7,
-        "average_name_length": 4.67
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 5.25
     }
 }
