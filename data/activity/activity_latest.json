@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-10-30T17:02:00+00:00",
+    "timestamp": "2026-10-30T17:17:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 4,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 2,
+        "2|0": 3,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Cows",
@@ -33,6 +33,10 @@
             "count": 1
         },
         {
+            "name": "wsdg",
+            "count": 1
+        },
+        {
             "name": "act hell go",
             "count": 1
         },
@@ -46,6 +50,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "wsdg",
+            "count": 2,
+            "examples": [
+                "wsdg"
+            ]
+        },
         {
             "normalized": "whuuus",
             "count": 2,
@@ -78,8 +89,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.5
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 6.0
     }
 }
