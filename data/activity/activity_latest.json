@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-10-30T16:04:00+00:00",
+    "timestamp": "2026-10-30T16:19:00+00:00",
     "difficulty": {
         "2": 4,
-        "0": 3
+        "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 6
+        "0": 5
     },
     "difficulty_mode": {
         "2|1": 1,
         "2|0": 3,
-        "0|0": 3
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 4
         },
         {
             "name": "Cows",
@@ -33,6 +33,10 @@
             "count": 1
         },
         {
+            "name": "coffee",
+            "count": 1
+        },
+        {
             "name": "asdds",
             "count": 1
         },
@@ -41,15 +45,7 @@
             "count": 1
         },
         {
-            "name": "coffee",
-            "count": 1
-        },
-        {
-            "name": "sdffff",
-            "count": 1
-        },
-        {
-            "name": "sdff",
+            "name": "adfa",
             "count": 1
         },
         {
@@ -59,13 +55,6 @@
     ],
     "unknown_games": [
         {
-            "normalized": "whuuus",
-            "count": 2,
-            "examples": [
-                "whuuus"
-            ]
-        },
-        {
             "normalized": "coffee",
             "count": 2,
             "examples": [
@@ -73,17 +62,17 @@
             ]
         },
         {
-            "normalized": "sdffff",
+            "normalized": "whuuus",
             "count": 2,
             "examples": [
-                "sdffff"
+                "whuuus"
             ]
         },
         {
-            "normalized": "sdff",
+            "normalized": "adfa",
             "count": 2,
             "examples": [
-                "sdff"
+                "adfa"
             ]
         },
         {
@@ -111,8 +100,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 5.14
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 5.0
     }
 }
