@@ -1,19 +1,15 @@
 {
-    "timestamp": "2026-10-30T08:46:00+00:00",
+    "timestamp": "2026-10-30T09:04:00+00:00",
     "difficulty": {
-        "0": 2
+        "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
-        {
-            "name": "Other",
-            "count": 1
-        },
         {
             "name": "Leveling",
             "count": 1
@@ -21,23 +17,11 @@
     ],
     "top_games": [
         {
-            "name": "bago laro",
-            "count": 1
-        },
-        {
             "name": "act 3 help me",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "bago laro",
-            "count": 2,
-            "examples": [
-                "bago laro"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Leveling": [
             {
@@ -48,8 +32,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 11.0
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 13.0
     }
 }
