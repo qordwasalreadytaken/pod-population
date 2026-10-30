@@ -3,7 +3,7 @@
         {
             "name": "hcow",
             "matched": "cow",
-            "count": 110
+            "count": 111
         },
         {
             "name": "cow",
@@ -476,7 +476,7 @@
         },
         {
             "name": "n necro torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 50
         },
         {
@@ -696,7 +696,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "torch",
+            "matched": "buy",
             "count": 12
         },
         {
@@ -886,7 +886,7 @@
         },
         {
             "name": "need n torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 7
         },
         {
@@ -2166,7 +2166,7 @@
         },
         {
             "name": "n oocs wuw",
-            "matched": "n",
+            "matched": "wuw",
             "count": 1
         },
         {
@@ -2616,7 +2616,7 @@
         },
         {
             "name": "n barb torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -2978,7 +2978,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "act",
+            "matched": "andar",
             "count": 12
         },
         {
@@ -3093,7 +3093,7 @@
         },
         {
             "name": "act 2 - normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 6
         },
         {
@@ -3123,7 +3123,7 @@
         },
         {
             "name": "act norm",
-            "matched": "act",
+            "matched": "norm",
             "count": 6
         },
         {
@@ -3158,7 +3158,7 @@
         },
         {
             "name": "acte andy",
-            "matched": "act",
+            "matched": "andy",
             "count": 5
         },
         {
@@ -3238,7 +3238,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 3
         },
         {
@@ -3318,7 +3318,7 @@
         },
         {
             "name": "normal act",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -3548,7 +3548,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -3663,7 +3663,7 @@
         },
         {
             "name": "1act - normal",
-            "matched": "norm",
+            "matched": "act",
             "count": 1
         },
         {
@@ -4236,6 +4236,11 @@
             "count": 6
         },
         {
+            "name": "asdds",
+            "matched": "asd",
+            "count": 6
+        },
+        {
             "name": "n cham o rune 1",
             "matched": "run",
             "count": 6
@@ -4288,11 +4293,6 @@
         {
             "name": "3123",
             "matched": "123",
-            "count": 5
-        },
-        {
-            "name": "asdds",
-            "matched": "asd",
             "count": 5
         },
         {
@@ -4712,7 +4712,7 @@
         },
         {
             "name": "asdsd36aaaa",
-            "matched": "aaa",
+            "matched": "asd",
             "count": 2
         },
         {
@@ -4897,7 +4897,7 @@
         },
         {
             "name": "saaasd",
-            "matched": "aaa",
+            "matched": "asd",
             "count": 2
         },
         {
@@ -5167,7 +5167,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -6728,17 +6728,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]

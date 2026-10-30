@@ -1,27 +1,37 @@
 {
-    "timestamp": "2026-10-30T15:46:00+00:00",
+    "timestamp": "2026-10-30T16:04:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 4
+        "2": 4,
+        "0": 3
     },
     "mode": {
-        "0": 7
+        "1": 1,
+        "0": 6
     },
     "difficulty_mode": {
+        "2|1": 1,
         "2|0": 3,
-        "0|0": 4
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 5
+        },
+        {
+            "name": "Cows",
+            "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "hcow",
+            "count": 1
+        },
         {
             "name": "asdds",
             "count": 1
@@ -35,19 +45,15 @@
             "count": 1
         },
         {
-            "name": "asdf",
+            "name": "sdffff",
             "count": 1
         },
         {
-            "name": "me",
+            "name": "sdff",
             "count": 1
         },
         {
             "name": "qqqww",
-            "count": 1
-        },
-        {
-            "name": "aa",
             "count": 1
         }
     ],
@@ -67,10 +73,17 @@
             ]
         },
         {
-            "normalized": "me",
+            "normalized": "sdffff",
             "count": 2,
             "examples": [
-                "me"
+                "sdffff"
+            ]
+        },
+        {
+            "normalized": "sdff",
+            "count": 2,
+            "examples": [
+                "sdff"
             ]
         },
         {
@@ -82,20 +95,17 @@
         }
     ],
     "classified_games": {
+        "Cows": [
+            {
+                "name": "hcow",
+                "matched": "cow",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asdds",
                 "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "asdf",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "aa",
-                "matched": "aa",
                 "count": 1
             }
         ]
@@ -103,6 +113,6 @@
     "interesting": {
         "unique_names": 7,
         "public_games": 7,
-        "average_name_length": 4.29
+        "average_name_length": 5.14
     }
 }
