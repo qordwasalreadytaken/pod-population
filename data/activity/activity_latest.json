@@ -1,30 +1,25 @@
 {
-    "timestamp": "2026-10-30T18:03:00+00:00",
+    "timestamp": "2026-10-30T18:18:00+00:00",
     "difficulty": {
         "2": 1,
         "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
-        "2|1": 1,
+        "2|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Cows",
-            "count": 1
-        },
-        {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "hcow",
+            "name": "gord",
             "count": 1
         },
         {
@@ -34,14 +29,12 @@
     ],
     "unknown_games": [],
     "classified_games": {
-        "Cows": [
-            {
-                "name": "hcow",
-                "matched": "cow",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
+            {
+                "name": "gord",
+                "matched": "gord",
+                "count": 1
+            },
             {
                 "name": "aa",
                 "matched": "aa",
