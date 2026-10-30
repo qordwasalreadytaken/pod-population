@@ -1,46 +1,39 @@
 {
-    "timestamp": "2026-10-29T23:46:00+00:00",
+    "timestamp": "2026-10-30T00:10:00+00:00",
     "difficulty": {
-        "2": 7
+        "2": 3
     },
     "mode": {
-        "0": 7
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 7
+        "2|0": 3
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 6
+            "name": "Misc. Public MF Runs",
+            "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "k",
-            "count": 5
-        },
-        {
-            "name": "stoned come",
+            "name": "ted",
             "count": 1
         },
         {
             "name": "asd",
             "count": 1
+        },
+        {
+            "name": "stoned come",
+            "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "k",
-            "count": 10,
-            "examples": [
-                "k"
-            ]
-        },
         {
             "normalized": "stoned come",
             "count": 2,
@@ -52,6 +45,11 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
+                "name": "ted",
+                "matched": "ted",
+                "count": 1
+            },
+            {
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
@@ -60,7 +58,7 @@
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 7,
-        "average_name_length": 5.0
+        "public_games": 3,
+        "average_name_length": 5.67
     }
 }
