@@ -1,23 +1,21 @@
 {
-    "timestamp": "2026-10-30T21:31:00+00:00",
+    "timestamp": "2026-10-30T21:47:00+00:00",
     "difficulty": {
-        "2": 4,
-        "0": 1
+        "2": 5
     },
     "mode": {
         "0": 5
     },
     "difficulty_mode": {
-        "2|0": 4,
-        "0|0": 1
+        "2|0": 5
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 3
         },
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 1
         },
         {
@@ -27,27 +25,30 @@
     ],
     "top_games": [
         {
+            "name": "k",
+            "count": 2
+        },
+        {
+            "name": "n fcr wisp",
+            "count": 1
+        },
+        {
             "name": "niasallr55phys",
             "count": 1
         },
         {
-            "name": "asda",
-            "count": 1
-        },
-        {
-            "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "act 1 hell go",
-            "count": 1
-        },
-        {
-            "name": "aa",
+            "name": "act 4 hell go",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "k",
+            "count": 4,
+            "examples": [
+                "k"
+            ]
+        },
         {
             "normalized": "niasallr#phys",
             "count": 2,
@@ -57,34 +58,24 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "asda",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "aa",
-                "matched": "aa",
+                "name": "n fcr wisp",
+                "matched": "n",
                 "count": 1
             }
         ],
         "Leveling": [
             {
-                "name": "act 1 hell go",
+                "name": "act 4 hell go",
                 "matched": "act",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
+        "unique_names": 4,
         "public_games": 5,
-        "average_name_length": 7.2
+        "average_name_length": 9.5
     }
 }
