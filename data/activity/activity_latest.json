@@ -1,22 +1,18 @@
 {
-    "timestamp": "2026-10-30T21:47:00+00:00",
+    "timestamp": "2026-10-30T22:03:00+00:00",
     "difficulty": {
-        "2": 5
+        "2": 4
     },
     "mode": {
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 5
+        "2|0": 4
     },
     "activities": [
         {
             "name": "Other",
             "count": 3
-        },
-        {
-            "name": "Trade",
-            "count": 1
         },
         {
             "name": "Leveling",
@@ -25,11 +21,11 @@
     ],
     "top_games": [
         {
-            "name": "k",
-            "count": 2
+            "name": "godzilla",
+            "count": 1
         },
         {
-            "name": "n fcr wisp",
+            "name": "k",
             "count": 1
         },
         {
@@ -43,8 +39,15 @@
     ],
     "unknown_games": [
         {
+            "normalized": "godzilla",
+            "count": 2,
+            "examples": [
+                "godzilla"
+            ]
+        },
+        {
             "normalized": "k",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "k"
             ]
@@ -58,13 +61,6 @@
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n fcr wisp",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Leveling": [
             {
                 "name": "act 4 hell go",
@@ -75,7 +71,7 @@
     },
     "interesting": {
         "unique_names": 4,
-        "public_games": 5,
-        "average_name_length": 9.5
+        "public_games": 4,
+        "average_name_length": 9.0
     }
 }
