@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-30T19:46:00+00:00",
+    "timestamp": "2026-10-30T20:03:00+00:00",
     "difficulty": {
         "2": 3,
         "0": 3
@@ -14,18 +14,22 @@
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
-        },
-        {
-            "name": "Other",
-            "count": 2
+            "count": 4
         },
         {
             "name": "Trade",
             "count": 1
+        },
+        {
+            "name": "Other",
+            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "asdad",
+            "count": 1
+        },
         {
             "name": "asd",
             "count": 1
@@ -35,15 +39,11 @@
             "count": 1
         },
         {
-            "name": "kami",
+            "name": "qqqwww",
             "count": 1
         },
         {
             "name": "aa",
-            "count": 1
-        },
-        {
-            "name": "qqqwww",
             "count": 1
         },
         {
@@ -52,13 +52,6 @@
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "kami",
-            "count": 2,
-            "examples": [
-                "kami"
-            ]
-        },
         {
             "normalized": "qqqwww",
             "count": 2,
@@ -69,6 +62,11 @@
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
+            {
+                "name": "asdad",
+                "matched": "asd",
+                "count": 1
+            },
             {
                 "name": "asd",
                 "matched": "asd",
@@ -96,6 +94,6 @@
     "interesting": {
         "unique_names": 6,
         "public_games": 6,
-        "average_name_length": 5.5
+        "average_name_length": 5.67
     }
 }
