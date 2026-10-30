@@ -1,97 +1,68 @@
 {
-    "timestamp": "2026-10-30T22:46:00+00:00",
+    "timestamp": "2026-10-30T23:03:00+00:00",
     "difficulty": {
-        "2": 5,
-        "0": 2
+        "2": 3,
+        "0": 1
     },
     "mode": {
-        "0": 7
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 5,
-        "0|0": 2
+        "2|0": 3,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "godzilla",
+            "name": "k",
             "count": 2
         },
         {
-            "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "k",
-            "count": 1
-        },
-        {
-            "name": "niasallr55phys",
+            "name": "godzilla",
             "count": 1
         },
         {
             "name": "fdasdf",
             "count": 1
-        },
-        {
-            "name": "asdff",
-            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "godzilla",
-            "count": 4,
-            "examples": [
-                "godzilla"
-            ]
-        },
-        {
             "normalized": "k",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "k"
             ]
         },
         {
-            "normalized": "niasallr#phys",
+            "normalized": "godzilla",
             "count": 2,
             "examples": [
-                "niasallr55phys"
+                "godzilla"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
                 "name": "fdasdf",
                 "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "asdff",
-                "matched": "asdff",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 6.17
+        "unique_names": 3,
+        "public_games": 4,
+        "average_name_length": 5.0
     }
 }
