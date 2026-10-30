@@ -1,43 +1,49 @@
 {
-    "timestamp": "2026-10-30T16:31:00+00:00",
+    "timestamp": "2026-10-30T16:46:00+00:00",
     "difficulty": {
-        "2": 5,
-        "0": 2
+        "2": 4,
+        "1": 1,
+        "0": 3
     },
     "mode": {
         "1": 1,
-        "0": 6
+        "0": 7
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 4,
-        "0|0": 2
+        "2|0": 3,
+        "1|0": 1,
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Cows",
+            "count": 1
+        },
+        {
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "whuuus",
-            "count": 2
-        },
-        {
             "name": "hcow",
             "count": 1
         },
         {
-            "name": "coffee",
+            "name": "act 1 hell go",
+            "count": 1
+        },
+        {
+            "name": "whuuus",
             "count": 1
         },
         {
@@ -45,7 +51,15 @@
             "count": 1
         },
         {
-            "name": "asdf",
+            "name": "1212",
+            "count": 1
+        },
+        {
+            "name": "fdasdf",
+            "count": 1
+        },
+        {
+            "name": "fdsasdf",
             "count": 1
         },
         {
@@ -56,16 +70,16 @@
     "unknown_games": [
         {
             "normalized": "whuuus",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "whuuus"
             ]
         },
         {
-            "normalized": "coffee",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "coffee"
+                "1212"
             ]
         },
         {
@@ -84,6 +98,13 @@
                 "count": 1
             }
         ],
+        "Leveling": [
+            {
+                "name": "act 1 hell go",
+                "matched": "act",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asdds",
@@ -91,15 +112,20 @@
                 "count": 1
             },
             {
-                "name": "asdf",
+                "name": "fdasdf",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "fdsasdf",
                 "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 5.0
+        "unique_names": 8,
+        "public_games": 8,
+        "average_name_length": 6.25
     }
 }
