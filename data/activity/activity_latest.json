@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-10-30T23:31:00+00:00",
+    "timestamp": "2026-10-30T23:46:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 5,
         "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 4,
+        "2|0": 5,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Misc. Public MF Runs",
@@ -24,7 +24,7 @@
     "top_games": [
         {
             "name": "ted",
-            "count": 1
+            "count": 2
         },
         {
             "name": "afk shower brb",
@@ -39,7 +39,7 @@
             "count": 1
         },
         {
-            "name": "fdasdf",
+            "name": "yjytku",
             "count": 1
         }
     ],
@@ -64,6 +64,13 @@
             "examples": [
                 "godzilla"
             ]
+        },
+        {
+            "normalized": "yjytku",
+            "count": 2,
+            "examples": [
+                "yjytku"
+            ]
         }
     ],
     "classified_games": {
@@ -71,18 +78,13 @@
             {
                 "name": "ted",
                 "matched": "ted",
-                "count": 1
-            },
-            {
-                "name": "fdasdf",
-                "matched": "asd",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 5,
+        "public_games": 6,
         "average_name_length": 6.4
     }
 }
