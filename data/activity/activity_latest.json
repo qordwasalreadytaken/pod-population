@@ -1,79 +1,57 @@
 {
-    "timestamp": "2026-10-31T17:31:00+00:00",
+    "timestamp": "2026-10-31T17:46:00+00:00",
     "difficulty": {
-        "0": 4
+        "2": 1,
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "0|0": 3
+        "2|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 3
+            "name": "Trade",
+            "count": 1
         },
         {
-            "name": "Leveling",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "gg",
-            "count": 1
-        },
-        {
-            "name": "act 1 start",
+            "name": "n all-5 facets",
             "count": 1
         },
         {
             "name": "mki",
             "count": 1
-        },
-        {
-            "name": "hi",
-            "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "gg",
-            "count": 2,
-            "examples": [
-                "gg"
-            ]
-        },
         {
             "normalized": "mki",
             "count": 2,
             "examples": [
                 "mki"
             ]
-        },
-        {
-            "normalized": "hi",
-            "count": 2,
-            "examples": [
-                "hi"
-            ]
         }
     ],
     "classified_games": {
-        "Leveling": [
+        "Trade": [
             {
-                "name": "act 1 start",
-                "matched": "start",
+                "name": "n all-5 facets",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 4.5
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 8.5
     }
 }
