@@ -1,18 +1,26 @@
 {
-    "timestamp": "2026-10-31T12:46:00+00:00",
+    "timestamp": "2026-10-31T13:02:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 2,
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 2,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
@@ -22,6 +30,14 @@
         },
         {
             "name": "niasallr55phys",
+            "count": 1
+        },
+        {
+            "name": "act 1 nm",
+            "count": 1
+        },
+        {
+            "name": "nono",
             "count": 1
         }
     ],
@@ -39,12 +55,27 @@
             "examples": [
                 "niasallr55phys"
             ]
+        },
+        {
+            "normalized": "nono",
+            "count": 2,
+            "examples": [
+                "nono"
+            ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Leveling": [
+            {
+                "name": "act 1 nm",
+                "matched": "act",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 9.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 7.5
     }
 }
