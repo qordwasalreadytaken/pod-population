@@ -1,23 +1,29 @@
 {
-    "timestamp": "2026-10-31T01:46:00+00:00",
+    "timestamp": "2026-10-31T02:04:00+00:00",
     "difficulty": {
-        "2": 1
-    },
-    "mode": {
+        "2": 1,
         "0": 1
     },
+    "mode": {
+        "0": 2
+    },
     "difficulty_mode": {
-        "2|0": 1
+        "2|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
             "name": "godzilla",
+            "count": 1
+        },
+        {
+            "name": "new game",
             "count": 1
         }
     ],
@@ -28,12 +34,19 @@
             "examples": [
                 "godzilla"
             ]
+        },
+        {
+            "normalized": "new game",
+            "count": 2,
+            "examples": [
+                "new game"
+            ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
+        "unique_names": 2,
+        "public_games": 2,
         "average_name_length": 8.0
     }
 }
