@@ -1,66 +1,42 @@
 {
-    "timestamp": "2026-10-31T15:03:00+00:00",
+    "timestamp": "2026-10-31T15:16:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 1
+        "0": 3
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 1,
         "0|0": 2
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 3
+            "name": "Baal",
+            "count": 2
         },
         {
-            "name": "Baal",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "ii",
-            "count": 1
-        },
-        {
-            "name": "coffee",
-            "count": 1
-        },
-        {
             "name": "baaln",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "wikid klownz",
+            "name": "gg",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "ii",
+            "normalized": "gg",
             "count": 2,
             "examples": [
-                "ii"
-            ]
-        },
-        {
-            "normalized": "coffee",
-            "count": 2,
-            "examples": [
-                "coffee"
-            ]
-        },
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
+                "gg"
             ]
         }
     ],
@@ -69,13 +45,13 @@
             {
                 "name": "baaln",
                 "matched": "baal",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.25
+        "unique_names": 2,
+        "public_games": 3,
+        "average_name_length": 3.5
     }
 }
