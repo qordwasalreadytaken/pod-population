@@ -1,25 +1,25 @@
 {
-    "timestamp": "2026-10-31T14:02:00+00:00",
+    "timestamp": "2026-10-31T14:16:00+00:00",
     "difficulty": {
-        "2": 5,
+        "2": 4,
         "0": 2
     },
     "mode": {
-        "1": 2,
+        "1": 1,
         "0": 5
     },
     "difficulty_mode": {
-        "2|1": 2,
+        "2|1": 1,
         "2|0": 3,
         "0|0": 2
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 4
+            "name": "Misc. Public MF Runs",
+            "count": 3
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 2
         },
         {
@@ -29,8 +29,8 @@
     ],
     "top_games": [
         {
-            "name": "dfg",
-            "count": 1
+            "name": "aa",
+            "count": 2
         },
         {
             "name": "hcow",
@@ -47,24 +47,9 @@
         {
             "name": "asd",
             "count": 1
-        },
-        {
-            "name": "aa",
-            "count": 1
-        },
-        {
-            "name": "wikid klownz",
-            "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "dfg",
-            "count": 2,
-            "examples": [
-                "dfg"
-            ]
-        },
         {
             "normalized": "kami",
             "count": 2,
@@ -78,13 +63,6 @@
             "examples": [
                 "coffee"
             ]
-        },
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
-            ]
         }
     ],
     "classified_games": {
@@ -97,20 +75,20 @@
         ],
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
                 "name": "aa",
                 "matched": "aa",
+                "count": 2
+            },
+            {
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 4.86
+        "unique_names": 5,
+        "public_games": 6,
+        "average_name_length": 3.8
     }
 }
