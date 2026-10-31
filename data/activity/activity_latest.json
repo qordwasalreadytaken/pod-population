@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-10-31T03:03:00+00:00",
+    "timestamp": "2026-10-31T03:17:00+00:00",
     "difficulty": {
         "2": 1
     },
@@ -11,29 +11,29 @@
     },
     "activities": [
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n 5-5 facets 1",
+            "name": "test",
             "count": 1
         }
     ],
-    "unknown_games": [],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "n 5-5 facets 1",
-                "matched": "n",
-                "count": 1
-            }
-        ]
-    },
+    "unknown_games": [
+        {
+            "normalized": "test",
+            "count": 2,
+            "examples": [
+                "test"
+            ]
+        }
+    ],
+    "classified_games": {},
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 14.0
+        "average_name_length": 4.0
     }
 }
