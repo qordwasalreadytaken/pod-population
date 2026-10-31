@@ -1,22 +1,32 @@
 {
-    "timestamp": "2026-10-31T18:46:00+00:00",
+    "timestamp": "2026-10-31T19:02:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 4,
         "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 3
+        "1": 1,
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 1,
+        "2|1": 1,
+        "2|0": 3,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
+        },
+        {
+            "name": "Cows",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         },
         {
             "name": "Trade",
@@ -24,6 +34,18 @@
         }
     ],
     "top_games": [
+        {
+            "name": "hcow",
+            "count": 1
+        },
+        {
+            "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "beer",
+            "count": 1
+        },
         {
             "name": "n repect pot",
             "count": 1
@@ -38,6 +60,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "beer",
+            "count": 2,
+            "examples": [
+                "beer"
+            ]
+        },
         {
             "normalized": "aq",
             "count": 2,
@@ -54,6 +83,20 @@
         }
     ],
     "classified_games": {
+        "Cows": [
+            {
+                "name": "hcow",
+                "matched": "cow",
+                "count": 1
+            }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n repect pot",
@@ -63,8 +106,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 5.67
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 4.67
     }
 }
