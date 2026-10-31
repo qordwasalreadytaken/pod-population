@@ -1,18 +1,18 @@
 {
-    "timestamp": "2026-10-31T22:31:00+00:00",
+    "timestamp": "2026-10-31T22:46:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 5
     },
     "mode": {
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 4
+        "2|0": 5
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
@@ -20,6 +20,10 @@
         }
     ],
     "top_games": [
+        {
+            "name": "dada",
+            "count": 1
+        },
         {
             "name": "niasallr55phys",
             "count": 1
@@ -38,6 +42,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "dada",
+            "count": 2,
+            "examples": [
+                "dada"
+            ]
+        },
         {
             "normalized": "niasallr#phys",
             "count": 2,
@@ -68,8 +79,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.25
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 5.8
     }
 }
