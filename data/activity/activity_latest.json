@@ -1,37 +1,39 @@
 {
-    "timestamp": "2026-11-01T19:03:00+00:00",
+    "timestamp": "2026-11-01T19:16:00+00:00",
     "difficulty": {
         "2": 3,
         "0": 1
     },
     "mode": {
-        "0": 4
+        "1": 1,
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|1": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
-            "name": "Trade",
-            "count": 2
+            "name": "Cows",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "qwe",
+            "name": "hcow",
             "count": 1
         },
         {
-            "name": "n all-5 facets",
+            "name": "beer",
             "count": 1
         },
         {
-            "name": "n iasallr55phys",
+            "name": "niasallr55pyhs",
             "count": 1
         },
         {
@@ -41,10 +43,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "qwe",
+            "normalized": "beer",
             "count": 2,
             "examples": [
-                "qwe"
+                "beer"
+            ]
+        },
+        {
+            "normalized": "niasallr#pyhs",
+            "count": 2,
+            "examples": [
+                "niasallr55pyhs"
             ]
         },
         {
@@ -56,15 +65,10 @@
         }
     ],
     "classified_games": {
-        "Trade": [
+        "Cows": [
             {
-                "name": "n all-5 facets",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "n iasallr55phys",
-                "matched": "n",
+                "name": "hcow",
+                "matched": "cow",
                 "count": 1
             }
         ]
@@ -72,6 +76,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 11.0
+        "average_name_length": 8.5
     }
 }

@@ -24,7 +24,7 @@
     },
     {
         "normalized": "wikid klownz",
-        "count": 966,
+        "count": 968,
         "examples": [
             "wikid klownz"
         ]
@@ -407,6 +407,13 @@
         ]
     },
     {
+        "normalized": "beer",
+        "count": 58,
+        "examples": [
+            "beer"
+        ]
+    },
+    {
         "normalized": "javel grow #",
         "count": 56,
         "examples": [
@@ -416,13 +423,6 @@
             "javel grow 4",
             "javel grow 6",
             "javel grow 8"
-        ]
-    },
-    {
-        "normalized": "beer",
-        "count": 56,
-        "examples": [
-            "beer"
         ]
     },
     {
@@ -11173,6 +11173,13 @@
         "count": 2,
         "examples": [
             "beggining"
+        ]
+    },
+    {
+        "normalized": "niasallr#pyhs",
+        "count": 2,
+        "examples": [
+            "niasallr55pyhs"
         ]
     }
 ]
