@@ -1,30 +1,32 @@
 {
-    "timestamp": "2026-11-01T20:03:00+00:00",
+    "timestamp": "2026-11-01T20:16:00+00:00",
     "difficulty": {
-        "2": 5,
-        "1": 1
+        "2": 4,
+        "1": 1,
+        "0": 2
     },
     "mode": {
-        "0": 6
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 5,
-        "1|0": 1
+        "2|0": 4,
+        "1|0": 1,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 6
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 2
+            "name": "ghtry",
+            "count": 1
         },
         {
             "name": "beer",
@@ -41,9 +43,24 @@
         {
             "name": "ghtrjyu",
             "count": 1
+        },
+        {
+            "name": "wikid klownz",
+            "count": 1
+        },
+        {
+            "name": "asd",
+            "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "ghtry",
+            "count": 2,
+            "examples": [
+                "ghtry"
+            ]
+        },
         {
             "normalized": "beer",
             "count": 2,
@@ -71,6 +88,13 @@
             "examples": [
                 "ghtrjyu"
             ]
+        },
+        {
+            "normalized": "wikid klownz",
+            "count": 2,
+            "examples": [
+                "wikid klownz"
+            ]
         }
     ],
     "classified_games": {
@@ -78,13 +102,13 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 6,
-        "average_name_length": 6.4
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 7.0
     }
 }
