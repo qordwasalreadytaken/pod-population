@@ -1,23 +1,23 @@
 {
-    "timestamp": "2026-11-01T13:31:00+00:00",
+    "timestamp": "2026-11-01T13:46:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 3,
+        "2": 2,
         "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 3,
+        "2|0": 2,
         "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
@@ -27,10 +27,6 @@
     "top_games": [
         {
             "name": "gg",
-            "count": 1
-        },
-        {
-            "name": "kami",
             "count": 1
         },
         {
@@ -52,13 +48,6 @@
             "count": 2,
             "examples": [
                 "gg"
-            ]
-        },
-        {
-            "normalized": "kami",
-            "count": 2,
-            "examples": [
-                "kami"
             ]
         },
         {
@@ -86,8 +75,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 7.2
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 8.0
     }
 }
