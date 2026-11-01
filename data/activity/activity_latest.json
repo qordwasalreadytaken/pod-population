@@ -1,8 +1,9 @@
 {
-    "timestamp": "2026-11-01T11:32:00+00:00",
+    "timestamp": "2026-11-01T11:46:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 3
+        "2": 2,
+        "1": 1
     },
     "mode": {
         "1": 1,
@@ -10,41 +11,50 @@
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 3
+        "2|0": 2,
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 3
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "kami",
-            "count": 2
-        },
         {
             "name": "qq",
             "count": 1
         },
         {
+            "name": "kami",
+            "count": 1
+        },
+        {
             "name": "niasallr55phys",
+            "count": 1
+        },
+        {
+            "name": "act 2 nm",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "kami",
-            "count": 4,
-            "examples": [
-                "kami"
-            ]
-        },
-        {
             "normalized": "qq",
             "count": 2,
             "examples": [
                 "qq"
+            ]
+        },
+        {
+            "normalized": "kami",
+            "count": 2,
+            "examples": [
+                "kami"
             ]
         },
         {
@@ -55,10 +65,18 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Leveling": [
+            {
+                "name": "act 2 nm",
+                "matched": "act",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 3,
+        "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 6.67
+        "average_name_length": 7.0
     }
 }
