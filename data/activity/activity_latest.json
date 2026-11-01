@@ -1,19 +1,21 @@
 {
-    "timestamp": "2026-11-01T16:32:00+00:00",
+    "timestamp": "2026-11-01T16:46:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1,
-        "0": 1
+        "2": 6,
+        "1": 1
     },
     "mode": {
-        "0": 4
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 1,
-        "0|0": 1
+        "2|0": 6,
+        "1|0": 1
     },
     "activities": [
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 4
+        },
         {
             "name": "Other",
             "count": 2
@@ -21,13 +23,21 @@
         {
             "name": "Trade",
             "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "asdsd",
+            "count": 2
+        },
+        {
+            "name": "sdf",
+            "count": 1
+        },
+        {
+            "name": "asd",
+            "count": 1
+        },
         {
             "name": "n iasallr55phys",
             "count": 1
@@ -39,47 +49,53 @@
         {
             "name": "gord",
             "count": 1
-        },
-        {
-            "name": "beggining",
-            "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "sdf",
+            "count": 2,
+            "examples": [
+                "sdf"
+            ]
+        },
         {
             "normalized": "niasallr#phys",
             "count": 2,
             "examples": [
                 "niasallr55phys"
             ]
-        },
-        {
-            "normalized": "beggining",
-            "count": 2,
-            "examples": [
-                "beggining"
-            ]
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asdsd",
+                "matched": "asd",
+                "count": 2
+            },
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "gord",
+                "matched": "gord",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n iasallr55phys",
                 "matched": "n",
                 "count": 1
             }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 10.5
+        "unique_names": 6,
+        "public_games": 7,
+        "average_name_length": 7.33
     }
 }
