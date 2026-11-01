@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-01T20:31:00+00:00",
+    "timestamp": "2026-11-01T20:46:00+00:00",
     "difficulty": {
         "2": 4,
         "0": 2
@@ -14,24 +14,24 @@
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 4
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
+        {
+            "name": "dasd",
+            "count": 1
+        },
         {
             "name": "ghtry",
             "count": 1
         },
         {
             "name": "beer",
-            "count": 1
-        },
-        {
-            "name": "adsd",
             "count": 1
         },
         {
@@ -63,13 +63,6 @@
             ]
         },
         {
-            "normalized": "adsd",
-            "count": 2,
-            "examples": [
-                "adsd"
-            ]
-        },
-        {
             "normalized": "niasallr#pyhs",
             "count": 2,
             "examples": [
@@ -86,6 +79,11 @@
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
+            {
+                "name": "dasd",
+                "matched": "asd",
+                "count": 1
+            },
             {
                 "name": "asd",
                 "matched": "asd",
