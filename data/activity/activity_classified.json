@@ -3,7 +3,7 @@
         {
             "name": "hcow",
             "matched": "cow",
-            "count": 133
+            "count": 134
         },
         {
             "name": "cow",
@@ -575,6 +575,11 @@
             "count": 28
         },
         {
+            "name": "n all-5 facets",
+            "matched": "n",
+            "count": 25
+        },
+        {
             "name": "n lightskiller",
             "matched": "n",
             "count": 24
@@ -591,11 +596,6 @@
         },
         {
             "name": "n all 5-5 facet",
-            "matched": "n",
-            "count": 24
-        },
-        {
-            "name": "n all-5 facets",
             "matched": "n",
             "count": 24
         },
@@ -961,7 +961,7 @@
         },
         {
             "name": "n ntorch o bto",
-            "matched": "torch",
+            "matched": "n",
             "count": 6
         },
         {
@@ -1071,7 +1071,7 @@
         },
         {
             "name": "n high d torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 5
         },
         {
@@ -1081,7 +1081,7 @@
         },
         {
             "name": "n necro torch 1",
-            "matched": "torch",
+            "matched": "n",
             "count": 5
         },
         {
@@ -1256,6 +1256,11 @@
         },
         {
             "name": "n nector o p to",
+            "matched": "n",
+            "count": 4
+        },
+        {
+            "name": "n fcr wisp",
             "matched": "n",
             "count": 4
         },
@@ -1526,11 +1531,6 @@
         },
         {
             "name": "n 5-5 facets",
-            "matched": "n",
-            "count": 3
-        },
-        {
-            "name": "n fcr wisp",
             "matched": "n",
             "count": 3
         },
@@ -2176,7 +2176,7 @@
         },
         {
             "name": "n oocs wuw",
-            "matched": "wuw",
+            "matched": "n",
             "count": 1
         },
         {
@@ -2918,6 +2918,11 @@
             "name": "n 5-5 facets 1",
             "matched": "n",
             "count": 1
+        },
+        {
+            "name": "n ias@ /55phys",
+            "matched": "n",
+            "count": 1
         }
     ],
     "Leveling": [
@@ -3128,7 +3133,7 @@
         },
         {
             "name": "act 2 start",
-            "matched": "act",
+            "matched": "start",
             "count": 6
         },
         {
@@ -3208,7 +3213,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 4
         },
         {
@@ -3333,7 +3338,7 @@
         },
         {
             "name": "ancients norm",
-            "matched": "norm",
+            "matched": "anci",
             "count": 2
         },
         {
@@ -3493,7 +3498,7 @@
         },
         {
             "name": "act norms",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -3558,7 +3563,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "tomb",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -3583,7 +3588,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -3698,7 +3703,7 @@
         },
         {
             "name": "1act - normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -3948,7 +3953,7 @@
         {
             "name": "asd",
             "matched": "asd",
-            "count": 2035
+            "count": 2036
         },
         {
             "name": "gord",
@@ -6788,17 +6793,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
