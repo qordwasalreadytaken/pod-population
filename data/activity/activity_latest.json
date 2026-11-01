@@ -1,27 +1,45 @@
 {
-    "timestamp": "2026-11-01T19:46:00+00:00",
+    "timestamp": "2026-11-01T20:03:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 5,
+        "1": 1
     },
     "mode": {
-        "0": 2
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 5,
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
+            "count": 4
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 2
         }
     ],
     "top_games": [
         {
+            "name": "asd",
+            "count": 2
+        },
+        {
             "name": "beer",
             "count": 1
         },
         {
+            "name": "adsd",
+            "count": 1
+        },
+        {
             "name": "niasallr55pyhs",
+            "count": 1
+        },
+        {
+            "name": "ghtrjyu",
             "count": 1
         }
     ],
@@ -34,17 +52,39 @@
             ]
         },
         {
+            "normalized": "adsd",
+            "count": 2,
+            "examples": [
+                "adsd"
+            ]
+        },
+        {
             "normalized": "niasallr#pyhs",
             "count": 2,
             "examples": [
                 "niasallr55pyhs"
             ]
+        },
+        {
+            "normalized": "ghtrjyu",
+            "count": 2,
+            "examples": [
+                "ghtrjyu"
+            ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 2
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 9.0
+        "unique_names": 5,
+        "public_games": 6,
+        "average_name_length": 6.4
     }
 }
