@@ -1,21 +1,21 @@
 {
-    "timestamp": "2026-11-02T07:31:00+00:00",
+    "timestamp": "2026-11-02T07:46:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 2
+        "2": 1
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 2
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Trade",
@@ -25,10 +25,6 @@
     "top_games": [
         {
             "name": "gg",
-            "count": 1
-        },
-        {
-            "name": "kami",
             "count": 1
         },
         {
@@ -43,13 +39,6 @@
             "examples": [
                 "gg"
             ]
-        },
-        {
-            "normalized": "kami",
-            "count": 2,
-            "examples": [
-                "kami"
-            ]
         }
     ],
     "classified_games": {
@@ -62,8 +51,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.67
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 8.0
     }
 }
