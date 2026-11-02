@@ -1,14 +1,14 @@
 {
-    "timestamp": "2026-11-02T16:32:00+00:00",
+    "timestamp": "2026-11-02T16:46:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
-    },
-    "mode": {
         "0": 2
     },
+    "mode": {
+        "1": 1,
+        "0": 1
+    },
     "difficulty_mode": {
-        "2|0": 1,
+        "0|1": 1,
         "0|0": 1
     },
     "activities": [
@@ -19,7 +19,7 @@
     ],
     "top_games": [
         {
-            "name": "coffee",
+            "name": "gg",
             "count": 1
         },
         {
@@ -29,10 +29,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "coffee",
+            "normalized": "gg",
             "count": 2,
             "examples": [
-                "coffee"
+                "gg"
             ]
         },
         {
@@ -47,6 +47,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 4.0
+        "average_name_length": 2.0
     }
 }
