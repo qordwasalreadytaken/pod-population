@@ -3,7 +3,7 @@
         {
             "name": "hcow",
             "matched": "cow",
-            "count": 136
+            "count": 137
         },
         {
             "name": "cow",
@@ -17,7 +17,7 @@
         },
         {
             "name": "cows",
-            "matched": "cows",
+            "matched": "cow",
             "count": 10
         },
         {
@@ -27,12 +27,12 @@
         },
         {
             "name": "hcows",
-            "matched": "cows",
+            "matched": "cow",
             "count": 4
         },
         {
             "name": "letsseewhomcows",
-            "matched": "cows",
+            "matched": "cow",
             "count": 3
         },
         {
@@ -42,7 +42,7 @@
         },
         {
             "name": "cows 2",
-            "matched": "cows",
+            "matched": "cow",
             "count": 2
         },
         {
@@ -72,7 +72,7 @@
         },
         {
             "name": "hell cows",
-            "matched": "cows",
+            "matched": "cow",
             "count": 1
         },
         {
@@ -82,17 +82,17 @@
         },
         {
             "name": "cows 4",
-            "matched": "cows",
+            "matched": "cow",
             "count": 1
         },
         {
             "name": "cows 5",
-            "matched": "cows",
+            "matched": "cow",
             "count": 1
         },
         {
             "name": "cows 3",
-            "matched": "cows",
+            "matched": "cow",
             "count": 1
         },
         {
@@ -470,12 +470,12 @@
             "count": 62
         },
         {
-            "name": "n",
+            "name": "n all-5 facets",
             "matched": "n",
-            "count": 54
+            "count": 55
         },
         {
-            "name": "n all-5 facets",
+            "name": "n",
             "matched": "n",
             "count": 54
         },
@@ -560,6 +560,11 @@
             "count": 30
         },
         {
+            "name": "n ias@ /55phys",
+            "matched": "n",
+            "count": 30
+        },
+        {
             "name": "n sorc t o hrs",
             "matched": "n",
             "count": 29
@@ -571,11 +576,6 @@
         },
         {
             "name": "n 5-5 fire cold",
-            "matched": "n",
-            "count": 29
-        },
-        {
-            "name": "n ias@ /55phys",
             "matched": "n",
             "count": 29
         },
@@ -711,7 +711,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "buy",
+            "matched": "torch",
             "count": 12
         },
         {
@@ -966,7 +966,7 @@
         },
         {
             "name": "n ntorch o bto",
-            "matched": "torch",
+            "matched": "n",
             "count": 6
         },
         {
@@ -1076,7 +1076,7 @@
         },
         {
             "name": "n high d torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 5
         },
         {
@@ -2181,7 +2181,7 @@
         },
         {
             "name": "n oocs wuw",
-            "matched": "n",
+            "matched": "wuw",
             "count": 1
         },
         {
@@ -3178,7 +3178,7 @@
         },
         {
             "name": "acte andy",
-            "matched": "andy",
+            "matched": "act",
             "count": 5
         },
         {
@@ -3318,7 +3318,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -3338,7 +3338,7 @@
         },
         {
             "name": "ancients norm",
-            "matched": "norm",
+            "matched": "anci",
             "count": 2
         },
         {
@@ -3378,7 +3378,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "exp",
+            "matched": "act",
             "count": 2
         },
         {
@@ -3498,7 +3498,7 @@
         },
         {
             "name": "act norms",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -3563,7 +3563,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "norm",
+            "matched": "tomb",
             "count": 1
         },
         {
@@ -3953,7 +3953,7 @@
         {
             "name": "asd",
             "matched": "asd",
-            "count": 2047
+            "count": 2048
         },
         {
             "name": "gord",
@@ -6456,7 +6456,7 @@
         },
         {
             "name": "maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 14
         },
         {
@@ -6486,7 +6486,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 7
         },
         {
@@ -6536,7 +6536,7 @@
         },
         {
             "name": "desert maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 5
         },
         {
@@ -6546,7 +6546,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "map",
+            "matched": "mapping",
             "count": 4
         },
         {
@@ -6571,7 +6571,7 @@
         },
         {
             "name": "public maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 4
         },
         {
@@ -6631,7 +6631,7 @@
         },
         {
             "name": "slow maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 3
         },
         {
@@ -6681,12 +6681,12 @@
         },
         {
             "name": "t maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 2
         },
         {
             "name": "t maps 2",
-            "matched": "map",
+            "matched": "maps",
             "count": 2
         },
         {
@@ -6741,12 +6741,12 @@
         },
         {
             "name": "mapping 2",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
             "name": "maps?2",
-            "matched": "map",
+            "matched": "maps",
             "count": 1
         },
         {
@@ -6756,7 +6756,7 @@
         },
         {
             "name": "mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -6766,7 +6766,7 @@
         },
         {
             "name": "maps 3",
-            "matched": "map",
+            "matched": "maps",
             "count": 1
         },
         {
@@ -6808,17 +6808,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
