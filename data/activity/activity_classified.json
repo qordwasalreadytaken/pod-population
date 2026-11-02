@@ -711,7 +711,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "buy",
+            "matched": "torch",
             "count": 12
         },
         {
@@ -901,11 +901,16 @@
         },
         {
             "name": "need n torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 7
         },
         {
             "name": "n any 5-5 facet",
+            "matched": "n",
+            "count": 7
+        },
+        {
+            "name": "n ias@ &55phys",
             "matched": "n",
             "count": 7
         },
@@ -996,11 +1001,6 @@
         },
         {
             "name": "n pnb skiller",
-            "matched": "n",
-            "count": 6
-        },
-        {
-            "name": "n ias@ &55phys",
             "matched": "n",
             "count": 6
         },
@@ -1311,7 +1311,7 @@
         },
         {
             "name": "n assa torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 3
         },
         {
@@ -3958,7 +3958,7 @@
         {
             "name": "asd",
             "matched": "asd",
-            "count": 2058
+            "count": 2059
         },
         {
             "name": "gord",
@@ -4782,7 +4782,7 @@
         },
         {
             "name": "asdsd36aaaa",
-            "matched": "asd",
+            "matched": "aaa",
             "count": 2
         },
         {
@@ -4967,7 +4967,7 @@
         },
         {
             "name": "saaasd",
-            "matched": "asd",
+            "matched": "aaa",
             "count": 2
         },
         {
@@ -5237,7 +5237,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "mf",
+            "matched": "run",
             "count": 1
         },
         {
@@ -6127,7 +6127,7 @@
         },
         {
             "name": "asdff",
-            "matched": "asd",
+            "matched": "asdff",
             "count": 1
         },
         {
@@ -6556,7 +6556,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 7
         },
         {
@@ -6616,7 +6616,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "mapping",
+            "matched": "map",
             "count": 4
         },
         {
@@ -6816,7 +6816,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -6831,7 +6831,7 @@
         },
         {
             "name": "mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -6883,17 +6883,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
