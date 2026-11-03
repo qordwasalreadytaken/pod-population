@@ -1,31 +1,37 @@
 {
-    "timestamp": "2026-11-02T23:47:00+00:00",
+    "timestamp": "2026-11-03T00:08:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 4,
+        "0": 1
     },
     "mode": {
-        "0": 3
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 3
+        "2|0": 4,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
             "name": "ted",
-            "count": 2
+            "count": 3
         },
         {
             "name": "godzilla",
+            "count": 1
+        },
+        {
+            "name": "dhfkasjfh",
             "count": 1
         }
     ],
@@ -36,6 +42,13 @@
             "examples": [
                 "godzilla"
             ]
+        },
+        {
+            "normalized": "dhfkasjfh",
+            "count": 2,
+            "examples": [
+                "dhfkasjfh"
+            ]
         }
     ],
     "classified_games": {
@@ -43,13 +56,13 @@
             {
                 "name": "ted",
                 "matched": "ted",
-                "count": 2
+                "count": 3
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 3,
-        "average_name_length": 5.5
+        "unique_names": 3,
+        "public_games": 5,
+        "average_name_length": 6.67
     }
 }
