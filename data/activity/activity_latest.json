@@ -1,16 +1,14 @@
 {
-    "timestamp": "2026-11-03T17:32:00+00:00",
+    "timestamp": "2026-11-03T17:46:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 1,
+        "2": 2,
         "0": 1
     },
     "mode": {
         "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
@@ -22,11 +20,7 @@
     "top_games": [
         {
             "name": "coffee",
-            "count": 1
-        },
-        {
-            "name": "25",
-            "count": 1
+            "count": 2
         },
         {
             "name": "wikid klownz",
@@ -36,16 +30,9 @@
     "unknown_games": [
         {
             "normalized": "coffee",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "coffee"
-            ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "25"
             ]
         },
         {
@@ -58,8 +45,8 @@
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 3,
+        "unique_names": 2,
         "public_games": 3,
-        "average_name_length": 6.67
+        "average_name_length": 9.0
     }
 }
