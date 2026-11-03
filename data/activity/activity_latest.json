@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-11-03T23:16:00+00:00",
+    "timestamp": "2026-11-03T23:31:00+00:00",
     "difficulty": {
         "0": 2,
-        "2": 3
+        "2": 2
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 3,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Trade",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Leveling",
@@ -30,10 +30,6 @@
     "top_games": [
         {
             "name": "act 3",
-            "count": 1
-        },
-        {
-            "name": "n ias@ /55phys",
             "count": 1
         },
         {
@@ -68,11 +64,6 @@
         ],
         "Trade": [
             {
-                "name": "n ias@ /55phys",
-                "matched": "n",
-                "count": 1
-            },
-            {
                 "name": "n 5-5 light fac",
                 "matched": "n",
                 "count": 1
@@ -85,8 +76,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 10.2
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 9.25
     }
 }
