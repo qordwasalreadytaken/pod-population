@@ -119,6 +119,11 @@
             "name": "cow run 9",
             "matched": "cow",
             "count": 1
+        },
+        {
+            "name": "nmcow",
+            "matched": "cow",
+            "count": 1
         }
     ],
     "Baal": [
@@ -971,7 +976,7 @@
         },
         {
             "name": "n ntorch o bto",
-            "matched": "torch",
+            "matched": "n",
             "count": 6
         },
         {
@@ -1081,7 +1086,7 @@
         },
         {
             "name": "n high d torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 5
         },
         {
@@ -1091,7 +1096,7 @@
         },
         {
             "name": "n necro torch 1",
-            "matched": "torch",
+            "matched": "n",
             "count": 5
         },
         {
@@ -1211,7 +1216,7 @@
         },
         {
             "name": "n poisonb gc",
-            "matched": "iso",
+            "matched": "n",
             "count": 4
         },
         {
@@ -1311,7 +1316,7 @@
         },
         {
             "name": "n assa torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 3
         },
         {
@@ -1976,7 +1981,7 @@
         },
         {
             "name": "n pala torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
@@ -2186,7 +2191,7 @@
         },
         {
             "name": "n oocs wuw",
-            "matched": "wuw",
+            "matched": "n",
             "count": 1
         },
         {
@@ -3008,7 +3013,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "act",
+            "matched": "andar",
             "count": 12
         },
         {
@@ -3183,7 +3188,7 @@
         },
         {
             "name": "acte andy",
-            "matched": "andy",
+            "matched": "act",
             "count": 5
         },
         {
@@ -3198,7 +3203,7 @@
         },
         {
             "name": "tristnorm",
-            "matched": "norm",
+            "matched": "trist",
             "count": 5
         },
         {
@@ -3323,7 +3328,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -3503,7 +3508,7 @@
         },
         {
             "name": "act norms",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -3748,7 +3753,7 @@
         },
         {
             "name": "act normies",
-            "matched": "act",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -3769,6 +3774,11 @@
         {
             "name": "3 walk",
             "matched": "walk",
+            "count": 1
+        },
+        {
+            "name": "starting new",
+            "matched": "start",
             "count": 1
         }
     ],
@@ -5237,7 +5247,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "mf",
+            "matched": "run",
             "count": 1
         },
         {
@@ -5297,7 +5307,7 @@
         },
         {
             "name": "14123awdasdfqwr",
-            "matched": "asd",
+            "matched": "123",
             "count": 1
         },
         {
@@ -6883,17 +6893,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
