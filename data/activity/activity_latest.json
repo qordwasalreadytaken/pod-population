@@ -1,25 +1,18 @@
 {
-    "timestamp": "2026-11-03T20:16:00+00:00",
+    "timestamp": "2026-11-03T20:32:00+00:00",
     "difficulty": {
-        "0": 1,
-        "2": 2
+        "2": 5
     },
     "mode": {
-        "1": 1,
-        "0": 2
+        "0": 5
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 2
+        "2|0": 5
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 4
         },
         {
             "name": "Trade",
@@ -28,12 +21,8 @@
     ],
     "top_games": [
         {
-            "name": "gg",
-            "count": 1
-        },
-        {
-            "name": "asd",
-            "count": 1
+            "name": "k",
+            "count": 4
         },
         {
             "name": "n ias@ /55phys",
@@ -42,21 +31,14 @@
     ],
     "unknown_games": [
         {
-            "normalized": "gg",
-            "count": 2,
+            "normalized": "k",
+            "count": 8,
             "examples": [
-                "gg"
+                "k"
             ]
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "n ias@ /55phys",
@@ -66,8 +48,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.33
+        "unique_names": 2,
+        "public_games": 5,
+        "average_name_length": 7.5
     }
 }
