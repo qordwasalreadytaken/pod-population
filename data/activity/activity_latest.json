@@ -1,22 +1,21 @@
 {
-    "timestamp": "2026-11-03T03:32:00+00:00",
+    "timestamp": "2026-11-03T03:46:00+00:00",
     "difficulty": {
-        "0": 2,
+        "0": 1,
         "2": 1
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 1,
-        "0|0": 1
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         }
     ],
     "top_games": [
@@ -26,10 +25,6 @@
         },
         {
             "name": "mothra",
-            "count": 1
-        },
-        {
-            "name": "gs",
             "count": 1
         }
     ],
@@ -47,19 +42,12 @@
             "examples": [
                 "mothra"
             ]
-        },
-        {
-            "normalized": "gs",
-            "count": 2,
-            "examples": [
-                "gs"
-            ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 3.33
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 4.0
     }
 }
