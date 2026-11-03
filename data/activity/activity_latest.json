@@ -1,18 +1,16 @@
 {
-    "timestamp": "2026-11-03T19:32:00+00:00",
+    "timestamp": "2026-11-03T19:46:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 1,
-        "1": 1
+        "2": 1
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 1,
-        "1|0": 1
+        "2|0": 1
     },
     "activities": [
         {
@@ -22,10 +20,6 @@
         {
             "name": "Trade",
             "count": 1
-        },
-        {
-            "name": "Leveling",
-            "count": 1
         }
     ],
     "top_games": [
@@ -34,11 +28,7 @@
             "count": 1
         },
         {
-            "name": "n any-5 facets",
-            "count": 1
-        },
-        {
-            "name": "act 1 nm",
+            "name": "n ias@ /55phys",
             "count": 1
         }
     ],
@@ -54,22 +44,15 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "n any-5 facets",
+                "name": "n ias@ /55phys",
                 "matched": "n",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "act 1 nm",
-                "matched": "act",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
+        "unique_names": 2,
+        "public_games": 2,
         "average_name_length": 8.0
     }
 }
