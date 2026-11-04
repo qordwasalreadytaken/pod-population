@@ -1,33 +1,21 @@
 {
-    "timestamp": "2026-11-04T07:03:00+00:00",
+    "timestamp": "2026-11-04T07:18:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 1
+        "0": 2
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 1,
         "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 2
         }
     ],
     "top_games": [
-        {
-            "name": "lll",
-            "count": 1
-        },
-        {
-            "name": "smokingweed",
-            "count": 1
-        },
         {
             "name": "server",
             "count": 1
@@ -38,20 +26,6 @@
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "lll",
-            "count": 2,
-            "examples": [
-                "lll"
-            ]
-        },
-        {
-            "normalized": "smokingweed",
-            "count": 2,
-            "examples": [
-                "smokingweed"
-            ]
-        },
         {
             "normalized": "server",
             "count": 2,
@@ -69,8 +43,8 @@
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 8.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 9.0
     }
 }
