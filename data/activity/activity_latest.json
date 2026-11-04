@@ -1,18 +1,18 @@
 {
-    "timestamp": "2026-11-04T11:18:00+00:00",
+    "timestamp": "2026-11-04T11:31:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 2
     },
     "mode": {
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 3
+        "2|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
@@ -22,10 +22,6 @@
     "top_games": [
         {
             "name": "wgesdvf",
-            "count": 1
-        },
-        {
-            "name": "waregs",
             "count": 1
         },
         {
@@ -40,13 +36,6 @@
             "examples": [
                 "wgesdvf"
             ]
-        },
-        {
-            "normalized": "waregs",
-            "count": 2,
-            "examples": [
-                "waregs"
-            ]
         }
     ],
     "classified_games": {
@@ -59,8 +48,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 8.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 9.0
     }
 }
