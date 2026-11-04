@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-04T06:05:00+00:00",
+    "timestamp": "2026-11-04T06:25:00+00:00",
     "difficulty": {
         "0": 3,
         "2": 1
@@ -29,11 +29,11 @@
             "count": 1
         },
         {
-            "name": "wikid klownz",
+            "name": "server",
             "count": 1
         },
         {
-            "name": "server",
+            "name": "wikid klownz",
             "count": 1
         }
     ],
@@ -53,17 +53,17 @@
             ]
         },
         {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
-            ]
-        },
-        {
             "normalized": "server",
             "count": 2,
             "examples": [
                 "server"
+            ]
+        },
+        {
+            "normalized": "wikid klownz",
+            "count": 2,
+            "examples": [
+                "wikid klownz"
             ]
         }
     ],
