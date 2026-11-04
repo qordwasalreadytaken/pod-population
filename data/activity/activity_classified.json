@@ -506,7 +506,7 @@
         },
         {
             "name": "n druid torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 43
         },
         {
@@ -661,7 +661,7 @@
         },
         {
             "name": "n nec torch 1",
-            "matched": "n",
+            "matched": "torch",
             "count": 16
         },
         {
@@ -676,7 +676,7 @@
         },
         {
             "name": "n nec torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 15
         },
         {
@@ -986,7 +986,7 @@
         },
         {
             "name": "n ntorch o bto",
-            "matched": "n",
+            "matched": "torch",
             "count": 6
         },
         {
@@ -1006,7 +1006,7 @@
         },
         {
             "name": "n nec torch 2",
-            "matched": "n",
+            "matched": "torch",
             "count": 6
         },
         {
@@ -1091,12 +1091,12 @@
         },
         {
             "name": "n nec torch 4",
-            "matched": "n",
+            "matched": "torch",
             "count": 5
         },
         {
             "name": "n high d torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 5
         },
         {
@@ -1106,7 +1106,7 @@
         },
         {
             "name": "n necro torch 1",
-            "matched": "n",
+            "matched": "torch",
             "count": 5
         },
         {
@@ -1271,7 +1271,7 @@
         },
         {
             "name": "n druidtorch",
-            "matched": "torch",
+            "matched": "n",
             "count": 4
         },
         {
@@ -2026,7 +2026,7 @@
         },
         {
             "name": "n nec torch :)",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -2211,7 +2211,7 @@
         },
         {
             "name": "n oocs wuw",
-            "matched": "wuw",
+            "matched": "n",
             "count": 1
         },
         {
@@ -2661,7 +2661,7 @@
         },
         {
             "name": "n barb torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -2876,7 +2876,7 @@
         },
         {
             "name": "n nec torch 3",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -3143,7 +3143,7 @@
         },
         {
             "name": "act 2 - normal",
-            "matched": "norm",
+            "matched": "act",
             "count": 6
         },
         {
@@ -3223,7 +3223,7 @@
         },
         {
             "name": "tristnorm",
-            "matched": "norm",
+            "matched": "trist",
             "count": 5
         },
         {
@@ -3353,7 +3353,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "leveli",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -3413,7 +3413,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "act",
+            "matched": "exp",
             "count": 2
         },
         {
@@ -3533,7 +3533,7 @@
         },
         {
             "name": "act norms",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -3778,7 +3778,7 @@
         },
         {
             "name": "act normies",
-            "matched": "norm",
+            "matched": "act",
             "count": 1
         },
         {
@@ -6586,7 +6586,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 7
         },
         {
@@ -6646,7 +6646,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "map",
+            "matched": "mapping",
             "count": 4
         },
         {
@@ -6815,6 +6815,11 @@
             "count": 2
         },
         {
+            "name": "manufacturi map",
+            "matched": "map",
+            "count": 2
+        },
+        {
             "name": "mapp",
             "matched": "map",
             "count": 1
@@ -6846,7 +6851,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -6861,7 +6866,7 @@
         },
         {
             "name": "mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -6908,27 +6913,22 @@
             "name": "come map",
             "matched": "map",
             "count": 1
-        },
-        {
-            "name": "manufacturi map",
-            "matched": "map",
-            "count": 1
         }
     ],
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
