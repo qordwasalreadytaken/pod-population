@@ -1,70 +1,39 @@
 {
-    "timestamp": "2026-11-04T00:09:00+00:00",
+    "timestamp": "2026-11-04T00:35:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 1
     },
     "mode": {
-        "0": 3
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 3
+        "2|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
             "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "des key run 2",
-            "count": 1
-        },
-        {
-            "name": "mothra",
-            "count": 1
-        },
-        {
-            "name": "n any-5 facets",
+            "name": "peanut",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "mothra",
+            "normalized": "peanut",
             "count": 2,
             "examples": [
-                "mothra"
+                "peanut"
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "des key run 2",
-                "matched": "run",
-                "count": 1
-            }
-        ],
-        "Trade": [
-            {
-                "name": "n any-5 facets",
-                "matched": "n",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 11.0
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 6.0
     }
 }
