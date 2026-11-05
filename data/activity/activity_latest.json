@@ -1,33 +1,23 @@
 {
-    "timestamp": "2026-11-05T11:03:00+00:00",
+    "timestamp": "2026-11-05T11:16:00+00:00",
     "difficulty": {
-        "0": 2
-    },
-    "mode": {
-        "1": 1,
         "0": 1
     },
+    "mode": {
+        "1": 1
+    },
     "difficulty_mode": {
-        "0|1": 1,
-        "0|0": 1
+        "0|1": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "gg",
-            "count": 1
-        },
-        {
-            "name": "normal act 3",
             "count": 1
         }
     ],
@@ -40,18 +30,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Leveling": [
-            {
-                "name": "normal act 3",
-                "matched": "norm",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 7.0
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 2.0
     }
 }
