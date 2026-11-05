@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-11-05T04:46:00+00:00",
+    "timestamp": "2026-11-05T05:03:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 1,
         "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 1
         },
         {
             "name": "Other",
@@ -24,7 +24,7 @@
     "top_games": [
         {
             "name": "ted",
-            "count": 3
+            "count": 1
         },
         {
             "name": "server 2",
@@ -45,13 +45,13 @@
             {
                 "name": "ted",
                 "matched": "ted",
-                "count": 3
+                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 2,
-        "public_games": 4,
+        "public_games": 2,
         "average_name_length": 5.5
     }
 }
