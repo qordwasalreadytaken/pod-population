@@ -1,25 +1,21 @@
 {
-    "timestamp": "2026-11-05T01:46:00+00:00",
+    "timestamp": "2026-11-05T02:04:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 3
+        "2": 6
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 6
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 3
+        "2|0": 6
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 6
         },
         {
             "name": "Trade",
@@ -28,11 +24,11 @@
     ],
     "top_games": [
         {
-            "name": "gg",
-            "count": 1
+            "name": "sgdf",
+            "count": 4
         },
         {
-            "name": "asd",
+            "name": "gg",
             "count": 1
         },
         {
@@ -45,6 +41,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "sgdf",
+            "count": 8,
+            "examples": [
+                "sgdf"
+            ]
+        },
         {
             "normalized": "gg",
             "count": 2,
@@ -61,13 +64,6 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "n any-5 facets",
@@ -78,7 +74,7 @@
     },
     "interesting": {
         "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 5.5
+        "public_games": 7,
+        "average_name_length": 5.75
     }
 }
