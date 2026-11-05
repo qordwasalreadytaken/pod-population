@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-05T23:16:00+00:00",
+    "timestamp": "2026-11-05T23:31:00+00:00",
     "difficulty": {
         "0": 2,
         "2": 3
@@ -33,7 +33,7 @@
             "count": 1
         },
         {
-            "name": "godzilla",
+            "name": "mothra",
             "count": 1
         },
         {
@@ -58,10 +58,10 @@
             ]
         },
         {
-            "normalized": "godzilla",
+            "normalized": "mothra",
             "count": 2,
             "examples": [
-                "godzilla"
+                "mothra"
             ]
         },
         {
@@ -91,6 +91,6 @@
     "interesting": {
         "unique_names": 5,
         "public_games": 5,
-        "average_name_length": 9.6
+        "average_name_length": 9.2
     }
 }
