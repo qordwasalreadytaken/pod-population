@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-05T03:46:00+00:00",
+    "timestamp": "2026-11-05T04:04:00+00:00",
     "difficulty": {
         "0": 2
     },
@@ -17,23 +17,34 @@
     ],
     "top_games": [
         {
-            "name": "inicio",
-            "count": 2
+            "name": "server 2",
+            "count": 1
+        },
+        {
+            "name": "ddd",
+            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "inicio",
-            "count": 4,
+            "normalized": "server #",
+            "count": 2,
             "examples": [
-                "inicio"
+                "server 2"
+            ]
+        },
+        {
+            "normalized": "ddd",
+            "count": 2,
+            "examples": [
+                "ddd"
             ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 1,
+        "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 6.0
+        "average_name_length": 5.5
     }
 }
