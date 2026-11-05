@@ -1,14 +1,15 @@
 {
-    "timestamp": "2026-11-05T14:46:00+00:00",
+    "timestamp": "2026-11-05T15:03:00+00:00",
     "difficulty": {
-        "0": 2
+        "1": 1,
+        "0": 1
     },
     "mode": {
         "1": 1,
         "0": 1
     },
     "difficulty_mode": {
-        "0|1": 1,
+        "1|1": 1,
         "0|0": 1
     },
     "activities": [
@@ -19,7 +20,7 @@
     ],
     "top_games": [
         {
-            "name": "qe",
+            "name": "eq",
             "count": 1
         },
         {
@@ -29,10 +30,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "qe",
+            "normalized": "eq",
             "count": 2,
             "examples": [
-                "qe"
+                "eq"
             ]
         },
         {
