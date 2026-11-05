@@ -1,29 +1,28 @@
 {
-    "timestamp": "2026-11-05T07:46:00+00:00",
+    "timestamp": "2026-11-05T08:04:00+00:00",
     "difficulty": {
-        "0": 2,
+        "0": 1,
         "2": 2
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 2,
-        "0|0": 1
+        "2|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Trade",
             "count": 1
         },
         {
-            "name": "Leveling",
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
+            "name": "Trade",
             "count": 1
         }
     ],
@@ -33,15 +32,11 @@
             "count": 1
         },
         {
-            "name": "121",
+            "name": "n eld runes",
             "count": 1
         },
         {
             "name": "need nec torch",
-            "count": 1
-        },
-        {
-            "name": "normal act 2",
             "count": 1
         }
     ],
@@ -52,34 +47,27 @@
             "examples": [
                 "gg"
             ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "121"
-            ]
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "n eld runes",
+                "matched": "run",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "need nec torch",
                 "matched": "torch",
                 "count": 1
             }
-        ],
-        "Leveling": [
-            {
-                "name": "normal act 2",
-                "matched": "norm",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 7.75
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 9.0
     }
 }
