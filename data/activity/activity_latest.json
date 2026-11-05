@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-11-05T02:46:00+00:00",
+    "timestamp": "2026-11-05T03:04:00+00:00",
     "difficulty": {
-        "0": 2,
+        "0": 4,
         "2": 2
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 5
     },
     "difficulty_mode": {
         "0|1": 1,
         "2|0": 2,
-        "0|0": 1
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 5
         },
         {
             "name": "Trade",
@@ -34,6 +34,14 @@
         },
         {
             "name": "n any-5 facets",
+            "count": 1
+        },
+        {
+            "name": "dk",
+            "count": 1
+        },
+        {
+            "name": "inicio",
             "count": 1
         },
         {
@@ -57,6 +65,20 @@
             ]
         },
         {
+            "normalized": "dk",
+            "count": 2,
+            "examples": [
+                "dk"
+            ]
+        },
+        {
+            "normalized": "inicio",
+            "count": 2,
+            "examples": [
+                "inicio"
+            ]
+        },
+        {
             "normalized": "server #",
             "count": 2,
             "examples": [
@@ -74,8 +96,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.75
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 5.83
     }
 }

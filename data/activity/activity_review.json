@@ -38,7 +38,7 @@
     },
     {
         "normalized": "gg",
-        "count": 780,
+        "count": 782,
         "examples": [
             "gg"
         ]
@@ -1115,6 +1115,13 @@
         ]
     },
     {
+        "normalized": "afk",
+        "count": 24,
+        "examples": [
+            "afk"
+        ]
+    },
+    {
         "normalized": "y",
         "count": 22,
         "examples": [
@@ -1262,13 +1269,6 @@
         "count": 22,
         "examples": [
             "peanut"
-        ]
-    },
-    {
-        "normalized": "afk",
-        "count": 22,
-        "examples": [
-            "afk"
         ]
     },
     {
@@ -6465,6 +6465,13 @@
         ]
     },
     {
+        "normalized": "server #",
+        "count": 4,
+        "examples": [
+            "server 1"
+        ]
+    },
+    {
         "normalized": "a wps plz",
         "count": 2,
         "examples": [
@@ -11358,10 +11365,17 @@
         ]
     },
     {
-        "normalized": "server #",
+        "normalized": "dk",
         "count": 2,
         "examples": [
-            "server 1"
+            "dk"
+        ]
+    },
+    {
+        "normalized": "inicio",
+        "count": 2,
+        "examples": [
+            "inicio"
         ]
     }
 ]
