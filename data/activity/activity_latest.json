@@ -1,8 +1,7 @@
 {
-    "timestamp": "2026-11-05T10:31:00+00:00",
+    "timestamp": "2026-11-05T10:46:00+00:00",
     "difficulty": {
-        "0": 1,
-        "2": 1
+        "0": 2
     },
     "mode": {
         "1": 1,
@@ -10,7 +9,7 @@
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 1
+        "0|0": 1
     },
     "activities": [
         {
@@ -18,7 +17,7 @@
             "count": 1
         },
         {
-            "name": "Trade",
+            "name": "Leveling",
             "count": 1
         }
     ],
@@ -28,7 +27,7 @@
             "count": 1
         },
         {
-            "name": "need nec torch",
+            "name": "normal act 3",
             "count": 1
         }
     ],
@@ -42,10 +41,10 @@
         }
     ],
     "classified_games": {
-        "Trade": [
+        "Leveling": [
             {
-                "name": "need nec torch",
-                "matched": "torch",
+                "name": "normal act 3",
+                "matched": "act",
                 "count": 1
             }
         ]
@@ -53,6 +52,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 8.0
+        "average_name_length": 7.0
     }
 }
