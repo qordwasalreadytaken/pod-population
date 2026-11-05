@@ -38,7 +38,7 @@
     },
     {
         "normalized": "gg",
-        "count": 782,
+        "count": 784,
         "examples": [
             "gg"
         ]
@@ -969,6 +969,13 @@
         ]
     },
     {
+        "normalized": "afk",
+        "count": 26,
+        "examples": [
+            "afk"
+        ]
+    },
+    {
         "normalized": "a nm",
         "count": 24,
         "examples": [
@@ -1112,13 +1119,6 @@
         "count": 24,
         "examples": [
             "mki"
-        ]
-    },
-    {
-        "normalized": "afk",
-        "count": 24,
-        "examples": [
-            "afk"
         ]
     },
     {
@@ -4571,6 +4571,13 @@
         ]
     },
     {
+        "normalized": "server #",
+        "count": 6,
+        "examples": [
+            "server 1"
+        ]
+    },
+    {
         "normalized": "nm #",
         "count": 4,
         "examples": [
@@ -6465,10 +6472,10 @@
         ]
     },
     {
-        "normalized": "server #",
+        "normalized": "inicio",
         "count": 4,
         "examples": [
-            "server 1"
+            "inicio"
         ]
     },
     {
@@ -11369,13 +11376,6 @@
         "count": 2,
         "examples": [
             "dk"
-        ]
-    },
-    {
-        "normalized": "inicio",
-        "count": 2,
-        "examples": [
-            "inicio"
         ]
     }
 ]

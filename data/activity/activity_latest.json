@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-11-05T03:04:00+00:00",
+    "timestamp": "2026-11-05T03:18:00+00:00",
     "difficulty": {
-        "0": 4,
+        "0": 3,
         "2": 2
     },
     "mode": {
         "1": 1,
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
         "0|1": 1,
         "2|0": 2,
-        "0|0": 3
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 4
         },
         {
             "name": "Trade",
@@ -34,10 +34,6 @@
         },
         {
             "name": "n any-5 facets",
-            "count": 1
-        },
-        {
-            "name": "dk",
             "count": 1
         },
         {
@@ -65,13 +61,6 @@
             ]
         },
         {
-            "normalized": "dk",
-            "count": 2,
-            "examples": [
-                "dk"
-            ]
-        },
-        {
             "normalized": "inicio",
             "count": 2,
             "examples": [
@@ -96,8 +85,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 5.83
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 6.6
     }
 }
