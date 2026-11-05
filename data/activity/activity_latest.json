@@ -1,17 +1,19 @@
 {
-    "timestamp": "2026-11-05T23:31:00+00:00",
+    "timestamp": "2026-11-05T23:46:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 3
+        "1": 1,
+        "0": 3,
+        "2": 2
     },
     "mode": {
-        "1": 1,
+        "1": 2,
         "0": 4
     },
     "difficulty_mode": {
+        "1|1": 1,
         "0|1": 1,
-        "2|0": 3,
-        "0|0": 1
+        "2|0": 2,
+        "0|0": 2
     },
     "activities": [
         {
@@ -25,15 +27,19 @@
         {
             "name": "Trade",
             "count": 1
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "gg",
+            "name": "qe",
             "count": 1
         },
         {
-            "name": "mothra",
+            "name": "gg",
             "count": 1
         },
         {
@@ -45,23 +51,27 @@
             "count": 1
         },
         {
+            "name": "1 walk",
+            "count": 1
+        },
+        {
             "name": "wikid klownz",
             "count": 1
         }
     ],
     "unknown_games": [
         {
+            "normalized": "qe",
+            "count": 2,
+            "examples": [
+                "qe"
+            ]
+        },
+        {
             "normalized": "gg",
             "count": 2,
             "examples": [
                 "gg"
-            ]
-        },
-        {
-            "normalized": "mothra",
-            "count": 2,
-            "examples": [
-                "mothra"
             ]
         },
         {
@@ -86,11 +96,18 @@
                 "matched": "n",
                 "count": 1
             }
+        ],
+        "Leveling": [
+            {
+                "name": "1 walk",
+                "matched": "walk",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 9.2
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 8.0
     }
 }
