@@ -1,9 +1,8 @@
 {
-    "timestamp": "2026-11-06T19:46:00+00:00",
+    "timestamp": "2026-11-06T20:03:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 1,
-        "1": 1
+        "1": 2
     },
     "mode": {
         "1": 1,
@@ -11,17 +10,12 @@
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 1,
-        "1|0": 1
+        "1|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Maps",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -34,7 +28,7 @@
             "count": 1
         },
         {
-            "name": "chill mapping",
+            "name": "fdf",
             "count": 1
         },
         {
@@ -49,16 +43,16 @@
             "examples": [
                 "wikid klownz"
             ]
+        },
+        {
+            "normalized": "fdf",
+            "count": 2,
+            "examples": [
+                "fdf"
+            ]
         }
     ],
     "classified_games": {
-        "Maps": [
-            {
-                "name": "chill mapping",
-                "matched": "mapping",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "gord",
@@ -70,6 +64,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 9.67
+        "average_name_length": 6.33
     }
 }
