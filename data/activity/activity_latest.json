@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-06T16:17:00+00:00",
+    "timestamp": "2026-11-06T16:31:00+00:00",
     "difficulty": {
         "1": 1,
         "0": 3
@@ -19,7 +19,7 @@
     ],
     "top_games": [
         {
-            "name": "sdgs",
+            "name": "222",
             "count": 1
         },
         {
@@ -37,16 +37,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "sdgs",
-            "count": 2,
-            "examples": [
-                "sdgs"
-            ]
-        },
-        {
             "normalized": "#",
-            "count": 2,
+            "count": 4,
             "examples": [
+                "222",
                 "4"
             ]
         },
@@ -69,6 +63,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 5.25
+        "average_name_length": 5.0
     }
 }
