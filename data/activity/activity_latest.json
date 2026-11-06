@@ -1,71 +1,15 @@
 {
-    "timestamp": "2026-11-06T00:08:00+00:00",
-    "difficulty": {
-        "2": 2,
-        "0": 1
-    },
-    "mode": {
-        "0": 3
-    },
-    "difficulty_mode": {
-        "2|0": 2,
-        "0|0": 1
-    },
-    "activities": [
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Leveling",
-            "count": 1
-        }
-    ],
-    "top_games": [
-        {
-            "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "n light fhr frw",
-            "count": 1
-        },
-        {
-            "name": "1 walk",
-            "count": 1
-        }
-    ],
+    "timestamp": "2026-11-06T00:36:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "difficulty_mode": {},
+    "activities": [],
+    "top_games": [],
     "unknown_games": [],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
-        "Trade": [
-            {
-                "name": "n light fhr frw",
-                "matched": "n",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "1 walk",
-                "matched": "walk",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 8.0
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
