@@ -1,53 +1,64 @@
 {
-    "timestamp": "2026-11-06T11:31:00+00:00",
+    "timestamp": "2026-11-06T11:46:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "2": 4,
+        "0": 2
     },
     "mode": {
-        "0": 3
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "0|0": 1
+        "2|0": 4,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 4
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "grsdtf",
-            "count": 1
-        },
-        {
             "name": "asd",
-            "count": 1
+            "count": 2
         },
         {
             "name": "coffee",
+            "count": 2
+        },
+        {
+            "name": "trav",
+            "count": 1
+        },
+        {
+            "name": "grsdtf",
             "count": 1
         }
     ],
     "unknown_games": [
         {
+            "normalized": "coffee",
+            "count": 4,
+            "examples": [
+                "coffee"
+            ]
+        },
+        {
+            "normalized": "trav",
+            "count": 2,
+            "examples": [
+                "trav"
+            ]
+        },
+        {
             "normalized": "grsdtf",
             "count": 2,
             "examples": [
                 "grsdtf"
-            ]
-        },
-        {
-            "normalized": "coffee",
-            "count": 2,
-            "examples": [
-                "coffee"
             ]
         }
     ],
@@ -56,13 +67,13 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 5.0
+        "unique_names": 4,
+        "public_games": 6,
+        "average_name_length": 4.75
     }
 }
