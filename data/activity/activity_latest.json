@@ -1,32 +1,32 @@
 {
-    "timestamp": "2026-11-06T10:03:00+00:00",
+    "timestamp": "2026-11-06T10:17:00+00:00",
     "difficulty": {
-        "2": 1
+        "0": 1
     },
     "mode": {
         "0": 1
     },
     "difficulty_mode": {
-        "2|0": 1
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asdsds",
+            "name": "normal act 3",
             "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Leveling": [
             {
-                "name": "asdsds",
-                "matched": "asd",
+                "name": "normal act 3",
+                "matched": "act",
                 "count": 1
             }
         ]
@@ -34,6 +34,6 @@
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 6.0
+        "average_name_length": 12.0
     }
 }
