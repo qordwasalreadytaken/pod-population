@@ -1,14 +1,15 @@
 {
-    "timestamp": "2026-11-07T07:16:00+00:00",
+    "timestamp": "2026-11-07T07:31:00+00:00",
     "difficulty": {
-        "0": 2,
-        "1": 1
+        "1": 2,
+        "0": 2
     },
     "mode": {
-        "1": 1,
+        "1": 2,
         "0": 2
     },
     "difficulty_mode": {
+        "1|1": 1,
         "0|1": 1,
         "1|0": 1,
         "0|0": 1
@@ -16,7 +17,7 @@
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Leveling",
@@ -24,6 +25,10 @@
         }
     ],
     "top_games": [
+        {
+            "name": "qe",
+            "count": 1
+        },
         {
             "name": "hh",
             "count": 1
@@ -38,6 +43,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "qe",
+            "count": 2,
+            "examples": [
+                "qe"
+            ]
+        },
         {
             "normalized": "hh",
             "count": 2,
@@ -63,8 +75,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 8.33
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 6.75
     }
 }
