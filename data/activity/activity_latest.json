@@ -1,41 +1,33 @@
 {
-    "timestamp": "2026-11-07T09:03:00+00:00",
+    "timestamp": "2026-11-07T09:16:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 2,
         "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 2,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Leveling",
-            "count": 2
-        },
-        {
-            "name": "Other",
-            "count": 1
-        },
-        {
             "name": "Trade",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "dsadsd",
-            "count": 1
-        },
         {
             "name": "n light fhr frw",
             "count": 1
@@ -49,23 +41,20 @@
             "count": 1
         },
         {
-            "name": "nightmare act 3",
+            "name": "n light fhr gcs",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "dsadsd",
-            "count": 2,
-            "examples": [
-                "dsadsd"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Trade": [
             {
                 "name": "n light fhr frw",
+                "matched": "n",
+                "count": 1
+            },
+            {
+                "name": "n light fhr gcs",
                 "matched": "n",
                 "count": 1
             }
@@ -82,17 +71,12 @@
                 "name": "nightmare act 1",
                 "matched": "act",
                 "count": 1
-            },
-            {
-                "name": "nightmare act 3",
-                "matched": "act",
-                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 12.4
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 14.0
     }
 }

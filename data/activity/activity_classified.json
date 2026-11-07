@@ -496,7 +496,7 @@
         },
         {
             "name": "n necro torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 50
         },
         {
@@ -520,17 +520,17 @@
             "count": 43
         },
         {
+            "name": "n light fhr frw",
+            "matched": "n",
+            "count": 43
+        },
+        {
             "name": "n griffon 3s",
             "matched": "n",
             "count": 42
         },
         {
             "name": "n 5/5 fire",
-            "matched": "n",
-            "count": 42
-        },
-        {
-            "name": "n light fhr frw",
             "matched": "n",
             "count": 42
         },
@@ -551,7 +551,7 @@
         },
         {
             "name": "n torch necro",
-            "matched": "n",
+            "matched": "torch",
             "count": 35
         },
         {
@@ -666,7 +666,7 @@
         },
         {
             "name": "n nec torch 1",
-            "matched": "n",
+            "matched": "torch",
             "count": 16
         },
         {
@@ -681,7 +681,7 @@
         },
         {
             "name": "n nec torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 15
         },
         {
@@ -736,12 +736,12 @@
         },
         {
             "name": "n sorc torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 12
         },
         {
             "name": "buy torch necro",
-            "matched": "buy",
+            "matched": "torch",
             "count": 12
         },
         {
@@ -991,12 +991,12 @@
         },
         {
             "name": "n sorc torch 1",
-            "matched": "n",
+            "matched": "torch",
             "count": 6
         },
         {
             "name": "n ntorch o bto",
-            "matched": "n",
+            "matched": "torch",
             "count": 6
         },
         {
@@ -1016,7 +1016,7 @@
         },
         {
             "name": "n nec torch 2",
-            "matched": "n",
+            "matched": "torch",
             "count": 6
         },
         {
@@ -1106,7 +1106,7 @@
         },
         {
             "name": "n nec torch 4",
-            "matched": "n",
+            "matched": "torch",
             "count": 5
         },
         {
@@ -1121,6 +1121,11 @@
         },
         {
             "name": "n necro torch 1",
+            "matched": "n",
+            "count": 5
+        },
+        {
+            "name": "n light fhr gcs",
             "matched": "n",
             "count": 5
         },
@@ -1141,12 +1146,12 @@
         },
         {
             "name": "n sorc torch 6",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
             "name": "n sorc torch 12",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -1315,11 +1320,6 @@
             "count": 4
         },
         {
-            "name": "n light fhr gcs",
-            "matched": "n",
-            "count": 4
-        },
-        {
             "name": "n highlords",
             "matched": "n",
             "count": 3
@@ -1341,12 +1341,12 @@
         },
         {
             "name": "n sorc torch 13",
-            "matched": "n",
+            "matched": "torch",
             "count": 3
         },
         {
             "name": "n sorc torch 20",
-            "matched": "n",
+            "matched": "torch",
             "count": 3
         },
         {
@@ -1416,32 +1416,32 @@
         },
         {
             "name": "n sorc torch 8",
-            "matched": "n",
+            "matched": "torch",
             "count": 3
         },
         {
             "name": "n sorc torch 7",
-            "matched": "n",
+            "matched": "torch",
             "count": 3
         },
         {
             "name": "n sorc torch 19",
-            "matched": "n",
+            "matched": "torch",
             "count": 3
         },
         {
             "name": "n sorc torch 18",
-            "matched": "n",
+            "matched": "torch",
             "count": 3
         },
         {
             "name": "n sorc torch 17",
-            "matched": "n",
+            "matched": "torch",
             "count": 3
         },
         {
             "name": "n sorc torch 10",
-            "matched": "n",
+            "matched": "torch",
             "count": 3
         },
         {
@@ -1451,7 +1451,7 @@
         },
         {
             "name": "n sorc torch 44",
-            "matched": "n",
+            "matched": "torch",
             "count": 3
         },
         {
@@ -1636,12 +1636,12 @@
         },
         {
             "name": "n sorc torch 14",
-            "matched": "n",
+            "matched": "torch",
             "count": 2
         },
         {
             "name": "n sorc torch 21",
-            "matched": "n",
+            "matched": "torch",
             "count": 2
         },
         {
@@ -1781,42 +1781,42 @@
         },
         {
             "name": "n sorc torch 4",
-            "matched": "n",
+            "matched": "torch",
             "count": 2
         },
         {
             "name": "n sorc torch 3",
-            "matched": "n",
+            "matched": "torch",
             "count": 2
         },
         {
             "name": "n sorc torch 2",
-            "matched": "n",
+            "matched": "torch",
             "count": 2
         },
         {
             "name": "n sorc torch 11",
-            "matched": "n",
+            "matched": "torch",
             "count": 2
         },
         {
             "name": "n sorc torch 26",
-            "matched": "n",
+            "matched": "torch",
             "count": 2
         },
         {
             "name": "n sorc torch 28",
-            "matched": "n",
+            "matched": "torch",
             "count": 2
         },
         {
             "name": "n sorc torch 32",
-            "matched": "n",
+            "matched": "torch",
             "count": 2
         },
         {
             "name": "n sorc torch 31",
-            "matched": "n",
+            "matched": "torch",
             "count": 2
         },
         {
@@ -1826,7 +1826,7 @@
         },
         {
             "name": "n sorc torch 43",
-            "matched": "n",
+            "matched": "torch",
             "count": 2
         },
         {
@@ -2026,7 +2026,7 @@
         },
         {
             "name": "n pala torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -2051,7 +2051,7 @@
         },
         {
             "name": "n nec torch :)",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -2081,32 +2081,32 @@
         },
         {
             "name": "n sorc torch 23",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 22",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 38",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 37",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 36",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 35",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -2396,12 +2396,12 @@
         },
         {
             "name": "n sorc torch 25",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 33",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -2411,7 +2411,7 @@
         },
         {
             "name": "n sorc torch 9",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -2541,17 +2541,17 @@
         },
         {
             "name": "n sorc torch 30",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 27",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
             "name": "n sorc torch 41",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -2901,7 +2901,7 @@
         },
         {
             "name": "n nec torch 3",
-            "matched": "n",
+            "matched": "torch",
             "count": 1
         },
         {
@@ -3033,7 +3033,7 @@
         },
         {
             "name": "normal act 3",
-            "matched": "norm",
+            "matched": "act",
             "count": 17
         },
         {
@@ -3063,7 +3063,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "andar",
+            "matched": "act",
             "count": 12
         },
         {
@@ -3083,7 +3083,7 @@
         },
         {
             "name": "normal act 2",
-            "matched": "norm",
+            "matched": "act",
             "count": 11
         },
         {
@@ -3222,6 +3222,11 @@
             "count": 6
         },
         {
+            "name": "nightmare act 1",
+            "matched": "act",
+            "count": 6
+        },
+        {
             "name": "hell ancients",
             "matched": "anci",
             "count": 5
@@ -3253,7 +3258,7 @@
         },
         {
             "name": "acte andy",
-            "matched": "act",
+            "matched": "andy",
             "count": 5
         },
         {
@@ -3284,11 +3289,6 @@
         {
             "name": "a start freshh",
             "matched": "start",
-            "count": 5
-        },
-        {
-            "name": "nightmare act 1",
-            "matched": "act",
             "count": 5
         },
         {
@@ -3353,7 +3353,7 @@
         },
         {
             "name": "normal act 5",
-            "matched": "norm",
+            "matched": "act",
             "count": 4
         },
         {
@@ -3448,7 +3448,7 @@
         },
         {
             "name": "normal act",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -3628,7 +3628,7 @@
         },
         {
             "name": "normal act 4",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -4078,7 +4078,7 @@
         {
             "name": "n eld runes",
             "matched": "run",
-            "count": 672
+            "count": 673
         },
         {
             "name": "asdasd",
@@ -4897,7 +4897,7 @@
         },
         {
             "name": "asdsd36aaaa",
-            "matched": "aaa",
+            "matched": "asd",
             "count": 2
         },
         {
@@ -5082,7 +5082,7 @@
         },
         {
             "name": "saaasd",
-            "matched": "aaa",
+            "matched": "asd",
             "count": 2
         },
         {
@@ -5357,7 +5357,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -6676,7 +6676,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 7
         },
         {
@@ -6736,7 +6736,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "map",
+            "matched": "mapping",
             "count": 4
         },
         {
@@ -6911,7 +6911,7 @@
         },
         {
             "name": "chill mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 2
         },
         {
@@ -6946,7 +6946,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -6961,7 +6961,7 @@
         },
         {
             "name": "mapping",
-            "matched": "map",
+            "matched": "mapping",
             "count": 1
         },
         {
@@ -7018,17 +7018,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
