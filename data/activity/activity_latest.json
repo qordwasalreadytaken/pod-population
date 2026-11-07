@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-07T20:46:00+00:00",
+    "timestamp": "2026-11-07T21:02:00+00:00",
     "difficulty": {
         "2": 2,
         "1": 1
@@ -23,37 +23,37 @@
     ],
     "top_games": [
         {
-            "name": "n eld runes",
-            "count": 1
-        },
-        {
             "name": "gord",
             "count": 1
         },
         {
-            "name": "ty bone-1",
+            "name": "n eld runes",
+            "count": 1
+        },
+        {
+            "name": "adssd",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "ty bone-#",
+            "normalized": "adssd",
             "count": 2,
             "examples": [
-                "ty bone-1"
+                "adssd"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "n eld runes",
-                "matched": "run",
+                "name": "gord",
+                "matched": "gord",
                 "count": 1
             },
             {
-                "name": "gord",
-                "matched": "gord",
+                "name": "n eld runes",
+                "matched": "run",
                 "count": 1
             }
         ]
@@ -61,6 +61,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 8.0
+        "average_name_length": 6.67
     }
 }
