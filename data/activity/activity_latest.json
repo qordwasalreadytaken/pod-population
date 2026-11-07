@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-11-07T10:46:00+00:00",
+    "timestamp": "2026-11-07T11:02:00+00:00",
     "difficulty": {
         "2": 1,
-        "1": 1
+        "0": 1
     },
     "mode": {
         "0": 2
     },
     "difficulty_mode": {
         "2|0": 1,
-        "1|0": 1
+        "0|0": 1
     },
     "activities": [
         {
@@ -17,33 +17,34 @@
             "count": 1
         },
         {
-            "name": "Leveling",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n eld runes",
+            "name": "n ist runes",
             "count": 1
         },
         {
-            "name": "nightmare act 1",
+            "name": "kuk",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "kuk",
+            "count": 2,
+            "examples": [
+                "kuk"
+            ]
+        }
+    ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "n eld runes",
+                "name": "n ist runes",
                 "matched": "run",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "nightmare act 1",
-                "matched": "act",
                 "count": 1
             }
         ]
@@ -51,6 +52,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 13.0
+        "average_name_length": 7.0
     }
 }
