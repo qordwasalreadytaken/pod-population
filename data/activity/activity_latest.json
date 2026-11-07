@@ -1,26 +1,25 @@
 {
-    "timestamp": "2026-11-07T07:46:00+00:00",
+    "timestamp": "2026-11-07T08:03:00+00:00",
     "difficulty": {
-        "0": 2,
+        "0": 1,
         "1": 2
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
         "0|1": 1,
-        "1|0": 2,
-        "0|0": 1
+        "1|0": 2
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Leveling",
             "count": 2
         },
         {
-            "name": "Leveling",
-            "count": 2
+            "name": "Other",
+            "count": 1
         }
     ],
     "top_games": [
@@ -35,10 +34,6 @@
         {
             "name": "nightmare act 2",
             "count": 1
-        },
-        {
-            "name": "new game",
-            "count": 1
         }
     ],
     "unknown_games": [
@@ -47,13 +42,6 @@
             "count": 2,
             "examples": [
                 "hh"
-            ]
-        },
-        {
-            "normalized": "new game",
-            "count": 2,
-            "examples": [
-                "new game"
             ]
         }
     ],
@@ -72,8 +60,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 10.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 10.67
     }
 }
