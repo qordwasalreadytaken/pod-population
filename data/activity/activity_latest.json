@@ -1,40 +1,43 @@
 {
-    "timestamp": "2026-11-07T01:16:00+00:00",
+    "timestamp": "2026-11-07T01:33:00+00:00",
     "difficulty": {
-        "2": 4
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "0": 4
+        "1": 1,
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 4
+        "1|1": 1,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 3
+            "name": "Other",
+            "count": 1
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "ted",
-            "count": 3
+            "name": "qe",
+            "count": 1
         },
         {
-            "name": "fuck face",
+            "name": "ted",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "fuck face",
+            "normalized": "qe",
             "count": 2,
             "examples": [
-                "fuck face"
+                "qe"
             ]
         }
     ],
@@ -43,13 +46,13 @@
             {
                 "name": "ted",
                 "matched": "ted",
-                "count": 3
+                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 2,
-        "public_games": 4,
-        "average_name_length": 6.0
+        "public_games": 2,
+        "average_name_length": 2.5
     }
 }
