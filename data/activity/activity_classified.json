@@ -575,6 +575,11 @@
             "count": 30
         },
         {
+            "name": "n light fhr frw",
+            "matched": "n",
+            "count": 30
+        },
+        {
             "name": "n sorc t o hrs",
             "matched": "n",
             "count": 29
@@ -586,11 +591,6 @@
         },
         {
             "name": "n 5-5 fire cold",
-            "matched": "n",
-            "count": 29
-        },
-        {
-            "name": "n light fhr frw",
             "matched": "n",
             "count": 29
         },
@@ -741,7 +741,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "buy",
+            "matched": "torch",
             "count": 12
         },
         {
@@ -996,7 +996,7 @@
         },
         {
             "name": "n ntorch o bto",
-            "matched": "n",
+            "matched": "torch",
             "count": 6
         },
         {
@@ -1241,7 +1241,7 @@
         },
         {
             "name": "n poisonb gc",
-            "matched": "n",
+            "matched": "iso",
             "count": 4
         },
         {
@@ -1286,7 +1286,7 @@
         },
         {
             "name": "n druidtorch",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -3063,7 +3063,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "act",
+            "matched": "andar",
             "count": 12
         },
         {
@@ -3213,7 +3213,7 @@
         },
         {
             "name": "act norm",
-            "matched": "norm",
+            "matched": "act",
             "count": 6
         },
         {
@@ -3248,7 +3248,7 @@
         },
         {
             "name": "acte andy",
-            "matched": "andy",
+            "matched": "act",
             "count": 5
         },
         {
@@ -3263,7 +3263,7 @@
         },
         {
             "name": "tristnorm",
-            "matched": "trist",
+            "matched": "norm",
             "count": 5
         },
         {
@@ -3418,7 +3418,7 @@
         },
         {
             "name": "ancients norm",
-            "matched": "norm",
+            "matched": "anci",
             "count": 2
         },
         {
@@ -3458,7 +3458,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "exp",
+            "matched": "act",
             "count": 2
         },
         {
@@ -3578,7 +3578,7 @@
         },
         {
             "name": "act norms",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -3833,7 +3833,7 @@
         },
         {
             "name": "act normies",
-            "matched": "act",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -5342,7 +5342,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "mf",
+            "matched": "run",
             "count": 1
         },
         {
@@ -7003,17 +7003,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
