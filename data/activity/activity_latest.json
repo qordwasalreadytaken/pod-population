@@ -1,35 +1,44 @@
 {
-    "timestamp": "2026-11-07T23:16:00+00:00",
+    "timestamp": "2026-11-07T23:31:00+00:00",
     "difficulty": {
-        "2": 4
+        "1": 1,
+        "2": 3,
+        "0": 1
     },
     "mode": {
+        "1": 1,
         "0": 4
     },
     "difficulty_mode": {
-        "2|0": 4
+        "1|1": 1,
+        "2|0": 3,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Maps",
-            "count": 1
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
+            "name": "Maps",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "gwerf",
+            "name": "hell a",
             "count": 1
         },
         {
-            "name": "wresfd",
+            "name": "n eld runes",
+            "count": 1
+        },
+        {
+            "name": "gwerf",
             "count": 1
         },
         {
@@ -37,11 +46,18 @@
             "count": 1
         },
         {
-            "name": "n eld runes",
+            "name": "kk",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "hell a",
+            "count": 2,
+            "examples": [
+                "hell a"
+            ]
+        },
         {
             "normalized": "gwerf",
             "count": 2,
@@ -50,32 +66,32 @@
             ]
         },
         {
-            "normalized": "wresfd",
+            "normalized": "kk",
             "count": 2,
             "examples": [
-                "wresfd"
+                "kk"
             ]
         }
     ],
     "classified_games": {
-        "Maps": [
-            {
-                "name": "throne map",
-                "matched": "map",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "n eld runes",
                 "matched": "run",
                 "count": 1
             }
+        ],
+        "Maps": [
+            {
+                "name": "throne map",
+                "matched": "map",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 8.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 6.8
     }
 }
