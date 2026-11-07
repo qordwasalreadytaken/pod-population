@@ -1,25 +1,19 @@
 {
-    "timestamp": "2026-11-07T03:32:00+00:00",
+    "timestamp": "2026-11-07T03:46:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 1
+        "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Trade",
             "count": 1
         },
         {
@@ -30,10 +24,6 @@
     "top_games": [
         {
             "name": "gg",
-            "count": 1
-        },
-        {
-            "name": "n light fhr frw",
             "count": 1
         },
         {
@@ -51,24 +41,17 @@
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n light fhr frw",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Leveling": [
             {
                 "name": "normal act 3",
-                "matched": "act",
+                "matched": "norm",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 9.67
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 7.0
     }
 }
