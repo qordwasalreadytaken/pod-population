@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-11-07T19:16:00+00:00",
+    "timestamp": "2026-11-07T19:31:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 4,
         "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 6
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 4,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 4
+            "count": 5
         },
         {
             "name": "Other",
@@ -26,14 +26,14 @@
     "top_games": [
         {
             "name": "gord",
+            "count": 2
+        },
+        {
+            "name": "n eld runes",
             "count": 1
         },
         {
             "name": "godzilla",
-            "count": 1
-        },
-        {
-            "name": "n eld runes",
             "count": 1
         },
         {
@@ -59,7 +59,7 @@
             {
                 "name": "gord",
                 "matched": "gord",
-                "count": 1
+                "count": 2
             },
             {
                 "name": "n eld runes",
@@ -80,7 +80,7 @@
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 5,
+        "public_games": 6,
         "average_name_length": 5.8
     }
 }
