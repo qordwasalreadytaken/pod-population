@@ -530,12 +530,12 @@
             "count": 42
         },
         {
-            "name": "n lem o fal",
+            "name": "n light fhr frw",
             "matched": "n",
-            "count": 40
+            "count": 41
         },
         {
-            "name": "n light fhr frw",
+            "name": "n lem o fal",
             "matched": "n",
             "count": 40
         },
@@ -741,7 +741,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "buy",
+            "matched": "torch",
             "count": 12
         },
         {
@@ -996,7 +996,7 @@
         },
         {
             "name": "n ntorch o bto",
-            "matched": "n",
+            "matched": "torch",
             "count": 6
         },
         {
@@ -1111,7 +1111,7 @@
         },
         {
             "name": "n high d torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 5
         },
         {
@@ -1121,7 +1121,7 @@
         },
         {
             "name": "n necro torch 1",
-            "matched": "n",
+            "matched": "torch",
             "count": 5
         },
         {
@@ -3033,7 +3033,7 @@
         },
         {
             "name": "normal act 3",
-            "matched": "act",
+            "matched": "norm",
             "count": 17
         },
         {
@@ -3083,7 +3083,7 @@
         },
         {
             "name": "normal act 2",
-            "matched": "act",
+            "matched": "norm",
             "count": 11
         },
         {
@@ -3188,7 +3188,7 @@
         },
         {
             "name": "act 2 - normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 6
         },
         {
@@ -3218,7 +3218,7 @@
         },
         {
             "name": "act norm",
-            "matched": "norm",
+            "matched": "act",
             "count": 6
         },
         {
@@ -3348,7 +3348,7 @@
         },
         {
             "name": "normal act 5",
-            "matched": "act",
+            "matched": "norm",
             "count": 4
         },
         {
@@ -3413,7 +3413,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -3433,7 +3433,7 @@
         },
         {
             "name": "ancients norm",
-            "matched": "norm",
+            "matched": "anci",
             "count": 2
         },
         {
@@ -3448,7 +3448,7 @@
         },
         {
             "name": "normal act",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -3473,7 +3473,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "exp",
+            "matched": "act",
             "count": 2
         },
         {
@@ -3593,7 +3593,7 @@
         },
         {
             "name": "act norms",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -3628,7 +3628,7 @@
         },
         {
             "name": "normal act 4",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -3668,7 +3668,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "tomb",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -3808,7 +3808,7 @@
         },
         {
             "name": "1act - normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -3874,6 +3874,11 @@
         {
             "name": "a start fresh",
             "matched": "start",
+            "count": 1
+        },
+        {
+            "name": "nightmare act 3",
+            "matched": "act",
             "count": 1
         }
     ],
@@ -4073,7 +4078,7 @@
         {
             "name": "n eld runes",
             "matched": "run",
-            "count": 670
+            "count": 671
         },
         {
             "name": "asdasd",
@@ -4892,7 +4897,7 @@
         },
         {
             "name": "asdsd36aaaa",
-            "matched": "asd",
+            "matched": "aaa",
             "count": 2
         },
         {
@@ -5077,7 +5082,7 @@
         },
         {
             "name": "saaasd",
-            "matched": "asd",
+            "matched": "aaa",
             "count": 2
         },
         {
@@ -5352,7 +5357,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "mf",
+            "matched": "run",
             "count": 1
         },
         {
@@ -7013,17 +7018,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
