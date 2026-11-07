@@ -1,50 +1,42 @@
 {
-    "timestamp": "2026-11-07T15:03:00+00:00",
+    "timestamp": "2026-11-07T15:16:00+00:00",
     "difficulty": {
-        "2": 6,
-        "1": 2
+        "2": 2,
+        "1": 1
     },
     "mode": {
-        "0": 8
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 6,
-        "1|0": 2
+        "2|0": 2,
+        "1|0": 1
     },
     "activities": [
-        {
-            "name": "Other",
-            "count": 4
-        },
         {
             "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
-            "name": "Leveling",
-            "count": 2
+            "name": "Other",
+            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "t",
-            "count": 4
-        },
         {
             "name": "gord",
             "count": 2
         },
         {
-            "name": "nightmare act",
-            "count": 2
+            "name": "new game 1",
+            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "t",
-            "count": 8,
+            "normalized": "new game #",
+            "count": 2,
             "examples": [
-                "t"
+                "new game 1"
             ]
         }
     ],
@@ -55,18 +47,11 @@
                 "matched": "gord",
                 "count": 2
             }
-        ],
-        "Leveling": [
-            {
-                "name": "nightmare act",
-                "matched": "act",
-                "count": 2
-            }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 8,
-        "average_name_length": 6.0
+        "unique_names": 2,
+        "public_games": 3,
+        "average_name_length": 7.0
     }
 }
