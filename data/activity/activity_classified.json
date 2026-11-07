@@ -595,6 +595,11 @@
             "count": 28
         },
         {
+            "name": "n light fhr frw",
+            "matched": "n",
+            "count": 25
+        },
+        {
             "name": "n lightskiller",
             "matched": "n",
             "count": 24
@@ -611,11 +616,6 @@
         },
         {
             "name": "n all 5-5 facet",
-            "matched": "n",
-            "count": 24
-        },
-        {
-            "name": "n light fhr frw",
             "matched": "n",
             "count": 24
         },
@@ -741,7 +741,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "torch",
+            "matched": "buy",
             "count": 12
         },
         {
@@ -931,7 +931,7 @@
         },
         {
             "name": "need n torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 7
         },
         {
@@ -1111,7 +1111,7 @@
         },
         {
             "name": "n high d torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 5
         },
         {
@@ -1121,7 +1121,7 @@
         },
         {
             "name": "n necro torch 1",
-            "matched": "n",
+            "matched": "torch",
             "count": 5
         },
         {
@@ -1286,7 +1286,7 @@
         },
         {
             "name": "n druidtorch",
-            "matched": "torch",
+            "matched": "n",
             "count": 4
         },
         {
@@ -3047,12 +3047,12 @@
             "count": 14
         },
         {
-            "name": "act 2 nm",
-            "matched": "act",
-            "count": 13
+            "name": "normal act 3",
+            "matched": "norm",
+            "count": 14
         },
         {
-            "name": "normal act 3",
+            "name": "act 2 nm",
             "matched": "act",
             "count": 13
         },
@@ -3083,7 +3083,7 @@
         },
         {
             "name": "normal act 2",
-            "matched": "act",
+            "matched": "norm",
             "count": 11
         },
         {
@@ -3183,7 +3183,7 @@
         },
         {
             "name": "act 2 - normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 6
         },
         {
@@ -3213,7 +3213,7 @@
         },
         {
             "name": "act norm",
-            "matched": "norm",
+            "matched": "act",
             "count": 6
         },
         {
@@ -3263,7 +3263,7 @@
         },
         {
             "name": "tristnorm",
-            "matched": "trist",
+            "matched": "norm",
             "count": 5
         },
         {
@@ -3398,7 +3398,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -3418,7 +3418,7 @@
         },
         {
             "name": "ancients norm",
-            "matched": "norm",
+            "matched": "anci",
             "count": 2
         },
         {
@@ -3433,7 +3433,7 @@
         },
         {
             "name": "normal act",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -3648,7 +3648,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "tomb",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -3788,7 +3788,7 @@
         },
         {
             "name": "1act - normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -3828,7 +3828,7 @@
         },
         {
             "name": "act normies",
-            "matched": "norm",
+            "matched": "act",
             "count": 1
         },
         {
@@ -3858,7 +3858,7 @@
         },
         {
             "name": "normal act 5",
-            "matched": "act",
+            "matched": "norm",
             "count": 1
         }
     ],
@@ -5397,7 +5397,7 @@
         },
         {
             "name": "14123awdasdfqwr",
-            "matched": "123",
+            "matched": "asd",
             "count": 1
         },
         {
@@ -6227,7 +6227,7 @@
         },
         {
             "name": "asdff",
-            "matched": "asd",
+            "matched": "asdff",
             "count": 1
         },
         {
@@ -6656,7 +6656,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 7
         },
         {
@@ -6716,7 +6716,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "mapping",
+            "matched": "map",
             "count": 4
         },
         {
@@ -6891,7 +6891,7 @@
         },
         {
             "name": "chill mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 2
         },
         {
@@ -6926,7 +6926,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -6941,7 +6941,7 @@
         },
         {
             "name": "mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -6998,17 +6998,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
