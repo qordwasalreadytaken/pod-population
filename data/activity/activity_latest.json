@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-11-07T19:46:00+00:00",
+    "timestamp": "2026-11-07T20:03:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 2,
         "1": 1
     },
     "mode": {
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 2,
         "1|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Other",
@@ -31,20 +31,16 @@
             "count": 1
         },
         {
-            "name": "godzilla",
-            "count": 1
-        },
-        {
-            "name": "asd",
+            "name": "ty mojo",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "godzilla",
+            "normalized": "ty mojo",
             "count": 2,
             "examples": [
-                "godzilla"
+                "ty mojo"
             ]
         }
     ],
@@ -59,17 +55,12 @@
                 "name": "n eld runes",
                 "matched": "run",
                 "count": 1
-            },
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 7.33
     }
 }
