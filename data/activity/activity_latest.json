@@ -1,45 +1,40 @@
 {
-    "timestamp": "2026-11-07T18:31:00+00:00",
+    "timestamp": "2026-11-07T18:46:00+00:00",
     "difficulty": {
-        "1": 2,
+        "1": 1,
         "2": 2,
         "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
         "1|1": 1,
         "2|0": 2,
-        "1|0": 1,
         "0|0": 2
     },
     "activities": [
         {
+            "name": "Other",
+            "count": 2
+        },
+        {
             "name": "Misc. Public MF Runs",
-            "count": 4
+            "count": 2
         },
         {
             "name": "Cows",
-            "count": 1
-        },
-        {
-            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "ted",
-            "count": 2
-        },
-        {
             "name": "nmcow",
             "count": 1
         },
         {
-            "name": "coffee",
+            "name": "godzilla",
             "count": 1
         },
         {
@@ -47,16 +42,27 @@
             "count": 1
         },
         {
-            "name": "asdad",
+            "name": "dadsa",
+            "count": 1
+        },
+        {
+            "name": "ted",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "coffee",
+            "normalized": "godzilla",
             "count": 2,
             "examples": [
-                "coffee"
+                "godzilla"
+            ]
+        },
+        {
+            "normalized": "dadsa",
+            "count": 2,
+            "examples": [
+                "dadsa"
             ]
         }
     ],
@@ -70,25 +76,20 @@
         ],
         "Misc. Public MF Runs": [
             {
-                "name": "ted",
-                "matched": "ted",
-                "count": 2
-            },
-            {
                 "name": "n eld runes",
                 "matched": "run",
                 "count": 1
             },
             {
-                "name": "asdad",
-                "matched": "asd",
+                "name": "ted",
+                "matched": "ted",
                 "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 6,
-        "average_name_length": 6.0
+        "public_games": 5,
+        "average_name_length": 6.4
     }
 }
