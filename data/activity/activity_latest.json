@@ -1,46 +1,74 @@
 {
-    "timestamp": "2026-11-07T16:46:00+00:00",
+    "timestamp": "2026-11-07T17:02:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 3,
         "0": 1
     },
     "mode": {
-        "0": 2
+        "1": 1,
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1,
+        "2|1": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
+            "count": 2
+        },
+        {
+            "name": "Cows",
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "hellcow",
+            "count": 1
+        },
+        {
+            "name": "coffee",
+            "count": 1
+        },
+        {
             "name": "n eld runes",
             "count": 1
         },
         {
-            "name": "raphael",
+            "name": "wikid klownz",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "raphael",
+            "normalized": "coffee",
             "count": 2,
             "examples": [
-                "raphael"
+                "coffee"
+            ]
+        },
+        {
+            "normalized": "wikid klownz",
+            "count": 2,
+            "examples": [
+                "wikid klownz"
             ]
         }
     ],
     "classified_games": {
+        "Cows": [
+            {
+                "name": "hellcow",
+                "matched": "cow",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "n eld runes",
@@ -50,8 +78,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
+        "unique_names": 4,
+        "public_games": 4,
         "average_name_length": 9.0
     }
 }
