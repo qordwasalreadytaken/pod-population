@@ -1,17 +1,15 @@
 {
-    "timestamp": "2026-11-07T07:03:00+00:00",
+    "timestamp": "2026-11-07T07:16:00+00:00",
     "difficulty": {
         "0": 2,
-        "2": 1,
         "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 1,
         "1|0": 1,
         "0|0": 1
     },
@@ -19,10 +17,6 @@
         {
             "name": "Other",
             "count": 2
-        },
-        {
-            "name": "Trade",
-            "count": 1
         },
         {
             "name": "Leveling",
@@ -35,15 +29,11 @@
             "count": 1
         },
         {
-            "name": "n light fhr frw",
-            "count": 1
-        },
-        {
             "name": "nightmare act 2",
             "count": 1
         },
         {
-            "name": "lvl",
+            "name": "new game",
             "count": 1
         }
     ],
@@ -56,21 +46,14 @@
             ]
         },
         {
-            "normalized": "lvl",
+            "normalized": "new game",
             "count": 2,
             "examples": [
-                "lvl"
+                "new game"
             ]
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n light fhr frw",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Leveling": [
             {
                 "name": "nightmare act 2",
@@ -80,8 +63,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 8.75
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 8.33
     }
 }
