@@ -1,8 +1,9 @@
 {
-    "timestamp": "2026-11-07T06:05:00+00:00",
+    "timestamp": "2026-11-07T06:22:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 1
+        "0": 1,
+        "2": 1,
+        "1": 1
     },
     "mode": {
         "1": 1,
@@ -11,7 +12,7 @@
     "difficulty_mode": {
         "0|1": 1,
         "2|0": 1,
-        "0|0": 1
+        "1|0": 1
     },
     "activities": [
         {
@@ -37,7 +38,7 @@
             "count": 1
         },
         {
-            "name": "normal act 5",
+            "name": "nightmare act 1",
             "count": 1
         }
     ],
@@ -60,7 +61,7 @@
         ],
         "Leveling": [
             {
-                "name": "normal act 5",
+                "name": "nightmare act 1",
                 "matched": "act",
                 "count": 1
             }
@@ -69,6 +70,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 9.67
+        "average_name_length": 10.67
     }
 }
