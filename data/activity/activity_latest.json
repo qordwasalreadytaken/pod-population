@@ -1,39 +1,21 @@
 {
-    "timestamp": "2026-11-07T11:46:00+00:00",
+    "timestamp": "2026-11-07T12:04:00+00:00",
     "difficulty": {
-        "2": 3,
         "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 3,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
-        },
-        {
-            "name": "Chaos",
             "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "chaos run 4",
-            "count": 1
-        },
-        {
-            "name": "choas run 3",
-            "count": 1
-        },
-        {
-            "name": "n ist runes",
-            "count": 1
-        },
         {
             "name": "asd",
             "count": 1
@@ -41,24 +23,7 @@
     ],
     "unknown_games": [],
     "classified_games": {
-        "Chaos": [
-            {
-                "name": "chaos run 4",
-                "matched": "chaos",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
-            {
-                "name": "choas run 3",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "n ist runes",
-                "matched": "run",
-                "count": 1
-            },
             {
                 "name": "asd",
                 "matched": "asd",
@@ -67,8 +32,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 9.0
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 3.0
     }
 }
