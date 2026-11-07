@@ -931,7 +931,7 @@
         },
         {
             "name": "need n torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 7
         },
         {
@@ -996,7 +996,7 @@
         },
         {
             "name": "n ntorch o bto",
-            "matched": "torch",
+            "matched": "n",
             "count": 6
         },
         {
@@ -1111,7 +1111,7 @@
         },
         {
             "name": "n high d torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 5
         },
         {
@@ -1121,7 +1121,7 @@
         },
         {
             "name": "n necro torch 1",
-            "matched": "torch",
+            "matched": "n",
             "count": 5
         },
         {
@@ -1246,7 +1246,7 @@
         },
         {
             "name": "n poisonb gc",
-            "matched": "n",
+            "matched": "iso",
             "count": 4
         },
         {
@@ -1291,7 +1291,7 @@
         },
         {
             "name": "n druidtorch",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -2686,7 +2686,7 @@
         },
         {
             "name": "n barb torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
@@ -3033,7 +3033,7 @@
         },
         {
             "name": "normal act 3",
-            "matched": "norm",
+            "matched": "act",
             "count": 17
         },
         {
@@ -3088,7 +3088,7 @@
         },
         {
             "name": "normal act 2",
-            "matched": "norm",
+            "matched": "act",
             "count": 11
         },
         {
@@ -3353,7 +3353,7 @@
         },
         {
             "name": "normal act 5",
-            "matched": "norm",
+            "matched": "act",
             "count": 4
         },
         {
@@ -3413,7 +3413,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 2
         },
         {
@@ -3433,7 +3433,7 @@
         },
         {
             "name": "ancients norm",
-            "matched": "norm",
+            "matched": "anci",
             "count": 2
         },
         {
@@ -3448,7 +3448,7 @@
         },
         {
             "name": "normal act",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -3473,7 +3473,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "act",
+            "matched": "exp",
             "count": 2
         },
         {
@@ -3593,7 +3593,7 @@
         },
         {
             "name": "act norms",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -3628,7 +3628,7 @@
         },
         {
             "name": "normal act 4",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -3673,7 +3673,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "norm",
+            "matched": "tomb",
             "count": 1
         },
         {
@@ -3813,7 +3813,7 @@
         },
         {
             "name": "1act - normal",
-            "matched": "norm",
+            "matched": "act",
             "count": 1
         },
         {
@@ -3853,7 +3853,7 @@
         },
         {
             "name": "act normies",
-            "matched": "act",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -4068,7 +4068,7 @@
         {
             "name": "asd",
             "matched": "asd",
-            "count": 2096
+            "count": 2097
         },
         {
             "name": "gord",
@@ -4391,6 +4391,11 @@
             "count": 6
         },
         {
+            "name": "n ist runes",
+            "matched": "run",
+            "count": 6
+        },
+        {
             "name": "choas run 1",
             "matched": "run",
             "count": 6
@@ -4442,11 +4447,6 @@
         },
         {
             "name": "tombrun",
-            "matched": "run",
-            "count": 5
-        },
-        {
-            "name": "n ist runes",
             "matched": "run",
             "count": 5
         },
@@ -4547,6 +4547,11 @@
         },
         {
             "name": "hell anda run 1",
+            "matched": "run",
+            "count": 4
+        },
+        {
+            "name": "choas run 3",
             "matched": "run",
             "count": 4
         },
@@ -4722,11 +4727,6 @@
         },
         {
             "name": "anda mepi run 3",
-            "matched": "run",
-            "count": 3
-        },
-        {
-            "name": "choas run 3",
             "matched": "run",
             "count": 3
         },
@@ -6621,6 +6621,11 @@
             "name": "hchaos 2",
             "matched": "chaos",
             "count": 1
+        },
+        {
+            "name": "chaos run 4",
+            "matched": "chaos",
+            "count": 1
         }
     ],
     "Maps": [
@@ -7018,17 +7023,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
