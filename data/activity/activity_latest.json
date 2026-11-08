@@ -1,68 +1,37 @@
 {
-    "timestamp": "2026-11-08T22:31:00+00:00",
+    "timestamp": "2026-11-08T22:46:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1,
-        "0": 1
+        "2": 3
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 1,
-        "1|0": 1,
-        "0|0": 1
+        "2|0": 2
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
             "name": "Cows",
             "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "n eld runes",
+            "count": 2
+        },
+        {
             "name": "cow",
             "count": 1
-        },
-        {
-            "name": "n eld runes",
-            "count": 1
-        },
-        {
-            "name": "eeeeew",
-            "count": 1
-        },
-        {
-            "name": "coffee",
-            "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "eeeeew",
-            "count": 2,
-            "examples": [
-                "eeeeew"
-            ]
-        },
-        {
-            "normalized": "coffee",
-            "count": 2,
-            "examples": [
-                "coffee"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Cows": [
             {
@@ -75,13 +44,13 @@
             {
                 "name": "n eld runes",
                 "matched": "run",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.5
+        "unique_names": 2,
+        "public_games": 3,
+        "average_name_length": 7.0
     }
 }
