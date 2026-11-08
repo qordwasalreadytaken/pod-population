@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 3990,
+        "count": 3992,
         "examples": [
             "0",
             "1",
@@ -10,9 +10,9 @@
             "110",
             "111",
             "1111",
+            "11111",
             "111131",
-            "111132",
-            "111133"
+            "111132"
         ]
     },
     {
@@ -24,14 +24,14 @@
     },
     {
         "normalized": "wikid klownz",
-        "count": 1096,
+        "count": 1098,
         "examples": [
             "wikid klownz"
         ]
     },
     {
         "normalized": "gg",
-        "count": 970,
+        "count": 972,
         "examples": [
             "gg"
         ]
@@ -80,7 +80,7 @@
     },
     {
         "normalized": "coffee",
-        "count": 238,
+        "count": 240,
         "examples": [
             "coffee"
         ]
@@ -6662,6 +6662,13 @@
         ]
     },
     {
+        "normalized": "im noob",
+        "count": 4,
+        "examples": [
+            "im noob"
+        ]
+    },
+    {
         "normalized": "a wps plz",
         "count": 2,
         "examples": [
@@ -11629,13 +11636,6 @@
         "count": 2,
         "examples": [
             "i returned pod"
-        ]
-    },
-    {
-        "normalized": "im noob",
-        "count": 2,
-        "examples": [
-            "im noob"
         ]
     }
 ]
