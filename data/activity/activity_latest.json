@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-08T10:16:00+00:00",
+    "timestamp": "2026-11-08T10:31:00+00:00",
     "difficulty": {
         "2": 2,
         "0": 1
@@ -23,7 +23,7 @@
     ],
     "top_games": [
         {
-            "name": "serfdc",
+            "name": "rfes",
             "count": 1
         },
         {
@@ -37,10 +37,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "serfdc",
+            "normalized": "rfes",
             "count": 2,
             "examples": [
-                "serfdc"
+                "rfes"
             ]
         },
         {
@@ -63,6 +63,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 6.33
+        "average_name_length": 5.67
     }
 }
