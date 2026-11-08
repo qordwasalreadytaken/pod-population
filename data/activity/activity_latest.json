@@ -1,14 +1,15 @@
 {
-    "timestamp": "2026-11-08T18:46:00+00:00",
+    "timestamp": "2026-11-08T19:02:00+00:00",
     "difficulty": {
-        "0": 5,
-        "2": 1
+        "2": 2,
+        "0": 5
     },
     "mode": {
-        "1": 1,
+        "1": 2,
         "0": 5
     },
     "difficulty_mode": {
+        "2|1": 1,
         "0|1": 1,
         "2|0": 1,
         "0|0": 4
@@ -19,11 +20,19 @@
             "count": 5
         },
         {
+            "name": "Cows",
+            "count": 1
+        },
+        {
             "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "cow",
+            "count": 1
+        },
         {
             "name": "gg",
             "count": 1
@@ -33,15 +42,15 @@
             "count": 1
         },
         {
+            "name": "weee",
+            "count": 1
+        },
+        {
+            "name": "as",
+            "count": 1
+        },
+        {
             "name": "wikid klownz",
-            "count": 1
-        },
-        {
-            "name": "11111",
-            "count": 1
-        },
-        {
-            "name": "im noob",
             "count": 1
         },
         {
@@ -58,24 +67,24 @@
             ]
         },
         {
+            "normalized": "weee",
+            "count": 2,
+            "examples": [
+                "weee"
+            ]
+        },
+        {
+            "normalized": "as",
+            "count": 2,
+            "examples": [
+                "as"
+            ]
+        },
+        {
             "normalized": "wikid klownz",
             "count": 2,
             "examples": [
                 "wikid klownz"
-            ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "11111"
-            ]
-        },
-        {
-            "normalized": "im noob",
-            "count": 2,
-            "examples": [
-                "im noob"
             ]
         },
         {
@@ -87,6 +96,13 @@
         }
     ],
     "classified_games": {
+        "Cows": [
+            {
+                "name": "cow",
+                "matched": "cow",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "n eld runes",
@@ -96,8 +112,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 7.17
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 5.71
     }
 }
