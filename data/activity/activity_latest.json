@@ -1,8 +1,8 @@
 {
-    "timestamp": "2026-11-08T16:46:00+00:00",
+    "timestamp": "2026-11-08T17:02:00+00:00",
     "difficulty": {
         "0": 1,
-        "1": 1
+        "2": 1
     },
     "mode": {
         "1": 1,
@@ -10,12 +10,16 @@
     },
     "difficulty_mode": {
         "0|1": 1,
-        "1|0": 1
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         }
     ],
     "top_games": [
@@ -24,7 +28,7 @@
             "count": 1
         },
         {
-            "name": "mkk",
+            "name": "n eld runes",
             "count": 1
         }
     ],
@@ -35,19 +39,20 @@
             "examples": [
                 "gg"
             ]
-        },
-        {
-            "normalized": "mkk",
-            "count": 2,
-            "examples": [
-                "mkk"
-            ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "n eld runes",
+                "matched": "run",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 2.5
+        "average_name_length": 6.5
     }
 }
