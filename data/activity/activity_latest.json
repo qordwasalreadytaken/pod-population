@@ -1,24 +1,22 @@
 {
-    "timestamp": "2026-11-08T12:31:00+00:00",
+    "timestamp": "2026-11-08T12:46:00+00:00",
     "difficulty": {
         "2": 4,
-        "1": 1
+        "1": 2,
+        "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 7
     },
     "difficulty_mode": {
         "2|0": 4,
-        "1|0": 1
+        "1|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
-        },
-        {
-            "name": "Other",
-            "count": 1
+            "count": 4
         },
         {
             "name": "Maps",
@@ -27,16 +25,16 @@
         {
             "name": "Baal",
             "count": 1
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "3",
-            "count": 1
-        },
-        {
             "name": "n eld runes",
-            "count": 1
+            "count": 2
         },
         {
             "name": "asd",
@@ -47,28 +45,33 @@
             "count": 1
         },
         {
+            "name": "dasd",
+            "count": 1
+        },
+        {
             "name": "nmbaal",
+            "count": 1
+        },
+        {
+            "name": "help act 1 weee",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "3"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
                 "name": "n eld runes",
                 "matched": "run",
-                "count": 1
+                "count": 2
             },
             {
                 "name": "asd",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "dasd",
                 "matched": "asd",
                 "count": 1
             }
@@ -86,11 +89,18 @@
                 "matched": "baal",
                 "count": 1
             }
+        ],
+        "Leveling": [
+            {
+                "name": "help act 1 weee",
+                "matched": "act",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 5.6
+        "unique_names": 6,
+        "public_games": 7,
+        "average_name_length": 7.67
     }
 }
