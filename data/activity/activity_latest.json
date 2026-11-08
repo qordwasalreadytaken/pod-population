@@ -1,16 +1,16 @@
 {
-    "timestamp": "2026-11-08T23:03:00+00:00",
+    "timestamp": "2026-11-08T23:16:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 2,
         "0": 1
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 2,
+        "2|0": 1,
         "0|0": 1
     },
     "activities": [
@@ -20,10 +20,6 @@
         },
         {
             "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
@@ -38,10 +34,6 @@
         },
         {
             "name": "n light fhr gcs",
-            "count": 1
-        },
-        {
-            "name": "n eld runes",
             "count": 1
         },
         {
@@ -72,18 +64,11 @@
                 "matched": "n",
                 "count": 1
             }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "n eld runes",
-                "matched": "run",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 8.75
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 8.0
     }
 }
