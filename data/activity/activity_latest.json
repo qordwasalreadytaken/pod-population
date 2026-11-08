@@ -1,33 +1,29 @@
 {
-    "timestamp": "2026-11-08T14:16:00+00:00",
+    "timestamp": "2026-11-08T14:31:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 1,
         "1": 1
     },
     "mode": {
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 2,
+        "2|0": 1,
         "1|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Other",
+            "count": 1
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "hell",
-            "count": 1
-        },
-        {
-            "name": "asdsdsd",
             "count": 1
         },
         {
@@ -47,11 +43,6 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asdsdsd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
                 "name": "mmk",
                 "matched": "mmk",
                 "count": 1
@@ -59,8 +50,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 4.67
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 3.5
     }
 }
