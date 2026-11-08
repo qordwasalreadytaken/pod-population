@@ -1,27 +1,20 @@
 {
-    "timestamp": "2026-11-08T19:02:00+00:00",
+    "timestamp": "2026-11-08T19:16:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 5
+        "2": 1,
+        "0": 2
     },
     "mode": {
-        "1": 2,
-        "0": 5
+        "0": 3
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "0|1": 1,
         "2|0": 1,
-        "0|0": 4
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
-        },
-        {
-            "name": "Cows",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -30,47 +23,24 @@
     ],
     "top_games": [
         {
-            "name": "cow",
-            "count": 1
-        },
-        {
-            "name": "gg",
-            "count": 1
-        },
-        {
             "name": "n eld runes",
-            "count": 1
-        },
-        {
-            "name": "weee",
-            "count": 1
-        },
-        {
-            "name": "as",
-            "count": 1
-        },
-        {
-            "name": "wikid klownz",
             "count": 1
         },
         {
             "name": "coffee",
             "count": 1
+        },
+        {
+            "name": "as",
+            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "gg",
+            "normalized": "coffee",
             "count": 2,
             "examples": [
-                "gg"
-            ]
-        },
-        {
-            "normalized": "weee",
-            "count": 2,
-            "examples": [
-                "weee"
+                "coffee"
             ]
         },
         {
@@ -79,30 +49,9 @@
             "examples": [
                 "as"
             ]
-        },
-        {
-            "normalized": "wikid klownz",
-            "count": 2,
-            "examples": [
-                "wikid klownz"
-            ]
-        },
-        {
-            "normalized": "coffee",
-            "count": 2,
-            "examples": [
-                "coffee"
-            ]
         }
     ],
     "classified_games": {
-        "Cows": [
-            {
-                "name": "cow",
-                "matched": "cow",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "n eld runes",
@@ -112,8 +61,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 5.71
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 6.33
     }
 }
