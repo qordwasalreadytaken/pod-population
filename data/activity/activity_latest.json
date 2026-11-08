@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-08T01:33:00+00:00",
+    "timestamp": "2026-11-08T01:46:00+00:00",
     "difficulty": {
         "2": 1,
         "1": 1,
@@ -19,7 +19,7 @@
             "count": 2
         },
         {
-            "name": "Other",
+            "name": "Leveling",
             "count": 1
         }
     ],
@@ -33,19 +33,11 @@
             "count": 1
         },
         {
-            "name": "1",
+            "name": "a walk",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "1"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
@@ -58,11 +50,18 @@
                 "matched": "ted",
                 "count": 1
             }
+        ],
+        "Leveling": [
+            {
+                "name": "a walk",
+                "matched": "walk",
+                "count": 1
+            }
         ]
     },
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 2.33
+        "average_name_length": 4.0
     }
 }
