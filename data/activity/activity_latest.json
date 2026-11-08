@@ -1,55 +1,15 @@
 {
-    "timestamp": "2026-11-08T09:16:00+00:00",
-    "difficulty": {
-        "0": 2
-    },
-    "mode": {
-        "0": 2
-    },
-    "difficulty_mode": {
-        "0|0": 2
-    },
-    "activities": [
-        {
-            "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        }
-    ],
-    "top_games": [
-        {
-            "name": "ddddddddddddddd",
-            "count": 1
-        },
-        {
-            "name": "trist runs 1",
-            "count": 1
-        }
-    ],
-    "unknown_games": [
-        {
-            "normalized": "ddddddddddddddd",
-            "count": 2,
-            "examples": [
-                "ddddddddddddddd"
-            ]
-        }
-    ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "trist runs 1",
-                "matched": "run",
-                "count": 1
-            }
-        ]
-    },
+    "timestamp": "2026-11-08T09:32:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "difficulty_mode": {},
+    "activities": [],
+    "top_games": [],
+    "unknown_games": [],
+    "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 13.5
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
