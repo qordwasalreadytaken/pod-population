@@ -1,18 +1,18 @@
 {
-    "timestamp": "2026-11-08T15:02:00+00:00",
+    "timestamp": "2026-11-08T15:16:00+00:00",
     "difficulty": {
-        "2": 2,
+        "2": 3,
         "0": 2,
         "1": 1
     },
     "mode": {
         "1": 2,
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
         "2|1": 1,
         "0|1": 1,
-        "2|0": 1,
+        "2|0": 2,
         "1|0": 1,
         "0|0": 1
     },
@@ -23,7 +23,7 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
@@ -32,7 +32,11 @@
             "count": 1
         },
         {
-            "name": "d",
+            "name": "gg",
+            "count": 1
+        },
+        {
+            "name": "ted",
             "count": 1
         },
         {
@@ -44,7 +48,7 @@
             "count": 1
         },
         {
-            "name": "game",
+            "name": "weeee",
             "count": 1
         }
     ],
@@ -57,10 +61,10 @@
             ]
         },
         {
-            "normalized": "d",
+            "normalized": "gg",
             "count": 2,
             "examples": [
-                "d"
+                "gg"
             ]
         },
         {
@@ -71,15 +75,20 @@
             ]
         },
         {
-            "normalized": "game",
+            "normalized": "weeee",
             "count": 2,
             "examples": [
-                "game"
+                "weeee"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
+            {
+                "name": "ted",
+                "matched": "ted",
+                "count": 1
+            },
             {
                 "name": "mmk",
                 "matched": "mmk",
@@ -88,8 +97,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 2.6
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 3.0
     }
 }
