@@ -1,25 +1,23 @@
 {
-    "timestamp": "2026-11-08T03:32:00+00:00",
+    "timestamp": "2026-11-08T03:46:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 1,
+        "2": 2,
         "0": 1
     },
     "mode": {
         "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Chaos",
             "count": 1
         },
         {
-            "name": "Baal",
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
@@ -29,11 +27,11 @@
     ],
     "top_games": [
         {
-            "name": "ted",
+            "name": "chaos run 2",
             "count": 1
         },
         {
-            "name": "nm baal",
+            "name": "ted",
             "count": 1
         },
         {
@@ -51,17 +49,17 @@
         }
     ],
     "classified_games": {
+        "Chaos": [
+            {
+                "name": "chaos run 2",
+                "matched": "chaos",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "ted",
                 "matched": "ted",
-                "count": 1
-            }
-        ],
-        "Baal": [
-            {
-                "name": "nm baal",
-                "matched": "baal",
                 "count": 1
             }
         ]
@@ -69,6 +67,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 7.33
+        "average_name_length": 8.67
     }
 }
