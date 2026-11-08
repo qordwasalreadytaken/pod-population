@@ -1,36 +1,24 @@
 {
-    "timestamp": "2026-11-08T02:46:00+00:00",
+    "timestamp": "2026-11-08T03:04:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1,
-        "0": 1
+        "2": 3
     },
     "mode": {
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 1,
-        "0|0": 1
+        "2|0": 3
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
             "count": 3
-        },
-        {
-            "name": "Leveling",
-            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "asd",
             "count": 3
-        },
-        {
-            "name": "a walk",
-            "count": 1
         }
     ],
     "unknown_games": [],
@@ -41,18 +29,11 @@
                 "matched": "asd",
                 "count": 3
             }
-        ],
-        "Leveling": [
-            {
-                "name": "a walk",
-                "matched": "walk",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 4,
-        "average_name_length": 4.5
+        "unique_names": 1,
+        "public_games": 3,
+        "average_name_length": 3.0
     }
 }
