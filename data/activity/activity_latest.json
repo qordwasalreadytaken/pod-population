@@ -1,80 +1,39 @@
 {
-    "timestamp": "2026-11-08T13:16:00+00:00",
+    "timestamp": "2026-11-08T13:32:00+00:00",
     "difficulty": {
-        "2": 2,
         "1": 2
     },
     "mode": {
-        "0": 4
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 2,
         "1|0": 2
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
-        },
-        {
-            "name": "Maps",
-            "count": 1
-        },
-        {
             "name": "Baal",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "map",
-            "count": 1
-        },
-        {
-            "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "dasd",
-            "count": 1
-        },
-        {
             "name": "nmbaal",
-            "count": 1
+            "count": 2
         }
     ],
     "unknown_games": [],
     "classified_games": {
-        "Maps": [
-            {
-                "name": "map",
-                "matched": "map",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "dasd",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
         "Baal": [
             {
                 "name": "nmbaal",
                 "matched": "baal",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 4.0
+        "unique_names": 1,
+        "public_games": 2,
+        "average_name_length": 6.0
     }
 }
