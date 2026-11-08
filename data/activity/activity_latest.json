@@ -1,25 +1,28 @@
 {
-    "timestamp": "2026-11-08T16:03:00+00:00",
+    "timestamp": "2026-11-08T16:16:00+00:00",
     "difficulty": {
         "2": 2,
+        "0": 3,
         "1": 1
     },
     "mode": {
-        "1": 1,
-        "0": 2
+        "1": 2,
+        "0": 4
     },
     "difficulty_mode": {
         "2|1": 1,
+        "0|1": 1,
         "2|0": 1,
-        "1|0": 1
+        "1|0": 1,
+        "0|0": 2
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "name": "Other",
+            "count": 5
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -29,11 +32,23 @@
             "count": 1
         },
         {
+            "name": "gg",
+            "count": 1
+        },
+        {
             "name": "ted",
             "count": 1
         },
         {
-            "name": "mmk",
+            "name": "mkk",
+            "count": 1
+        },
+        {
+            "name": "stan",
+            "count": 1
+        },
+        {
+            "name": "111",
             "count": 1
         }
     ],
@@ -44,6 +59,34 @@
             "examples": [
                 "bella"
             ]
+        },
+        {
+            "normalized": "gg",
+            "count": 2,
+            "examples": [
+                "gg"
+            ]
+        },
+        {
+            "normalized": "mkk",
+            "count": 2,
+            "examples": [
+                "mkk"
+            ]
+        },
+        {
+            "normalized": "stan",
+            "count": 2,
+            "examples": [
+                "stan"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "111"
+            ]
         }
     ],
     "classified_games": {
@@ -52,17 +95,12 @@
                 "name": "ted",
                 "matched": "ted",
                 "count": 1
-            },
-            {
-                "name": "mmk",
-                "matched": "mmk",
-                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 3.67
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 3.33
     }
 }
