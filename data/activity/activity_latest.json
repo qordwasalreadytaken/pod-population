@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-11-09T20:46:00+00:00",
+    "timestamp": "2026-11-09T21:02:00+00:00",
     "difficulty": {
-        "2": 5,
+        "2": 2,
         "1": 2,
         "0": 1
     },
     "mode": {
-        "0": 8
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 5,
+        "2|0": 2,
         "1|0": 2,
         "0|0": 1
     },
@@ -19,25 +19,17 @@
             "count": 4
         },
         {
-            "name": "Other",
-            "count": 3
-        },
-        {
             "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "rn",
-            "count": 3
-        },
-        {
-            "name": "n light fhr gcs",
+            "name": "asd",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "n light fhr gcs",
             "count": 1
         },
         {
@@ -53,23 +45,8 @@
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "rn",
-            "count": 6,
-            "examples": [
-                "rn"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n light fhr gcs",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
@@ -91,11 +68,18 @@
                 "matched": "123",
                 "count": 1
             }
+        ],
+        "Trade": [
+            {
+                "name": "n light fhr gcs",
+                "matched": "n",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 8,
-        "average_name_length": 6.17
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 7.0
     }
 }
