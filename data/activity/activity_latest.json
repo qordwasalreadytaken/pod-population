@@ -1,23 +1,19 @@
 {
-    "timestamp": "2026-11-09T09:46:00+00:00",
+    "timestamp": "2026-11-09T10:03:00+00:00",
     "difficulty": {
         "2": 1,
         "1": 1,
-        "0": 2
+        "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
         "2|0": 1,
         "1|0": 1,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
-        {
-            "name": "Cows",
-            "count": 2
-        },
         {
             "name": "Trade",
             "count": 1
@@ -25,19 +21,23 @@
         {
             "name": "Other",
             "count": 1
+        },
+        {
+            "name": "Cows",
+            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "cows",
-            "count": 2
-        },
         {
             "name": "n 55poison red",
             "count": 1
         },
         {
             "name": "nightmare",
+            "count": 1
+        },
+        {
+            "name": "cows",
             "count": 1
         }
     ],
@@ -54,21 +54,21 @@
         "Trade": [
             {
                 "name": "n 55poison red",
-                "matched": "iso",
+                "matched": "n",
                 "count": 1
             }
         ],
         "Cows": [
             {
                 "name": "cows",
-                "matched": "cow",
-                "count": 2
+                "matched": "cows",
+                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 4,
+        "public_games": 3,
         "average_name_length": 9.0
     }
 }
