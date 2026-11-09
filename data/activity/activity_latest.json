@@ -1,47 +1,59 @@
 {
-    "timestamp": "2026-11-09T10:31:00+00:00",
+    "timestamp": "2026-11-09T10:46:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 1,
-        "0": 1
+        "2": 2,
+        "1": 2
     },
     "mode": {
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 1,
-        "0|0": 1
+        "2|0": 2,
+        "1|0": 2
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 1
-        },
-        {
             "name": "Other",
-            "count": 1
+            "count": 3
         },
         {
-            "name": "Cows",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "erafsdv",
+            "count": 1
+        },
+        {
             "name": "n 55poison red",
+            "count": 1
+        },
+        {
+            "name": "nm",
             "count": 1
         },
         {
             "name": "nightmare",
             "count": 1
-        },
-        {
-            "name": "cows",
-            "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "erafsdv",
+            "count": 2,
+            "examples": [
+                "erafsdv"
+            ]
+        },
+        {
+            "normalized": "nm",
+            "count": 2,
+            "examples": [
+                "nm"
+            ]
+        },
         {
             "normalized": "nightmare",
             "count": 2,
@@ -54,21 +66,14 @@
         "Trade": [
             {
                 "name": "n 55poison red",
-                "matched": "iso",
-                "count": 1
-            }
-        ],
-        "Cows": [
-            {
-                "name": "cows",
-                "matched": "cow",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 9.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 8.0
     }
 }
