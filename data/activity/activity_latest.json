@@ -1,31 +1,25 @@
 {
-    "timestamp": "2026-11-09T01:03:00+00:00",
+    "timestamp": "2026-11-09T01:18:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 1,
-        "0": 2
+        "1": 2,
+        "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 1,
-        "0|0": 2
+        "1|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
             "count": 3
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
+            "name": "qwe",
             "count": 1
         },
         {
@@ -35,13 +29,16 @@
         {
             "name": "pod hype",
             "count": 1
-        },
-        {
-            "name": "coffee",
-            "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "qwe",
+            "count": 2,
+            "examples": [
+                "qwe"
+            ]
+        },
         {
             "normalized": "gs",
             "count": 2,
@@ -55,27 +52,12 @@
             "examples": [
                 "pod hype"
             ]
-        },
-        {
-            "normalized": "coffee",
-            "count": 2,
-            "examples": [
-                "coffee"
-            ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 4.75
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 4.33
     }
 }
