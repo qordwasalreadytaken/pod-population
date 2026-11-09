@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-09T01:33:00+00:00",
+    "timestamp": "2026-11-09T01:46:00+00:00",
     "difficulty": {
         "1": 1,
         "0": 1
@@ -19,7 +19,7 @@
     ],
     "top_games": [
         {
-            "name": "gs",
+            "name": "fuck",
             "count": 1
         },
         {
@@ -29,10 +29,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "gs",
+            "normalized": "fuck",
             "count": 2,
             "examples": [
-                "gs"
+                "fuck"
             ]
         },
         {
@@ -47,6 +47,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 5.0
+        "average_name_length": 6.0
     }
 }
