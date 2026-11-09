@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-11-09T17:46:00+00:00",
+    "timestamp": "2026-11-09T18:05:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 1,
         "1": 1,
         "0": 3
     },
     "mode": {
-        "0": 7
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 1,
         "1|0": 1,
         "0|0": 3
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 5
+            "count": 3
         },
         {
             "name": "Other",
@@ -24,14 +24,6 @@
         }
     ],
     "top_games": [
-        {
-            "name": "123338",
-            "count": 1
-        },
-        {
-            "name": "asd",
-            "count": 1
-        },
         {
             "name": "n eld runes",
             "count": 1
@@ -41,11 +33,11 @@
             "count": 1
         },
         {
-            "name": "rune run 2",
+            "name": "123333",
             "count": 1
         },
         {
-            "name": "rune run 1",
+            "name": "rune run 2",
             "count": 1
         },
         {
@@ -72,35 +64,25 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "123338",
-                "matched": "123",
-                "count": 1
-            },
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            },
-            {
                 "name": "n eld runes",
                 "matched": "run",
+                "count": 1
+            },
+            {
+                "name": "123333",
+                "matched": "123",
                 "count": 1
             },
             {
                 "name": "rune run 2",
                 "matched": "run",
                 "count": 1
-            },
-            {
-                "name": "rune run 1",
-                "matched": "run",
-                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 6.86
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 7.0
     }
 }
