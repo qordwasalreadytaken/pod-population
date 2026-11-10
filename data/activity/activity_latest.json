@@ -1,30 +1,30 @@
 {
-    "timestamp": "2026-11-10T08:31:00+00:00",
+    "timestamp": "2026-11-10T08:46:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 2,
         "1": 2
     },
     "mode": {
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 1,
+        "2|0": 2,
         "1|0": 2
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 2
         },
         {
-            "name": "Trade",
-            "count": 1
+            "name": "Other",
+            "count": 2
         }
     ],
     "top_games": [
         {
             "name": "n sorc gear",
-            "count": 1
+            "count": 2
         },
         {
             "name": "4234",
@@ -56,13 +56,13 @@
             {
                 "name": "n sorc gear",
                 "matched": "n",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 3,
+        "public_games": 4,
         "average_name_length": 7.33
     }
 }
