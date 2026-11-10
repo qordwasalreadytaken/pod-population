@@ -1,25 +1,25 @@
 {
-    "timestamp": "2026-11-10T22:03:00+00:00",
+    "timestamp": "2026-11-10T22:16:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 2,
+        "2": 3,
+        "1": 1,
         "0": 1
     },
     "mode": {
         "0": 5
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 2,
+        "2|0": 3,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 2
         },
         {
@@ -28,6 +28,10 @@
         }
     ],
     "top_games": [
+        {
+            "name": "asd",
+            "count": 1
+        },
         {
             "name": "chillmap",
             "count": 1
@@ -38,10 +42,6 @@
         },
         {
             "name": "fghgfh",
-            "count": 1
-        },
-        {
-            "name": "asd",
             "count": 1
         },
         {
@@ -66,13 +66,6 @@
         }
     ],
     "classified_games": {
-        "Maps": [
-            {
-                "name": "chillmap",
-                "matched": "map",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
@@ -82,6 +75,13 @@
             {
                 "name": "123123123",
                 "matched": "123",
+                "count": 1
+            }
+        ],
+        "Maps": [
+            {
+                "name": "chillmap",
+                "matched": "map",
                 "count": 1
             }
         ]
