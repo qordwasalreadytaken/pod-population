@@ -1,39 +1,39 @@
 {
-    "timestamp": "2026-11-10T02:31:00+00:00",
+    "timestamp": "2026-11-10T02:46:00+00:00",
     "difficulty": {
-        "1": 1
+        "0": 1
     },
     "mode": {
         "0": 1
     },
     "difficulty_mode": {
-        "1|0": 1
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "nightmare time",
+            "name": "aaaaaa",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "nightmare time",
-            "count": 2,
-            "examples": [
-                "nightmare time"
-            ]
-        }
-    ],
-    "classified_games": {},
+    "unknown_games": [],
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "aaaaaa",
+                "matched": "aaa",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 14.0
+        "average_name_length": 6.0
     }
 }
