@@ -1,31 +1,31 @@
 {
-    "timestamp": "2026-11-10T17:03:00+00:00",
+    "timestamp": "2026-11-10T17:16:00+00:00",
     "difficulty": {
-        "1": 2
+        "1": 4
     },
     "mode": {
-        "0": 2
+        "0": 4
     },
     "difficulty_mode": {
-        "1|0": 2
+        "1|0": 4
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 1
+            "name": "Misc. Public MF Runs",
+            "count": 3
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "coffee",
-            "count": 1
+            "name": "asd",
+            "count": 3
         },
         {
-            "name": "asd",
+            "name": "coffee",
             "count": 1
         }
     ],
@@ -43,13 +43,13 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
+                "count": 3
             }
         ]
     },
     "interesting": {
         "unique_names": 2,
-        "public_games": 2,
+        "public_games": 4,
         "average_name_length": 4.5
     }
 }
