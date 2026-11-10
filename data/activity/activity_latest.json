@@ -1,29 +1,23 @@
 {
-    "timestamp": "2026-11-10T23:31:00+00:00",
+    "timestamp": "2026-11-10T23:46:00+00:00",
     "difficulty": {
         "2": 2,
-        "1": 1,
-        "0": 2
+        "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 3
     },
     "difficulty_mode": {
         "2|0": 2,
-        "1|0": 1,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 2
-        },
         {
             "name": "Other",
             "count": 2
         },
         {
-            "name": "Chaos",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -37,15 +31,7 @@
             "count": 1
         },
         {
-            "name": "fgfdhghyj",
-            "count": 1
-        },
-        {
-            "name": "diablo 3",
-            "count": 1
-        },
-        {
-            "name": "123123gs",
+            "name": "qqwww",
             "count": 1
         }
     ],
@@ -58,10 +44,10 @@
             ]
         },
         {
-            "normalized": "fgfdhghyj",
+            "normalized": "qqwww",
             "count": 2,
             "examples": [
-                "fgfdhghyj"
+                "qqwww"
             ]
         }
     ],
@@ -71,24 +57,12 @@
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
-            },
-            {
-                "name": "123123gs",
-                "matched": "123",
-                "count": 1
-            }
-        ],
-        "Chaos": [
-            {
-                "name": "diablo 3",
-                "matched": "dia",
-                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.4
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 4.0
     }
 }
