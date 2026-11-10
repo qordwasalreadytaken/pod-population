@@ -1,26 +1,30 @@
 {
-    "timestamp": "2026-11-10T00:35:00+00:00",
+    "timestamp": "2026-11-10T00:50:00+00:00",
     "difficulty": {
-        "1": 1,
+        "1": 2,
         "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "1|0": 1,
+        "1|0": 2,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         }
     ],
     "top_games": [
         {
             "name": "coffee",
             "count": 2
+        },
+        {
+            "name": "nightmare time",
+            "count": 1
         }
     ],
     "unknown_games": [
@@ -30,12 +34,19 @@
             "examples": [
                 "coffee"
             ]
+        },
+        {
+            "normalized": "nightmare time",
+            "count": 2,
+            "examples": [
+                "nightmare time"
+            ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 1,
-        "public_games": 2,
-        "average_name_length": 6.0
+        "unique_names": 2,
+        "public_games": 3,
+        "average_name_length": 10.0
     }
 }
