@@ -1,15 +1,15 @@
 {
-    "timestamp": "2026-11-10T22:16:00+00:00",
+    "timestamp": "2026-11-10T22:31:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 2,
         "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 2,
         "1|0": 1,
         "0|0": 1
     },
@@ -21,19 +21,11 @@
         {
             "name": "Other",
             "count": 2
-        },
-        {
-            "name": "Maps",
-            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "chillmap",
             "count": 1
         },
         {
@@ -45,7 +37,7 @@
             "count": 1
         },
         {
-            "name": "123123123",
+            "name": "123123gs",
             "count": 1
         }
     ],
@@ -73,22 +65,15 @@
                 "count": 1
             },
             {
-                "name": "123123123",
+                "name": "123123gs",
                 "matched": "123",
-                "count": 1
-            }
-        ],
-        "Maps": [
-            {
-                "name": "chillmap",
-                "matched": "map",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 6.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 5.25
     }
 }
