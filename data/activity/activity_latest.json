@@ -1,47 +1,47 @@
 {
-    "timestamp": "2026-11-10T21:46:00+00:00",
+    "timestamp": "2026-11-10T22:03:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 4,
+        "2": 2,
+        "1": 2,
         "0": 1
     },
     "mode": {
-        "0": 6
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 4,
+        "2|0": 2,
+        "1|0": 2,
         "0|0": 1
     },
     "activities": [
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 3
-        },
         {
             "name": "Other",
             "count": 2
         },
         {
-            "name": "Leveling",
+            "name": "Misc. Public MF Runs",
+            "count": 2
+        },
+        {
+            "name": "Maps",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 2
+            "name": "chillmap",
+            "count": 1
         },
         {
             "name": "weed",
             "count": 1
         },
         {
-            "name": "leveling-1",
+            "name": "fghgfh",
             "count": 1
         },
         {
-            "name": "fghgfh",
+            "name": "asd",
             "count": 1
         },
         {
@@ -66,29 +66,29 @@
         }
     ],
     "classified_games": {
+        "Maps": [
+            {
+                "name": "chillmap",
+                "matched": "map",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 2
+                "count": 1
             },
             {
                 "name": "123123123",
                 "matched": "123",
                 "count": 1
             }
-        ],
-        "Leveling": [
-            {
-                "name": "leveling-1",
-                "matched": "leveli",
-                "count": 1
-            }
         ]
     },
     "interesting": {
         "unique_names": 5,
-        "public_games": 6,
-        "average_name_length": 6.4
+        "public_games": 5,
+        "average_name_length": 6.0
     }
 }
