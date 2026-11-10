@@ -1,23 +1,23 @@
 {
-    "timestamp": "2026-11-10T08:21:00+00:00",
+    "timestamp": "2026-11-10T08:31:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 1
+        "2": 1,
+        "1": 2
     },
     "mode": {
         "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 1
+        "2|0": 1,
+        "1|0": 2
     },
     "activities": [
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 2
         },
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 1
         }
     ],
@@ -27,7 +27,7 @@
             "count": 1
         },
         {
-            "name": "n griffon 3s",
+            "name": "4234",
             "count": 1
         },
         {
@@ -36,6 +36,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "4234"
+            ]
+        },
         {
             "normalized": "newgame",
             "count": 2,
@@ -50,17 +57,12 @@
                 "name": "n sorc gear",
                 "matched": "n",
                 "count": 1
-            },
-            {
-                "name": "n griffon 3s",
-                "matched": "n",
-                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 10.0
+        "average_name_length": 7.33
     }
 }
