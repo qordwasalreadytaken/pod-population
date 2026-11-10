@@ -1,17 +1,17 @@
 {
-    "timestamp": "2026-11-10T22:46:00+00:00",
+    "timestamp": "2026-11-10T23:03:00+00:00",
     "difficulty": {
         "2": 2,
         "1": 1,
-        "0": 1
+        "0": 3
     },
     "mode": {
-        "0": 4
+        "0": 6
     },
     "difficulty_mode": {
         "2|0": 2,
         "1|0": 1,
-        "0|0": 1
+        "0|0": 3
     },
     "activities": [
         {
@@ -20,6 +20,10 @@
         },
         {
             "name": "Other",
+            "count": 2
+        },
+        {
+            "name": "Chaos",
             "count": 2
         }
     ],
@@ -34,6 +38,14 @@
         },
         {
             "name": "fgfdhghyj",
+            "count": 1
+        },
+        {
+            "name": "diablo 3",
+            "count": 1
+        },
+        {
+            "name": "diablo 2",
             "count": 1
         },
         {
@@ -69,11 +81,23 @@
                 "matched": "123",
                 "count": 1
             }
+        ],
+        "Chaos": [
+            {
+                "name": "diablo 3",
+                "matched": "dia",
+                "count": 1
+            },
+            {
+                "name": "diablo 2",
+                "matched": "dia",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.0
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 6.67
     }
 }
