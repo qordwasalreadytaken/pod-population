@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-11T06:25:00+00:00",
+    "timestamp": "2026-11-11T06:36:00+00:00",
     "difficulty": {
         "2": 2,
         "0": 1
@@ -14,55 +14,39 @@
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
         {
             "name": "t",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "n eld runes",
-            "count": 1
-        },
-        {
-            "name": "lvl",
+            "name": "jjj",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "t",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "t"
             ]
         },
         {
-            "normalized": "lvl",
+            "normalized": "jjj",
             "count": 2,
             "examples": [
-                "lvl"
+                "jjj"
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "n eld runes",
-                "matched": "run",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 3,
+        "unique_names": 2,
         "public_games": 3,
-        "average_name_length": 5.0
+        "average_name_length": 2.0
     }
 }
