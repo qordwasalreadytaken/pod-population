@@ -496,7 +496,7 @@
         },
         {
             "name": "n necro torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 50
         },
         {
@@ -941,7 +941,7 @@
         },
         {
             "name": "need n torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 7
         },
         {
@@ -951,7 +951,7 @@
         },
         {
             "name": "n 55poison red",
-            "matched": "iso",
+            "matched": "n",
             "count": 7
         },
         {
@@ -1261,7 +1261,7 @@
         },
         {
             "name": "n poisonb gc",
-            "matched": "n",
+            "matched": "iso",
             "count": 4
         },
         {
@@ -2041,7 +2041,7 @@
         },
         {
             "name": "n pala torch",
-            "matched": "torch",
+            "matched": "n",
             "count": 1
         },
         {
@@ -3218,7 +3218,7 @@
         },
         {
             "name": "act 2 - normal",
-            "matched": "norm",
+            "matched": "act",
             "count": 6
         },
         {
@@ -3238,7 +3238,7 @@
         },
         {
             "name": "act 2 start",
-            "matched": "start",
+            "matched": "act",
             "count": 6
         },
         {
@@ -3248,7 +3248,7 @@
         },
         {
             "name": "act norm",
-            "matched": "norm",
+            "matched": "act",
             "count": 6
         },
         {
@@ -3283,7 +3283,7 @@
         },
         {
             "name": "acte andy",
-            "matched": "act",
+            "matched": "andy",
             "count": 5
         },
         {
@@ -3298,7 +3298,7 @@
         },
         {
             "name": "tristnorm",
-            "matched": "trist",
+            "matched": "norm",
             "count": 5
         },
         {
@@ -3338,7 +3338,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "start",
+            "matched": "act",
             "count": 4
         },
         {
@@ -3458,7 +3458,7 @@
         },
         {
             "name": "act 1 norm",
-            "matched": "norm",
+            "matched": "act",
             "count": 3
         },
         {
@@ -3518,7 +3518,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "act",
+            "matched": "exp",
             "count": 2
         },
         {
@@ -3638,7 +3638,7 @@
         },
         {
             "name": "act norms",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -3748,7 +3748,7 @@
         },
         {
             "name": "act start",
-            "matched": "start",
+            "matched": "act",
             "count": 1
         },
         {
@@ -3903,7 +3903,7 @@
         },
         {
             "name": "act normies",
-            "matched": "norm",
+            "matched": "act",
             "count": 1
         },
         {
@@ -4256,6 +4256,11 @@
             "count": 17
         },
         {
+            "name": "asdas",
+            "matched": "asd",
+            "count": 17
+        },
+        {
             "name": "asdad",
             "matched": "asd",
             "count": 17
@@ -4268,11 +4273,6 @@
         {
             "name": "sor grow run 5",
             "matched": "run",
-            "count": 16
-        },
-        {
-            "name": "asdas",
-            "matched": "asd",
             "count": 16
         },
         {
@@ -4982,7 +4982,7 @@
         },
         {
             "name": "asdsd36aaaa",
-            "matched": "asd",
+            "matched": "aaa",
             "count": 2
         },
         {
@@ -5167,7 +5167,7 @@
         },
         {
             "name": "saaasd",
-            "matched": "asd",
+            "matched": "aaa",
             "count": 2
         },
         {
@@ -5457,7 +5457,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "mf",
+            "matched": "run",
             "count": 1
         },
         {
@@ -5512,7 +5512,7 @@
         },
         {
             "name": "14123awdasdfqwr",
-            "matched": "asd",
+            "matched": "123",
             "count": 1
         },
         {
@@ -6337,7 +6337,7 @@
         },
         {
             "name": "asdff",
-            "matched": "asdff",
+            "matched": "asd",
             "count": 1
         },
         {
@@ -6801,7 +6801,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 7
         },
         {
@@ -6871,7 +6871,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "mapping",
+            "matched": "map",
             "count": 4
         },
         {
@@ -7051,7 +7051,7 @@
         },
         {
             "name": "chill mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 2
         },
         {
@@ -7096,7 +7096,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -7111,7 +7111,7 @@
         },
         {
             "name": "mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -7173,17 +7173,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
