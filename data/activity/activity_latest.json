@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-11T05:46:00+00:00",
+    "timestamp": "2026-11-11T06:05:00+00:00",
     "difficulty": {
         "2": 2,
         "0": 1
@@ -13,25 +13,21 @@
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Trade",
-            "count": 1
-        },
-        {
             "name": "Other",
+            "count": 2
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n eld runes",
+            "name": "t",
             "count": 1
         },
         {
-            "name": "n light fhr gcs",
+            "name": "n eld runes",
             "count": 1
         },
         {
@@ -40,6 +36,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "t",
+            "count": 2,
+            "examples": [
+                "t"
+            ]
+        },
         {
             "normalized": "lvl",
             "count": 2,
@@ -55,18 +58,11 @@
                 "matched": "run",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "n light fhr gcs",
-                "matched": "n",
-                "count": 1
-            }
         ]
     },
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 9.67
+        "average_name_length": 5.0
     }
 }
