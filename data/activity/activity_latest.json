@@ -1,54 +1,15 @@
 {
-    "timestamp": "2026-11-11T03:03:00+00:00",
-    "difficulty": {
-        "2": 2
-    },
-    "mode": {
-        "0": 2
-    },
-    "difficulty_mode": {
-        "2|0": 2
-    },
-    "activities": [
-        {
-            "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        }
-    ],
-    "top_games": [
-        {
-            "name": "n light fhr gcs",
-            "count": 1
-        },
-        {
-            "name": "dasdsd",
-            "count": 1
-        }
-    ],
+    "timestamp": "2026-11-11T03:19:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "difficulty_mode": {},
+    "activities": [],
+    "top_games": [],
     "unknown_games": [],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "n light fhr gcs",
-                "matched": "n",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "dasdsd",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 10.5
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
