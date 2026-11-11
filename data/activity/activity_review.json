@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 4032,
+        "count": 4038,
         "examples": [
             "0",
             "1",
@@ -38,7 +38,7 @@
     },
     {
         "normalized": "t",
-        "count": 896,
+        "count": 898,
         "examples": [
             "t"
         ]
@@ -130,6 +130,13 @@
         ]
     },
     {
+        "normalized": "qwe",
+        "count": 180,
+        "examples": [
+            "qwe"
+        ]
+    },
+    {
         "normalized": "nec grow #",
         "count": 180,
         "examples": [
@@ -143,13 +150,6 @@
             "nec grow 3",
             "nec grow 4",
             "nec grow 5"
-        ]
-    },
-    {
-        "normalized": "qwe",
-        "count": 178,
-        "examples": [
-            "qwe"
         ]
     },
     {
@@ -11819,6 +11819,13 @@
         "count": 2,
         "examples": [
             "working on 80"
+        ]
+    },
+    {
+        "normalized": "fwefw",
+        "count": 2,
+        "examples": [
+            "fwefw"
         ]
     }
 ]
