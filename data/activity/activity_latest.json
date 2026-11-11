@@ -1,23 +1,27 @@
 {
-    "timestamp": "2026-11-11T07:03:00+00:00",
+    "timestamp": "2026-11-11T07:17:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 2,
         "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         }
     ],
     "top_games": [
+        {
+            "name": "tunnel",
+            "count": 1
+        },
         {
             "name": "t",
             "count": 1
@@ -28,6 +32,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "tunnel",
+            "count": 2,
+            "examples": [
+                "tunnel"
+            ]
+        },
         {
             "normalized": "t",
             "count": 2,
@@ -45,8 +56,8 @@
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 2.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 3.33
     }
 }
