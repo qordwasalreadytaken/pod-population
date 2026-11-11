@@ -1,29 +1,37 @@
 {
-    "timestamp": "2026-11-11T08:31:00+00:00",
+    "timestamp": "2026-11-11T08:46:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
+        "2": 2,
+        "1": 1
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 1
+        "2|0": 2,
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
             "count": 2
+        },
+        {
+            "name": "Maps",
+            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "pub map",
+            "count": 1
+        },
         {
             "name": "tunnel",
             "count": 1
         },
         {
-            "name": "gs 55",
+            "name": "adas",
             "count": 1
         }
     ],
@@ -36,17 +44,25 @@
             ]
         },
         {
-            "normalized": "gs #",
+            "normalized": "adas",
             "count": 2,
             "examples": [
-                "gs 55"
+                "adas"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Maps": [
+            {
+                "name": "pub map",
+                "matched": "map",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 5.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 5.67
     }
 }
