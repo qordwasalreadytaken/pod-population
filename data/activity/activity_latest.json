@@ -1,15 +1,13 @@
 {
-    "timestamp": "2026-11-11T07:31:00+00:00",
+    "timestamp": "2026-11-11T07:46:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "2": 3
     },
     "mode": {
         "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "0|0": 1
+        "2|0": 3
     },
     "activities": [
         {
@@ -19,19 +17,26 @@
     ],
     "top_games": [
         {
+            "name": "working on 80",
+            "count": 1
+        },
+        {
             "name": "tunnel",
             "count": 1
         },
         {
             "name": "t",
             "count": 1
-        },
-        {
-            "name": "jjj",
-            "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "working on #",
+            "count": 2,
+            "examples": [
+                "working on 80"
+            ]
+        },
         {
             "normalized": "tunnel",
             "count": 2,
@@ -45,19 +50,12 @@
             "examples": [
                 "t"
             ]
-        },
-        {
-            "normalized": "jjj",
-            "count": 2,
-            "examples": [
-                "jjj"
-            ]
         }
     ],
     "classified_games": {},
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 3.33
+        "average_name_length": 6.67
     }
 }
