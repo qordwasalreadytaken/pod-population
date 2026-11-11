@@ -1,21 +1,22 @@
 {
-    "timestamp": "2026-11-11T18:03:00+00:00",
+    "timestamp": "2026-11-11T18:31:00+00:00",
     "difficulty": {
-        "0": 1,
+        "0": 3,
         "2": 1
     },
     "mode": {
         "1": 1,
-        "0": 1
+        "0": 3
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 1
+        "2|0": 1,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 3
         },
         {
             "name": "Maps",
@@ -30,6 +31,14 @@
         {
             "name": "lakemap",
             "count": 1
+        },
+        {
+            "name": "draco",
+            "count": 1
+        },
+        {
+            "name": "dave",
+            "count": 1
         }
     ],
     "unknown_games": [
@@ -38,6 +47,20 @@
             "count": 2,
             "examples": [
                 "wikid klownz"
+            ]
+        },
+        {
+            "normalized": "draco",
+            "count": 2,
+            "examples": [
+                "draco"
+            ]
+        },
+        {
+            "normalized": "dave",
+            "count": 2,
+            "examples": [
+                "dave"
             ]
         }
     ],
@@ -51,8 +74,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 9.5
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 7.0
     }
 }
