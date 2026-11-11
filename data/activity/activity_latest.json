@@ -1,29 +1,27 @@
 {
-    "timestamp": "2026-11-11T20:16:00+00:00",
+    "timestamp": "2026-11-11T21:01:00+00:00",
     "difficulty": {
-        "2": 5,
-        "0": 2
+        "2": 1,
+        "0": 3
     },
     "mode": {
-        "1": 1,
-        "0": 6
+        "0": 4
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 4,
-        "0|0": 2
+        "2|0": 1,
+        "0|0": 3
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 3
-        },
-        {
-            "name": "Baal",
-            "count": 2
-        },
-        {
             "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Other",
+            "count": 1
+        },
+        {
+            "name": "Leveling",
             "count": 1
         },
         {
@@ -33,45 +31,23 @@
     ],
     "top_games": [
         {
-            "name": "cripbaal",
-            "count": 2
-        },
-        {
-            "name": "qe",
-            "count": 1
-        },
-        {
-            "name": "adds",
-            "count": 1
-        },
-        {
-            "name": "n light fhr gcs",
-            "count": 1
-        },
-        {
-            "name": "gord",
+            "name": "n light fhr gc",
             "count": 1
         },
         {
             "name": "umbrah",
             "count": 1
+        },
+        {
+            "name": "normal noob",
+            "count": 1
+        },
+        {
+            "name": "gord",
+            "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "qe",
-            "count": 2,
-            "examples": [
-                "qe"
-            ]
-        },
-        {
-            "normalized": "adds",
-            "count": 2,
-            "examples": [
-                "adds"
-            ]
-        },
         {
             "normalized": "umbrah",
             "count": 2,
@@ -81,17 +57,17 @@
         }
     ],
     "classified_games": {
-        "Baal": [
-            {
-                "name": "cripbaal",
-                "matched": "baal",
-                "count": 2
-            }
-        ],
         "Trade": [
             {
-                "name": "n light fhr gcs",
+                "name": "n light fhr gc",
                 "matched": "n",
+                "count": 1
+            }
+        ],
+        "Leveling": [
+            {
+                "name": "normal noob",
+                "matched": "norm",
                 "count": 1
             }
         ],
@@ -104,8 +80,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 6.5
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 8.75
     }
 }
