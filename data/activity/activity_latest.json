@@ -1,27 +1,41 @@
 {
-    "timestamp": "2026-11-12T17:46:00+00:00",
+    "timestamp": "2026-11-12T18:04:00+00:00",
     "difficulty": {
-        "1": 1,
+        "2": 1,
+        "1": 2,
         "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 4
     },
     "difficulty_mode": {
-        "1|0": 1,
+        "2|0": 1,
+        "1|0": 2,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
+            "count": 2
+        },
+        {
+            "name": "Trade",
             "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "n light fhr gcs",
+            "count": 1
+        },
+        {
+            "name": "mmk",
+            "count": 1
+        },
         {
             "name": "nooblike 5",
             "count": 1
@@ -41,7 +55,19 @@
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n light fhr gcs",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Misc. Public MF Runs": [
+            {
+                "name": "mmk",
+                "matched": "mmk",
+                "count": 1
+            },
             {
                 "name": "asder",
                 "matched": "asd",
@@ -50,8 +76,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 7.5
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 8.25
     }
 }
