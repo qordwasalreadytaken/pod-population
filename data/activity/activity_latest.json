@@ -1,21 +1,22 @@
 {
-    "timestamp": "2026-11-12T14:03:00+00:00",
+    "timestamp": "2026-11-12T14:18:00+00:00",
     "difficulty": {
-        "0": 1,
+        "0": 2,
         "2": 3
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 3
+        "2|0": 3,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Misc. Public MF Runs",
@@ -34,6 +35,10 @@
         {
             "name": "n eld runes",
             "count": 1
+        },
+        {
+            "name": "gs 3",
+            "count": 1
         }
     ],
     "unknown_games": [
@@ -50,6 +55,13 @@
             "examples": [
                 "gg"
             ]
+        },
+        {
+            "normalized": "gs #",
+            "count": 2,
+            "examples": [
+                "gs 3"
+            ]
         }
     ],
     "classified_games": {
@@ -62,8 +74,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 4,
-        "average_name_length": 4.67
+        "unique_names": 4,
+        "public_games": 5,
+        "average_name_length": 4.5
     }
 }

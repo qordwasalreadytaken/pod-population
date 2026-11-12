@@ -31,14 +31,14 @@
     },
     {
         "normalized": "gg",
-        "count": 1002,
+        "count": 1004,
         "examples": [
             "gg"
         ]
     },
     {
         "normalized": "t",
-        "count": 924,
+        "count": 928,
         "examples": [
             "t"
         ]
@@ -454,6 +454,18 @@
         ]
     },
     {
+        "normalized": "gs #",
+        "count": 48,
+        "examples": [
+            "gs 1",
+            "gs 12",
+            "gs 2",
+            "gs 3",
+            "gs 55",
+            "gs 567"
+        ]
+    },
+    {
         "normalized": "hh",
         "count": 48,
         "examples": [
@@ -465,18 +477,6 @@
         "count": 46,
         "examples": [
             "npalaskiler"
-        ]
-    },
-    {
-        "normalized": "gs #",
-        "count": 46,
-        "examples": [
-            "gs 1",
-            "gs 12",
-            "gs 2",
-            "gs 3",
-            "gs 55",
-            "gs 567"
         ]
     },
     {
