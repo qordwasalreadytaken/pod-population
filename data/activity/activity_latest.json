@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-12T22:46:00+00:00",
+    "timestamp": "2026-11-12T23:03:00+00:00",
     "difficulty": {
         "2": 1,
         "1": 1,
@@ -21,7 +21,7 @@
     ],
     "top_games": [
         {
-            "name": "mothra",
+            "name": "rodan",
             "count": 1
         },
         {
@@ -35,10 +35,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "mothra",
+            "normalized": "rodan",
             "count": 2,
             "examples": [
-                "mothra"
+                "rodan"
             ]
         },
         {
@@ -60,6 +60,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 8.33
+        "average_name_length": 8.0
     }
 }
