@@ -502,7 +502,7 @@
         {
             "name": "n light fhr gcs",
             "matched": "n",
-            "count": 53
+            "count": 54
         },
         {
             "name": "n necro torch",
@@ -526,7 +526,7 @@
         },
         {
             "name": "n druid torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 44
         },
         {
@@ -961,7 +961,7 @@
         },
         {
             "name": "n 55poison red",
-            "matched": "n",
+            "matched": "iso",
             "count": 7
         },
         {
@@ -1316,7 +1316,7 @@
         },
         {
             "name": "n druidtorch",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -3058,7 +3058,7 @@
         },
         {
             "name": "normal act",
-            "matched": "act",
+            "matched": "norm",
             "count": 18
         },
         {
@@ -3068,7 +3068,7 @@
         },
         {
             "name": "normal act 3",
-            "matched": "act",
+            "matched": "norm",
             "count": 17
         },
         {
@@ -3108,7 +3108,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "andar",
+            "matched": "act",
             "count": 12
         },
         {
@@ -3133,7 +3133,7 @@
         },
         {
             "name": "normal act 2",
-            "matched": "act",
+            "matched": "norm",
             "count": 11
         },
         {
@@ -3233,7 +3233,7 @@
         },
         {
             "name": "act 2 - normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 6
         },
         {
@@ -3253,7 +3253,7 @@
         },
         {
             "name": "act 2 start",
-            "matched": "act",
+            "matched": "start",
             "count": 6
         },
         {
@@ -3353,7 +3353,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 4
         },
         {
@@ -3403,7 +3403,7 @@
         },
         {
             "name": "normal act 5",
-            "matched": "act",
+            "matched": "norm",
             "count": 4
         },
         {
@@ -3688,7 +3688,7 @@
         },
         {
             "name": "normal act 4",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -3738,7 +3738,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "norm",
+            "matched": "tomb",
             "count": 1
         },
         {
@@ -3763,7 +3763,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -3878,7 +3878,7 @@
         },
         {
             "name": "1act - normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -4148,7 +4148,7 @@
         {
             "name": "n eld runes",
             "matched": "run",
-            "count": 795
+            "count": 796
         },
         {
             "name": "asdasd",
@@ -5472,7 +5472,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -5527,7 +5527,7 @@
         },
         {
             "name": "14123awdasdfqwr",
-            "matched": "asd",
+            "matched": "123",
             "count": 1
         },
         {
@@ -7203,17 +7203,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
