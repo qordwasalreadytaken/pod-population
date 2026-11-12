@@ -1,13 +1,15 @@
 {
-    "timestamp": "2026-11-12T01:03:00+00:00",
+    "timestamp": "2026-11-12T01:17:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 2,
+        "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
@@ -16,6 +18,10 @@
         },
         {
             "name": "Leveling",
+            "count": 1
+        },
+        {
+            "name": "Other",
             "count": 1
         }
     ],
@@ -27,9 +33,21 @@
         {
             "name": "walk",
             "count": 1
+        },
+        {
+            "name": "lvl",
+            "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "lvl",
+            "count": 2,
+            "examples": [
+                "lvl"
+            ]
+        }
+    ],
     "classified_games": {
         "Trade": [
             {
@@ -47,8 +65,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 9.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 7.33
     }
 }
