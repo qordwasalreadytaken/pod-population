@@ -1,25 +1,29 @@
 {
-    "timestamp": "2026-11-12T17:03:00+00:00",
+    "timestamp": "2026-11-12T17:16:00+00:00",
     "difficulty": {
-        "0": 2,
+        "0": 4,
         "2": 1
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 4
     },
     "difficulty_mode": {
         "0|1": 1,
         "2|0": 1,
-        "0|0": 1
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -33,23 +37,32 @@
             "count": 1
         },
         {
+            "name": "nooblike 3",
+            "count": 1
+        },
+        {
+            "name": "asder",
+            "count": 1
+        },
+        {
             "name": "nooblike 2",
             "count": 1
         }
     ],
     "unknown_games": [
         {
+            "normalized": "nooblike #",
+            "count": 4,
+            "examples": [
+                "nooblike 2",
+                "nooblike 3"
+            ]
+        },
+        {
             "normalized": "gg",
             "count": 2,
             "examples": [
                 "gg"
-            ]
-        },
-        {
-            "normalized": "nooblike #",
-            "count": 2,
-            "examples": [
-                "nooblike 2"
             ]
         }
     ],
@@ -60,11 +73,18 @@
                 "matched": "n",
                 "count": 1
             }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "asder",
+                "matched": "asd",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 9.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 8.4
     }
 }
