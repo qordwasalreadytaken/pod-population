@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-12T03:31:00+00:00",
+    "timestamp": "2026-11-12T03:46:00+00:00",
     "difficulty": {
         "2": 1,
         "0": 1
@@ -13,7 +13,7 @@
     },
     "activities": [
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
@@ -23,28 +23,28 @@
     ],
     "top_games": [
         {
-            "name": "n light fhr gcs",
+            "name": "ted",
             "count": 1
         },
         {
-            "name": "lvl",
+            "name": "hjyu",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "lvl",
+            "normalized": "hjyu",
             "count": 2,
             "examples": [
-                "lvl"
+                "hjyu"
             ]
         }
     ],
     "classified_games": {
-        "Trade": [
+        "Misc. Public MF Runs": [
             {
-                "name": "n light fhr gcs",
-                "matched": "n",
+                "name": "ted",
+                "matched": "ted",
                 "count": 1
             }
         ]
@@ -52,6 +52,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 9.0
+        "average_name_length": 3.5
     }
 }
