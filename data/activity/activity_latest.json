@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-12T05:03:00+00:00",
+    "timestamp": "2026-11-12T05:17:00+00:00",
     "difficulty": {
         "2": 1,
         "1": 1,
@@ -33,7 +33,7 @@
             "count": 1
         },
         {
-            "name": "prontera",
+            "name": "umbrah",
             "count": 1
         }
     ],
@@ -46,10 +46,10 @@
             ]
         },
         {
-            "normalized": "prontera",
+            "normalized": "umbrah",
             "count": 2,
             "examples": [
-                "prontera"
+                "umbrah"
             ]
         }
     ],
@@ -65,6 +65,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 10.0
+        "average_name_length": 9.33
     }
 }
