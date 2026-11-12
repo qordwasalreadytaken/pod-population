@@ -1462,6 +1462,13 @@
         ]
     },
     {
+        "normalized": "newgame",
+        "count": 20,
+        "examples": [
+            "newgame"
+        ]
+    },
+    {
         "normalized": "ok",
         "count": 18,
         "examples": [
@@ -1724,13 +1731,6 @@
         "examples": [
             "server 1",
             "server 2"
-        ]
-    },
-    {
-        "normalized": "newgame",
-        "count": 18,
-        "examples": [
-            "newgame"
         ]
     },
     {
@@ -6810,6 +6810,13 @@
         ]
     },
     {
+        "normalized": "prontera",
+        "count": 4,
+        "examples": [
+            "prontera"
+        ]
+    },
+    {
         "normalized": "a wps plz",
         "count": 2,
         "examples": [
@@ -11868,13 +11875,6 @@
         "count": 2,
         "examples": [
             "hjyu"
-        ]
-    },
-    {
-        "normalized": "prontera",
-        "count": 2,
-        "examples": [
-            "prontera"
         ]
     }
 ]
