@@ -1,31 +1,27 @@
 {
-    "timestamp": "2026-11-12T22:31:00+00:00",
+    "timestamp": "2026-11-12T22:46:00+00:00",
     "difficulty": {
         "2": 1,
-        "1": 2,
-        "0": 2
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "0": 5
+        "0": 3
     },
     "difficulty_mode": {
         "2|0": 1,
-        "1|0": 2,
-        "0|0": 2
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 3
         }
     ],
     "top_games": [
         {
             "name": "mothra",
-            "count": 1
-        },
-        {
-            "name": "doretoo",
             "count": 1
         },
         {
@@ -35,10 +31,6 @@
         {
             "name": "dfsffsdfs",
             "count": 1
-        },
-        {
-            "name": "sdfdsfs",
-            "count": 1
         }
     ],
     "unknown_games": [
@@ -47,13 +39,6 @@
             "count": 2,
             "examples": [
                 "mothra"
-            ]
-        },
-        {
-            "normalized": "doretoo",
-            "count": 2,
-            "examples": [
-                "doretoo"
             ]
         },
         {
@@ -69,19 +54,12 @@
             "examples": [
                 "dfsffsdfs"
             ]
-        },
-        {
-            "normalized": "sdfdsfs",
-            "count": 2,
-            "examples": [
-                "sdfdsfs"
-            ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 7.8
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 8.33
     }
 }
