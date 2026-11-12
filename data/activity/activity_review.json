@@ -448,13 +448,14 @@
     },
     {
         "normalized": "gs #",
-        "count": 52,
+        "count": 54,
         "examples": [
             "gs 1",
             "gs 12",
             "gs 2",
             "gs 3",
             "gs 4",
+            "gs 5",
             "gs 55",
             "gs 567"
         ]
@@ -2910,6 +2911,13 @@
         ]
     },
     {
+        "normalized": "rodan",
+        "count": 10,
+        "examples": [
+            "rodan"
+        ]
+    },
+    {
         "normalized": "aws",
         "count": 10,
         "examples": [
@@ -3554,13 +3562,6 @@
         "count": 8,
         "examples": [
             "kkk"
-        ]
-    },
-    {
-        "normalized": "rodan",
-        "count": 8,
-        "examples": [
-            "rodan"
         ]
     },
     {
