@@ -1,8 +1,9 @@
 {
-    "timestamp": "2026-11-12T17:16:00+00:00",
+    "timestamp": "2026-11-12T17:31:00+00:00",
     "difficulty": {
-        "0": 4,
-        "2": 1
+        "0": 3,
+        "2": 1,
+        "1": 1
     },
     "mode": {
         "1": 1,
@@ -11,7 +12,8 @@
     "difficulty_mode": {
         "0|1": 1,
         "2|0": 1,
-        "0|0": 3
+        "1|0": 1,
+        "0|0": 2
     },
     "activities": [
         {
@@ -37,15 +39,15 @@
             "count": 1
         },
         {
+            "name": "nooblike 4",
+            "count": 1
+        },
+        {
             "name": "nooblike 3",
             "count": 1
         },
         {
             "name": "asder",
-            "count": 1
-        },
-        {
-            "name": "nooblike 2",
             "count": 1
         }
     ],
@@ -54,8 +56,8 @@
             "normalized": "nooblike #",
             "count": 4,
             "examples": [
-                "nooblike 2",
-                "nooblike 3"
+                "nooblike 3",
+                "nooblike 4"
             ]
         },
         {
