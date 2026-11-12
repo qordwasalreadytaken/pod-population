@@ -31,7 +31,7 @@
     },
     {
         "normalized": "gg",
-        "count": 1006,
+        "count": 1008,
         "examples": [
             "gg"
         ]
@@ -124,7 +124,7 @@
     },
     {
         "normalized": "qwe",
-        "count": 190,
+        "count": 192,
         "examples": [
             "qwe"
         ]
@@ -440,22 +440,23 @@
         ]
     },
     {
-        "normalized": "mothra",
-        "count": 52,
-        "examples": [
-            "mothra"
-        ]
-    },
-    {
         "normalized": "gs #",
-        "count": 50,
+        "count": 52,
         "examples": [
             "gs 1",
             "gs 12",
             "gs 2",
             "gs 3",
+            "gs 4",
             "gs 55",
             "gs 567"
+        ]
+    },
+    {
+        "normalized": "mothra",
+        "count": 52,
+        "examples": [
+            "mothra"
         ]
     },
     {
@@ -11882,6 +11883,13 @@
         "count": 2,
         "examples": [
             "daf"
+        ]
+    },
+    {
+        "normalized": "ddddd",
+        "count": 2,
+        "examples": [
+            "ddddd"
         ]
     }
 ]
