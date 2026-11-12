@@ -1,24 +1,23 @@
 {
-    "timestamp": "2026-11-12T14:46:00+00:00",
+    "timestamp": "2026-11-12T15:03:00+00:00",
     "difficulty": {
-        "0": 3,
+        "0": 1,
         "2": 1,
         "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 2
     },
     "difficulty_mode": {
         "0|1": 1,
         "2|0": 1,
-        "1|0": 1,
-        "0|0": 2
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -37,14 +36,6 @@
         {
             "name": "4123",
             "count": 1
-        },
-        {
-            "name": "ddddd",
-            "count": 1
-        },
-        {
-            "name": "gs 4",
-            "count": 1
         }
     ],
     "unknown_games": [
@@ -61,20 +52,6 @@
             "examples": [
                 "qwe"
             ]
-        },
-        {
-            "normalized": "ddddd",
-            "count": 2,
-            "examples": [
-                "ddddd"
-            ]
-        },
-        {
-            "normalized": "gs #",
-            "count": 2,
-            "examples": [
-                "gs 4"
-            ]
         }
     ],
     "classified_games": {
@@ -87,8 +64,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 3.6
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 3.0
     }
 }
