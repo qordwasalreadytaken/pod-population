@@ -1,20 +1,22 @@
 {
-    "timestamp": "2026-11-13T18:46:00+00:00",
+    "timestamp": "2026-11-13T19:03:00+00:00",
     "difficulty": {
-        "1": 2,
-        "0": 2
+        "2": 1,
+        "1": 1,
+        "0": 3
     },
     "mode": {
-        "0": 4
+        "0": 5
     },
     "difficulty_mode": {
-        "1|0": 2,
-        "0|0": 2
+        "2|0": 1,
+        "1|0": 1,
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Misc. Public MF Runs",
@@ -23,35 +25,33 @@
     ],
     "top_games": [
         {
+            "name": "noob raider 3",
+            "count": 1
+        },
+        {
             "name": "noob raider 01",
             "count": 1
         },
         {
-            "name": "34234",
+            "name": "hhph",
+            "count": 1
+        },
+        {
+            "name": "fwefew",
             "count": 1
         },
         {
             "name": "asder",
-            "count": 1
-        },
-        {
-            "name": "hhph",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "noob raider #",
-            "count": 2,
+            "count": 4,
             "examples": [
-                "noob raider 01"
-            ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "34234"
+                "noob raider 01",
+                "noob raider 3"
             ]
         },
         {
@@ -59,6 +59,13 @@
             "count": 2,
             "examples": [
                 "hhph"
+            ]
+        },
+        {
+            "normalized": "fwefew",
+            "count": 2,
+            "examples": [
+                "fwefew"
             ]
         }
     ],
@@ -72,8 +79,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 7.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 8.4
     }
 }
