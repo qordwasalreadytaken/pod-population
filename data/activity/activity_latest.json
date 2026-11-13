@@ -1,42 +1,55 @@
 {
-    "timestamp": "2026-11-13T20:03:00+00:00",
+    "timestamp": "2026-11-13T20:17:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 2
+        "2": 1,
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "0|0": 2
+        "2|0": 1,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 3
+            "name": "Other",
+            "count": 2
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "asd",
-            "count": 3
+            "count": 1
         },
         {
-            "name": "dfwef",
+            "name": "noob raider 6",
+            "count": 1
+        },
+        {
+            "name": "adsdas",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "dfwef",
+            "normalized": "noob raider #",
             "count": 2,
             "examples": [
-                "dfwef"
+                "noob raider 6"
+            ]
+        },
+        {
+            "normalized": "adsdas",
+            "count": 2,
+            "examples": [
+                "adsdas"
             ]
         }
     ],
@@ -45,13 +58,13 @@
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 3
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 4,
-        "average_name_length": 4.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 7.33
     }
 }
