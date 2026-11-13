@@ -281,15 +281,8 @@
         ]
     },
     {
-        "normalized": "sad",
-        "count": 88,
-        "examples": [
-            "sad"
-        ]
-    },
-    {
         "normalized": "gs #",
-        "count": 88,
+        "count": 90,
         "examples": [
             "gs 1",
             "gs 12",
@@ -301,6 +294,13 @@
             "gs 567",
             "gs 6",
             "gs 7"
+        ]
+    },
+    {
+        "normalized": "sad",
+        "count": 88,
+        "examples": [
+            "sad"
         ]
     },
     {
@@ -6883,6 +6883,13 @@
         ]
     },
     {
+        "normalized": "hellmode",
+        "count": 4,
+        "examples": [
+            "hellmode"
+        ]
+    },
+    {
         "normalized": "a wps plz",
         "count": 2,
         "examples": [
@@ -11976,13 +11983,6 @@
         "count": 2,
         "examples": [
             "sdfdsfs"
-        ]
-    },
-    {
-        "normalized": "hellmode",
-        "count": 2,
-        "examples": [
-            "hellmode"
         ]
     }
 ]
