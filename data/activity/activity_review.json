@@ -260,15 +260,8 @@
         ]
     },
     {
-        "normalized": "beer",
-        "count": 100,
-        "examples": [
-            "beer"
-        ]
-    },
-    {
         "normalized": "gs #",
-        "count": 98,
+        "count": 100,
         "examples": [
             "gs 1",
             "gs 12",
@@ -280,6 +273,13 @@
             "gs 567",
             "gs 6",
             "gs 7"
+        ]
+    },
+    {
+        "normalized": "beer",
+        "count": 100,
+        "examples": [
+            "beer"
         ]
     },
     {
@@ -2563,6 +2563,13 @@
         ]
     },
     {
+        "normalized": "hellmode",
+        "count": 12,
+        "examples": [
+            "hellmode"
+        ]
+    },
+    {
         "normalized": "a#h",
         "count": 10,
         "examples": [
@@ -2973,13 +2980,6 @@
         "count": 10,
         "examples": [
             "jjj"
-        ]
-    },
-    {
-        "normalized": "hellmode",
-        "count": 10,
-        "examples": [
-            "hellmode"
         ]
     },
     {
