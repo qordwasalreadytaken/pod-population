@@ -1,15 +1,17 @@
 {
-    "timestamp": "2026-11-13T12:04:00+00:00",
+    "timestamp": "2026-11-13T12:22:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 2
+        "0": 2,
+        "2": 1
     },
     "mode": {
-        "0": 3
+        "1": 1,
+        "0": 2
     },
     "difficulty_mode": {
+        "0|1": 1,
         "2|0": 1,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
@@ -23,31 +25,31 @@
     ],
     "top_games": [
         {
+            "name": "gg",
+            "count": 1
+        },
+        {
             "name": "adsd",
             "count": 1
         },
         {
             "name": "asder",
             "count": 1
-        },
-        {
-            "name": "need 5-5 facets",
-            "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "gg",
+            "count": 2,
+            "examples": [
+                "gg"
+            ]
+        },
         {
             "normalized": "adsd",
             "count": 2,
             "examples": [
                 "adsd"
-            ]
-        },
-        {
-            "normalized": "need #-# facets",
-            "count": 2,
-            "examples": [
-                "need 5-5 facets"
             ]
         }
     ],
@@ -63,6 +65,6 @@
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 8.0
+        "average_name_length": 3.67
     }
 }
