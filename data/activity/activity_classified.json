@@ -452,7 +452,7 @@
         {
             "name": "n light fhr gcs",
             "matched": "n",
-            "count": 89
+            "count": 90
         },
         {
             "name": "n fireskillers",
@@ -951,7 +951,7 @@
         },
         {
             "name": "need n torch",
-            "matched": "n",
+            "matched": "torch",
             "count": 7
         },
         {
@@ -1271,7 +1271,7 @@
         },
         {
             "name": "n poisonb gc",
-            "matched": "n",
+            "matched": "iso",
             "count": 4
         },
         {
@@ -1316,7 +1316,7 @@
         },
         {
             "name": "n druidtorch",
-            "matched": "n",
+            "matched": "torch",
             "count": 4
         },
         {
@@ -2261,7 +2261,7 @@
         },
         {
             "name": "n oocs wuw",
-            "matched": "n",
+            "matched": "wuw",
             "count": 1
         },
         {
@@ -3108,7 +3108,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "act",
+            "matched": "andar",
             "count": 12
         },
         {
@@ -3298,7 +3298,7 @@
         },
         {
             "name": "acte andy",
-            "matched": "andy",
+            "matched": "act",
             "count": 5
         },
         {
@@ -3538,7 +3538,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "act",
+            "matched": "exp",
             "count": 2
         },
         {
@@ -3658,7 +3658,7 @@
         },
         {
             "name": "act norms",
-            "matched": "norm",
+            "matched": "act",
             "count": 2
         },
         {
@@ -3743,7 +3743,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "tomb",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -3883,7 +3883,7 @@
         },
         {
             "name": "1act - normal",
-            "matched": "act",
+            "matched": "norm",
             "count": 1
         },
         {
@@ -3923,7 +3923,7 @@
         },
         {
             "name": "act normies",
-            "matched": "norm",
+            "matched": "act",
             "count": 1
         },
         {
@@ -4168,7 +4168,7 @@
         {
             "name": "asdsd",
             "matched": "asd",
-            "count": 139
+            "count": 140
         },
         {
             "name": "asda",
@@ -4706,6 +4706,11 @@
             "count": 4
         },
         {
+            "name": "asder1gs 19",
+            "matched": "asd",
+            "count": 4
+        },
+        {
             "name": "asdasdas",
             "matched": "asd",
             "count": 3
@@ -4903,11 +4908,6 @@
         {
             "name": "4123",
             "matched": "123",
-            "count": 3
-        },
-        {
-            "name": "asder1gs 19",
-            "matched": "asd",
             "count": 3
         },
         {
@@ -5487,7 +5487,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "mf",
+            "matched": "run",
             "count": 1
         },
         {
@@ -6367,7 +6367,7 @@
         },
         {
             "name": "asdff",
-            "matched": "asdff",
+            "matched": "asd",
             "count": 1
         },
         {
@@ -6846,7 +6846,7 @@
         },
         {
             "name": "sunday mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 7
         },
         {
@@ -6921,7 +6921,7 @@
         },
         {
             "name": "mapping 1",
-            "matched": "mapping",
+            "matched": "map",
             "count": 4
         },
         {
@@ -7096,7 +7096,7 @@
         },
         {
             "name": "chill mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 2
         },
         {
@@ -7146,7 +7146,7 @@
         },
         {
             "name": "mapping 2",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -7161,7 +7161,7 @@
         },
         {
             "name": "mapping",
-            "matched": "mapping",
+            "matched": "map",
             "count": 1
         },
         {
@@ -7223,17 +7223,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "ubers",
+            "matched": "uber",
             "count": 1
         }
     ]
