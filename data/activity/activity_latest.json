@@ -1,24 +1,26 @@
 {
-    "timestamp": "2026-11-13T21:16:00+00:00",
+    "timestamp": "2026-11-13T21:31:00+00:00",
     "difficulty": {
-        "2": 4,
-        "0": 2
+        "0": 4,
+        "2": 4
     },
     "mode": {
-        "0": 6
+        "1": 1,
+        "0": 7
     },
     "difficulty_mode": {
+        "0|1": 1,
         "2|0": 4,
-        "0|0": 2
+        "0|0": 3
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 3
+            "name": "Other",
+            "count": 4
         },
         {
-            "name": "Other",
-            "count": 2
+            "name": "Misc. Public MF Runs",
+            "count": 3
         },
         {
             "name": "Trade",
@@ -27,11 +29,19 @@
     ],
     "top_games": [
         {
-            "name": "o jah n lo",
+            "name": "wikid klownz",
             "count": 1
         },
         {
-            "name": "noob raider 8",
+            "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "noob raider 9",
+            "count": 1
+        },
+        {
+            "name": "o jah n lo",
             "count": 1
         },
         {
@@ -39,7 +49,7 @@
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "sdvds",
             "count": 1
         },
         {
@@ -53,10 +63,24 @@
     ],
     "unknown_games": [
         {
+            "normalized": "wikid klownz",
+            "count": 2,
+            "examples": [
+                "wikid klownz"
+            ]
+        },
+        {
             "normalized": "noob raider #",
             "count": 2,
             "examples": [
-                "noob raider 8"
+                "noob raider 9"
+            ]
+        },
+        {
+            "normalized": "sdvds",
+            "count": 2,
+            "examples": [
+                "sdvds"
             ]
         },
         {
@@ -68,21 +92,14 @@
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "o jah n lo",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
-                "name": "asddas",
+                "name": "asd",
                 "matched": "asd",
                 "count": 1
             },
             {
-                "name": "asd",
+                "name": "asddas",
                 "matched": "asd",
                 "count": 1
             },
@@ -91,11 +108,18 @@
                 "matched": "asd",
                 "count": 1
             }
+        ],
+        "Trade": [
+            {
+                "name": "o jah n lo",
+                "matched": "n",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 6.83
+        "unique_names": 8,
+        "public_games": 8,
+        "average_name_length": 7.25
     }
 }
