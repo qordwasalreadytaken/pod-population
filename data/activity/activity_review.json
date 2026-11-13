@@ -300,15 +300,8 @@
         ]
     },
     {
-        "normalized": "f",
-        "count": 84,
-        "examples": [
-            "f"
-        ]
-    },
-    {
         "normalized": "gs #",
-        "count": 84,
+        "count": 86,
         "examples": [
             "gs 1",
             "gs 12",
@@ -320,6 +313,13 @@
             "gs 567",
             "gs 6",
             "gs 7"
+        ]
+    },
+    {
+        "normalized": "f",
+        "count": 84,
+        "examples": [
+            "f"
         ]
     },
     {
@@ -1043,6 +1043,14 @@
         ]
     },
     {
+        "normalized": "grow #",
+        "count": 26,
+        "examples": [
+            "grow 1",
+            "grow 2"
+        ]
+    },
+    {
         "normalized": "ddd",
         "count": 26,
         "examples": [
@@ -1165,14 +1173,6 @@
             "des key farm 31",
             "des key farm 32",
             "des key farm 33"
-        ]
-    },
-    {
-        "normalized": "grow #",
-        "count": 24,
-        "examples": [
-            "grow 1",
-            "grow 2"
         ]
     },
     {
