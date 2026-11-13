@@ -267,15 +267,8 @@
         ]
     },
     {
-        "normalized": "lvl",
-        "count": 98,
-        "examples": [
-            "lvl"
-        ]
-    },
-    {
         "normalized": "gs #",
-        "count": 96,
+        "count": 98,
         "examples": [
             "gs 1",
             "gs 12",
@@ -287,6 +280,13 @@
             "gs 567",
             "gs 6",
             "gs 7"
+        ]
+    },
+    {
+        "normalized": "lvl",
+        "count": 98,
+        "examples": [
+            "lvl"
         ]
     },
     {
@@ -2976,6 +2976,13 @@
         ]
     },
     {
+        "normalized": "hellmode",
+        "count": 10,
+        "examples": [
+            "hellmode"
+        ]
+    },
+    {
         "normalized": "dlkjfhg",
         "count": 8,
         "examples": [
@@ -3725,13 +3732,6 @@
         "count": 8,
         "examples": [
             "taco"
-        ]
-    },
-    {
-        "normalized": "hellmode",
-        "count": 8,
-        "examples": [
-            "hellmode"
         ]
     },
     {
