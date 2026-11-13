@@ -1,20 +1,22 @@
 {
-    "timestamp": "2026-11-13T01:32:00+00:00",
+    "timestamp": "2026-11-13T01:46:00+00:00",
     "difficulty": {
         "2": 1,
-        "0": 1
+        "1": 1,
+        "0": 3
     },
     "mode": {
-        "0": 2
+        "0": 5
     },
     "difficulty_mode": {
         "2|0": 1,
-        "0|0": 1
+        "1|0": 1,
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 5
         }
     ],
     "top_games": [
@@ -23,7 +25,19 @@
             "count": 1
         },
         {
-            "name": "gs 6",
+            "name": "new gate",
+            "count": 1
+        },
+        {
+            "name": "crackers",
+            "count": 1
+        },
+        {
+            "name": "qwe",
+            "count": 1
+        },
+        {
+            "name": "gs 7",
             "count": 1
         }
     ],
@@ -36,17 +50,38 @@
             ]
         },
         {
+            "normalized": "new gate",
+            "count": 2,
+            "examples": [
+                "new gate"
+            ]
+        },
+        {
+            "normalized": "crackers",
+            "count": 2,
+            "examples": [
+                "crackers"
+            ]
+        },
+        {
+            "normalized": "qwe",
+            "count": 2,
+            "examples": [
+                "qwe"
+            ]
+        },
+        {
             "normalized": "gs #",
             "count": 2,
             "examples": [
-                "gs 6"
+                "gs 7"
             ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 9.0
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 7.4
     }
 }

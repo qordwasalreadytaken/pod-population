@@ -108,7 +108,7 @@
     },
     {
         "normalized": "qwe",
-        "count": 204,
+        "count": 206,
         "examples": [
             "qwe"
         ]
@@ -364,7 +364,7 @@
     },
     {
         "normalized": "gs #",
-        "count": 66,
+        "count": 68,
         "examples": [
             "gs 1",
             "gs 12",
@@ -374,7 +374,8 @@
             "gs 5",
             "gs 55",
             "gs 567",
-            "gs 6"
+            "gs 6",
+            "gs 7"
         ]
     },
     {
@@ -6861,6 +6862,13 @@
         ]
     },
     {
+        "normalized": "all by my self",
+        "count": 4,
+        "examples": [
+            "all by my self"
+        ]
+    },
+    {
         "normalized": "a wps plz",
         "count": 2,
         "examples": [
@@ -11957,10 +11965,17 @@
         ]
     },
     {
-        "normalized": "all by my self",
+        "normalized": "new gate",
         "count": 2,
         "examples": [
-            "all by my self"
+            "new gate"
+        ]
+    },
+    {
+        "normalized": "crackers",
+        "count": 2,
+        "examples": [
+            "crackers"
         ]
     }
 ]
