@@ -436,7 +436,7 @@
     },
     {
         "normalized": "gs #",
-        "count": 56,
+        "count": 58,
         "examples": [
             "gs 1",
             "gs 12",
@@ -445,7 +445,8 @@
             "gs 4",
             "gs 5",
             "gs 55",
-            "gs 567"
+            "gs 567",
+            "gs 6"
         ]
     },
     {
@@ -6853,6 +6854,13 @@
         ]
     },
     {
+        "normalized": "taco",
+        "count": 4,
+        "examples": [
+            "taco"
+        ]
+    },
+    {
         "normalized": "a wps plz",
         "count": 2,
         "examples": [
@@ -11946,13 +11954,6 @@
         "count": 2,
         "examples": [
             "sdfdsfs"
-        ]
-    },
-    {
-        "normalized": "taco",
-        "count": 2,
-        "examples": [
-            "taco"
         ]
     }
 ]
