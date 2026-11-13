@@ -1,61 +1,37 @@
 {
-    "timestamp": "2026-11-13T01:46:00+00:00",
+    "timestamp": "2026-11-13T02:03:00+00:00",
     "difficulty": {
         "2": 1,
-        "1": 1,
-        "0": 3
+        "1": 2
     },
     "mode": {
-        "0": 5
+        "0": 3
     },
     "difficulty_mode": {
         "2|0": 1,
-        "1|0": 1,
-        "0|0": 3
+        "1|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 3
         }
     ],
     "top_games": [
-        {
-            "name": "all by my self",
-            "count": 1
-        },
-        {
-            "name": "new gate",
-            "count": 1
-        },
         {
             "name": "crackers",
             "count": 1
         },
         {
-            "name": "qwe",
+            "name": "gs",
             "count": 1
         },
         {
-            "name": "gs 7",
+            "name": "new gate",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "all by my self",
-            "count": 2,
-            "examples": [
-                "all by my self"
-            ]
-        },
-        {
-            "normalized": "new gate",
-            "count": 2,
-            "examples": [
-                "new gate"
-            ]
-        },
         {
             "normalized": "crackers",
             "count": 2,
@@ -64,24 +40,24 @@
             ]
         },
         {
-            "normalized": "qwe",
+            "normalized": "gs",
             "count": 2,
             "examples": [
-                "qwe"
+                "gs"
             ]
         },
         {
-            "normalized": "gs #",
+            "normalized": "new gate",
             "count": 2,
             "examples": [
-                "gs 7"
+                "new gate"
             ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 7.4
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 6.0
     }
 }
