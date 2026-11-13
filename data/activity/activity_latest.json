@@ -1,54 +1,15 @@
 {
-    "timestamp": "2026-11-13T03:03:00+00:00",
-    "difficulty": {
-        "1": 2
-    },
-    "mode": {
-        "0": 2
-    },
-    "difficulty_mode": {
-        "1|0": 2
-    },
-    "activities": [
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Leveling",
-            "count": 1
-        }
-    ],
-    "top_games": [
-        {
-            "name": "3123",
-            "count": 1
-        },
-        {
-            "name": "nightmare act 5",
-            "count": 1
-        }
-    ],
+    "timestamp": "2026-11-13T03:18:00+00:00",
+    "difficulty": {},
+    "mode": {},
+    "difficulty_mode": {},
+    "activities": [],
+    "top_games": [],
     "unknown_games": [],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "3123",
-                "matched": "123",
-                "count": 1
-            }
-        ],
-        "Leveling": [
-            {
-                "name": "nightmare act 5",
-                "matched": "act",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 9.5
+        "unique_names": 0,
+        "public_games": 0,
+        "average_name_length": 0.0
     }
 }
