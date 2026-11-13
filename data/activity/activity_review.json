@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 4078,
+        "count": 4082,
         "examples": [
             "0",
             "1",
@@ -2584,6 +2584,15 @@
         ]
     },
     {
+        "normalized": "noob raider #",
+        "count": 12,
+        "examples": [
+            "noob raider 01",
+            "noob raider 3",
+            "noob raider 4"
+        ]
+    },
+    {
         "normalized": "a#h",
         "count": 10,
         "examples": [
@@ -2994,15 +3003,6 @@
         "count": 10,
         "examples": [
             "jjj"
-        ]
-    },
-    {
-        "normalized": "noob raider #",
-        "count": 10,
-        "examples": [
-            "noob raider 01",
-            "noob raider 3",
-            "noob raider 4"
         ]
     },
     {
@@ -4897,6 +4897,13 @@
         "count": 6,
         "examples": [
             "crackers"
+        ]
+    },
+    {
+        "normalized": "fwefew",
+        "count": 6,
+        "examples": [
+            "fwefew"
         ]
     },
     {
@@ -6931,13 +6938,6 @@
         "count": 4,
         "examples": [
             "new gate"
-        ]
-    },
-    {
-        "normalized": "fwefew",
-        "count": 4,
-        "examples": [
-            "fwefew"
         ]
     },
     {
