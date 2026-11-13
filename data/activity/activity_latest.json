@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-12T23:46:00+00:00",
+    "timestamp": "2026-11-13T00:08:00+00:00",
     "difficulty": {
         "2": 1,
         "0": 1
@@ -19,7 +19,7 @@
     ],
     "top_games": [
         {
-            "name": "rodan",
+            "name": "taco",
             "count": 1
         },
         {
@@ -29,10 +29,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "rodan",
+            "normalized": "taco",
             "count": 2,
             "examples": [
-                "rodan"
+                "taco"
             ]
         },
         {
@@ -47,6 +47,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 4.5
+        "average_name_length": 4.0
     }
 }
