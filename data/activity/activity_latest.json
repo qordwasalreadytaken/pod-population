@@ -1,49 +1,54 @@
 {
-    "timestamp": "2026-11-13T18:17:00+00:00",
+    "timestamp": "2026-11-13T18:31:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 4
+        "1": 2,
+        "0": 3
     },
     "mode": {
         "0": 5
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 4
+        "1|0": 2,
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 5
+            "count": 4
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "hhph",
-            "count": 3
-        },
-        {
-            "name": "qwe",
+            "name": "noob raider 01",
             "count": 1
         },
         {
             "name": "34234",
             "count": 1
+        },
+        {
+            "name": "asder",
+            "count": 1
+        },
+        {
+            "name": "xccz",
+            "count": 1
+        },
+        {
+            "name": "hhph",
+            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "hhph",
-            "count": 6,
-            "examples": [
-                "hhph"
-            ]
-        },
-        {
-            "normalized": "qwe",
+            "normalized": "noob raider #",
             "count": 2,
             "examples": [
-                "qwe"
+                "noob raider 01"
             ]
         },
         {
@@ -52,12 +57,34 @@
             "examples": [
                 "34234"
             ]
+        },
+        {
+            "normalized": "xccz",
+            "count": 2,
+            "examples": [
+                "xccz"
+            ]
+        },
+        {
+            "normalized": "hhph",
+            "count": 2,
+            "examples": [
+                "hhph"
+            ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asder",
+                "matched": "asd",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 3,
+        "unique_names": 5,
         "public_games": 5,
-        "average_name_length": 4.0
+        "average_name_length": 6.4
     }
 }
