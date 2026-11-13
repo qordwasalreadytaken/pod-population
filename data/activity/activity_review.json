@@ -428,15 +428,8 @@
         ]
     },
     {
-        "normalized": "tk",
-        "count": 60,
-        "examples": [
-            "tk"
-        ]
-    },
-    {
         "normalized": "gs #",
-        "count": 58,
+        "count": 60,
         "examples": [
             "gs 1",
             "gs 12",
@@ -447,6 +440,13 @@
             "gs 55",
             "gs 567",
             "gs 6"
+        ]
+    },
+    {
+        "normalized": "tk",
+        "count": 60,
+        "examples": [
+            "tk"
         ]
     },
     {
@@ -4841,6 +4841,13 @@
         ]
     },
     {
+        "normalized": "taco",
+        "count": 6,
+        "examples": [
+            "taco"
+        ]
+    },
+    {
         "normalized": "nm #",
         "count": 4,
         "examples": [
@@ -6851,13 +6858,6 @@
         "count": 4,
         "examples": [
             "draco"
-        ]
-    },
-    {
-        "normalized": "taco",
-        "count": 4,
-        "examples": [
-            "taco"
         ]
     },
     {
