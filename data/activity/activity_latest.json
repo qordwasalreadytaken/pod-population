@@ -1,28 +1,24 @@
 {
-    "timestamp": "2026-11-13T22:16:00+00:00",
+    "timestamp": "2026-11-13T22:32:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 4,
+        "0": 2,
+        "2": 3,
         "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 7
+        "0": 5
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 4,
+        "2|0": 3,
         "1|0": 1,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 6
-        },
-        {
-            "name": "Trade",
-            "count": 1
+            "count": 5
         },
         {
             "name": "Misc. Public MF Runs",
@@ -35,15 +31,7 @@
             "count": 1
         },
         {
-            "name": "open your mind",
-            "count": 1
-        },
-        {
-            "name": "n g face",
-            "count": 1
-        },
-        {
-            "name": "dadd",
+            "name": "hemp",
             "count": 1
         },
         {
@@ -51,11 +39,11 @@
             "count": 1
         },
         {
-            "name": "hgfh",
+            "name": "open your mind",
             "count": 1
         },
         {
-            "name": "gorti",
+            "name": "hgfh",
             "count": 1
         },
         {
@@ -72,6 +60,13 @@
             ]
         },
         {
+            "normalized": "hemp",
+            "count": 2,
+            "examples": [
+                "hemp"
+            ]
+        },
+        {
             "normalized": "open your mind",
             "count": 2,
             "examples": [
@@ -79,24 +74,10 @@
             ]
         },
         {
-            "normalized": "dadd",
-            "count": 2,
-            "examples": [
-                "dadd"
-            ]
-        },
-        {
             "normalized": "hgfh",
             "count": 2,
             "examples": [
                 "hgfh"
-            ]
-        },
-        {
-            "normalized": "gorti",
-            "count": 2,
-            "examples": [
-                "gorti"
             ]
         },
         {
@@ -108,13 +89,6 @@
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n g face",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
@@ -124,8 +98,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 8,
-        "average_name_length": 7.12
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 7.33
     }
 }
