@@ -1,43 +1,33 @@
 {
-    "timestamp": "2026-11-13T23:16:00+00:00",
+    "timestamp": "2026-11-13T23:31:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 2,
         "1": 1,
-        "0": 3
+        "0": 2
     },
     "mode": {
-        "1": 1,
-        "0": 7
+        "0": 5
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 3,
+        "2|0": 2,
         "1|0": 1,
-        "0|0": 3
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 3
         },
         {
             "name": "Maps",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "gt",
-            "count": 1
-        },
-        {
-            "name": "maps-1",
-            "count": 1
-        },
         {
             "name": "hemp",
             "count": 1
@@ -55,22 +45,11 @@
             "count": 1
         },
         {
-            "name": "gord",
-            "count": 1
-        },
-        {
             "name": "fdsfssf",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "gt",
-            "count": 2,
-            "examples": [
-                "gt"
-            ]
-        },
         {
             "normalized": "hemp",
             "count": 2,
@@ -96,13 +75,8 @@
     "classified_games": {
         "Maps": [
             {
-                "name": "maps-1",
-                "matched": "maps",
-                "count": 1
-            },
-            {
                 "name": "ineedmaps",
-                "matched": "maps",
+                "matched": "map",
                 "count": 1
             }
         ],
@@ -111,17 +85,12 @@
                 "name": "asder",
                 "matched": "asd",
                 "count": 1
-            },
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 8,
-        "public_games": 8,
-        "average_name_length": 5.25
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 6.0
     }
 }
