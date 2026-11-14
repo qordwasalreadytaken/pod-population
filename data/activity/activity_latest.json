@@ -1,81 +1,39 @@
 {
-    "timestamp": "2026-11-14T08:03:00+00:00",
+    "timestamp": "2026-11-14T08:18:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 1,
-        "1": 1
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "0": 1
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 1,
-        "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "gg",
-            "count": 1
-        },
-        {
-            "name": "n eld runes",
-            "count": 1
-        },
-        {
-            "name": "asder",
-            "count": 1
-        },
-        {
-            "name": "todorka",
+            "name": "go5reto",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "gg",
+            "normalized": "go#reto",
             "count": 2,
             "examples": [
-                "gg"
-            ]
-        },
-        {
-            "normalized": "todorka",
-            "count": 2,
-            "examples": [
-                "todorka"
+                "go5reto"
             ]
         }
     ],
-    "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "n eld runes",
-                "matched": "run",
-                "count": 1
-            },
-            {
-                "name": "asder",
-                "matched": "asd",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.25
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 7.0
     }
 }
