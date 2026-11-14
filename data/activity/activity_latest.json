@@ -1,96 +1,57 @@
 {
-    "timestamp": "2026-11-14T18:31:00+00:00",
+    "timestamp": "2026-11-14T18:46:00+00:00",
     "difficulty": {
-        "2": 2,
-        "1": 2,
-        "0": 1
+        "2": 1,
+        "1": 1
     },
     "mode": {
-        "0": 5
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "1|0": 2,
-        "0|0": 1
+        "2|0": 1,
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
-        },
-        {
-            "name": "Leveling",
             "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "coffee",
+            "name": "vtsorccldfrski",
             "count": 1
         },
         {
-            "name": "vtbsorccldfrski",
-            "count": 1
-        },
-        {
-            "name": "act 3 nm",
-            "count": 1
-        },
-        {
-            "name": "mkk",
-            "count": 1
-        },
-        {
-            "name": "gord",
+            "name": "act 4 nm",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "coffee",
+            "normalized": "vtsorccldfrski",
             "count": 2,
             "examples": [
-                "coffee"
-            ]
-        },
-        {
-            "normalized": "vtbsorccldfrski",
-            "count": 2,
-            "examples": [
-                "vtbsorccldfrski"
-            ]
-        },
-        {
-            "normalized": "mkk",
-            "count": 2,
-            "examples": [
-                "mkk"
+                "vtsorccldfrski"
             ]
         }
     ],
     "classified_games": {
         "Leveling": [
             {
-                "name": "act 3 nm",
+                "name": "act 4 nm",
                 "matched": "act",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "gord",
-                "matched": "gord",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 7.2
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 11.0
     }
 }
