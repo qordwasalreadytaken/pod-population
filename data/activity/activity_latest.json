@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-14T05:32:00+00:00",
+    "timestamp": "2026-11-14T05:46:00+00:00",
     "difficulty": {
         "0": 2
     },
@@ -11,30 +11,30 @@
     },
     "activities": [
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n 5-5 facets",
+            "name": "lvl",
             "count": 1
         },
         {
-            "name": "awed",
+            "name": "n 5-5 facets",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "awed",
+            "normalized": "lvl",
             "count": 2,
             "examples": [
-                "awed"
+                "lvl"
             ]
         }
     ],
@@ -50,6 +50,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 8.0
+        "average_name_length": 7.5
     }
 }
