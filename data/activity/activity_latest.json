@@ -1,57 +1,122 @@
 {
-    "timestamp": "2026-11-14T18:46:00+00:00",
+    "timestamp": "2026-11-14T19:03:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 1
+        "2": 4,
+        "1": 2,
+        "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 7
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 1
+        "2|0": 4,
+        "1|0": 2,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
+            "count": 4
+        },
+        {
+            "name": "Trade",
             "count": 1
         },
         {
             "name": "Leveling",
             "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "n 5-5 facets",
+            "count": 1
+        },
+        {
+            "name": "coffee",
+            "count": 1
+        },
+        {
+            "name": "nskin of flayed",
+            "count": 1
+        },
         {
             "name": "vtsorccldfrski",
             "count": 1
         },
         {
+            "name": "sdgdgs",
+            "count": 1
+        },
+        {
             "name": "act 4 nm",
+            "count": 1
+        },
+        {
+            "name": "gord",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "coffee",
+            "count": 2,
+            "examples": [
+                "coffee"
+            ]
+        },
+        {
+            "normalized": "nskin of flayed",
+            "count": 2,
+            "examples": [
+                "nskin of flayed"
+            ]
+        },
         {
             "normalized": "vtsorccldfrski",
             "count": 2,
             "examples": [
                 "vtsorccldfrski"
             ]
+        },
+        {
+            "normalized": "sdgdgs",
+            "count": 2,
+            "examples": [
+                "sdgdgs"
+            ]
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n 5-5 facets",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Leveling": [
             {
                 "name": "act 4 nm",
                 "matched": "act",
                 "count": 1
             }
+        ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "gord",
+                "matched": "gord",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 11.0
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 9.29
     }
 }
