@@ -1,65 +1,67 @@
 {
-    "timestamp": "2026-11-14T07:16:00+00:00",
+    "timestamp": "2026-11-14T07:31:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "0": 1,
+        "2": 3
     },
     "mode": {
+        "1": 1,
         "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "0|0": 1
+        "0|1": 1,
+        "2|0": 3
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 3
         },
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "asder",
+            "count": 2
+        },
+        {
+            "name": "gg",
             "count": 1
         },
         {
             "name": "n eld runes",
             "count": 1
-        },
-        {
-            "name": "n 5-5 facets",
-            "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "gg",
+            "count": 2,
+            "examples": [
+                "gg"
+            ]
+        }
+    ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
                 "name": "asder",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             },
             {
                 "name": "n eld runes",
                 "matched": "run",
                 "count": 1
             }
-        ],
-        "Trade": [
-            {
-                "name": "n 5-5 facets",
-                "matched": "n",
-                "count": 1
-            }
         ]
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 9.33
+        "public_games": 4,
+        "average_name_length": 6.0
     }
 }
