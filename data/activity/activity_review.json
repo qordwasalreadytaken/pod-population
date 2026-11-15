@@ -87,7 +87,7 @@
     },
     {
         "normalized": "qwe",
-        "count": 234,
+        "count": 236,
         "examples": [
             "qwe"
         ]
@@ -268,18 +268,18 @@
     },
     {
         "normalized": "gs #",
-        "count": 104,
+        "count": 106,
         "examples": [
             "gs 1",
             "gs 12",
+            "gs 124",
             "gs 2",
             "gs 3",
             "gs 4",
             "gs 5",
             "gs 55",
             "gs 567",
-            "gs 6",
-            "gs 7"
+            "gs 6"
         ]
     },
     {
@@ -733,6 +733,13 @@
         ]
     },
     {
+        "normalized": "d",
+        "count": 36,
+        "examples": [
+            "d"
+        ]
+    },
+    {
         "normalized": "dasa",
         "count": 36,
         "examples": [
@@ -772,13 +779,6 @@
         "count": 34,
         "examples": [
             "dsad"
-        ]
-    },
-    {
-        "normalized": "d",
-        "count": 34,
-        "examples": [
-            "d"
         ]
     },
     {
@@ -12269,6 +12269,13 @@
         "count": 2,
         "examples": [
             "fsff"
+        ]
+    },
+    {
+        "normalized": "washy",
+        "count": 2,
+        "examples": [
+            "washy"
         ]
     }
 ]
