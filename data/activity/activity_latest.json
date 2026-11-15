@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-15T05:46:00+00:00",
+    "timestamp": "2026-11-15T06:05:00+00:00",
     "difficulty": {
         "0": 1
     },
@@ -17,16 +17,16 @@
     ],
     "top_games": [
         {
-            "name": "vtbsorcldfirski",
+            "name": "vtbscorskilers",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "vtbsorcldfirski",
+            "normalized": "vtbscorskilers",
             "count": 2,
             "examples": [
-                "vtbsorcldfirski"
+                "vtbscorskilers"
             ]
         }
     ],
@@ -34,6 +34,6 @@
     "interesting": {
         "unique_names": 1,
         "public_games": 1,
-        "average_name_length": 15.0
+        "average_name_length": 14.0
     }
 }
