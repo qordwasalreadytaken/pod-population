@@ -1,27 +1,31 @@
 {
-    "timestamp": "2026-11-15T15:46:00+00:00",
+    "timestamp": "2026-11-15T16:03:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 4
     },
     "mode": {
-        "0": 3
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 3
+        "2|0": 4
     },
     "activities": [
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 2
         },
         {
-            "name": "Other",
-            "count": 1
+            "name": "Trade",
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "n death web 1",
+            "name": "godzilla",
+            "count": 1
+        },
+        {
+            "name": "n deathweb",
             "count": 1
         },
         {
@@ -35,6 +39,13 @@
     ],
     "unknown_games": [
         {
+            "normalized": "godzilla",
+            "count": 2,
+            "examples": [
+                "godzilla"
+            ]
+        },
+        {
             "normalized": "need synth #",
             "count": 2,
             "examples": [
@@ -45,7 +56,7 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "n death web 1",
+                "name": "n deathweb",
                 "matched": "n",
                 "count": 1
             },
@@ -57,8 +68,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 13.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 11.0
     }
 }
