@@ -1,40 +1,40 @@
 {
-    "timestamp": "2026-11-15T16:16:00+00:00",
+    "timestamp": "2026-11-15T16:31:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 3,
+        "0": 1,
+        "2": 4,
         "1": 1
     },
     "mode": {
-        "1": 2,
-        "0": 4
+        "1": 1,
+        "0": 5
     },
     "difficulty_mode": {
-        "0|1": 2,
-        "2|0": 3,
+        "0|1": 1,
+        "2|0": 4,
         "1|0": 1
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 3
         },
         {
-            "name": "Leveling",
+            "name": "Other",
             "count": 2
         },
         {
-            "name": "Trade",
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "act 2",
-            "count": 1
+            "name": "n reset token",
+            "count": 2
         },
         {
-            "name": "act 3",
+            "name": "act 2",
             "count": 1
         },
         {
@@ -43,10 +43,6 @@
         },
         {
             "name": "n skinofflayed",
-            "count": 1
-        },
-        {
-            "name": "need synth 3",
             "count": 1
         },
         {
@@ -63,13 +59,6 @@
             ]
         },
         {
-            "normalized": "need synth #",
-            "count": 2,
-            "examples": [
-                "need synth 3"
-            ]
-        },
-        {
             "normalized": "sggsgs",
             "count": 2,
             "examples": [
@@ -83,14 +72,14 @@
                 "name": "act 2",
                 "matched": "act",
                 "count": 1
-            },
-            {
-                "name": "act 3",
-                "matched": "act",
-                "count": 1
             }
         ],
         "Trade": [
+            {
+                "name": "n reset token",
+                "matched": "n",
+                "count": 2
+            },
             {
                 "name": "n skinofflayed",
                 "matched": "n",
@@ -99,8 +88,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
+        "unique_names": 5,
         "public_games": 6,
-        "average_name_length": 8.33
+        "average_name_length": 9.2
     }
 }
