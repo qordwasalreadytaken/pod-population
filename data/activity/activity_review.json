@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 4092,
+        "count": 4096,
         "examples": [
             "0",
             "1",
@@ -175,7 +175,7 @@
     },
     {
         "normalized": "h",
-        "count": 156,
+        "count": 160,
         "examples": [
             "h"
         ]
@@ -2709,6 +2709,13 @@
         ]
     },
     {
+        "normalized": "hup",
+        "count": 12,
+        "examples": [
+            "hup"
+        ]
+    },
+    {
         "normalized": "a#h",
         "count": 10,
         "examples": [
@@ -3148,13 +3155,6 @@
         "examples": [
             "need synth 02",
             "need synth 3"
-        ]
-    },
-    {
-        "normalized": "hup",
-        "count": 10,
-        "examples": [
-            "hup"
         ]
     },
     {
@@ -12326,6 +12326,13 @@
         "count": 2,
         "examples": [
             "peepeepoo"
+        ]
+    },
+    {
+        "normalized": "sfsf",
+        "count": 2,
+        "examples": [
+            "sfsf"
         ]
     }
 ]
