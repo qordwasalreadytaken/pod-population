@@ -701,7 +701,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "leveli",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -772,7 +772,7 @@
             "Leveling": [
                 {
                     "name": "norm levelin",
-                    "matched": "leveli",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -8995,7 +8995,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "anci",
+                    "matched": "norm",
                     "count": 1
                 },
                 {
@@ -12824,7 +12824,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "anci",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -36454,7 +36454,7 @@
             "Misc. Public MF Runs": [
                 {
                     "name": "mf runs",
-                    "matched": "run",
+                    "matched": "mf",
                     "count": 1
                 }
             ]
@@ -416149,7 +416149,7 @@
             "Trade": [
                 {
                     "name": "n druidtorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 },
                 {
@@ -416251,7 +416251,7 @@
                 },
                 {
                     "name": "n druidtorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ],
@@ -416381,7 +416381,7 @@
                 },
                 {
                     "name": "n druidtorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -416480,7 +416480,7 @@
                 },
                 {
                     "name": "n druidtorch",
-                    "matched": "torch",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -466502,7 +466502,7 @@
                 },
                 {
                     "name": "asdff",
-                    "matched": "asd",
+                    "matched": "asdff",
                     "count": 1
                 }
             ]
@@ -521250,7 +521250,7 @@
             "Trade": [
                 {
                     "name": "n 55poison red",
-                    "matched": "n",
+                    "matched": "iso",
                     "count": 1
                 }
             ],
@@ -521324,7 +521324,7 @@
             "Trade": [
                 {
                     "name": "n 55poison red",
-                    "matched": "n",
+                    "matched": "iso",
                     "count": 1
                 }
             ],
@@ -521398,7 +521398,7 @@
             "Trade": [
                 {
                     "name": "n 55poison red",
-                    "matched": "n",
+                    "matched": "iso",
                     "count": 1
                 }
             ],
@@ -521472,7 +521472,7 @@
             "Trade": [
                 {
                     "name": "n 55poison red",
-                    "matched": "n",
+                    "matched": "iso",
                     "count": 1
                 }
             ],
@@ -521546,7 +521546,7 @@
             "Trade": [
                 {
                     "name": "n 55poison red",
-                    "matched": "n",
+                    "matched": "iso",
                     "count": 1
                 }
             ],
@@ -521632,7 +521632,7 @@
             "Trade": [
                 {
                     "name": "n 55poison red",
-                    "matched": "n",
+                    "matched": "iso",
                     "count": 1
                 }
             ]
@@ -521739,7 +521739,7 @@
             "Trade": [
                 {
                     "name": "n 55poison red",
-                    "matched": "n",
+                    "matched": "iso",
                     "count": 1
                 }
             ]
@@ -554649,6 +554649,72 @@
             "unique_names": 2,
             "public_games": 2,
             "average_name_length": 1.5
+        }
+    },
+    {
+        "timestamp": "2026-11-15T04:18:00+00:00",
+        "difficulty": {
+            "2": 2,
+            "1": 1,
+            "0": 1
+        },
+        "mode": {
+            "1": 2,
+            "0": 2
+        },
+        "difficulty_mode": {
+            "2|1": 2,
+            "1|0": 1,
+            "0|0": 1
+        },
+        "activities": [
+            {
+                "name": "Other",
+                "count": 4
+            }
+        ],
+        "top_games": [
+            {
+                "name": "h",
+                "count": 2
+            },
+            {
+                "name": "gs 111",
+                "count": 1
+            },
+            {
+                "name": "gg",
+                "count": 1
+            }
+        ],
+        "unknown_games": [
+            {
+                "normalized": "h",
+                "count": 4,
+                "examples": [
+                    "h"
+                ]
+            },
+            {
+                "normalized": "gs #",
+                "count": 2,
+                "examples": [
+                    "gs 111"
+                ]
+            },
+            {
+                "normalized": "gg",
+                "count": 2,
+                "examples": [
+                    "gg"
+                ]
+            }
+        ],
+        "classified_games": {},
+        "interesting": {
+            "unique_names": 3,
+            "public_games": 4,
+            "average_name_length": 3.0
         }
     }
 ]
