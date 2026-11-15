@@ -1,20 +1,18 @@
 {
-    "timestamp": "2026-11-15T13:46:00+00:00",
+    "timestamp": "2026-11-15T14:02:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 1
+        "0": 3
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "0|0": 1
+        "0|0": 3
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 1
+            "name": "Misc. Public MF Runs",
+            "count": 2
         },
         {
             "name": "Other",
@@ -23,8 +21,8 @@
     ],
     "top_games": [
         {
-            "name": "n deaths web",
-            "count": 1
+            "name": "gord",
+            "count": 2
         },
         {
             "name": "vtbscorskilers",
@@ -41,17 +39,17 @@
         }
     ],
     "classified_games": {
-        "Trade": [
+        "Misc. Public MF Runs": [
             {
-                "name": "n deaths web",
-                "matched": "n",
-                "count": 1
+                "name": "gord",
+                "matched": "gord",
+                "count": 2
             }
         ]
     },
     "interesting": {
         "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 13.0
+        "public_games": 3,
+        "average_name_length": 9.0
     }
 }
