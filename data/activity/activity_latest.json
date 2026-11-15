@@ -1,57 +1,39 @@
 {
-    "timestamp": "2026-11-15T08:32:00+00:00",
+    "timestamp": "2026-11-15T08:46:00+00:00",
     "difficulty": {
-        "0": 2
-    },
-    "mode": {
-        "1": 1,
         "0": 1
     },
+    "mode": {
+        "1": 1
+    },
     "difficulty_mode": {
-        "0|1": 1,
-        "0|0": 1
+        "0|1": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Other",
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asder",
-            "count": 1
-        },
-        {
-            "name": "vtbscorskilers",
+            "name": "act 1",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "vtbscorskilers",
-            "count": 2,
-            "examples": [
-                "vtbscorskilers"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Leveling": [
             {
-                "name": "asder",
-                "matched": "asd",
+                "name": "act 1",
+                "matched": "act",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 9.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 5.0
     }
 }
