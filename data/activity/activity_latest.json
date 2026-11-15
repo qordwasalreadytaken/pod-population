@@ -1,29 +1,44 @@
 {
-    "timestamp": "2026-11-15T10:32:00+00:00",
+    "timestamp": "2026-11-15T10:46:00+00:00",
     "difficulty": {
+        "2": 2,
         "0": 2
     },
     "mode": {
-        "1": 1,
-        "0": 1
+        "1": 2,
+        "0": 2
     },
     "difficulty_mode": {
+        "2|1": 1,
         "0|1": 1,
+        "2|0": 1,
         "0|0": 1
     },
     "activities": [
+        {
+            "name": "Other",
+            "count": 2
+        },
         {
             "name": "Leveling",
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Maps",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "qe",
+            "count": 1
+        },
+        {
             "name": "act 2",
+            "count": 1
+        },
+        {
+            "name": "chillmap",
             "count": 1
         },
         {
@@ -32,6 +47,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "qe",
+            "count": 2,
+            "examples": [
+                "qe"
+            ]
+        },
         {
             "normalized": "vtbscorskilers",
             "count": 2,
@@ -47,11 +69,18 @@
                 "matched": "act",
                 "count": 1
             }
+        ],
+        "Maps": [
+            {
+                "name": "chillmap",
+                "matched": "map",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 9.5
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 7.25
     }
 }
