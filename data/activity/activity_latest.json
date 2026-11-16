@@ -1,15 +1,13 @@
 {
-    "timestamp": "2026-11-16T12:31:00+00:00",
+    "timestamp": "2026-11-16T12:59:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 2
+        "2": 5
     },
     "mode": {
         "0": 5
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "1|0": 2
+        "2|0": 5
     },
     "activities": [
         {
@@ -17,67 +15,66 @@
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Chaos",
             "count": 2
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n reset token 2",
+            "name": "n reset token 7",
             "count": 1
         },
         {
-            "name": "asder",
+            "name": "arcane chaos 3",
             "count": 1
         },
         {
-            "name": "n reset token 1",
+            "name": "n reset token 6",
             "count": 1
         },
         {
-            "name": "42134",
+            "name": "asder 1",
             "count": 1
         },
         {
-            "name": "412341234",
+            "name": "arcane chaos 2",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "42134"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Trade": [
             {
-                "name": "n reset token 2",
+                "name": "n reset token 7",
                 "matched": "n",
                 "count": 1
             },
             {
-                "name": "n reset token 1",
+                "name": "n reset token 6",
                 "matched": "n",
+                "count": 1
+            }
+        ],
+        "Chaos": [
+            {
+                "name": "arcane chaos 3",
+                "matched": "chaos",
+                "count": 1
+            },
+            {
+                "name": "arcane chaos 2",
+                "matched": "chaos",
                 "count": 1
             }
         ],
         "Misc. Public MF Runs": [
             {
-                "name": "asder",
+                "name": "asder 1",
                 "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "412341234",
-                "matched": "123",
                 "count": 1
             }
         ]
@@ -85,6 +82,6 @@
     "interesting": {
         "unique_names": 5,
         "public_games": 5,
-        "average_name_length": 9.8
+        "average_name_length": 13.0
     }
 }
