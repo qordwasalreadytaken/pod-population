@@ -1,19 +1,15 @@
 {
-    "timestamp": "2026-11-16T21:03:00+00:00",
+    "timestamp": "2026-11-16T21:16:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 2
     },
     "mode": {
-        "0": 4
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 4
+        "2|0": 2
     },
     "activities": [
-        {
-            "name": "Other",
-            "count": 2
-        },
         {
             "name": "Trade",
             "count": 1
@@ -25,14 +21,6 @@
     ],
     "top_games": [
         {
-            "name": "sfsdf",
-            "count": 1
-        },
-        {
-            "name": "fsdfsdfd",
-            "count": 1
-        },
-        {
             "name": "n skinofflayed",
             "count": 1
         },
@@ -41,22 +29,7 @@
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "sfsdf",
-            "count": 2,
-            "examples": [
-                "sfsdf"
-            ]
-        },
-        {
-            "normalized": "fsdfsdfd",
-            "count": 2,
-            "examples": [
-                "fsdfsdfd"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Trade": [
             {
@@ -74,8 +47,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 7.75
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 9.0
     }
 }
