@@ -1,18 +1,18 @@
 {
-    "timestamp": "2026-11-16T13:30:00+00:00",
+    "timestamp": "2026-11-16T14:01:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 3
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 3
     },
     "activities": [
         {
-            "name": "Chaos",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -21,7 +21,11 @@
     ],
     "top_games": [
         {
-            "name": "arcane chaos 3",
+            "name": "t",
+            "count": 1
+        },
+        {
+            "name": "relic 4",
             "count": 1
         },
         {
@@ -29,15 +33,23 @@
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "t",
+            "count": 2,
+            "examples": [
+                "t"
+            ]
+        },
+        {
+            "normalized": "relic #",
+            "count": 2,
+            "examples": [
+                "relic 4"
+            ]
+        }
+    ],
     "classified_games": {
-        "Chaos": [
-            {
-                "name": "arcane chaos 3",
-                "matched": "arcane",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asder 1",
@@ -47,8 +59,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 10.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 5.0
     }
 }
