@@ -230,15 +230,8 @@
         ]
     },
     {
-        "normalized": "lvl",
-        "count": 122,
-        "examples": [
-            "lvl"
-        ]
-    },
-    {
         "normalized": "gs #",
-        "count": 120,
+        "count": 122,
         "examples": [
             "gs 1",
             "gs 111",
@@ -250,6 +243,13 @@
             "gs 3",
             "gs 4",
             "gs 5"
+        ]
+    },
+    {
+        "normalized": "lvl",
+        "count": 122,
+        "examples": [
+            "lvl"
         ]
     },
     {
@@ -7199,6 +7199,27 @@
         ]
     },
     {
+        "normalized": "vv",
+        "count": 4,
+        "examples": [
+            "vv"
+        ]
+    },
+    {
+        "normalized": "fsdsfs",
+        "count": 4,
+        "examples": [
+            "fsdsfs"
+        ]
+    },
+    {
+        "normalized": "fefq",
+        "count": 4,
+        "examples": [
+            "fefq"
+        ]
+    },
+    {
         "normalized": "a wps plz",
         "count": 2,
         "examples": [
@@ -12383,27 +12404,6 @@
         "count": 2,
         "examples": [
             "bhdbdf"
-        ]
-    },
-    {
-        "normalized": "vv",
-        "count": 2,
-        "examples": [
-            "vv"
-        ]
-    },
-    {
-        "normalized": "fsdsfs",
-        "count": 2,
-        "examples": [
-            "fsdsfs"
-        ]
-    },
-    {
-        "normalized": "fefq",
-        "count": 2,
-        "examples": [
-            "fefq"
         ]
     }
 ]
