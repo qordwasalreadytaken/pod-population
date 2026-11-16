@@ -1,22 +1,20 @@
 {
-    "timestamp": "2026-11-16T15:49:00+00:00",
+    "timestamp": "2026-11-16T16:03:00+00:00",
     "difficulty": {
-        "2": 1,
         "1": 1,
-        "0": 2
-    },
-    "mode": {
         "0": 4
     },
+    "mode": {
+        "0": 5
+    },
     "difficulty_mode": {
-        "2|0": 1,
         "1|0": 1,
-        "0|0": 2
+        "0|0": 4
     },
     "activities": [
         {
             "name": "Leveling",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
@@ -26,7 +24,7 @@
     "top_games": [
         {
             "name": "whenisrestart",
-            "count": 2
+            "count": 3
         },
         {
             "name": "31231",
@@ -39,13 +37,6 @@
     ],
     "unknown_games": [],
     "classified_games": {
-        "Leveling": [
-            {
-                "name": "whenisrestart",
-                "matched": "start",
-                "count": 2
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "31231",
@@ -57,11 +48,18 @@
                 "matched": "asd",
                 "count": 1
             }
+        ],
+        "Leveling": [
+            {
+                "name": "whenisrestart",
+                "matched": "start",
+                "count": 3
+            }
         ]
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 4,
+        "public_games": 5,
         "average_name_length": 7.0
     }
 }
