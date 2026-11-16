@@ -1,22 +1,18 @@
 {
-    "timestamp": "2026-11-16T12:59:00+00:00",
+    "timestamp": "2026-11-16T13:30:00+00:00",
     "difficulty": {
-        "2": 5
+        "2": 2
     },
     "mode": {
-        "0": 5
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 5
+        "2|0": 2
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 2
-        },
-        {
             "name": "Chaos",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
@@ -25,49 +21,20 @@
     ],
     "top_games": [
         {
-            "name": "n reset token 7",
-            "count": 1
-        },
-        {
             "name": "arcane chaos 3",
-            "count": 1
-        },
-        {
-            "name": "n reset token 6",
             "count": 1
         },
         {
             "name": "asder 1",
             "count": 1
-        },
-        {
-            "name": "arcane chaos 2",
-            "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n reset token 7",
-                "matched": "n",
-                "count": 1
-            },
-            {
-                "name": "n reset token 6",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Chaos": [
             {
                 "name": "arcane chaos 3",
-                "matched": "chaos",
-                "count": 1
-            },
-            {
-                "name": "arcane chaos 2",
-                "matched": "chaos",
+                "matched": "arcane",
                 "count": 1
             }
         ],
@@ -80,8 +47,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 13.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 10.5
     }
 }
