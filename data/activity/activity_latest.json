@@ -1,15 +1,19 @@
 {
-    "timestamp": "2026-11-16T18:32:00+00:00",
+    "timestamp": "2026-11-16T18:46:00+00:00",
     "difficulty": {
-        "2": 1
+        "2": 3
     },
     "mode": {
-        "0": 1
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1
+        "2|0": 3
     },
     "activities": [
+        {
+            "name": "Baal",
+            "count": 2
+        },
         {
             "name": "Other",
             "count": 1
@@ -17,23 +21,44 @@
     ],
     "top_games": [
         {
-            "name": "sdgs",
+            "name": "n baal token 13",
+            "count": 1
+        },
+        {
+            "name": "n baal token 12",
+            "count": 1
+        },
+        {
+            "name": "putinha 01",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "sdgs",
+            "normalized": "putinha #",
             "count": 2,
             "examples": [
-                "sdgs"
+                "putinha 01"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Baal": [
+            {
+                "name": "n baal token 13",
+                "matched": "baal",
+                "count": 1
+            },
+            {
+                "name": "n baal token 12",
+                "matched": "baal",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 4.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 13.33
     }
 }
