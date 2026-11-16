@@ -1,15 +1,13 @@
 {
-    "timestamp": "2026-11-16T06:38:00+00:00",
+    "timestamp": "2026-11-16T07:02:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 1
+        "2": 3
     },
     "mode": {
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 3,
-        "1|0": 1
+        "2|0": 3
     },
     "activities": [
         {
@@ -18,10 +16,6 @@
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Other",
             "count": 1
         }
     ],
@@ -37,21 +31,9 @@
         {
             "name": "n 5-5 5-4 light",
             "count": 1
-        },
-        {
-            "name": "hs 2",
-            "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "hs #",
-            "count": 2,
-            "examples": [
-                "hs 2"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Trade": [
             {
@@ -74,8 +56,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 9.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 10.67
     }
 }
