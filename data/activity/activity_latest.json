@@ -1,18 +1,24 @@
 {
-    "timestamp": "2026-11-17T20:32:00+00:00",
+    "timestamp": "2026-11-17T20:46:00+00:00",
     "difficulty": {
         "2": 4
     },
     "mode": {
-        "0": 4
+        "1": 1,
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 4
+        "2|1": 1,
+        "2|0": 3
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 2
+        },
+        {
+            "name": "Other",
+            "count": 1
         },
         {
             "name": "Trade",
@@ -20,6 +26,10 @@
         }
     ],
     "top_games": [
+        {
+            "name": "h",
+            "count": 1
+        },
         {
             "name": "dasd",
             "count": 1
@@ -31,13 +41,17 @@
         {
             "name": "n skinofflayed",
             "count": 1
-        },
-        {
-            "name": "asd",
-            "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "h",
+            "count": 2,
+            "examples": [
+                "h"
+            ]
+        }
+    ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
@@ -47,11 +61,6 @@
             },
             {
                 "name": "asder",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "asd",
                 "matched": "asd",
                 "count": 1
             }
@@ -67,6 +76,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 6.5
+        "average_name_length": 6.0
     }
 }
