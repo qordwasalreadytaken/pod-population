@@ -1,47 +1,49 @@
 {
-    "timestamp": "2026-11-17T17:16:00+00:00",
+    "timestamp": "2026-11-17T17:31:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 1,
+        "0": 1
     },
     "mode": {
         "0": 2
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Trade",
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Rush",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n fcr nec helm",
+            "name": "asder",
             "count": 1
         },
         {
-            "name": "asder",
+            "name": "norm rush",
             "count": 1
         }
     ],
     "unknown_games": [],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n fcr nec helm",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asder",
                 "matched": "asd",
+                "count": 1
+            }
+        ],
+        "Rush": [
+            {
+                "name": "norm rush",
+                "matched": "rush",
                 "count": 1
             }
         ]
@@ -49,6 +51,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 9.5
+        "average_name_length": 7.0
     }
 }
