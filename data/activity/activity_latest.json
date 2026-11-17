@@ -1,43 +1,51 @@
 {
-    "timestamp": "2026-11-17T19:47:00+00:00",
+    "timestamp": "2026-11-17T20:03:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "2": 6,
+        "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 6
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 1,
-        "0|0": 1
+        "2|0": 5,
+        "1|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 1
-        },
-        {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 6
         },
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "asd",
+            "count": 2
+        },
+        {
             "name": "h",
             "count": 1
         },
         {
-            "name": "asder",
+            "name": "asder1gs 18",
             "count": 1
         },
         {
-            "name": "n irathas ammy",
+            "name": "asder1gs 17",
+            "count": 1
+        },
+        {
+            "name": "asder1gs 16",
+            "count": 1
+        },
+        {
+            "name": "asder",
             "count": 1
         }
     ],
@@ -53,22 +61,35 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asder",
+                "name": "asd",
+                "matched": "asd",
+                "count": 2
+            },
+            {
+                "name": "asder1gs 18",
                 "matched": "asd",
                 "count": 1
-            }
-        ],
-        "Trade": [
+            },
             {
-                "name": "n irathas ammy",
-                "matched": "n",
+                "name": "asder1gs 17",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "asder1gs 16",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "asder",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.67
+        "unique_names": 6,
+        "public_games": 7,
+        "average_name_length": 7.0
     }
 }
