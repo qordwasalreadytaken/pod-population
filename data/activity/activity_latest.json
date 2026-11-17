@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-17T15:03:00+00:00",
+    "timestamp": "2026-11-17T15:18:00+00:00",
     "difficulty": {
         "2": 3,
         "1": 1
@@ -13,21 +13,21 @@
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 2
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "asder",
+            "name": "coffee",
             "count": 1
         },
         {
-            "name": "qwe",
+            "name": "asder",
             "count": 1
         },
         {
@@ -41,10 +41,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "qwe",
+            "normalized": "coffee",
             "count": 2,
             "examples": [
-                "qwe"
+                "coffee"
             ]
         },
         {
@@ -72,6 +72,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 4.25
+        "average_name_length": 5.0
     }
 }
