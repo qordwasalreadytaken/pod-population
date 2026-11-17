@@ -1,95 +1,63 @@
 {
-    "timestamp": "2026-11-17T20:03:00+00:00",
+    "timestamp": "2026-11-17T20:17:00+00:00",
     "difficulty": {
-        "2": 6,
-        "1": 1
+        "2": 3
     },
     "mode": {
-        "1": 1,
-        "0": 6
+        "0": 3
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 5,
-        "1|0": 1
+        "2|0": 3
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 6
+            "count": 2
         },
         {
-            "name": "Other",
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 2
-        },
-        {
-            "name": "h",
-            "count": 1
-        },
-        {
-            "name": "asder1gs 18",
-            "count": 1
-        },
-        {
-            "name": "asder1gs 17",
-            "count": 1
-        },
-        {
-            "name": "asder1gs 16",
-            "count": 1
-        },
-        {
             "name": "asder",
             "count": 1
-        }
-    ],
-    "unknown_games": [
+        },
         {
-            "normalized": "h",
-            "count": 2,
-            "examples": [
-                "h"
-            ]
+            "name": "n skinofflayed",
+            "count": 1
+        },
+        {
+            "name": "asd",
+            "count": 1
         }
     ],
+    "unknown_games": [],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
-                "matched": "asd",
-                "count": 2
-            },
-            {
-                "name": "asder1gs 18",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "asder1gs 17",
-                "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "asder1gs 16",
-                "matched": "asd",
-                "count": 1
-            },
-            {
                 "name": "asder",
                 "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
+        "Trade": [
+            {
+                "name": "n skinofflayed",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 7.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 7.33
     }
 }
