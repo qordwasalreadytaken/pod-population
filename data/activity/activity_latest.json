@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-17T08:21:00+00:00",
+    "timestamp": "2026-11-17T08:31:00+00:00",
     "difficulty": {
         "2": 2
     },
@@ -12,36 +12,29 @@
     "activities": [
         {
             "name": "Chaos",
-            "count": 1
-        },
-        {
-            "name": "Other",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "chaos run 2",
+            "name": "chaos run 4",
             "count": 1
         },
         {
-            "name": "farming 1",
+            "name": "chaos run 3",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "farming #",
-            "count": 2,
-            "examples": [
-                "farming 1"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Chaos": [
             {
-                "name": "chaos run 2",
+                "name": "chaos run 4",
+                "matched": "chaos",
+                "count": 1
+            },
+            {
+                "name": "chaos run 3",
                 "matched": "chaos",
                 "count": 1
             }
@@ -50,6 +43,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 10.0
+        "average_name_length": 11.0
     }
 }
