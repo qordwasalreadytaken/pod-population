@@ -1,29 +1,26 @@
 {
-    "timestamp": "2026-11-18T22:32:00+00:00",
+    "timestamp": "2026-11-18T22:46:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 2,
+        "2": 5,
         "1": 1
     },
     "mode": {
-        "1": 2,
-        "0": 4
+        "1": 1,
+        "0": 5
     },
     "difficulty_mode": {
         "2|1": 1,
-        "0|1": 1,
-        "2|0": 2,
-        "1|0": 1,
-        "0|0": 1
+        "2|0": 4,
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Trade",
@@ -36,7 +33,11 @@
             "count": 1
         },
         {
-            "name": "qwera",
+            "name": "sdfsdfs",
+            "count": 1
+        },
+        {
+            "name": "godzilla",
             "count": 1
         },
         {
@@ -48,11 +49,7 @@
             "count": 1
         },
         {
-            "name": "341234",
-            "count": 1
-        },
-        {
-            "name": "weeee 2",
+            "name": "34134",
             "count": 1
         }
     ],
@@ -65,17 +62,24 @@
             ]
         },
         {
-            "normalized": "qwera",
+            "normalized": "sdfsdfs",
             "count": 2,
             "examples": [
-                "qwera"
+                "sdfsdfs"
             ]
         },
         {
-            "normalized": "weeee #",
+            "normalized": "godzilla",
             "count": 2,
             "examples": [
-                "weeee 2"
+                "godzilla"
+            ]
+        },
+        {
+            "normalized": "#",
+            "count": 2,
+            "examples": [
+                "34134"
             ]
         }
     ],
@@ -84,11 +88,6 @@
             {
                 "name": "asdasd",
                 "matched": "asd",
-                "count": 1
-            },
-            {
-                "name": "341234",
-                "matched": "123",
                 "count": 1
             }
         ],
@@ -103,6 +102,6 @@
     "interesting": {
         "unique_names": 6,
         "public_games": 6,
-        "average_name_length": 6.67
+        "average_name_length": 7.0
     }
 }
