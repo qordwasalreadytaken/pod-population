@@ -1,68 +1,52 @@
 {
-    "timestamp": "2026-11-18T16:32:00+00:00",
+    "timestamp": "2026-11-18T16:46:00+00:00",
     "difficulty": {
-        "0": 3
+        "0": 4
     },
     "mode": {
-        "1": 1,
+        "1": 2,
         "0": 2
     },
     "difficulty_mode": {
-        "0|1": 1,
+        "0|1": 2,
         "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Leveling",
-            "count": 1
+            "count": 4
         }
     ],
     "top_games": [
         {
             "name": "qwera",
-            "count": 1
+            "count": 2
         },
         {
             "name": "c12x",
-            "count": 1
-        },
-        {
-            "name": "start",
-            "count": 1
+            "count": 2
         }
     ],
     "unknown_games": [
         {
             "normalized": "qwera",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "qwera"
             ]
         },
         {
             "normalized": "c#x",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "c12x"
             ]
         }
     ],
-    "classified_games": {
-        "Leveling": [
-            {
-                "name": "start",
-                "matched": "start",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 4.67
+        "unique_names": 2,
+        "public_games": 4,
+        "average_name_length": 4.5
     }
 }
