@@ -1,15 +1,13 @@
 {
-    "timestamp": "2026-11-18T23:16:00+00:00",
+    "timestamp": "2026-11-18T23:31:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 1
+        "2": 2
     },
     "mode": {
         "0": 2
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 1
+        "2|0": 2
     },
     "activities": [
         {
@@ -19,27 +17,27 @@
     ],
     "top_games": [
         {
-            "name": "terrifier",
+            "name": "try this",
             "count": 1
         },
         {
-            "name": "34134",
+            "name": "terrifier",
             "count": 1
         }
     ],
     "unknown_games": [
         {
+            "normalized": "try this",
+            "count": 2,
+            "examples": [
+                "try this"
+            ]
+        },
+        {
             "normalized": "terrifier",
             "count": 2,
             "examples": [
                 "terrifier"
-            ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "34134"
             ]
         }
     ],
@@ -47,6 +45,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 7.0
+        "average_name_length": 8.5
     }
 }
