@@ -1,15 +1,17 @@
 {
-    "timestamp": "2026-11-19T16:03:00+00:00",
+    "timestamp": "2026-11-19T16:18:00+00:00",
     "difficulty": {
         "2": 1,
-        "1": 2
+        "1": 1,
+        "0": 1
     },
     "mode": {
         "0": 3
     },
     "difficulty_mode": {
         "2|0": 1,
-        "1|0": 2
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
@@ -21,7 +23,7 @@
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Leveling",
             "count": 1
         }
     ],
@@ -35,19 +37,11 @@
             "count": 1
         },
         {
-            "name": "c12x",
+            "name": "act 2 fresh :)",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "c#x",
-            "count": 2,
-            "examples": [
-                "c12x"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Trade": [
             {
@@ -62,11 +56,18 @@
                 "matched": "123",
                 "count": 1
             }
+        ],
+        "Leveling": [
+            {
+                "name": "act 2 fresh :)",
+                "matched": "act",
+                "count": 1
+            }
         ]
     },
     "interesting": {
         "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 8.0
+        "average_name_length": 11.33
     }
 }
