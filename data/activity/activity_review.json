@@ -1,7 +1,7 @@
 [
     {
         "normalized": "#",
-        "count": 4158,
+        "count": 4160,
         "examples": [
             "0",
             "1",
@@ -12,7 +12,7 @@
             "1111",
             "11111",
             "11111111121",
-            "111131"
+            "111122"
         ]
     },
     {
@@ -721,6 +721,13 @@
         ]
     },
     {
+        "normalized": "qwera",
+        "count": 38,
+        "examples": [
+            "qwera"
+        ]
+    },
+    {
         "normalized": "fd #",
         "count": 36,
         "examples": [
@@ -800,13 +807,6 @@
         "count": 36,
         "examples": [
             "hemp"
-        ]
-    },
-    {
-        "normalized": "qwera",
-        "count": 36,
-        "examples": [
-            "qwera"
         ]
     },
     {
