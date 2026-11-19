@@ -1,21 +1,21 @@
 {
-    "timestamp": "2026-11-19T14:31:00+00:00",
+    "timestamp": "2026-11-19T14:46:00+00:00",
     "difficulty": {
-        "0": 2,
+        "0": 1,
         "2": 1
     },
     "mode": {
-        "1": 2,
+        "1": 1,
         "0": 1
     },
     "difficulty_mode": {
-        "0|1": 2,
+        "0|1": 1,
         "2|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Trade",
@@ -25,7 +25,7 @@
     "top_games": [
         {
             "name": "qwera",
-            "count": 2
+            "count": 1
         },
         {
             "name": "n 15allrfhr gc",
@@ -35,7 +35,7 @@
     "unknown_games": [
         {
             "normalized": "qwera",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "qwera"
             ]
@@ -52,7 +52,7 @@
     },
     "interesting": {
         "unique_names": 2,
-        "public_games": 3,
+        "public_games": 2,
         "average_name_length": 9.5
     }
 }
