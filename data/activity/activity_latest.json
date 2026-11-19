@@ -1,29 +1,23 @@
 {
-    "timestamp": "2026-11-19T07:18:00+00:00",
+    "timestamp": "2026-11-19T07:31:00+00:00",
     "difficulty": {
-        "0": 2
-    },
-    "mode": {
-        "1": 1,
         "0": 1
     },
+    "mode": {
+        "1": 1
+    },
     "difficulty_mode": {
-        "0|1": 1,
-        "0|0": 1
+        "0|1": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
             "name": "qwera",
-            "count": 1
-        },
-        {
-            "name": "snow",
             "count": 1
         }
     ],
@@ -34,19 +28,12 @@
             "examples": [
                 "qwera"
             ]
-        },
-        {
-            "normalized": "snow",
-            "count": 2,
-            "examples": [
-                "snow"
-            ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 4.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 5.0
     }
 }
