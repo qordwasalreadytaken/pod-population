@@ -1,17 +1,17 @@
 {
-    "timestamp": "2026-11-19T22:16:00+00:00",
+    "timestamp": "2026-11-19T22:31:00+00:00",
     "difficulty": {
-        "1": 2,
-        "2": 2,
-        "0": 1
+        "0": 2,
+        "2": 1,
+        "1": 1
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "2|0": 2,
+        "0|1": 1,
+        "2|0": 1,
         "1|0": 1,
         "0|0": 1
     },
@@ -22,7 +22,7 @@
         },
         {
             "name": "Trade",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
@@ -31,15 +31,11 @@
             "count": 1
         },
         {
-            "name": "n 5-5 facets",
-            "count": 1
-        },
-        {
             "name": "n 15allrfhr gc",
             "count": 1
         },
         {
-            "name": "erqwer",
+            "name": "23412",
             "count": 1
         },
         {
@@ -56,10 +52,10 @@
             ]
         },
         {
-            "normalized": "erqwer",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "erqwer"
+                "23412"
             ]
         },
         {
@@ -73,11 +69,6 @@
     "classified_games": {
         "Trade": [
             {
-                "name": "n 5-5 facets",
-                "matched": "n",
-                "count": 1
-            },
-            {
                 "name": "n 15allrfhr gc",
                 "matched": "n",
                 "count": 1
@@ -85,8 +76,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 10.0
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 9.25
     }
 }
