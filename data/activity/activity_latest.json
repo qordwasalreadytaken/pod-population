@@ -1,29 +1,24 @@
 {
-    "timestamp": "2026-11-19T17:32:00+00:00",
+    "timestamp": "2026-11-19T17:46:00+00:00",
     "difficulty": {
-        "1": 2,
-        "2": 2
+        "1": 1,
+        "2": 1
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 1
     },
     "difficulty_mode": {
         "1|1": 1,
-        "2|0": 2,
-        "1|0": 1
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Trade",
             "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 1
         }
     ],
@@ -33,15 +28,7 @@
             "count": 1
         },
         {
-            "name": "coffee",
-            "count": 1
-        },
-        {
             "name": "n 15allrfhr gc",
-            "count": 1
-        },
-        {
-            "name": "412341",
             "count": 1
         }
     ],
@@ -52,13 +39,6 @@
             "examples": [
                 "qwera"
             ]
-        },
-        {
-            "normalized": "coffee",
-            "count": 2,
-            "examples": [
-                "coffee"
-            ]
         }
     ],
     "classified_games": {
@@ -68,18 +48,11 @@
                 "matched": "n",
                 "count": 1
             }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "412341",
-                "matched": "123",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 7.75
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 9.5
     }
 }
