@@ -1,27 +1,23 @@
 {
-    "timestamp": "2026-11-19T01:32:00+00:00",
+    "timestamp": "2026-11-19T01:46:00+00:00",
     "difficulty": {
         "2": 2,
-        "0": 2
+        "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
         "2|0": 2,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
+            "count": 3
         }
     ],
     "top_games": [
-        {
-            "name": "v",
-            "count": 2
-        },
         {
             "name": "fdgdgf",
             "count": 1
@@ -29,16 +25,13 @@
         {
             "name": "rodan",
             "count": 1
+        },
+        {
+            "name": "v",
+            "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "v",
-            "count": 4,
-            "examples": [
-                "v"
-            ]
-        },
         {
             "normalized": "fdgdgf",
             "count": 2,
@@ -52,12 +45,19 @@
             "examples": [
                 "rodan"
             ]
+        },
+        {
+            "normalized": "v",
+            "count": 2,
+            "examples": [
+                "v"
+            ]
         }
     ],
     "classified_games": {},
     "interesting": {
         "unique_names": 3,
-        "public_games": 4,
+        "public_games": 3,
         "average_name_length": 4.0
     }
 }
