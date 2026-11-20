@@ -1,64 +1,56 @@
 {
-    "timestamp": "2026-11-20T21:02:00+00:00",
+    "timestamp": "2026-11-20T21:16:00+00:00",
     "difficulty": {
-        "0": 1,
-        "1": 2
+        "2": 2,
+        "1": 1
     },
     "mode": {
-        "1": 1,
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "1|0": 2
+        "2|0": 2,
+        "1|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 3
+            "name": "Misc. Public MF Runs",
+            "count": 2
+        },
+        {
+            "name": "Trade",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "qwerea",
-            "count": 1
+            "name": "asd",
+            "count": 2
         },
         {
-            "name": "nm go",
-            "count": 1
-        },
-        {
-            "name": "nm go go",
+            "name": "n iasallr jew",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "qwerea",
-            "count": 2,
-            "examples": [
-                "qwerea"
-            ]
-        },
-        {
-            "normalized": "nm go",
-            "count": 2,
-            "examples": [
-                "nm go"
-            ]
-        },
-        {
-            "normalized": "nm go go",
-            "count": 2,
-            "examples": [
-                "nm go go"
-            ]
-        }
-    ],
-    "classified_games": {},
+    "unknown_games": [],
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 2
+            }
+        ],
+        "Trade": [
+            {
+                "name": "n iasallr jew",
+                "matched": "n",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 3,
+        "unique_names": 2,
         "public_games": 3,
-        "average_name_length": 6.33
+        "average_name_length": 8.0
     }
 }
