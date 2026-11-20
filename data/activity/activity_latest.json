@@ -1,66 +1,65 @@
 {
-    "timestamp": "2026-11-20T23:31:00+00:00",
+    "timestamp": "2026-11-20T23:46:00+00:00",
     "difficulty": {
-        "1": 4,
         "0": 2,
-        "2": 5
+        "2": 7,
+        "1": 1
     },
     "mode": {
-        "1": 2,
+        "1": 1,
         "0": 9
     },
     "difficulty_mode": {
-        "1|1": 1,
         "0|1": 1,
-        "2|0": 5,
-        "1|0": 3,
+        "2|0": 7,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 7
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 2
-        },
-        {
-            "name": "Trade",
-            "count": 1
+            "count": 8
         },
         {
             "name": "Chaos",
+            "count": 1
+        },
+        {
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "qwerea",
-            "count": 2
+            "count": 1
         },
         {
-            "name": "gord",
-            "count": 2
+            "name": "caralho 15",
+            "count": 1
+        },
+        {
+            "name": "fvfb",
+            "count": 1
+        },
+        {
+            "name": "caralho 14",
+            "count": 1
+        },
+        {
+            "name": "caralho 13",
+            "count": 1
         },
         {
             "name": "gjjng",
             "count": 1
         },
         {
-            "name": "caralho 10",
-            "count": 1
-        },
-        {
-            "name": "caralho 8",
+            "name": "hell chaos",
             "count": 1
         },
         {
             "name": "n iasallr jew",
-            "count": 1
-        },
-        {
-            "name": "hell chaos",
             "count": 1
         },
         {
@@ -74,18 +73,26 @@
     ],
     "unknown_games": [
         {
+            "normalized": "caralho #",
+            "count": 6,
+            "examples": [
+                "caralho 13",
+                "caralho 14",
+                "caralho 15"
+            ]
+        },
+        {
             "normalized": "qwerea",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "qwerea"
             ]
         },
         {
-            "normalized": "caralho #",
-            "count": 4,
+            "normalized": "fvfb",
+            "count": 2,
             "examples": [
-                "caralho 10",
-                "caralho 8"
+                "fvfb"
             ]
         },
         {
@@ -111,13 +118,6 @@
         }
     ],
     "classified_games": {
-        "Trade": [
-            {
-                "name": "n iasallr jew",
-                "matched": "n",
-                "count": 1
-            }
-        ],
         "Chaos": [
             {
                 "name": "hell chaos",
@@ -125,17 +125,17 @@
                 "count": 1
             }
         ],
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "gord",
-                "matched": "gord",
-                "count": 2
+                "name": "n iasallr jew",
+                "matched": "n",
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 9,
-        "public_games": 11,
-        "average_name_length": 7.67
+        "unique_names": 10,
+        "public_games": 10,
+        "average_name_length": 8.0
     }
 }
