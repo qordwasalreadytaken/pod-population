@@ -1,14 +1,17 @@
 {
-    "timestamp": "2026-11-20T14:17:00+00:00",
+    "timestamp": "2026-11-20T14:32:00+00:00",
     "difficulty": {
-        "2": 3,
+        "0": 1,
+        "2": 2,
         "1": 1
     },
     "mode": {
-        "0": 4
+        "1": 1,
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "0|1": 1,
+        "2|0": 2,
         "1|0": 1
     },
     "activities": [
@@ -27,7 +30,7 @@
     ],
     "top_games": [
         {
-            "name": "farming 1",
+            "name": "qwerea",
             "count": 1
         },
         {
@@ -45,10 +48,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "farming #",
+            "normalized": "qwerea",
             "count": 2,
             "examples": [
-                "farming 1"
+                "qwerea"
             ]
         },
         {
@@ -78,6 +81,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 7.25
+        "average_name_length": 6.5
     }
 }
