@@ -1,28 +1,26 @@
 {
-    "timestamp": "2026-11-20T22:46:00+00:00",
+    "timestamp": "2026-11-20T23:02:00+00:00",
     "difficulty": {
-        "1": 2,
-        "2": 2,
+        "2": 5,
+        "1": 1,
         "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 4
+        "0": 7
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "2|0": 2,
+        "2|0": 5,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "Rush",
-            "count": 1
+            "name": "Chaos",
+            "count": 2
         },
         {
             "name": "Trade",
@@ -39,11 +37,15 @@
     ],
     "top_games": [
         {
-            "name": "qwerea",
+            "name": "hell chaos",
+            "count": 2
+        },
+        {
+            "name": "caralho 6",
             "count": 1
         },
         {
-            "name": "hell rush",
+            "name": "caralho 5",
             "count": 1
         },
         {
@@ -61,19 +63,20 @@
     ],
     "unknown_games": [
         {
-            "normalized": "qwerea",
-            "count": 2,
+            "normalized": "caralho #",
+            "count": 4,
             "examples": [
-                "qwerea"
+                "caralho 5",
+                "caralho 6"
             ]
         }
     ],
     "classified_games": {
-        "Rush": [
+        "Chaos": [
             {
-                "name": "hell rush",
-                "matched": "rush",
-                "count": 1
+                "name": "hell chaos",
+                "matched": "chaos",
+                "count": 2
             }
         ],
         "Trade": [
@@ -99,8 +102,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 7.2
+        "unique_names": 6,
+        "public_games": 7,
+        "average_name_length": 8.17
     }
 }
