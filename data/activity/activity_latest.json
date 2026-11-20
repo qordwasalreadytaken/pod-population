@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-20T19:03:00+00:00",
+    "timestamp": "2026-11-20T19:17:00+00:00",
     "difficulty": {
         "0": 2,
         "2": 2
@@ -16,11 +16,11 @@
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
@@ -29,11 +29,11 @@
             "count": 1
         },
         {
-            "name": "123123125",
+            "name": "hk",
             "count": 1
         },
         {
-            "name": "123123124",
+            "name": "123123125",
             "count": 1
         },
         {
@@ -50,6 +50,13 @@
             ]
         },
         {
+            "normalized": "hk",
+            "count": 2,
+            "examples": [
+                "hk"
+            ]
+        },
+        {
             "normalized": "qwe",
             "count": 2,
             "examples": [
@@ -63,17 +70,12 @@
                 "name": "123123125",
                 "matched": "123",
                 "count": 1
-            },
-            {
-                "name": "123123124",
-                "matched": "123",
-                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 6.75
+        "average_name_length": 5.0
     }
 }
