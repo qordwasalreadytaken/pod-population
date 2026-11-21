@@ -8995,7 +8995,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "anci",
+                    "matched": "norm",
                     "count": 1
                 },
                 {
@@ -12824,7 +12824,7 @@
             "Leveling": [
                 {
                     "name": "ancients norm",
-                    "matched": "anci",
+                    "matched": "norm",
                     "count": 1
                 }
             ]
@@ -17824,7 +17824,7 @@
             "Leveling": [
                 {
                     "name": "normal tombin",
-                    "matched": "norm",
+                    "matched": "tomb",
                     "count": 1
                 },
                 {
@@ -33947,7 +33947,7 @@
             "Uber": [
                 {
                     "name": "ubers",
-                    "matched": "uber",
+                    "matched": "ubers",
                     "count": 1
                 }
             ],
@@ -141193,7 +141193,7 @@
             "Uber": [
                 {
                     "name": "help ubers",
-                    "matched": "uber",
+                    "matched": "ubers",
                     "count": 1
                 }
             ]
@@ -144178,7 +144178,7 @@
             "Trade": [
                 {
                     "name": "n oocs wuw",
-                    "matched": "wuw",
+                    "matched": "n",
                     "count": 1
                 }
             ]
@@ -177847,7 +177847,7 @@
             "Uber": [
                 {
                     "name": "o uberservice 1",
-                    "matched": "uber",
+                    "matched": "ubers",
                     "count": 1
                 }
             ],
@@ -419338,7 +419338,7 @@
             "Leveling": [
                 {
                     "name": "tristnorm",
-                    "matched": "norm",
+                    "matched": "trist",
                     "count": 2
                 }
             ]
@@ -419434,7 +419434,7 @@
             "Leveling": [
                 {
                     "name": "tristnorm",
-                    "matched": "norm",
+                    "matched": "trist",
                     "count": 1
                 }
             ]
@@ -419511,7 +419511,7 @@
             "Leveling": [
                 {
                     "name": "tristnorm",
-                    "matched": "norm",
+                    "matched": "trist",
                     "count": 1
                 }
             ]
@@ -419594,7 +419594,7 @@
             "Leveling": [
                 {
                     "name": "tristnorm",
-                    "matched": "norm",
+                    "matched": "trist",
                     "count": 1
                 }
             ]
@@ -466502,7 +466502,7 @@
                 },
                 {
                     "name": "asdff",
-                    "matched": "asdff",
+                    "matched": "asd",
                     "count": 1
                 }
             ]
@@ -522237,7 +522237,7 @@
             "Leveling": [
                 {
                     "name": "act 1 norm",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -522276,7 +522276,7 @@
             "Leveling": [
                 {
                     "name": "act 1 norm",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -522315,7 +522315,7 @@
             "Leveling": [
                 {
                     "name": "act 1 norm",
-                    "matched": "norm",
+                    "matched": "act",
                     "count": 1
                 }
             ]
@@ -585958,6 +585958,21 @@
             "unique_names": 1,
             "public_games": 1,
             "average_name_length": 9.0
+        }
+    },
+    {
+        "timestamp": "2026-11-21T04:46:00+00:00",
+        "difficulty": {},
+        "mode": {},
+        "difficulty_mode": {},
+        "activities": [],
+        "top_games": [],
+        "unknown_games": [],
+        "classified_games": {},
+        "interesting": {
+            "unique_names": 0,
+            "public_games": 0,
+            "average_name_length": 0.0
         }
     }
 ]
