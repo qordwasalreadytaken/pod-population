@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-21T11:31:00+00:00",
+    "timestamp": "2026-11-21T11:46:00+00:00",
     "difficulty": {
         "0": 1,
         "2": 2
@@ -14,60 +14,38 @@
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 1
-        },
-        {
             "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
-            "name": "Trade",
-            "count": 1
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "qwerea",
-            "count": 1
-        },
-        {
             "name": "asd",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "n iasallr jew",
+            "name": "asdera",
             "count": 1
         }
     ],
-    "unknown_games": [
-        {
-            "normalized": "qwerea",
-            "count": 2,
-            "examples": [
-                "qwerea"
-            ]
-        }
-    ],
+    "unknown_games": [],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
-            }
-        ],
-        "Trade": [
+                "count": 2
+            },
             {
-                "name": "n iasallr jew",
-                "matched": "n",
+                "name": "asdera",
+                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
+        "unique_names": 2,
         "public_games": 3,
-        "average_name_length": 7.33
+        "average_name_length": 4.5
     }
 }
