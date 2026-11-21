@@ -1,41 +1,39 @@
 {
-    "timestamp": "2026-11-20T23:46:00+00:00",
+    "timestamp": "2026-11-21T00:08:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 7,
-        "1": 1
+        "2": 5,
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 9
+        "0": 7
     },
     "difficulty_mode": {
-        "0|1": 1,
-        "2|0": 7,
+        "2|0": 5,
         "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 8
-        },
-        {
-            "name": "Chaos",
-            "count": 1
+            "count": 5
         },
         {
             "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Chaos",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "qwerea",
+            "name": "gfdh",
             "count": 1
         },
         {
-            "name": "caralho 15",
+            "name": "caralho 18",
             "count": 1
         },
         {
@@ -43,23 +41,11 @@
             "count": 1
         },
         {
-            "name": "caralho 14",
-            "count": 1
-        },
-        {
-            "name": "caralho 13",
-            "count": 1
-        },
-        {
-            "name": "gjjng",
+            "name": "n iasallr jew",
             "count": 1
         },
         {
             "name": "hell chaos",
-            "count": 1
-        },
-        {
-            "name": "n iasallr jew",
             "count": 1
         },
         {
@@ -73,19 +59,17 @@
     ],
     "unknown_games": [
         {
-            "normalized": "caralho #",
-            "count": 6,
+            "normalized": "gfdh",
+            "count": 2,
             "examples": [
-                "caralho 13",
-                "caralho 14",
-                "caralho 15"
+                "gfdh"
             ]
         },
         {
-            "normalized": "qwerea",
+            "normalized": "caralho #",
             "count": 2,
             "examples": [
-                "qwerea"
+                "caralho 18"
             ]
         },
         {
@@ -93,13 +77,6 @@
             "count": 2,
             "examples": [
                 "fvfb"
-            ]
-        },
-        {
-            "normalized": "gjjng",
-            "count": 2,
-            "examples": [
-                "gjjng"
             ]
         },
         {
@@ -118,24 +95,24 @@
         }
     ],
     "classified_games": {
-        "Chaos": [
-            {
-                "name": "hell chaos",
-                "matched": "chaos",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "n iasallr jew",
                 "matched": "n",
                 "count": 1
             }
+        ],
+        "Chaos": [
+            {
+                "name": "hell chaos",
+                "matched": "chaos",
+                "count": 1
+            }
         ]
     },
     "interesting": {
-        "unique_names": 10,
-        "public_games": 10,
-        "average_name_length": 8.0
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 7.57
     }
 }
