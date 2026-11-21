@@ -1,26 +1,26 @@
 {
-    "timestamp": "2026-11-21T18:46:00+00:00",
+    "timestamp": "2026-11-21T19:02:00+00:00",
     "difficulty": {
-        "2": 1,
-        "1": 1
+        "2": 2,
+        "1": 2
     },
     "mode": {
-        "0": 2
+        "0": 4
     },
     "difficulty_mode": {
-        "2|0": 1,
-        "1|0": 1
+        "2|0": 2,
+        "1|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 4
         }
     ],
     "top_games": [
         {
             "name": "c1x",
-            "count": 1
+            "count": 3
         },
         {
             "name": "qwe",
@@ -30,7 +30,7 @@
     "unknown_games": [
         {
             "normalized": "c#x",
-            "count": 2,
+            "count": 6,
             "examples": [
                 "c1x"
             ]
@@ -46,7 +46,7 @@
     "classified_games": {},
     "interesting": {
         "unique_names": 2,
-        "public_games": 2,
+        "public_games": 4,
         "average_name_length": 3.0
     }
 }
