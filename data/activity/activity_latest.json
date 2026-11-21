@@ -1,28 +1,21 @@
 {
-    "timestamp": "2026-11-21T12:04:00+00:00",
+    "timestamp": "2026-11-21T12:21:00+00:00",
     "difficulty": {
-        "0": 1,
         "2": 1
     },
     "mode": {
-        "1": 1,
         "0": 1
     },
     "difficulty_mode": {
-        "0|1": 1,
         "2|0": 1
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "asdera",
-            "count": 1
-        },
         {
             "name": "asd",
             "count": 1
@@ -32,11 +25,6 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asdera",
-                "matched": "asd",
-                "count": 1
-            },
-            {
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
@@ -44,8 +32,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 4.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 3.0
     }
 }
