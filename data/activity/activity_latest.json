@@ -1,13 +1,15 @@
 {
-    "timestamp": "2026-11-21T02:04:00+00:00",
+    "timestamp": "2026-11-21T02:20:00+00:00",
     "difficulty": {
-        "2": 2
+        "2": 1,
+        "1": 1
     },
     "mode": {
         "0": 2
     },
     "difficulty_mode": {
-        "2|0": 2
+        "2|0": 1,
+        "1|0": 1
     },
     "activities": [
         {
@@ -15,7 +17,7 @@
             "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
@@ -25,23 +27,24 @@
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "qwe",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "qwe",
+            "count": 2,
+            "examples": [
+                "qwe"
+            ]
+        }
+    ],
     "classified_games": {
         "Trade": [
             {
                 "name": "n iasallr jew",
                 "matched": "n",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
                 "count": 1
             }
         ]
