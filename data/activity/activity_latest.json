@@ -1,39 +1,65 @@
 {
-    "timestamp": "2026-11-21T08:03:00+00:00",
+    "timestamp": "2026-11-21T08:19:00+00:00",
     "difficulty": {
+        "0": 2,
         "2": 1
     },
     "mode": {
-        "0": 1
+        "1": 1,
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 1
+        "0|1": 1,
+        "2|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 1
+            "name": "Other",
+            "count": 3
         }
     ],
     "top_games": [
         {
-            "name": "n iasallr jew",
+            "name": "qwera",
+            "count": 1
+        },
+        {
+            "name": "crip",
+            "count": 1
+        },
+        {
+            "name": "fw5gft",
             "count": 1
         }
     ],
-    "unknown_games": [],
-    "classified_games": {
-        "Trade": [
-            {
-                "name": "n iasallr jew",
-                "matched": "n",
-                "count": 1
-            }
-        ]
-    },
+    "unknown_games": [
+        {
+            "normalized": "qwera",
+            "count": 2,
+            "examples": [
+                "qwera"
+            ]
+        },
+        {
+            "normalized": "crip",
+            "count": 2,
+            "examples": [
+                "crip"
+            ]
+        },
+        {
+            "normalized": "fw#gft",
+            "count": 2,
+            "examples": [
+                "fw5gft"
+            ]
+        }
+    ],
+    "classified_games": {},
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 13.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 5.0
     }
 }
