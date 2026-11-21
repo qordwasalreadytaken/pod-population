@@ -1,20 +1,20 @@
 {
-    "timestamp": "2026-11-21T00:52:00+00:00",
+    "timestamp": "2026-11-21T01:03:00+00:00",
     "difficulty": {
-        "2": 5,
+        "2": 4,
         "0": 1
     },
     "mode": {
-        "0": 6
+        "0": 5
     },
     "difficulty_mode": {
-        "2|0": 5,
+        "2|0": 4,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Leveling",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Other",
@@ -27,15 +27,11 @@
     ],
     "top_games": [
         {
-            "name": "leveling-3",
+            "name": "leveling-7",
             "count": 1
         },
         {
-            "name": "leveling-2",
-            "count": 1
-        },
-        {
-            "name": "leveling-1",
+            "name": "leveling-6",
             "count": 1
         },
         {
@@ -70,17 +66,12 @@
     "classified_games": {
         "Leveling": [
             {
-                "name": "leveling-3",
+                "name": "leveling-7",
                 "matched": "leveli",
                 "count": 1
             },
             {
-                "name": "leveling-2",
-                "matched": "leveli",
-                "count": 1
-            },
-            {
-                "name": "leveling-1",
+                "name": "leveling-6",
                 "matched": "leveli",
                 "count": 1
             }
@@ -94,8 +85,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 9.33
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 9.2
     }
 }
