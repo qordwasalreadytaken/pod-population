@@ -1,23 +1,23 @@
 {
-    "timestamp": "2026-11-21T19:31:00+00:00",
+    "timestamp": "2026-11-21T19:46:00+00:00",
     "difficulty": {
+        "1": 1,
         "0": 1,
-        "2": 2,
-        "1": 1
+        "2": 3
     },
     "mode": {
-        "1": 1,
+        "1": 2,
         "0": 3
     },
     "difficulty_mode": {
+        "1|1": 1,
         "0|1": 1,
-        "2|0": 2,
-        "1|0": 1
+        "2|0": 3
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Trade",
@@ -26,7 +26,15 @@
     ],
     "top_games": [
         {
+            "name": "qwerea",
+            "count": 1
+        },
+        {
             "name": "wikid klownz",
+            "count": 1
+        },
+        {
+            "name": "rodan",
             "count": 1
         },
         {
@@ -36,13 +44,16 @@
         {
             "name": "n iasallr jew",
             "count": 1
-        },
-        {
-            "name": "qwe",
-            "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "qwerea",
+            "count": 2,
+            "examples": [
+                "qwerea"
+            ]
+        },
         {
             "normalized": "wikid klownz",
             "count": 2,
@@ -51,17 +62,17 @@
             ]
         },
         {
+            "normalized": "rodan",
+            "count": 2,
+            "examples": [
+                "rodan"
+            ]
+        },
+        {
             "normalized": "mkk",
             "count": 2,
             "examples": [
                 "mkk"
-            ]
-        },
-        {
-            "normalized": "qwe",
-            "count": 2,
-            "examples": [
-                "qwe"
             ]
         }
     ],
@@ -75,8 +86,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 7.75
+        "unique_names": 5,
+        "public_games": 5,
+        "average_name_length": 7.8
     }
 }
