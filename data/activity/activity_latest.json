@@ -1,39 +1,27 @@
 {
-    "timestamp": "2026-11-22T08:03:00+00:00",
+    "timestamp": "2026-11-22T08:19:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 1,
         "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
+            "name": "Trade",
             "count": 1
         },
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "asdasdsdgs",
-            "count": 1
-        },
-        {
-            "name": "rodan",
-            "count": 1
-        },
         {
             "name": "n iasallr jew",
             "count": 1
@@ -45,13 +33,6 @@
     ],
     "unknown_games": [
         {
-            "normalized": "rodan",
-            "count": 2,
-            "examples": [
-                "rodan"
-            ]
-        },
-        {
             "normalized": "helpppp",
             "count": 2,
             "examples": [
@@ -60,13 +41,6 @@
         }
     ],
     "classified_games": {
-        "Misc. Public MF Runs": [
-            {
-                "name": "asdasdsdgs",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
         "Trade": [
             {
                 "name": "n iasallr jew",
@@ -76,8 +50,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 8.75
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 10.0
     }
 }
