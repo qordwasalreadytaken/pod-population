@@ -1,78 +1,51 @@
 {
-    "timestamp": "2026-11-22T19:03:00+00:00",
+    "timestamp": "2026-11-22T19:16:00+00:00",
     "difficulty": {
-        "2": 5,
-        "1": 2
+        "2": 1,
+        "1": 1,
+        "0": 1
     },
     "mode": {
-        "1": 2,
-        "0": 5
+        "0": 3
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "1|1": 1,
-        "2|0": 4,
-        "1|0": 1
+        "2|0": 1,
+        "1|0": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 7
+            "count": 3
         }
     ],
     "top_games": [
         {
+            "name": "goblins",
+            "count": 1
+        },
+        {
             "name": "barb",
-            "count": 2
-        },
-        {
-            "name": "h",
-            "count": 1
-        },
-        {
-            "name": "qwerea",
-            "count": 1
-        },
-        {
-            "name": "ads",
             "count": 1
         },
         {
             "name": "adsd",
             "count": 1
-        },
-        {
-            "name": "qwe",
-            "count": 1
         }
     ],
     "unknown_games": [
         {
+            "normalized": "goblins",
+            "count": 2,
+            "examples": [
+                "goblins"
+            ]
+        },
+        {
             "normalized": "barb",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "barb"
-            ]
-        },
-        {
-            "normalized": "h",
-            "count": 2,
-            "examples": [
-                "h"
-            ]
-        },
-        {
-            "normalized": "qwerea",
-            "count": 2,
-            "examples": [
-                "qwerea"
-            ]
-        },
-        {
-            "normalized": "ads",
-            "count": 2,
-            "examples": [
-                "ads"
             ]
         },
         {
@@ -81,19 +54,12 @@
             "examples": [
                 "adsd"
             ]
-        },
-        {
-            "normalized": "qwe",
-            "count": 2,
-            "examples": [
-                "qwe"
-            ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 3.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 5.0
     }
 }
