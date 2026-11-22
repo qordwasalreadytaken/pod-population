@@ -1,23 +1,23 @@
 {
-    "timestamp": "2026-11-22T04:18:00+00:00",
+    "timestamp": "2026-11-22T04:32:00+00:00",
     "difficulty": {
         "2": 1,
-        "0": 3
+        "0": 1
     },
     "mode": {
-        "0": 4
+        "0": 2
     },
     "difficulty_mode": {
         "2|0": 1,
-        "0|0": 3
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 3
+            "name": "Leveling",
+            "count": 1
         },
         {
-            "name": "Leveling",
+            "name": "Other",
             "count": 1
         }
     ],
@@ -29,14 +29,6 @@
         {
             "name": "sasha",
             "count": 1
-        },
-        {
-            "name": "help me please",
-            "count": 1
-        },
-        {
-            "name": "need help pls",
-            "count": 1
         }
     ],
     "unknown_games": [
@@ -45,20 +37,6 @@
             "count": 2,
             "examples": [
                 "sasha"
-            ]
-        },
-        {
-            "normalized": "help me please",
-            "count": 2,
-            "examples": [
-                "help me please"
-            ]
-        },
-        {
-            "normalized": "need help pls",
-            "count": 2,
-            "examples": [
-                "need help pls"
             ]
         }
     ],
@@ -72,8 +50,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 9.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 4.5
     }
 }
