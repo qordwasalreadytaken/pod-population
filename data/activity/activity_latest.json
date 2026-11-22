@@ -1,16 +1,16 @@
 {
-    "timestamp": "2026-11-22T22:02:00+00:00",
+    "timestamp": "2026-11-22T22:16:00+00:00",
     "difficulty": {
         "0": 1,
-        "2": 4
+        "2": 3
     },
     "mode": {
         "1": 1,
-        "0": 4
+        "0": 3
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 4
+        "2|0": 3
     },
     "activities": [
         {
@@ -19,16 +19,16 @@
         },
         {
             "name": "Trade",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "n iasallr jew",
-            "count": 2
+            "name": "qwerea",
+            "count": 1
         },
         {
-            "name": "qwerea",
+            "name": "n iasallr jew",
             "count": 1
         },
         {
@@ -68,13 +68,13 @@
             {
                 "name": "n iasallr jew",
                 "matched": "n",
-                "count": 2
+                "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 4,
-        "public_games": 5,
+        "public_games": 4,
         "average_name_length": 7.75
     }
 }
