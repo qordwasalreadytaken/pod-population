@@ -1,31 +1,21 @@
 {
-    "timestamp": "2026-11-22T05:32:00+00:00",
+    "timestamp": "2026-11-22T05:46:00+00:00",
     "difficulty": {
-        "2": 1,
         "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 1
     },
     "difficulty_mode": {
-        "2|0": 1,
         "0|0": 1
     },
     "activities": [
-        {
-            "name": "Leveling",
-            "count": 1
-        },
         {
             "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "walk",
-            "count": 1
-        },
         {
             "name": "i needs helllpp",
             "count": 1
@@ -40,18 +30,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Leveling": [
-            {
-                "name": "walk",
-                "matched": "walk",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 9.5
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 15.0
     }
 }
