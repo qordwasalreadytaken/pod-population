@@ -1,42 +1,53 @@
 {
-    "timestamp": "2026-11-22T04:32:00+00:00",
+    "timestamp": "2026-11-22T04:46:00+00:00",
     "difficulty": {
-        "2": 1,
+        "2": 2,
         "0": 1
     },
     "mode": {
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1,
+        "2|0": 2,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Leveling",
-            "count": 1
+            "name": "Other",
+            "count": 2
         },
         {
-            "name": "Other",
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
+            "name": "fdhfh",
+            "count": 1
+        },
+        {
             "name": "walk",
             "count": 1
         },
         {
-            "name": "sasha",
+            "name": "i needs helllpp",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "sasha",
+            "normalized": "fdhfh",
             "count": 2,
             "examples": [
-                "sasha"
+                "fdhfh"
+            ]
+        },
+        {
+            "normalized": "i needs helllpp",
+            "count": 2,
+            "examples": [
+                "i needs helllpp"
             ]
         }
     ],
@@ -50,8 +61,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 4.5
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 8.0
     }
 }
