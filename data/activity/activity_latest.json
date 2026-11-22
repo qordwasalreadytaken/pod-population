@@ -1,65 +1,92 @@
 {
-    "timestamp": "2026-11-22T01:33:00+00:00",
+    "timestamp": "2026-11-22T01:46:00+00:00",
     "difficulty": {
-        "0": 2,
-        "2": 1
+        "0": 3,
+        "2": 3
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 5
     },
     "difficulty_mode": {
         "0|1": 1,
-        "2|0": 1,
-        "0|0": 1
+        "2|0": 3,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 5
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "qweea",
+            "name": "sasha",
+            "count": 2
+        },
+        {
+            "name": "qwerea",
             "count": 1
         },
         {
-            "name": "qwe",
+            "name": "walk",
             "count": 1
         },
         {
-            "name": "unbrah",
+            "name": "barb",
+            "count": 1
+        },
+        {
+            "name": "umbrah",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "qweea",
-            "count": 2,
+            "normalized": "sasha",
+            "count": 4,
             "examples": [
-                "qweea"
+                "sasha"
             ]
         },
         {
-            "normalized": "qwe",
+            "normalized": "qwerea",
             "count": 2,
             "examples": [
-                "qwe"
+                "qwerea"
             ]
         },
         {
-            "normalized": "unbrah",
+            "normalized": "barb",
             "count": 2,
             "examples": [
-                "unbrah"
+                "barb"
+            ]
+        },
+        {
+            "normalized": "umbrah",
+            "count": 2,
+            "examples": [
+                "umbrah"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Leveling": [
+            {
+                "name": "walk",
+                "matched": "walk",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 4.67
+        "unique_names": 5,
+        "public_games": 6,
+        "average_name_length": 5.0
     }
 }
