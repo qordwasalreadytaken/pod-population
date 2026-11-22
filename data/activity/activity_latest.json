@@ -1,42 +1,42 @@
 {
-    "timestamp": "2026-11-22T09:16:00+00:00",
+    "timestamp": "2026-11-22T09:31:00+00:00",
     "difficulty": {
         "2": 1,
-        "0": 2
+        "0": 1
     },
     "mode": {
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
         "2|0": 1,
-        "0|0": 2
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 2
+            "name": "Trade",
+            "count": 1
         },
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "helpppp",
-            "count": 2
+            "name": "n iasallr jew",
+            "count": 1
         },
         {
-            "name": "n iasallr jew",
+            "name": "brb",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "helpppp",
-            "count": 4,
+            "normalized": "brb",
+            "count": 2,
             "examples": [
-                "helpppp"
+                "brb"
             ]
         }
     ],
@@ -51,7 +51,7 @@
     },
     "interesting": {
         "unique_names": 2,
-        "public_games": 3,
-        "average_name_length": 10.0
+        "public_games": 2,
+        "average_name_length": 8.0
     }
 }
