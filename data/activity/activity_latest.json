@@ -1,50 +1,40 @@
 {
-    "timestamp": "2026-11-22T20:31:00+00:00",
+    "timestamp": "2026-11-22T20:46:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "2": 3
     },
     "mode": {
         "0": 3
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "0|0": 1
+        "2|0": 3
     },
     "activities": [
         {
             "name": "Trade",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "n iasallr jew",
-            "count": 1
+            "count": 2
         },
         {
-            "name": "goblins",
-            "count": 1
-        },
-        {
-            "name": "asdd",
+            "name": "adsdd",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "goblins",
+            "normalized": "adsdd",
             "count": 2,
             "examples": [
-                "goblins"
+                "adsdd"
             ]
         }
     ],
@@ -53,20 +43,13 @@
             {
                 "name": "n iasallr jew",
                 "matched": "n",
-                "count": 1
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asdd",
-                "matched": "asd",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
+        "unique_names": 2,
         "public_games": 3,
-        "average_name_length": 8.0
+        "average_name_length": 9.0
     }
 }
