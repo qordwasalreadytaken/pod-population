@@ -1,20 +1,24 @@
 {
-    "timestamp": "2026-11-22T06:23:00+00:00",
+    "timestamp": "2026-11-22T06:36:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
-    },
-    "mode": {
+        "2": 1,
         "0": 3
     },
+    "mode": {
+        "0": 4
+    },
     "difficulty_mode": {
-        "2|0": 2,
-        "0|0": 1
+        "2|0": 1,
+        "0|0": 3
     },
     "activities": [
         {
             "name": "Other",
             "count": 3
+        },
+        {
+            "name": "Leveling",
+            "count": 1
         }
     ],
     "top_games": [
@@ -23,11 +27,15 @@
             "count": 1
         },
         {
-            "name": "qwe",
+            "name": "1 act",
             "count": 1
         },
         {
-            "name": "i needs helllpp",
+            "name": "helpppp",
+            "count": 1
+        },
+        {
+            "name": "umbrah",
             "count": 1
         }
     ],
@@ -40,24 +48,32 @@
             ]
         },
         {
-            "normalized": "qwe",
+            "normalized": "helpppp",
             "count": 2,
             "examples": [
-                "qwe"
+                "helpppp"
             ]
         },
         {
-            "normalized": "i needs helllpp",
+            "normalized": "umbrah",
             "count": 2,
             "examples": [
-                "i needs helllpp"
+                "umbrah"
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Leveling": [
+            {
+                "name": "1 act",
+                "matched": "act",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 8.67
+        "unique_names": 4,
+        "public_games": 4,
+        "average_name_length": 6.5
     }
 }
