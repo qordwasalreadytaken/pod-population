@@ -1,41 +1,43 @@
 {
-    "timestamp": "2026-11-23T21:16:00+00:00",
+    "timestamp": "2026-11-23T21:31:00+00:00",
     "difficulty": {
+        "1": 2,
         "2": 3
     },
     "mode": {
         "1": 1,
-        "0": 2
+        "0": 4
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "2|0": 2
+        "1|1": 1,
+        "2|0": 3,
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
-        },
-        {
-            "name": "Leveling",
-            "count": 1
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
+        {
+            "name": "asd",
+            "count": 2
+        },
         {
             "name": "qwerea",
             "count": 1
         },
         {
-            "name": "hell andy 7",
+            "name": "gs",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "fd",
             "count": 1
         }
     ],
@@ -46,27 +48,34 @@
             "examples": [
                 "qwerea"
             ]
+        },
+        {
+            "normalized": "gs",
+            "count": 2,
+            "examples": [
+                "gs"
+            ]
+        },
+        {
+            "normalized": "fd",
+            "count": 2,
+            "examples": [
+                "fd"
+            ]
         }
     ],
     "classified_games": {
-        "Leveling": [
-            {
-                "name": "hell andy 7",
-                "matched": "andy",
-                "count": 1
-            }
-        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
                 "matched": "asd",
-                "count": 1
+                "count": 2
             }
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 6.67
+        "unique_names": 4,
+        "public_games": 5,
+        "average_name_length": 3.25
     }
 }
