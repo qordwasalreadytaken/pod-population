@@ -1,21 +1,25 @@
 {
-    "timestamp": "2026-11-23T10:32:00+00:00",
+    "timestamp": "2026-11-23T10:46:00+00:00",
     "difficulty": {
-        "1": 1
+        "1": 2
     },
     "mode": {
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
-        "1|0": 1
+        "1|0": 2
     },
     "activities": [
         {
             "name": "Baal",
-            "count": 1
+            "count": 2
         }
     ],
     "top_games": [
+        {
+            "name": "nm baal 10",
+            "count": 1
+        },
         {
             "name": "nm baal 9",
             "count": 1
@@ -25,6 +29,11 @@
     "classified_games": {
         "Baal": [
             {
+                "name": "nm baal 10",
+                "matched": "baal",
+                "count": 1
+            },
+            {
                 "name": "nm baal 9",
                 "matched": "baal",
                 "count": 1
@@ -32,8 +41,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 9.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 9.5
     }
 }
