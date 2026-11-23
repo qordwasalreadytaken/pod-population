@@ -1,20 +1,22 @@
 {
-    "timestamp": "2026-11-23T17:46:00+00:00",
+    "timestamp": "2026-11-23T18:04:00+00:00",
     "difficulty": {
-        "1": 2
+        "1": 2,
+        "2": 1
     },
     "mode": {
         "1": 1,
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
         "1|1": 1,
+        "2|0": 1,
         "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -24,6 +26,10 @@
     "top_games": [
         {
             "name": "qwerea",
+            "count": 1
+        },
+        {
+            "name": "hell a go",
             "count": 1
         },
         {
@@ -38,6 +44,13 @@
             "examples": [
                 "qwerea"
             ]
+        },
+        {
+            "normalized": "hell a go",
+            "count": 2,
+            "examples": [
+                "hell a go"
+            ]
         }
     ],
     "classified_games": {
@@ -50,8 +63,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 2,
-        "public_games": 2,
-        "average_name_length": 6.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 7.0
     }
 }
