@@ -1,21 +1,37 @@
 {
-    "timestamp": "2026-11-23T19:46:00+00:00",
+    "timestamp": "2026-11-23T20:03:00+00:00",
     "difficulty": {
-        "2": 1
+        "2": 3
     },
     "mode": {
-        "0": 1
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 1
+        "2|0": 3
     },
     "activities": [
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
+            "name": "Leveling",
+            "count": 1
+        },
         {
             "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
+        {
+            "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "hell andy 5",
+            "count": 1
+        },
         {
             "name": "shopping",
             "count": 1
@@ -30,10 +46,25 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
+        "Leveling": [
+            {
+                "name": "hell andy 5",
+                "matched": "andy",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 8.0
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 7.33
     }
 }
