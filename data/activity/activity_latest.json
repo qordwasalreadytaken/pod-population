@@ -1,23 +1,33 @@
 {
-    "timestamp": "2026-11-23T08:34:00+00:00",
+    "timestamp": "2026-11-23T08:46:00+00:00",
     "difficulty": {
-        "1": 1
+        "1": 2
     },
     "mode": {
-        "1": 1
+        "1": 1,
+        "0": 1
     },
     "difficulty_mode": {
-        "1|1": 1
+        "1|1": 1,
+        "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
+            "count": 1
+        },
+        {
+            "name": "Baal",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "qwerea",
+            "count": 1
+        },
+        {
+            "name": "nm baal 3",
             "count": 1
         }
     ],
@@ -30,10 +40,18 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Baal": [
+            {
+                "name": "nm baal 3",
+                "matched": "baal",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 6.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 7.5
     }
 }
