@@ -1,16 +1,17 @@
 {
-    "timestamp": "2026-11-23T20:16:00+00:00",
+    "timestamp": "2026-11-23T20:32:00+00:00",
     "difficulty": {
-        "1": 1,
-        "2": 2
+        "2": 2,
+        "1": 1
     },
     "mode": {
-        "1": 1,
-        "0": 2
+        "1": 2,
+        "0": 1
     },
     "difficulty_mode": {
+        "2|1": 1,
         "1|1": 1,
-        "2|0": 2
+        "2|0": 1
     },
     "activities": [
         {
@@ -25,30 +26,19 @@
     "top_games": [
         {
             "name": "qwerea",
-            "count": 1
+            "count": 2
         },
         {
             "name": "asd",
-            "count": 1
-        },
-        {
-            "name": "shopping",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "qwerea",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "qwerea"
-            ]
-        },
-        {
-            "normalized": "shopping",
-            "count": 2,
-            "examples": [
-                "shopping"
             ]
         }
     ],
@@ -62,8 +52,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
+        "unique_names": 2,
         "public_games": 3,
-        "average_name_length": 5.67
+        "average_name_length": 4.5
     }
 }
