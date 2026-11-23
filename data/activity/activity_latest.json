@@ -1,18 +1,17 @@
 {
-    "timestamp": "2026-11-23T00:09:00+00:00",
+    "timestamp": "2026-11-23T00:40:00+00:00",
     "difficulty": {
-        "1": 2,
-        "2": 2,
+        "1": 3,
+        "2": 1,
         "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 4
+        "1": 3,
+        "0": 2
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "2|0": 2,
-        "1|0": 1,
+        "1|1": 3,
+        "2|0": 1,
         "0|0": 1
     },
     "activities": [
@@ -28,18 +27,10 @@
     "top_games": [
         {
             "name": "qwerea",
-            "count": 1
+            "count": 3
         },
         {
-            "name": "just coooolin",
-            "count": 1
-        },
-        {
-            "name": "rodan",
-            "count": 1
-        },
-        {
-            "name": "41341",
+            "name": "mothra",
             "count": 1
         },
         {
@@ -50,30 +41,16 @@
     "unknown_games": [
         {
             "normalized": "qwerea",
-            "count": 2,
+            "count": 6,
             "examples": [
                 "qwerea"
             ]
         },
         {
-            "normalized": "just coooolin",
+            "normalized": "mothra",
             "count": 2,
             "examples": [
-                "just coooolin"
-            ]
-        },
-        {
-            "normalized": "rodan",
-            "count": 2,
-            "examples": [
-                "rodan"
-            ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "41341"
+                "mothra"
             ]
         }
     ],
@@ -87,8 +64,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 5,
+        "unique_names": 3,
         "public_games": 5,
-        "average_name_length": 6.4
+        "average_name_length": 5.0
     }
 }
