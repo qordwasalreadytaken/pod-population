@@ -1,21 +1,21 @@
 {
-    "timestamp": "2026-11-24T06:26:00+00:00",
+    "timestamp": "2026-11-24T06:40:00+00:00",
     "difficulty": {
-        "2": 3
+        "2": 2
     },
     "mode": {
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 3
+        "2|0": 2
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 2
+            "name": "Trade",
+            "count": 1
         },
         {
-            "name": "Trade",
+            "name": "Other",
             "count": 1
         }
     ],
@@ -25,22 +25,11 @@
             "count": 1
         },
         {
-            "name": "grow",
-            "count": 1
-        },
-        {
             "name": "level grind 2",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "grow",
-            "count": 2,
-            "examples": [
-                "grow"
-            ]
-        },
         {
             "normalized": "level grind #",
             "count": 2,
@@ -59,8 +48,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 10.67
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 14.0
     }
 }
