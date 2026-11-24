@@ -1,18 +1,16 @@
 {
-    "timestamp": "2026-11-24T02:05:00+00:00",
+    "timestamp": "2026-11-24T02:22:00+00:00",
     "difficulty": {
-        "1": 1,
-        "0": 1,
-        "2": 2
+        "0": 2,
+        "2": 3
     },
     "mode": {
         "1": 2,
-        "0": 2
+        "0": 3
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "0|1": 1,
-        "2|0": 2
+        "0|1": 2,
+        "2|0": 3
     },
     "activities": [
         {
@@ -21,7 +19,7 @@
         },
         {
             "name": "Leveling",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Misc. Public MF Runs",
@@ -30,11 +28,15 @@
     ],
     "top_games": [
         {
-            "name": "qwerea",
+            "name": "tombs",
             "count": 2
         },
         {
-            "name": "tombs",
+            "name": "gg",
+            "count": 1
+        },
+        {
+            "name": "qwerea",
             "count": 1
         },
         {
@@ -44,8 +46,15 @@
     ],
     "unknown_games": [
         {
+            "normalized": "gg",
+            "count": 2,
+            "examples": [
+                "gg"
+            ]
+        },
+        {
             "normalized": "qwerea",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "qwerea"
             ]
@@ -56,7 +65,7 @@
             {
                 "name": "tombs",
                 "matched": "tomb",
-                "count": 1
+                "count": 2
             }
         ],
         "Misc. Public MF Runs": [
@@ -68,8 +77,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 4,
-        "average_name_length": 4.67
+        "unique_names": 4,
+        "public_games": 5,
+        "average_name_length": 4.0
     }
 }
