@@ -2845,6 +2845,13 @@
         ]
     },
     {
+        "normalized": "grow",
+        "count": 12,
+        "examples": [
+            "grow"
+        ]
+    },
+    {
         "normalized": "qqqqwww",
         "count": 12,
         "examples": [
@@ -3276,13 +3283,6 @@
         "count": 10,
         "examples": [
             "aws"
-        ]
-    },
-    {
-        "normalized": "grow",
-        "count": 10,
-        "examples": [
-            "grow"
         ]
     },
     {
@@ -7542,6 +7542,13 @@
         "count": 4,
         "examples": [
             "caralho"
+        ]
+    },
+    {
+        "normalized": "level grind #",
+        "count": 4,
+        "examples": [
+            "level grind 1"
         ]
     },
     {
@@ -12876,13 +12883,6 @@
         "count": 2,
         "examples": [
             "beg"
-        ]
-    },
-    {
-        "normalized": "level grind #",
-        "count": 2,
-        "examples": [
-            "level grind 1"
         ]
     }
 ]
