@@ -1,19 +1,18 @@
 {
-    "timestamp": "2026-11-24T16:19:00+00:00",
+    "timestamp": "2026-11-24T16:32:00+00:00",
     "difficulty": {
-        "2": 3,
-        "1": 1,
-        "0": 1
+        "2": 4,
+        "1": 2
     },
     "mode": {
-        "1": 3,
-        "0": 2
+        "1": 2,
+        "0": 4
     },
     "difficulty_mode": {
         "2|1": 1,
         "1|1": 1,
-        "0|1": 1,
-        "2|0": 2
+        "2|0": 3,
+        "1|0": 1
     },
     "activities": [
         {
@@ -21,17 +20,17 @@
             "count": 3
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 1
+            "name": "Maps",
+            "count": 2
         },
         {
-            "name": "Maps",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "qwerea",
+            "name": "mappin",
             "count": 2
         },
         {
@@ -39,49 +38,60 @@
             "count": 1
         },
         {
+            "name": "qwerea",
+            "count": 1
+        },
+        {
             "name": "asd",
             "count": 1
         },
         {
-            "name": "mappin",
+            "name": "shweta",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "qwerea",
-            "count": 4,
-            "examples": [
-                "qwerea"
-            ]
-        },
         {
             "normalized": "h",
             "count": 2,
             "examples": [
                 "h"
             ]
+        },
+        {
+            "normalized": "qwerea",
+            "count": 2,
+            "examples": [
+                "qwerea"
+            ]
+        },
+        {
+            "normalized": "shweta",
+            "count": 2,
+            "examples": [
+                "shweta"
+            ]
         }
     ],
     "classified_games": {
+        "Maps": [
+            {
+                "name": "mappin",
+                "matched": "map",
+                "count": 2
+            }
+        ],
         "Misc. Public MF Runs": [
             {
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
             }
-        ],
-        "Maps": [
-            {
-                "name": "mappin",
-                "matched": "map",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 5,
-        "average_name_length": 4.0
+        "unique_names": 5,
+        "public_games": 6,
+        "average_name_length": 4.4
     }
 }
