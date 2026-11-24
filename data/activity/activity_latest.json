@@ -1,21 +1,23 @@
 {
-    "timestamp": "2026-11-24T01:46:00+00:00",
+    "timestamp": "2026-11-24T02:05:00+00:00",
     "difficulty": {
         "1": 1,
+        "0": 1,
         "2": 2
     },
     "mode": {
-        "1": 1,
+        "1": 2,
         "0": 2
     },
     "difficulty_mode": {
         "1|1": 1,
+        "0|1": 1,
         "2|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 1
+            "count": 2
         },
         {
             "name": "Leveling",
@@ -29,7 +31,7 @@
     "top_games": [
         {
             "name": "qwerea",
-            "count": 1
+            "count": 2
         },
         {
             "name": "tombs",
@@ -43,7 +45,7 @@
     "unknown_games": [
         {
             "normalized": "qwerea",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "qwerea"
             ]
@@ -67,7 +69,7 @@
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 3,
+        "public_games": 4,
         "average_name_length": 4.67
     }
 }
