@@ -1,48 +1,35 @@
 {
-    "timestamp": "2026-11-24T16:32:00+00:00",
+    "timestamp": "2026-11-24T16:46:00+00:00",
     "difficulty": {
-        "2": 4,
-        "1": 2
+        "2": 2,
+        "1": 1
     },
     "mode": {
-        "1": 2,
-        "0": 4
+        "1": 1,
+        "0": 2
     },
     "difficulty_mode": {
         "2|1": 1,
-        "1|1": 1,
-        "2|0": 3,
+        "2|0": 1,
         "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
-        },
-        {
-            "name": "Maps",
             "count": 2
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Maps",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "mappin",
-            "count": 2
-        },
-        {
             "name": "h",
             "count": 1
         },
         {
-            "name": "qwerea",
-            "count": 1
-        },
-        {
-            "name": "asd",
+            "name": "mappin",
             "count": 1
         },
         {
@@ -59,13 +46,6 @@
             ]
         },
         {
-            "normalized": "qwerea",
-            "count": 2,
-            "examples": [
-                "qwerea"
-            ]
-        },
-        {
             "normalized": "shweta",
             "count": 2,
             "examples": [
@@ -78,20 +58,13 @@
             {
                 "name": "mappin",
                 "matched": "map",
-                "count": 2
-            }
-        ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 5,
-        "public_games": 6,
-        "average_name_length": 4.4
+        "unique_names": 3,
+        "public_games": 3,
+        "average_name_length": 4.33
     }
 }
