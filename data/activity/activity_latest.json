@@ -1,23 +1,27 @@
 {
-    "timestamp": "2026-11-24T15:03:00+00:00",
+    "timestamp": "2026-11-24T15:17:00+00:00",
     "difficulty": {
-        "2": 4
+        "2": 5
     },
     "mode": {
-        "1": 1,
+        "1": 2,
         "0": 3
     },
     "difficulty_mode": {
-        "2|1": 1,
+        "2|1": 2,
         "2|0": 3
     },
     "activities": [
         {
-            "name": "Maps",
+            "name": "Other",
             "count": 2
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
+            "count": 1
+        },
+        {
+            "name": "Maps",
             "count": 1
         },
         {
@@ -27,11 +31,15 @@
     ],
     "top_games": [
         {
-            "name": "mappin",
+            "name": "h",
             "count": 2
         },
         {
-            "name": "h",
+            "name": "asd",
+            "count": 1
+        },
+        {
+            "name": "mappin",
             "count": 1
         },
         {
@@ -42,18 +50,25 @@
     "unknown_games": [
         {
             "normalized": "h",
-            "count": 2,
+            "count": 4,
             "examples": [
                 "h"
             ]
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "asd",
+                "matched": "asd",
+                "count": 1
+            }
+        ],
         "Maps": [
             {
                 "name": "mappin",
                 "matched": "map",
-                "count": 2
+                "count": 1
             }
         ],
         "Trade": [
@@ -65,8 +80,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 4,
-        "average_name_length": 7.33
+        "unique_names": 4,
+        "public_games": 5,
+        "average_name_length": 6.25
     }
 }
