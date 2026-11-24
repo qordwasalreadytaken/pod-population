@@ -1,74 +1,27 @@
 {
-    "timestamp": "2026-11-24T17:31:00+00:00",
+    "timestamp": "2026-11-24T17:46:00+00:00",
     "difficulty": {
-        "2": 3,
-        "0": 1,
         "1": 1
     },
     "mode": {
-        "1": 2,
-        "0": 3
+        "0": 1
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "0|1": 1,
-        "2|0": 2,
         "1|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 4
-        },
-        {
-            "name": "Maps",
             "count": 1
         }
     ],
     "top_games": [
-        {
-            "name": "h",
-            "count": 1
-        },
-        {
-            "name": "qwerea",
-            "count": 1
-        },
-        {
-            "name": "hmmm",
-            "count": 1
-        },
-        {
-            "name": "mappin",
-            "count": 1
-        },
         {
             "name": "shweta",
             "count": 1
         }
     ],
     "unknown_games": [
-        {
-            "normalized": "h",
-            "count": 2,
-            "examples": [
-                "h"
-            ]
-        },
-        {
-            "normalized": "qwerea",
-            "count": 2,
-            "examples": [
-                "qwerea"
-            ]
-        },
-        {
-            "normalized": "hmmm",
-            "count": 2,
-            "examples": [
-                "hmmm"
-            ]
-        },
         {
             "normalized": "shweta",
             "count": 2,
@@ -77,18 +30,10 @@
             ]
         }
     ],
-    "classified_games": {
-        "Maps": [
-            {
-                "name": "mappin",
-                "matched": "map",
-                "count": 1
-            }
-        ]
-    },
+    "classified_games": {},
     "interesting": {
-        "unique_names": 5,
-        "public_games": 5,
-        "average_name_length": 4.6
+        "unique_names": 1,
+        "public_games": 1,
+        "average_name_length": 6.0
     }
 }
