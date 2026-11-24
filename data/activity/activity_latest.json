@@ -1,21 +1,25 @@
 {
-    "timestamp": "2026-11-24T03:46:00+00:00",
+    "timestamp": "2026-11-24T04:04:00+00:00",
     "difficulty": {
-        "0": 3,
-        "2": 1
+        "0": 2,
+        "2": 2
     },
     "mode": {
-        "1": 3,
-        "0": 1
+        "1": 2,
+        "0": 2
     },
     "difficulty_mode": {
-        "0|1": 3,
-        "2|0": 1
+        "0|1": 2,
+        "2|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
+        },
+        {
+            "name": "Trade",
+            "count": 1
         },
         {
             "name": "Leveling",
@@ -24,15 +28,15 @@
     ],
     "top_games": [
         {
+            "name": "qwerea",
+            "count": 1
+        },
+        {
             "name": "bhh",
             "count": 1
         },
         {
-            "name": "beg",
-            "count": 1
-        },
-        {
-            "name": "qwerea",
+            "name": "n 5-5 facets",
             "count": 1
         },
         {
@@ -42,28 +46,28 @@
     ],
     "unknown_games": [
         {
-            "normalized": "bhh",
-            "count": 2,
-            "examples": [
-                "bhh"
-            ]
-        },
-        {
-            "normalized": "beg",
-            "count": 2,
-            "examples": [
-                "beg"
-            ]
-        },
-        {
             "normalized": "qwerea",
             "count": 2,
             "examples": [
                 "qwerea"
             ]
+        },
+        {
+            "normalized": "bhh",
+            "count": 2,
+            "examples": [
+                "bhh"
+            ]
         }
     ],
     "classified_games": {
+        "Trade": [
+            {
+                "name": "n 5-5 facets",
+                "matched": "n",
+                "count": 1
+            }
+        ],
         "Leveling": [
             {
                 "name": "tombs",
@@ -75,6 +79,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 4.25
+        "average_name_length": 6.5
     }
 }
