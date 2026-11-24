@@ -1,71 +1,73 @@
 {
-    "timestamp": "2026-11-24T14:03:00+00:00",
+    "timestamp": "2026-11-24T14:17:00+00:00",
     "difficulty": {
         "2": 3,
-        "1": 1
+        "0": 1
     },
     "mode": {
-        "1": 2,
-        "0": 2
+        "0": 4
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "1|1": 1,
-        "2|0": 2
+        "2|0": 3,
+        "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 2
+            "name": "Trade",
+            "count": 1
         },
         {
-            "name": "Cows",
+            "name": "Maps",
             "count": 1
         },
         {
             "name": "Misc. Public MF Runs",
             "count": 1
+        },
+        {
+            "name": "Other",
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "h",
+            "name": "n iasallres jew",
             "count": 1
         },
         {
-            "name": "qwerea",
-            "count": 1
-        },
-        {
-            "name": "how now cow 5",
+            "name": "mappin",
             "count": 1
         },
         {
             "name": "asd",
             "count": 1
+        },
+        {
+            "name": "c1x",
+            "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "h",
+            "normalized": "c#x",
             "count": 2,
             "examples": [
-                "h"
-            ]
-        },
-        {
-            "normalized": "qwerea",
-            "count": 2,
-            "examples": [
-                "qwerea"
+                "c1x"
             ]
         }
     ],
     "classified_games": {
-        "Cows": [
+        "Trade": [
             {
-                "name": "how now cow 5",
-                "matched": "cow",
+                "name": "n iasallres jew",
+                "matched": "n",
+                "count": 1
+            }
+        ],
+        "Maps": [
+            {
+                "name": "mappin",
+                "matched": "map",
                 "count": 1
             }
         ],
@@ -80,6 +82,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 5.75
+        "average_name_length": 6.75
     }
 }
