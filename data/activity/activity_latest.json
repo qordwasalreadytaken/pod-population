@@ -1,25 +1,23 @@
 {
-    "timestamp": "2026-11-25T12:05:00+00:00",
+    "timestamp": "2026-11-25T12:24:00+00:00",
     "difficulty": {
         "2": 4
     },
     "mode": {
-        "0": 4
+        "1": 1,
+        "0": 3
     },
     "difficulty_mode": {
-        "2|0": 4
+        "2|1": 1,
+        "2|0": 3
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 1
-        },
-        {
-            "name": "Misc. Public MF Runs",
-            "count": 1
-        },
-        {
             "name": "Other",
+            "count": 2
+        },
+        {
+            "name": "Trade",
             "count": 1
         },
         {
@@ -29,11 +27,11 @@
     ],
     "top_games": [
         {
-            "name": "n iasallr jew",
+            "name": "qwerea",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "n iasallr jew",
             "count": 1
         },
         {
@@ -46,6 +44,13 @@
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "qwerea",
+            "count": 2,
+            "examples": [
+                "qwerea"
+            ]
+        },
         {
             "normalized": "dadsd",
             "count": 2,
@@ -62,13 +67,6 @@
                 "count": 1
             }
         ],
-        "Misc. Public MF Runs": [
-            {
-                "name": "asd",
-                "matched": "asd",
-                "count": 1
-            }
-        ],
         "Cows": [
             {
                 "name": "cow 6",
@@ -80,6 +78,6 @@
     "interesting": {
         "unique_names": 4,
         "public_games": 4,
-        "average_name_length": 6.5
+        "average_name_length": 7.25
     }
 }
