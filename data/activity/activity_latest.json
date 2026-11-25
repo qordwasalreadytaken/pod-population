@@ -1,26 +1,26 @@
 {
-    "timestamp": "2026-11-25T20:03:00+00:00",
+    "timestamp": "2026-11-25T20:17:00+00:00",
     "difficulty": {
-        "2": 6,
-        "1": 1
+        "2": 5,
+        "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 6
+        "1": 2,
+        "0": 4
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 5,
-        "1|0": 1
+        "0|1": 1,
+        "2|0": 4
     },
     "activities": [
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 3
         },
         {
-            "name": "Misc. Public MF Runs",
-            "count": 3
+            "name": "Other",
+            "count": 2
         },
         {
             "name": "Maps",
@@ -29,23 +29,23 @@
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 2
-        },
-        {
             "name": "h",
             "count": 1
         },
         {
-            "name": "sfds",
-            "count": 1
-        },
-        {
-            "name": "asadd",
+            "name": "qwerea",
             "count": 1
         },
         {
             "name": "mmk",
+            "count": 1
+        },
+        {
+            "name": "adasd",
+            "count": 1
+        },
+        {
+            "name": "asd",
             "count": 1
         },
         {
@@ -62,30 +62,28 @@
             ]
         },
         {
-            "normalized": "sfds",
+            "normalized": "qwerea",
             "count": 2,
             "examples": [
-                "sfds"
-            ]
-        },
-        {
-            "normalized": "asadd",
-            "count": 2,
-            "examples": [
-                "asadd"
+                "qwerea"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
-                "matched": "asd",
-                "count": 2
-            },
-            {
                 "name": "mmk",
                 "matched": "mmk",
+                "count": 1
+            },
+            {
+                "name": "adasd",
+                "matched": "asd",
+                "count": 1
+            },
+            {
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             }
         ],
@@ -99,7 +97,7 @@
     },
     "interesting": {
         "unique_names": 6,
-        "public_games": 7,
-        "average_name_length": 4.0
+        "public_games": 6,
+        "average_name_length": 4.33
     }
 }
