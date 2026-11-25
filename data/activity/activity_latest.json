@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-25T21:17:00+00:00",
+    "timestamp": "2026-11-25T21:31:00+00:00",
     "difficulty": {
         "2": 2
     },
@@ -11,30 +11,30 @@
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         },
         {
-            "name": "Other",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
+            "name": "grow 1",
             "count": 1
         },
         {
-            "name": "sadsd",
+            "name": "asd",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "sadsd",
+            "normalized": "grow #",
             "count": 2,
             "examples": [
-                "sadsd"
+                "grow 1"
             ]
         }
     ],
@@ -50,6 +50,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 4.0
+        "average_name_length": 4.5
     }
 }
