@@ -45,7 +45,7 @@
     },
     {
         "normalized": "qwerea",
-        "count": 504,
+        "count": 506,
         "examples": [
             "qwerea"
         ]
@@ -617,6 +617,14 @@
         ]
     },
     {
+        "normalized": "grow #",
+        "count": 44,
+        "examples": [
+            "grow 1",
+            "grow 2"
+        ]
+    },
+    {
         "normalized": "server",
         "count": 44,
         "examples": [
@@ -662,14 +670,6 @@
         "count": 42,
         "examples": [
             "nar"
-        ]
-    },
-    {
-        "normalized": "grow #",
-        "count": 42,
-        "examples": [
-            "grow 1",
-            "grow 2"
         ]
     },
     {
@@ -13006,6 +13006,13 @@
         "count": 2,
         "examples": [
             "sfds"
+        ]
+    },
+    {
+        "normalized": "+ita #",
+        "count": 2,
+        "examples": [
+            "+ita 01"
         ]
     }
 ]
