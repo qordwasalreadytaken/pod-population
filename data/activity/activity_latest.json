@@ -1,16 +1,15 @@
 {
-    "timestamp": "2026-11-26T16:03:00+00:00",
+    "timestamp": "2026-11-26T16:19:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 2
+        "2": 3,
+        "0": 1
     },
     "mode": {
         "1": 3,
         "0": 1
     },
     "difficulty_mode": {
-        "2|1": 2,
-        "0|1": 1,
+        "2|1": 3,
         "0|0": 1
     },
     "activities": [
@@ -22,11 +21,7 @@
     "top_games": [
         {
             "name": "h",
-            "count": 2
-        },
-        {
-            "name": "gg",
-            "count": 1
+            "count": 3
         },
         {
             "name": "merlin",
@@ -36,16 +31,9 @@
     "unknown_games": [
         {
             "normalized": "h",
-            "count": 4,
+            "count": 6,
             "examples": [
                 "h"
-            ]
-        },
-        {
-            "normalized": "gg",
-            "count": 2,
-            "examples": [
-                "gg"
             ]
         },
         {
@@ -58,8 +46,8 @@
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 3,
+        "unique_names": 2,
         "public_games": 4,
-        "average_name_length": 3.0
+        "average_name_length": 3.5
     }
 }
