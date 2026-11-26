@@ -1,21 +1,25 @@
 {
-    "timestamp": "2026-11-26T03:03:00+00:00",
+    "timestamp": "2026-11-26T03:20:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "2": 1,
+        "0": 2
     },
     "mode": {
-        "1": 2,
-        "0": 1
+        "1": 1,
+        "0": 2
     },
     "difficulty_mode": {
-        "2|1": 2,
-        "0|0": 1
+        "2|1": 1,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 1
         },
         {
             "name": "Trade",
@@ -25,7 +29,11 @@
     "top_games": [
         {
             "name": "h",
-            "count": 2
+            "count": 1
+        },
+        {
+            "name": "aaa",
+            "count": 1
         },
         {
             "name": "n good nectorch",
@@ -35,24 +43,31 @@
     "unknown_games": [
         {
             "normalized": "h",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "h"
             ]
         }
     ],
     "classified_games": {
+        "Misc. Public MF Runs": [
+            {
+                "name": "aaa",
+                "matched": "aaa",
+                "count": 1
+            }
+        ],
         "Trade": [
             {
                 "name": "n good nectorch",
-                "matched": "torch",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 2,
+        "unique_names": 3,
         "public_games": 3,
-        "average_name_length": 8.0
+        "average_name_length": 6.33
     }
 }
