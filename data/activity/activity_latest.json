@@ -1,33 +1,33 @@
 {
-    "timestamp": "2026-11-26T06:26:00+00:00",
+    "timestamp": "2026-11-26T06:41:00+00:00",
     "difficulty": {
         "2": 1,
-        "0": 2
+        "0": 4
     },
     "mode": {
-        "0": 3
+        "0": 5
     },
     "difficulty_mode": {
         "2|0": 1,
-        "0|0": 2
+        "0|0": 4
     },
     "activities": [
         {
-            "name": "Trade",
-            "count": 2
+            "name": "Other",
+            "count": 3
         },
         {
-            "name": "Other",
-            "count": 1
+            "name": "Trade",
+            "count": 2
         }
     ],
     "top_games": [
         {
-            "name": "n iasallres jew",
-            "count": 1
+            "name": "shweta",
+            "count": 3
         },
         {
-            "name": "shweta",
+            "name": "n iasallres jew",
             "count": 1
         },
         {
@@ -38,7 +38,7 @@
     "unknown_games": [
         {
             "normalized": "shweta",
-            "count": 2,
+            "count": 6,
             "examples": [
                 "shweta"
             ]
@@ -53,14 +53,14 @@
             },
             {
                 "name": "n good nectorch",
-                "matched": "n",
+                "matched": "torch",
                 "count": 1
             }
         ]
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 3,
+        "public_games": 5,
         "average_name_length": 12.0
     }
 }
