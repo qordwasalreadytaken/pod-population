@@ -1,39 +1,58 @@
 {
-    "timestamp": "2026-11-26T22:46:00+00:00",
+    "timestamp": "2026-11-26T23:03:00+00:00",
     "difficulty": {
+        "0": 1,
         "2": 1
     },
     "mode": {
+        "1": 1,
         "0": 1
     },
     "difficulty_mode": {
+        "0|1": 1,
         "2|0": 1
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
+            "count": 1
+        },
+        {
+            "name": "Trade",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
+            "name": "qwerea",
+            "count": 1
+        },
+        {
+            "name": "n 3os 15ed wire",
             "count": 1
         }
     ],
-    "unknown_games": [],
+    "unknown_games": [
+        {
+            "normalized": "qwerea",
+            "count": 2,
+            "examples": [
+                "qwerea"
+            ]
+        }
+    ],
     "classified_games": {
-        "Misc. Public MF Runs": [
+        "Trade": [
             {
-                "name": "asd",
-                "matched": "asd",
+                "name": "n 3os 15ed wire",
+                "matched": "n",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 3.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 10.5
     }
 }
