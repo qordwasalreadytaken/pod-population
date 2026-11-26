@@ -1,16 +1,13 @@
 {
-    "timestamp": "2026-11-26T09:03:00+00:00",
+    "timestamp": "2026-11-26T09:19:00+00:00",
     "difficulty": {
-        "1": 1,
-        "2": 1
+        "2": 2
     },
     "mode": {
-        "1": 1,
-        "0": 1
+        "0": 2
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "2|0": 1
+        "2|0": 2
     },
     "activities": [
         {
@@ -20,7 +17,7 @@
     ],
     "top_games": [
         {
-            "name": "qwerea",
+            "name": "hellmode",
             "count": 1
         },
         {
@@ -30,10 +27,10 @@
     ],
     "unknown_games": [
         {
-            "normalized": "qwerea",
+            "normalized": "hellmode",
             "count": 2,
             "examples": [
-                "qwerea"
+                "hellmode"
             ]
         },
         {
@@ -48,6 +45,6 @@
     "interesting": {
         "unique_names": 2,
         "public_games": 2,
-        "average_name_length": 6.0
+        "average_name_length": 7.0
     }
 }
