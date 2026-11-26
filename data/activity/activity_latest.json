@@ -1,27 +1,27 @@
 {
-    "timestamp": "2026-11-26T07:03:00+00:00",
+    "timestamp": "2026-11-26T07:19:00+00:00",
     "difficulty": {
         "1": 1,
-        "2": 2,
-        "0": 1
+        "2": 3,
+        "0": 2
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 5
     },
     "difficulty_mode": {
         "1|1": 1,
-        "2|0": 2,
-        "0|0": 1
+        "2|0": 3,
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Trade",
-            "count": 2
+            "count": 3
         }
     ],
     "top_games": [
@@ -30,7 +30,7 @@
             "count": 1
         },
         {
-            "name": "n griffon 3s",
+            "name": "n griffon 3s 2",
             "count": 1
         },
         {
@@ -38,30 +38,39 @@
             "count": 1
         },
         {
-            "name": "shweta",
+            "name": "n griffon 3s",
+            "count": 1
+        },
+        {
+            "name": "111111111",
+            "count": 1
+        },
+        {
+            "name": "222222",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "#",
+            "count": 4,
+            "examples": [
+                "111111111",
+                "222222"
+            ]
+        },
         {
             "normalized": "qwerea",
             "count": 2,
             "examples": [
                 "qwerea"
             ]
-        },
-        {
-            "normalized": "shweta",
-            "count": 2,
-            "examples": [
-                "shweta"
-            ]
         }
     ],
     "classified_games": {
         "Trade": [
             {
-                "name": "n griffon 3s",
+                "name": "n griffon 3s 2",
                 "matched": "n",
                 "count": 1
             },
@@ -69,12 +78,17 @@
                 "name": "n iasallres jew",
                 "matched": "n",
                 "count": 1
+            },
+            {
+                "name": "n griffon 3s",
+                "matched": "n",
+                "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 9.75
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 10.33
     }
 }
