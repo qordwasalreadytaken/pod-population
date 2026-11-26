@@ -1,20 +1,18 @@
 {
-    "timestamp": "2026-11-26T09:31:00+00:00",
+    "timestamp": "2026-11-26T09:46:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 1
+        "2": 2
     },
     "mode": {
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
-        "2|0": 2,
-        "0|0": 1
+        "2|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         }
     ],
     "top_games": [
@@ -24,10 +22,6 @@
         },
         {
             "name": "shweta",
-            "count": 1
-        },
-        {
-            "name": "2222222222",
             "count": 1
         }
     ],
@@ -45,19 +39,12 @@
             "examples": [
                 "shweta"
             ]
-        },
-        {
-            "normalized": "#",
-            "count": 2,
-            "examples": [
-                "2222222222"
-            ]
         }
     ],
     "classified_games": {},
     "interesting": {
-        "unique_names": 3,
-        "public_games": 3,
-        "average_name_length": 8.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 7.0
     }
 }
