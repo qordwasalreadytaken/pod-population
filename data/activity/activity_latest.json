@@ -1,23 +1,33 @@
 {
-    "timestamp": "2026-11-26T17:02:00+00:00",
+    "timestamp": "2026-11-26T17:16:00+00:00",
     "difficulty": {
-        "0": 1
+        "0": 2
     },
     "mode": {
-        "1": 1
+        "1": 1,
+        "0": 1
     },
     "difficulty_mode": {
-        "0|1": 1
+        "0|1": 1,
+        "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
+            "count": 1
+        },
+        {
+            "name": "Leveling",
             "count": 1
         }
     ],
     "top_games": [
         {
             "name": "qwerea",
+            "count": 1
+        },
+        {
+            "name": "starting",
             "count": 1
         }
     ],
@@ -30,10 +40,18 @@
             ]
         }
     ],
-    "classified_games": {},
+    "classified_games": {
+        "Leveling": [
+            {
+                "name": "starting",
+                "matched": "start",
+                "count": 1
+            }
+        ]
+    },
     "interesting": {
-        "unique_names": 1,
-        "public_games": 1,
-        "average_name_length": 6.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 7.0
     }
 }
