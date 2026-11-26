@@ -3503,7 +3503,7 @@
         },
         {
             "name": "norm levelin",
-            "matched": "norm",
+            "matched": "leveli",
             "count": 6
         },
         {
@@ -3558,7 +3558,7 @@
         },
         {
             "name": "act 2 start",
-            "matched": "act",
+            "matched": "start",
             "count": 6
         },
         {
@@ -3568,7 +3568,7 @@
         },
         {
             "name": "act norm",
-            "matched": "act",
+            "matched": "norm",
             "count": 6
         },
         {
@@ -3648,7 +3648,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 4
         },
         {
@@ -3783,7 +3783,7 @@
         },
         {
             "name": "act 1 norm",
-            "matched": "act",
+            "matched": "norm",
             "count": 3
         },
         {
@@ -3848,7 +3848,7 @@
         },
         {
             "name": "acte 5 exp",
-            "matched": "exp",
+            "matched": "act",
             "count": 2
         },
         {
@@ -3963,7 +3963,7 @@
         },
         {
             "name": "act norms",
-            "matched": "act",
+            "matched": "norm",
             "count": 2
         },
         {
@@ -4063,7 +4063,7 @@
         },
         {
             "name": "normal tombin",
-            "matched": "norm",
+            "matched": "tomb",
             "count": 1
         },
         {
@@ -4088,7 +4088,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -4518,7 +4518,7 @@
         {
             "name": "gord",
             "matched": "gord",
-            "count": 984
+            "count": 985
         },
         {
             "name": "n eld runes",
@@ -4811,6 +4811,11 @@
             "count": 9
         },
         {
+            "name": "aaaa",
+            "matched": "aaa",
+            "count": 8
+        },
+        {
             "name": "dasda",
             "matched": "asd",
             "count": 8
@@ -4844,11 +4849,6 @@
             "name": "sdasd",
             "matched": "asd",
             "count": 8
-        },
-        {
-            "name": "aaaa",
-            "matched": "aaa",
-            "count": 7
         },
         {
             "name": "run 1",
@@ -5972,7 +5972,7 @@
         },
         {
             "name": "mf runs",
-            "matched": "run",
+            "matched": "mf",
             "count": 1
         },
         {
@@ -7089,7 +7089,7 @@
         },
         {
             "name": "arcane chaos 3",
-            "matched": "arcane",
+            "matched": "chaos",
             "count": 2
         },
         {
@@ -7289,7 +7289,7 @@
         },
         {
             "name": "arcane chaos 2",
-            "matched": "arcane",
+            "matched": "chaos",
             "count": 1
         },
         {
@@ -7346,7 +7346,7 @@
         },
         {
             "name": "maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 14
         },
         {
@@ -7371,7 +7371,7 @@
         },
         {
             "name": "ineedmaps",
-            "matched": "maps",
+            "matched": "map",
             "count": 8
         },
         {
@@ -7456,7 +7456,7 @@
         },
         {
             "name": "desert maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 5
         },
         {
@@ -7491,7 +7491,7 @@
         },
         {
             "name": "public maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 4
         },
         {
@@ -7541,7 +7541,7 @@
         },
         {
             "name": "slow maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 3
         },
         {
@@ -7591,12 +7591,12 @@
         },
         {
             "name": "t maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
             "name": "t maps 2",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
@@ -7641,7 +7641,7 @@
         },
         {
             "name": "omw to maps",
-            "matched": "maps",
+            "matched": "map",
             "count": 2
         },
         {
@@ -7686,7 +7686,7 @@
         },
         {
             "name": "maps?2",
-            "matched": "maps",
+            "matched": "map",
             "count": 1
         },
         {
@@ -7701,7 +7701,7 @@
         },
         {
             "name": "maps 3",
-            "matched": "maps",
+            "matched": "map",
             "count": 1
         },
         {
@@ -7751,7 +7751,7 @@
         },
         {
             "name": "maps-1",
-            "matched": "maps",
+            "matched": "map",
             "count": 1
         },
         {
@@ -7773,17 +7773,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
