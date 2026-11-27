@@ -1,56 +1,42 @@
 {
-    "timestamp": "2026-11-27T12:46:00+00:00",
+    "timestamp": "2026-11-27T13:03:00+00:00",
     "difficulty": {
-        "1": 1,
-        "2": 2,
+        "2": 1,
         "0": 1
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
-        "1|1": 1,
-        "2|0": 2,
+        "2|0": 1,
         "0|0": 1
     },
     "activities": [
         {
-            "name": "Other",
-            "count": 3
+            "name": "Misc. Public MF Runs",
+            "count": 1
         },
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Other",
             "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "qwerea",
-            "count": 2
-        },
-        {
-            "name": "sdafsda",
+            "name": "asd",
             "count": 1
         },
         {
-            "name": "asd",
+            "name": "qwerea",
             "count": 1
         }
     ],
     "unknown_games": [
         {
             "normalized": "qwerea",
-            "count": 4,
-            "examples": [
-                "qwerea"
-            ]
-        },
-        {
-            "normalized": "sdafsda",
             "count": 2,
             "examples": [
-                "sdafsda"
+                "qwerea"
             ]
         }
     ],
@@ -64,8 +50,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 3,
-        "public_games": 4,
-        "average_name_length": 5.33
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 4.5
     }
 }
