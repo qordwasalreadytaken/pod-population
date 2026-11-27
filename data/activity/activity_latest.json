@@ -1,29 +1,23 @@
 {
-    "timestamp": "2026-11-27T00:53:00+00:00",
+    "timestamp": "2026-11-27T01:03:00+00:00",
     "difficulty": {
-        "2": 2,
-        "0": 2
+        "2": 2
     },
     "mode": {
         "1": 1,
-        "0": 3
+        "0": 1
     },
     "difficulty_mode": {
         "2|1": 1,
-        "2|0": 1,
-        "0|0": 2
+        "2|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
-        },
-        {
-            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
-            "name": "Leveling",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -35,14 +29,6 @@
         {
             "name": "asd",
             "count": 1
-        },
-        {
-            "name": "uuu",
-            "count": 1
-        },
-        {
-            "name": "serieux andy",
-            "count": 1
         }
     ],
     "unknown_games": [
@@ -51,13 +37,6 @@
             "count": 2,
             "examples": [
                 "atlas"
-            ]
-        },
-        {
-            "normalized": "uuu",
-            "count": 2,
-            "examples": [
-                "uuu"
             ]
         }
     ],
@@ -68,18 +47,11 @@
                 "matched": "asd",
                 "count": 1
             }
-        ],
-        "Leveling": [
-            {
-                "name": "serieux andy",
-                "matched": "andy",
-                "count": 1
-            }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 5.75
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 4.0
     }
 }
