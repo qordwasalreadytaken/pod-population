@@ -45,7 +45,7 @@
     },
     {
         "normalized": "qwerea",
-        "count": 690,
+        "count": 692,
         "examples": [
             "qwerea"
         ]
@@ -515,6 +515,14 @@
         ]
     },
     {
+        "normalized": "grow #",
+        "count": 58,
+        "examples": [
+            "grow 1",
+            "grow 2"
+        ]
+    },
+    {
         "normalized": "need #-# facets",
         "count": 58,
         "examples": [
@@ -531,14 +539,6 @@
             "javel grow 4",
             "javel grow 6",
             "javel grow 8"
-        ]
-    },
-    {
-        "normalized": "grow #",
-        "count": 56,
-        "examples": [
-            "grow 1",
-            "grow 2"
         ]
     },
     {
