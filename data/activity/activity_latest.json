@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-11-27T03:32:00+00:00",
+    "timestamp": "2026-11-27T03:46:00+00:00",
     "difficulty": {
         "2": 2,
-        "1": 1
+        "1": 2
     },
     "mode": {
-        "1": 2,
+        "1": 3,
         "0": 1
     },
     "difficulty_mode": {
         "2|1": 1,
-        "1|1": 1,
+        "1|1": 2,
         "2|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Misc. Public MF Runs",
@@ -25,11 +25,11 @@
     ],
     "top_games": [
         {
-            "name": "atlas",
-            "count": 1
+            "name": "qwerea",
+            "count": 2
         },
         {
-            "name": "qwerea",
+            "name": "atlas",
             "count": 1
         },
         {
@@ -39,17 +39,17 @@
     ],
     "unknown_games": [
         {
+            "normalized": "qwerea",
+            "count": 4,
+            "examples": [
+                "qwerea"
+            ]
+        },
+        {
             "normalized": "atlas",
             "count": 2,
             "examples": [
                 "atlas"
-            ]
-        },
-        {
-            "normalized": "qwerea",
-            "count": 2,
-            "examples": [
-                "qwerea"
             ]
         }
     ],
@@ -64,7 +64,7 @@
     },
     "interesting": {
         "unique_names": 3,
-        "public_games": 3,
+        "public_games": 4,
         "average_name_length": 4.67
     }
 }
