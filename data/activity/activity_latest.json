@@ -1,79 +1,55 @@
 {
-    "timestamp": "2026-11-28T04:31:00+00:00",
+    "timestamp": "2026-11-28T04:46:00+00:00",
     "difficulty": {
-        "2": 1,
-        "0": 3
+        "0": 2
     },
     "mode": {
-        "1": 2,
         "0": 2
     },
     "difficulty_mode": {
-        "2|1": 1,
-        "0|1": 1,
         "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 1
         },
         {
             "name": "Leveling",
-            "count": 2
+            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "endgame",
+            "name": "ooo",
             "count": 1
         },
         {
-            "name": "gg",
-            "count": 1
-        },
-        {
-            "name": "act 2",
-            "count": 1
-        },
-        {
-            "name": "normal mod",
+            "name": "normal mode",
             "count": 1
         }
     ],
     "unknown_games": [
         {
-            "normalized": "endgame",
+            "normalized": "ooo",
             "count": 2,
             "examples": [
-                "endgame"
-            ]
-        },
-        {
-            "normalized": "gg",
-            "count": 2,
-            "examples": [
-                "gg"
+                "ooo"
             ]
         }
     ],
     "classified_games": {
         "Leveling": [
             {
-                "name": "act 2",
-                "matched": "act",
-                "count": 1
-            },
-            {
-                "name": "normal mod",
+                "name": "normal mode",
                 "matched": "norm",
                 "count": 1
             }
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.0
+        "unique_names": 2,
+        "public_games": 2,
+        "average_name_length": 7.0
     }
 }
