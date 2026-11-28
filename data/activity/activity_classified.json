@@ -926,7 +926,7 @@
         },
         {
             "name": "buy torch necro",
-            "matched": "torch",
+            "matched": "buy",
             "count": 12
         },
         {
@@ -1466,7 +1466,7 @@
         },
         {
             "name": "n poisonb gc",
-            "matched": "n",
+            "matched": "iso",
             "count": 4
         },
         {
@@ -3403,7 +3403,7 @@
         },
         {
             "name": "act 1 andariel",
-            "matched": "andar",
+            "matched": "act",
             "count": 12
         },
         {
@@ -3563,7 +3563,7 @@
         },
         {
             "name": "act 2 start",
-            "matched": "act",
+            "matched": "start",
             "count": 6
         },
         {
@@ -3653,7 +3653,7 @@
         },
         {
             "name": "act 1 start",
-            "matched": "act",
+            "matched": "start",
             "count": 4
         },
         {
@@ -4093,7 +4093,7 @@
         },
         {
             "name": "act start",
-            "matched": "act",
+            "matched": "start",
             "count": 1
         },
         {
@@ -4203,7 +4203,7 @@
         },
         {
             "name": "1act - normal",
-            "matched": "norm",
+            "matched": "act",
             "count": 1
         },
         {
@@ -5351,6 +5351,11 @@
             "count": 3
         },
         {
+            "name": "need cham runes",
+            "matched": "run",
+            "count": 3
+        },
+        {
             "name": "123dsf",
             "matched": "123",
             "count": 2
@@ -5753,11 +5758,6 @@
         {
             "name": "asdsa",
             "matched": "asd",
-            "count": 2
-        },
-        {
-            "name": "need cham runes",
-            "matched": "run",
             "count": 2
         },
         {
@@ -6842,7 +6842,7 @@
         },
         {
             "name": "asdff",
-            "matched": "asd",
+            "matched": "asdff",
             "count": 1
         },
         {
@@ -7366,7 +7366,7 @@
         },
         {
             "name": "maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 14
         },
         {
@@ -7391,7 +7391,7 @@
         },
         {
             "name": "ineedmaps",
-            "matched": "map",
+            "matched": "maps",
             "count": 8
         },
         {
@@ -7476,7 +7476,7 @@
         },
         {
             "name": "desert maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 5
         },
         {
@@ -7511,7 +7511,7 @@
         },
         {
             "name": "public maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 4
         },
         {
@@ -7561,7 +7561,7 @@
         },
         {
             "name": "slow maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 3
         },
         {
@@ -7611,12 +7611,12 @@
         },
         {
             "name": "t maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 2
         },
         {
             "name": "t maps 2",
-            "matched": "map",
+            "matched": "maps",
             "count": 2
         },
         {
@@ -7661,7 +7661,7 @@
         },
         {
             "name": "omw to maps",
-            "matched": "map",
+            "matched": "maps",
             "count": 2
         },
         {
@@ -7706,7 +7706,7 @@
         },
         {
             "name": "maps?2",
-            "matched": "map",
+            "matched": "maps",
             "count": 1
         },
         {
@@ -7721,7 +7721,7 @@
         },
         {
             "name": "maps 3",
-            "matched": "map",
+            "matched": "maps",
             "count": 1
         },
         {
@@ -7771,7 +7771,7 @@
         },
         {
             "name": "maps-1",
-            "matched": "map",
+            "matched": "maps",
             "count": 1
         },
         {
@@ -7793,17 +7793,17 @@
     "Uber": [
         {
             "name": "ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "help ubers",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         },
         {
             "name": "o uberservice 1",
-            "matched": "uber",
+            "matched": "ubers",
             "count": 1
         }
     ]
