@@ -1,26 +1,22 @@
 {
-    "timestamp": "2026-11-28T17:16:00+00:00",
+    "timestamp": "2026-11-28T17:31:00+00:00",
     "difficulty": {
         "2": 3,
-        "1": 2,
-        "0": 5
+        "1": 1,
+        "0": 2
     },
     "mode": {
-        "0": 10
+        "0": 6
     },
     "difficulty_mode": {
         "2|0": 3,
-        "1|0": 2,
-        "0|0": 5
+        "1|0": 1,
+        "0|0": 2
     },
     "activities": [
         {
-            "name": "Leveling",
-            "count": 4
-        },
-        {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 2
         },
         {
             "name": "Other",
@@ -28,6 +24,10 @@
         },
         {
             "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Leveling",
             "count": 1
         }
     ],
@@ -49,23 +49,7 @@
             "count": 1
         },
         {
-            "name": "gord",
-            "count": 1
-        },
-        {
-            "name": "trist-3",
-            "count": 1
-        },
-        {
-            "name": "trist-2",
-            "count": 1
-        },
-        {
-            "name": "trist-01",
-            "count": 1
-        },
-        {
-            "name": "3",
+            "name": "a fresh",
             "count": 1
         },
         {
@@ -82,10 +66,10 @@
             ]
         },
         {
-            "normalized": "#",
+            "normalized": "a fresh",
             "count": 2,
             "examples": [
-                "3"
+                "a fresh"
             ]
         }
     ],
@@ -100,11 +84,6 @@
                 "name": "asd",
                 "matched": "asd",
                 "count": 1
-            },
-            {
-                "name": "gord",
-                "matched": "gord",
-                "count": 1
             }
         ],
         "Trade": [
@@ -116,21 +95,6 @@
         ],
         "Leveling": [
             {
-                "name": "trist-3",
-                "matched": "trist",
-                "count": 1
-            },
-            {
-                "name": "trist-2",
-                "matched": "trist",
-                "count": 1
-            },
-            {
-                "name": "trist-01",
-                "matched": "trist",
-                "count": 1
-            },
-            {
                 "name": "act 3",
                 "matched": "act",
                 "count": 1
@@ -138,8 +102,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 10,
-        "public_games": 10,
-        "average_name_length": 6.0
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 6.67
     }
 }
