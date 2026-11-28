@@ -1,25 +1,25 @@
 {
-    "timestamp": "2026-11-28T13:46:00+00:00",
+    "timestamp": "2026-11-28T14:02:00+00:00",
     "difficulty": {
         "2": 3,
-        "0": 2,
+        "0": 3,
         "1": 1
     },
     "mode": {
-        "1": 2,
+        "1": 3,
         "0": 4
     },
     "difficulty_mode": {
-        "2|1": 1,
+        "2|1": 2,
         "0|1": 1,
-        "2|0": 2,
+        "2|0": 1,
         "1|0": 1,
-        "0|0": 1
+        "0|0": 2
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Trade",
@@ -36,15 +36,15 @@
     ],
     "top_games": [
         {
+            "name": "zx",
+            "count": 1
+        },
+        {
             "name": "atlas",
             "count": 1
         },
         {
             "name": "gg",
-            "count": 1
-        },
-        {
-            "name": "t",
             "count": 1
         },
         {
@@ -56,11 +56,22 @@
             "count": 1
         },
         {
+            "name": "merlin",
+            "count": 1
+        },
+        {
             "name": "act 2 end",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "zx",
+            "count": 2,
+            "examples": [
+                "zx"
+            ]
+        },
         {
             "normalized": "atlas",
             "count": 2,
@@ -76,10 +87,10 @@
             ]
         },
         {
-            "normalized": "t",
+            "normalized": "merlin",
             "count": 2,
             "examples": [
-                "t"
+                "merlin"
             ]
         }
     ],
@@ -107,8 +118,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 6,
-        "public_games": 6,
-        "average_name_length": 5.67
+        "unique_names": 7,
+        "public_games": 7,
+        "average_name_length": 5.86
     }
 }
