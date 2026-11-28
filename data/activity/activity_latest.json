@@ -1,22 +1,22 @@
 {
-    "timestamp": "2026-11-28T16:46:00+00:00",
+    "timestamp": "2026-11-28T17:02:00+00:00",
     "difficulty": {
-        "2": 3,
+        "2": 4,
         "1": 2,
         "0": 2
     },
     "mode": {
-        "0": 7
+        "0": 8
     },
     "difficulty_mode": {
-        "2|0": 3,
+        "2|0": 4,
         "1|0": 2,
         "0|0": 2
     },
     "activities": [
         {
             "name": "Misc. Public MF Runs",
-            "count": 3
+            "count": 4
         },
         {
             "name": "Other",
@@ -33,11 +33,11 @@
     ],
     "top_games": [
         {
-            "name": "34123",
-            "count": 1
+            "name": "asd",
+            "count": 2
         },
         {
-            "name": "asd",
+            "name": "1234123",
             "count": 1
         },
         {
@@ -53,11 +53,11 @@
             "count": 1
         },
         {
-            "name": "act 3",
+            "name": "3",
             "count": 1
         },
         {
-            "name": "merlin",
+            "name": "act 3",
             "count": 1
         }
     ],
@@ -70,23 +70,23 @@
             ]
         },
         {
-            "normalized": "merlin",
+            "normalized": "#",
             "count": 2,
             "examples": [
-                "merlin"
+                "3"
             ]
         }
     ],
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "34123",
-                "matched": "123",
-                "count": 1
-            },
-            {
                 "name": "asd",
                 "matched": "asd",
+                "count": 2
+            },
+            {
+                "name": "1234123",
+                "matched": "123",
                 "count": 1
             },
             {
@@ -112,7 +112,7 @@
     },
     "interesting": {
         "unique_names": 7,
-        "public_games": 7,
-        "average_name_length": 6.0
+        "public_games": 8,
+        "average_name_length": 5.57
     }
 }
