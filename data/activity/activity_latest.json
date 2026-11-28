@@ -1,26 +1,26 @@
 {
-    "timestamp": "2026-11-28T06:37:00+00:00",
+    "timestamp": "2026-11-28T06:46:00+00:00",
     "difficulty": {
-        "1": 2,
+        "1": 1,
         "0": 1
     },
     "mode": {
-        "0": 3
+        "0": 2
     },
     "difficulty_mode": {
-        "1|0": 2,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 3
+            "count": 2
         }
     ],
     "top_games": [
         {
             "name": "shweta",
-            "count": 2
+            "count": 1
         },
         {
             "name": "qwerea",
@@ -30,7 +30,7 @@
     "unknown_games": [
         {
             "normalized": "shweta",
-            "count": 4,
+            "count": 2,
             "examples": [
                 "shweta"
             ]
@@ -46,7 +46,7 @@
     "classified_games": {},
     "interesting": {
         "unique_names": 2,
-        "public_games": 3,
+        "public_games": 2,
         "average_name_length": 6.0
     }
 }
