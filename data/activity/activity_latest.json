@@ -1,22 +1,26 @@
 {
-    "timestamp": "2026-11-28T17:02:00+00:00",
+    "timestamp": "2026-11-28T17:16:00+00:00",
     "difficulty": {
-        "2": 4,
+        "2": 3,
         "1": 2,
-        "0": 2
+        "0": 5
     },
     "mode": {
-        "0": 8
+        "0": 10
     },
     "difficulty_mode": {
-        "2|0": 4,
+        "2|0": 3,
         "1|0": 2,
-        "0|0": 2
+        "0|0": 5
     },
     "activities": [
         {
-            "name": "Misc. Public MF Runs",
+            "name": "Leveling",
             "count": 4
+        },
+        {
+            "name": "Misc. Public MF Runs",
+            "count": 3
         },
         {
             "name": "Other",
@@ -25,19 +29,15 @@
         {
             "name": "Trade",
             "count": 1
-        },
-        {
-            "name": "Leveling",
-            "count": 1
         }
     ],
     "top_games": [
         {
-            "name": "asd",
-            "count": 2
+            "name": "324123",
+            "count": 1
         },
         {
-            "name": "1234123",
+            "name": "asd",
             "count": 1
         },
         {
@@ -50,6 +50,18 @@
         },
         {
             "name": "gord",
+            "count": 1
+        },
+        {
+            "name": "trist-3",
+            "count": 1
+        },
+        {
+            "name": "trist-2",
+            "count": 1
+        },
+        {
+            "name": "trist-01",
             "count": 1
         },
         {
@@ -80,13 +92,13 @@
     "classified_games": {
         "Misc. Public MF Runs": [
             {
-                "name": "asd",
-                "matched": "asd",
-                "count": 2
+                "name": "324123",
+                "matched": "123",
+                "count": 1
             },
             {
-                "name": "1234123",
-                "matched": "123",
+                "name": "asd",
+                "matched": "asd",
                 "count": 1
             },
             {
@@ -104,6 +116,21 @@
         ],
         "Leveling": [
             {
+                "name": "trist-3",
+                "matched": "trist",
+                "count": 1
+            },
+            {
+                "name": "trist-2",
+                "matched": "trist",
+                "count": 1
+            },
+            {
+                "name": "trist-01",
+                "matched": "trist",
+                "count": 1
+            },
+            {
                 "name": "act 3",
                 "matched": "act",
                 "count": 1
@@ -111,8 +138,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 7,
-        "public_games": 8,
-        "average_name_length": 5.57
+        "unique_names": 10,
+        "public_games": 10,
+        "average_name_length": 6.0
     }
 }
