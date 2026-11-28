@@ -1,25 +1,32 @@
 {
-    "timestamp": "2026-11-28T13:16:00+00:00",
+    "timestamp": "2026-11-28T13:31:00+00:00",
     "difficulty": {
+        "2": 3,
         "0": 2,
-        "2": 2
+        "1": 1
     },
     "mode": {
-        "1": 1,
-        "0": 3
+        "1": 2,
+        "0": 4
     },
     "difficulty_mode": {
+        "2|1": 1,
         "0|1": 1,
         "2|0": 2,
+        "1|0": 1,
         "0|0": 1
     },
     "activities": [
         {
             "name": "Other",
-            "count": 2
+            "count": 3
         },
         {
             "name": "Trade",
+            "count": 1
+        },
+        {
+            "name": "Misc. Public MF Runs",
             "count": 1
         },
         {
@@ -28,6 +35,10 @@
         }
     ],
     "top_games": [
+        {
+            "name": "atlas",
+            "count": 1
+        },
         {
             "name": "gg",
             "count": 1
@@ -41,11 +52,22 @@
             "count": 1
         },
         {
+            "name": "gord",
+            "count": 1
+        },
+        {
             "name": "act 2 end",
             "count": 1
         }
     ],
     "unknown_games": [
+        {
+            "normalized": "atlas",
+            "count": 2,
+            "examples": [
+                "atlas"
+            ]
+        },
         {
             "normalized": "gg",
             "count": 2,
@@ -69,6 +91,13 @@
                 "count": 1
             }
         ],
+        "Misc. Public MF Runs": [
+            {
+                "name": "gord",
+                "matched": "gord",
+                "count": 1
+            }
+        ],
         "Leveling": [
             {
                 "name": "act 2 end",
@@ -78,8 +107,8 @@
         ]
     },
     "interesting": {
-        "unique_names": 4,
-        "public_games": 4,
-        "average_name_length": 6.25
+        "unique_names": 6,
+        "public_games": 6,
+        "average_name_length": 5.67
     }
 }
