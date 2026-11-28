@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-11-28T14:46:00+00:00",
+    "timestamp": "2026-11-28T15:03:00+00:00",
     "difficulty": {
         "0": 4,
         "2": 2
@@ -23,7 +23,7 @@
             "count": 1
         },
         {
-            "name": "Leveling",
+            "name": "Misc. Public MF Runs",
             "count": 1
         }
     ],
@@ -41,15 +41,15 @@
             "count": 1
         },
         {
+            "name": "aaa",
+            "count": 1
+        },
+        {
             "name": "qwerea",
             "count": 1
         },
         {
             "name": "merlin",
-            "count": 1
-        },
-        {
-            "name": "act 2 end",
             "count": 1
         }
     ],
@@ -91,10 +91,10 @@
                 "count": 1
             }
         ],
-        "Leveling": [
+        "Misc. Public MF Runs": [
             {
-                "name": "act 2 end",
-                "matched": "act",
+                "name": "aaa",
+                "matched": "aaa",
                 "count": 1
             }
         ]
@@ -102,6 +102,6 @@
     "interesting": {
         "unique_names": 6,
         "public_games": 6,
-        "average_name_length": 7.0
+        "average_name_length": 6.0
     }
 }
